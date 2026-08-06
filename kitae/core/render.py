@@ -92,13 +92,12 @@ def draw(lines, font, width_px, pad=8, bg=BG):
                 img.paste((150, 60, 60), (x + 2, y + 2, x + w - 2, y + FULL - 2))
                 x += w
                 continue
+            # 그림자만 두 평면을 쓴다. 본체 위치에 가장자리 마스크를 겹치면
+            # 흰 획 둘레에 검은 픽셀이 붙어 실제보다 굵어 보인다.
             for plane, alpha in ((0, SHADOW_ALPHA), (1, FRINGE_ALPHA)):
                 m = _mask(code, plane, w, alpha)
                 if m:
                     img.paste(SHADOW, (x + dx, y + dy), m)
-            m = _mask(code, 1, w, FRINGE_ALPHA)
-            if m:
-                img.paste(SHADOW, (x, y), m)
             m = _mask(code, 0, w, 255)
             if m:
                 img.paste(BODY, (x, y), m)
