@@ -99,15 +99,17 @@ def selftest(n=6):
     return ok == n
 
 
-def patch(disc_path, new_data, out_track):
-    fs = GdFs()
+def patch(disc_path, new_data, out_track, src_track=None):
+    """Replace one file's contents. `src_track` lets patches be chained."""
+    src_track = src_track or TRACK
+    fs = GdFs(track=src_track)
     lba, orig_size = fs.find(disc_path)
     cap = ((orig_size + 2047) // 2048) * 2048
     if len(new_data) > cap:
         raise ValueError(f"{len(new_data)} bytes will not fit in {cap} "
                          f"({(len(new_data)-cap+2047)//2048} extra sectors needed)")
 
-    with open(TRACK, "rb") as f:
+    with open(src_track, "rb") as f:
         image = bytearray(f.read())
     payload = new_data + b"\x00" * (cap - len(new_data))
     for i in range(cap // 2048):
@@ -157,7 +159,8 @@ def main():
     if sys.argv[1] == "selftest":
         selftest()
     elif sys.argv[1] == "patch":
-        patch(sys.argv[2], open(sys.argv[3], "rb").read(), sys.argv[4])
+        src = sys.argv[5] if len(sys.argv) > 5 else None
+        patch(sys.argv[2], open(sys.argv[3], "rb").read(), sys.argv[4], src)
     else:
         print(__doc__)
 

@@ -76,8 +76,10 @@ def rebuild_smf(script, rows, original):
             blob += src[i].encode(ENCODING, "replace")
         blob += b"\x00"
 
+    # Chunk sizes count everything *after* the size field, so `.STR` covers the
+    # u32 count plus the string block -- not the 8-byte tag+size header.
     out = bytearray()
-    out += b".STR" + struct.pack("<II", 12 + len(blob), len(text)) + blob
+    out += b".STR" + struct.pack("<II", 4 + len(blob), len(text)) + blob
     msg = bytearray()
     for w, (lines, start) in enumerate(table):
         msg += struct.pack("<II", lines, offsets[start] if start is not None else 0)
@@ -86,7 +88,13 @@ def rebuild_smf(script, rows, original):
 
 
 def repack_cab(src_path, replacements, dst_path):
-    """Rewrite a .CB, substituting the given {entry_name: raw_bytes}."""
+    """Rewrite a .CB, substituting the given {entry_name: raw_bytes}.
+
+    A replacement keeps the encoding the original entry used: storing a
+    previously-compressed entry raw would inflate the archive past the space it
+    occupies on the disc.
+    """
+    from enc2 import compress
     cab = Cab(src_path)
     entries, blobs = [], []
     for i, name in enumerate(cab.names):
@@ -94,8 +102,9 @@ def repack_cab(src_path, replacements, dst_path):
         tag = cab.data[eoff:eoff + 4]
         if name in replacements:
             body = replacements[name]
-            tag = b"ENC0"            # store replacements uncompressed
-            esz = len(body)          # INFO size == real file size
+            esz = len(body)          # INFO size is always the real file size
+            if tag == b"ENC2":
+                body = compress(body)
         else:
             # copy the stored chunk verbatim, including its padding, and keep
             # the INFO size untouched (it is the *uncompressed* size for ENC2
