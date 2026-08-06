@@ -17,9 +17,18 @@ from kitae.core.windows import MARKUP
 FULL = 24
 HALF = 12
 LINE_H = 26
+
+# 화면에 보이는 모습:
+#   평면 0 을 오른쪽 아래로 살짝 밀어 검게 깔고(그림자),
+#   평면 1(가장자리 마스크)을 반투명 검정으로 얹어 계단을 눅인 뒤,
+#   평면 0 을 제자리에 흰색으로 그린다.
 BODY = (255, 255, 255)
-FRINGE = (110, 110, 120)
-BG = (16, 18, 24)
+SHADOW = (0, 0, 0)
+SHADOW_ALPHA = 200
+FRINGE_ALPHA = 80
+SHADOW_OFFSET = (3, 3)
+# 흰 글자와 검은 그림자가 동시에 보이도록 중간 밝기 배경을 기본으로 둔다.
+BG = (118, 122, 130)
 
 
 def _codes(text, cp):
@@ -66,19 +75,33 @@ def draw(lines, font, width_px, pad=8, bg=BG):
 
     h = pad * 2 + LINE_H * len(lines)
     img = Image.new("RGB", (width_px + pad * 2, h), bg)
+    dx, dy = SHADOW_OFFSET
+
+    def _mask(code, plane, w, alpha):
+        try:
+            g = font.get_glyph(code, plane=plane)
+        except Exception:
+            return None
+        m = g.crop((0, 0, w, FULL)).convert("L")
+        return m.point(lambda v: alpha if v else 0)
+
     for row, line in enumerate(lines):
         x, y = pad, pad + row * LINE_H
         for code, w in line:
-            if code is None:                       # 없는 글자는 자리만 표시
-                img.paste((90, 40, 40), (x + 2, y + 2, x + w - 2, y + FULL - 2))
+            if code is None:                       # 폰트에 없는 글자
+                img.paste((150, 60, 60), (x + 2, y + 2, x + w - 2, y + FULL - 2))
                 x += w
                 continue
-            for plane, color in ((1, FRINGE), (0, BODY)):
-                try:
-                    g = font.get_glyph(code, plane=plane)
-                except Exception:
-                    continue
-                img.paste(color, (x, y), g.crop((0, 0, w, FULL)))
+            for plane, alpha in ((0, SHADOW_ALPHA), (1, FRINGE_ALPHA)):
+                m = _mask(code, plane, w, alpha)
+                if m:
+                    img.paste(SHADOW, (x + dx, y + dy), m)
+            m = _mask(code, 1, w, FRINGE_ALPHA)
+            if m:
+                img.paste(SHADOW, (x, y), m)
+            m = _mask(code, 0, w, 255)
+            if m:
+                img.paste(BODY, (x, y), m)
             x += w
     return img
 
