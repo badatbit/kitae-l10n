@@ -1,3 +1,5 @@
+import os
+HERE = os.path.dirname(os.path.abspath(__file__))
 """Rebuild a .SMF from a translation workbook, then repack it into PLOT.CB.
 
 A .SMF is:
@@ -24,11 +26,9 @@ Usage:
 """
 import io, os, re, sys, struct
 
-HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, HERE)
-from cab import Cab, smf_strings
-from windows import msg_table, MARKUP
-import workbook
+from kitae.core.cab import Cab, smf_strings
+from kitae.core.windows import msg_table, MARKUP
+from kitae.core import workbook
 
 DUMP = os.path.join(HERE, "..", "dump")
 PLOT_CB = os.path.join(DUMP, "plot", "PLOT.CB")
@@ -36,7 +36,7 @@ BUILD = os.path.join(DUMP, "build")
 ENCODING = "cp932"
 
 
-def rebuild_smf(script, rows, original):
+def rebuild_smf(script, rows, original, encode=None):
     """Return new .SMF bytes built from `rows` (workbook) over `original`."""
     src = smf_strings(original)
     table = msg_table(original)
@@ -61,8 +61,12 @@ def rebuild_smf(script, rows, original):
 
     # encode; report anything cp932 cannot hold (Korean will land here until the
     # font/codepage work is done -- that is expected and reported, not hidden)
-    import hangul
-    cp = hangul.load_codepage()
+    if encode is None:
+        from kitae.build import hangul
+        cp = hangul.load_codepage()
+
+        def encode(s):
+            return hangul.encode(s, cp)
 
     blob = bytearray()
     offsets = []
@@ -70,7 +74,7 @@ def rebuild_smf(script, rows, original):
     for i, s in enumerate(text):
         offsets.append(len(blob))
         try:
-            blob += hangul.encode(s, cp)
+            blob += encode(s)
         except UnicodeEncodeError as e:
             unencodable.append((i, s[e.start:e.end]))
             blob += src[i].encode(ENCODING, "replace")
@@ -94,7 +98,7 @@ def repack_cab(src_path, replacements, dst_path):
     previously-compressed entry raw would inflate the archive past the space it
     occupies on the disc.
     """
-    from enc2 import compress
+    from kitae.core.enc2 import compress
     cab = Cab(src_path)
     entries, blobs = [], []
     for i, name in enumerate(cab.names):

@@ -18,13 +18,12 @@ Usage:
     python build_mtg.py KOTORI_01           # -> dump/build/MTG.CB
 """
 import os, struct, sys
-
 HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, HERE)
-from cab import Cab
-from windows import script_windows, display_len, clss_objects
-from build_smf import repack_cab
-import workbook
+
+from kitae.core.cab import Cab
+from kitae.core.windows import script_windows, display_len, clss_objects
+from kitae.build.smf import repack_cab
+from kitae.core import workbook
 
 DUMP = os.path.join(HERE, "..", "dump")
 BUILD = os.path.join(DUMP, "build")
@@ -127,6 +126,31 @@ def main():
         if wi in new_chars and (len(p) - 4) // 2 != new_chars[wi]:
             bad += 1
     print(f"  timing lengths still wrong: {bad}")
+
+
+def changed_lengths(script, rows, plot_cab, mtg_cab):
+    """Windows whose drawn-character count changed -> new count.
+
+    Only voiced windows carry timing, and only those need rebuilding.
+    """
+    from kitae.core.windows import script_windows, display_len
+    wins, strs = script_windows(script, plot_cab, mtg_cab)
+    out = {}
+    for m in wins:
+        if m["want"] is None:
+            continue
+        texts, touched = [], False
+        for n, si in enumerate(m["strings"]):
+            r = rows.get((m["window"], n)) or {}
+            t = (r.get("target") or "").strip()
+            if t:
+                touched = True
+            texts.append(t or strs[si])
+        if touched:
+            n = sum(display_len(t) for t in texts)
+            if n != m["want"]:
+                out[m["window"]] = n
+    return out
 
 
 if __name__ == "__main__":

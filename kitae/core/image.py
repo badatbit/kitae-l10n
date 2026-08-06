@@ -40,10 +40,8 @@ Usage:
 """
 import os, struct, sys
 
-HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, HERE)
-from cab import Cab
-from enc2 import decompress
+from kitae.core.cab import Cab
+from kitae.core.enc2 import decompress
 
 
 class TrfImage:
@@ -150,7 +148,7 @@ def _find(objs, cls):
 def compose(cab, set_name):
     """Build the full picture described by a `<name>.SET`."""
     from PIL import Image
-    from clss import parse
+    from kitae.core.clss import parse
     root, objs = parse(cab.read(set_name))
     tex_obj, pic_obj = _find(objs, "CTRFTexture"), _find(objs, "CTRFPictures")
     if tex_obj is None or pic_obj is None:

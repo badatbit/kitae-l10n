@@ -9,8 +9,8 @@ Writes a structured TSV plus a human-readable calendar summary.
 Usage:  python plotmap.py [out-dir]     (default: ../dump/plotmap)
 """
 import os, io, re, sys, collections
-
 HERE = os.path.dirname(os.path.abspath(__file__))
+
 INIS = os.path.join(HERE, "..", "dump", "scn", "inis")
 
 ZEN = str.maketrans("０１２３４５６７８９", "0123456789")

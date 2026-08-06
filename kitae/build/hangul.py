@@ -1,3 +1,5 @@
+import os
+HERE = os.path.dirname(os.path.abspath(__file__))
 """Hangul codepage: assign Korean syllables to free font cells and inject glyphs.
 
 The engine addresses a glyph by its raw cp932 byte pair (see font.py): the lead
@@ -22,10 +24,8 @@ Usage:
 """
 import io, json, os, sys
 
-HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, HERE)
-import font as fontmod
-import workbook
+from kitae.core import font as fontmod
+from kitae.core import workbook
 
 DUMP = os.path.join(HERE, "..", "dump")
 BUILD = os.path.join(DUMP, "build")
@@ -73,11 +73,12 @@ def save_codepage(cp):
                   ensure_ascii=False, indent=0)
 
 
-def assign(chars, cp=None, reserved=()):
+def assign(chars, cp=None, reserved=(), pages=None):
     """Give every new character a cell, keeping existing assignments stable."""
     cp = dict(cp or {})
     taken = set(cp.values()) | set(reserved)
-    slots = ((lead, cell) for lead in PAGES for cell in CELLS)
+    pages = pages or PAGES
+    slots = ((lead, cell) for lead in pages for cell in CELLS)
     for ch in sorted(chars):
         if ch in cp:
             continue
@@ -88,17 +89,18 @@ def assign(chars, cp=None, reserved=()):
                 break
         else:
             raise RuntimeError("out of free font cells")
-        slots = ((lead, cell) for lead in PAGES for cell in CELLS
+        slots = ((lead, cell) for lead in pages for cell in CELLS
                  if (lead, cell) not in taken)
     return cp
 
 
-def render_glyph(ch, size=21, y_off=2):
+def render_glyph(ch, size=21, y_off=2, ttf=None):
     """24x24 grayscale of one character from IBM Plex Sans KR."""
     from PIL import Image, ImageDraw, ImageFont
-    if not os.path.exists(TTF):
-        raise FileNotFoundError(TTF)
-    ttf = ImageFont.truetype(TTF, size)
+    ttf = ttf or TTF
+    if not os.path.exists(ttf):
+        raise FileNotFoundError(ttf)
+    ttf = ImageFont.truetype(ttf, size)
     img = Image.new("L", (24, 24), 0)
     d = ImageDraw.Draw(img)
     try:
@@ -128,6 +130,63 @@ def encode(text, cp):
         else:
             out += ch.encode("cp932")
     return bytes(out)
+
+
+def inject(cfg, chars):
+    """설정을 받아 필요한 글자만 폰트에 넣고, 패치된 DLL 경로를 돌려준다."""
+    from kitae.core import font as fontmod
+
+    out_dir = cfg.path(cfg["work_dir"], "build", "TRF")
+    os.makedirs(out_dir, exist_ok=True)
+    dst = os.path.join(out_dir, "TRFSTRINGS.DLL")
+
+    f = fontmod.Font()
+    pages = [int(p) for p in cfg["font"].get("pages") or PAGES]
+    allowed = {(l, c) for l in pages for c in CELLS}
+    try:
+        free = {tuple(c) for c in f.free_cells()}
+        reserved = {s for s in allowed if s not in free}
+    except Exception:
+        reserved = set()
+
+    cp_path = os.path.join(cfg.data_dir, "codepage.json")
+    cp = _read_codepage(cp_path)
+    cp = assign(chars, cp, reserved, pages)
+    _write_codepage(cp_path, cp)
+
+    ttf = cfg.path(cfg["font"]["ttf"]) if cfg["font"].get("ttf") else TTF
+    size = int(cfg["font"].get("size", 21))
+    yoff = int(cfg["font"].get("y_offset", 2))
+    for ch in sorted(chars):
+        body, fringe = planes(render_glyph(ch, size, yoff, ttf))
+        code = bytes(cp[ch])
+        f.set_glyph(code, body, 0)
+        f.set_glyph(code, fringe, 1)
+    f.save(dst)
+    return dst
+
+
+def encoder(cfg):
+    """번역문을 게임 바이트로 바꾸는 함수. cp932 + 배정된 한글 칸."""
+    cp = _read_codepage(os.path.join(cfg.data_dir, "codepage.json"))
+
+    def enc(text):
+        return encode(text, cp)
+    return enc
+
+
+def _read_codepage(path):
+    if os.path.exists(path):
+        with io.open(path, encoding="utf-8") as fh:
+            return {k: tuple(v) for k, v in json.load(fh).items()}
+    return {}
+
+
+def _write_codepage(path, cp):
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with io.open(path, "w", encoding="utf-8") as fh:
+        json.dump({k: list(v) for k, v in sorted(cp.items())}, fh,
+                  ensure_ascii=False, indent=0)
 
 
 def build(script):

@@ -48,7 +48,7 @@ The container dispatcher at VA 0x100017d0 matches the chunk tag against
   record's `stored_size` field. The chunk's own u32 size is the compressed size.
 
 Usage:
-    from enc2 import decompress, compress
+    from kitae.core.enc2 import decompress, compress
     plain = decompress(payload, expected_size)
 """
 
@@ -180,7 +180,7 @@ def compress(data: bytes) -> bytes:
 if __name__ == "__main__":
     import sys, struct, os
     sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-    from cab import Cab
+    from kitae.core.cab import Cab
     cab = Cab(sys.argv[1])
     i = cab.names.index(sys.argv[2])
     esz, eoff, _, _ = cab.entries[i]

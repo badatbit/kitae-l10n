@@ -16,9 +16,7 @@ Usage:
 """
 import os, struct, sys
 
-HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, HERE)
-from gdfs import GdFs, RAW, BASE_LBA, TRACK
+from kitae.core.gdfs import GdFs, RAW, BASE_LBA, TRACK
 
 # ---------------------------------------------------------------- EDC / ECC
 _EDC = []
@@ -163,6 +161,47 @@ def main():
         patch(sys.argv[2], open(sys.argv[3], "rb").read(), sys.argv[4], src)
     else:
         print(__doc__)
+
+
+def replace_same_size(track, disc_path, data):
+    """Overwrite a file that keeps its exact size, so no LBA moves."""
+    fs = GdFs(track=track)
+    lba, size = fs.find(disc_path)
+    if len(data) != size:
+        raise ValueError(f"{disc_path}: size changed ({len(data)} vs {size})")
+    image = bytearray(open(track, "rb").read())
+    for i in range((size + 2047) // 2048):
+        off = (lba + i - BASE_LBA) * RAW
+        sec = bytearray(image[off:off + RAW])
+        chunk = data[i * 2048:(i + 1) * 2048]
+        sec[16:16 + len(chunk)] = chunk
+        image[off:off + RAW] = fix_sector(sec)
+    open(track, "wb").write(bytes(image))
+    return lba, size
+
+
+def diff_against(track, orig_track):
+    """Files whose size or contents differ from the original dump.
+
+    Compares whole files: the font DLL's glyph area starts past 0x1D000, so a
+    "first N bytes" check would silently report an injected font as unchanged.
+    """
+    import hashlib
+
+    new, orig = GdFs(track=track), GdFs(track=orig_track)
+    out = []
+    for full, l, s, d in new.walk():
+        if d:
+            continue
+        ol, osz = orig.find(full.strip("/"))
+        if s != osz:
+            out.append(full)
+            continue
+        a = hashlib.blake2b(new.read(l, s), digest_size=16).digest()
+        b = hashlib.blake2b(orig.read(ol, osz), digest_size=16).digest()
+        if a != b:
+            out.append(full)
+    return out
 
 
 if __name__ == "__main__":

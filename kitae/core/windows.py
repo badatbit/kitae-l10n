@@ -23,10 +23,9 @@ Usage:
     python windows.py KOTORI_01       # dump one script's windows
 """
 import os, struct, sys
-
 HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, HERE)
-from cab import Cab, smf_strings
+
+from kitae.core.cab import Cab, smf_strings
 
 PLOT_CB = os.path.join(HERE, "..", "dump", "plot", "PLOT.CB")
 MTG_CB = os.path.join(HERE, "..", "dump", "scn", "MTG.CB")

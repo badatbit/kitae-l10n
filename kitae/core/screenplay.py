@@ -16,13 +16,12 @@ Usage:
     python script.py KOTORI_01 [out-file]
 """
 import os, io, re, sys, struct, collections
-
 HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, HERE)
-from cab import Cab, smf_strings
-from clss import parse, named_field
-from windows import script_windows
-import ebdis
+
+from kitae.core.cab import Cab, smf_strings
+from kitae.core.clss import parse, named_field
+from kitae.core.windows import script_windows
+from kitae.core import ebdis
 
 DUMP = os.path.join(HERE, "..", "dump")
 INIS = os.path.join(DUMP, "scn", "inis")

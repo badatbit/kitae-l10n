@@ -38,10 +38,9 @@ Usage:
     python ebdis.py --verify               # check every script against MTG
 """
 import os, struct, sys, io, collections
-
 HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, HERE)
-from cab import Cab, smf_strings
+
+from kitae.core.cab import Cab, smf_strings
 
 PLOT_CB = os.path.join(HERE, "..", "dump", "plot", "PLOT.CB")
 MTG_CB = os.path.join(HERE, "..", "dump", "scn", "MTG.CB")
@@ -257,7 +256,7 @@ def dis(script, plot_cab, out):
 
 
 def report(script, plot_cab, mtg_cab, out):
-    from windows import script_windows
+    from kitae.core.windows import script_windows
     eb = plot_cab.read(script.upper() + ".EB")
     names = speaker_names(plot_cab)
     wins, strs = script_windows(script, plot_cab, mtg_cab)
@@ -272,7 +271,7 @@ def report(script, plot_cab, mtg_cab, out):
 
 
 def verify(plot_cab, mtg_cab, out):
-    from windows import script_windows
+    from kitae.core.windows import script_windows
     names = speaker_names(plot_cab)
     scripts = sorted(n[:-3] for n in plot_cab.names if n.upper().endswith(".EB"))
     tot = ok = 0

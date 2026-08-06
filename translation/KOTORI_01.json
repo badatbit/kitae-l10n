@@ -1,0 +1,8346 @@
+{
+ "script": "KOTORI_01",
+ "source": "ja",
+ "entries": [
+  {
+   "window": 0,
+   "line": 0,
+   "speaker": "文字",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "７月３１日　札幌",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0013.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "ねぇお母さん！",
+    "ko": "저기, 엄마!"
+   }
+  },
+  {
+   "window": 1,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0013.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "明日だよね？　あの人が来るの・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 2,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A0014.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "ああ。朝１０時の飛行機だから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 2,
+   "line": 1,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A0014.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "こっちに着くのは　お昼ぐらいになるかねぇ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 3,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A0015.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "母さん　仕事で行けないけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 3,
+   "line": 1,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A0015.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "お迎え　よろしく頼むよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 4,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0016.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "うん。でも小さい頃会ったっきりだし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 4,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0016.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "きっと　すごく変わってるんじゃないかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 5,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A0017.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "そう思って母さん　これ用意しておいたんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 5,
+   "line": 1,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A0017.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "明日　持ってくといいよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 6,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0018.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "・・・それちょっと恥ずかしいよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 7,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A0019.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "文句言わないの！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 8,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0020.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "あっ！　もうこんな時間！　私行かなくっちゃ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 8,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0020.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "それじゃ　行ってきまーす！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 9,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "&主人公名前&。東京に住んでいる高校２年生。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 9,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "・・・学校で色々あって　ちょっと落ち込んでいた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 10,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "・・そんな時　母さんが北海道行きの",
+    "ko": ""
+   }
+  },
+  {
+   "window": 10,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "往復航空券を手渡して　僕にこう言ってくれた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 11,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "『行ってきなさいよ。気分転換に・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 11,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "笑顔のない男の子なんて　全然魅力ないわよ！』",
+    "ko": ""
+   }
+  },
+  {
+   "window": 12,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "８月１日・・・夏休み。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 12,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "何かが変わりそうな・・そんな予感がする。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 13,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "僕は旅立つ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 13,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "退屈な日常に　さよならして・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 13,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "まだ見ぬ土地の　まだ見ぬ人に出会うため・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 14,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "・・・北へ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 15,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "札幌行きの旅客機内。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 15,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "僕は席に着き　シートベルトを締めた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 16,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "札幌では　親戚の家にやっかいになる予定でいる。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 16,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "春野陽子さんと言って　僕のおばさんにあたる人だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 17,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "子供の頃に会ったきり　もう顔も忘れていたけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 17,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "今回の件を伝えると　快く部屋を用意してくれた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 18,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "空港でちゃんと会えるように　写真も持ってきたけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 18,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "１０年前の写真だから　参考になるかな・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 19,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "隣に写っているのが娘さんの琴梨ちゃんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 19,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "今年高校に上がったって聞いてるけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 19,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "・・・僕のこと　覚えているかな・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 20,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A0032.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "あの・・すみません・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 21,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "え？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 22,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A0034.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "シートベルトが　こんがらがってる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 22,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A0034.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "みたいなんですけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 23,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "見ると僕のシートベルトの片方が",
+    "ko": ""
+   }
+  },
+  {
+   "window": 23,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "隣の席の金具とつながっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 23,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "僕は・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 24,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "すかさず謝る",
+    "ko": ""
+   }
+  },
+  {
+   "window": 24,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "開き直って文句を言う",
+    "ko": ""
+   }
+  },
+  {
+   "window": 24,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "無視する",
+    "ko": ""
+   }
+  },
+  {
+   "window": 25,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "そっちがちゃんと　先にベルト締めてれば",
+    "ko": ""
+   }
+  },
+  {
+   "window": 25,
+   "line": 1,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "こういうことにはならなかったはずですよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 26,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は開き直って文句を言った。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 27,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A0041.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "え？　なぁにそれ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 27,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A0041.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "私が席に着いた時には　あなたはもう",
+    "ko": ""
+   }
+  },
+  {
+   "window": 27,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A0041.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "その間違った金具を付けてたのよ。覚えてないの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 28,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "・・・・・・・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 29,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "そう言われると　返す言葉がない。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 29,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "僕は黙ってベルトを外し　本来の金具と付け替えた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 30,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "あ・・すみません。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 31,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "僕はすかさず謝った。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 31,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "ベルトを外し　本来の金具と付け替える。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 31,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・なんともドジな話だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 32,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A0038.WAV",
+   "chars": 4,
+   "text": {
+    "ja": "いえ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 33,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A0044.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "あの・・聞こえてます？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 33,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A0044.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "シートベルトの金具を　付け違えてますよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 34,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "ちょっと怒ったような口調だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 34,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "僕は・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 35,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "すかさず謝る",
+    "ko": ""
+   }
+  },
+  {
+   "window": 35,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "開き直って文句を言う",
+    "ko": ""
+   }
+  },
+  {
+   "window": 36,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "あ・・すみません。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 37,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "僕はすかさず謝った。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 37,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "ベルトを外し　本来の金具と付け替える。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 37,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・なんともドジな話だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 38,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A0048.WAV",
+   "chars": 4,
+   "text": {
+    "ja": "いえ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 39,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "そっちがちゃんと　先にベルト締めてれば",
+    "ko": ""
+   }
+  },
+  {
+   "window": 39,
+   "line": 1,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "こういうことにはならなかったはずですよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 40,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は開き直って文句を言った。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 41,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A0051.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "え？　なぁにそれ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 41,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A0051.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "私が席に着いた時には　あなたはもう",
+    "ko": ""
+   }
+  },
+  {
+   "window": 41,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A0051.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "その間違った金具を付けてたのよ。覚えてないの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 42,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "・・・・・・・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 43,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "そう言われると　返す言葉がない。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 43,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "僕は黙ってベルトを外し　本来の金具と付け替えた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 44,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "今回の旅行　初めての出会いだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 44,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "もう少し話をしてみたい気もするけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 44,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "どうしよう・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 45,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "隣の女性に話しかける",
+    "ko": ""
+   }
+  },
+  {
+   "window": 45,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "やっぱりやめる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 46,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "あの・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 47,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A0056.WAV",
+   "chars": 5,
+   "text": {
+    "ja": "・・何か？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 48,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "僕は・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 49,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "自己紹介する",
+    "ko": ""
+   }
+  },
+  {
+   "window": 49,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "名前を聞く",
+    "ko": ""
+   }
+  },
+  {
+   "window": 49,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "世間話をする",
+    "ko": ""
+   }
+  },
+  {
+   "window": 50,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "僕は自己紹介をした。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 51,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "あの・・初めまして。僕　&主人公&って言います。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 51,
+   "line": 1,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "東京から来た高校２年生です。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 52,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A0060.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "初めまして。私は椎名薫。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 52,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A0060.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "でも悪いけど　今は世間話する気分じゃないの・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 52,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A0060.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "私に読書する時間を頂ける？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 53,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "はい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 53,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "いいえ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 54,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A0061.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "ありがとう。&主人公&君。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 55,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A0062.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "ほんと言うとね。飛行機が苦手なの・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 55,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A0062.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "だから　今読んでる本もこういうヤツ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 56,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "彼女が持っている本には『大地に生きる』という",
+    "ko": ""
+   }
+  },
+  {
+   "window": 56,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "タイトルが付けられていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 57,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A0063.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "飛行機が空を飛ぶ　理屈も仕組みも全部",
+    "ko": ""
+   }
+  },
+  {
+   "window": 57,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A0063.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "わかってるつもりなのに・・感情って別なのよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 57,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A0063.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "だから今は　こうして読書に集中したい気分なの・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 58,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "あの・・名前・・何て言うんですか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 59,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "・・・しかし彼女は文庫本を開いたまま",
+    "ko": ""
+   }
+  },
+  {
+   "window": 59,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "こちらを振り向こうともしない。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 59,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "無視しているのか　それとも気付いていないのか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 60,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "僕は・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 61,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "黙り込む",
+    "ko": ""
+   }
+  },
+  {
+   "window": 61,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "さらに大きな声で名前を聞く",
+    "ko": ""
+   }
+  },
+  {
+   "window": 62,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "彼女は読書に集中しているようだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 62,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "仕方ないな・・・僕は黙り込むことにした。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 63,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕はさらに大きな声で聞いた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 64,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "あなたのお名前は？*4",
+    "ko": ""
+   }
+  },
+  {
+   "window": 65,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A0070.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "ちゃんと聞こえてるわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 65,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A0070.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "名前は椎名薫。ついでに言うとね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 65,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A0070.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "私　嫌いなことが三つあるの・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 66,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A0071.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "ひとつは　飛行機に乗ること",
+    "ko": ""
+   }
+  },
+  {
+   "window": 66,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A0071.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "ふたつめは　読書の邪魔をされること",
+    "ko": ""
+   }
+  },
+  {
+   "window": 66,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A0071.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "みっつめは　先に名乗らない相手に名前を聞かれること",
+    "ko": ""
+   }
+  },
+  {
+   "window": 67,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A0072.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "そういう意味では　今のあなた　パーフェクトよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 67,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A0072.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "悪いけど　もう話しかけないでね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 68,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "あ・・ごめんなさい・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 69,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "気まずい沈黙が訪れた・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 69,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "ちょっと　失敗しちゃったかな・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 70,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "あの・・どちらまで　行かれるんですか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 70,
+   "line": 1,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は札幌に観光に行くんです。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 71,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "・・・しかし彼女は文庫本を開いたまま",
+    "ko": ""
+   }
+  },
+  {
+   "window": 71,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "こちらを振り向こうともしない。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 71,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "無視しているのか　それとも気付いていないのか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 72,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "僕は・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 73,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "黙り込む",
+    "ko": ""
+   }
+  },
+  {
+   "window": 73,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "さらに大きな声で世間話をする",
+    "ko": ""
+   }
+  },
+  {
+   "window": 74,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "彼女は読書に集中しているようだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 74,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "仕方ないな・・・僕は黙り込むことにした。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 75,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "僕はさらに大きな声で　世間話をした。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 76,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "本当にいいお天気ですね。*4",
+    "ko": ""
+   }
+  },
+  {
+   "window": 77,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A0081.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "ちゃんと聞こえてるわ。そうね。本当にいいお天気ね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 77,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A0081.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "これで隣の席の人が静かだと　もっといいんだけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 78,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "あ・・ごめんなさい・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 79,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "気まずい沈黙が訪れた・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 79,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "ちょっと　失敗しちゃったかな・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 80,
+   "line": 0,
+   "speaker": "アナウンス",
+   "kind": "대사",
+   "voice": "A0084.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "@S@・・@P@本機は千歳空港に向け　まもなく離陸いたします。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 80,
+   "line": 1,
+   "speaker": "アナウンス",
+   "kind": "대사",
+   "voice": "A0084.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "誠に恐れ入りますが　お座席のシートベルトを",
+    "ko": ""
+   }
+  },
+  {
+   "window": 80,
+   "line": 2,
+   "speaker": "アナウンス",
+   "kind": "대사",
+   "voice": "A0084.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "今一度　ご確認ください。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 81,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "千歳空港に降り立った。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 81,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "確か　春野陽子さんが迎えに来てるはずだけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 81,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "・・・どこだろう？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 82,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0086.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "あっ！　いたいた！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 82,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0086.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "お兄ちゃーん！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 83,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "え？　お兄ちゃん？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 84,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0088.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "@S@・・@P@あっ・・ごめんなさい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 84,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0088.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "いきなり『お兄ちゃん』なんて呼んで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 84,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0088.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "びっくり・・・しましたよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 85,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0089.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "あの・・私　春野琴梨です。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 85,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0089.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "お母さんが仕事で急に来れなくなっちゃって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 85,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0089.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "代わりに私が来たんです。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 86,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "あ・・こんにちは。&主人公名前&です。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 87,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0091.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "覚えてます？　昔　東京のお家で",
+    "ko": ""
+   }
+  },
+  {
+   "window": 87,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0091.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "&主人公&さんに　よく遊んでもらって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 87,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0091.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "その時　私　『お兄ちゃん』って呼んでて・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 88,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0092.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "さっき見かけたとき　&主人公&さん",
+    "ko": ""
+   }
+  },
+  {
+   "window": 88,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0092.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "昔と全然変わらない目をしてたから・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 89,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0093.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "だから私　うれしくなって　自分でも無意識に",
+    "ko": ""
+   }
+  },
+  {
+   "window": 89,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0093.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "『お兄ちゃん』って呼んじゃったんです。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 90,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "そう言われて僕にも　かすかな記憶がよみがえった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 90,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "子供の頃　一緒に遊んだ。よく笑い　よく泣く女の子",
+    "ko": ""
+   }
+  },
+  {
+   "window": 90,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "・・・それが琴梨ちゃんだったのかもしれない。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 91,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "いいよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 92,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0096.WAV",
+   "chars": 2,
+   "text": {
+    "ja": "え？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 93,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "まだちょっと照れている琴梨ちゃんの顔を見ながら",
+    "ko": ""
+   }
+  },
+  {
+   "window": 93,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "僕は笑顔で応えていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 94,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "『お兄ちゃん』でいいよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 95,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0099.WAV",
+   "chars": 6,
+   "text": {
+    "ja": "あ・・はい！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 96,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0100.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "じゃ　そろそろ行きましょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 96,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0100.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "おにい・・ちゃん・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 97,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0101.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "あれ？　呼んでいいって言われると",
+    "ko": ""
+   }
+  },
+  {
+   "window": 97,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0101.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "かえって意識しちゃって言いづらいかも・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 97,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0101.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "えへへ・・変なの・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 98,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "琴梨ちゃんの笑顔は　別々に過ごした僕たちの",
+    "ko": ""
+   }
+  },
+  {
+   "window": 98,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "１０年間を　一気に縮めてくれたようだった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 99,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "琴梨ちゃんの案内でＪＲの改札まで来た。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 100,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0104.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "ここからエアポートエキスプレスに乗って",
+    "ko": ""
+   }
+  },
+  {
+   "window": 100,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0104.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "４０分ぐらいで札幌に着くわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 100,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0104.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "あっ！　お兄ちゃん　そろそろ汽車が来るよ。行こ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 101,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "それじゃ行こうか",
+    "ko": ""
+   }
+  },
+  {
+   "window": 101,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "ところで「汽車」って何？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 101,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "エアポートエキスプレスって違うんじゃない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 102,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "エアポートエキスプレスじゃなくて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 102,
+   "line": 1,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "快速エアポートって言うんじゃない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 102,
+   "line": 2,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "さっき見た案内板には　そう書いてあったよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 103,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "ひょっとして琴梨ちゃん　間違って覚えてない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 104,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "・・・・・・・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 105,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "なんか　機嫌を損ねちゃったみたいだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 106,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "あ・・細かいこと指摘しちゃってごめん！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 106,
+   "line": 1,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "そろそろ行こう。ね？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 107,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0117.WAV",
+   "chars": 4,
+   "text": {
+    "ja": "はーい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 108,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0106.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "え？　知らないの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 108,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0106.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "ＪＲのこと　こっちでは『汽車』って言うんだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 109,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "ふぅん・・そうなんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 109,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "でも汽車って言ったら・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 110,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "ふぅん・・そうなんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 111,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0108.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "うん。みんな言ってるよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 111,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0108.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "それじゃ行こ！　お兄ちゃん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 112,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "でも「汽車」って言ったら　蒸気機関車のことだろ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 112,
+   "line": 1,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "今時そんなの　走ってるの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 113,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0110.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "え？　・・えーっと　普通の電車だけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 114,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "それなら「汽車」って言い方　おかしいよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 114,
+   "line": 1,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "「電車」とか「ＪＲ」とか言わなきゃ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 115,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0112.WAV",
+   "chars": 6,
+   "text": {
+    "ja": "@S@・・@P@でも・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 115,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0112.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "こっちじゃみんな「汽車」って言うのになぁ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 116,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "なんか　機嫌を損ねちゃったみたいだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 116,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "僕は・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 117,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "一応謝っておこうと思った",
+    "ko": ""
+   }
+  },
+  {
+   "window": 117,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "やはり正しい日本語が大事だと思った",
+    "ko": ""
+   }
+  },
+  {
+   "window": 118,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "あっ！　ごめんごめん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 118,
+   "line": 1,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "初めて聞く言い方だったから　つい気になっちゃって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 118,
+   "line": 2,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "それじゃ　そろそろ汽車に乗ろうか。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 119,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0115.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "@S@・・@P@無理に合わせてくれなくてもいいよぉ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 120,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "やっぱり日本語は正しく使わなくちゃ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 120,
+   "line": 1,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "汽車は蒸気機関でレールの上を走る車両のこと",
+    "ko": ""
+   }
+  },
+  {
+   "window": 120,
+   "line": 2,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "ちゃんと覚えておかないとね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 121,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0117.WAV",
+   "chars": 4,
+   "text": {
+    "ja": "はーい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 122,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0105.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "こっちだよ。お兄ちゃん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 123,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0118.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "札幌は今が一番いい季節なんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 123,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0118.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "暑くても湿度が低いから過ごしやすいし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 123,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0118.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "それにこの季節はお花がいっぱい咲くし。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 124,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0119.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "海で泳げるのは二週間ぐらいなんだけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 124,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0119.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "でもたった二週間の夏だから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 124,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0119.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "みんなその分　思いっきり楽しむんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 125,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0120.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "近所に住んでるお姉さんなんか",
+    "ko": ""
+   }
+  },
+  {
+   "window": 125,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0120.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "小型船舶の免許を取って　海とか湖とかで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 125,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0120.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "ジェットスキーやってるんだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 126,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "선택지",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "趣味について聞く",
+    "ko": ""
+   }
+  },
+  {
+   "window": 126,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "선택지",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "学校について聞く",
+    "ko": ""
+   }
+  },
+  {
+   "window": 126,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "선택지",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "好きな男性のタイプについて聞く",
+    "ko": ""
+   }
+  },
+  {
+   "window": 127,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0121.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "え？　趣味？　うーん。趣味って言えるのかどうか",
+    "ko": ""
+   }
+  },
+  {
+   "window": 127,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0121.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "わかんないんだけどお料理とか好きだな・・ウチじゃ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 127,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0121.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "お母さんが仕事一筋で　家事なんて全然しないから・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 128,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0122.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "ほら　ウチのお母さんってＴＶ局に勤めてるから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 128,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0122.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "仕事も不規則だし　いっつもお家にいないし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 128,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0122.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "私のこと　どうやって育てたんだろうって感じ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 129,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0123.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "外でおいしいものたくさん食べてるから　自分じゃ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 129,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0123.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "お料理しないくせに　他人の料理にはすっごく",
+    "ko": ""
+   }
+  },
+  {
+   "window": 129,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0123.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "うるさくて　それで結構　鍛えられちゃったかな。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 130,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "話を聞いているうちに　思い出した。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 130,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "琴梨ちゃんの家　片親なんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 131,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "同じＴＶ局に勤めていたお父さんが７年前",
+    "ko": ""
+   }
+  },
+  {
+   "window": 131,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "海外で事故にあって・・それから陽子おばさんは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 131,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "女手一つで　琴梨ちゃんを育てたんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 132,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "あの時　新聞の一面にも載った大事件が",
+    "ko": ""
+   }
+  },
+  {
+   "window": 132,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "今ではほとんどの人に忘れられたまま",
+    "ko": ""
+   }
+  },
+  {
+   "window": 132,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "こうして小さな傷跡を残している。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 133,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0127.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "え？　学校？　大里高校の１年生だよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 133,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0127.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "私立の女子校なんだけど制服が可愛いんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 133,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0127.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "部活はテニス部。まだ素振りしか教わってないけどね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 134,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0128.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "え？　うーん。そうだなぁ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 134,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0128.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "派手な感じの人よりは　ちょっと落ち着いてる感じの",
+    "ko": ""
+   }
+  },
+  {
+   "window": 134,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0128.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "人が好きだな・・芸能人で言うと・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 135,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "木村タクヤ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 135,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "森繁ヒサヤ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 135,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "森本レオ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 136,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0129.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "ちょっと違うよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 136,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0129.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "私　もっと地味な感じの人が好き。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 137,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0130.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "落ち着きすぎだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 137,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0130.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "だってもうあの人　おじいちゃんでしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 138,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0131.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "うーん。そうかも・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 138,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0131.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "あの人の声とか　ちょっと困った感じの表情って",
+    "ko": ""
+   }
+  },
+  {
+   "window": 138,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0131.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "なんか　いいと思うな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 139,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0132.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "うーん。芸能人は　みんな派手な感じだから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 139,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0132.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "好きなタイプは　いないかも・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 140,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0133.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "そう言えば　お兄ちゃん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 140,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0133.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "北海道は　初めてだっけ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 141,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "うん。初めてだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 141,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "前にも来たことがあるよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 142,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0134.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "そうか・・初めてなんだ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 143,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0135.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "ようこそ札幌へ。私　この街が大好きなの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 143,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0135.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "だからお兄ちゃんも　気に入ってくれると嬉しいな。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 144,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0136.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "それじゃ　また来てくれたんだ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 144,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0136.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "私　この街が大好きなの。だからお兄ちゃんも",
+    "ko": ""
+   }
+  },
+  {
+   "window": 144,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0136.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "気に入ってくれると嬉しいな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 145,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0137.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "あっ！　そろそろ札幌に着くよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 146,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "札幌駅に着いた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 147,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0139.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "ここから地下鉄に乗って　平岸っていう駅に行くの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 147,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0139.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "こっちだよ。お兄ちゃん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 148,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0140.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "札幌には地下鉄が３本通ってるわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 148,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0140.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "東西に走る東西線。南北に走る南北線。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 148,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0140.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "・・そのまんまの名前だよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 149,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0141.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "それと東豊線。でも東豊線は　ほとんど乗らないな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 149,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0141.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "ねぇ　お兄ちゃん！　何か気付いたことない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 149,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0141.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "東京の地下鉄と　違ってるところ　あるでしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 150,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "僕は車内を見渡した。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 150,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "わかったぞ！　札幌の地下鉄には・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 151,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "チカンが多い",
+    "ko": ""
+   }
+  },
+  {
+   "window": 151,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "屋根がない",
+    "ko": ""
+   }
+  },
+  {
+   "window": 151,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "網棚がない",
+    "ko": ""
+   }
+  },
+  {
+   "window": 152,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "わかったよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 152,
+   "line": 1,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "札幌の地下鉄には　チカンが多い！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 153,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0143.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "え？　どこ？　チカン？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 154,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "いや・・あの・・冗談だよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 155,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "わかったよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 155,
+   "line": 1,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "札幌の地下鉄には　網棚がない！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 156,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0147.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "すっごーい！　よくわかったね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 156,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0147.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "そうなの。札幌の地下鉄には　なぜか網棚がないの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 157,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0148.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "私なんかこっちの方が普通なんだけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 157,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0148.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "東京から来た人とかは　みんな不思議がってるわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 158,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0149.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "それと　こっちの地下鉄は　車輪がゴムタイヤだから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 158,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0149.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "音も静かなのよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 158,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0149.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "・・・あっ！　お兄ちゃん！　平岸に着いたよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 159,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "わかったよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 159,
+   "line": 1,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "札幌の地下鉄には　屋根がない！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 160,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0145.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "@S@・・・@P@屋根はあるよぉ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 161,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0150.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "ここが地下鉄の平岸駅。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 161,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0150.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "お家はここから歩いてすぐだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 162,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0151.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "到着！　お家はこの　ローズヒルっていう",
+    "ko": ""
+   }
+  },
+  {
+   "window": 162,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0151.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "マンションの５階にあるの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 163,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0152.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "ただいまぁーー！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 164,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "え？　猫？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 165,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0154.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "これ『お帰りネコ』って言うんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 165,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0154.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "私が『ただいま』@0002@って言うと　『お帰り』って",
+    "ko": ""
+   }
+  },
+  {
+   "window": 165,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0154.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "鳴いてくれるヌイグルミなの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 166,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0155.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "仕組みはよくわかんないんだけど　他にも",
+    "ko": ""
+   }
+  },
+  {
+   "window": 166,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0155.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "『行って来ま@0003@す』とか『お早う』@0004@とか『お休み』にも",
+    "ko": ""
+   }
+  },
+  {
+   "window": 166,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0155.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "@0005@反応してくるの。ほら全部鳴き方が違うでしょ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 167,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0156.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "名前は　エルちゃんって言うんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 167,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0156.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "可愛いでしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 168,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "うん。可愛いね",
+    "ko": ""
+   }
+  },
+  {
+   "window": 168,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "でもなんか・・さみしくない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 168,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "すごく良くできたオモチャだよね",
+    "ko": ""
+   }
+  },
+  {
+   "window": 169,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "うん。可愛いね。これ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 170,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0158.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "でしょ？　今の私の　一番のお気に入りなの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 171,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "誰もいない家で待っている『お帰り』を言うための",
+    "ko": ""
+   }
+  },
+  {
+   "window": 171,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "ヌイグルミ・・僕はちょっと複雑な気持ちになった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 172,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "確かにいいアイディアだけど　そういうものが",
+    "ko": ""
+   }
+  },
+  {
+   "window": 172,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "売られる世の中って　ちょっとさみしくないだろうか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 173,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "ヌイグルミに『お帰り』を言ってもらうのって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 173,
+   "line": 1,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "なんかちょっと　さみしくない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 174,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0162.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "さみしいから買ったわけじゃないもん！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 174,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0162.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "ほら　顔だって可愛いし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 174,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0162.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "・・・・・・・ね。エルちゃん！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 175,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "ちょっと気まずい雰囲気になってしまった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 175,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "うーん。失敗したかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 176,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "うん。すごく良くできたオモチャだよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 177,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0165.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "ただ音に反応するだけのオモチャなら　昔からあるけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 177,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0165.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "ちゃんと喋ってる内容で　いろいろ反応が違うのって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 177,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0165.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "今までになかったよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 178,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0166.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "暑いね　この部屋。今　窓開けるね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 179,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "琴梨ちゃんが窓を開けると　涼しい風が入ってきた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 179,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "東京より　ずっと涼しくて　からっとした風だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 180,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "・・・さっきの気まずい雰囲気を",
+    "ko": ""
+   }
+  },
+  {
+   "window": 180,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "吹き飛ばしてくれるような・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 180,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "そんなさわやかな風に　僕は感謝した。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 181,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0169.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "知ってる？　札幌のお家は　よっぽどのお金持ちか",
+    "ko": ""
+   }
+  },
+  {
+   "window": 181,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0169.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "暑がりじゃない限り　エアコンを買わないのよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 181,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0169.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "あ・・お兄ちゃん　トマトジュース好き？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 182,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "好きだよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 182,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "実は嫌いなんだ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 183,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0170.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "よかった。これね。『オオカミの桃』って言って",
+    "ko": ""
+   }
+  },
+  {
+   "window": 183,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0170.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "鷹栖町の名産品なの。すっごくおいしいから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 183,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0170.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "ちょっと飲んでみて。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 184,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "鷹栖町って　どこ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 184,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "トマトなのに『桃』って名前なの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 185,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0171.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "あ・・そうなん@6000@だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 185,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0171.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "でも　このトマトジュースなら好きになれるかも・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 186,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0172.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "これね。『オオカミの桃』って言って",
+    "ko": ""
+   }
+  },
+  {
+   "window": 186,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0172.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "鷹栖町の名産品なの。すっごくおいしいから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 186,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0172.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "ちょっと飲んでみて。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 187,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "鷹栖町って　どこ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 187,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "トマトなのに『桃』って名前なの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 188,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0173.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "鷹栖町は旭川の隣にある町だよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 188,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0173.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "のどかな感じで　すごくいいところだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 189,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0174.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "あっ！！　ラベルに書いてあるよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 189,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0174.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "トマトの学名のラテン語を直訳すると",
+    "ko": ""
+   }
+  },
+  {
+   "window": 189,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0174.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "『オオカミの桃』になるんだって。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 190,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0175.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "はい。どうぞ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 191,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "僕はトマトジュースを飲んでみた。・・うまい！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 191,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "トマトジュースというと　しょっぱいとか酸っぱいとか",
+    "ko": ""
+   }
+  },
+  {
+   "window": 191,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "そんなものだと思っていたのに・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 192,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "このトマトジュースは甘くておいしかった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 192,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "『ひなたの味』とでも言うのだろうか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 192,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "とにかく　素朴な感じの甘さだった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 193,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0178.WAV",
+   "chars": 3,
+   "text": {
+    "ja": "どう？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 194,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "うん。おいしいよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 194,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "うーん・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 195,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0179.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "よかった。私もこれ大好きなの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 196,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0180.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "あんまり好きな味じゃなかった？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 196,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0180.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "・・・ごめんね。でもトマトはすっごく身体にいいから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 196,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0180.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "きっとお兄ちゃん　ちょっとだけ健康になってるよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 197,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0181.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "あっ！　そうだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 197,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0181.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "お兄ちゃんの使うお部屋　案内しなくちゃ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 197,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0181.WAV",
+   "chars": 6,
+   "text": {
+    "ja": "こっちだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 198,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0182.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "このお部屋　お兄ちゃんが自由に使っていいからね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 198,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0182.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "あ・・それと私　これからお夕飯のお買い物なんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 198,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0182.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "もしよかったら　つきあってくれる？　・・かな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 199,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "うん。いいよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 199,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "え？　行くの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 200,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0183.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "それじゃ一緒に行こ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 200,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0183.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "歩いてすぐの所に　ラルズストアがあるのよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 201,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0184.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "あ・・やっぱり・・来たばっかりで疲れてる・・かな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 202,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "ちょっと困ったような顔で　こっちを見ている。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 202,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "僕は・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 203,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "やっぱり行くよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 203,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "僕は留守番していたいな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 204,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0186.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "ごめんね・・無理言って・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 204,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0186.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "それじゃ一緒に行こ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 204,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0186.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "歩いてすぐの所に　ラルズストアがあるのよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 205,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0187.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "ごめんね・・無理言って・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 205,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0187.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "それじゃ私　行ってくるね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 206,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0188.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "あっ　もう夕方になっちゃった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 206,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0188.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "ねぇお兄ちゃん。早くお買い物しないと",
+    "ko": ""
+   }
+  },
+  {
+   "window": 206,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0188.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "お腹をすかせたお母さん帰って来ちゃう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 207,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "楽しそうに歩いている琴梨ちゃんを見ていると",
+    "ko": ""
+   }
+  },
+  {
+   "window": 207,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "なんだか僕まで明るい気分になってくる。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 208,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "お母さんが働いて　琴梨ちゃんが家事をして・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 208,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "それで春野家は　バランスがとれているんだな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 209,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "ラルズストアに着いた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 210,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0192.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "友達には　おばさんくさいって笑われるんだけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 210,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0192.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "私　スーパーのチラシ見るの大好きなの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 210,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0192.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "だから毎朝　細かくチェック入れてるんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 211,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0193.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "ちなみに今日はカニの特売日でーす。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 211,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0193.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "さっ　お兄ちゃん。早く行こ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 212,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0194.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "今日のおかずは　カニクリームコロッケだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 212,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0194.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "えーと　タマネギと・・マッシュルーム・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 212,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0194.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "それから　ジャガイモ・・アスパラ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 213,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "琴梨ちゃんは慣れた手つきで　買い物かごに",
+    "ko": ""
+   }
+  },
+  {
+   "window": 213,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "野菜を入れている。僕は・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 214,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "買い物かごを持つ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 214,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "野菜は嫌いだと言う",
+    "ko": ""
+   }
+  },
+  {
+   "window": 215,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0196.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "あっ！　ありがとう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 215,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0196.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "それじゃ　お言葉に甘えて・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 216,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0197.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "ふふふ・・そういう人にこそ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 216,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0197.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "野菜を食べてもらいたいんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 216,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0197.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "大丈夫！　きっとおいしく食べられるよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 217,
+   "line": 0,
+   "speaker": "ラルズ店員",
+   "kind": "대사",
+   "voice": "A0198.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "ありがとうございましたぁ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 218,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0199.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "ラルズストアって　グリーンカードがあるから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 218,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0199.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "私　大好きなんだ。あ・・グリーンカードって言っても",
+    "ko": ""
+   }
+  },
+  {
+   "window": 218,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0199.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "移民とか　そういうのじゃないよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 219,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0200.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "お買い物するとポイントが記録されるカード。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 219,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0200.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "たくさんためると景品が貰えるんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 219,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0200.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "そういうのって　なんか得した気分にならない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 220,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "そうだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 220,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "なんかせこくない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 221,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0201.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "でしょ？　ポイントがたまってくと",
+    "ko": ""
+   }
+  },
+  {
+   "window": 221,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0201.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "『頑張ったぞ』って気分になるの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 222,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0202.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "でもね。たまったらたまったで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 222,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0202.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "もっと高いポイントの景品が欲しくなっちゃうから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 222,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0202.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "私まだ　一度も貰ったことないんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 223,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0203.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "え？　・・・そうかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 223,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0203.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "@7001@でもお買い物は　賢くやらなくっちゃ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 224,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0204.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "さてと！　お買い物もすんだし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 224,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0204.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "そろそろ帰ろ。お兄ちゃん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 225,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0205.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "ただいまぁ@0007@ー！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 226,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "・・・ん？　あ・・琴梨ちゃんの声だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 226,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "帰ってきたみたいだな。玄関に行かなくっちゃ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 227,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "琴梨ちゃん。帰ってきたみたいだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 227,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "応接間に行ってみよう・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 228,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0207.WAV",
+   "chars": 5,
+   "text": {
+    "ja": "ただいま。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 228,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0207.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "@0008@すぐそこでちょうどお母さんに会って",
+    "ko": ""
+   }
+  },
+  {
+   "window": 228,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0207.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "一緒に帰ってきたんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 229,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A0208.WAV",
+   "chars": 5,
+   "text": {
+    "ja": "た@0009@だいま。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 229,
+   "line": 1,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A0208.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "&名前&君　しばらく見ないうちに",
+    "ko": ""
+   }
+  },
+  {
+   "window": 229,
+   "line": 2,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A0208.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "大きくなったね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 230,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A0209.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "ひさしぶりって言っても　覚えてないかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 230,
+   "line": 1,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A0209.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "琴梨の母親の春野陽子。ほら！　小さい頃",
+    "ko": ""
+   }
+  },
+  {
+   "window": 230,
+   "line": 2,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A0209.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "おしめ替えてあげた・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 231,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0210.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "@S@・・@P@お母さん！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 232,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A0211.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "あはは・・ごめんね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 232,
+   "line": 1,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A0211.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "遠いところからお疲れさま。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 232,
+   "line": 2,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A0211.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "これから二週間　ゆっくりしてくといいよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 233,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "お世話になります。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 234,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A0213.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "こっちこそ　よろしく。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 234,
+   "line": 1,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A0213.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "私たちも　家族が増えて嬉しいよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 234,
+   "line": 2,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A0213.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "琴梨　そろそろ夕飯だろ？　母さん手伝おうか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 235,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0214.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "ただいまぁ@0010@ー！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 236,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A0215.WAV",
+   "chars": 4,
+   "text": {
+    "ja": "にゃぁ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 237,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0216.WAV",
+   "chars": 3,
+   "text": {
+    "ja": "あれ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 238,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A0217.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "ふふふっ・・お帰り。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 239,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0218.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "あっ！　お母さん！　お帰りなさい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 240,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A0219.WAV",
+   "chars": 5,
+   "text": {
+    "ja": "ただいま@0011@。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 240,
+   "line": 1,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A0219.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "あっ・・&名前&君も　来てたんだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 240,
+   "line": 2,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A0219.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "しばらく見ないうちに　大きくなったね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 241,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A0220.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "ひさしぶりって言っても　覚えてないかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 241,
+   "line": 1,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A0220.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "琴梨の母親の春野陽子。ほら！　小さい頃",
+    "ko": ""
+   }
+  },
+  {
+   "window": 241,
+   "line": 2,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A0220.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "おしめ替えてあげた・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 242,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0221.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "@S@・・@P@お母さん！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 243,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A0222.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "あはは・・ごめんね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 243,
+   "line": 1,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A0222.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "遠いところからお疲れさま。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 243,
+   "line": 2,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A0222.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "これから二週間　ゆっくりしてくといいよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 244,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "お世話になります。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 245,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A0224.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "それにしても琴梨。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 245,
+   "line": 1,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A0224.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "あんたも　さみしいオモチャ持ってるねぇ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 246,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0225.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "さみしいオモチャじゃないもん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 246,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0225.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "かわいいオモチャだもん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 247,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A0226.WAV",
+   "chars": 5,
+   "text": {
+    "ja": "はいはい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 247,
+   "line": 1,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A0226.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "琴梨　そろそろ夕飯だろ？　母さん手伝おうか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 248,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0227.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "あ・・ダメ！　お母さんが手伝うと",
+    "ko": ""
+   }
+  },
+  {
+   "window": 248,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0227.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "かえって時間かかっちゃうから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 248,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0227.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "そっちでお兄ちゃんとお話ししてて。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 249,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A0228.WAV",
+   "chars": 6,
+   "text": {
+    "ja": "お兄ちゃん？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 250,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0229.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "うん。お兄ちゃん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 251,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A0230.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "そうか・・なんか昔に戻ったみたいだねぇ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 251,
+   "line": 1,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A0230.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "覚えてるかい？　琴梨と私と　死んだパパの３人で",
+    "ko": ""
+   }
+  },
+  {
+   "window": 251,
+   "line": 2,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A0230.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "東京にある　あんたの家にお邪魔して・・それから・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 252,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "陽子おばさんの昔話は　それから４０分ぐらい続いた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 252,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "やがて・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 253,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0232.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "はい。出来たよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 254,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "え？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 255,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A0234.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "さすがに早いね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 256,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0235.WAV",
+   "chars": 5,
+   "text": {
+    "ja": "へへへ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 257,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "気が付くと食卓には　カニクリームコロッケと",
+    "ko": ""
+   }
+  },
+  {
+   "window": 257,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "アスパラガスのサラダ。ビシソワーズが並んでいる。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 258,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A0237.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "何か今日は特に　気合い入ってないかい？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 259,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0238.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "だって　お客さんがいるもん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 259,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0238.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "さぁ！　さめないうちに食べて。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 260,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A0239.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "それじゃ　いただこうかね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 260,
+   "line": 1,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A0239.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "さぁ&名前&君も　遠慮しないで・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 261,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "はい。いただきます。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 262,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "さて　何から食べようか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 263,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "カニクリームコロッケ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 263,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "アスパラガスのサラダ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 263,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "ビシソワーズ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 264,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "僕はもう一度　カニクリームコロッケを食べた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 264,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "・・・やっぱりうまい！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 265,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "次は　何を食べようか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 266,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "アスパラガスのサラダ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 266,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "ビシソワーズ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 267,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "アスパラガスのサラダ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 268,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "ビシソワーズ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 269,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "僕は　カニクリームコロッケを食べてみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 269,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "・・・・・！！　うまい！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 270,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "僕は　カニクリームコロッケを食べてみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 270,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "・・・・・！！　これもうまい！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 271,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "外側のサクッとした歯触りと　内側のとろりとした",
+    "ko": ""
+   }
+  },
+  {
+   "window": 271,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "舌触り・・・このふたつのバランスが絶妙だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 271,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "ごろんと入った　カニの食感も素晴らしい！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 272,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "そしてこの風味・・濃厚なカニの味わいを",
+    "ko": ""
+   }
+  },
+  {
+   "window": 272,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "ホワイトソースがしっかりと支えている・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 272,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "うまい！　うますぎる！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 273,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "・・・なんだか　グルメ漫画みたいな",
+    "ko": ""
+   }
+  },
+  {
+   "window": 273,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "ノリになってきた。僕は・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 274,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "カニをほめる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 274,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "ホワイトソースをほめる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 274,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "あえて黙っている",
+    "ko": ""
+   }
+  },
+  {
+   "window": 275,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0248.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "ほんと？　うれしいなぁ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 275,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0248.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "やっぱり北海道のカニは　新鮮だもんね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 276,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0249.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "ほんと？　よかったぁ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 276,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0249.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "あのね。前に東京からお母さんのお友達が来たんだけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 276,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0249.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "その人　お料理の素材ばっかりほめるの・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 277,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0250.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "それはそれで　悪い気はしないんだけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 277,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0250.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "今みたいに　苦労したところを　ほめられるのが",
+    "ko": ""
+   }
+  },
+  {
+   "window": 277,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0250.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "やっぱり　一番うれしいな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 278,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0251.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "クリームコロッケは　ホワイトソースをいったん",
+    "ko": ""
+   }
+  },
+  {
+   "window": 278,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0251.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "冷やして固めてから　衣を付けて揚げるんだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 278,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0251.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "その具合が　すっごく難しいの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 279,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0252.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "柔らかすぎると形が作りにくいし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 279,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0252.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "固すぎても　おいしくないし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 279,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0252.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "お母さんを実験台にして　ずいぶん研究したよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 280,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A0253.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "はいはい。どうせ私はモルモットですよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 281,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0254.WAV",
+   "chars": 5,
+   "text": {
+    "ja": "えへへ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 282,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0255.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "あ・・お兄ちゃん　すっごくおいしそうに食べてるよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 282,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0255.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "なんか　見てて嬉しくなっちゃうなぁ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 283,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "次は　何を食べようか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 284,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "カニクリームコロッケ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 284,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "アスパラガスのサラダ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 284,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "ビシソワーズ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 285,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "カニクリームコロッケ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 285,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "アスパラガスのサラダ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 286,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "カニクリームコロッケ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 286,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "ビシソワーズ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 287,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "カニクリームコロッケ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 288,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "僕は　アスパラガスのサラダを食べてみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 288,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "・・・・・！！　うまい！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 289,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "僕は　アスパラガスのサラダを食べてみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 289,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "・・・・・！！　これもうまい！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 290,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "普段食べているアスパラより　ずっと太いけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 290,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "全然固くなっていない。東京のアスパラは筋が多くて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 290,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "えぐい感じがするけど　このアスパラは甘い感じだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 291,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "ドレッシングも　さっぱりとしていて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 291,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "アスパラの持ち味を　うまく引き出している。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 292,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0261.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "あっ！　それどうかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 292,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0261.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "ゆでたアスパラに　みじん切りのタマネギと",
+    "ko": ""
+   }
+  },
+  {
+   "window": 292,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0261.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "赤ピーマンを乗せてみたんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 293,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0262.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "ドレッシングはオリーブオイルに粒マスタード",
+    "ko": ""
+   }
+  },
+  {
+   "window": 293,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0262.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "それとバルサミコ酢でーす！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 294,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "僕は・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 295,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "アスパラをほめる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 295,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "ドレッシングをほめる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 295,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "あえて黙っている",
+    "ko": ""
+   }
+  },
+  {
+   "window": 296,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0264.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "アスパラは今が一番　旬なのよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 296,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0264.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "グリーンアスパラは特に栄養があるらしいから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 296,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0264.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "たくさん食べてね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 297,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0265.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "うふふっ！　さっき言ったこと",
+    "ko": ""
+   }
+  },
+  {
+   "window": 297,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0265.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "気にしてるんでしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 298,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0266.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "でも　そんなに手をかけて作ったわけじゃないから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 298,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0266.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "あんまり気を使わなくてもいいよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 299,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0267.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "ドレッシングは特に　凝って作ったわけじゃないけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 299,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0267.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "気に入ってくれたんなら　うれしいな。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 299,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0267.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "また作っちゃおうっかな！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 300,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A0268.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "それにしてもいい食べっぷりだね。さすが男の子。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 301,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "次は　何を食べようか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 302,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "カニクリームコロッケ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 302,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "ビシソワーズ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 303,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "カニクリームコロッケ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 304,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "ビシソワーズ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 305,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "僕は　ビシソワーズを味わってみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 305,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "・・・・・！！　うん！　うまい！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 306,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "夏はこういう冷たいスープが一番だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 306,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "なめらかな舌触りのジャガイモのスープに",
+    "ko": ""
+   }
+  },
+  {
+   "window": 306,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "生クリームとバターのコクが利いている。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 307,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "ベースとなっているコンソメの味加減も絶妙だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 307,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "そして　上に乗せられたハーブが見た目にも",
+    "ko": ""
+   }
+  },
+  {
+   "window": 307,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "香りにも　アクセントを加えている。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 308,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0273.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "ホテルなんかだと　ゼリーっぽくなったコンソメが",
+    "ko": ""
+   }
+  },
+  {
+   "window": 308,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0273.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "真ん中に　乗ってたりするんだけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 309,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0274.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "今回はズルして固形コンソメを使っちゃいました。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 309,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0274.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "ちなみに　そのハーブは　ベランダで栽培している",
+    "ko": ""
+   }
+  },
+  {
+   "window": 309,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0274.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "フレッシュチャービルでーす！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 310,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "僕は・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 311,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "スープをほめる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 311,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "ハーブをほめる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 311,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "あえて黙っている",
+    "ko": ""
+   }
+  },
+  {
+   "window": 312,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0276.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "えへへっ！　ほめられちゃった！　親戚の結婚式に",
+    "ko": ""
+   }
+  },
+  {
+   "window": 312,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0276.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "行った時　このスープを初めて飲んで感激しちゃって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 312,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0276.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "それ以来　ずーっと研究してるんだけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 313,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0277.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "どうしてもあの時の味が出せないの・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 313,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0277.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "やっぱり　コンソメのせいなのかなぁ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 314,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0278.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "あのね。ハーブは今２０種類ぐらい栽培してるんだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 314,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0278.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "このチャービルでしょ？　ミントでしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 314,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0278.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "あ・・あとタイムとか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 315,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A0279.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "パセリ、セージ、ローズマリー＆タイム・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 315,
+   "line": 1,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A0279.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "今の人に言っても　通じないだろうけど　母さんの",
+    "ko": ""
+   }
+  },
+  {
+   "window": 315,
+   "line": 2,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A0279.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "若い頃には　そんな歌詞の歌が流行ったんだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 316,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0280.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "知ってる。４０年ぐらい前でしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 317,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A0281.WAV",
+   "chars": 3,
+   "text": {
+    "ja": "こら。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 318,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A0282.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "うん。おいしいね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 319,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0283.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "ほんと？　よかった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 320,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "次は　何を食べようか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 321,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "カニクリームコロッケ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 321,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "アスパラガスのサラダ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 322,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "カニクリームコロッケ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 323,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "アスパラガスのサラダ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 324,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0285.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "ごちそうさまー！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 325,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A0286.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "ごちそうさま。@0012@やっぱり　家族が増えると",
+    "ko": ""
+   }
+  },
+  {
+   "window": 325,
+   "line": 1,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A0286.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "食事もおいしいねぇ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 325,
+   "line": 2,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A0286.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "琴梨も妙に　はしゃいでたんじゃないかい？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 326,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0287.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "えー！　そんなこと・・ないよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 327,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "ごちそうさまでした。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 328,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0289.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "そうだ！　ねぇお兄ちゃん！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 328,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0289.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "明日　私　札幌の街を案内しようか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 329,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "うん。いいね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 329,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "やっぱり遠慮するよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 330,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0290.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "それじゃ決まり！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 330,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0290.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "明日の朝　お兄ちゃんのお部屋に行くからね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 331,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0291.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "うん。そうだね。せっかくの旅行だもん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 331,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0291.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "お兄ちゃんが好きな場所へ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 331,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0291.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "自由に行った方がいいかもね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 332,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 333,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 334,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "ずっと黙っている僕の顔を　琴梨ちゃんは心配そうに",
+    "ko": ""
+   }
+  },
+  {
+   "window": 334,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "のぞき込んでいたが　やがてちょっと気まずそうに",
+    "ko": ""
+   }
+  },
+  {
+   "window": 334,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "後かたづけを始めだした。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 335,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "・・・仕方ない・・部屋に戻ろう・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 336,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "部屋に戻った。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 336,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "さてこれから　どうしようかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 337,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0293.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "お兄ちゃん。入っていい？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 338,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "うん。いいよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 338,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "今はちょっと・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 339,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0294.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "あのね。お母さん@4910@がこれ　使うといいよって・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 340,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "『ＢＩＧ　ＲＵＮ北海道』を手に入れました。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 340,
+   "line": 1,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "コマンド『ガイドブック』が使えるようになりました。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 341,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0295.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "それじゃ私　もう寝るね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 341,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0295.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "それと　お風呂わいてるから　いつでも入って。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 341,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0295.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "おやすみなさーい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 342,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0296.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "じゃ・・これ　ドアの所に置いておくね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 342,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0296.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "北海道のガイドブックなんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 342,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0296.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "お母さんが　使うといいよって・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 343,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0297.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "それじゃ私　もう寝るね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 343,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0297.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "それと　お風呂わいてるから　いつでも入って。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 343,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "a0297.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "おやすみなさーい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 344,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "ドアの所に行き　ガイドブックを取った。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 344,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "表紙には『ＢＩＧ　ＲＵＮ北海道』と書いてある。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 345,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "『ＢＩＧ　ＲＵＮ北海道』を手に入れました。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 345,
+   "line": 1,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "コマンド『ガイドブック』が使えるようになりました。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 346,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "琴梨ちゃんはドアの前に何かを置いて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 346,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "やがて立ち去っていった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 347,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "ドアの所に行くと　そこにはガイドブックがあった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 347,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "表紙には『ＢＩＧ　ＲＵＮ北海道』と書いてある。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 348,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "『ＢＩＧ　ＲＵＮ北海道』を手に入れました。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 348,
+   "line": 1,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "コマンド『ガイドブック』が使えるようになりました。",
+    "ko": ""
+   }
+  }
+ ]
+}

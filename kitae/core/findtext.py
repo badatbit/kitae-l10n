@@ -5,8 +5,8 @@ Usage:
     python findtext.py -c 5 "台詞"               # with N lines of context
 """
 import os, io, sys, re
-
 HERE = os.path.dirname(os.path.abspath(__file__))
+
 TEXT = os.path.join(HERE, "..", "dump", "plot", "text")
 INIS = os.path.join(HERE, "..", "dump", "scn", "inis")
 

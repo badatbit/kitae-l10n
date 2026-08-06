@@ -70,7 +70,7 @@ class Cab:
         if tag == b"ENC0":
             return payload[:esz]
         if tag == b"ENC2":
-            from enc2 import decompress
+            from kitae.core.enc2 import decompress
             return decompress(payload, esz)
         raise NotImplementedError(f"{name}: unsupported encoding {tag!r}")
 

@@ -1,3 +1,5 @@
+import os
+HERE = os.path.dirname(os.path.abspath(__file__))
 """Build (and read back) the translation workbook for one script.
 
 The workbook is a UTF-8 TSV, one row per displayed line, carrying everything a
@@ -21,11 +23,9 @@ Usage:
 """
 import io, os, sys, csv
 
-HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, HERE)
-from cab import Cab
-from windows import script_windows, display_len
-import ebdis
+from kitae.core.cab import Cab
+from kitae.core.windows import script_windows, display_len
+from kitae.core import ebdis
 
 DUMP = os.path.join(HERE, "..", "dump")
 PLOT_CB = os.path.join(DUMP, "plot", "PLOT.CB")
