@@ -52,32 +52,36 @@ def texts(cfg, lang):
 
 
 def patch_all(cfg, lang, encode, base=None):
-    """{디스크 경로: 패치된 바이트}. base 는 {이름: 이미 손댄 바이트}."""
-    from kitae.core import pestr
+    """{디스크 경로: 패치된 바이트}. base 는 {이름: 이미 손댄 바이트}.
+
+    자리에 들어가는 것은 제자리에, 넘치는 것은 남은 빈칸으로 옮기고 포인터를
+    고쳐 쓴다 — kitae.build.relocate 참고.
+    """
+    from kitae.build import relocate
 
     base = base or {}
     out, warn = {}, []
     for name, doc in modules(cfg):
-        rows = [e for e in doc["entries"]
+        rows = [dict(e, text=(e.get("text") or {}).get(lang) or "")
+                for e in doc["entries"]
                 if ((e.get("text") or {}).get(lang) or "").strip()]
         if not rows:
             continue
         disc_path = doc["path"]
         blob = base.get(name) or open(original(cfg, disc_path), "rb").read()
 
-        n = 0
-        for e in rows:
-            raw = encode(e["text"][lang])
-            limit = e.get("avail", e["size"])
-            if len(raw) > limit:
-                warn.append(f"{name} {e['offset']:#x}: "
-                            f"{len(raw)}B > {limit}B  {e['text'][lang]!r}")
-                continue
-            blob = pestr.patch(blob, e["offset"], limit, raw)
-            n += 1
-        if n:
-            out[disc_path] = blob
-            print(f"  {name}: {n}개 문자열 교체")
+        blob, rep = relocate.apply(blob, rows, encode)
+        out[disc_path] = blob
+        msg = f"  {name}: 제자리 {rep['kept']}개"
+        if rep["moved"]:
+            msg += f", 이사 {len(rep['moved'])}개"
+        msg += f"  (남은 빈칸 {rep['free_left']}B)"
+        print(msg)
+        for old, new, nref, text in rep["moved"][:4]:
+            print(f"      {old:#08x} → {new:#08x}  포인터 {nref}곳  {text}")
+        for e, why in rep["failed"]:
+            warn.append(f"{name} {e['offset']:#x}: 자리 없음({why})  "
+                        f"{e['text']!r}")
     for w in warn:
         print(f"  ⚠ {w}")
     return out, warn
