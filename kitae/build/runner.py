@@ -165,7 +165,15 @@ def build(cfg, scripts, lang, want_font=True):
         out = _work(cfg, "build", *disc_path.strip("/").split("/"))
         with open(out, "wb") as fh:
             fh.write(blob)
-        disc_mod.replace_same_size(track, disc_path.lstrip("/"), blob)
+        orig_size = os.path.getsize(uipatch.original(cfg, disc_path))
+        if len(blob) == orig_size:
+            disc_mod.replace_same_size(track, disc_path.lstrip("/"), blob)
+        else:
+            # PE 섹션을 붙여 커진 경우 — 자리를 다시 잡고 디렉터리를 고친다
+            print(f"  {disc_path}: {orig_size:,} → {len(blob):,} bytes")
+            tmp = track + ".tmp"
+            disc_mod.patch(disc_path.lstrip("/"), blob, tmp, track)
+            os.replace(tmp, track)
 
     diff = disc_mod.diff_against(track, cfg.track(3))
     print(f"\n원본과 다른 파일: {diff}")

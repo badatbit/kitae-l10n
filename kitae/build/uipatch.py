@@ -51,6 +51,21 @@ def texts(cfg, lang):
     return out
 
 
+def _grow(cfg, name, _cur, base_blob, rows, encode, nbytes=512):
+    """PE 에 데이터 섹션을 붙이고 그 공간까지 써서 다시 배치한다."""
+    from kitae.build import pesection, relocate
+    try:
+        blob, off, size = pesection.add(base_blob, ".ktr", nbytes)
+    except Exception as e:
+        print(f"  {name}: 섹션을 붙일 수 없다 ({e})")
+        return None
+    got, rep = relocate.apply(blob, rows, encode,
+                              extra_free=[(off, size - 1)])
+    if rep["failed"]:
+        return None
+    return got, rep, []
+
+
 def patch_all(cfg, lang, encode, base=None):
     """{디스크 경로: 패치된 바이트}. base 는 {이름: 이미 손댄 바이트}.
 
@@ -92,6 +107,14 @@ def patch_all(cfg, lang, encode, base=None):
             dropped += bad
             keep = {id(e) for e in bad}
             attempt = [e for e in attempt if id(e) not in keep]
+        if dropped:
+            # 소유 공간으로 안 되면 PE 에 데이터 섹션을 붙여 본다. 파일이
+            # 커지므로 ISO 여유가 필요하고, 로더가 받아 줄지는 미확인이다.
+            grown = _grow(cfg, name, blob if blob is not base_blob else base_blob,
+                          base_blob, rows, encode)
+            if grown is not None:
+                blob, rep, dropped = grown
+                print(f"  {name}: 자리가 모자라 PE 섹션을 붙였다")
         for e in dropped:
             warn.append(f"{name} {e['offset']:#x}: 자리 없음 — 원문 유지  "
                         f"{e['text']!r}")
