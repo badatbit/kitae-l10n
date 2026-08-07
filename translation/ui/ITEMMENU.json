@@ -1,0 +1,426 @@
+{
+  "module": "ITEMMENU",
+  "path": "/TRF/ITEMMENU.DLL",
+  "entries": [
+    {
+      "offset": 58004,
+      "size": 14,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "アジサイの花束",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 58020,
+      "size": 71,
+      "avail": 71,
+      "section": ".data",
+      "text": {
+        "ja": "狸小路にある奥村生花店で買った花束だ。\n鮎ちゃん・・喜んでくれるかな・・",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 58092,
+      "size": 16,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "黄色いバラの花束",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 58112,
+      "size": 16,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "サクラソウの花束",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 58132,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "リブレット",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 58144,
+      "size": 77,
+      "avail": 79,
+      "section": ".data",
+      "text": {
+        "ja": "最新型のノートパソコンだ。\n４丁目プラザで待っている『ゆきちゃん』の忘れ物だ。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 58224,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "謎のポエム",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 58236,
+      "size": 38,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "荒井さんについて書かれているポエムだ。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 58276,
+      "size": 18,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "由子にもらった手袋",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 58296,
+      "size": 6,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "手袋？",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 58304,
+      "size": 106,
+      "avail": 107,
+      "section": ".data",
+      "text": {
+        "ja": "由子さんがくれた手袋・・と言うか・・\nドアノブカバー・・と言うか・・\nとにかく愛情のこもった毛糸の編み物だ。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 58412,
+      "size": 24,
+      "avail": 27,
+      "section": ".data",
+      "text": {
+        "ja": "葉野香にもらったマフラー",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 58440,
+      "size": 18,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "&マフラー&マフラー",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 58460,
+      "size": 83,
+      "avail": 83,
+      "section": ".data",
+      "text": {
+        "ja": "葉野香ちゃんが編んでくれたマフラーだ。\n僕の好きな　&マフラー&色の毛糸を使っている。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 58544,
+      "size": 16,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "めぐみちゃん人形",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 58564,
+      "size": 38,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "めぐみちゃんがくれた　手作りの人形だ。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 58604,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "赤いスズラン",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 58620,
+      "size": 87,
+      "avail": 87,
+      "section": ".data",
+      "text": {
+        "ja": "ターニャが作ったガラスのペンダントだ。\nお父さんの思い出の色・・夕焼けの赤で出来ている。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 58708,
+      "size": 8,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "赤い花瓶",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 58720,
+      "size": 28,
+      "avail": 31,
+      "section": ".data",
+      "text": {
+        "ja": "ターニャが作った赤い花瓶だ。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 58752,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "ガラスの小鳥",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 58768,
+      "size": 38,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "小樽運河工藝館で買ったガラスの小鳥だ。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 58808,
+      "size": 14,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "ガラスのリンゴ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 58824,
+      "size": 40,
+      "avail": 43,
+      "section": ".data",
+      "text": {
+        "ja": "小樽運河工藝館で買ったガラスのリンゴだ。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 58868,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "えんジェル",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 58880,
+      "size": 50,
+      "avail": 51,
+      "section": ".data",
+      "text": {
+        "ja": "須貝ビルのＵＦＯキャッチャーで取ったヌイグルミだ。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 58932,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "もちジェル",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 58944,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "ぱんだジェル",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 58960,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "うるふジェル",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 58976,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "でぶジェル",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 58988,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "みみジェル",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 59000,
+      "size": 14,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "生チョコレート",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 59016,
+      "size": 93,
+      "avail": 95,
+      "section": ".data",
+      "text": {
+        "ja": "平岸にあるロイズで買った生チョコレートだ。\n『男性にも好評な大人のチョコレート』と書いてある。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 59112,
+      "size": 14,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "生チョコオーレ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 59128,
+      "size": 87,
+      "avail": 87,
+      "section": ".data",
+      "text": {
+        "ja": "平岸にあるロイズで買った生チョコレートだ。\n『生クリームで仕上げた正統派』と書いてある。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 59276,
+      "size": 65,
+      "avail": 67,
+      "section": ".data",
+      "text": {
+        "ja": "方向ボタン上下左右でアイテムを選択、\nＡボタンで説明が見られます。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 59344,
+      "size": 73,
+      "avail": 75,
+      "section": ".data",
+      "text": {
+        "ja": "方向ボタン上下左右でアイテムを選択、\nＡボタンで渡すアイテムを決定します。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 59420,
+      "size": 37,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "でいいですか？\n　　　はい　／　いいえ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 59460,
+      "size": 45,
+      "avail": 47,
+      "section": ".data",
+      "text": {
+        "ja": "あげるのをやめますか？\n　　　はい　／　いいえ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 59528,
+      "size": 6,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "持ち物",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 59536,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "誰に",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 59552,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "何を",
+        "ko": ""
+      }
+    }
+  ]
+}

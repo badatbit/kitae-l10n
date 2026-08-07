@@ -73,7 +73,7 @@ def _timing_specs(doc, lang, wins, strs):
 
 def build(cfg, scripts, lang, want_font=True):
     from kitae.build import smf as smf_mod, mtg as mtg_mod, disc as disc_mod
-    from kitae.build import hangul
+    from kitae.build import hangul, uipatch
 
     src_lang = cfg["source"]
     cb_dir = cfg.path(cfg["work_dir"], "cb", "RESOURCE")
@@ -90,8 +90,10 @@ def build(cfg, scripts, lang, want_font=True):
     # 1. 폰트 --------------------------------------------------------------
     font_dll = None
     if want_font:
+        # 대사와 시스템 UI 에 쓰인 글자를 함께 모은다 — 폰트는 하나뿐이다
         chars = {c for s in scripts for r in rows[s].values()
                  for c in r["target"] if hangul.is_hangul(c)}
+        chars |= {c for c in uipatch.texts(cfg, lang) if hangul.is_hangul(c)}
         if chars:
             font_dll = hangul.inject(cfg, chars)
             print(f"폰트: {len(chars)}자 주입 → {os.path.relpath(font_dll, cfg.root)}")
@@ -151,9 +153,19 @@ def build(cfg, scripts, lang, want_font=True):
         disc_mod.patch(disc_path, open(built, "rb").read(), tmp, track)
         os.replace(tmp, track)
 
+    # 6. 시스템 UI ----------------------------------------------------------
+    # 폰트를 넣은 TRFSTRINGS 위에 UI 패치를 얹어야 한다 — 같은 파일이다.
+    base = {}
     if font_dll:
-        disc_mod.replace_same_size(track, "TRF/TRFSTRINGS.DLL",
-                                   open(font_dll, "rb").read())
+        base["TRFSTRINGS"] = open(font_dll, "rb").read()
+    ui, _warn = uipatch.patch_all(cfg, lang, hangul.encoder(cfg), base)
+    if font_dll and "/TRF/TRFSTRINGS.DLL" not in ui:
+        ui["/TRF/TRFSTRINGS.DLL"] = base["TRFSTRINGS"]
+    for disc_path, blob in sorted(ui.items()):
+        out = _work(cfg, "build", *disc_path.strip("/").split("/"))
+        with open(out, "wb") as fh:
+            fh.write(blob)
+        disc_mod.replace_same_size(track, disc_path.lstrip("/"), blob)
 
     diff = disc_mod.diff_against(track, cfg.track(3))
     print(f"\n원본과 다른 파일: {diff}")

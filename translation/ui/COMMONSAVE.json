@@ -1,0 +1,206 @@
+{
+  "module": "COMMONSAVE",
+  "path": "/TRF/COMMONSAVE.DLL",
+  "entries": [
+    {
+      "offset": 66756,
+      "size": 49,
+      "avail": 51,
+      "section": ".data",
+      "text": {
+        "ja": "クリアデータを保存しますか？\n　　はい　／　いいえ",
+        "ko": "클리어 데이터를 저장할까요？\n　　예　／　아니요"
+      }
+    },
+    {
+      "offset": 66808,
+      "size": 38,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "正しくデータをセーブできませんでした。",
+        "ko": "데이터를 제대로 저장하지 못했습니다."
+      }
+    },
+    {
+      "offset": 66848,
+      "size": 99,
+      "avail": 99,
+      "section": ".data",
+      "text": {
+        "ja": "ポートＡの拡張ソケット１のメモリーカードにセーブ中\nです。メモリーカードを抜き差ししないでください。",
+        "ko": "포트Ａ 확장 소켓１의 메모리 카드에 저장 중\n입니다. 메모리 카드를 빼지 마세요."
+      }
+    },
+    {
+      "offset": 66948,
+      "size": 22,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "セーブが終了しました。",
+        "ko": "저장이 끝났습니다."
+      }
+    },
+    {
+      "offset": 66976,
+      "size": 14,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "琴梨の夏編終了",
+        "ko": "코토리 여름편"
+      }
+    },
+    {
+      "offset": 66992,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "鮎の夏編終了",
+        "ko": "아유 여름편"
+      }
+    },
+    {
+      "offset": 67008,
+      "size": 18,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "ターニャの夏編終了",
+        "ko": "타냐 여름편"
+      }
+    },
+    {
+      "offset": 67028,
+      "size": 14,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "由子の夏編終了",
+        "ko": "유코 여름편"
+      }
+    },
+    {
+      "offset": 67044,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "薫の夏編終了",
+        "ko": "카오루 여름편"
+      }
+    },
+    {
+      "offset": 67060,
+      "size": 16,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "葉野香の夏編終了",
+        "ko": "하노카 여름편"
+      }
+    },
+    {
+      "offset": 67080,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "梢の夏編終了",
+        "ko": "코즈에 여름편"
+      }
+    },
+    {
+      "offset": 67096,
+      "size": 16,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "めぐみの夏編終了",
+        "ko": "메구미 여름편"
+      }
+    },
+    {
+      "offset": 67116,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "ＵＦＯできる",
+        "ko": "ＵＦＯ 가능"
+      }
+    },
+    {
+      "offset": 67132,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "クイズできる",
+        "ko": "퀴즈 가능"
+      }
+    },
+    {
+      "offset": 67148,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "テニスできる",
+        "ko": "테니스 가능"
+      }
+    },
+    {
+      "offset": 67164,
+      "size": 18,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "テクノメイズできる",
+        "ko": "테크노 미로 가능"
+      }
+    },
+    {
+      "offset": 67184,
+      "size": 14,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "ひまわりできる",
+        "ko": "해바라기 가능"
+      }
+    },
+    {
+      "offset": 67200,
+      "size": 14,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "カラオケできる",
+        "ko": "노래방 가능"
+      }
+    },
+    {
+      "offset": 67216,
+      "size": 20,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "シューティングできる",
+        "ko": "슈팅 가능"
+      }
+    },
+    {
+      "offset": 67240,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "まけましたわ",
+        "ko": "졌습니다"
+      }
+    }
+  ]
+}

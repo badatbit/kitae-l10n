@@ -1,0 +1,656 @@
+{
+  "module": "TRFOPTIONGAME",
+  "path": "/TRF/TRFOPTIONGAME.DLL",
+  "entries": [
+    {
+      "offset": 89416,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "オプション",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 89428,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "まけましたわ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 89452,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "対戦相手１",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 89464,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "対戦相手２",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 89564,
+      "size": 75,
+      "avail": 75,
+      "section": ".data",
+      "text": {
+        "ja": "メモリーカードにファイルがありません。\n正しいメモリーカードを差して下さい。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 89640,
+      "size": 38,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "メモリーカードへの保存に失敗しました。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 89692,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "はい",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 89700,
+      "size": 6,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "いいえ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 89708,
+      "size": 38,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "操作説明を見てからゲームを始めますか？",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 89748,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "操作説明聞く",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 89864,
+      "size": 20,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "クイズまるごと北海道",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 89888,
+      "size": 20,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": " テニスラリーゲーム ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 89912,
+      "size": 20,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "    テクノメイズ    ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 89936,
+      "size": 20,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "    ひまわり迷路    ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 89960,
+      "size": 20,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "　 カラオケゲーム   ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 89984,
+      "size": 20,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "ガーディアンウィング",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 90008,
+      "size": 20,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "　　　　搾乳　　　　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 90032,
+      "size": 20,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "       カめら       ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 90056,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "ＵＦＯできる",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 90072,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "クイズできる",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 90088,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "テニスできる",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 90104,
+      "size": 18,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "テクノメイズできる",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 90124,
+      "size": 14,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "ひまわりできる",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 90140,
+      "size": 14,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "カラオケできる",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 90156,
+      "size": 20,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "シューティングできる",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 90180,
+      "size": 81,
+      "avail": 83,
+      "section": ".data",
+      "text": {
+        "ja": "方向ボタンで遊ぶゲームを選択。\nＡボタンで決定。Ｂボタンでタイトル画面に戻ります。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 90264,
+      "size": 14,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "ミニゲーム選択",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 90400,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "鮎の夏編終了",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 90416,
+      "size": 18,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "ターニャの夏編終了",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 90436,
+      "size": 14,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "由子の夏編終了",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 90452,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "薫の夏編終了",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 90468,
+      "size": 16,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "葉野香の夏編終了",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 90488,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "梢の夏編終了",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 90504,
+      "size": 16,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "めぐみの夏編終了",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 90524,
+      "size": 19,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "      春野琴梨     ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 90544,
+      "size": 13,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "       川原鮎",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 90560,
+      "size": 14,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "      ターニャ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 90576,
+      "size": 14,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "      桜町由子",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 90592,
+      "size": 13,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "       椎名薫",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 90608,
+      "size": 15,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "     左京葉野香",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 90624,
+      "size": 13,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "       里中梢",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 90640,
+      "size": 15,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "     愛田めぐみ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 90656,
+      "size": 16,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "    （選択終了）",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 90676,
+      "size": 118,
+      "avail": 119,
+      "section": ".data",
+      "text": {
+        "ja": "方向ボタン上下でカーソルを移動。\nＡボタンで相手の選択／非選択を切り替えます。\nＢボタンでミニゲーム選択画面に戻ります。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 90796,
+      "size": 14,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "パートナー選択",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 90844,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "セーブしない",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 90860,
+      "size": 97,
+      "avail": 99,
+      "section": ".data",
+      "text": {
+        "ja": "ランキングが更新されているミニゲームがあります。\nデータをセーブしてからタイトル画面へ戻りますか？",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 90960,
+      "size": 99,
+      "avail": 99,
+      "section": ".data",
+      "text": {
+        "ja": "ポートＡの拡張ソケット１のメモリーカードにセーブ中\nです。メモリーカードを抜き差ししないでください。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 91136,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "１２３４５６",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 91152,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": " と 春野琴梨",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 91168,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": " と 川原鮎",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 91180,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": " と ターニャ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 91196,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": " と 桜町由子",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 91212,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": " と 椎名薫",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 91224,
+      "size": 14,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": " と 左京葉野香",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 91240,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": " と 里中梢",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 91252,
+      "size": 14,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": " と 愛田めぐみ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 91292,
+      "size": 18,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "わたしまけましたわ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 91312,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "ひこうき雲",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 91324,
+      "size": 8,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "したっけ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 91336,
+      "size": 14,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "ＭＯＶＥ　ＯＮ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 91368,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "点　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 91388,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "回　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 91420,
+      "size": 14,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "ゲームスタート",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 91436,
+      "size": 16,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "ランキングを見る",
+        "ko": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,906 @@
+{
+  "module": "TRFNAMEIN",
+  "path": "/TRF/TRFNAMEIN.DLL",
+  "entries": [
+    {
+      "offset": 83532,
+      "size": 377,
+      "avail": 379,
+      "section": ".data",
+      "text": {
+        "ja": "方向ボタン上下でアイコン選択　Ａボタンで決定\nＸボタンで文字を削除し入力部分を前に戻します。\nスタートボタンで名字または名前の入力を終了します。カーソルで読みの先頭を選択、\nＡボタンで漢字選択に移動します。左右で入力部分を選択、\nＡまたはＢで一文字消去します。カーソルで文字を選択、\nＡボタンで決定します。い音ん下さり画面１つ場合先頭の複数ページ時はＬＲトリガーで切り替えられます／",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 83912,
+      "size": 92,
+      "avail": 95,
+      "section": ".data",
+      "text": {
+        "ja": "あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 84008,
+      "size": 30,
+      "avail": 31,
+      "section": ".data",
+      "text": {
+        "ja": "名字名前０１２３４５６７８９／",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 84040,
+      "size": 8,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "竹下　　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 84052,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "デブ？　　　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 84068,
+      "size": 142,
+      "avail": 143,
+      "section": ".data",
+      "text": {
+        "ja": "方向ボタン上下でアイコン選択　Ａボタンで決定\nＸボタンで文字を削除し入力部分を前に戻します。\nスタートボタンで名字または名前の入力を終了します。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 84212,
+      "size": 148,
+      "avail": 151,
+      "section": ".data",
+      "text": {
+        "ja": "入力したい漢字の　読みの先頭の文字を選んで下さい。\nＡボタンで決定　Ｂボタンで前の画面に戻ります。\nスタートボタンで名字または名前の入力を終了します。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 84364,
+      "size": 73,
+      "avail": 75,
+      "section": ".data",
+      "text": {
+        "ja": "方向ボタン左右で入力部分を移動します\nＡまたはＢボタンで文字を削除します。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 84440,
+      "size": 146,
+      "avail": 147,
+      "section": ".data",
+      "text": {
+        "ja": "Ａボタンで文字を入力　Ｂボタンで１つ前に戻ります。\nＸボタンで文字を削除し入力部分を前に戻します。\n複数ページの場合はＬ／Ｒトリガーで切り替えます。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 84588,
+      "size": 148,
+      "avail": 151,
+      "section": ".data",
+      "text": {
+        "ja": "Ａボタンで文字を入力　Ｂボタンで１つ前に戻ります。\nＸボタンで文字を削除し入力部分を前に戻します。\nスタートボタンで名字または名前の入力を終了します。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 84740,
+      "size": 136,
+      "avail": 139,
+      "section": ".data",
+      "text": {
+        "ja": "Ａボタンで文字を入力　Ｂボタンで１つ前に戻ります。\nＸボタンで文字を削除し入力部分を前に戻します。\nＬ／Ｒトリガーでページを切り替えます。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 84880,
+      "size": 24,
+      "avail": 27,
+      "section": ".data",
+      "text": {
+        "ja": "名字の入力を終了します。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 84908,
+      "size": 24,
+      "avail": 27,
+      "section": ".data",
+      "text": {
+        "ja": "名前の入力を終了します。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 84936,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "名字",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 84944,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "名前",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 84952,
+      "size": 32,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "あいうえお\nかきくけこ\nさしすせそ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 84988,
+      "size": 32,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "たちつてと\nなにぬねの\nはひふへほ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85024,
+      "size": 32,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "まみむめも\nやゆよ　わ\nらりるれろ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85404,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "隆司",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85412,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "高野",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85420,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "裕太",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85428,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "中嶋",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85436,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "知彦",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85444,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "武藤",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85452,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "重雄",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85460,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "長山",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85472,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "三枝",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85480,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "博器",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85488,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "田坂",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85496,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "拓哉",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85504,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "安部",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85512,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "知也",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85520,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "桝谷",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85528,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "裕一",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85536,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "日野",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85544,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "清治",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85552,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "斉藤",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85560,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "智之",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85568,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "中村",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85580,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "千葉",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85588,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "慎二",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85596,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "竹下",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85604,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "功一",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85612,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "角谷",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85620,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "篤志",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85628,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "米川",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85636,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "正樹",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85644,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "山口",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85652,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "英樹",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85660,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "蟹江",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85668,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "則宏",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85676,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "柳澤",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85688,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "矢野",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85696,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "祐治",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85704,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "高橋",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85712,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "抄太",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85720,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "滝本",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85728,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "利昭",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85736,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "三谷",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85744,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "晴基",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85752,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "佐藤",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85760,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "太郎",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85768,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "次郎",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85776,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "三郎",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85784,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "鈴木",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85792,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "信一",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85800,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "信次",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85808,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "洋一",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85816,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "田中",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85824,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "洋二",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85832,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "健一",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85840,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "健二",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85848,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "吉田",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85856,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "純一",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85864,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "淳次",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85872,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "井上",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85880,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "博史",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85888,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "青山",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85896,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "昭次",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85904,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "遠藤",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85916,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "岡田",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85924,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "正道",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85932,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "小林",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85940,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "悦司",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85948,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "木村",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85956,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "吾郎",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85964,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "正弘",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85972,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "克則",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85984,
+      "size": 22,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "　さんでいいですか？　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 86016,
+      "size": 37,
+      "avail": 44,
+      "section": ".data",
+      "text": {
+        "ja": "\n　\n 　　　　　はい　　　　　　いいえ",
+        "ko": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,556 @@
+{
+  "module": "TRFSTRINGS",
+  "path": "/TRF/TRFSTRINGS.DLL",
+  "entries": [
+    {
+      "offset": 112312,
+      "size": 8,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "竹下功一",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 112324,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "主人公名前",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 112336,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "竹下",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 112344,
+      "size": 6,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "主人公",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 112352,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "功一",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 112360,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "名前",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 307630,
+      "size": 6,
+      "avail": 6,
+      "section": ".data",
+      "text": {
+        "ja": "?条?条",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 362221,
+      "size": 6,
+      "avail": 6,
+      "section": ".data",
+      "text": {
+        "ja": "?錮?錮",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 486013,
+      "size": 6,
+      "avail": 6,
+      "section": ".data",
+      "text": {
+        "ja": "?錮?錮",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 542566,
+      "size": 6,
+      "avail": 6,
+      "section": ".data",
+      "text": {
+        "ja": "?醸?飾",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 578368,
+      "size": 6,
+      "avail": 6,
+      "section": ".data",
+      "text": {
+        "ja": "?錮?錮",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 578380,
+      "size": 6,
+      "avail": 6,
+      "section": ".data",
+      "text": {
+        "ja": "?錮?錮",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 594202,
+      "size": 6,
+      "avail": 6,
+      "section": ".data",
+      "text": {
+        "ja": "?錮?錮",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 679942,
+      "size": 6,
+      "avail": 6,
+      "section": ".data",
+      "text": {
+        "ja": "?滌?滌",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 774367,
+      "size": 6,
+      "avail": 6,
+      "section": ".data",
+      "text": {
+        "ja": "P汝x汝",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 777223,
+      "size": 5,
+      "avail": 5,
+      "section": ".data",
+      "text": {
+        "ja": "咳巻@",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 777385,
+      "size": 7,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "O銓W鉤P",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 777393,
+      "size": 8,
+      "avail": 8,
+      "section": ".data",
+      "text": {
+        "ja": "\nW鉤_鋺P",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 779257,
+      "size": 28,
+      "avail": 28,
+      "section": ".data",
+      "text": {
+        "ja": "NBrQB害B害B害B害B害B害B害B咳",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 779786,
+      "size": 5,
+      "avail": 5,
+      "section": ".data",
+      "text": {
+        "ja": "徨 ｊ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 785260,
+      "size": 7,
+      "avail": 8,
+      "section": ".data",
+      "text": {
+        "ja": "'脛'脛 ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 803177,
+      "size": 5,
+      "avail": 5,
+      "section": ".data",
+      "text": {
+        "ja": "　?　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 847945,
+      "size": 6,
+      "avail": 8,
+      "section": ".data",
+      "text": {
+        "ja": "1辭#鄲",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 863975,
+      "size": 5,
+      "avail": 5,
+      "section": ".data",
+      "text": {
+        "ja": "阿(娃",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 895159,
+      "size": 7,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "@靭訓B@",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 903322,
+      "size": 7,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "U溟I溟A",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 923999,
+      "size": 5,
+      "avail": 5,
+      "section": ".data",
+      "text": {
+        "ja": "巻8が",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 932917,
+      "size": 5,
+      "avail": 5,
+      "section": ".data",
+      "text": {
+        "ja": "凖髜 ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 941997,
+      "size": 7,
+      "avail": 8,
+      "section": ".data",
+      "text": {
+        "ja": " 沺瀰麾",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 973252,
+      "size": 7,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "'鈕'鈕 ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 976345,
+      "size": 7,
+      "avail": 8,
+      "section": ".data",
+      "text": {
+        "ja": "W憫_懈P",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 976354,
+      "size": 7,
+      "avail": 8,
+      "section": ".data",
+      "text": {
+        "ja": "_懈W憫P",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 993388,
+      "size": 7,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "O銓O銓@",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 1005351,
+      "size": 5,
+      "avail": 5,
+      "section": ".data",
+      "text": {
+        "ja": "４轤S",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 1006671,
+      "size": 5,
+      "avail": 5,
+      "section": ".data",
+      "text": {
+        "ja": "咳>咳",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 1011462,
+      "size": 8,
+      "avail": 8,
+      "section": ".data",
+      "text": {
+        "ja": "*Q刳Q刳T",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 1063667,
+      "size": 5,
+      "avail": 5,
+      "section": ".data",
+      "text": {
+        "ja": "繊q　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 1072589,
+      "size": 5,
+      "avail": 5,
+      "section": ".data",
+      "text": {
+        "ja": "滲A滬",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 1077878,
+      "size": 5,
+      "avail": 5,
+      "section": ".data",
+      "text": {
+        "ja": "ｊ\nｊ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 1098578,
+      "size": 5,
+      "avail": 5,
+      "section": ".data",
+      "text": {
+        "ja": "う3ｐ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 1121365,
+      "size": 7,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "_鋺W鉤P",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 1161616,
+      "size": 7,
+      "avail": 8,
+      "section": ".data",
+      "text": {
+        "ja": "/銜/銜 ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 1163842,
+      "size": 7,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "d鄲(轢(",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 1163850,
+      "size": 8,
+      "avail": 8,
+      "section": ".data",
+      "text": {
+        "ja": "@ 轢 縲 ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 1171166,
+      "size": 8,
+      "avail": 8,
+      "section": ".data",
+      "text": {
+        "ja": "A@@繊?瓠",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 1180640,
+      "size": 5,
+      "avail": 12,
+      "section": ".data",
+      "text": {
+        "ja": "ａ悛B",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 1182567,
+      "size": 8,
+      "avail": 8,
+      "section": ".data",
+      "text": {
+        "ja": "TD絛E耿E",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 1195136,
+      "size": 8,
+      "avail": 9,
+      "section": ".data",
+      "text": {
+        "ja": "@\n逗\n麾\n",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 1199331,
+      "size": 8,
+      "avail": 8,
+      "section": ".data",
+      "text": {
+        "ja": "*S醋W鉤X",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 1199991,
+      "size": 8,
+      "avail": 8,
+      "section": ".data",
+      "text": {
+        "ja": "\nQ謚W詼P",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 1200348,
+      "size": 8,
+      "avail": 8,
+      "section": ".data",
+      "text": {
+        "ja": "\nQ醋Q鉤T",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 1215750,
+      "size": 11,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "\nV<jQB害B街",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 1243448,
+      "size": 5,
+      "avail": 5,
+      "section": ".data",
+      "text": {
+        "ja": "B尽檍",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 1250282,
+      "size": 5,
+      "avail": 6,
+      "section": ".data",
+      "text": {
+        "ja": "漑@漑",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 1251104,
+      "size": 5,
+      "avail": 5,
+      "section": ".data",
+      "text": {
+        "ja": "　`　",
+        "ko": ""
+      }
+    }
+  ]
+}

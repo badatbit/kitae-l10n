@@ -1,0 +1,106 @@
+{
+  "module": "KITATITLE",
+  "path": "/TRF/KITATITLE.DLL",
+  "entries": [
+    {
+      "offset": 67904,
+      "size": 11,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "   最初から",
+        "ko": "   처음부터"
+      }
+    },
+    {
+      "offset": 67916,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "  つづきから",
+        "ko": "  이어하기"
+      }
+    },
+    {
+      "offset": 67932,
+      "size": 13,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": " システム設定",
+        "ko": " 시스템 설정"
+      }
+    },
+    {
+      "offset": 67948,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "    達成度",
+        "ko": "   달성도"
+      }
+    },
+    {
+      "offset": 67960,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "  ミニゲーム",
+        "ko": "  미니게임"
+      }
+    },
+    {
+      "offset": 67976,
+      "size": 14,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "サウンドルーム",
+        "ko": "사운드룸"
+      }
+    },
+    {
+      "offset": 67992,
+      "size": 75,
+      "avail": 75,
+      "section": ".data",
+      "text": {
+        "ja": "メモリーカードをアクセス中です。\nメモリーカードの抜き差しはしないで下さい。",
+        "ko": "메모리 카드에 접근 중입니다.\n메모리 카드를 뺐다 꽂았다 하지 마세요."
+      }
+    },
+    {
+      "offset": 68148,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "ナレスキップ",
+        "ko": "해설 건너뛰기"
+      }
+    },
+    {
+      "offset": 68164,
+      "size": 14,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "メッセージ速度",
+        "ko": "메시지 속도"
+      }
+    },
+    {
+      "offset": 68180,
+      "size": 18,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "メッセージボーダー",
+        "ko": "메시지 테두리"
+      }
+    }
+  ]
+}

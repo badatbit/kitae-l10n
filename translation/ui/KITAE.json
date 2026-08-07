@@ -1,0 +1,226 @@
+{
+  "module": "KITAE",
+  "path": "/TRF/KITAE.DLL",
+  "entries": [
+    {
+      "offset": 68772,
+      "size": 4,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "赤い",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 68792,
+      "size": 14,
+      "avail": 21,
+      "section": ".data",
+      "text": {
+        "ja": "デビルＮＡＲＫ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 68824,
+      "size": 6,
+      "avail": 13,
+      "section": ".data",
+      "text": {
+        "ja": "デビル",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 68856,
+      "size": 8,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "ＮＡＲＫ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 68960,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "主人公名前",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 68972,
+      "size": 6,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "主人公",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 68980,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "名前",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 68992,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "午前",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 69000,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "午後",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 69008,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "夕方",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 69020,
+      "size": 9,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "00月00日 ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 69080,
+      "size": 8,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "移動表示",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 69092,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "セーブ場所",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 69104,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "セーブカット",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 69220,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "赤い",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 69228,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "青い",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 69236,
+      "size": 6,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "黄色い",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 69244,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "緑の",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 69252,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "紫の",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 69260,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "黒い",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 69268,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "紺の",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 69276,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "白い",
+        "ko": ""
+      }
+    }
+  ]
+}

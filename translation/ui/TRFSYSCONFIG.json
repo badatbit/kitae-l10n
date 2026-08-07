@@ -1,0 +1,146 @@
+{
+  "module": "TRFSYSCONFIG",
+  "path": "/TRF/TRFSYSCONFIG.DLL",
+  "entries": [
+    {
+      "offset": 67976,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "システム変更",
+        "ko": "시스템 변경"
+      }
+    },
+    {
+      "offset": 67992,
+      "size": 22,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "一度聞いたナレーション",
+        "ko": "한 번 들은 해설"
+      }
+    },
+    {
+      "offset": 68016,
+      "size": 29,
+      "avail": 31,
+      "section": ".data",
+      "text": {
+        "ja": "スキップしない／ スキップする",
+        "ko": "건너뛰지 않음／건너뛰기"
+      }
+    },
+    {
+      "offset": 68048,
+      "size": 24,
+      "avail": 27,
+      "section": ".data",
+      "text": {
+        "ja": "メッセージの表示スピード",
+        "ko": "메시지 표시 속도"
+      }
+    },
+    {
+      "offset": 68076,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "標準／高速",
+        "ko": "표준／고속"
+      }
+    },
+    {
+      "offset": 68088,
+      "size": 24,
+      "avail": 27,
+      "section": ".data",
+      "text": {
+        "ja": "メッセージウィンドウの色",
+        "ko": "메시지 창 색"
+      }
+    },
+    {
+      "offset": 68116,
+      "size": 26,
+      "avail": 27,
+      "section": ".data",
+      "text": {
+        "ja": "赤／紫／青／緑／黄／白／黒",
+        "ko": "빨／보／파／초／노／흰／검"
+      }
+    },
+    {
+      "offset": 68144,
+      "size": 28,
+      "avail": 31,
+      "section": ".data",
+      "text": {
+        "ja": "メッセージウィンドウの透明度",
+        "ko": "메시지 창 투명도"
+      }
+    },
+    {
+      "offset": 68176,
+      "size": 26,
+      "avail": 27,
+      "section": ".data",
+      "text": {
+        "ja": "０／１／２／３／４／５／６",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 68204,
+      "size": 134,
+      "avail": 135,
+      "section": ".data",
+      "text": {
+        "ja": "方向ボタン上下で項目を選び方向ボタン左右で変更。\nスタートボタンで選択した内容を設定して抜けます。\nＢボタンで設定を反映せずに抜けます。",
+        "ko": "방향 버튼 위아래로 항목을 고르고 좌우로 바꿉니다.\n스타트 버튼으로 설정하고 나갑니다.\nＢ 버튼으로 반영하지 않고 나갑니다."
+      }
+    },
+    {
+      "offset": 68340,
+      "size": 46,
+      "avail": 47,
+      "section": ".data",
+      "text": {
+        "ja": "この設定でよろしいですか？\n　 はい　／　いいえ",
+        "ko": "이 설정으로 괜찮습니까？\n　 예　／　아니요"
+      }
+    },
+    {
+      "offset": 68468,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "ナレスキップ",
+        "ko": "해설 건너뛰기"
+      }
+    },
+    {
+      "offset": 68484,
+      "size": 14,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "メッセージ速度",
+        "ko": "메시지 속도"
+      }
+    },
+    {
+      "offset": 68500,
+      "size": 18,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "メッセージボーダー",
+        "ko": "메시지 테두리"
+      }
+    }
+  ]
+}

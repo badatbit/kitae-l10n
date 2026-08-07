@@ -1,0 +1,1806 @@
+{
+  "module": "TRFGUIDEMAP",
+  "path": "/TRF/TRFGUIDEMAP.DLL",
+  "entries": [
+    {
+      "offset": 76668,
+      "size": 24,
+      "avail": 27,
+      "section": ".data",
+      "text": {
+        "ja": "          札幌          ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 76696,
+      "size": 24,
+      "avail": 27,
+      "section": ".data",
+      "text": {
+        "ja": "    小樽／銭函／積丹    ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 76724,
+      "size": 24,
+      "avail": 27,
+      "section": ".data",
+      "text": {
+        "ja": "    室蘭／登別／千歳    ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 76752,
+      "size": 24,
+      "avail": 27,
+      "section": ".data",
+      "text": {
+        "ja": "   富良野／北竜／留萌   ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 76780,
+      "size": 24,
+      "avail": 27,
+      "section": ".data",
+      "text": {
+        "ja": "夕張／帯広／足寄／弟子屈",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 76808,
+      "size": 24,
+      "avail": 27,
+      "section": ".data",
+      "text": {
+        "ja": "          函館          ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 76836,
+      "size": 24,
+      "avail": 27,
+      "section": ".data",
+      "text": {
+        "ja": "          協力          ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 76864,
+      "size": 88,
+      "avail": 91,
+      "section": ".data",
+      "text": {
+        "ja": "方向ボタン上下で見たい項目を選んで\nＡボタンで決定\nＢボタンでコマンドメニューに戻ります。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 76956,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "ガイドブック",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 76972,
+      "size": 30,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "地図データをロードしています。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 77324,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "留萌",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 77332,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "旭川",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 77340,
+      "size": 6,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "岩見沢",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 77348,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "札幌",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 77356,
+      "size": 6,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "倶知安",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 77364,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "江差",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 77372,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "函館",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 77380,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "室蘭",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 77388,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "浦河",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 77396,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "帯広",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 77404,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "釧路",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 77412,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "根室",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 77420,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "網走",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 77428,
+      "size": 6,
+      "avail": 13,
+      "section": ".data",
+      "text": {
+        "ja": "ダミー",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 77584,
+      "size": 98,
+      "avail": 99,
+      "section": ".data",
+      "text": {
+        "ja": "方向ボタン上下左右で拠点を選んで\nＡボタンで説明が出ます。\nＢボタンでガイドブックの目次に戻ります。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 80152,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "ＪＲ札幌駅",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 80176,
+      "size": 16,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "紅茶の店アッサム",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 80196,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "札幌ロフト",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 80208,
+      "size": 8,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "大通公園",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 80232,
+      "size": 16,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "さっぽろテレビ塔",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 80252,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "４丁目プラザ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 80268,
+      "size": 32,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "宮越屋珈琲ホールステアーズカフェ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 80304,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "ビートルバム",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 80320,
+      "size": 6,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "時計台",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 80340,
+      "size": 21,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "札幌　　　　　　　1/4",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 80364,
+      "size": 21,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "札幌　　　　　　　2/4",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 80388,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "旧北海道庁",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 80412,
+      "size": 18,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "札幌プリンスホテル",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 80444,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "キュービック",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 80472,
+      "size": 22,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "ラーメン横丁（北海軒）",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 80496,
+      "size": 6,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "狸小路",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 80516,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "メッセホール",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 80532,
+      "size": 22,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "狸小路／おくむら生花店",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 80556,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "澤登",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 80564,
+      "size": 16,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "ママ・サブロッソ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 80584,
+      "size": 21,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "札幌　　　　　　　3/4",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 80608,
+      "size": 8,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "二条市場",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 80632,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "札幌須貝ビル",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 80648,
+      "size": 14,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "テイセンホール",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 80676,
+      "size": 20,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "サッポロファクトリー",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 80712,
+      "size": 16,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "マジックスパイス",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 80744,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "ロイズ平岸店",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 80772,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "宝来",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 80792,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "羊ヶ丘展望台",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 80820,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "藻岩山展望台",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 80848,
+      "size": 21,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "札幌　　　　　　　4/4",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 80872,
+      "size": 16,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "テイネオリンピア",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 80904,
+      "size": 8,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "北海大学",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 80916,
+      "size": 16,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "札幌ＳＰＡランド",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 80936,
+      "size": 21,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "小樽/銭函/積丹　　1/2",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 80960,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "喫茶エンゼル",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 80988,
+      "size": 8,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "三角市場",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 81000,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "パーラー美園",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 81016,
+      "size": 14,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "小樽運河工藝館",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 81044,
+      "size": 8,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "小樽運河",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 81056,
+      "size": 16,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "小樽オルゴール堂",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 81088,
+      "size": 6,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "新倉屋",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 81108,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "おたる水族館",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 81136,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "天狗山展望台",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 81164,
+      "size": 21,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "小樽/銭函/積丹　　2/2",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 81188,
+      "size": 16,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "夕日の見える公園",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 81208,
+      "size": 18,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "小樽ドリームビーチ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 81228,
+      "size": 14,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "銭函／樹の部屋",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 81244,
+      "size": 16,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "積丹／島武意海岸",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 81276,
+      "size": 20,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "積丹／海鮮食堂みさき",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 81300,
+      "size": 14,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "室蘭/登別/千歳",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 81316,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "室蘭／地球岬",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 81344,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "登別／地獄谷",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 81372,
+      "size": 20,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "登別／ホテルまほろば",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 81408,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "千歳／支笏湖",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 81436,
+      "size": 14,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "千歳／苔の洞門",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 81452,
+      "size": 18,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "千歳／丸駒温泉旅館",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 81472,
+      "size": 16,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "富良野/北竜/留萌",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 81492,
+      "size": 30,
+      "avail": 31,
+      "section": ".data",
+      "text": {
+        "ja": "富良野／新富良野プリンスホテル",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 81536,
+      "size": 34,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "富良野／コーヒーショップラベンダー",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 81572,
+      "size": 22,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "中富良野／ファーム富田",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 81608,
+      "size": 18,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "北竜／ひまわりの里",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 81640,
+      "size": 30,
+      "avail": 31,
+      "section": ".data",
+      "text": {
+        "ja": "北竜／サンフラワーパークホテル",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 81672,
+      "size": 20,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "北竜／レストラン風車",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 81696,
+      "size": 18,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "留萌／浜中海水浴場",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 81728,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "留萌／黄金岬",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 81744,
+      "size": 21,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "夕張/帯広/足寄/屈斜路",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 81768,
+      "size": 24,
+      "avail": 27,
+      "section": ".data",
+      "text": {
+        "ja": "夕張／北海道物産センター",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 81808,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "帯広／新橋",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 81832,
+      "size": 18,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "帯広／アンデルセン",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 81852,
+      "size": 16,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "足寄／オンネトー",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 81884,
+      "size": 28,
+      "avail": 31,
+      "section": ".data",
+      "text": {
+        "ja": "弟子屈／屈斜路プリンスホテル",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 81928,
+      "size": 16,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "弟子屈／屈斜路湖",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 81948,
+      "size": 14,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "弟子屈／摩周湖",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 81964,
+      "size": 21,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "函館　　　　　　　1/4",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 81988,
+      "size": 8,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "函館朝市",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 82012,
+      "size": 22,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "朝市／カネニ　藤田水産",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 82036,
+      "size": 14,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "朝市／前川商店",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 82052,
+      "size": 14,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "朝市／俺の函館",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 82068,
+      "size": 14,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "朝市／本間商店",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 82084,
+      "size": 14,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "朝市／吉岡食堂",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 82100,
+      "size": 16,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "ふれあいイカ広場",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 82120,
+      "size": 14,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "あうん堂ホール",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 82148,
+      "size": 21,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "函館　　　　　　　2/4",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 82172,
+      "size": 20,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "函館ハリストス正教会",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 82208,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "元町壱番館",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 82220,
+      "size": 28,
+      "avail": 31,
+      "section": ".data",
+      "text": {
+        "ja": "ザ・ネイチャーディスカバリー",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 82252,
+      "size": 16,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "函館市写真歴史館",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 82284,
+      "size": 18,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "グリーンゲイブルズ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 82304,
+      "size": 14,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "旧函館区公会堂",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 82320,
+      "size": 14,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "ハイカラ衣装館",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 82336,
+      "size": 21,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "函館　　　　　　　3/4",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 82360,
+      "size": 6,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "八幡坂",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 82380,
+      "size": 26,
+      "avail": 27,
+      "section": ".data",
+      "text": {
+        "ja": "アジアンカフェＴａｏＴａｏ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 82408,
+      "size": 18,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "レイモンハウス元町",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 82428,
+      "size": 34,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "函館ヒストリープラザ（金森倉庫群）",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 82464,
+      "size": 34,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "フェリシモ　クリスマスミュージアム",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 82500,
+      "size": 16,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "ＩＮ　ＢＬＯＯＭ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 82544,
+      "size": 30,
+      "avail": 31,
+      "section": ".data",
+      "text": {
+        "ja": "ザ・グラススタジオ・イン・函館",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 82576,
+      "size": 14,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "ＢＡＹはこだて",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 82592,
+      "size": 21,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "函館　　　　　　　4/4",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 82616,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "五稜郭タワー",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 82644,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "カチューシャ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 82660,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "ヤン衆漁場",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 82672,
+      "size": 20,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "夏井珈琲店ブリュッケ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 82708,
+      "size": 6,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "四稜郭",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 82728,
+      "size": 32,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "湯の川温泉／ホテル平成館（新館）",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 82776,
+      "size": 6,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "美ぜん",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 82784,
+      "size": 6,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "函館山",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 82804,
+      "size": 21,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "協力         　　 1/2",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 82828,
+      "size": 20,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "メルセデスベンツ日本",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 82852,
+      "size": 24,
+      "avail": 27,
+      "section": ".data",
+      "text": {
+        "ja": "ボルボ・カーズ・ジャパン",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 82880,
+      "size": 8,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "羽田空港",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 82892,
+      "size": 8,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "丸井今井",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 82904,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "新千歳空港",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 82916,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "航空自衛隊",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 82928,
+      "size": 14,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "ＴＯＳＨＩＢＡ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 82944,
+      "size": 6,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "京セラ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 82952,
+      "size": 32,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "クライスラー　ジャパン　セールス",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 82988,
+      "size": 21,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "協力         　　 2/2",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 83012,
+      "size": 28,
+      "avail": 31,
+      "section": ".data",
+      "text": {
+        "ja": "フィアット　オート　ジャパン",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 83044,
+      "size": 16,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "ビッグラン北海道",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 83064,
+      "size": 14,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "ＤＤＩポケット",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 83080,
+      "size": 76,
+      "avail": 83,
+      "section": ".data",
+      "text": {
+        "ja": "方向ボタン上下で見たい項目を選んで\nＡボタンで決定\nＢボタンで表紙に戻ります。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 84964,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "空き",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85568,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "ＪＲ北海道",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85936,
+      "size": 22,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "新富良野プリンスホテル",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 86012,
+      "size": 20,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "屈斜路プリンスホテル",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 86116,
+      "size": 18,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "稚内市ホームページ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 86168,
+      "size": 18,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "留萌市ホームページ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 86228,
+      "size": 20,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "岩見沢市ホームページ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 86280,
+      "size": 18,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "札幌市ホームページ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 86340,
+      "size": 20,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "倶知安町ホームぺージ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 86412,
+      "size": 18,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "江差町ホームぺージ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 86476,
+      "size": 18,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "函館市ホームページ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 86540,
+      "size": 18,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "室蘭市ホームページ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 86596,
+      "size": 18,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "浦河町ホームページ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 86660,
+      "size": 18,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "釧路市ホームページ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 86724,
+      "size": 18,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "根室市ホームページ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 86808,
+      "size": 18,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "網走市ホームページ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 86960,
+      "size": 26,
+      "avail": 27,
+      "section": ".data",
+      "text": {
+        "ja": "羽田空港　ＢＩＧ　ＢＩＲＤ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 87088,
+      "size": 22,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "航空自衛隊　ＪＡＳＤＦ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 87256,
+      "size": 20,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "サイバー　ビッグラン",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 87320,
+      "size": 44,
+      "avail": 47,
+      "section": ".data",
+      "text": {
+        "ja": "このアドレスを　ポートＡの拡張ソケット１番の",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 87368,
+      "size": 32,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "メモリーカードに　登録しますか？",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 87404,
+      "size": 22,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "　　　はい　／　いいえ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 87428,
+      "size": 46,
+      "avail": 47,
+      "section": ".data",
+      "text": {
+        "ja": "メモリーカードが　ポートＡの拡張ソケット１番に",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 87476,
+      "size": 20,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "接続されていません。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 87500,
+      "size": 34,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "メモリーカードの空きが足りません。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 87536,
+      "size": 24,
+      "avail": 27,
+      "section": ".data",
+      "text": {
+        "ja": "しおりの数が多すぎます。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 87564,
+      "size": 38,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "メモリーカードへの登録に失敗しました。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 87604,
+      "size": 46,
+      "avail": 47,
+      "section": ".data",
+      "text": {
+        "ja": "ホームページアドレスを　登録できませんでした。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 87652,
+      "size": 38,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "ホームページアドレスを　登録しました。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 87692,
+      "size": 16,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "書き込み中です。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 87712,
+      "size": 44,
+      "avail": 51,
+      "section": ".data",
+      "text": {
+        "ja": "メモリーカードの抜き差しはしないでください。",
+        "ko": ""
+      }
+    }
+  ]
+}

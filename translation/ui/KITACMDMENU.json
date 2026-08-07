@@ -1,0 +1,766 @@
+{
+  "module": "KITACMDMENU",
+  "path": "/TRF/KITACMDMENU.DLL",
+  "entries": [
+    {
+      "offset": 108360,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "ロイズ平岸店",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 108376,
+      "size": 16,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "ローズヒル南平岸",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 108396,
+      "size": 6,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "平岸駅",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 108404,
+      "size": 6,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "北海軒",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 108412,
+      "size": 16,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "ママ・サブロッソ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 108432,
+      "size": 8,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "ススキノ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 108444,
+      "size": 6,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "狸小路",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 108452,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "メッセホール",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 108468,
+      "size": 8,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "須貝ビル",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 108480,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "４丁目プラザ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 108496,
+      "size": 18,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "大通公園・テレビ塔",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 108516,
+      "size": 6,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "時計台",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 108524,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "旧北海道庁",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 108536,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "ＪＲ札幌駅",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 108548,
+      "size": 14,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "テイセンホール",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 108564,
+      "size": 8,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "北海大学",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 108576,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "ビートルバム",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 108592,
+      "size": 8,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "アッサム",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 108604,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "ＳＰＡランド",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 108620,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "小樽国際病院",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 108636,
+      "size": 16,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "夕日の見える公園",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 108656,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "ＪＲ小樽駅",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 108668,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "喫茶エンゼル",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 108684,
+      "size": 16,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "小樽オルゴール堂",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 108704,
+      "size": 8,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "小樽運河",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 108716,
+      "size": 14,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "小樽運河工藝館",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 108732,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "湯の川温泉",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 108744,
+      "size": 6,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "五稜郭",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 108752,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "元町",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 108760,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "朝市",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 108768,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "ベイエリア",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 108780,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "ファーム富田",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 108796,
+      "size": 8,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "愛田牧場",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 108808,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "ＪＲ美瑛駅",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 108820,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "ひまわりの里",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 108868,
+      "size": 116,
+      "avail": 119,
+      "section": ".data",
+      "text": {
+        "ja": "方向ボタン上下左右で拠点を選択してＡボタンで決定\nＬ／Ｒトリガーでマップの回転\nＢボタンでコマンドメニューに戻ります。",
+        "ko": "방향 버튼으로 거점 선택, Ａ 버튼으로 결정\nＬ／Ｒ 트리거로 맵 회전\nＢ 버튼으로 커맨드 메뉴로 돌아갑니다."
+      }
+    },
+    {
+      "offset": 109196,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "メニュー表示",
+        "ko": "메뉴 표시"
+      }
+    },
+    {
+      "offset": 109212,
+      "size": 8,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "移動表示",
+        "ko": "이동 표시"
+      }
+    },
+    {
+      "offset": 109224,
+      "size": 6,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "応接間",
+        "ko": "응접실"
+      }
+    },
+    {
+      "offset": 109232,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "書斎",
+        "ko": "서재"
+      }
+    },
+    {
+      "offset": 109240,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "玄関",
+        "ko": "현관"
+      }
+    },
+    {
+      "offset": 109248,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "風呂",
+        "ko": "욕실"
+      }
+    },
+    {
+      "offset": 109256,
+      "size": 14,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "春野家外に出る",
+        "ko": "하루노 집 나감"
+      }
+    },
+    {
+      "offset": 109272,
+      "size": 8,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "リビング",
+        "ko": "거실"
+      }
+    },
+    {
+      "offset": 109284,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "客間",
+        "ko": "손님방"
+      }
+    },
+    {
+      "offset": 109292,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "牛舎",
+        "ko": "축사"
+      }
+    },
+    {
+      "offset": 109300,
+      "size": 14,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "愛田家外に出る",
+        "ko": "아이다 집 나감"
+      }
+    },
+    {
+      "offset": 109316,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "琴梨の部屋",
+        "ko": "코토리 방"
+      }
+    },
+    {
+      "offset": 109328,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "温泉",
+        "ko": "온천"
+      }
+    },
+    {
+      "offset": 109336,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "ホテルの部屋",
+        "ko": "호텔 방"
+      }
+    },
+    {
+      "offset": 109352,
+      "size": 6,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "春野家",
+        "ko": "하루노"
+      }
+    },
+    {
+      "offset": 109360,
+      "size": 6,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "愛田家",
+        "ko": "아이다"
+      }
+    },
+    {
+      "offset": 109368,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "レストラン",
+        "ko": "레스토랑"
+      }
+    },
+    {
+      "offset": 109380,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "セーブ場所",
+        "ko": "저장 장소"
+      }
+    },
+    {
+      "offset": 109492,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "春野　琴梨",
+        "ko": "코토리"
+      }
+    },
+    {
+      "offset": 109504,
+      "size": 8,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "椎名　薫",
+        "ko": "카오루"
+      }
+    },
+    {
+      "offset": 109516,
+      "size": 8,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "川原　鮎",
+        "ko": "아유"
+      }
+    },
+    {
+      "offset": 109528,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "左京　葉野香",
+        "ko": "하노카"
+      }
+    },
+    {
+      "offset": 109544,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "桜町　由子",
+        "ko": "유코"
+      }
+    },
+    {
+      "offset": 109556,
+      "size": 8,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "里中　梢",
+        "ko": "코즈에"
+      }
+    },
+    {
+      "offset": 109568,
+      "size": 8,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "ターニャ",
+        "ko": "타냐"
+      }
+    },
+    {
+      "offset": 109580,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "愛田　めぐみ",
+        "ko": "메구미"
+      }
+    },
+    {
+      "offset": 109596,
+      "size": 106,
+      "avail": 107,
+      "section": ".data",
+      "text": {
+        "ja": "方向ボタン上下で相手を選んで\nＡボタンで選んだ相手に電話をかけます。\nＢボタンでコマンドメニューに戻ります。",
+        "ko": "방향 버튼 위아래로 상대를 고르고\nＡ 버튼으로 그 상대에게 전화를 겁니다.\nＢ 버튼으로 메뉴로 돌아갑니다."
+      }
+    },
+    {
+      "offset": 109704,
+      "size": 18,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "さんでいいですか？",
+        "ko": "님으로 괜찮습니까？"
+      }
+    },
+    {
+      "offset": 109724,
+      "size": 22,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "　　　はい　／　いいえ",
+        "ko": "　　　예　／　아니요"
+      }
+    },
+    {
+      "offset": 110348,
+      "size": 36,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "方向ボタン左右で選択、Ａボタンで決定",
+        "ko": "방향 버튼 좌우로 선택, Ａ 버튼으로 결정"
+      }
+    },
+    {
+      "offset": 110664,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "移動します",
+        "ko": "이동합니다"
+      }
+    },
+    {
+      "offset": 110676,
+      "size": 6,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "持ち物",
+        "ko": "소지품"
+      }
+    },
+    {
+      "offset": 110684,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "時間をつぶす",
+        "ko": "시간 보내기"
+      }
+    },
+    {
+      "offset": 110700,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "ガイドブック",
+        "ko": "가이드북"
+      }
+    },
+    {
+      "offset": 110716,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "激突を読む",
+        "ko": "격돌 읽기"
+      }
+    },
+    {
+      "offset": 110728,
+      "size": 6,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "ＰＨＳ",
+        "ko": "ＰＨＳ"
+      }
+    },
+    {
+      "offset": 110736,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "寝る",
+        "ko": "잔다"
+      }
+    },
+    {
+      "offset": 110744,
+      "size": 18,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "メニューから抜ける",
+        "ko": "메뉴에서 나가기"
+      }
+    },
+    {
+      "offset": 110764,
+      "size": 14,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "セーブ、ロード",
+        "ko": "저장, 불러오기"
+      }
+    },
+    {
+      "offset": 110780,
+      "size": 8,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "システム",
+        "ko": "시스템"
+      }
+    }
+  ]
+}

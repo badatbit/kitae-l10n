@@ -1,0 +1,1186 @@
+{
+  "module": "TRFVMSVIEW",
+  "path": "/TRF/TRFVMSVIEW.DLL",
+  "entries": [
+    {
+      "offset": 14264,
+      "size": 14,
+      "avail": 15,
+      "section": ".rdata",
+      "text": {
+        "ja": "　　保存日時　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 63672,
+      "size": 50,
+      "avail": 51,
+      "section": ".data",
+      "text": {
+        "ja": "ゲームのセーブ　　　　　　ポートＡの拡張ソケット１",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 63724,
+      "size": 50,
+      "avail": 51,
+      "section": ".data",
+      "text": {
+        "ja": "ゲームのロード　　　　　　ポートＡの拡張ソケット１",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 63940,
+      "size": 71,
+      "avail": 71,
+      "section": ".data",
+      "text": {
+        "ja": "メモリーカードが初期化されていません。\n初期化してから使用してください。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 64012,
+      "size": 85,
+      "avail": 87,
+      "section": ".data",
+      "text": {
+        "ja": "メモリーカードを抜き差しすると正しい作業が\nできません。もう一度やりなおしてください。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 64100,
+      "size": 30,
+      "avail": 31,
+      "section": ".data",
+      "text": {
+        "ja": "正しくロードできませんでした。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 64132,
+      "size": 22,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "セーブに失敗しました。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 64156,
+      "size": 30,
+      "avail": 31,
+      "section": ".data",
+      "text": {
+        "ja": "空きブロックが不足しています。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 64188,
+      "size": 51,
+      "avail": 51,
+      "section": ".data",
+      "text": {
+        "ja": "コントローラ、または、\nメモリーカードの認識中です。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 64240,
+      "size": 40,
+      "avail": 43,
+      "section": ".data",
+      "text": {
+        "ja": "ロードを完了しました。\n\n　　　　　　ＯＫ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 64284,
+      "size": 40,
+      "avail": 43,
+      "section": ".data",
+      "text": {
+        "ja": "セーブを完了しました。\n\n　　　　　　ＯＫ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 64772,
+      "size": 76,
+      "avail": 79,
+      "section": ".data",
+      "text": {
+        "ja": "データが既に存在します。\n上書きしますか？\n　　　　　　はい　　　　　　いいえ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 64852,
+      "size": 70,
+      "avail": 71,
+      "section": ".data",
+      "text": {
+        "ja": "方向ボタン上下で選び\nＡボタンで決定してください。\nＢボタンで戻ります。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 64924,
+      "size": 63,
+      "avail": 63,
+      "section": ".data",
+      "text": {
+        "ja": "メモリーカードがありません。\nメモリーカードを挿入してください。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 64988,
+      "size": 104,
+      "avail": 107,
+      "section": ".data",
+      "text": {
+        "ja": "方向ボタン上下でセーブ／ロードを選び\nＡボタンで決定してください。\nＢボタンでコマンドメニューに戻ります。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 65096,
+      "size": 57,
+      "avail": 59,
+      "section": ".data",
+      "text": {
+        "ja": "セーブ中です。\nメモリーカードを抜き差ししないでください。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 65156,
+      "size": 57,
+      "avail": 59,
+      "section": ".data",
+      "text": {
+        "ja": "ロード中です。\nメモリーカードを抜き差ししないでください。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 65216,
+      "size": 17,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "0ローズヒル南平岸",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 65236,
+      "size": 15,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "0地下鉄・平岸駅",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 65252,
+      "size": 15,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "0ＪＲ札幌駅南口",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 65268,
+      "size": 9,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "0大通公園",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 65280,
+      "size": 7,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "0狸小路",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 65288,
+      "size": 9,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "0北海大学",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 65300,
+      "size": 7,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "0北海軒",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 65308,
+      "size": 9,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "0須貝ビル",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 65320,
+      "size": 13,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "0ロイズ平岸店",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 65336,
+      "size": 15,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "0メッセ・ホール",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 65352,
+      "size": 15,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "0テイセンホール",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 65368,
+      "size": 19,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "0地下鉄・すすきの駅",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 65388,
+      "size": 11,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "0旧北海道庁",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 65400,
+      "size": 7,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "0時計台",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 65408,
+      "size": 19,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "0紅茶の店　アッサム",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 65428,
+      "size": 13,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "0ビートルバム",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 65444,
+      "size": 21,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "0サッポロＳＰＡランド",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 65468,
+      "size": 17,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "0ママ・サブロッソ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 65488,
+      "size": 11,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "0ＪＲ手稲駅",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 65500,
+      "size": 17,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "0テイネオリンピア",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 65520,
+      "size": 5,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "0宝来",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 65528,
+      "size": 17,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "0マジックスパイス",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 65548,
+      "size": 9,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "0二条市場",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 65560,
+      "size": 19,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "0札幌プリンスホテル",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 65580,
+      "size": 13,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "0４丁目プラザ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 65596,
+      "size": 11,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "0宮越屋珈琲",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 65608,
+      "size": 13,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "0羊ヶ丘展望台",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 65624,
+      "size": 7,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "1天狗山",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 65632,
+      "size": 11,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "1ＪＲ小樽駅",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 65644,
+      "size": 15,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "1小樽運河工藝館",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 65660,
+      "size": 17,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "1小樽オルゴール堂",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 65680,
+      "size": 9,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "1小樽運河",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 65692,
+      "size": 17,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "1夕日の見える公園",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 65712,
+      "size": 13,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "1喫茶エンゼル",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 65728,
+      "size": 13,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "1小樽国際病院",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 65744,
+      "size": 13,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "1おたる水族館",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 65760,
+      "size": 9,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "1新倉屋前",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 65772,
+      "size": 13,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "2丸駒温泉旅館",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 65788,
+      "size": 11,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "2新千歳空港",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 65800,
+      "size": 19,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "2航空自衛隊千歳基地",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 65820,
+      "size": 11,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "3ＪＲ銭函駅",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 65832,
+      "size": 13,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "4アンデルセン",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 65848,
+      "size": 21,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "5屈斜路プリンスホテル",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 65872,
+      "size": 7,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "5摩周湖",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 65880,
+      "size": 5,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "6朝市",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 65888,
+      "size": 5,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "6元町",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 65896,
+      "size": 11,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "6ベイエリア",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 65908,
+      "size": 11,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "6湯の川温泉",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 65920,
+      "size": 7,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "6五稜郭",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 65928,
+      "size": 11,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "7ＪＲ美瑛駅",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 65940,
+      "size": 9,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "7愛田牧場",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 65952,
+      "size": 13,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "8ファーム富田",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 65968,
+      "size": 13,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "9ひまわりの里",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 65984,
+      "size": 5,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "0澤登",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 65992,
+      "size": 13,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "0キュービック",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 66008,
+      "size": 11,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "6ＪＲ函館駅",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 66020,
+      "size": 5,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "a自室",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 66048,
+      "size": 6,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "セーブ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 66056,
+      "size": 6,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "ロード",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 66072,
+      "size": 20,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "セーブ／ロードの選択",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 66096,
+      "size": 26,
+      "avail": 27,
+      "section": ".data",
+      "text": {
+        "ja": "なし　　保存されていません",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 66124,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "ナレスキップ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 66140,
+      "size": 14,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "メッセージ速度",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 66156,
+      "size": 18,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "メッセージボーダー",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 66176,
+      "size": 14,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "琴梨の夏編終了",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 66192,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "鮎の夏編終了",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 66208,
+      "size": 18,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "ターニャの夏編終了",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 66228,
+      "size": 14,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "由子の夏編終了",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 66244,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "薫の夏編終了",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 66260,
+      "size": 16,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "葉野香の夏編終了",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 66280,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "梢の夏編終了",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 66296,
+      "size": 16,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "めぐみの夏編終了",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 66316,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "ＵＦＯできる",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 66332,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "クイズできる",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 66348,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "テニスできる",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 66364,
+      "size": 18,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "テクノメイズできる",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 66384,
+      "size": 14,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "ひまわりできる",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 66400,
+      "size": 14,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "カラオケできる",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 66416,
+      "size": 20,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "シューティングできる",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 66440,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "まけましたわ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 66456,
+      "size": 28,
+      "avail": 31,
+      "section": ".data",
+      "text": {
+        "ja": "不正な命令が実行されました。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 66504,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "　朝",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 66512,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "午前",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 66520,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "午後",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 66528,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "夕方",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 66536,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "　夜",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 66544,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "不正",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 66552,
+      "size": 17,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "@００００００００",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 66572,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "札幌",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 66580,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "小樽",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 66588,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "千歳",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 66596,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "銭函",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 66604,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "帯広",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 66612,
+      "size": 6,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "弟子屈",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 66620,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "函館",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 66628,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "美瑛",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 66636,
+      "size": 6,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "富良野",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 66644,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "北竜",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 66652,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "東京",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 66660,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "秘密",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 66668,
+      "size": 30,
+      "avail": 31,
+      "section": ".data",
+      "text": {
+        "ja": "　　　　　　　　　　　　　　　",
+        "ko": ""
+      }
+    }
+  ]
+}
