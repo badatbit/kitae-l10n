@@ -70,7 +70,14 @@ def patch_all(cfg, lang, encode, base=None):
         disc_path = doc["path"]
         blob = base.get(name) or open(original(cfg, disc_path), "rb").read()
 
-        blob, rep = relocate.apply(blob, rows, encode)
+        blob2, rep = relocate.apply(blob, rows, encode)
+        if rep["failed"]:
+            # 빈칸이 잘게 흩어져 못 넣은 것이 있으면 전체를 다시 깐다
+            blob3, rep2 = relocate.compact(blob, rows, encode)
+            if not rep2["failed"]:
+                blob2, rep = blob3, rep2
+                print(f"  {name}: 빈칸이 조각나 전체 재배치로 전환")
+        blob = blob2
         out[disc_path] = blob
         msg = f"  {name}: 제자리 {rep['kept']}개"
         if rep["moved"]:

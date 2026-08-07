@@ -164,3 +164,61 @@ def apply(blob, entries, encode, extra_free=()):
         "failed": fail,
         "free_left": sum(n for _o, n in free),
     }
+
+
+def compact(blob, entries, encode):
+    """소유한 공간 전체를 비우고 처음부터 촘촘히 다시 배치한다.
+
+    제자리 우선 방식은 문자열이 조금씩만 짧아지면 빈칸이 잘게 흩어져, 정작
+    길어진 문자열이 들어갈 자리를 못 찾는다(210바이트가 남았는데도 9바이트를
+    못 넣는 일이 생겼다). 여기서는 모든 문자열의 자리를 합쳐 하나의 풀로 보고
+    원래 순서대로 다시 깔아, 남는 공간이 뒤쪽에 한 덩어리로 모이게 한다.
+
+    포인터를 전부 다시 쓰므로 참조를 하나라도 못 찾은 문자열이 있으면 손대지
+    않고 실패로 돌린다.
+    """
+    from kitae.core import pestr
+
+    secs = pestr.sections(blob)
+    vm = _va_map(secs)
+    slots = reloc_slots(blob, secs)
+    out = bytearray(blob)
+
+    items, fail = [], []
+    for e in entries:
+        va = off_to_va(vm, e["offset"])
+        refs = find_refs(blob, va, slots) if va else []
+        if not refs:
+            fail.append((e, "참조를 못 찾음"))
+            continue
+        items.append((e, encode(e["text"]), refs))
+    if fail:
+        return blob, {"kept": 0, "moved": [], "failed": fail, "free_left": 0}
+
+    pool = _merge([(e["offset"], e["avail"] + 1) for e, _r, _f in items])
+    for off, n in pool:                       # 옛 내용을 지운다
+        out[off:off + n] = b"\x00" * n
+
+    si, cur, left = 0, pool[0][0], pool[0][1]
+    moved, kept = [], 0
+    for e, raw, refs in sorted(items, key=lambda x: x[0]["offset"]):
+        need = len(raw) + 1
+        while need > left:
+            si += 1
+            if si >= len(pool):
+                return blob, {"kept": 0, "moved": [],
+                              "failed": [(e, "풀이 모자람")], "free_left": 0}
+            cur, left = pool[si]
+        out[cur:cur + need] = raw + b"\x00"
+        new_va = off_to_va(vm, cur)
+        if cur != e["offset"]:
+            for r in refs:
+                struct.pack_into("<I", out, r, new_va)
+            moved.append((e["offset"], cur, len(refs), e["text"]))
+        else:
+            kept += 1
+        cur += need
+        left -= need
+    free_left = left + sum(n for _o, n in pool[si + 1:])
+    return bytes(out), {"kept": kept, "moved": moved, "failed": [],
+                        "free_left": free_left}
