@@ -46,16 +46,78 @@ def is_hangul(ch):
     return 0xAC00 <= o <= 0xD7A3 or 0x3130 <= o <= 0x318F
 
 
-def used_cells(f):
-    """Cells this game's own text already draws, so we never clobber them."""
+def used_cells(cfg, refresh=False):
+    """게임 자신의 대사가 실제로 그리는 칸 — 여기는 절대 덮으면 안 된다.
+
+    폰트에 글리프가 들어 있는지로는 판단할 수 없다. JIS 2수준 페이지는 글리프가
+    거의 다 차 있지만 이 게임 대사는 그중 극히 일부만 쓴다(0xE1/0xED/0xEE 는
+    한 칸도 안 쓴다). 그래서 대사를 직접 훑어 쓰이는 칸만 추린다.
+
+    결과는 data/used_cells.json 에 넣어 둔다 — 원본이 바뀌지 않는 한 같다.
+    """
+    cache = os.path.join(cfg.data_dir, "used_cells.json")
+    if not refresh and os.path.exists(cache):
+        with io.open(cache, encoding="utf-8") as fh:
+            return {tuple(c) for c in json.load(fh)}
+
+    import struct
+    from kitae.core.cab import Cab
     used = set()
-    for name in ("free_cells",):
-        pass
-    try:
-        free = set(tuple(c) for c in f.free_cells())
-    except Exception:
-        free = None
-    return free
+    root = cfg.path(cfg["work_dir"], "cb", "RESOURCE")
+    for name in sorted(os.listdir(root)) if os.path.isdir(root) else []:
+        if not name.upper().endswith(".CB"):
+            continue
+        try:
+            cab = Cab(os.path.join(root, name))
+        except Exception:
+            continue
+        for entry in cab.names:
+            try:
+                blob = cab.read(entry)
+            except Exception:
+                continue
+            if blob[:4] != b".STR" or len(blob) < 12:
+                continue
+            # 문자열 블록만 본다. 헤더와 뒤따르는 .MSG 는 이진이라 글자로 세면
+            # 있지도 않은 칸이 잔뜩 잡힌다.
+            count = struct.unpack_from("<I", blob, 8)[0]
+            pos, k = 12, 0
+            while k < count:
+                end = blob.find(b"\x00", pos)
+                if end < 0:
+                    break
+                s, i = blob[pos:end], 0
+                while i < len(s):
+                    b = s[i]
+                    if (0x81 <= b <= 0x9F or 0xE0 <= b <= 0xFC) and i + 1 < len(s):
+                        used.add((b, s[i + 1]))
+                        i += 2
+                    else:
+                        i += 1
+                pos, k = end + 1, k + 1
+
+    os.makedirs(os.path.dirname(cache), exist_ok=True)
+    with io.open(cache, "w", encoding="utf-8") as fh:
+        json.dump(sorted(list(c) for c in used), fh)
+    return used
+
+
+def original_font(cfg):
+    """원본 디스크의 TRFSTRINGS.DLL 경로. 없으면 꺼내 둔다.
+
+    Font() 의 기본 경로는 이전 빌드 산출물을 가리킬 수 있다. 거기서 시작하면
+    지난번에 넣은 글리프가 얹힌 채로 쌓이고, '원래 비어 있었는가' 판단도
+    틀어진다. 주입은 늘 순정에서 시작해야 한다.
+    """
+    dst = cfg.path(cfg["work_dir"], "orig", "TRF", "TRFSTRINGS.DLL")
+    if not os.path.exists(dst):
+        from kitae.core.gdfs import GdFs
+        fs = GdFs(cfg.track(3))
+        lba, size = fs.find("/TRF/TRFSTRINGS.DLL")
+        os.makedirs(os.path.dirname(dst), exist_ok=True)
+        with open(dst, "wb") as fh:
+            fh.write(fs.read(lba, size))
+    return dst
 
 
 def load_codepage():
@@ -140,14 +202,13 @@ def inject(cfg, chars):
     os.makedirs(out_dir, exist_ok=True)
     dst = os.path.join(out_dir, "TRFSTRINGS.DLL")
 
-    f = fontmod.Font()
+    # 늘 순정 폰트에서 시작한다 — 지난 빌드의 글리프가 얹히면 안 된다
+    f = fontmod.Font(original_font(cfg))
     pages = [int(p) for p in cfg["font"].get("pages") or PAGES]
     allowed = {(l, c) for l in pages for c in CELLS}
-    try:
-        free = {tuple(c) for c in f.free_cells()}
-        reserved = {s for s in allowed if s not in free}
-    except Exception:
-        reserved = set()
+    reserved = used_cells(cfg) & allowed
+    if reserved:
+        print(f"  폰트: 게임이 쓰는 {len(reserved)}칸은 비켜 간다")
 
     cp_path = os.path.join(cfg.data_dir, "codepage.json")
     cp = _read_codepage(cp_path)
