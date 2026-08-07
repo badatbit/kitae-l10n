@@ -19,7 +19,9 @@ def configure(p):
     p.add_argument("modules", nargs="*",
                    help="모듈 이름 (없으면 핵심 모듈, all 이면 전부)")
     p.add_argument("-l", "--list", action="store_true", help="내용을 찍어만 본다")
-    p.add_argument("--min-wide", type=int, default=2,
+    # 1 이어야 한다. 2 로 걸렀더니 조립에 쓰이는 한 글자짜리 조각(月, 日,
+    # Ａ, １ …)이 통째로 빠져서 날짜와 포트 표시가 깨졌다.
+    p.add_argument("--min-wide", type=int, default=1,
                    help="전각 글자가 최소 몇 개는 있어야 표시 문자열로 본다")
 
 

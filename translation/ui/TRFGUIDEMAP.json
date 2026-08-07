@@ -3,6 +3,26 @@
   "path": "/TRF/TRFGUIDEMAP.DLL",
   "entries": [
     {
+      "offset": 18480,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "鎹",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 76116,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "濡",
+        "ko": ""
+      }
+    },
+    {
       "offset": 76668,
       "size": 24,
       "avail": 27,

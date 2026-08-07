@@ -3,6 +3,66 @@
   "path": "/TRF/ITEMMENU.DLL",
   "entries": [
     {
+      "offset": 57028,
+      "size": 2,
+      "avail": 7,
+      "section": ".rdata",
+      "text": {
+        "ja": "韭",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 57180,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "尖",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 57448,
+      "size": 2,
+      "avail": 9,
+      "section": ".data",
+      "text": {
+        "ja": "韭",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 57512,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "飛",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 57892,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "頽",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 57984,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "功",
+        "ko": ""
+      }
+    },
+    {
       "offset": 58004,
       "size": 14,
       "avail": 15,
@@ -413,12 +473,32 @@
       }
     },
     {
+      "offset": 59548,
+      "size": 3,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "　\n",
+        "ko": ""
+      }
+    },
+    {
       "offset": 59552,
       "size": 4,
       "avail": 7,
       "section": ".data",
       "text": {
         "ja": "何を",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 59700,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "栓",
         "ko": ""
       }
     }

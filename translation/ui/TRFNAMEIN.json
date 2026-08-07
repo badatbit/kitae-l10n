@@ -263,6 +263,16 @@
       }
     },
     {
+      "offset": 85468,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "豊",
+        "ko": ""
+      }
+    },
+    {
       "offset": 85472,
       "size": 4,
       "avail": 7,
@@ -393,6 +403,16 @@
       }
     },
     {
+      "offset": 85576,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "充",
+        "ko": ""
+      }
+    },
+    {
       "offset": 85580,
       "size": 4,
       "avail": 7,
@@ -519,6 +539,16 @@
       "section": ".data",
       "text": {
         "ja": "柳澤",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 85684,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "学",
         "ko": ""
       }
     },
@@ -803,6 +833,16 @@
       }
     },
     {
+      "offset": 85912,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "剛",
+        "ko": ""
+      }
+    },
+    {
       "offset": 85916,
       "size": 4,
       "avail": 7,
@@ -883,12 +923,32 @@
       }
     },
     {
+      "offset": 85980,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "　",
+        "ko": ""
+      }
+    },
+    {
       "offset": 85984,
       "size": 22,
       "avail": 23,
       "section": ".data",
       "text": {
         "ja": "　さんでいいですか？　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 86008,
+      "size": 5,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "　*1\n",
         "ko": ""
       }
     },

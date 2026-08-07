@@ -73,6 +73,16 @@
       }
     },
     {
+      "offset": 68988,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "朝",
+        "ko": ""
+      }
+    },
+    {
       "offset": 68992,
       "size": 4,
       "avail": 7,
@@ -99,6 +109,16 @@
       "section": ".data",
       "text": {
         "ja": "夕方",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 69016,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "夜",
         "ko": ""
       }
     },

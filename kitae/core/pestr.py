@@ -63,20 +63,27 @@ def strings(blob, where=(".data", ".rdata"), min_wide=2):
             j = blob.find(b"\x00", i, end)
             if j < 0:
                 break
-            s = blob[i:j]
-            if 2 <= len(s) <= 1024:
+            # 앞에 NUL 이 없는 이진 바이트(포인터 등)가 붙어 있는 경우가 있다.
+            # 예: `04 25 01 10` + "１番目のデータを…". 통째로는 걸러지므로
+            # 시작점을 몇 바이트 밀어 가며 다시 본다.
+            for skip in range(0, 8):
+                s = blob[i + skip:j]
+                if not (2 <= len(s) <= 1024):
+                    break
                 try:
                     t = s.decode("cp932")
                 except UnicodeDecodeError:
-                    t = None
-                if t and all(_ok(c) for c in t) and \
-                        sum(1 for c in t if ord(c) > 0x7F) >= min_wide:
-                    pad = 0
-                    k = j + 1                    # NUL 다음부터
-                    while pad < MAX_PAD and k + pad < end and blob[k + pad] == 0:
-                        pad += 1
-                    out.append({"offset": i, "size": len(s), "avail": len(s) + pad,
-                                "section": name, "text": t})
+                    continue
+                if not (all(_ok(c) for c in t)
+                        and sum(1 for c in t if ord(c) > 0x7F) >= min_wide):
+                    continue
+                pad = 0
+                k = j + 1                        # NUL 다음부터
+                while pad < MAX_PAD and k + pad < end and blob[k + pad] == 0:
+                    pad += 1
+                out.append({"offset": i + skip, "size": len(s),
+                            "avail": len(s) + pad, "section": name, "text": t})
+                break
             i = j + 1
     return out
 

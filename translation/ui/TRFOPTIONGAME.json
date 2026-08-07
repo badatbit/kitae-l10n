@@ -3,6 +3,16 @@
   "path": "/TRF/TRFOPTIONGAME.DLL",
   "entries": [
     {
+      "offset": 88724,
+      "size": 4,
+      "avail": 7,
+      "section": ".rdata",
+      "text": {
+        "ja": "F尺6",
+        "ko": ""
+      }
+    },
+    {
       "offset": 89416,
       "size": 10,
       "avail": 11,
@@ -573,6 +583,36 @@
       }
     },
     {
+      "offset": 91268,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "1位 ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 91276,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "2位 ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 91284,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "3位 ",
+        "ko": ""
+      }
+    },
+    {
       "offset": 91292,
       "size": 18,
       "avail": 19,
@@ -613,6 +653,16 @@
       }
     },
     {
+      "offset": 91364,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "　",
+        "ko": ""
+      }
+    },
+    {
       "offset": 91368,
       "size": 4,
       "avail": 7,
@@ -623,12 +673,42 @@
       }
     },
     {
+      "offset": 91380,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "分",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 91384,
+      "size": 3,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "秒 ",
+        "ko": ""
+      }
+    },
+    {
       "offset": 91388,
       "size": 4,
       "avail": 7,
       "section": ".data",
       "text": {
         "ja": "回　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 91396,
+      "size": 3,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "点 ",
         "ko": ""
       }
     },
