@@ -59,7 +59,47 @@ def timing_chars(payload):
     return None if p is None else len(p[0]) - 1
 
 
-def _retime_line(dur, lip, m):
+# 성우가 쉬는 자리는 문장이 끊기는 자리다. 새 글자 수에 맞춰 쉼을 옮길 때
+# 비례 위치에 그냥 놓으면 단어 한가운데서 멈추므로, 아래 기호 **뒤**로 당긴다.
+STRONG = "。．.、，,！!？?・…―"       # 여기서 끊긴다
+CLOSERS = "』」）)〉》”\"'"           # 이 뒤까지 함께 넘긴다
+WEAK = " 　"                        # 마땅한 기호가 없으면 낱말 경계라도
+SNAP = 5                # 이 칸 수 안에서만 당긴다 — 더 멀면 쉼의 시각이 틀어진다
+
+
+def _snap(j0, text, lo, hi):
+    """비례 위치 j0 을 가까운 기호 경계로 당긴다. 마땅한 자리가 없으면 그대로.
+
+    lo 는 앞 쉼이 쓴 자리 다음, hi 는 뒤에 올 쉼들의 자리를 남긴 상한이다.
+    둘 다 후보를 고를 때부터 반영한다 — 고른 뒤에 밀거나 자르면 하필 낱말
+    한가운데로 떨어지거나 앞 쉼과 한 칸에 겹쳐 하나로 뭉친다.
+    """
+    m = len(text)
+    if not text or lo > hi:
+        return max(j0, lo)
+    for pool in (STRONG + CLOSERS, WEAK):
+        best = None
+        for j in range(max(1, lo, j0 - SNAP), min(m, hi + 1, j0 + SNAP + 1)):
+            if text[j - 1] in pool:
+                # 닫는 기호와 공백은 그 자체로 멈출 자리가 아니다. 넘겨서
+                # 다음 글자 바로 앞에 세운다.
+                k = j
+                while k < hi and text[k] in CLOSERS + WEAK:
+                    k += 1
+            elif pool is not WEAK and text[j] in STRONG:
+                k = j           # 「・・」 같은 기호 뭉치 바로 앞도 멈출 자리다
+            else:
+                continue
+            if not lo <= k <= hi:
+                continue
+            if best is None or abs(k - j0) < abs(best - j0):
+                best = k
+        if best is not None:
+            return best
+    return max(j0, lo)
+
+
+def _retime_line(dur, lip, m, text=""):
     """한 줄의 구간들을 글자 m개짜리로 다시 나눈다. 총합은 그대로 둔다."""
     r = len(dur)
     if m == r:
@@ -73,10 +113,21 @@ def _retime_line(dur, lip, m):
     extra = [(i, dur[i] - avg) for i in range(r) if dur[i] >= PAUSE_MS]
     extra = [(i, e) for i, e in extra if e > 0]
 
-    # 침묵을 뺀 나머지를 새 글자 수에 고르게 나누고, 침묵은 비례 위치에 얹는다
+    # 침묵을 뺀 나머지를 새 글자 수에 고르게 나누고, 침묵을 그 위에 얹는다.
+    # 자리는 비례 위치를 기준으로 잡되 문장부호 뒤로 당긴다.
     want = [(total - sum(e for _, e in extra)) / m] * m
-    for i, e in extra:
-        want[min(m - 1, i * m // r)] += e
+    prev = -1
+    for n, (i, e) in enumerate(extra):
+        j0 = min(m - 1, i * m // r)
+        # 줄 첫 항목은 줄 사이의 쉼이라 자리를 옮기지 않는다
+        if i == 0:
+            j = 0
+        else:
+            # 뒤에 올 쉼들이 설 칸을 남겨 둔다
+            j = _snap(j0, text, prev + 1, m - 1 - (len(extra) - 1 - n))
+            j = max(prev + 1, min(j, m - 1))
+        want[j] += e
+        prev = j
 
     # 반올림 오차를 다음 칸으로 넘겨 총합이 흐트러지지 않게 한다
     out, acc = [], 0.0
@@ -98,24 +149,28 @@ def _retime_line(dur, lip, m):
 def retime(payload, orig_lines, new_lines):
     """줄 구성이 (orig_lines -> new_lines) 로 바뀐 창의 타이밍을 새로 만든다.
 
-    두 인자 모두 줄별 표시 글자 수 목록이다. 반환은 (payload, 넘친 ms).
+    orig_lines 는 줄별 표시 글자 수. new_lines 는 줄별 **번역문**(문자열)이거나
+    글자 수다. 문자열을 주면 쉼을 문장부호 뒤로 당겨 맞춘다.
+    반환은 (payload, 넘친 ms).
     """
     got = parse(payload)
     if got is None:
         return payload, 0
     dur, lip = got
-    if sum(orig_lines) != len(dur) - 1 or len(orig_lines) != len(new_lines):
+    texts = [t if isinstance(t, str) else "" for t in new_lines]
+    counts = [len(t) if isinstance(t, str) else t for t in new_lines]
+    if sum(orig_lines) != len(dur) - 1 or len(orig_lines) != len(counts):
         return payload, 0               # 전제가 깨졌으면 손대지 않는다
-    if list(orig_lines) == list(new_lines):
+    if list(orig_lines) == list(counts):
         return payload, 0
 
     nd, nl, over, a = [], [], 0, 0
-    for r, m in zip(orig_lines, new_lines):
+    for r, m, t in zip(orig_lines, counts, texts):
         if r == 0 or m == 0:
             nd += dur[a:a + r]
             nl += lip[a:a + r]
         else:
-            d, l, o = _retime_line(dur[a:a + r], lip[a:a + r], m)
+            d, l, o = _retime_line(dur[a:a + r], lip[a:a + r], m, t)
             nd += d
             nl += l
             over += o

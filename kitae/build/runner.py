@@ -42,13 +42,14 @@ def _rows_for(doc, lang, src):
 
 
 def _timing_specs(doc, lang, wins, strs):
-    """window -> (원문 줄별 글자수, 번역 줄별 글자수) — 길이가 바뀐 유성 창만.
+    """window -> (원문 줄별 글자수, 번역 줄별 문장) — 길이가 바뀐 유성 창만.
 
-    번역이 비어 있는 줄은 원문이 그대로 남으므로 원문 글자수를 쓴다. 줄 수는
-    양쪽이 같아야 하고(번역은 줄 단위로 관리한다) 그래야 줄 경계 시각을
-    원본에서 물려받을 수 있다.
+    번역이 비어 있는 줄은 원문이 그대로 남으므로 원문을 쓴다. 줄 수는 양쪽이
+    같아야 하고(번역은 줄 단위로 관리한다) 그래야 줄 경계 시각을 원본에서
+    물려받을 수 있다. 글자 수가 아니라 문장을 넘기는 건 쉼을 문장부호 뒤로
+    당기기 위해서다 — kitae.build.mtg 의 _snap 참고.
     """
-    from kitae.core.windows import display_len
+    from kitae.core.windows import display_len, MARKUP
     by = {}
     for e in doc["entries"]:
         t = ((e.get("text") or {}).get(lang) or "")
@@ -61,11 +62,11 @@ def _timing_specs(doc, lang, wins, strs):
             continue                        # 무성 창은 타이밍이 없다
         orig, new = [], []
         for n, si in enumerate(m["strings"]):
-            o = display_len(strs[si])
+            src = strs[si]
             t = by.get((w, n), "")
-            orig.append(o)
-            new.append(display_len(t) if t.strip() else o)
-        if orig != new:
+            orig.append(display_len(src))
+            new.append(MARKUP.sub("", t if t.strip() else src))
+        if orig != [len(t) for t in new]:
             out[w] = (orig, new)
     return out
 
@@ -117,7 +118,7 @@ def build(cfg, scripts, lang, want_font=True):
             new_set[name], n, warn = mtg_mod.rebuild_set(s, mtg.read(name),
                                                          changed)
             for w, (o, t) in sorted(changed.items())[:8]:
-                print(f"  · {s} 창{w}: 줄 {o} → {t}"
+                print(f"  · {s} 창{w}: 줄 {o} → {[len(x) for x in t]}"
                       + (f"  ⚠ {warn[w]}ms 넘침" if w in warn else ""))
             print(f"  {s}: 타이밍 {n}창 재생성 (줄별 시각·쉼 위치 보존)")
 
