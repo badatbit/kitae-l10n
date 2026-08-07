@@ -175,6 +175,17 @@ def build(cfg, scripts, lang, want_font=True):
             disc_mod.patch(disc_path.lstrip("/"), blob, tmp, track)
             os.replace(tmp, track)
 
+    # 7. 씬 제목 -----------------------------------------------------------
+    # 이동 목적지가 씬 제목의 장소 필드와 대조되므로 UI 와 같은 문자열로 맞춘다
+    from kitae.build import scenes
+    inis, n = scenes.rebuild(cfg, lang, hangul.encoder(cfg))
+    if inis:
+        orig_inis = os.path.getsize(uipatch.original(cfg, scenes.INIS))
+        print(f"INIS.CB {len(inis):,} / 원본 {orig_inis:,}  (씬 제목 {n}곳)")
+        tmp = track + ".tmp"
+        disc_mod.patch(scenes.INIS.lstrip("/"), inis, tmp, track)
+        os.replace(tmp, track)
+
     diff = disc_mod.diff_against(track, cfg.track(3))
     print(f"\n원본과 다른 파일: {diff}")
     gdi = glob.glob(os.path.join(dist, "*.gdi"))
