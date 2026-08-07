@@ -42,6 +42,7 @@ def sections(blob):
 
 
 MAX_PAD = 7             # 정렬 패딩으로 인정할 최대 바이트 (8바이트 정렬)
+MAX_SKIP = 32           # 문자열 앞에 붙은 이진 바이트(포인터 등)를 넘길 한도
 
 
 def strings(blob, where=(".data", ".rdata"), min_wide=2):
@@ -64,9 +65,10 @@ def strings(blob, where=(".data", ".rdata"), min_wide=2):
             if j < 0:
                 break
             # 앞에 NUL 이 없는 이진 바이트(포인터 등)가 붙어 있는 경우가 있다.
-            # 예: `04 25 01 10` + "１番目のデータを…". 통째로는 걸러지므로
-            # 시작점을 몇 바이트 밀어 가며 다시 본다.
-            for skip in range(0, 8):
+            # 포인터가 여러 개 이어지기도 한다 — 실제로 5개(20바이트) 뒤에
+            # 붙은 문자열이 있었다. 통째로는 걸러지므로 시작점을 밀어 가며
+            # 다시 본다. 정상 문자열은 skip=0 에서 바로 걸리므로 영향이 없다.
+            for skip in range(0, MAX_SKIP):
                 s = blob[i + skip:j]
                 if not (2 <= len(s) <= 1024):
                     break

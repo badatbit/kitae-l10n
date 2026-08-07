@@ -43,6 +43,16 @@
       }
     },
     {
+      "offset": 68948,
+      "size": 8,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "マフラー",
+        "ko": ""
+      }
+    },
+    {
       "offset": 68960,
       "size": 10,
       "avail": 11,

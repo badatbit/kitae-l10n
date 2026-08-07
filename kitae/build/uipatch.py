@@ -70,14 +70,31 @@ def patch_all(cfg, lang, encode, base=None):
         disc_path = doc["path"]
         blob = base.get(name) or open(original(cfg, disc_path), "rb").read()
 
-        blob2, rep = relocate.apply(blob, rows, encode)
-        if rep["failed"]:
-            # 빈칸이 잘게 흩어져 못 넣은 것이 있으면 전체를 다시 깐다
-            blob3, rep2 = relocate.compact(blob, rows, encode)
-            if not rep2["failed"]:
-                blob2, rep = blob3, rep2
-                print(f"  {name}: 빈칸이 조각나 전체 재배치로 전환")
-        blob = blob2
+        # 실패한 항목이 있는 결과는 **쓰면 안 된다**. apply 는 옮길 문자열의
+        # 옛 자리를 먼저 비우므로, 넣을 곳을 못 찾으면 그 자리에 이미 다른
+        # 문자열이 들어가 있고 포인터는 옛 자리를 가리킨 채로 남는다. 그러면
+        # 화면에 엉뚱한 문장이 나온다(TRFNAMEIN 에서 실제로 겪었다).
+        # 그래서 못 넣는 것을 빼고 원본에서 다시 시도한다.
+        base_blob, attempt, dropped = blob, list(rows), []
+        for _round in range(6):
+            got, rep = relocate.apply(base_blob, attempt, encode)
+            if rep["failed"]:
+                got2, rep2 = relocate.compact(base_blob, attempt, encode)
+                if not rep2["failed"]:
+                    got, rep = got2, rep2
+                    print(f"  {name}: 빈칸이 조각나 전체 재배치로 전환")
+                else:
+                    rep = rep2 if len(rep2["failed"]) < len(rep["failed"]) else rep
+            if not rep["failed"]:
+                blob = got
+                break
+            bad = [e for e, _why in rep["failed"]]
+            dropped += bad
+            keep = {id(e) for e in bad}
+            attempt = [e for e in attempt if id(e) not in keep]
+        for e in dropped:
+            warn.append(f"{name} {e['offset']:#x}: 자리 없음 — 원문 유지  "
+                        f"{e['text']!r}")
         out[disc_path] = blob
         msg = f"  {name}: 제자리 {rep['kept']}개"
         if rep["moved"]:
@@ -86,9 +103,6 @@ def patch_all(cfg, lang, encode, base=None):
         print(msg)
         for old, new, nref, text in rep["moved"][:4]:
             print(f"      {old:#08x} → {new:#08x}  포인터 {nref}곳  {text}")
-        for e, why in rep["failed"]:
-            warn.append(f"{name} {e['offset']:#x}: 자리 없음({why})  "
-                        f"{e['text']!r}")
     for w in warn:
         print(f"  ⚠ {w}")
     return out, warn

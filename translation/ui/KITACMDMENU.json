@@ -3,6 +3,56 @@
   "path": "/TRF/KITACMDMENU.DLL",
   "entries": [
     {
+      "offset": 46728,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "織",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 46836,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "話",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 46880,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "話",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 46924,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "織",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 47004,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "織",
+        "ko": ""
+      }
+    },
+    {
       "offset": 106464,
       "size": 2,
       "avail": 2,
@@ -553,6 +603,16 @@
       }
     },
     {
+      "offset": 109480,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "ダバダ占い",
+        "ko": ""
+      }
+    },
+    {
       "offset": 109492,
       "size": 10,
       "avail": 11,
@@ -660,6 +720,16 @@
       "text": {
         "ja": "　　　はい　／　いいえ",
         "ko": "　　　예　／　아니요"
+      }
+    },
+    {
+      "offset": 109916,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "郡",
+        "ko": ""
       }
     },
     {

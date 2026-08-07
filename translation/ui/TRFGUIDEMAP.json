@@ -13,6 +13,256 @@
       }
     },
     {
+      "offset": 18484,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "鎹",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 18488,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "鎹",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 18492,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "鎹",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 18496,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "鎹",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 18500,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "鎹",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 18504,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "鎹",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 18508,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "鎹",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 18512,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "鎹",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 18516,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "鎹",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 18520,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "鎹",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 18524,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "鎹",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 18528,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "鎹",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 18532,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "鎹",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 18536,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "鎹",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 18540,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "鎹",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 18544,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "鎹",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 18568,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "鎹",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 18572,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "鎹",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 18576,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "鎹",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 18588,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "鎹",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 18592,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "鎹",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 18596,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "鎹",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 18600,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "鎹",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 18604,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "鎹",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 76069,
+      "size": 3,
+      "avail": 6,
+      "section": ".rdata",
+      "text": {
+        "ja": "接6",
+        "ko": ""
+      }
+    },
+    {
       "offset": 76116,
       "size": 2,
       "avail": 3,
@@ -269,6 +519,16 @@
       "section": ".data",
       "text": {
         "ja": "方向ボタン上下左右で拠点を選んで\nＡボタンで説明が出ます。\nＢボタンでガイドブックの目次に戻ります。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 80132,
+      "size": 16,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "札幌　　　１／４",
         "ko": ""
       }
     },
@@ -1253,6 +1513,16 @@
       }
     },
     {
+      "offset": 82537,
+      "size": 3,
+      "avail": 6,
+      "section": ".data",
+      "text": {
+        "ja": "fＳ",
+        "ko": ""
+      }
+    },
+    {
       "offset": 82544,
       "size": 30,
       "avail": 31,
@@ -1319,6 +1589,16 @@
       "section": ".data",
       "text": {
         "ja": "夏井珈琲店ブリュッケ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 82703,
+      "size": 3,
+      "avail": 4,
+      "section": ".data",
+      "text": {
+        "ja": "fＳ",
         "ko": ""
       }
     },
