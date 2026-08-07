@@ -18,14 +18,15 @@ FULL = 24
 HALF = 12
 LINE_H = 26
 
-# 화면에 보이는 모습:
-#   평면 0 을 오른쪽 아래로 살짝 밀어 검게 깔고(그림자),
-#   평면 1(가장자리 마스크)을 반투명 검정으로 얹어 계단을 눅인 뒤,
-#   평면 0 을 제자리에 흰색으로 그린다.
+# 두 평면의 관계: 평면 1 은 평면 0 의 부분집합이고, 글자 가장자리라서 픽셀이
+# 일부만 덮이는 자리를 표시한다. 그래서 평면 0 전체를 꽉 찬 흰색으로 칠하면
+# 획이 1픽셀씩 굵어진다. 안쪽(평면0 - 평면1)만 꽉 채우고 가장자리는 옅게 얹어야
+# 게임과 같은 두께가 된다.
 BODY = (255, 255, 255)
 SHADOW = (0, 0, 0)
+EDGE_ALPHA = 110        # 가장자리 픽셀의 덮임 정도
 SHADOW_ALPHA = 200
-FRINGE_ALPHA = 80
+SHADOW_EDGE_ALPHA = 90
 SHADOW_OFFSET = (3, 3)
 # 흰 글자와 검은 그림자가 동시에 보이도록 중간 밝기 배경을 기본으로 둔다.
 BG = (118, 122, 130)
@@ -77,13 +78,23 @@ def draw(lines, font, width_px, pad=8, bg=BG):
     img = Image.new("RGB", (width_px + pad * 2, h), bg)
     dx, dy = SHADOW_OFFSET
 
-    def _mask(code, plane, w, alpha):
+    def _planes(code, w):
+        """(안쪽 마스크, 가장자리 마스크). 안쪽 = 평면0 - 평면1."""
         try:
-            g = font.get_glyph(code, plane=plane)
+            p0 = font.get_glyph(code, plane=0).crop((0, 0, w, FULL)).convert("L")
         except Exception:
-            return None
-        m = g.crop((0, 0, w, FULL)).convert("L")
-        return m.point(lambda v: alpha if v else 0)
+            return None, None
+        try:
+            p1 = font.get_glyph(code, plane=1).crop((0, 0, w, FULL)).convert("L")
+        except Exception:
+            p1 = None
+        if p1 is None:
+            return p0, None
+        from PIL import ImageChops
+        return ImageChops.subtract(p0, p1), p1
+
+    def _at(alpha):
+        return lambda v: alpha if v else 0
 
     for row, line in enumerate(lines):
         x, y = pad, pad + row * LINE_H
@@ -92,15 +103,17 @@ def draw(lines, font, width_px, pad=8, bg=BG):
                 img.paste((150, 60, 60), (x + 2, y + 2, x + w - 2, y + FULL - 2))
                 x += w
                 continue
-            # 그림자만 두 평면을 쓴다. 본체 위치에 가장자리 마스크를 겹치면
-            # 흰 획 둘레에 검은 픽셀이 붙어 실제보다 굵어 보인다.
-            for plane, alpha in ((0, SHADOW_ALPHA), (1, FRINGE_ALPHA)):
-                m = _mask(code, plane, w, alpha)
-                if m:
-                    img.paste(SHADOW, (x + dx, y + dy), m)
-            m = _mask(code, 0, w, 255)
-            if m:
-                img.paste(BODY, (x, y), m)
+            core, edge = _planes(code, w)
+            if core is None:
+                x += w
+                continue
+            img.paste(SHADOW, (x + dx, y + dy), core.point(_at(SHADOW_ALPHA)))
+            if edge is not None:
+                img.paste(SHADOW, (x + dx, y + dy),
+                          edge.point(_at(SHADOW_EDGE_ALPHA)))
+            img.paste(BODY, (x, y), core.point(_at(255)))
+            if edge is not None:
+                img.paste(BODY, (x, y), edge.point(_at(EDGE_ALPHA)))
             x += w
     return img
 

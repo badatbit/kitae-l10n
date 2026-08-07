@@ -47,8 +47,11 @@ def rebuild_smf(script, rows, original, encode=None):
     text = list(src)
     warnings = []
     for (w, ln), r in rows.items():
-        tgt = (r.get("target") or "").strip()
-        if not tgt:
+        # strip() 은 전각 공백(U+3000)도 공백으로 보고 지운다. 재생시간을
+        # 소진시키려고 일부러 붙인 꼬리 여백이 여기서 사라지면 타이밍이
+        # 어긋나므로, 빈 값 판정에만 쓰고 본문은 원본 그대로 넘긴다.
+        tgt = r.get("target") or ""
+        if not tgt.strip():
             continue
         lines, start = table[w] if w < len(table) else (0, None)
         if start is None or ln >= lines:

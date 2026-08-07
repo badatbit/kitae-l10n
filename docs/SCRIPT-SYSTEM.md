@@ -63,8 +63,9 @@ MTG의 WST도 같은 포맷: `CTRFDataSet` 루트 아래 `CTRFWaveName` 객체 �
   천 단위 블록별로 CB 분할 (0.CB=a0xxx, 1.CB=a1xxx, …).
 - `north01.msd`: 음성 번호 공간을 9그룹으로 연속 분할하는 테이블
   (0~3849 / 3850~5022 / … / 8658~9264; 뒤 2그룹은 예약에 가까움) + 부속 데이터.
-- 대사↔음성 매핑: **MTG.CB**의 스크립트 파일별 `.WST`(CTRFWaveName 목록)가 담당 추정.
-  `.SET`은 문자 타이밍(립싱크/노래방식 표시)용 CTRFMsgTiming 데이터.
+- 대사↔음성 매핑: **MTG.CB**의 스크립트 파일별 `.WST`(CTRFWaveName 목록)가 담당.
+  `.SET`은 글자별 표시 시각(밀리초)과 입 모양을 담은 CTRFMsgTiming — → [MTG-TIMING.md](MTG-TIMING.md)
+- 음성은 18000Hz Yamaha ADPCM (효과음만 22050Hz).
 
 ## 6. EB 내부 구조 (추가 해독)
 

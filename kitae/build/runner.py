@@ -19,6 +19,7 @@ import shutil
 
 from kitae import translation
 from kitae.core.cab import Cab
+from kitae.core.windows import clss_objects, script_windows
 
 
 def _work(cfg, *parts):
@@ -36,6 +37,36 @@ def _rows_for(doc, lang, src):
             "source": t.get(src, ""),
             "target": t.get(lang, "") or "",
         }
+    return out
+
+
+
+def _timing_specs(doc, lang, wins, strs):
+    """window -> (원문 줄별 글자수, 번역 줄별 글자수) — 길이가 바뀐 유성 창만.
+
+    번역이 비어 있는 줄은 원문이 그대로 남으므로 원문 글자수를 쓴다. 줄 수는
+    양쪽이 같아야 하고(번역은 줄 단위로 관리한다) 그래야 줄 경계 시각을
+    원본에서 물려받을 수 있다.
+    """
+    from kitae.core.windows import display_len
+    by = {}
+    for e in doc["entries"]:
+        t = ((e.get("text") or {}).get(lang) or "")
+        by[(e["window"], e["line"])] = t
+
+    out = {}
+    for m in wins:
+        w = m["window"]
+        if m["want"] is None or not m["strings"]:
+            continue                        # 무성 창은 타이밍이 없다
+        orig, new = [], []
+        for n, si in enumerate(m["strings"]):
+            o = display_len(strs[si])
+            t = by.get((w, n), "")
+            orig.append(o)
+            new.append(display_len(t) if t.strip() else o)
+        if orig != new:
+            out[w] = (orig, new)
     return out
 
 
@@ -79,11 +110,16 @@ def build(cfg, scripts, lang, want_font=True):
             print(f"  주의 {s}: {w}")
         if bad:
             print(f"  {s}: 인코딩 불가 {len(bad)}건 — 폰트 코드페이지 확인 필요")
-        changed = mtg_mod.changed_lengths(s, rows[s], plot, mtg)
+        wins, strs_all = script_windows(s, plot, mtg)
+        changed = _timing_specs(docs[s], lang, wins, strs_all)
         if changed:
             name = s.lower() + ".SET"
-            new_set[name], n = mtg_mod.rebuild_set(s, mtg.read(name), changed)
-            print(f"  {s}: 타이밍 {n}창 재생성")
+            new_set[name], n, warn = mtg_mod.rebuild_set(s, mtg.read(name),
+                                                         changed)
+            for w, (o, t) in sorted(changed.items())[:8]:
+                print(f"  · {s} 창{w}: 줄 {o} → {t}"
+                      + (f"  ⚠ {warn[w]}ms 넘침" if w in warn else ""))
+            print(f"  {s}: 타이밍 {n}창 재생성 (줄별 시각·쉼 위치 보존)")
 
     out_plot = _work(cfg, "build", "PLOT.CB")
     smf_mod.repack_cab(plot_cb, new_smf, out_plot)

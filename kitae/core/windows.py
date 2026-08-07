@@ -13,7 +13,8 @@ Everything below is a straight read of that table; the MTG timing data is only
 used as a cross-check (a voiced window's characters must match its timing).
 
 The cross-check: for a window that has voice, `MTG/<script>.SET` holds a
-CTRFMsgTiming record with one (u8,u8) pair per *drawn* character. Inline markup
+CTRFMsgTiming record with one u16 entry per *drawn* character plus a
+terminator (see `kitae.build.mtg`). Inline markup
 (`@S@`, `@P@`, `&主人公&`) is not drawn, so it is stripped before comparing --
 see `display_len`. Unvoiced windows (narration, monologue, the silent
 protagonist) carry an empty timing record and cannot be cross-checked.
@@ -61,8 +62,15 @@ def clss_objects(buf):
 
 
 def timing_chars(payload):
-    """Characters this timing record covers, or None when there is no timing."""
-    return (len(payload) - 4) // 2 if len(payload) > 4 else None
+    """Characters this timing record covers, or None when there is no timing.
+
+    The payload is `u16 count` + `count` u16 entries, and the last entry is a
+    terminator that no character consumes -- so it covers `count - 1` glyphs.
+    """
+    if len(payload) < 4:
+        return None
+    count = struct.unpack_from("<H", payload, 0)[0]
+    return count - 1 if count >= 2 else None
 
 
 def wave_name(payload):

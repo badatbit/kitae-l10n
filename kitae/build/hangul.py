@@ -166,6 +166,36 @@ def inject(cfg, chars):
     return dst
 
 
+def decode(data, cp):
+    """`encode` 의 역 — 배정된 칸을 한글로 되돌린다.
+
+    게임 바이트를 사람이 읽으려면 필요하다. cp932 로 그냥 읽으면 배정된 칸이
+    엉뚱한 한자로 보여서 빌드 결과를 눈으로 확인할 수 없다.
+    """
+    rev = {bytes(v): k for k, v in cp.items()}
+    out, i, n = [], 0, len(data)
+    while i < n:
+        two = data[i:i + 2]
+        if two in rev:
+            out.append(rev[two])
+            i += 2
+            continue
+        lead = data[i]
+        w = 2 if (0x81 <= lead <= 0x9F or 0xE0 <= lead <= 0xFC) and i + 1 < n else 1
+        out.append(data[i:i + w].decode("cp932", "replace"))
+        i += w
+    return "".join(out)
+
+
+def decoder(cfg):
+    """게임 바이트를 읽을 수 있는 문자열로 바꾸는 함수."""
+    cp = _read_codepage(os.path.join(cfg.data_dir, "codepage.json"))
+
+    def dec(data):
+        return decode(data, cp)
+    return dec
+
+
 def encoder(cfg):
     """번역문을 게임 바이트로 바꾸는 함수. cp932 + 배정된 한글 칸."""
     cp = _read_codepage(os.path.join(cfg.data_dir, "codepage.json"))
