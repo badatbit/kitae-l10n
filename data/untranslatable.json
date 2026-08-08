@@ -1,0 +1,376 @@
+{
+ "note": "조회 키라서 번역하지 않은 문자열. docs/UI-TEXT.md 참고",
+ "count": 74,
+ "entries": [
+  {
+   "module": "COMMONSAVE",
+   "offset": "0x0105a0",
+   "ja": "琴梨の夏編終了"
+  },
+  {
+   "module": "COMMONSAVE",
+   "offset": "0x0105b0",
+   "ja": "鮎の夏編終了"
+  },
+  {
+   "module": "COMMONSAVE",
+   "offset": "0x0105c0",
+   "ja": "ターニャの夏編終了"
+  },
+  {
+   "module": "COMMONSAVE",
+   "offset": "0x0105d4",
+   "ja": "由子の夏編終了"
+  },
+  {
+   "module": "COMMONSAVE",
+   "offset": "0x0105e4",
+   "ja": "薫の夏編終了"
+  },
+  {
+   "module": "COMMONSAVE",
+   "offset": "0x0105f4",
+   "ja": "葉野香の夏編終了"
+  },
+  {
+   "module": "COMMONSAVE",
+   "offset": "0x010608",
+   "ja": "梢の夏編終了"
+  },
+  {
+   "module": "COMMONSAVE",
+   "offset": "0x010618",
+   "ja": "めぐみの夏編終了"
+  },
+  {
+   "module": "COMMONSAVE",
+   "offset": "0x01062c",
+   "ja": "ＵＦＯできる"
+  },
+  {
+   "module": "COMMONSAVE",
+   "offset": "0x01063c",
+   "ja": "クイズできる"
+  },
+  {
+   "module": "COMMONSAVE",
+   "offset": "0x01064c",
+   "ja": "テニスできる"
+  },
+  {
+   "module": "COMMONSAVE",
+   "offset": "0x01065c",
+   "ja": "テクノメイズできる"
+  },
+  {
+   "module": "COMMONSAVE",
+   "offset": "0x010670",
+   "ja": "ひまわりできる"
+  },
+  {
+   "module": "COMMONSAVE",
+   "offset": "0x010680",
+   "ja": "カラオケできる"
+  },
+  {
+   "module": "COMMONSAVE",
+   "offset": "0x010690",
+   "ja": "シューティングできる"
+  },
+  {
+   "module": "COMMONSAVE",
+   "offset": "0x0106a8",
+   "ja": "まけましたわ"
+  },
+  {
+   "module": "ITEMMENU",
+   "offset": "0x00e314",
+   "ja": "リブレット"
+  },
+  {
+   "module": "ITEMMENU",
+   "offset": "0x00e370",
+   "ja": "謎のポエム"
+  },
+  {
+   "module": "ITEMMENU",
+   "offset": "0x00e3a4",
+   "ja": "由子にもらった手袋"
+  },
+  {
+   "module": "ITEMMENU",
+   "offset": "0x00e42c",
+   "ja": "葉野香にもらったマフラー"
+  },
+  {
+   "module": "ITEMMENU",
+   "offset": "0x00e4b0",
+   "ja": "めぐみちゃん人形"
+  },
+  {
+   "module": "ITEMMENU",
+   "offset": "0x00e4ec",
+   "ja": "赤いスズラン"
+  },
+  {
+   "module": "ITEMMENU",
+   "offset": "0x00e554",
+   "ja": "赤い花瓶"
+  },
+  {
+   "module": "ITEMMENU",
+   "offset": "0x00e890",
+   "ja": "誰に"
+  },
+  {
+   "module": "ITEMMENU",
+   "offset": "0x00e8a0",
+   "ja": "何を"
+  },
+  {
+   "module": "KITACMDMENU",
+   "offset": "0x01a8e0",
+   "ja": "ベイエリア"
+  },
+  {
+   "module": "KITACMDMENU",
+   "offset": "0x01aa8c",
+   "ja": "メニュー表示"
+  },
+  {
+   "module": "KITACMDMENU",
+   "offset": "0x01aa9c",
+   "ja": "移動表示"
+  },
+  {
+   "module": "KITACMDMENU",
+   "offset": "0x01ab44",
+   "ja": "セーブ場所"
+  },
+  {
+   "module": "KITATITLE",
+   "offset": "0x010a34",
+   "ja": "ナレスキップ"
+  },
+  {
+   "module": "KITATITLE",
+   "offset": "0x010a44",
+   "ja": "メッセージ速度"
+  },
+  {
+   "module": "KITATITLE",
+   "offset": "0x010a54",
+   "ja": "メッセージボーダー"
+  },
+  {
+   "module": "TRFOPTIONGAME",
+   "offset": "0x015d48",
+   "ja": "オプション"
+  },
+  {
+   "module": "TRFOPTIONGAME",
+   "offset": "0x015d54",
+   "ja": "まけましたわ"
+  },
+  {
+   "module": "TRFOPTIONGAME",
+   "offset": "0x015d6c",
+   "ja": "対戦相手１"
+  },
+  {
+   "module": "TRFOPTIONGAME",
+   "offset": "0x015d78",
+   "ja": "対戦相手２"
+  },
+  {
+   "module": "TRFOPTIONGAME",
+   "offset": "0x015e94",
+   "ja": "操作説明聞く"
+  },
+  {
+   "module": "TRFOPTIONGAME",
+   "offset": "0x015fc8",
+   "ja": "ＵＦＯできる"
+  },
+  {
+   "module": "TRFOPTIONGAME",
+   "offset": "0x015fd8",
+   "ja": "クイズできる"
+  },
+  {
+   "module": "TRFOPTIONGAME",
+   "offset": "0x015fe8",
+   "ja": "テニスできる"
+  },
+  {
+   "module": "TRFOPTIONGAME",
+   "offset": "0x015ff8",
+   "ja": "テクノメイズできる"
+  },
+  {
+   "module": "TRFOPTIONGAME",
+   "offset": "0x01600c",
+   "ja": "ひまわりできる"
+  },
+  {
+   "module": "TRFOPTIONGAME",
+   "offset": "0x01601c",
+   "ja": "カラオケできる"
+  },
+  {
+   "module": "TRFOPTIONGAME",
+   "offset": "0x01602c",
+   "ja": "シューティングできる"
+  },
+  {
+   "module": "TRFOPTIONGAME",
+   "offset": "0x016110",
+   "ja": "琴梨の夏編終了"
+  },
+  {
+   "module": "TRFOPTIONGAME",
+   "offset": "0x016120",
+   "ja": "鮎の夏編終了"
+  },
+  {
+   "module": "TRFOPTIONGAME",
+   "offset": "0x016130",
+   "ja": "ターニャの夏編終了"
+  },
+  {
+   "module": "TRFOPTIONGAME",
+   "offset": "0x016144",
+   "ja": "由子の夏編終了"
+  },
+  {
+   "module": "TRFOPTIONGAME",
+   "offset": "0x016154",
+   "ja": "薫の夏編終了"
+  },
+  {
+   "module": "TRFOPTIONGAME",
+   "offset": "0x016164",
+   "ja": "葉野香の夏編終了"
+  },
+  {
+   "module": "TRFOPTIONGAME",
+   "offset": "0x016178",
+   "ja": "梢の夏編終了"
+  },
+  {
+   "module": "TRFOPTIONGAME",
+   "offset": "0x016188",
+   "ja": "めぐみの夏編終了"
+  },
+  {
+   "module": "TRFSYSCONFIG",
+   "offset": "0x010b74",
+   "ja": "ナレスキップ"
+  },
+  {
+   "module": "TRFSYSCONFIG",
+   "offset": "0x010b84",
+   "ja": "メッセージ速度"
+  },
+  {
+   "module": "TRFSYSCONFIG",
+   "offset": "0x010b94",
+   "ja": "メッセージボーダー"
+  },
+  {
+   "module": "TRFVMSVIEW",
+   "offset": "0x01024c",
+   "ja": "ナレスキップ"
+  },
+  {
+   "module": "TRFVMSVIEW",
+   "offset": "0x01025c",
+   "ja": "メッセージ速度"
+  },
+  {
+   "module": "TRFVMSVIEW",
+   "offset": "0x01026c",
+   "ja": "メッセージボーダー"
+  },
+  {
+   "module": "TRFVMSVIEW",
+   "offset": "0x010280",
+   "ja": "琴梨の夏編終了"
+  },
+  {
+   "module": "TRFVMSVIEW",
+   "offset": "0x010290",
+   "ja": "鮎の夏編終了"
+  },
+  {
+   "module": "TRFVMSVIEW",
+   "offset": "0x0102a0",
+   "ja": "ターニャの夏編終了"
+  },
+  {
+   "module": "TRFVMSVIEW",
+   "offset": "0x0102b4",
+   "ja": "由子の夏編終了"
+  },
+  {
+   "module": "TRFVMSVIEW",
+   "offset": "0x0102c4",
+   "ja": "薫の夏編終了"
+  },
+  {
+   "module": "TRFVMSVIEW",
+   "offset": "0x0102d4",
+   "ja": "葉野香の夏編終了"
+  },
+  {
+   "module": "TRFVMSVIEW",
+   "offset": "0x0102e8",
+   "ja": "梢の夏編終了"
+  },
+  {
+   "module": "TRFVMSVIEW",
+   "offset": "0x0102f8",
+   "ja": "めぐみの夏編終了"
+  },
+  {
+   "module": "TRFVMSVIEW",
+   "offset": "0x01030c",
+   "ja": "ＵＦＯできる"
+  },
+  {
+   "module": "TRFVMSVIEW",
+   "offset": "0x01031c",
+   "ja": "クイズできる"
+  },
+  {
+   "module": "TRFVMSVIEW",
+   "offset": "0x01032c",
+   "ja": "テニスできる"
+  },
+  {
+   "module": "TRFVMSVIEW",
+   "offset": "0x01033c",
+   "ja": "テクノメイズできる"
+  },
+  {
+   "module": "TRFVMSVIEW",
+   "offset": "0x010350",
+   "ja": "ひまわりできる"
+  },
+  {
+   "module": "TRFVMSVIEW",
+   "offset": "0x010360",
+   "ja": "カラオケできる"
+  },
+  {
+   "module": "TRFVMSVIEW",
+   "offset": "0x010370",
+   "ja": "シューティングできる"
+  },
+  {
+   "module": "TRFVMSVIEW",
+   "offset": "0x010388",
+   "ja": "まけましたわ"
+  }
+ ]
+}

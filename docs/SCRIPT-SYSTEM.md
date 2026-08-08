@@ -66,6 +66,7 @@ MTG의 WST도 같은 포맷: `CTRFDataSet` 루트 아래 `CTRFWaveName` 객체 �
 - 대사↔음성 매핑: **MTG.CB**의 스크립트 파일별 `.WST`(CTRFWaveName 목록)가 담당.
   `.SET`은 글자별 표시 시각(밀리초)과 입 모양을 담은 CTRFMsgTiming — → [MTG-TIMING.md](MTG-TIMING.md)
 - 음성은 18000Hz Yamaha ADPCM (효과음만 22050Hz).
+- 메뉴·안내문 등 **시스템 텍스트는 DLL 안**에 박혀 있다 → [UI-TEXT.md](UI-TEXT.md). 그중 EDL 심볼 이름은 번역하면 안 된다.
 
 ## 6. EB 내부 구조 (추가 해독)
 

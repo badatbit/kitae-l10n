@@ -185,6 +185,15 @@ def patch_all(cfg, lang, encode, base=None):
     if blocked:
         print(f"  심볼 이름이라 손대지 않음: {len(blocked)}개 "
               f"({', '.join(sorted({b[2] for b in blocked})[:5])} …)")
+        # 무엇이 왜 막혔는지 남긴다 — 번역이 안 나오는 이유를 찾을 때 본다
+        p = os.path.join(cfg.data_dir, "untranslatable.json")
+        doc = {"note": "조회 키라서 번역하지 않은 문자열. docs/UI-TEXT.md 참고",
+               "count": len(blocked),
+               "entries": [{"module": m, "offset": f"{o:#08x}", "ja": t}
+                           for m, o, t in sorted(blocked)]}
+        os.makedirs(os.path.dirname(p), exist_ok=True)
+        with io.open(p, "w", encoding="utf-8") as fh:
+            fh.write(json.dumps(doc, ensure_ascii=False, indent=1) + "\n")
     for w in warn:
         print(f"  ⚠ {w}")
     return out, warn
