@@ -206,6 +206,20 @@ def _build(cfg, scripts, lang, want_font=True):
         if chars:
             font_dll = hangul.inject(cfg, chars)
             print(f"폰트: {len(chars)}자 주입 → {os.path.relpath(font_dll, cfg.root)}")
+            # 전진폭 실험 — 2바이트 패치. 근거는 kitae/build/advance.py
+            adv = cfg.get("font_advance")
+            if adv is not None:
+                from kitae.build import advance
+                cur = open(font_dll, "rb").read()
+                if adv == "probe":
+                    blob, done = advance.probe(cur)
+                else:
+                    blob, done = advance.patch(
+                        cur, int(adv), draw=bool(cfg.get("font_advance_draw")))
+                with open(font_dll, "wb") as fh:
+                    fh.write(blob)
+                for d in done:
+                    print(f"  전진폭: {d}")
         else:
             print("폰트: 새로 넣을 글자 없음")
 

@@ -43,5 +43,6 @@
   ],
   "emulator_fixes": {
     "choice_gate": true
-  }
+  },
+  "font_advance": 22
 }

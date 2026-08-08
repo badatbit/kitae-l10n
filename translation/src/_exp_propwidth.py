@@ -38,8 +38,8 @@ ROOT = os.path.join(HERE, os.pardir)
 NAME = "HANYOU"
 WINS = (312, 315, 318, 321, 324, 327)
 
-LINE0 = "Hi, there! I'm testing the proportial width."
-LINE1 = "iiii mmmm WWWW ....  0123456789"
+LINE0 = "가가가가가가가가나나나나나나나나"
+LINE1 = "가나다라마바사아자차카타파하。１２３"
 
 ORIG = {
     0: "로즈힐　미나미히라기시　응접실이다。",
