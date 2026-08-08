@@ -1,0 +1,1362 @@
+{
+ "script": "URANAI",
+ "source": "ja",
+ "entries": [
+  {
+   "window": 0,
+   "line": 0,
+   "speaker": "説明",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "はい！　こちらＤｒ．ダバダの占い電話サービスです。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 0,
+   "line": 1,
+   "speaker": "説明",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "あなたと　あなたの意中の女の子の相性を",
+    "ko": ""
+   }
+  },
+  {
+   "window": 0,
+   "line": 2,
+   "speaker": "説明",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "無料で占って差し上げます。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 0,
+   "speaker": "説明",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "ダバダ占いについての説明を聞きますか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 2,
+   "line": 0,
+   "speaker": "説明",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "もちろん！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 2,
+   "line": 1,
+   "speaker": "説明",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "・・別に・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 3,
+   "line": 0,
+   "speaker": "説明",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "ダバダ占いは　あなたとあなたの意中の女の子の",
+    "ko": ""
+   }
+  },
+  {
+   "window": 3,
+   "line": 1,
+   "speaker": "説明",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "相性を電話番号によって導き出します。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 4,
+   "line": 0,
+   "speaker": "説明",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "相性はあなたの日頃の行いによって日々刻々と",
+    "ko": ""
+   }
+  },
+  {
+   "window": 4,
+   "line": 1,
+   "speaker": "説明",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "変化しますから　マメに電話してみて下さいね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 4,
+   "line": 2,
+   "speaker": "説明",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "それでは　占いを始めます。よろしいですか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 5,
+   "line": 0,
+   "speaker": "説明",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "占いをする",
+    "ko": ""
+   }
+  },
+  {
+   "window": 5,
+   "line": 1,
+   "speaker": "説明",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "やっぱりやめる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 6,
+   "line": 0,
+   "speaker": "説明",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "それでは　さっそく占いを始めます。よろしいですか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 7,
+   "line": 0,
+   "speaker": "説明",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "占いをする",
+    "ko": ""
+   }
+  },
+  {
+   "window": 7,
+   "line": 1,
+   "speaker": "説明",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "やっぱりやめる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 8,
+   "line": 0,
+   "speaker": "説明",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "またのご利用をお待ちしております。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 9,
+   "line": 0,
+   "speaker": "説明",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "どなたとの相性を占いますか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 10,
+   "line": 0,
+   "speaker": "説明",
+   "kind": "선택지",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "春野琴梨",
+    "ko": ""
+   }
+  },
+  {
+   "window": 10,
+   "line": 1,
+   "speaker": "説明",
+   "kind": "선택지",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "川原鮎",
+    "ko": ""
+   }
+  },
+  {
+   "window": 10,
+   "line": 2,
+   "speaker": "説明",
+   "kind": "선택지",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "左京葉野香",
+    "ko": ""
+   }
+  },
+  {
+   "window": 10,
+   "line": 3,
+   "speaker": "説明",
+   "kind": "선택지",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "里中梢",
+    "ko": ""
+   }
+  },
+  {
+   "window": 10,
+   "line": 4,
+   "speaker": "説明",
+   "kind": "선택지",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "桜町由子",
+    "ko": ""
+   }
+  },
+  {
+   "window": 10,
+   "line": 5,
+   "speaker": "説明",
+   "kind": "선택지",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "椎名薫",
+    "ko": ""
+   }
+  },
+  {
+   "window": 10,
+   "line": 6,
+   "speaker": "説明",
+   "kind": "선택지",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "ターニャ・リピンスキー",
+    "ko": ""
+   }
+  },
+  {
+   "window": 10,
+   "line": 7,
+   "speaker": "説明",
+   "kind": "선택지",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "愛田めぐみ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 11,
+   "line": 0,
+   "speaker": "説明",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "だばだ・でんぺーら！　うんじゃほがらら！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 11,
+   "line": 1,
+   "speaker": "説明",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "えべろ・でんべーろ！　どんねらばだだ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 11,
+   "line": 2,
+   "speaker": "説明",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "きえぇぇぇぇぇぇぇぇぇぇぇぇぇぇぇぇい！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 12,
+   "line": 0,
+   "speaker": "説明",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "結果が出ました。『凶』です。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 12,
+   "line": 1,
+   "speaker": "説明",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "それでは　またのご利用をお待ちしております。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 13,
+   "line": 0,
+   "speaker": "説明",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "結果が出ました。『小吉』です。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 13,
+   "line": 1,
+   "speaker": "説明",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "それでは　またのご利用をお待ちしております。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 14,
+   "line": 0,
+   "speaker": "説明",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "結果が出ました。『中吉』です。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 14,
+   "line": 1,
+   "speaker": "説明",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "それでは　またのご利用をお待ちしております。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 15,
+   "line": 0,
+   "speaker": "説明",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "結果が出ました。『大吉』です。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 15,
+   "line": 1,
+   "speaker": "説明",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "それでは　またのご利用をお待ちしております。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 16,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "・・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 16,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "・・・出ないみたいだな・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 17,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "今　会ってる女の子に電話しても意味がないな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 18,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "今いる場所に電話しても意味がないな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 19,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "・・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 19,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "・・・出ないみたいだな・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 20,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "琴梨ちゃんは　合宿に行っているはずだから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 20,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "家に電話しても意味がないな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 20,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "やっぱりやめておこう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 21,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "さっき電話したばかりだし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 21,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "もう少し　時間をおいてかけてみようかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 22,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "さっき電話したばっかりだから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 22,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "今かけたら　変に思われちゃうよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 22,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "やっぱりやめておこう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 23,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "さっき会ったばかりだし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 23,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "今電話したら　きっと変に思われるだろうな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 23,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "やっぱり・・電話するのやめよう・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 24,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "はい。川原です。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 25,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "もしもし・・&主人公名前&です。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 26,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "・・・いきなり切られてしまった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 26,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "やっぱり　怒ってるんだろうな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 27,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "鮎ちゃんのこと　怒らせちゃったし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 27,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "しばらく電話しない方がいいだろうな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 28,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "鮎ちゃんは　さっき合宿に行ったばかりだから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 28,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "家に電話しても意味がないな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 28,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "やっぱりやめておこう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 29,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "鮎ちゃんは　合宿に行っているはずだから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 29,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "家に電話しても意味がないな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 29,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "やっぱりやめておこう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 30,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "はい。川原です。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 31,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "もしもし・・&主人公名前&です。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 31,
+   "line": 1,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "こないだはごめんね！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 31,
+   "line": 2,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "・・それで明日とか・・空いてないかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 32,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "えっと・・明日・・明日・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 32,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "ごめん！　ダメみたい・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 32,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "ほんとごめんね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 33,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "そっか・・残念。それじゃまた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 34,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "もしもし・・&主人公名前&です。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 34,
+   "line": 1,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "川原さんのお宅ですか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 35,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "あっ！　私！　鮎だよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 35,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "電話してくれたんだね。ありがとう！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 36,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "うん。それで明日とか・・空いてないかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 37,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "えっと・・明日・・明日・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 37,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "ごめん！　ダメみたい・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 37,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "ほんとごめんね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 38,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "そっか・・残念。それじゃまた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 39,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "・・・でも　まだ会ったこともない人に",
+    "ko": ""
+   }
+  },
+  {
+   "window": 39,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "いきなり電話するのは失礼だよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 39,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "やっぱりやめておこう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 40,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "美瑛から黙って札幌に戻って来ちゃったし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 40,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "電話するのは　ちょっと気まずいな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 40,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "やっぱりやめておこう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 41,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "さっき電話があったばっかりだから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 41,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "今かけたら　変に思われちゃうよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 41,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "やっぱりやめておこう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 42,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "さっき会ったばかりだし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 42,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "今電話したら　きっと変に思われるだろうな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 42,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "やっぱり・・電話するのやめよう・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 43,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "さっき会ったばかりだし・・今電話しても",
+    "ko": ""
+   }
+  },
+  {
+   "window": 43,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "きっと葉野香ちゃん戻ってないだろうな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 43,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "もう少ししたら　かけてみよう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 44,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "はい。桜町です。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 45,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "もしもし・・&主人公名前&です。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 46,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "あっ！　元気？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 46,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "・・・どうしたの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 47,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "いきなりだけど明日とか・・会えないかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 48,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "・・・あちゃー！　ダメ！　予定入れちゃった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 48,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "ごめんねぇ・・まぁ　またの機会と言うことで・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 49,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "そっか・・残念。それじゃまた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 50,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "さっき電話して　断られてるから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 50,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "やっぱり　今日はもう　かけない方がいいな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 51,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "家族全員で旅行に来てるわけだから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 51,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "あの家に電話しても　意味がないな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 52,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "よく考えたら　病院の中では携帯やＰＨＳの",
+    "ko": ""
+   }
+  },
+  {
+   "window": 52,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "使用は禁止されていたっけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 52,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "仕方ない・・・電話するのやめよう・・",
+    "ko": ""
+   }
+  }
+ ]
+}

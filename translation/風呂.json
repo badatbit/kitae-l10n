@@ -1,0 +1,12810 @@
+{
+ "script": "風呂",
+ "source": "ja",
+ "entries": [
+  {
+   "window": 0,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "札幌に来て　最初の夜だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 0,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "・・今日も一日　いろんなことがあったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 0,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "まず飛行機の中で出会ったのが・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "椎名へきろ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "椎名町由子",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "椎名薫",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "椎名香",
+    "ko": ""
+   }
+  },
+  {
+   "window": 2,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "あれ？　そんな名前だっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 2,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "ちょっと冷たい感じだけど　綺麗な人だったなぁ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 3,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "そうそう！　椎名薫さんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 3,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "ちょっと冷たい感じだけど　綺麗な人だったなぁ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 4,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "札幌に来て　最初の夜だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 4,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "・・今日も一日　いろんなことがあったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 4,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "まず飛行機の中で出会ったのが・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 5,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "・・・よく考えたら　名前も聞いていなかったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 6,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "そしてその後　空港に迎えに来てくれたのは・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 7,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "春野琴梨",
+    "ko": ""
+   }
+  },
+  {
+   "window": 7,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "春野小鳥",
+    "ko": ""
+   }
+  },
+  {
+   "window": 7,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "春野琴里",
+    "ko": ""
+   }
+  },
+  {
+   "window": 7,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "鳳琴梨",
+    "ko": ""
+   }
+  },
+  {
+   "window": 8,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "あれ？　そんな名前だっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 8,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "『お兄ちゃん』って呼ばれると　ほんとの妹みたいに",
+    "ko": ""
+   }
+  },
+  {
+   "window": 8,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "思えてくるよなぁ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 9,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "そうそう！　春野琴梨ちゃんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 9,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "親戚なんだから忘れるわけがない。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 10,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "『お兄ちゃん』って呼ばれると　ほんとの妹みたいに",
+    "ko": ""
+   }
+  },
+  {
+   "window": 10,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "思えてくるよなぁ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 11,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "彼女は高校１年生だったよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 11,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "確か・・高校の名前は・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 12,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "大里高校",
+    "ko": ""
+   }
+  },
+  {
+   "window": 12,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "中里高校",
+    "ko": ""
+   }
+  },
+  {
+   "window": 12,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "小里高校",
+    "ko": ""
+   }
+  },
+  {
+   "window": 12,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "天里高校",
+    "ko": ""
+   }
+  },
+  {
+   "window": 13,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "あれ？　そんな名前だっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 13,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "ちょうど一歳　年下なんだな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 14,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "そうそう！　大里高校だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 14,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "ちょうど一歳　年下なんだな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 15,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "そして今日からお世話になっている",
+    "ko": ""
+   }
+  },
+  {
+   "window": 15,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "このマンションの名前は・・確か・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 16,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "ローザービー",
+    "ko": ""
+   }
+  },
+  {
+   "window": 16,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "ローズヒル",
+    "ko": ""
+   }
+  },
+  {
+   "window": 16,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "ローデシア",
+    "ko": ""
+   }
+  },
+  {
+   "window": 16,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "ローザンヌ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 17,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "あれ？　そんな名前だっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 17,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "札幌に親戚がいて　ラッキーだったよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 18,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "そうそう！　ローズヒルだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 18,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "札幌に親戚がいて　ラッキーだったよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 19,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "今日一日　充実していたし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 19,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "いい旅になりそうな　そんな予感がするな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 19,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "さて！　そろそろ上がろう！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 20,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "ふぅ・・いい湯加減だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 21,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "まぁ・・色々あったけど　今日も楽しかったな。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 21,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "さて！　そろそろ上がろう！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 22,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "ふぅ・・いい湯加減だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 23,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "まぁ・・色々あったけど　今日も楽しかったな。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 23,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "さて！　そろそろ上がろう！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 24,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "ふぅ・・いい湯加減だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 25,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "まぁ・・色々あったけど　今日も楽しかったな。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 25,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "さて！　そろそろ上がろう！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 26,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "ふぅ・・いい湯加減だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 27,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "まぁ・・色々あったけど　今日も楽しかったな。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 27,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "さて！　そろそろ上がろう！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 28,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "ふぅ・・いい湯加減だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 29,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "まぁ・・色々あったけど　今日も楽しかったな。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 29,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "さて！　そろそろ上がろう！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 30,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "ふぅ・・いい湯加減だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 31,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "まぁ・・色々あったけど　今日も楽しかったな。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 31,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "さて！　そろそろ上がろう！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 32,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "ふぅ・・いい湯加減だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 33,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "まぁ・・色々あったけど　今日も楽しかったな。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 33,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "さて！　そろそろ上がろう！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 34,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "ふぅ・・いい湯加減だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 35,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "まぁ・・色々あったけど　今日も楽しかったな。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 35,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "さて！　そろそろ上がろう！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 36,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "ふぅ・・いい湯加減だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 37,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "まぁ・・色々あったけど　今日も楽しかったな。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 37,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "さて！　そろそろ上がろう！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 38,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "ふぅ・・いい湯加減だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 39,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "まぁ・・色々あったけど　今日も楽しかったな。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 39,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "さて！　そろそろ上がろう！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 40,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "ふぅ・・いい湯加減だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 41,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "まぁ・・色々あったけど　今日も楽しかったな。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 41,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "さて！　そろそろ上がろう！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 42,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "ふぅ・・いい湯加減だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 43,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "まぁ・・色々あったけど　今日も楽しかったな。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 43,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "さて！　そろそろ上がろう！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 44,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "ふぅ・・いい湯加減だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 45,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "まぁ・・色々あったけど　今日も楽しかったな。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 45,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "さて！　そろそろ上がろう！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 46,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "今日は一人で　大通公園を歩いたっけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 46,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "街を一人でぶらぶら歩くのも　いいもんだな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 47,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "でも・・一緒に歩いてくれる誰かがいたら",
+    "ko": ""
+   }
+  },
+  {
+   "window": 47,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "もっと楽しかったかも・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 48,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "・・・そんなこと考えても　仕方ないな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 49,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "・・今日も一日　いろんなことがあったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 49,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "まず琴梨ちゃんと行ったのが・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 50,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "北海道開発局",
+    "ko": ""
+   }
+  },
+  {
+   "window": 50,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "旧北海道庁",
+    "ko": ""
+   }
+  },
+  {
+   "window": 50,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "時計台",
+    "ko": ""
+   }
+  },
+  {
+   "window": 50,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "時計大",
+    "ko": ""
+   }
+  },
+  {
+   "window": 51,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 51,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "古い赤レンガの印象的な建物だったよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 52,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "そうそう・・旧北海道庁だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 52,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "古い赤レンガの印象的な建物だったよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 53,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "そして　その後に行った公園の名前は・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 54,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "通大公園",
+    "ko": ""
+   }
+  },
+  {
+   "window": 54,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "大通公園",
+    "ko": ""
+   }
+  },
+  {
+   "window": 54,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "太通公園",
+    "ko": ""
+   }
+  },
+  {
+   "window": 54,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "森林公園",
+    "ko": ""
+   }
+  },
+  {
+   "window": 55,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 55,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "緑いっぱいの広い公園だったなぁ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 56,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "確か　冬はホワイト・イルミネーションの",
+    "ko": ""
+   }
+  },
+  {
+   "window": 56,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "会場になるって　琴梨ちゃんが言ってたよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 56,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "どんなイベントだろう？　一度見てみたいな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 57,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "そうそう・・大通公園だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 57,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "緑いっぱいの広い公園だったなぁ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 58,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "確か　冬はホワイト・イルミネーションの",
+    "ko": ""
+   }
+  },
+  {
+   "window": 58,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "会場になるって　琴梨ちゃんが言ってたよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 58,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "どんなイベントだろう？　一度見てみたいな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 59,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "そして　その後　狸小路でばったり会ったのが",
+    "ko": ""
+   }
+  },
+  {
+   "window": 59,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "琴梨ちゃんの親友の・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 60,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "川原綾",
+    "ko": ""
+   }
+  },
+  {
+   "window": 60,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "川原鮎",
+    "ko": ""
+   }
+  },
+  {
+   "window": 60,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "川腹海背",
+    "ko": ""
+   }
+  },
+  {
+   "window": 60,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "川田名人",
+    "ko": ""
+   }
+  },
+  {
+   "window": 61,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 61,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "明るくて元気な女の子だったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 62,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "そうそう・・川原鮎ちゃんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 62,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "明るくて元気な女の子だったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 63,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "今日一日　充実していたし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 63,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "いい旅になりそうな　そんな予感がするな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 63,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "さて！　そろそろ上がろう！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 64,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "・・今日も一日　いろんなことがあったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 64,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "鮎ちゃんと行った遊園地の名前が・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 65,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "テイセンオリンピア",
+    "ko": ""
+   }
+  },
+  {
+   "window": 65,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "テンネンオリンピア",
+    "ko": ""
+   }
+  },
+  {
+   "window": 65,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "テイネオリンピア",
+    "ko": ""
+   }
+  },
+  {
+   "window": 65,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "テルメオリンピア",
+    "ko": ""
+   }
+  },
+  {
+   "window": 66,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 66,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "のどかな感じの遊園地だったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 67,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "そうそう・・テイネオリンピアだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 67,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "のどかな感じの遊園地だったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 68,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "そこでお化け屋敷に入ったり　スーパートマホークや",
+    "ko": ""
+   }
+  },
+  {
+   "window": 68,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "観覧車に乗ったりして　結構　楽しかったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 68,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "そう言えばヒーローショーも見たな・・名前は確か・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 69,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "七草忍者隊",
+    "ko": ""
+   }
+  },
+  {
+   "window": 69,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "八千草忍者隊",
+    "ko": ""
+   }
+  },
+  {
+   "window": 69,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "七草機動隊",
+    "ko": ""
+   }
+  },
+  {
+   "window": 69,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "八千草機動隊",
+    "ko": ""
+   }
+  },
+  {
+   "window": 70,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 70,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "最近は　おかしなものが流行るな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 71,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "そうそう・・七草忍者隊だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 71,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "最近は　おかしなものが流行るな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 72,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "そのヒーローショーを見てる時に出会ったのが",
+    "ko": ""
+   }
+  },
+  {
+   "window": 72,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "鮎ちゃんの先輩の・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 73,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "里中硝",
+    "ko": ""
+   }
+  },
+  {
+   "window": 73,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "畑中葉子",
+    "ko": ""
+   }
+  },
+  {
+   "window": 73,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "里中梢",
+    "ko": ""
+   }
+  },
+  {
+   "window": 73,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "畑中陽子",
+    "ko": ""
+   }
+  },
+  {
+   "window": 74,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 74,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "ちょっと変わった雰囲気の女の子だったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 75,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "そうそう・・里中梢ちゃんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 75,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "ちょっと変わった雰囲気の女の子だったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 76,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "今日一日　充実していたし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 76,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "やっぱりこっちに来て良かったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 76,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "さて！　そろそろ上がろう！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 77,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "・・今日も一日　いろんなことがあったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 77,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "琴梨ちゃんと行った小樽の市場の名前が・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 78,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "三角市場",
+    "ko": ""
+   }
+  },
+  {
+   "window": 78,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "四角市場",
+    "ko": ""
+   }
+  },
+  {
+   "window": 78,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "五角市場",
+    "ko": ""
+   }
+  },
+  {
+   "window": 78,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "六角大王",
+    "ko": ""
+   }
+  },
+  {
+   "window": 79,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 79,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "北海道ならではの食材が　たくさん並んでいたな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 80,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "そうそう・・三角市場だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 80,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "北海道ならではの食材が　たくさん並んでいたな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 81,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "市場を見た後　ガラス工房に行ったっけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 81,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "名前は確か・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 82,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "小樽硝子工藝館",
+    "ko": ""
+   }
+  },
+  {
+   "window": 82,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "小樽キャビンかま栄",
+    "ko": ""
+   }
+  },
+  {
+   "window": 82,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "小樽キャビアかま栄",
+    "ko": ""
+   }
+  },
+  {
+   "window": 82,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "小樽運河工藝館",
+    "ko": ""
+   }
+  },
+  {
+   "window": 83,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "・・今日も一日　いろんなことがあったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 83,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "最初に見学した　ガラス工房の名前は・・確か・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 84,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "小樽硝子工藝館",
+    "ko": ""
+   }
+  },
+  {
+   "window": 84,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "小樽キャビンかま栄",
+    "ko": ""
+   }
+  },
+  {
+   "window": 84,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "小樽キャビアかま栄",
+    "ko": ""
+   }
+  },
+  {
+   "window": 84,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "小樽運河工藝館",
+    "ko": ""
+   }
+  },
+  {
+   "window": 85,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 85,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "あそこで働いていた金髪の店員さん　綺麗だったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 86,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "そうそう・・小樽運河工藝館だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 86,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "あそこで働いていた金髪の店員さん　綺麗だったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 87,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "その後　水族館にも行ったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 87,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "名前は確か・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 88,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "マロンパーク小樽",
+    "ko": ""
+   }
+  },
+  {
+   "window": 88,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "マリンパーク小樽",
+    "ko": ""
+   }
+  },
+  {
+   "window": 88,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "おたる水族館",
+    "ko": ""
+   }
+  },
+  {
+   "window": 88,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "おどる水族館",
+    "ko": ""
+   }
+  },
+  {
+   "window": 89,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 89,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "結構　見応えのある水族館だったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 90,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "そうそう・・おたる水族館だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 90,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "結構　見応えのある水族館だったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 91,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "今日一日　充実していたし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 91,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "やっぱりこっちに来て良かったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 91,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "さて！　そろそろ上がろう！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 92,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "椎名薫さんと会ったのは・・確か・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 93,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "北海軒",
+    "ko": ""
+   }
+  },
+  {
+   "window": 93,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "北海学園",
+    "ko": ""
+   }
+  },
+  {
+   "window": 93,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "北海大学",
+    "ko": ""
+   }
+  },
+  {
+   "window": 93,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "北貝亭",
+    "ko": ""
+   }
+  },
+  {
+   "window": 94,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 94,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "彼女　ベンチに座って　ずっと本を読んでたっけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 95,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "そうそう・・北海大学だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 95,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "彼女　ベンチに座って　ずっと本を読んでたっけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 96,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "もっと親しくなりたい・・気もするけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 96,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "どうしたらいいんだろうな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 97,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "まぁ　悩んでいても仕方ないな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 98,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "・・今日も薫さんに会ったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 98,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "彼女の着ていた服は・・確か・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 99,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "カーディガン",
+    "ko": ""
+   }
+  },
+  {
+   "window": 99,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "白衣",
+    "ko": ""
+   }
+  },
+  {
+   "window": 99,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "Ｔシャツ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 99,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "サマーセーター",
+    "ko": ""
+   }
+  },
+  {
+   "window": 100,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 100,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "きっと仕事の忙しい中　時間を作って",
+    "ko": ""
+   }
+  },
+  {
+   "window": 100,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "あのベンチに来てるんだろうな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 101,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "そうそう・・白衣だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 101,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "きっと仕事の忙しい中　時間を作って",
+    "ko": ""
+   }
+  },
+  {
+   "window": 101,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "あのベンチに来てるんだろうな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 102,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "またあの場所に行けば　彼女に会えるかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 102,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "なかなか心を開いてくれそうにないけど・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 103,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "・・今日も薫さんに会ったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 103,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "そう言えば彼女の顔にホクロがあったな・・確か・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 104,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "目の横",
+    "ko": ""
+   }
+  },
+  {
+   "window": 104,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "口の横",
+    "ko": ""
+   }
+  },
+  {
+   "window": 104,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "鼻の横",
+    "ko": ""
+   }
+  },
+  {
+   "window": 104,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "耳の奧",
+    "ko": ""
+   }
+  },
+  {
+   "window": 105,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 105,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "ずっと黙って座ってるから　ついそういう所を",
+    "ko": ""
+   }
+  },
+  {
+   "window": 105,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "観察しちゃうんだよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 106,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "そうそう・・口の横だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 106,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "ずっと黙って座ってるから　ついそういう所を",
+    "ko": ""
+   }
+  },
+  {
+   "window": 106,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "観察しちゃうんだよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 107,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "最近　薫さんの僕に対する態度が　なんとなく柔らかく",
+    "ko": ""
+   }
+  },
+  {
+   "window": 107,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "なってきたような気がするけど・・思い過ごしかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 108,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "・・今日も一日　いろんなことがあったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 108,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "運河工藝館で会った女の子の名前は・・確か・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 109,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "ニキータ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 109,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "ナターシャ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 109,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "ターニャ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 109,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "ナスターシャ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 110,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 110,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "金髪の・・すごく綺麗な女の子だったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 111,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "そうそう・・ターニャだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 111,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "金髪の・・すごく綺麗な女の子だったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 112,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "それから公園で　夕日を見ている彼女にあったっけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 112,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "彼女　夕焼けの色をガラスで再現したいって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 112,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "そう言ってたっけ・・ロシア語で確か・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 113,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "クリフ・ハンガー",
+    "ko": ""
+   }
+  },
+  {
+   "window": 113,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "ツヴェト・ザカータ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 113,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "ナハト・ムジーク",
+    "ko": ""
+   }
+  },
+  {
+   "window": 113,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "ソギャン・シランワー",
+    "ko": ""
+   }
+  },
+  {
+   "window": 114,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 114,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "しっかりとした目標を持って　頑張ってるんだな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 115,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "そうそう・・ツヴェト・ザカータだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 115,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "しっかりとした目標を持って　頑張ってるんだな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 116,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "それから彼女のお気に入りの喫茶店に行ったっけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 116,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "お店の名前は・・確か・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 117,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "喫茶エンジェル",
+    "ko": ""
+   }
+  },
+  {
+   "window": 117,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "喫茶エンゲル",
+    "ko": ""
+   }
+  },
+  {
+   "window": 117,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "喫茶エンゼル",
+    "ko": ""
+   }
+  },
+  {
+   "window": 117,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "喫茶エコール",
+    "ko": ""
+   }
+  },
+  {
+   "window": 118,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 118,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "あのお店のマスター　あったかそうな人だったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 119,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "そうそう・・喫茶エンゼルだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 119,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "あのお店のマスター　あったかそうな人だったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 120,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "間違い電話をしてきた女の子は・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 121,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "ゆみちゃん",
+    "ko": ""
+   }
+  },
+  {
+   "window": 121,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "ゆずちゃん",
+    "ko": ""
+   }
+  },
+  {
+   "window": 121,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "ゆきちゃん",
+    "ko": ""
+   }
+  },
+  {
+   "window": 121,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "ゆりちゃん",
+    "ko": ""
+   }
+  },
+  {
+   "window": 122,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 122,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "突然の電話だったし　ちょっとびっくりしたな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 123,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "そうそう・・ゆきちゃんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 123,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "突然の電話だったし　ちょっとびっくりしたな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 124,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "それから彼女の忘れ物を取りに　チョコレートのお店に",
+    "ko": ""
+   }
+  },
+  {
+   "window": 124,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "行ったんだっけ・・名前は確か・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 125,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "ロイドン",
+    "ko": ""
+   }
+  },
+  {
+   "window": 125,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "ロイス",
+    "ko": ""
+   }
+  },
+  {
+   "window": 125,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "ロイズ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 125,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "ロイトン",
+    "ko": ""
+   }
+  },
+  {
+   "window": 126,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 126,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "そのお店に　パソコンを取りに行ったんだっけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 127,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "そうそう・・ロイズだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 127,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "そのお店に　パソコンを取りに行ったんだっけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 128,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "で　パソコンを手渡すために待ち合わせたのが",
+    "ko": ""
+   }
+  },
+  {
+   "window": 128,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "大通りにある・・確か・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 129,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "４丁目劇場",
+    "ko": ""
+   }
+  },
+  {
+   "window": 129,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "４丁目公園",
+    "ko": ""
+   }
+  },
+  {
+   "window": 129,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "４丁目スクエアー",
+    "ko": ""
+   }
+  },
+  {
+   "window": 129,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "４丁目プラザ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 130,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 130,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "彼女　パソコン忘れて困ってたし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 130,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "今日　僕は人助けをしたってことだよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 131,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "そうそう・・４丁目プラザだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 131,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "彼女　パソコン忘れて困ってたし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 131,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "今日　僕は人助けをしたってことだよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 132,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "札幌駅前で頭から冷やし中華をかけられたのは・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 133,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "蒼き星の夜",
+    "ko": ""
+   }
+  },
+  {
+   "window": 133,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "蒼き月の夜",
+    "ko": ""
+   }
+  },
+  {
+   "window": 133,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "青き月の夜",
+    "ko": ""
+   }
+  },
+  {
+   "window": 133,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "青き星の夜",
+    "ko": ""
+   }
+  },
+  {
+   "window": 134,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 134,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "でも冷やし中華で良かった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 134,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "ラーメンだったら火傷してたもんな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 135,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "そうそう・・蒼き月の夜だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 135,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "でも冷やし中華で良かった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 135,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "ラーメンだったら火傷してたもんな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 136,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "それにしても派手な喧嘩だったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 136,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "で　その後に行った喫茶店の名前は　宮越屋珈琲の・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 137,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "ホールインワンカフェ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 137,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "ホルスタインカフェ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 137,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "ホールラダーズカフェ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 137,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "ホールステアーズカフェ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 138,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 138,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "七草忍者隊の聖地だって言ってたっけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 138,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "・・・ちょっとついていけない話題だったかも・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 139,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "そうそう・・ホールステアーズカフェだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 139,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "七草忍者隊の聖地だって言ってたっけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 139,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "・・・ちょっとついていけない話題だったかも・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 140,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "そこで時々　寒いギャグを言っていた",
+    "ko": ""
+   }
+  },
+  {
+   "window": 140,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "おじさんの名前は・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 141,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "こねりぃ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 141,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "けあふりぃ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 141,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "リバイアさん",
+    "ko": ""
+   }
+  },
+  {
+   "window": 141,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "らぶりぃ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 142,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 142,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "なんか謎の多い人って感じだったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 143,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "そうそう・・けあふりぃだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 143,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "なんか謎の多い人って感じだったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 144,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "それにしても派手な喧嘩だったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 144,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "で　その後に行った中華料理屋の名前は・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 145,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "天来",
+    "ko": ""
+   }
+  },
+  {
+   "window": 145,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "天外",
+    "ko": ""
+   }
+  },
+  {
+   "window": 145,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "宝来",
+    "ko": ""
+   }
+  },
+  {
+   "window": 145,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "来来",
+    "ko": ""
+   }
+  },
+  {
+   "window": 146,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 146,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "あの大盛りチャーハン　すごい量だったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 147,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "そうそう・・宝来だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 147,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "あの大盛りチャーハン　すごい量だったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 148,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "なのに彼女　ぺろりと平らげてたっけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 148,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "彼女の名前は・・確か・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 149,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "桜町由子",
+    "ko": ""
+   }
+  },
+  {
+   "window": 149,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "桜町夕子",
+    "ko": ""
+   }
+  },
+  {
+   "window": 149,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "櫻町夕子",
+    "ko": ""
+   }
+  },
+  {
+   "window": 149,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "櫻町由子",
+    "ko": ""
+   }
+  },
+  {
+   "window": 150,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 150,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "自衛隊のこと　いろいろ話してくれたっけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 151,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "そうそう・・桜町由子さんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 151,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "自衛隊のこと　いろいろ話してくれたっけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 152,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "今日はターニャの作業を",
+    "ko": ""
+   }
+  },
+  {
+   "window": 152,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "手伝ったんだっけ・・その時教えてもらった",
+    "ko": ""
+   }
+  },
+  {
+   "window": 152,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "ガラスの原料は珪砂とソーダ灰・・それと・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 153,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "石綿",
+    "ko": ""
+   }
+  },
+  {
+   "window": 153,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "石灰",
+    "ko": ""
+   }
+  },
+  {
+   "window": 153,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "石炭",
+    "ko": ""
+   }
+  },
+  {
+   "window": 153,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "石英",
+    "ko": ""
+   }
+  },
+  {
+   "window": 154,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 154,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "僕たちが当たり前に使ってるガラスも",
+    "ko": ""
+   }
+  },
+  {
+   "window": 154,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "作るのは結構　大変なんだな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 155,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "そうそう・・石灰だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 155,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "僕たちが当たり前に使ってるガラスも",
+    "ko": ""
+   }
+  },
+  {
+   "window": 155,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "作るのは結構　大変なんだな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 156,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "その後　酔っぱらいに絡まれて　お父さんの形見の",
+    "ko": ""
+   }
+  },
+  {
+   "window": 156,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "ペンダントが割れちゃったっけ・・でも　その中には",
+    "ko": ""
+   }
+  },
+  {
+   "window": 156,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "夕焼けの赤の成分表が書かれていた・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 157,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "金のハートを開いたら　見つかった成分表・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 157,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "ターニャのお父さんの言葉通りだな・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 157,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "確か・・ロシア語で・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 158,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "アクトロイ　スワヨー　セルツェ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 158,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "モスコヴォイ　セルゲイ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 158,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "ツヴェト　ザカータ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 158,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "エレメンタル　ギミック　ギア",
+    "ko": ""
+   }
+  },
+  {
+   "window": 159,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 159,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "『心を開いてごらん』って言葉・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 159,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "ターニャのお父さんの深い愛情を感じるな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 160,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "そうそう・・アクトロイ　スワヨー　セルツェだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 160,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "『心を開いてごらん』って言葉・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 160,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "ターニャのお父さんの深い愛情を感じるな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 161,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "優しかったお父さんのことを忘れられなくて・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 161,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "ターニャは苗字を変えたんだっけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 161,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "本当の苗字は・・確か・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 162,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "リピンスカヤ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 162,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "トモフスキー",
+    "ko": ""
+   }
+  },
+  {
+   "window": 162,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "ナボコフ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 162,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "ジャンバラヤ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 163,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 163,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "ロシアにいた頃も　日本に来てからも・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 163,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "彼女　きっと辛い思いをたくさんしてるんだろうな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 164,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "そうそう・・リピンスカヤだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 164,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "ロシアにいた頃も　日本に来てからも・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 164,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "彼女　きっと辛い思いをたくさんしてるんだろうな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 165,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "明日また　運河工藝館に行ったら",
+    "ko": ""
+   }
+  },
+  {
+   "window": 165,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "ターニャの作品　完成してるかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 166,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "・・・大好きだった　お父さんの笑顔の色・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 166,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "夕焼けの色のガラスを使って・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 167,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "めぐみちゃんに案内してもらったのは富良野にある・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 168,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "ファーム飛田",
+    "ko": ""
+   }
+  },
+  {
+   "window": 168,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "ファーム富田",
+    "ko": ""
+   }
+  },
+  {
+   "window": 168,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "ファーム柴田",
+    "ko": ""
+   }
+  },
+  {
+   "window": 168,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "ファーム坂田",
+    "ko": ""
+   }
+  },
+  {
+   "window": 169,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 169,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "なんか日本じゃないみたいな綺麗な風景だったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 170,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "そうそう・・ファーム富田だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 170,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "なんか日本じゃないみたいな綺麗な風景だったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 171,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "そこで一面に咲いていた紫の花・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 171,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "名前は確か・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 172,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "ベラドンナ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 172,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "ベランダー",
+    "ko": ""
+   }
+  },
+  {
+   "window": 172,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "ラベンダー",
+    "ko": ""
+   }
+  },
+  {
+   "window": 172,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "ランバダー",
+    "ko": ""
+   }
+  },
+  {
+   "window": 173,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 173,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "満開に咲いていて　綺麗だったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 174,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "そうそう・・ラベンダーだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 174,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "満開に咲いていて　綺麗だったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 175,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "その後　喫茶店でめぐみちゃんが小学生だった頃の",
+    "ko": ""
+   }
+  },
+  {
+   "window": 175,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "話を聞いたっけ・・めぐみちゃんの小学校は確か・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 176,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "横浜",
+    "ko": ""
+   }
+  },
+  {
+   "window": 176,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "千葉",
+    "ko": ""
+   }
+  },
+  {
+   "window": 176,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "東京",
+    "ko": ""
+   }
+  },
+  {
+   "window": 176,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "大阪",
+    "ko": ""
+   }
+  },
+  {
+   "window": 177,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 177,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "北国の暮らしは　慣れるまで大変みたいだな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 178,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "そうそう・・東京だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 178,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "同じ街に住んでたなんて意外だな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 178,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "ひょっとしたら同じ電車に乗ってたかも・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 179,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "やっぱりこっちに来て良かったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 180,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "さて！　そろそろ上がろう！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 181,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "・・今日も一日　いろんなことがあったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 181,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "梢ちゃんと行った場所は確か・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 182,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "羊ヶ丘展望台",
+    "ko": ""
+   }
+  },
+  {
+   "window": 182,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "牛ヶ丘展望台",
+    "ko": ""
+   }
+  },
+  {
+   "window": 182,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "嵐ヶ丘展望台",
+    "ko": ""
+   }
+  },
+  {
+   "window": 182,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "緑ヶ丘展望台",
+    "ko": ""
+   }
+  },
+  {
+   "window": 183,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 183,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "クラーク博士の像で有名な場所だよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 183,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "緑いっぱいの　のどかな場所だったっけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 184,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "そうそう・・羊ヶ丘展望台だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 184,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "クラーク博士の像で有名な場所だよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 184,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "緑いっぱいの　のどかな場所だったっけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 185,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "でも　そんなのどかな場所で喧嘩しちゃったんだよな。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 185,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "彼女の態度も良くなかったけど　一番悪いのは・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 185,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "やっぱり女の子を殴ってしまった僕だろうな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 186,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・反省しなくちゃ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 187,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "夕方　ゲームセンターで女の子がヤクザっぽい男に",
+    "ko": ""
+   }
+  },
+  {
+   "window": 187,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "絡まれていたっけ・・場所は確か・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 188,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "須貝ビル",
+    "ko": ""
+   }
+  },
+  {
+   "window": 188,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "スカイビル",
+    "ko": ""
+   }
+  },
+  {
+   "window": 188,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "須甲斐ビル",
+    "ko": ""
+   }
+  },
+  {
+   "window": 188,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "須田ビル",
+    "ko": ""
+   }
+  },
+  {
+   "window": 189,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 189,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "彼女　前に琴梨ちゃんたちとゲーセンに行った時",
+    "ko": ""
+   }
+  },
+  {
+   "window": 189,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "僕たちに『うるさい！』って言った女の子だよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 190,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "そうそう・・須貝ビルだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 190,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "彼女　前に琴梨ちゃんたちとゲーセンに行った時",
+    "ko": ""
+   }
+  },
+  {
+   "window": 190,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "僕たちに『うるさい！』って言った女の子だよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 191,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "彼女を助けて・・と言うか助けられて・・と言うか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 191,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "その後　彼女のお兄さんがやっている",
+    "ko": ""
+   }
+  },
+  {
+   "window": 191,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "ラーメン屋さんに行ったんだっけ・・名前は確か・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 192,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "北海軒",
+    "ko": ""
+   }
+  },
+  {
+   "window": 192,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "北貝軒",
+    "ko": ""
+   }
+  },
+  {
+   "window": 192,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "北海亭",
+    "ko": ""
+   }
+  },
+  {
+   "window": 192,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "北貝亭",
+    "ko": ""
+   }
+  },
+  {
+   "window": 193,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 193,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "ラーメンはすごくおいしかったのに",
+    "ko": ""
+   }
+  },
+  {
+   "window": 193,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "お客さんが全然いなかったな・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 194,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "そうそう・・北海軒だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 194,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "ラーメンはすごくおいしかったのに",
+    "ko": ""
+   }
+  },
+  {
+   "window": 194,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "お客さんが全然いなかったな・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 195,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "お店で見せる彼女の表情も不良って感じじゃなかったし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 195,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "みんな誤解してるんじゃないかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 196,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "・・今日も一日　いろんなことがあったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 197,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "お父さんの思い出の・・夕焼けの色のガラスを使って",
+    "ko": ""
+   }
+  },
+  {
+   "window": 197,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "彼女が作った作品の名前が・・確か・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 198,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "赤いスズラン",
+    "ko": ""
+   }
+  },
+  {
+   "window": 198,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "赤いスイートピー",
+    "ko": ""
+   }
+  },
+  {
+   "window": 198,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "赤いバラ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 198,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "赤いヒデカズ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 199,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 199,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "綺麗なアクセサリーなのに　お店に置いて貰えなくて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 199,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "それで彼女　ショックで発作を起こしたのかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 200,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "そうそう・・赤いスズランだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 200,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "綺麗なアクセサリーなのに　お店に置いて貰えなくて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 200,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "それで彼女　ショックで発作を起こしたのかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 201,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "それにしても　彼女に持病があるなんて知らなかった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 201,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "悪いのは確か・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 202,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "肝臓",
+    "ko": ""
+   }
+  },
+  {
+   "window": 202,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "腎臓",
+    "ko": ""
+   }
+  },
+  {
+   "window": 202,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "心臓",
+    "ko": ""
+   }
+  },
+  {
+   "window": 202,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "十二指腸",
+    "ko": ""
+   }
+  },
+  {
+   "window": 203,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 203,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "小樽国際病院に入院してるって話だから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 203,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "明日あたり　お見舞いに行こうかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 204,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "そうそう・・心臓だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 204,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "小樽国際病院に入院してるって話だから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 204,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "明日あたり　お見舞いに行こうかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 205,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "めぐみちゃんに案内してもらったのは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 205,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "ひまわりで有名な・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 206,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "雨竜町",
+    "ko": ""
+   }
+  },
+  {
+   "window": 206,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "晴竜町",
+    "ko": ""
+   }
+  },
+  {
+   "window": 206,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "南竜町",
+    "ko": ""
+   }
+  },
+  {
+   "window": 206,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "北竜町",
+    "ko": ""
+   }
+  },
+  {
+   "window": 207,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 207,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "一面のひまわりが　印象的だったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 208,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "そうそう・・北竜町だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 208,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "一面のひまわりが　印象的だったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 209,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "ひまわり迷路で遊んで・・その後に行ったのが",
+    "ko": ""
+   }
+  },
+  {
+   "window": 209,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "確か・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 210,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "サンシャインパークホテル",
+    "ko": ""
+   }
+  },
+  {
+   "window": 210,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "サンフラワーパークホテル",
+    "ko": ""
+   }
+  },
+  {
+   "window": 210,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "サンプラザホテル",
+    "ko": ""
+   }
+  },
+  {
+   "window": 210,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "サンテグジュベリホテル",
+    "ko": ""
+   }
+  },
+  {
+   "window": 211,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 211,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "結構　立派な建物だったよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 212,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "そうそう・・サンフラワーパークホテルだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 212,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "結構　立派な建物だったよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 213,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "それと・・一番びっくりしたのは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 213,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "あのアライグマの一件だよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 213,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "名前は確か・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 214,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "荒井さん",
+    "ko": ""
+   }
+  },
+  {
+   "window": 214,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "平井さん",
+    "ko": ""
+   }
+  },
+  {
+   "window": 214,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "亀井さん",
+    "ko": ""
+   }
+  },
+  {
+   "window": 214,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "浅井さん",
+    "ko": ""
+   }
+  },
+  {
+   "window": 215,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 215,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "アライグマは気性が荒いって聞いてたけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 215,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "見てるとそんな感じでもなさそうだよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 216,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "そうそう・・荒井さんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 216,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "アライグマは気性が荒いって聞いてたけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 216,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "見てるとそんな感じでもなさそうだよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 217,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "元々　北海道にはいなかったんだけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 217,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "ペットとして飼われていたものが野生化したって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 217,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "何かの本で読んだことがあるな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 218,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "そう考えると　あのアライグマも",
+    "ko": ""
+   }
+  },
+  {
+   "window": 218,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "結構　かわいそうなヤツだよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 219,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "さて！　そろそろ上がるか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 220,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "・・今日も一日　いろんなことがあったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 220,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "ターニャが入院していた病院の名前は・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 221,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "小樽国立病院",
+    "ko": ""
+   }
+  },
+  {
+   "window": 221,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "小樽薬科大付属病院",
+    "ko": ""
+   }
+  },
+  {
+   "window": 221,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "小樽坂上病院",
+    "ko": ""
+   }
+  },
+  {
+   "window": 221,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "小樽国際病院",
+    "ko": ""
+   }
+  },
+  {
+   "window": 222,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 222,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "容態も良さそうだったし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 222,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "ちょっと安心したかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 223,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "そうそう・・小樽国際病院だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 223,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "容態も良さそうだったし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 223,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "ちょっと安心したかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 224,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "今日は琴梨ちゃんが合宿から帰ってきたっけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 224,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "ひさしぶりの手料理・・おいしかったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 225,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "メニューは鯛のカルパッチョにフォカッチャ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 225,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "・・・それと・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 226,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "クラムチャウダー",
+    "ko": ""
+   }
+  },
+  {
+   "window": 226,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "バーニャカウダー",
+    "ko": ""
+   }
+  },
+  {
+   "window": 226,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "バーニングレンジャー",
+    "ko": ""
+   }
+  },
+  {
+   "window": 226,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "グラスホッパー",
+    "ko": ""
+   }
+  },
+  {
+   "window": 227,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 227,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "琴梨ちゃん　イタリア料理にも詳しいんだな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 228,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "そうそう・・バーニャカウダーだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 228,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "琴梨ちゃん　イタリア料理にも詳しいんだな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 229,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "料理が上手で可愛くて・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 229,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "きっと　いいお嫁さんになるだろうな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 230,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "・・今日は　夜　北海軒に行ったっけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 231,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "急にヤクザみたいな奴らが来て　ちょっと驚いたな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 231,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "札幌にある金融会社で・・名前は確か・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 232,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "寿商事",
+    "ko": ""
+   }
+  },
+  {
+   "window": 232,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "うずまき商会",
+    "ko": ""
+   }
+  },
+  {
+   "window": 232,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "日の丸商事",
+    "ko": ""
+   }
+  },
+  {
+   "window": 232,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "ＡＢＣ商会",
+    "ko": ""
+   }
+  },
+  {
+   "window": 233,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 233,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "あんな奴らが店に来てたら　葉野香ちゃんでなくても",
+    "ko": ""
+   }
+  },
+  {
+   "window": 233,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "反抗的な態度をとってしまうかもしれないな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 234,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "そうそう・・寿商事だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 234,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "あんな奴らが店に来てたら　葉野香ちゃんでなくても",
+    "ko": ""
+   }
+  },
+  {
+   "window": 234,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "反抗的な態度をとってしまうかもしれないな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 235,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "あの社長さんが来てくれなかったら",
+    "ko": ""
+   }
+  },
+  {
+   "window": 235,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "きっと大変な騒ぎになってただろうな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 235,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "社長さんの名前は・・確か・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 236,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "戸祭",
+    "ko": ""
+   }
+  },
+  {
+   "window": 236,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "血祭",
+    "ko": ""
+   }
+  },
+  {
+   "window": 236,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "風祭",
+    "ko": ""
+   }
+  },
+  {
+   "window": 236,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "水祭",
+    "ko": ""
+   }
+  },
+  {
+   "window": 237,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 237,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "でもあの社長が言ってた１週間で店を繁盛させる条件",
+    "ko": ""
+   }
+  },
+  {
+   "window": 237,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "・・・やっぱり　厳しいよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 238,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "そうそう・・風祭さんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 238,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "でもあの社長が言ってた１週間で店を繁盛させる条件",
+    "ko": ""
+   }
+  },
+  {
+   "window": 238,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "・・・やっぱり　厳しいよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 239,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "何とか　力になってあげたいな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 239,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "・・でも・・どうしよう・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 240,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "めぐみちゃんと富良野に行ったっけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 240,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "そこで気球に乗った時間は・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 241,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "１分間",
+    "ko": ""
+   }
+  },
+  {
+   "window": 241,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "３分間",
+    "ko": ""
+   }
+  },
+  {
+   "window": 241,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "５分間",
+    "ko": ""
+   }
+  },
+  {
+   "window": 241,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "７分間",
+    "ko": ""
+   }
+  },
+  {
+   "window": 242,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 242,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "富良野の大地が視界一面に広がって・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 242,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "なかなか感動的な体験だったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 243,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "そうそう・・５分間だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 243,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "長かったような気もするし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 243,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "あっという間だったような気もするし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 244,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "富良野の大地が視界一面に広がって・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 244,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "なかなか感動的な体験だったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 245,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "気球に乗った後　お茶を飲みに行った",
+    "ko": ""
+   }
+  },
+  {
+   "window": 245,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "ホテルの名前は・・確か・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 246,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "富良野プリンスホテル",
+    "ko": ""
+   }
+  },
+  {
+   "window": 246,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "富良野帝国ホテル",
+    "ko": ""
+   }
+  },
+  {
+   "window": 246,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "新富良野帝国ホテル",
+    "ko": ""
+   }
+  },
+  {
+   "window": 246,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "新富良野プリンスホテル",
+    "ko": ""
+   }
+  },
+  {
+   "window": 247,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 247,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "めぐみちゃん気球に乗った体験を",
+    "ko": ""
+   }
+  },
+  {
+   "window": 247,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "興奮して語ってたっけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 248,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "そうそう・・新富良野プリンスホテルだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 248,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "めぐみちゃん気球に乗った体験を",
+    "ko": ""
+   }
+  },
+  {
+   "window": 248,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "興奮して語ってたっけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 249,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "そろそろ上がるか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 250,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "・・今日は　琴梨ちゃんと紅茶のお店に行ったっけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 250,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "お店の名前は・・確か・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 251,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "アンセム",
+    "ko": ""
+   }
+  },
+  {
+   "window": 251,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "アッサム",
+    "ko": ""
+   }
+  },
+  {
+   "window": 251,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "アンクル",
+    "ko": ""
+   }
+  },
+  {
+   "window": 251,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "アンミラ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 252,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 252,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "あそこの紅茶・・おいしかったな・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 253,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "そうそう・・アッサムだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 253,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "あそこの紅茶・・おいしかったな・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 254,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "それにしても紅茶って　種類によって味や香りが",
+    "ko": ""
+   }
+  },
+  {
+   "window": 254,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "全然違うもんなんだな・・今日飲んだのは・・確か・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 255,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "ダージリン・ファーストフラッシュ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 255,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "ダージリン・セカンドフラッシュ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 255,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "ニルギリ・ファーストフラッシュ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 255,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "ニルギリ・セカンドフラッシュ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 256,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 256,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "ちょっと贅沢しちゃったけど　おかげで紅茶に対する",
+    "ko": ""
+   }
+  },
+  {
+   "window": 256,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "認識が変わった気がするな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 257,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "そうそう・・ダージリン・セカンドフラッシュだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 257,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "ちょっと贅沢しちゃったけど　おかげで紅茶に対する",
+    "ko": ""
+   }
+  },
+  {
+   "window": 257,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "認識が変わった気がするな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 258,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "琴梨ちゃんの手料理を食べたっけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 258,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "メニューは確か・・オニオンスープとナスのマリネ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 258,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "それと・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 259,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "ジャーマン・オムレツ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 259,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "ジャーマン・ハンバーグ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 259,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "ジャーマン・ポテト",
+    "ko": ""
+   }
+  },
+  {
+   "window": 259,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "ジャーマン・スープレックス",
+    "ko": ""
+   }
+  },
+  {
+   "window": 260,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 260,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "冷蔵庫に残っていたあり合わせのもので",
+    "ko": ""
+   }
+  },
+  {
+   "window": 260,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "あんなにおいしい料理を作れるなんてすごいな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 261,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "そうそう・・ジャーマン・ポテトだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 261,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "冷蔵庫に残っていたあり合わせのもので",
+    "ko": ""
+   }
+  },
+  {
+   "window": 261,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "あんなにおいしい料理を作れるなんてすごいな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 262,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "今日は鮎ちゃんと大通公園に行って",
+    "ko": ""
+   }
+  },
+  {
+   "window": 262,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "お寿司を食べたっけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 263,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "北海道ならではのネタがたくさんあったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 263,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "あの時食べた『幻のシャケ』の名前は・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 264,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "鮭玉",
+    "ko": ""
+   }
+  },
+  {
+   "window": 264,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "鮭宝",
+    "ko": ""
+   }
+  },
+  {
+   "window": 264,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "鮭児",
+    "ko": ""
+   }
+  },
+  {
+   "window": 264,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "鮭王",
+    "ko": ""
+   }
+  },
+  {
+   "window": 265,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 265,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "脂が乗ってて　おいしい鮭だったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 265,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "北海道ならではの味って感じだった・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 266,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "そうそう・・鮭児だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 266,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "脂が乗ってて　おいしい鮭だったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 266,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "北海道ならではの味って感じだった・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 267,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "素材の良さももちろんだけど　鮎ちゃんのお父さんの",
+    "ko": ""
+   }
+  },
+  {
+   "window": 267,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "腕があってこそ　あの味が引き出せるんだろうな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 267,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "鮎ちゃん家のお店の名前は・・確か・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 268,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "澤田",
+    "ko": ""
+   }
+  },
+  {
+   "window": 268,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "澤登",
+    "ko": ""
+   }
+  },
+  {
+   "window": 268,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "澤口",
+    "ko": ""
+   }
+  },
+  {
+   "window": 268,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "澤山",
+    "ko": ""
+   }
+  },
+  {
+   "window": 269,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 269,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "きっと評判のお寿司屋さんなんだろうな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 270,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "そうそう・・澤登だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 270,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "きっと評判のお寿司屋さんなんだろうな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 271,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "それから鮎ちゃんの作曲を手伝ったっけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 271,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "手伝ったって言うと　ちょっとおおげさかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 272,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "鮎ちゃん　オリジナル曲のコンテストに",
+    "ko": ""
+   }
+  },
+  {
+   "window": 272,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "応募するって言ってたな・・会場は確か・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 273,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "テイセン・ホール",
+    "ko": ""
+   }
+  },
+  {
+   "window": 273,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "ベッシー・ホール",
+    "ko": ""
+   }
+  },
+  {
+   "window": 273,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "メッセ・ホール",
+    "ko": ""
+   }
+  },
+  {
+   "window": 273,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "オゾン・ホール",
+    "ko": ""
+   }
+  },
+  {
+   "window": 274,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 274,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "いい結果が出るといいな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 274,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "鮎ちゃんの夢への第一歩だもんな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 275,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "そうそう・・メッセ・ホールだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 275,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "いい結果が出るといいな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 275,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "鮎ちゃんの夢への第一歩だもんな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 276,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "今日は葉野香ちゃんと食材の研究に行ったっけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 276,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "場所は確か・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 277,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "一条市場",
+    "ko": ""
+   }
+  },
+  {
+   "window": 277,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "二条市場",
+    "ko": ""
+   }
+  },
+  {
+   "window": 277,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "三条市場",
+    "ko": ""
+   }
+  },
+  {
+   "window": 277,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "四条市場",
+    "ko": ""
+   }
+  },
+  {
+   "window": 278,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 278,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "すごく賑やかな市場だったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 279,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "そうそう・・二条市場だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 279,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "すごく賑やかな市場だったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 280,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "その後　葉野香ちゃんの行きつけの喫茶店で",
+    "ko": ""
+   }
+  },
+  {
+   "window": 280,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "お茶を飲んだっけ・・名前は確か・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 281,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "ビートバーン",
+    "ko": ""
+   }
+  },
+  {
+   "window": 281,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "ビートマニア",
+    "ko": ""
+   }
+  },
+  {
+   "window": 281,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "ビートルジュース",
+    "ko": ""
+   }
+  },
+  {
+   "window": 281,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "ビートルバム",
+    "ko": ""
+   }
+  },
+  {
+   "window": 282,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 282,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "落ち着いた雰囲気の喫茶店だったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 283,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "そうそう・・ビートルバムだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 283,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "落ち着いた雰囲気の喫茶店だったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 284,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "半ラーメンのアイディアは　ホテルで食事をしていて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 284,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "思いついたんだっけ・・ホテルの名前は・・確か・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 285,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "札幌プリンスホテル",
+    "ko": ""
+   }
+  },
+  {
+   "window": 285,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "札幌プリズンホテル",
+    "ko": ""
+   }
+  },
+  {
+   "window": 285,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "札幌プリズムホテル",
+    "ko": ""
+   }
+  },
+  {
+   "window": 285,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "山田ルネッサンスホテル",
+    "ko": ""
+   }
+  },
+  {
+   "window": 286,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 286,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "半ラーメン自体は　他のお店にもあるメニューだけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 286,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "それをラーメン横丁全体でやれたら面白そうだな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 287,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "そうそう・・札幌プリンスホテルだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 287,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "半ラーメン自体は　他のお店にもあるメニューだけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 287,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "それをラーメン横丁全体でやれたら面白そうだな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 288,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "この新メニューがきっかけになって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 288,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "北海軒にお客さんが増えるといいな・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 289,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "今日は鮎ちゃんと小樽に行ったっけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 289,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "アイスクリームを食べたお店の名前は・・確か・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 290,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "美倉",
+    "ko": ""
+   }
+  },
+  {
+   "window": 290,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "三枝",
+    "ko": ""
+   }
+  },
+  {
+   "window": 290,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "三国",
+    "ko": ""
+   }
+  },
+  {
+   "window": 290,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "美園",
+    "ko": ""
+   }
+  },
+  {
+   "window": 291,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 291,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "小樽の街の人気は　きっとこういうお店が",
+    "ko": ""
+   }
+  },
+  {
+   "window": 291,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "支えてるんだろうな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 292,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "そうそう・・美園だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 292,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "小樽の街の人気は　きっとこういうお店が",
+    "ko": ""
+   }
+  },
+  {
+   "window": 292,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "支えてるんだろうな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 293,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "その後に行ったオルゴール屋さんの名前が・・確か・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 294,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "小樽オルゴール館",
+    "ko": ""
+   }
+  },
+  {
+   "window": 294,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "小樽オルゴール堂",
+    "ko": ""
+   }
+  },
+  {
+   "window": 294,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "小樽オルゴール共和国",
+    "ko": ""
+   }
+  },
+  {
+   "window": 294,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "小樽オルゴール博物館",
+    "ko": ""
+   }
+  },
+  {
+   "window": 295,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 295,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "お店中に　ずらっとオルゴールが並んでて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 295,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "結構　壮観だったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 296,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "そうそう・・小樽オルゴール堂だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 296,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "お店中に　ずらっとオルゴールが並んでて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 296,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "結構　壮観だったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 297,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "その後　ロープウェイに乗って山に登ったっけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 297,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "山の名前は・・確か・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 298,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "天狗山",
+    "ko": ""
+   }
+  },
+  {
+   "window": 298,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "天丼山",
+    "ko": ""
+   }
+  },
+  {
+   "window": 298,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "樽前山",
+    "ko": ""
+   }
+  },
+  {
+   "window": 298,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "樽後山",
+    "ko": ""
+   }
+  },
+  {
+   "window": 299,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 299,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "展望台で夕焼けを見ながら・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 299,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "鮎ちゃん・・泣いてたっけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 300,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "そうそう・・天狗山だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 300,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "展望台で夕焼けを見ながら・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 300,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "鮎ちゃん・・泣いてたっけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 301,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "今日は鮎ちゃんの色んな面を見ることが出来た・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 301,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "・・・そういうのも・・悪くないな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 302,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "今日は由子さんのバイクで支笏湖に行ったっけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 302,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "湖を見て　色んな話をして・・その後に行ったのが・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 303,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "青の洞門",
+    "ko": ""
+   }
+  },
+  {
+   "window": 303,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "青の洞穴",
+    "ko": ""
+   }
+  },
+  {
+   "window": 303,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "苔の洞門",
+    "ko": ""
+   }
+  },
+  {
+   "window": 303,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "苔のむすまで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 304,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 304,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "何十種類もの苔が洞門全体を覆っていて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 304,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "すごく幻想的な場所だったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 305,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "そうそう・・苔の洞門だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 305,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "何十種類もの苔が洞門全体を覆っていて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 305,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "すごく幻想的な場所だったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 306,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "その後　温泉にも行ったっけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 306,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "温泉の名前は・・確か・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 307,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "丸駒温泉旅館",
+    "ko": ""
+   }
+  },
+  {
+   "window": 307,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "丸山温泉旅館",
+    "ko": ""
+   }
+  },
+  {
+   "window": 307,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "丸熊温泉旅館",
+    "ko": ""
+   }
+  },
+  {
+   "window": 307,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "丸裸温泉旅館",
+    "ko": ""
+   }
+  },
+  {
+   "window": 308,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 308,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "自然と調和したワイルドな感じの露天風呂だったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 308,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "・・・でもワイルド過ぎるのも・・問題あるかも・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 309,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "そうそう・・丸駒温泉旅館だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 309,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "自然と調和したワイルドな感じの露天風呂だったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 309,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "・・・でもワイルド過ぎるのも・・問題あるかも・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 310,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "夕食は由子さん行きつけのカレー屋さんだったっけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 310,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "お店の名前は・・確か・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 311,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "マジックザギャザリング",
+    "ko": ""
+   }
+  },
+  {
+   "window": 311,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "マジックベルト",
+    "ko": ""
+   }
+  },
+  {
+   "window": 311,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "マジックスパイス",
+    "ko": ""
+   }
+  },
+  {
+   "window": 311,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "マジックマッシュルーム",
+    "ko": ""
+   }
+  },
+  {
+   "window": 312,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 312,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "独特な雰囲気の　おいしいカレー屋さんだったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 312,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "・・・由子さんのカレーは・・辛すぎだと思うけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 313,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "そうそう・・マジックスパイスだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 313,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "独特な雰囲気の　おいしいカレー屋さんだったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 313,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "・・・由子さんのカレーは・・辛すぎだと思うけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 314,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "今までわからなかった自衛隊の話も聞けたし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 315,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "ホテルの近くにある　三香温泉の露天風呂に入った。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 315,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "ふぅ・・いい湯加減だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 316,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "泉質は弱アルカリ性の単純温泉・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 316,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "効用は神経痛　関節痛　慢性消化器病　冷え性・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 316,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "疲労回復　健康増進・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 317,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "一日の疲れが　癒されてゆく感じだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 317,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "・・たまにはこういうのも　いいもんだな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 318,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "旅行の初日・・最初は帯広に行ったっけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 318,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "豚丼を食べたお店の名前は・・確か・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 319,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "品川",
+    "ko": ""
+   }
+  },
+  {
+   "window": 319,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "田町",
+    "ko": ""
+   }
+  },
+  {
+   "window": 319,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "浜松町",
+    "ko": ""
+   }
+  },
+  {
+   "window": 319,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "新橋",
+    "ko": ""
+   }
+  },
+  {
+   "window": 320,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 320,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "牛丼はよく聞くけど　豚丼なんて初めて食べたな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 320,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "でも有名なお店だけあって　すごくおいしかった・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 321,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "そうそう・・新橋だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 321,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "牛丼はよく聞くけど　豚丼なんて初めて食べたな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 321,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "でも有名なお店だけあって　すごくおいしかった・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 322,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "豚丼を食べた後　琴梨ちゃんのお勧めのお菓子屋さんに",
+    "ko": ""
+   }
+  },
+  {
+   "window": 322,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "行ったっけ　お店の名前は・・確か・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 323,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "イソップ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 323,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "グリム",
+    "ko": ""
+   }
+  },
+  {
+   "window": 323,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "アンデルセン",
+    "ko": ""
+   }
+  },
+  {
+   "window": 323,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "マザーグース",
+    "ko": ""
+   }
+  },
+  {
+   "window": 324,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 324,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "紫色の読谷モンブランがおいしかったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 324,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "その他にも　ソフトクリームが評判らしい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 325,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "そうそう・・アンデルセンだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 325,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "紫色の読谷モンブランがおいしかったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 325,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "その他にも　ソフトクリームが評判らしい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 326,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "それから車に乗って　綺麗な湖を見たっけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 326,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "湖の名前は・・確か・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 327,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "オンタリオ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 327,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "オンネトー",
+    "ko": ""
+   }
+  },
+  {
+   "window": 327,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "オトイネップ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 327,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "オコッペ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 328,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 328,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "確かアイヌ語で『老いた沼』って意味だったかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 328,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "不思議なブルーの湖だった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 329,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "そうそう・・オンネトーだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 329,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "確かアイヌ語で『老いた沼』って意味だったかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 329,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "不思議なブルーの湖だった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 330,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "ちょっと車を飛ばしただけで　札幌とは全然違う",
+    "ko": ""
+   }
+  },
+  {
+   "window": 330,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "景色を見ることが出来るんだな・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 330,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "そう考えると　なんか北海道ってすごいな・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 331,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "明日はどんな景色が見られるだろう？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 331,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "・・今から楽しみだな・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 331,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "さて！　そろそろ上がるか・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 332,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "今日は鮎ちゃんと海水浴に行ったっけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 332,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "二人で電車に乗って・・降りた駅の名前は・・確か・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 333,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "銭函",
+    "ko": ""
+   }
+  },
+  {
+   "window": 333,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "銭亀",
+    "ko": ""
+   }
+  },
+  {
+   "window": 333,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "銭形",
+    "ko": ""
+   }
+  },
+  {
+   "window": 333,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "出銭",
+    "ko": ""
+   }
+  },
+  {
+   "window": 334,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 334,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "駅のホームに千両箱が飾られてたっけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 335,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "そうそう・・銭函だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 335,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "駅のホームに千両箱が飾られてたっけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 336,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "その駅からバスに乗って行った",
+    "ko": ""
+   }
+  },
+  {
+   "window": 336,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "海水浴場の名前が・・確か・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 337,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "オシャマンベ・ビーチ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 337,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "シャコタン・ビーチ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 337,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "ドリーム・ビーチ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 337,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "サノバ・ビーチ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 338,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 338,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "ちょっと水は冷たかったけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 338,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "すごく綺麗な海水浴場だったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 339,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "そうそう・・ドリーム・ビーチだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 339,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "ちょっと水は冷たかったけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 339,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "すごく綺麗な海水浴場だったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 340,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "その後　鮎ちゃんの意外な一面を見て",
+    "ko": ""
+   }
+  },
+  {
+   "window": 340,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "・・・ちょっと　びっくりしちゃったな。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 341,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "それとメッセ・ホールで開かれる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 341,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "オリジナル曲のコンテスト・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 341,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "日程が決まったんだっけ・・確か・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 342,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "８月１３日の午前",
+    "ko": ""
+   }
+  },
+  {
+   "window": 342,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "８月１３日の午後",
+    "ko": ""
+   }
+  },
+  {
+   "window": 342,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "８月１４日の午前",
+    "ko": ""
+   }
+  },
+  {
+   "window": 342,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "８月１４日の午後",
+    "ko": ""
+   }
+  },
+  {
+   "window": 343,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 343,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "大通公園で作った曲を歌ってくれるって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 343,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "鮎ちゃん　言ってたよな・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 344,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "そうそう・・８月１４日の午後だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 344,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "大通公園で作った曲を歌ってくれるって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 344,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "鮎ちゃん　言ってたよな・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 345,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "ステージの鮎ちゃんを見るのって初めてだ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 345,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・頑張って欲しいな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 346,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "今日は由子さんの案内で航空自衛隊を見学したっけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 346,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "大きな基地だったな・・広さは確か・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 347,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "東京ドーム１２個分",
+    "ko": ""
+   }
+  },
+  {
+   "window": 347,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "東京ドーム１４２個分",
+    "ko": ""
+   }
+  },
+  {
+   "window": 347,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "東京ドーム２８８個分",
+    "ko": ""
+   }
+  },
+  {
+   "window": 347,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "東京ドーム３６４個分",
+    "ko": ""
+   }
+  },
+  {
+   "window": 348,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 348,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "約２５００人の隊員が働いてるって言ってたっけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 349,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "そうそう・・東京ドーム２８８個分だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 349,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "約２５００人の隊員が働いてるって言ってたっけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 350,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "その後　格納庫で整備中の戦闘機を見たっけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 350,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "本物を見るのなんて　初めての体験だったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 350,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "戦闘機の型番は・・確か・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 351,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "Ｊ－３１００",
+    "ko": ""
+   }
+  },
+  {
+   "window": 351,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "Ｆ１５－Ｊ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 351,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "ＯＭ－４Ｔｉ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 351,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "Ｃ－３ＰＯ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 352,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 352,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "１機１３０億円するって言ってたっけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 352,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "整備も操縦も　責任重大だな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 353,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "そうそう・・Ｆ１５－Ｊだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 353,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "１機１３０億円するって言ってたっけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 353,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "整備も操縦も　責任重大だな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 354,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "その後　救難隊を見たり　食堂に行ったりして・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 354,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "何かすごく勉強になった一日だったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 354,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "基地で唯一　お酒を飲める場所が・・確か・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 355,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "隊員クラブ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 355,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "千歳クラブ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 355,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "朝日グラフ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 355,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "基地クラブ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 356,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 356,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "生活の全てが基地の中だけで完結できそうな",
+    "ko": ""
+   }
+  },
+  {
+   "window": 356,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "感じだったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 357,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "そうそう・・隊員クラブだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 357,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "生活の全てが基地の中だけで完結できそうな",
+    "ko": ""
+   }
+  },
+  {
+   "window": 357,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "感じだったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 358,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "由子さんが基地を案内してくれたのは・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 358,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "単に自衛隊のことを知って欲しかったからかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 358,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "それとも・・もっと・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 359,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "・・・考えても仕方ない・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 360,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "ずっと入院してたから　風呂なんてひさしぶりだ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 361,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "入院中も　いろんなことがあったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 361,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "辛かったけど　薫さんと打ち解けることが出来て",
+    "ko": ""
+   }
+  },
+  {
+   "window": 361,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "ラッキー・・・だったかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 362,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "薫さんと最初に散歩したのは大学の並木道だったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 362,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "えーと・・確か・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 363,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "イチョウ並木",
+    "ko": ""
+   }
+  },
+  {
+   "window": 363,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "リンゴ並木",
+    "ko": ""
+   }
+  },
+  {
+   "window": 363,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "ポプラ並木",
+    "ko": ""
+   }
+  },
+  {
+   "window": 363,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "ソノコ鈴木",
+    "ko": ""
+   }
+  },
+  {
+   "window": 364,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 364,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "緑いっぱいの　素敵な場所だったよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 365,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "そうそう・・ポプラ並木だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 365,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "緑いっぱいの　素敵な場所だったよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 366,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "その次の日は　喫茶店に行ったっけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 366,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "そこで出た話題は・・確か・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 367,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "クマ注意報",
+    "ko": ""
+   }
+  },
+  {
+   "window": 367,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "クマ前線",
+    "ko": ""
+   }
+  },
+  {
+   "window": 367,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "クマ警報",
+    "ko": ""
+   }
+  },
+  {
+   "window": 367,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "クマ大作戦",
+    "ko": ""
+   }
+  },
+  {
+   "window": 368,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 368,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "薫さんって　真面目な顔して冗談言うよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 369,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "そうそう・・クマ警報だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 369,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "薫さんって　真面目な顔して冗談言うよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 370,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "それにしても・・薫さんが僕を誘ってくれたのは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 370,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "事故のせいで　旅行を台無しにしてしまった",
+    "ko": ""
+   }
+  },
+  {
+   "window": 370,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "お詫びだけ・・なのかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 371,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "薫さんってもっと固い人だと思ってたけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 371,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "ちゃんと話してみると　笑ったり　冗談言ったりする",
+    "ko": ""
+   }
+  },
+  {
+   "window": 371,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "明るい面も持っているんだな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 372,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "・・・その冗談が　わかりにくいのが難点だけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 372,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "そして今日　ようやく退院。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 372,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "・・・長かったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 373,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "そして　夕方　ひさしぶりに戻った部屋で",
+    "ko": ""
+   }
+  },
+  {
+   "window": 373,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "琴梨ちゃんたちと花火を見たっけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 373,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "・・綺麗だったな・・すごく・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 374,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "夕方は薫さんと食事をしたっけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 374,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "イタリアンのお店だったな・・名前は確か・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 375,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "ママ・サブロッソ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 375,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "パパ・ヘミングウェイ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 375,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "ババ・ジャイアント",
+    "ko": ""
+   }
+  },
+  {
+   "window": 375,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "コルポ・ロッソ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 376,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 376,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "そこで薫さんと　ドライブに行く約束をしたっけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 376,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "・・・楽しみだな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 377,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "そうそう・・ママ・サブロッソだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 377,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "そこで薫さんと　ドライブに行く約束をしたっけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 377,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "・・・楽しみだな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 378,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "・・・あんまり長く入ってると",
+    "ko": ""
+   }
+  },
+  {
+   "window": 378,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "ギブスしてる右手がお湯にしみちゃうな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 379,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "今日も・・いろんなことがあったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 379,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "旅行の最終日・・最初に行った湖の名前は・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 380,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "摩周湖",
+    "ko": ""
+   }
+  },
+  {
+   "window": 380,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "田沢湖",
+    "ko": ""
+   }
+  },
+  {
+   "window": 380,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "サロマ湖",
+    "ko": ""
+   }
+  },
+  {
+   "window": 380,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "コノハノ湖",
+    "ko": ""
+   }
+  },
+  {
+   "window": 381,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 381,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "せっかく行ったのに　霧で全然見えなかったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 382,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 382,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "霧で有名な湖だけど　今日は晴れてて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 382,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "ラッキー・・・だったかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 383,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "そうそう・・摩周湖だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 383,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "せっかく行ったのに　霧で全然見えなかったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 384,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "そうそう・・摩周湖だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 384,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "霧で有名な湖だけど　今日は晴れてて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 384,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "ラッキー・・・だったかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 385,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "それから車で　札幌に戻って・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 386,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "でも今日の琴梨ちゃん　ずっと元気がなかったよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 386,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "・・明日は　琴梨ちゃんの笑った顔　見られるかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 387,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "またいつか・・みんなでこんな旅行がしたいな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 388,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "今日はメッセ・ホールで鮎ちゃんのライブがあったっけ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 388,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "鮎ちゃんが歌った歌のタイトルは・・確か・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 389,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "好き好き大好き",
+    "ko": ""
+   }
+  },
+  {
+   "window": 389,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "すきすきスイッチ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 389,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "大好き",
+    "ko": ""
+   }
+  },
+  {
+   "window": 389,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "大嫌い",
+    "ko": ""
+   }
+  },
+  {
+   "window": 390,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 390,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "二人で作ったあの曲・・最高に良かったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 391,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "そうそう・・『大好き』だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 391,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "二人で作ったあの曲・・最高に良かったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 392,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "グランプリも取ったし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 392,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "夢に向かって　どんどん進んでいく感じだよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 393,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "グランプリは取れなかったけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 393,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "僕にとっては　最高にいい曲だった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 394,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "明日は鮎ちゃんとテレビ塔の前で待ち合わせだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 394,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "・・遅れないようにしなくちゃな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 395,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "・・・でも・・その後　喧嘩しちゃったんだ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 395,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "何とか仲直り・・出来ないかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 395,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "『さよなら』って言葉・・辛すぎるよ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 396,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "・・・・・・・・ふぅ・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 397,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "昨日は由子さんに付き合って・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 397,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "それで結局　徹夜しちゃったんだっけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 398,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "電話で呼び出されて行ったお店の名前は",
+    "ko": ""
+   }
+  },
+  {
+   "window": 398,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "・・・・確か・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 399,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "キューブ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 399,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "チューブ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 399,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "キューブリック",
+    "ko": ""
+   }
+  },
+  {
+   "window": 399,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "キュービック",
+    "ko": ""
+   }
+  },
+  {
+   "window": 400,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 400,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "由子さん・・・荒れてたな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 400,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "まぁ・・仕方ないのかもしれないけど・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 401,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "そうそう・・キュービックだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 401,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "由子さん・・・荒れてたな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 401,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "まぁ・・仕方ないのかもしれないけど・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 402,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "明るくて　どんな時でも余裕で笑ってる姿しか",
+    "ko": ""
+   }
+  },
+  {
+   "window": 402,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "見たことがなかったけど・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 403,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "そうだよな・・誰だって余裕がなくなっちゃうくらい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 403,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "悩む日ってあるよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 404,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "今日は　何も起こらなかったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 405,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "昨日は　何も起こらなかったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 406,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "せっかくの旅行なのに　こんな事じゃダメだ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 406,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "なんとかしなくちゃ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 407,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "・・・でも・・どうすればいいんだろう・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 407,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "・・・・・・・・・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 407,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "悩んでいても仕方ないな・・そろそろ上がろう・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 408,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "今日は　あの無言電話の相手と街でバッタリ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 408,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "出会ったっけ・・名前はもちろん・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 409,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "畑中梢ちゃん",
+    "ko": ""
+   }
+  },
+  {
+   "window": 409,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "里中梢ちゃん",
+    "ko": ""
+   }
+  },
+  {
+   "window": 409,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "田中梢ちゃん",
+    "ko": ""
+   }
+  },
+  {
+   "window": 409,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "里中硝ちゃん",
+    "ko": ""
+   }
+  },
+  {
+   "window": 410,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 411,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "最初は正直　迷惑だなと思ってたけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 411,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "こうして相手がわかっちゃうと　なんとなく",
+    "ko": ""
+   }
+  },
+  {
+   "window": 411,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "許せる気分になって来るな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 412,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "そうそう・・里中梢ちゃんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 413,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "最初は正直　迷惑だなと思ってたけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 413,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "こうして相手がわかっちゃうと　なんとなく",
+    "ko": ""
+   }
+  },
+  {
+   "window": 413,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "許せる気分になって来るな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 414,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "僕がちゃんと大人になって　広い心で接すれば",
+    "ko": ""
+   }
+  },
+  {
+   "window": 414,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "きっと僕たち　うまくやっていけそうな気がするな・・",
+    "ko": ""
+   }
+  }
+ ]
+}

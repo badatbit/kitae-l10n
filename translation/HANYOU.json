@@ -1,0 +1,10542 @@
+{
+ "script": "HANYOU",
+ "source": "ja",
+ "entries": [
+  {
+   "window": 0,
+   "line": 0,
+   "speaker": "文字",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 0,
+   "line": 1,
+   "speaker": "文字",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 0,
+   "line": 2,
+   "speaker": "文字",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 0,
+   "line": 3,
+   "speaker": "文字",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 0,
+   "speaker": "文字",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 1,
+   "speaker": "文字",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 2,
+   "speaker": "文字",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 3,
+   "speaker": "文字",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 2,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 2,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 2,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 2,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 3,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 3,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 3,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 3,
+   "line": 3,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 4,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 4,
+   "line": 1,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 4,
+   "line": 2,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 4,
+   "line": 3,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 5,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 5,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 5,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 5,
+   "line": 3,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 6,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 6,
+   "line": 1,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 6,
+   "line": 2,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 6,
+   "line": 3,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 7,
+   "line": 0,
+   "speaker": "アナウンス",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 7,
+   "line": 1,
+   "speaker": "アナウンス",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 7,
+   "line": 2,
+   "speaker": "アナウンス",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 7,
+   "line": 3,
+   "speaker": "アナウンス",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 8,
+   "line": 0,
+   "speaker": "ラルズ店員",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 8,
+   "line": 1,
+   "speaker": "ラルズ店員",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 8,
+   "line": 2,
+   "speaker": "ラルズ店員",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 8,
+   "line": 3,
+   "speaker": "ラルズ店員",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 9,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 9,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 9,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 9,
+   "line": 3,
+   "speaker": "鮎",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 10,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 10,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 10,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 10,
+   "line": 3,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 11,
+   "line": 0,
+   "speaker": "説明",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 11,
+   "line": 1,
+   "speaker": "説明",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 11,
+   "line": 2,
+   "speaker": "説明",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 11,
+   "line": 3,
+   "speaker": "説明",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 12,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 12,
+   "line": 1,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 12,
+   "line": 2,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 12,
+   "line": 3,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 13,
+   "line": 0,
+   "speaker": "琴梨＆鮎",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 13,
+   "line": 1,
+   "speaker": "琴梨＆鮎",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 13,
+   "line": 2,
+   "speaker": "琴梨＆鮎",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 13,
+   "line": 3,
+   "speaker": "琴梨＆鮎",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 14,
+   "line": 0,
+   "speaker": "店員",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 14,
+   "line": 1,
+   "speaker": "店員",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 14,
+   "line": 2,
+   "speaker": "店員",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 14,
+   "line": 3,
+   "speaker": "店員",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 15,
+   "line": 0,
+   "speaker": "外人男",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 15,
+   "line": 1,
+   "speaker": "外人男",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 15,
+   "line": 2,
+   "speaker": "外人男",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 15,
+   "line": 3,
+   "speaker": "外人男",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 16,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 16,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 16,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 16,
+   "line": 3,
+   "speaker": "由子",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 17,
+   "line": 0,
+   "speaker": "メモ",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 17,
+   "line": 1,
+   "speaker": "メモ",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 17,
+   "line": 2,
+   "speaker": "メモ",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 17,
+   "line": 3,
+   "speaker": "メモ",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 18,
+   "line": 0,
+   "speaker": "マスター",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 18,
+   "line": 1,
+   "speaker": "マスター",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 18,
+   "line": 2,
+   "speaker": "マスター",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 18,
+   "line": 3,
+   "speaker": "マスター",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 19,
+   "line": 0,
+   "speaker": "琴梨の父",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 19,
+   "line": 1,
+   "speaker": "琴梨の父",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 19,
+   "line": 2,
+   "speaker": "琴梨の父",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 19,
+   "line": 3,
+   "speaker": "琴梨の父",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 20,
+   "line": 0,
+   "speaker": "二人",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 20,
+   "line": 1,
+   "speaker": "二人",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 20,
+   "line": 2,
+   "speaker": "二人",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 20,
+   "line": 3,
+   "speaker": "二人",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 21,
+   "line": 0,
+   "speaker": "放送",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 21,
+   "line": 1,
+   "speaker": "放送",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 21,
+   "line": 2,
+   "speaker": "放送",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 21,
+   "line": 3,
+   "speaker": "放送",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 22,
+   "line": 0,
+   "speaker": "司会",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 22,
+   "line": 1,
+   "speaker": "司会",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 22,
+   "line": 2,
+   "speaker": "司会",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 22,
+   "line": 3,
+   "speaker": "司会",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 23,
+   "line": 0,
+   "speaker": "怪人",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 23,
+   "line": 1,
+   "speaker": "怪人",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 23,
+   "line": 2,
+   "speaker": "怪人",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 23,
+   "line": 3,
+   "speaker": "怪人",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 24,
+   "line": 0,
+   "speaker": "子供１",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 24,
+   "line": 1,
+   "speaker": "子供１",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 24,
+   "line": 2,
+   "speaker": "子供１",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 24,
+   "line": 3,
+   "speaker": "子供１",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 25,
+   "line": 0,
+   "speaker": "子供２",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 25,
+   "line": 1,
+   "speaker": "子供２",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 25,
+   "line": 2,
+   "speaker": "子供２",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 25,
+   "line": 3,
+   "speaker": "子供２",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 26,
+   "line": 0,
+   "speaker": "子供３",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 26,
+   "line": 1,
+   "speaker": "子供３",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 26,
+   "line": 2,
+   "speaker": "子供３",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 26,
+   "line": 3,
+   "speaker": "子供３",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 27,
+   "line": 0,
+   "speaker": "子供たち",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 27,
+   "line": 1,
+   "speaker": "子供たち",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 27,
+   "line": 2,
+   "speaker": "子供たち",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 27,
+   "line": 3,
+   "speaker": "子供たち",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 28,
+   "line": 0,
+   "speaker": "ナズナ",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 28,
+   "line": 1,
+   "speaker": "ナズナ",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 28,
+   "line": 2,
+   "speaker": "ナズナ",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 28,
+   "line": 3,
+   "speaker": "ナズナ",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 29,
+   "line": 0,
+   "speaker": "セリ",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 29,
+   "line": 1,
+   "speaker": "セリ",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 29,
+   "line": 2,
+   "speaker": "セリ",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 29,
+   "line": 3,
+   "speaker": "セリ",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 30,
+   "line": 0,
+   "speaker": "ゴギョウ",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 30,
+   "line": 1,
+   "speaker": "ゴギョウ",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 30,
+   "line": 2,
+   "speaker": "ゴギョウ",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 30,
+   "line": 3,
+   "speaker": "ゴギョウ",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 31,
+   "line": 0,
+   "speaker": "ハコベラ",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 31,
+   "line": 1,
+   "speaker": "ハコベラ",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 31,
+   "line": 2,
+   "speaker": "ハコベラ",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 31,
+   "line": 3,
+   "speaker": "ハコベラ",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 32,
+   "line": 0,
+   "speaker": "ホトケノザ",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 32,
+   "line": 1,
+   "speaker": "ホトケノザ",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 32,
+   "line": 2,
+   "speaker": "ホトケノザ",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 32,
+   "line": 3,
+   "speaker": "ホトケノザ",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 33,
+   "line": 0,
+   "speaker": "スズナ",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 33,
+   "line": 1,
+   "speaker": "スズナ",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 33,
+   "line": 2,
+   "speaker": "スズナ",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 33,
+   "line": 3,
+   "speaker": "スズナ",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 34,
+   "line": 0,
+   "speaker": "スズシロ",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 34,
+   "line": 1,
+   "speaker": "スズシロ",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 34,
+   "line": 2,
+   "speaker": "スズシロ",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 34,
+   "line": 3,
+   "speaker": "スズシロ",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 35,
+   "line": 0,
+   "speaker": "全員",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 35,
+   "line": 1,
+   "speaker": "全員",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 35,
+   "line": 2,
+   "speaker": "全員",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 35,
+   "line": 3,
+   "speaker": "全員",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 36,
+   "line": 0,
+   "speaker": "子供男",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 36,
+   "line": 1,
+   "speaker": "子供男",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 36,
+   "line": 2,
+   "speaker": "子供男",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 36,
+   "line": 3,
+   "speaker": "子供男",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 37,
+   "line": 0,
+   "speaker": "子供女",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 37,
+   "line": 1,
+   "speaker": "子供女",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 37,
+   "line": 2,
+   "speaker": "子供女",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 37,
+   "line": 3,
+   "speaker": "子供女",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 38,
+   "line": 0,
+   "speaker": "ナレーション",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 38,
+   "line": 1,
+   "speaker": "ナレーション",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 38,
+   "line": 2,
+   "speaker": "ナレーション",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 38,
+   "line": 3,
+   "speaker": "ナレーション",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 39,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 39,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 39,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 39,
+   "line": 3,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 40,
+   "line": 0,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 40,
+   "line": 1,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 40,
+   "line": 2,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 40,
+   "line": 3,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 41,
+   "line": 0,
+   "speaker": "けあふりぃ",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 41,
+   "line": 1,
+   "speaker": "けあふりぃ",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 41,
+   "line": 2,
+   "speaker": "けあふりぃ",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 41,
+   "line": 3,
+   "speaker": "けあふりぃ",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 42,
+   "line": 0,
+   "speaker": "鮎の父",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 42,
+   "line": 1,
+   "speaker": "鮎の父",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 42,
+   "line": 2,
+   "speaker": "鮎の父",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 42,
+   "line": 3,
+   "speaker": "鮎の父",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 43,
+   "line": 0,
+   "speaker": "男の子１",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 43,
+   "line": 1,
+   "speaker": "男の子１",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 43,
+   "line": 2,
+   "speaker": "男の子１",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 43,
+   "line": 3,
+   "speaker": "男の子１",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 44,
+   "line": 0,
+   "speaker": "男の子２",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 44,
+   "line": 1,
+   "speaker": "男の子２",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 44,
+   "line": 2,
+   "speaker": "男の子２",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 44,
+   "line": 3,
+   "speaker": "男の子２",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 45,
+   "line": 0,
+   "speaker": "男の子３",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 45,
+   "line": 1,
+   "speaker": "男の子３",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 45,
+   "line": 2,
+   "speaker": "男の子３",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 45,
+   "line": 3,
+   "speaker": "男の子３",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 46,
+   "line": 0,
+   "speaker": "男の子１２",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 46,
+   "line": 1,
+   "speaker": "男の子１２",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 46,
+   "line": 2,
+   "speaker": "男の子１２",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 46,
+   "line": 3,
+   "speaker": "男の子１２",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 47,
+   "line": 0,
+   "speaker": "鮎の父親",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 47,
+   "line": 1,
+   "speaker": "鮎の父親",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 47,
+   "line": 2,
+   "speaker": "鮎の父親",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 47,
+   "line": 3,
+   "speaker": "鮎の父親",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 48,
+   "line": 0,
+   "speaker": "花売り",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 48,
+   "line": 1,
+   "speaker": "花売り",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 48,
+   "line": 2,
+   "speaker": "花売り",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 48,
+   "line": 3,
+   "speaker": "花売り",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 49,
+   "line": 0,
+   "speaker": "声",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 49,
+   "line": 1,
+   "speaker": "声",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 49,
+   "line": 2,
+   "speaker": "声",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 49,
+   "line": 3,
+   "speaker": "声",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 50,
+   "line": 0,
+   "speaker": "ヤクザ",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 50,
+   "line": 1,
+   "speaker": "ヤクザ",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 50,
+   "line": 2,
+   "speaker": "ヤクザ",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 50,
+   "line": 3,
+   "speaker": "ヤクザ",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 51,
+   "line": 0,
+   "speaker": "達也",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 51,
+   "line": 1,
+   "speaker": "達也",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 51,
+   "line": 2,
+   "speaker": "達也",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 51,
+   "line": 3,
+   "speaker": "達也",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 52,
+   "line": 0,
+   "speaker": "鈴本",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 52,
+   "line": 1,
+   "speaker": "鈴本",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 52,
+   "line": 2,
+   "speaker": "鈴本",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 52,
+   "line": 3,
+   "speaker": "鈴本",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 53,
+   "line": 0,
+   "speaker": "手下１",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 53,
+   "line": 1,
+   "speaker": "手下１",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 53,
+   "line": 2,
+   "speaker": "手下１",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 53,
+   "line": 3,
+   "speaker": "手下１",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 54,
+   "line": 0,
+   "speaker": "手下２",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 54,
+   "line": 1,
+   "speaker": "手下２",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 54,
+   "line": 2,
+   "speaker": "手下２",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 54,
+   "line": 3,
+   "speaker": "手下２",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 55,
+   "line": 0,
+   "speaker": "風祭",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 55,
+   "line": 1,
+   "speaker": "風祭",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 55,
+   "line": 2,
+   "speaker": "風祭",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 55,
+   "line": 3,
+   "speaker": "風祭",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 56,
+   "line": 0,
+   "speaker": "お兄さん",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 56,
+   "line": 1,
+   "speaker": "お兄さん",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 56,
+   "line": 2,
+   "speaker": "お兄さん",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 56,
+   "line": 3,
+   "speaker": "お兄さん",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 57,
+   "line": 0,
+   "speaker": "ウエイトレス",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 57,
+   "line": 1,
+   "speaker": "ウエイトレス",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 57,
+   "line": 2,
+   "speaker": "ウエイトレス",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 57,
+   "line": 3,
+   "speaker": "ウエイトレス",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 58,
+   "line": 0,
+   "speaker": "ウエィター",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 58,
+   "line": 1,
+   "speaker": "ウエィター",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 58,
+   "line": 2,
+   "speaker": "ウエィター",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 58,
+   "line": 3,
+   "speaker": "ウエィター",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 59,
+   "line": 0,
+   "speaker": "売り子",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 59,
+   "line": 1,
+   "speaker": "売り子",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 59,
+   "line": 2,
+   "speaker": "売り子",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 59,
+   "line": 3,
+   "speaker": "売り子",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 60,
+   "line": 0,
+   "speaker": "メッセージ",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 60,
+   "line": 1,
+   "speaker": "メッセージ",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 60,
+   "line": 2,
+   "speaker": "メッセージ",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 60,
+   "line": 3,
+   "speaker": "メッセージ",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 61,
+   "line": 0,
+   "speaker": "運転手",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 61,
+   "line": 1,
+   "speaker": "運転手",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 61,
+   "line": 2,
+   "speaker": "運転手",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 61,
+   "line": 3,
+   "speaker": "運転手",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 62,
+   "line": 0,
+   "speaker": "電話",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 62,
+   "line": 1,
+   "speaker": "電話",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 62,
+   "line": 2,
+   "speaker": "電話",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 62,
+   "line": 3,
+   "speaker": "電話",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 63,
+   "line": 0,
+   "speaker": "父親",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 63,
+   "line": 1,
+   "speaker": "父親",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 63,
+   "line": 2,
+   "speaker": "父親",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 63,
+   "line": 3,
+   "speaker": "父親",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 64,
+   "line": 0,
+   "speaker": "第１章",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 64,
+   "line": 1,
+   "speaker": "第１章",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 64,
+   "line": 2,
+   "speaker": "第１章",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 64,
+   "line": 3,
+   "speaker": "第１章",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 65,
+   "line": 0,
+   "speaker": "第２章",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 65,
+   "line": 1,
+   "speaker": "第２章",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 65,
+   "line": 2,
+   "speaker": "第２章",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 65,
+   "line": 3,
+   "speaker": "第２章",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 66,
+   "line": 0,
+   "speaker": "第３章",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 66,
+   "line": 1,
+   "speaker": "第３章",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 66,
+   "line": 2,
+   "speaker": "第３章",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 66,
+   "line": 3,
+   "speaker": "第３章",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 67,
+   "line": 0,
+   "speaker": "第４章",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 67,
+   "line": 1,
+   "speaker": "第４章",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 67,
+   "line": 2,
+   "speaker": "第４章",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 67,
+   "line": 3,
+   "speaker": "第４章",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 68,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 69,
+   "line": 0,
+   "speaker": "リーマン１",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 69,
+   "line": 1,
+   "speaker": "リーマン１",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 69,
+   "line": 2,
+   "speaker": "リーマン１",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 69,
+   "line": 3,
+   "speaker": "リーマン１",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 70,
+   "line": 0,
+   "speaker": "リーマン２",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 70,
+   "line": 1,
+   "speaker": "リーマン２",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 70,
+   "line": 2,
+   "speaker": "リーマン２",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 70,
+   "line": 3,
+   "speaker": "リーマン２",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 71,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 71,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 71,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 71,
+   "line": 3,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 72,
+   "line": 0,
+   "speaker": "老人",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 72,
+   "line": 1,
+   "speaker": "老人",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 72,
+   "line": 2,
+   "speaker": "老人",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 72,
+   "line": 3,
+   "speaker": "老人",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 73,
+   "line": 0,
+   "speaker": "黒猫",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 73,
+   "line": 1,
+   "speaker": "黒猫",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 73,
+   "line": 2,
+   "speaker": "黒猫",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 73,
+   "line": 3,
+   "speaker": "黒猫",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 74,
+   "line": 0,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 74,
+   "line": 1,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 74,
+   "line": 2,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 74,
+   "line": 3,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 75,
+   "line": 0,
+   "speaker": "里子",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 75,
+   "line": 1,
+   "speaker": "里子",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 75,
+   "line": 2,
+   "speaker": "里子",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 75,
+   "line": 3,
+   "speaker": "里子",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 76,
+   "line": 0,
+   "speaker": "男",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 76,
+   "line": 1,
+   "speaker": "男",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 76,
+   "line": 2,
+   "speaker": "男",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 76,
+   "line": 3,
+   "speaker": "男",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 77,
+   "line": 0,
+   "speaker": "謎のポエム",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 77,
+   "line": 1,
+   "speaker": "謎のポエム",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 77,
+   "line": 2,
+   "speaker": "謎のポエム",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 77,
+   "line": 3,
+   "speaker": "謎のポエム",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 78,
+   "line": 0,
+   "speaker": "クロちゃん",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 78,
+   "line": 1,
+   "speaker": "クロちゃん",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 78,
+   "line": 2,
+   "speaker": "クロちゃん",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 78,
+   "line": 3,
+   "speaker": "クロちゃん",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 79,
+   "line": 0,
+   "speaker": "アナウンサー",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 79,
+   "line": 1,
+   "speaker": "アナウンサー",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 79,
+   "line": 2,
+   "speaker": "アナウンサー",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 79,
+   "line": 3,
+   "speaker": "アナウンサー",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 80,
+   "line": 0,
+   "speaker": "観客",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 80,
+   "line": 1,
+   "speaker": "観客",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 80,
+   "line": 2,
+   "speaker": "観客",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 80,
+   "line": 3,
+   "speaker": "観客",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 81,
+   "line": 0,
+   "speaker": "安部",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 81,
+   "line": 1,
+   "speaker": "安部",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 81,
+   "line": 2,
+   "speaker": "安部",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 81,
+   "line": 3,
+   "speaker": "安部",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 82,
+   "line": 0,
+   "speaker": "看護婦",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 82,
+   "line": 1,
+   "speaker": "看護婦",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 82,
+   "line": 2,
+   "speaker": "看護婦",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 82,
+   "line": 3,
+   "speaker": "看護婦",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 83,
+   "line": 0,
+   "speaker": "母",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 83,
+   "line": 1,
+   "speaker": "母",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 83,
+   "line": 2,
+   "speaker": "母",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 83,
+   "line": 3,
+   "speaker": "母",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 84,
+   "line": 0,
+   "speaker": "義父",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 84,
+   "line": 1,
+   "speaker": "義父",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 84,
+   "line": 2,
+   "speaker": "義父",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 84,
+   "line": 3,
+   "speaker": "義父",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 85,
+   "line": 0,
+   "speaker": "ネコ",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 85,
+   "line": 1,
+   "speaker": "ネコ",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 85,
+   "line": 2,
+   "speaker": "ネコ",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 85,
+   "line": 3,
+   "speaker": "ネコ",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 86,
+   "line": 0,
+   "speaker": "司会者",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 86,
+   "line": 1,
+   "speaker": "司会者",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 86,
+   "line": 2,
+   "speaker": "司会者",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 86,
+   "line": 3,
+   "speaker": "司会者",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 87,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "・・・・・・・いないみたいだな。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 87,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "仕方ない　かけ直そう・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 88,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "須貝ビルに着いた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 88,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "さて　どこに行こうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 89,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "１階ゲームセンター",
+    "ko": ""
+   }
+  },
+  {
+   "window": 89,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "２階カラオケ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 89,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "やめる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 90,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "須貝ビルのカラオケボックスに入った。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 90,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "さて　どうしようか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 91,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "歌を歌う",
+    "ko": ""
+   }
+  },
+  {
+   "window": 91,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "外に出る",
+    "ko": ""
+   }
+  },
+  {
+   "window": 92,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "そうだよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 92,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "一人で歌っても　むなしいだけだよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 93,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "そうだな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 93,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "今日はこれくらいにしておこう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 94,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "何を歌おうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 95,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "ＭＯＶＥ　ＯＮ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 95,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "ひこうき雲",
+    "ko": ""
+   }
+  },
+  {
+   "window": 95,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "したっけ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 95,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "わたしまけましたわ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 96,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "何を歌おうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 97,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "ＭＯＶＥ　ＯＮ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 97,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "ひこうき雲",
+    "ko": ""
+   }
+  },
+  {
+   "window": 97,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "したっけ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 98,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "うーん・・今回はちょっと　不調だな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 99,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "よし！　まずまずの点数だな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 100,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "やった！　今回はすごく調子いいぞ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 101,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "・・もう一曲・・歌おうかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 102,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "歌を歌う",
+    "ko": ""
+   }
+  },
+  {
+   "window": 102,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "外に出る",
+    "ko": ""
+   }
+  },
+  {
+   "window": 103,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "須貝ビルのゲームセンターだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 103,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "さて　何で遊ぼうか・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 104,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "ＵＦＯキャッチャー",
+    "ko": ""
+   }
+  },
+  {
+   "window": 104,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "クイズ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 104,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "シューティングゲーム",
+    "ko": ""
+   }
+  },
+  {
+   "window": 104,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "外に出る",
+    "ko": ""
+   }
+  },
+  {
+   "window": 105,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "そうだよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 105,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "一人で遊んでも　むなしいだけだよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 106,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "そうだな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 106,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "今日は　これくらいにしておこう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 107,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "ＵＦＯキャッチャーの前に来た。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 107,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "どうしようか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 108,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "ゲームで遊ぶ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 108,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "やめる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 109,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "よし！　練習してみんなにいいとこ見せよう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 110,
+   "line": 0,
+   "speaker": "説明",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "ＵＦＯキャッチャーの操作説明を見ますか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 111,
+   "line": 0,
+   "speaker": "説明",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "はい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 111,
+   "line": 1,
+   "speaker": "説明",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "いいえ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 112,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "よし！　ヌイグルミ　取れたぞ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 112,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "これを誰にプレゼントしようかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 113,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "・・・一個も取れなかった・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 113,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "うう・・くやしいな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 114,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "・・もう一回・・遊ぼうかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 115,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "ゲームで遊ぶ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 115,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "やめる%2%",
+    "ko": ""
+   }
+  },
+  {
+   "window": 116,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "そうだな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 116,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "別のゲームで遊ぼう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 117,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "クイズ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 117,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "シューティングゲーム",
+    "ko": ""
+   }
+  },
+  {
+   "window": 117,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "外に出る",
+    "ko": ""
+   }
+  },
+  {
+   "window": 118,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "そうだよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 118,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "一人で遊んでも　むなしいだけだよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 119,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "そうだな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 119,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "今日は　これくらいにしておこう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 120,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "クイズゲームの前に来た。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 120,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "どうしようか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 121,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "ゲームで遊ぶ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 121,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "やめる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 122,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "よし！　練習してみんなにいいとこ見せよう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 123,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "よし！　勝ったぞ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 123,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "これで僕も北海道通だ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 124,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "・・・うーん・・負けてしまった・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 124,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "機械に負けると　なんか悔しいな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 125,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "・・もう一回・・遊ぼうかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 126,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "ゲームで遊ぶ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 126,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "やめる%2%",
+    "ko": ""
+   }
+  },
+  {
+   "window": 127,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "そうだな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 127,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "別のゲームで遊ぼう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 128,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "ＵＦＯキャッチャー",
+    "ko": ""
+   }
+  },
+  {
+   "window": 128,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "シューティングゲーム",
+    "ko": ""
+   }
+  },
+  {
+   "window": 128,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "外に出る",
+    "ko": ""
+   }
+  },
+  {
+   "window": 129,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "そうだよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 129,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "一人で遊んでも　むなしいだけだよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 130,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "そうだな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 130,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "今日は　これくらいにしておこう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 131,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "シューティングゲームの前に来た。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 131,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "どうしようか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 132,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "ゲームで遊ぶ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 132,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "やめる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 133,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "よし！　練習してみんなにいいとこ見せよう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 134,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "やった！　ハイスコアーだ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 134,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "練習した甲斐があったよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 135,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "やった！　今回はすごく調子いいぞ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 136,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "うーん・・今回はちょっと　不調だな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 137,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "・・もう一回・・遊ぼうかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 138,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "ゲームで遊ぶ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 138,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "やめる%2%",
+    "ko": ""
+   }
+  },
+  {
+   "window": 139,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "そうだな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 139,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "別のゲームで遊ぼう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 140,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "ＵＦＯキャッチャー",
+    "ko": ""
+   }
+  },
+  {
+   "window": 140,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "クイズ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 140,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "外に出る",
+    "ko": ""
+   }
+  },
+  {
+   "window": 141,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "そうだよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 141,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "一人で遊んでも　むなしいだけだよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 142,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "そうだな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 142,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "今日は　これくらいにしておこう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 143,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "部屋に戻った。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 143,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "さてこれから　どうしようかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 144,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "僕は書斎で時間をつぶした。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 145,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "部屋に戻った。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 145,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "さてこれから　どうしようかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 146,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "僕は書斎で時間をつぶした。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 147,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "部屋に戻った。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 147,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "さてこれから　どうしようかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 148,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "僕は書斎で時間をつぶした。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 149,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "部屋に戻った。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 149,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "さてこれから　どうしようかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 150,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "僕は書斎で時間をつぶした。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 151,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "ふぅ・・いいお湯だった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 151,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "さてこれから　どうしようかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 152,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "ふぅ・・いいお湯だった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 152,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "さてこれから　どうしようかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 153,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "８月５日　朝・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 153,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "今日も天気は良好だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 154,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "部屋に戻った。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 154,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "さてこれから　どうしようかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 155,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "８月６日　朝・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 155,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "今日も天気は良好だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 156,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "今日は午後から　梢ちゃんと羊ヶ丘展望台に行く",
+    "ko": ""
+   }
+  },
+  {
+   "window": 156,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "約束してたっけ・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 156,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "待ち合わせは確か　平岸駅だったな。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 157,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "８月７日　朝・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 157,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "今日も天気は良好だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 158,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "８月１１日　朝・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 158,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "今日も天気は良好だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 159,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "今日は由子さんと千歳の航空自衛隊基地を",
+    "ko": ""
+   }
+  },
+  {
+   "window": 159,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "見学する約束してたっけ・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 159,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "待ち合わせは確か　札幌駅だったな。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 160,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "今日は午後から葉野香ちゃんと二条市場に行く",
+    "ko": ""
+   }
+  },
+  {
+   "window": 160,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "約束してたっけ・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 160,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "待ち合わせは確か　狸小路だったな。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 161,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "今日は葉野香ちゃんとサッポロファクトリーに行く",
+    "ko": ""
+   }
+  },
+  {
+   "window": 161,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "約束してたっけ・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 161,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "待ち合わせは確か　札幌駅前だったな。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 162,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "今日は薫さんとドライブに行く約束してたっけ・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 162,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "待ち合わせは確か　平岸駅だったな。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 163,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "今日は鮎ちゃんと海に行く約束してたっけ・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 163,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "待ち合わせは確か　札幌駅だったな。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 164,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "８月１３日　朝・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 164,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "今日も天気は良好だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 165,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "今日は午後から葉野香ちゃんと二条市場に行く",
+    "ko": ""
+   }
+  },
+  {
+   "window": 165,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "約束してたっけ・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 165,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "待ち合わせは確か　狸小路だったな。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 166,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "今日は葉野香ちゃんとサッポロファクトリーに行く",
+    "ko": ""
+   }
+  },
+  {
+   "window": 166,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "約束してたっけ・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 166,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "待ち合わせは確か　札幌駅前だったな。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 167,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "今日は薫さんとドライブに行く約束してたっけ・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 167,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "待ち合わせは確か　平岸駅だったな。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 168,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "８月１６日　朝・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 168,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "今日も天気は良好だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 169,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "今日は由子さんとツーリングに行く約束してたっけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 169,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "待ち合わせは確か　平岸駅だったな。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 170,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "平岸駅前に着いた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 170,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "・・知ってる人は　誰もいないみたいだな・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 171,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 171,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "気が付くと　いつの間にか　陽も高くなっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 172,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 172,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "気が付くと　いつの間にか　午後になっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 173,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 173,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "気が付くと　いつの間にか　夕方になっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 174,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 174,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "気が付くと　いつの間にか　夜になっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 175,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "札幌駅南口に着いた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 175,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "・・知ってる人は　誰もいないみたいだな・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 176,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 176,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "気が付くと　いつの間にか　陽も高くなっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 177,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 177,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "気が付くと　いつの間にか　午後になっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 178,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 178,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "気が付くと　いつの間にか　夕方になっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 179,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 179,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "気が付くと　いつの間にか　夜になっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 180,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "北海道庁に着いた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 180,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "・・知ってる人は　誰もいないみたいだな・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 181,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 181,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "気が付くと　いつの間にか　陽も高くなっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 182,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 182,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "気が付くと　いつの間にか　午後になっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 183,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 183,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "気が付くと　いつの間にか　夕方になっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 184,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 184,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "気が付くと　いつの間にか　夜になっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 185,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "時計台に着いた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 185,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "・・知ってる人は　誰もいないみたいだな・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 186,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 186,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "気が付くと　いつの間にか　陽も高くなっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 187,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 187,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "気が付くと　いつの間にか　午後になっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 188,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 188,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "気が付くと　いつの間にか　夕方になっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 189,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 189,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "気が付くと　いつの間にか　夜になっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 190,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "狸小路に着いた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 190,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "・・知ってる人は　誰もいないみたいだな・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 191,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 191,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "気が付くと　いつの間にか　陽も高くなっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 192,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 192,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "気が付くと　いつの間にか　午後になっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 193,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 193,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "気が付くと　いつの間にか　夕方になっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 194,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 194,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "気が付くと　いつの間にか　夜になっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 195,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "大通公園に着いた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 195,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "・・知ってる人は　誰もいないみたいだな・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 196,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 196,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "気が付くと　いつの間にか　陽も高くなっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 197,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 197,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "気が付くと　いつの間にか　午後になっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 198,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 198,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "気が付くと　いつの間にか　夕方になっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 199,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 199,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "気が付くと　いつの間にか　夜になっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 200,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "北海大学に着いた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 200,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "・・知ってる人は　誰もいないみたいだな・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 201,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 201,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "気が付くと　いつの間にか　陽も高くなっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 202,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 202,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "気が付くと　いつの間にか　午後になっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 203,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 203,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "気が付くと　いつの間にか　夕方になっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 204,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 204,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "気が付くと　いつの間にか　夜になっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 205,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "小樽駅前に着いた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 205,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "・・知ってる人は　誰もいないみたいだな・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 206,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 206,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "気が付くと　いつの間にか　陽も高くなっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 207,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 207,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "気が付くと　いつの間にか　午後になっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 208,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 208,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "気が付くと　いつの間にか　夕方になっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 209,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 209,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "気が付くと　いつの間にか　夜になっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 210,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "小樽運河に着いた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 210,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "・・知ってる人は　誰もいないみたいだな・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 211,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 211,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "気が付くと　いつの間にか　陽も高くなっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 212,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 212,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "気が付くと　いつの間にか　午後になっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 213,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 213,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "気が付くと　いつの間にか　夕方になっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 214,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 214,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "気が付くと　いつの間にか　夜になっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 215,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "夕日の見える公園に着いた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 215,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "・・知ってる人は　誰もいないみたいだな・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 216,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 216,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "気が付くと　いつの間にか　陽も高くなっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 217,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 217,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "気が付くと　いつの間にか　午後になっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 218,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 218,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "気が付くと　いつの間にか　夕方になっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 219,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 219,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "気が付くと　いつの間にか　夜になっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 220,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "美瑛駅に着いた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 220,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "・・知ってる人は　誰もいないみたいだな・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 221,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 221,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "気が付くと　いつの間にか　陽も高くなっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 222,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 222,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "気が付くと　いつの間にか　午後になっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 223,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 223,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "気が付くと　いつの間にか　夕方になっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 224,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 224,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "気が付くと　いつの間にか　夜になっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 225,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "ロイズ平岸店に着いた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 225,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "・・チョコレートでも買おうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 226,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "買う",
+    "ko": ""
+   }
+  },
+  {
+   "window": 226,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "買わない",
+    "ko": ""
+   }
+  },
+  {
+   "window": 227,
+   "line": 0,
+   "speaker": "売り子",
+   "kind": "대사",
+   "voice": "a2741.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "いらっしゃいませ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 227,
+   "line": 1,
+   "speaker": "売り子",
+   "kind": "대사",
+   "voice": "a2741.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "ご注文はいかが致しましょう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 228,
+   "line": 0,
+   "speaker": "売り子",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "生チョコレート",
+    "ko": ""
+   }
+  },
+  {
+   "window": 228,
+   "line": 1,
+   "speaker": "売り子",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "生チョコオーレ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 228,
+   "line": 2,
+   "speaker": "売り子",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "やっぱりやめる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 229,
+   "line": 0,
+   "speaker": "売り子",
+   "kind": "대사",
+   "voice": "a2743.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "ありがとうございました。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 230,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "よく考えたら　今ここでチョコレートを買う理由も",
+    "ko": ""
+   }
+  },
+  {
+   "window": 230,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "必要性もないな・・やっぱりやめよう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 231,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 231,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "気が付くと　いつの間にか　陽も高くなっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 232,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 232,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "気が付くと　いつの間にか　午後になっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 233,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 233,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "気が付くと　いつの間にか　夕方になっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 234,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 234,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "気が付くと　いつの間にか　夜になっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 235,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "喫茶エンゼルに着いた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 235,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "・・知ってる人は　誰もいないみたいだな・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 236,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 236,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "気が付くと　いつの間にか　陽も高くなっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 237,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 237,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "気が付くと　いつの間にか　午後になっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 238,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 238,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "気が付くと　いつの間にか　夕方になっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 239,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 239,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "気が付くと　いつの間にか　夜になっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 240,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "ファーム富田に着いた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 240,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "・・知ってる人は　誰もいないみたいだな・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 241,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 241,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "気が付くと　いつの間にか　陽も高くなっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 242,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 242,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "気が付くと　いつの間にか　午後になっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 243,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 243,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "気が付くと　いつの間にか　夕方になっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 244,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 244,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "気が付くと　いつの間にか　夜になっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 245,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "オルゴール堂に着いた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 245,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "・・知ってる人は　誰もいないみたいだな・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 246,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 246,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "気が付くと　いつの間にか　陽も高くなっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 247,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 247,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "気が付くと　いつの間にか　午後になっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 248,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 248,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "気が付くと　いつの間にか　夕方になっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 249,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 249,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "気が付くと　いつの間にか　夜になっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 250,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "メッセ・ホールに着いた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 250,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "・・知ってる人は　誰もいないみたいだな・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 251,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 251,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "気が付くと　いつの間にか　陽も高くなっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 252,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 252,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "気が付くと　いつの間にか　午後になっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 253,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 253,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "気が付くと　いつの間にか　夕方になっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 254,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 254,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "気が付くと　いつの間にか　夜になっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 255,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "テイセンホールに着いた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 255,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "・・知ってる人は　誰もいないみたいだな・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 256,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 256,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "気が付くと　いつの間にか　陽も高くなっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 257,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 257,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "気が付くと　いつの間にか　午後になっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 258,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 258,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "気が付くと　いつの間にか　夕方になっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 259,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 259,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "気が付くと　いつの間にか　夜になっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 260,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "ひまわり迷路に着いた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 260,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "でも今は営業時間外みたいだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 260,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "・・・仕方ない・・戻るか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 261,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "ひまわり迷路に着いた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 261,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "せっかくだから　遊んでいこうかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 262,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "遊ぶ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 262,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "遊ばない",
+    "ko": ""
+   }
+  },
+  {
+   "window": 263,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "そうだな・・・一人で遊んでも空しいだけだよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 264,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "よし！　やってみよう！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 265,
+   "line": 0,
+   "speaker": "説明",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "ひまわり迷路の操作説明を見ますか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 266,
+   "line": 0,
+   "speaker": "説明",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "はい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 266,
+   "line": 1,
+   "speaker": "説明",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "いいえ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 267,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "やった！　新記録だ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 268,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "うん。結構　楽しかったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 269,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "う～ん。結構　迷っちゃったな・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 270,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "もう一度　遊んでみようかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 271,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "遊ぶ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 271,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "遊ばない",
+    "ko": ""
+   }
+  },
+  {
+   "window": 272,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "そうだな・・・そろそろ戻ろう・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 273,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 273,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "気が付くと　いつの間にか　陽も高くなっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 274,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 274,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "気が付くと　いつの間にか　午後になっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 275,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 275,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "気が付くと　いつの間にか　夕方になっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 276,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "ひまわり迷路に着いた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 276,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "でも今は営業時間外みたいだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 276,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "・・・仕方ない・・戻るか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 277,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "愛田牧場に戻った。・・すっかり遅くなっちゃったな。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 277,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "夕方の搾乳に　間に合わなかったみたいだし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 277,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "・・・あ！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 278,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "あの・・・ごめんなさい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 279,
+   "line": 0,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A9300.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "まぁ・・仕方ないね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 279,
+   "line": 1,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A9300.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "次からは頑張ってくれ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 280,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "本当に・・・すみませんでした。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 281,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "こんな事じゃダメだな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 281,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "明日から　もっと頑張らなくちゃ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 282,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "・・愛田牧場の人たちに黙って・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 282,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "札幌に戻って来ちゃったな・・・どうしよう・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 283,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "・・そう言えば今朝　美瑛の牧場に行くって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 283,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "陽子おばさんと約束したのに　結局行かないで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 283,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "ここに戻って来ちゃったな・・どうしよう・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 284,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "あの・・・僕・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 285,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A6498.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "まぁ　しょうがないさ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 286,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "・・・でも・・黙って戻って来ちゃったし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 287,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A9307.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "向こうには　私から断っておくからね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 288,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "本当に・・・すみませんでした。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 289,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "こんな事じゃダメだな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 289,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "明日から　もっと頑張らなくちゃ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 290,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "美瑛駅に着いた。・・・でも　愛田牧場の人たちとは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 290,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "ちょっと気まずくなっちゃったし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 290,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "もう　行かない方がいいだろうな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 291,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "こうして僕の夏休みが終わった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 291,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "たくさんの　素敵な思い出を残して・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 292,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "明日から新学期が始まる。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 292,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "またあの退屈な日常が戻ってくる。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 292,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "でも　ひとつだけ　ちがうことは・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 293,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "僕には　大好きな女の子がいる。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 293,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "向こうが僕のこと　どう思ってるのかなんて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 293,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "まだ　はっきりわからないけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 294,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "僕には　大好きな女の子がいる。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 294,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "ただそれだけで　僕は忘れていた笑顔を",
+    "ko": ""
+   }
+  },
+  {
+   "window": 294,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "取り戻すことが出来たような気がする。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 295,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "僕には　大好きな女の子がいる。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 295,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "向こうも僕のこと　好きって言ってくれた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 296,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "僕には　大好きな女の子がいる。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 296,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "ただそれだけで　僕は忘れていた笑顔を",
+    "ko": ""
+   }
+  },
+  {
+   "window": 296,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "取り戻すことが出来たような気がする。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 297,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "・・・・・・・・・旅に出れば　何かが変わる・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 297,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "僕のそんな考えが　きっと甘かったんだろう・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 298,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "僕自身が変わらない限り・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 298,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "僕の人生は変わらない・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 299,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "東京に戻った僕は　自分の部屋で・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 299,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "あの夏の出来事を　思い出してみる。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 300,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "・・・こうして僕の夏が終わった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 301,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "春野琴梨ちゃん・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 302,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "川原鮎ちゃん・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 303,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "ターニャ・リピンスキー・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 304,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "桜町由子さん・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 305,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "愛田めぐみちゃん・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 306,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "里中梢ちゃん・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 307,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "左京葉野香ちゃん・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 308,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "椎名薫さん・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 309,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "北の大地　北海道に",
+    "ko": ""
+   }
+  },
+  {
+   "window": 309,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "僕が大好きだった女の子が",
+    "ko": ""
+   }
+  },
+  {
+   "window": 309,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "今でも　幸せに暮らしている。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 310,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "部屋に戻った。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 310,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "さてこれから　どうしようかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 311,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "僕は書斎で時間をつぶした。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 312,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "ローズヒル南平岸の応接間だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 312,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "部屋には誰もいない。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 313,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は応接間で時間をつぶした。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 314,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "春野家の応接間だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 314,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "琴梨ちゃんも陽子おばさんも　いないみたいだな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 315,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "ローズヒル南平岸の応接間だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 315,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "部屋には誰もいない。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 316,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は応接間で時間をつぶした。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 317,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "春野家の応接間だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 317,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "琴梨ちゃんも陽子おばさんも　いないみたいだな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 318,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "ローズヒル南平岸の応接間だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 318,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "部屋には誰もいない。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 319,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は応接間で時間をつぶした。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 320,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "春野家の応接間だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 320,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "琴梨ちゃんも陽子おばさんも　いないみたいだな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 321,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "ローズヒル南平岸の応接間だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 321,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "部屋には誰もいない。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 322,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は応接間で時間をつぶした。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 323,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "春野家の応接間だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 323,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "琴梨ちゃんも陽子おばさんも　いないみたいだな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 324,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "ローズヒル南平岸の応接間だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 324,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "部屋には誰もいない。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 325,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は応接間で時間をつぶした。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 326,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "春野家の応接間だ。・・誰もいない。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 326,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "琴梨ちゃんも　部屋に戻ってしまったようだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 326,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・タイクツだな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 327,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "ローズヒル南平岸の応接間だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 327,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "部屋には誰もいない。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 328,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "春野家の応接間だ。・・誰もいない。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 328,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "琴梨ちゃんも　部屋に戻ってしまったようだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 328,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・タイクツだな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 329,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "春野家の応接間だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 329,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "・・・あれ？　陽子おばさんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 329,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "いつの間に戻ってたんだろう？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 330,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "・・・・・・・あっ！　そうだ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 330,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "陽子おばさんなら　あの赤いスズランのことで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 330,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "相談に乗ってくれるかもしれないな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 331,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "僕は陽子おばさんに　赤いスズランを見せ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 331,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "今日起こった出来事を話した。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 332,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "親密度　設定　シーン　選択して下さい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 333,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "親密度　設定　シーン　選択して下さい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 334,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "親密度　設定　シーン　選択して下さい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 335,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "電話番号　設定　シーン　選択して下さい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 336,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "僕はリビングで時間をつぶした。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 337,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "愛田家のリビングだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 337,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "さてこれから　どうしようかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 338,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "愛田家のリビングに戻った。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 338,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "・・・めぐみちゃんは部屋で勉強しているようだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 339,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "僕は客間で時間をつぶした。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 340,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "客間に戻った",
+    "ko": ""
+   }
+  },
+  {
+   "window": 340,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "さてこれから　どうしようかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 341,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "客間に戻った",
+    "ko": ""
+   }
+  },
+  {
+   "window": 341,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "さてこれから　どうしようかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 342,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "僕はリビングで時間をつぶした。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 343,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "愛田家のリビングだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 343,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "さてこれから　どうしようかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 344,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "愛田家のリビングだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 344,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "部屋には誰もいない。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 345,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "あ・・そろそろ夕方の搾乳の時間だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 345,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "牛舎に行かなくっちゃ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 346,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "僕は客間で時間をつぶした。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 347,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "客間に戻った。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 347,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "さてこれから　どうしようかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 348,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "愛田家の客間に戻った。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 349,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "あ・・そろそろ夕方の搾乳の時間だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 349,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "牛舎に行かなくっちゃ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 350,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "僕はリビングで時間をつぶした。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 351,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "僕は客間で時間をつぶした。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 352,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "愛田家のリビングだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 352,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "さてこれから　どうしようかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 353,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "客間に戻った。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 353,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "さてこれから　どうしようかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 354,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "ふぅ・・いいお湯だった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 354,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "さてこれから　どうしようかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 355,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "あ・・そろそろ夕方の搾乳の時間だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 355,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "牛舎に行かなくっちゃ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 356,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "僕は書斎で時間をつぶした。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 357,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "その時　応接間で何か物音がしたような気がした。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 357,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "・・・誰だろう？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 358,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "あれ？　陽子おばさんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 358,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "いつの間に戻ってたんだろう？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 359,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "僕は書斎で時間をつぶした。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 360,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "A0152.WAV",
+   "chars": 6,
+   "text": {
+    "ja": "ただいまー！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 361,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "あ・・琴梨ちゃん　戻ってきたみたいだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 362,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "北海軒に着いた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 362,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "・・お店は閉まっているみたいだな・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 363,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 363,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "気が付くと　いつの間にか　陽も高くなっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 364,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 364,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "気が付くと　いつの間にか　午後になっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 365,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 365,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "気が付くと　いつの間にか　夕方になっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 366,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は　あたりを散策してみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 366,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "気が付くと　いつの間にか　夜になっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 367,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "僕は書斎で時間をつぶした。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 368,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "A0152.WAV",
+   "chars": 6,
+   "text": {
+    "ja": "ただいまー！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 369,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "あ・・琴梨ちゃん　戻ってきたみたいだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 370,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "僕はリビングで時間をつぶした。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 371,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "愛田家のリビングだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 371,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "さてこれから　どうしようかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 372,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "愛田家のリビングだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 372,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "部屋には誰もいない。",
+    "ko": ""
+   }
+  }
+ ]
+}

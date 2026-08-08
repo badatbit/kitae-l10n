@@ -1,0 +1,2586 @@
+{
+ "script": "歌詞",
+ "source": "ja",
+ "entries": [
+  {
+   "window": 0,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "北へ　行こう　ランララン",
+    "ko": ""
+   }
+  },
+  {
+   "window": 0,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "　　　北へ　行こう　ランララン",
+    "ko": ""
+   }
+  },
+  {
+   "window": 0,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　春も夏も秋も冬もね　胸躍る北へスキップ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "花咲き乱れる　春と夏が一緒",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "　　",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　　　　　　　何かがはじまる　彩りの予感",
+    "ko": ""
+   }
+  },
+  {
+   "window": 2,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "人恋しくなる　秋から冬へと",
+    "ko": ""
+   }
+  },
+  {
+   "window": 2,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "　　",
+    "ko": ""
+   }
+  },
+  {
+   "window": 2,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　　　　　　何かがはじまる　手のひらの雪",
+    "ko": ""
+   }
+  },
+  {
+   "window": 3,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "カニがいっぱい　ホタテいっぱい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 3,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "　　",
+    "ko": ""
+   }
+  },
+  {
+   "window": 3,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　　　少し休みに行こう　少し遊びに行こう",
+    "ko": ""
+   }
+  },
+  {
+   "window": 4,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "北へ　行こう　ランララン",
+    "ko": ""
+   }
+  },
+  {
+   "window": 4,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "　　　北へ　行こう　ランララン",
+    "ko": ""
+   }
+  },
+  {
+   "window": 4,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　出会いの町恋が生まれる　新しい北へスキップ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 5,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "北へ　行こう　ランララン",
+    "ko": ""
+   }
+  },
+  {
+   "window": 5,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "　　　北へ　行こう　ランララン",
+    "ko": ""
+   }
+  },
+  {
+   "window": 5,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　春も夏も秋も冬もね　胸躍る北へスキップ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 6,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "北へ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 7,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "北へ　行こう　ランララン",
+    "ko": ""
+   }
+  },
+  {
+   "window": 7,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "　　　北へ　行こう　ランララン",
+    "ko": ""
+   }
+  },
+  {
+   "window": 7,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　出会いの町恋が生まれる　新しい北へスキップ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 8,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "北へ　行こう　ランララン",
+    "ko": ""
+   }
+  },
+  {
+   "window": 8,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "　　　北へ　行こう　ランララン",
+    "ko": ""
+   }
+  },
+  {
+   "window": 8,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　春も夏も秋も冬もね　胸躍る北へスキップ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 9,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "北へ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 10,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "恋のダンス　あなたから誘って",
+    "ko": ""
+   }
+  },
+  {
+   "window": 10,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "　　",
+    "ko": ""
+   }
+  },
+  {
+   "window": 10,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　　　　　　恋のダンス　あなたから踊って",
+    "ko": ""
+   }
+  },
+  {
+   "window": 11,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "Ｓｈａｌｌ　ｗｅ　Ｄａｎｃｅを",
+    "ko": ""
+   }
+  },
+  {
+   "window": 11,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "　　",
+    "ko": ""
+   }
+  },
+  {
+   "window": 11,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　　　　　　　　あなたから　言って欲しい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 12,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "連れていってよどこかへ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 12,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "　　　　　　わたしのハートつかまえて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 12,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　　　　　　　　　　　　強く　強く　強く",
+    "ko": ""
+   }
+  },
+  {
+   "window": 13,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "待っているの辛いのよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 13,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "　　　　　　なんてたぶんあなたには",
+    "ko": ""
+   }
+  },
+  {
+   "window": 13,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　　　　　　　　　　　わからないことかも",
+    "ko": ""
+   }
+  },
+  {
+   "window": 14,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "波瀾万丈　恋は密かに激しく",
+    "ko": ""
+   }
+  },
+  {
+   "window": 14,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "　　　　ドラマティック　恋は密かにドキドキ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 14,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　　　　あなたと踊りたい　恋のダンシング",
+    "ko": ""
+   }
+  },
+  {
+   "window": 15,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "お昼の大通公園　噴水は虹を作る機械だね",
+    "ko": ""
+   }
+  },
+  {
+   "window": 15,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "　　",
+    "ko": ""
+   }
+  },
+  {
+   "window": 15,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　　じっと見てたら　ほら涙がこぼれちゃう",
+    "ko": ""
+   }
+  },
+  {
+   "window": 16,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "ライラックの下のベンチは　私たちだけの特等席",
+    "ko": ""
+   }
+  },
+  {
+   "window": 16,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "　　",
+    "ko": ""
+   }
+  },
+  {
+   "window": 16,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　缶コーヒー飲んで　焼きトウモロコシ食べて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 17,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "急いで生きてたら　通り過ぎちゃうような景色",
+    "ko": ""
+   }
+  },
+  {
+   "window": 17,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "　　",
+    "ko": ""
+   }
+  },
+  {
+   "window": 17,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　そんな中にも『素敵』はたくさん詰まってるよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 18,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "あなたと歩いてると　見慣れた街が",
+    "ko": ""
+   }
+  },
+  {
+   "window": 18,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "　　",
+    "ko": ""
+   }
+  },
+  {
+   "window": 18,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　　　　　　　　どんどん素敵に見えてくる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 19,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "シンデレラの魔法って",
+    "ko": ""
+   }
+  },
+  {
+   "window": 19,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "　　",
+    "ko": ""
+   }
+  },
+  {
+   "window": 19,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　　　　　　　　きっとこういう感じだよね",
+    "ko": ""
+   }
+  },
+  {
+   "window": 20,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "あなたとはじめて歩いた　北の夏",
+    "ko": ""
+   }
+  },
+  {
+   "window": 20,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "　　",
+    "ko": ""
+   }
+  },
+  {
+   "window": 20,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　　　　黄色や赤の花が　わたしを恋に誘う",
+    "ko": ""
+   }
+  },
+  {
+   "window": 21,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "あなたをさがして走った　北の夏",
+    "ko": ""
+   }
+  },
+  {
+   "window": 21,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "　　",
+    "ko": ""
+   }
+  },
+  {
+   "window": 21,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　涼しい風を受けて　わたしはホホを染めた",
+    "ko": ""
+   }
+  },
+  {
+   "window": 22,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "『かわいいよ』という言葉は",
+    "ko": ""
+   }
+  },
+  {
+   "window": 22,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "　　",
+    "ko": ""
+   }
+  },
+  {
+   "window": 22,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　　　　　　　『すきだ』って意味だよ・ね",
+    "ko": ""
+   }
+  },
+  {
+   "window": 23,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "夏が消えるまえに　また会えますように",
+    "ko": ""
+   }
+  },
+  {
+   "window": 23,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "　　",
+    "ko": ""
+   }
+  },
+  {
+   "window": 23,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　　　　　　　短い手紙書いた　夏の思い出",
+    "ko": ""
+   }
+  },
+  {
+   "window": 24,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "『黙って　オレについて来い！』って",
+    "ko": ""
+   }
+  },
+  {
+   "window": 24,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "　　",
+    "ko": ""
+   }
+  },
+  {
+   "window": 24,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　　　　　　そういう風に言うヤツに限って",
+    "ko": ""
+   }
+  },
+  {
+   "window": 25,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "いざという時　たよりなくて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 25,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "　　　うろたえて『ねぇ　どうしたらいいの？』",
+    "ko": ""
+   }
+  },
+  {
+   "window": 25,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　　　　　　　　　ってバカ！　ＢＡＮＧ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 26,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "『オレがお前を　守ってやる！』って",
+    "ko": ""
+   }
+  },
+  {
+   "window": 26,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "　　",
+    "ko": ""
+   }
+  },
+  {
+   "window": 26,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　　　　　　そういう風に言うヤツに限って",
+    "ko": ""
+   }
+  },
+  {
+   "window": 27,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "手の付けられない乱暴者で",
+    "ko": ""
+   }
+  },
+  {
+   "window": 27,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "　　　かっとなって『てめぇ！　ぶん殴ってやる！』",
+    "ko": ""
+   }
+  },
+  {
+   "window": 27,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　　　　　　　　　ってバカ！　ＢＡＮＧ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 28,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "ダイナマイトが５万トンあったら",
+    "ko": ""
+   }
+  },
+  {
+   "window": 28,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "　　",
+    "ko": ""
+   }
+  },
+  {
+   "window": 28,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　　ダメな男　かたっぱしから吹き飛ばして",
+    "ko": ""
+   }
+  },
+  {
+   "window": 29,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "ダイナマイトが５万トンあったら",
+    "ko": ""
+   }
+  },
+  {
+   "window": 29,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "　　",
+    "ko": ""
+   }
+  },
+  {
+   "window": 29,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　生き残った最高の男と　結ばれるハズなのに・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 30,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "『キミを幸せに　してあげるよ！』って",
+    "ko": ""
+   }
+  },
+  {
+   "window": 30,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "　　",
+    "ko": ""
+   }
+  },
+  {
+   "window": 30,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　　　　　　そういう風に言うヤツに限って",
+    "ko": ""
+   }
+  },
+  {
+   "window": 31,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "自分が不幸のどん底で",
+    "ko": ""
+   }
+  },
+  {
+   "window": 31,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "　　　言うに事欠いて『キミは疫病神だよ・・』",
+    "ko": ""
+   }
+  },
+  {
+   "window": 31,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　　　　　　　　　ってバカ！　ＢＡＮＧ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 32,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "『男は顔じゃなくて　ハートさ！』って",
+    "ko": ""
+   }
+  },
+  {
+   "window": 32,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "　　",
+    "ko": ""
+   }
+  },
+  {
+   "window": 32,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　　　　　　そういう風に言うヤツに限って",
+    "ko": ""
+   }
+  },
+  {
+   "window": 33,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "根性も　曲がっていて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 33,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "　　　何かあると『どうせ　こんな顔だから・・』",
+    "ko": ""
+   }
+  },
+  {
+   "window": 33,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　　　　　　　　　ってバカ！　ＢＡＮＧ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 34,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "ダイナマイトが５万トンあったら",
+    "ko": ""
+   }
+  },
+  {
+   "window": 34,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "　　",
+    "ko": ""
+   }
+  },
+  {
+   "window": 34,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　　イヤな男　かたっぱしから吹き飛ばして",
+    "ko": ""
+   }
+  },
+  {
+   "window": 35,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "ダイナマイトが５万トンあったら",
+    "ko": ""
+   }
+  },
+  {
+   "window": 35,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "　　",
+    "ko": ""
+   }
+  },
+  {
+   "window": 35,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　生き残った最高の男と　結ばれるハズなのに・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 36,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "一日が終わると　始まるタイクツ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 36,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "　　　テレビの笑い声・・怒ったクラクション",
+    "ko": ""
+   }
+  },
+  {
+   "window": 36,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　　　　無機的に時を　刻む秒針の音・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 37,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "昨日とよく似た　今日が過ぎて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 37,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "　　",
+    "ko": ""
+   }
+  },
+  {
+   "window": 37,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　　　　また変わりばえのない　明日が来る",
+    "ko": ""
+   }
+  },
+  {
+   "window": 38,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "タイクツとユウウツ　タイクツとユウウツ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 38,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "　　",
+    "ko": ""
+   }
+  },
+  {
+   "window": 38,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　タイクツとユウウツ　タイクツとユウウツ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 39,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "留守番電話が壊れてること",
+    "ko": ""
+   }
+  },
+  {
+   "window": 39,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "　　",
+    "ko": ""
+   }
+  },
+  {
+   "window": 39,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　　　　　　　半年も気付かないでいたのに",
+    "ko": ""
+   }
+  },
+  {
+   "window": 40,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "あなたの笑顔が私を変えた",
+    "ko": ""
+   }
+  },
+  {
+   "window": 40,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "　　",
+    "ko": ""
+   }
+  },
+  {
+   "window": 40,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　　　　タイクツな自分に気付いてしまった",
+    "ko": ""
+   }
+  },
+  {
+   "window": 41,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "寂しそう？　・・冗談！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 41,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "　　",
+    "ko": ""
+   }
+  },
+  {
+   "window": 41,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　　　　　　　　あんたこそ物欲しそうだよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 42,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "親切な心と　下心ってのはよく似ててさ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 42,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "　　",
+    "ko": ""
+   }
+  },
+  {
+   "window": 42,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　　　　　　そういう男　たくさん見てきた",
+    "ko": ""
+   }
+  },
+  {
+   "window": 43,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "もう　うんざり！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 43,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "　　　　　どいつもこいつも善人ヅラして",
+    "ko": ""
+   }
+  },
+  {
+   "window": 43,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　　　　　　　　考えてること　一緒なんだ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 44,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "札幌ススキノ　雨の２５時",
+    "ko": ""
+   }
+  },
+  {
+   "window": 44,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "　　",
+    "ko": ""
+   }
+  },
+  {
+   "window": 44,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　　　　　　　　札幌ススキノ　雨の２５時",
+    "ko": ""
+   }
+  },
+  {
+   "window": 45,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "ＲＧ　ＲＧ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 45,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "　　",
+    "ko": ""
+   }
+  },
+  {
+   "window": 45,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　　デバッガーの命令　リセット・ゴーの略",
+    "ko": ""
+   }
+  },
+  {
+   "window": 46,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "ＣＰＵをリセットして　０番地から始める",
+    "ko": ""
+   }
+  },
+  {
+   "window": 46,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "　　",
+    "ko": ""
+   }
+  },
+  {
+   "window": 46,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　　煩わしい感情も　リセット・ゴーしたい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 47,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "タイプ２のエラーとか　爆弾マークとか",
+    "ko": ""
+   }
+  },
+  {
+   "window": 47,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "　　",
+    "ko": ""
+   }
+  },
+  {
+   "window": 47,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　　浮動小数点エラーとか　ゼロで除算とか",
+    "ko": ""
+   }
+  },
+  {
+   "window": 48,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "世の中　ややこしいことばかり",
+    "ko": ""
+   }
+  },
+  {
+   "window": 48,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "　　",
+    "ko": ""
+   }
+  },
+  {
+   "window": 48,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　　　　　　　　世の中　ダメなことばかり",
+    "ko": ""
+   }
+  },
+  {
+   "window": 49,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "理解する気もないし　理解されたくもないし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 49,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "　　",
+    "ko": ""
+   }
+  },
+  {
+   "window": 49,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　フォローする気もないし　フォローされたくもないし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 50,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "そんな風にして毎日　過ごしてた",
+    "ko": ""
+   }
+  },
+  {
+   "window": 51,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "でもあなたと目が合う度に",
+    "ko": ""
+   }
+  },
+  {
+   "window": 51,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "　　",
+    "ko": ""
+   }
+  },
+  {
+   "window": 51,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　　　　　　　　　すごく胸が苦しくなるの",
+    "ko": ""
+   }
+  },
+  {
+   "window": 52,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "そうよ　あなたと目が合う度に・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 52,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "　　",
+    "ko": ""
+   }
+  },
+  {
+   "window": 52,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　　　こんな気持ち　早くリセットしたくて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 53,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "キーボードで『ＲＧ』って打ったら",
+    "ko": ""
+   }
+  },
+  {
+   "window": 53,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "　　",
+    "ko": ""
+   }
+  },
+  {
+   "window": 53,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　　　ディスプレイには　ディスプレイには",
+    "ko": ""
+   }
+  },
+  {
+   "window": 54,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "・・・・・・・『スキ』",
+    "ko": ""
+   }
+  },
+  {
+   "window": 55,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "Ｓｗｅｅｔ Ｄｒｅａｍ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 55,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "　　",
+    "ko": ""
+   }
+  },
+  {
+   "window": 55,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　　　　　　甘い夢を　幾つ重ねたことだろ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 56,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "Ｓｗｅｅｔ Ｄｒｅａｍ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 56,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "　　",
+    "ko": ""
+   }
+  },
+  {
+   "window": 56,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　誰かを好きになるって　うれしくて　せつなくて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 57,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "朝の光がまぶしくて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 57,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "　　",
+    "ko": ""
+   }
+  },
+  {
+   "window": 57,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　　　　　鏡の中の　わたしが輝いて見える",
+    "ko": ""
+   }
+  },
+  {
+   "window": 58,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "Ｓｗｅｅｔ Ｄｒｅａｍ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 58,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "　　",
+    "ko": ""
+   }
+  },
+  {
+   "window": 58,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　　　　　　甘い夢に　幾つ騙されただろう",
+    "ko": ""
+   }
+  },
+  {
+   "window": 59,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "Ｓｗｅｅｔ Ｄｒｅａｍ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 59,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "　　",
+    "ko": ""
+   }
+  },
+  {
+   "window": 59,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　誰かを好きになるって　悲しくて　苦しくて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 60,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "夜のネオンがうるさくて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 60,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "　　",
+    "ko": ""
+   }
+  },
+  {
+   "window": 60,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　　　　電話の奧のあなたを困らせているわ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 61,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "夜明けのくちづけ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 61,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "　　　　　　　　　重ねて重ねて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 61,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　　　　　　　　　　いまだけは信じさせて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 62,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "夜のネオンがうるさくて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 62,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "　　",
+    "ko": ""
+   }
+  },
+  {
+   "window": 62,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　　　　電話の奧のあなたを困らせているわ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 63,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "夜明けのくちづけ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 63,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "　　　　　　　　　重ねて重ねて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 63,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　　　　　　　　　　いまだけは信じさせて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 64,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "私は負けました　あなたに負けました",
+    "ko": ""
+   }
+  },
+  {
+   "window": 64,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "　　",
+    "ko": ""
+   }
+  },
+  {
+   "window": 64,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　　　完全に負けました　見事に負けました",
+    "ko": ""
+   }
+  },
+  {
+   "window": 65,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "負ける度に　誰かのせいにして",
+    "ko": ""
+   }
+  },
+  {
+   "window": 65,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "　　",
+    "ko": ""
+   }
+  },
+  {
+   "window": 65,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　　　　　　　　心　ごまかしていたけれど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 66,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "今夜知りました　自分の愚かさ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 66,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "　　",
+    "ko": ""
+   }
+  },
+  {
+   "window": 66,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　　　　　　　　　　あなたの素晴らしさを",
+    "ko": ""
+   }
+  },
+  {
+   "window": 67,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "ののしって下さい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 67,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "　　　　　　　　ののしって下さい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 67,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　　　　　　　　　　　　こんなダメな私を",
+    "ko": ""
+   }
+  },
+  {
+   "window": 68,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "ののしって下さい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 68,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "　　　　　　　　ののしって下さい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 68,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　　　　　　　　　　　　こんなダメな私を",
+    "ko": ""
+   }
+  },
+  {
+   "window": 69,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "ねぇ知ってる？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 69,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "　　　　　『さよなら』って言葉には",
+    "ko": ""
+   }
+  },
+  {
+   "window": 69,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　　　　　　　　　呪いがかかってるんだよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 70,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "さみしくて　よわくて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 70,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "　　",
+    "ko": ""
+   }
+  },
+  {
+   "window": 70,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　　　　　　　なきむしで　らんぼうで・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 71,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "だからほら　また明日会えるのに",
+    "ko": ""
+   }
+  },
+  {
+   "window": 71,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "　　",
+    "ko": ""
+   }
+  },
+  {
+   "window": 71,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　　　　　　　　　　・・お別れが辛いよね",
+    "ko": ""
+   }
+  },
+  {
+   "window": 72,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "なんて言えばいいんだろう",
+    "ko": ""
+   }
+  },
+  {
+   "window": 72,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "　　　　　　こんな気持ち　ああ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 72,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　　　　　　一人の時も　みんなでいる時も",
+    "ko": ""
+   }
+  },
+  {
+   "window": 73,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "ずっとずっと　リフレインしてる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 73,
+   "line": 1,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "　　",
+    "ko": ""
+   }
+  },
+  {
+   "window": 73,
+   "line": 2,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "　　　　　　　　　　大好き　大好き　大好き　大好き",
+    "ko": ""
+   }
+  },
+  {
+   "window": 74,
+   "line": 0,
+   "speaker": "歌詞",
+   "kind": "대사",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "大好き！",
+    "ko": ""
+   }
+  }
+ ]
+}

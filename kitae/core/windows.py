@@ -109,16 +109,29 @@ def msg_table(smf):
 
 
 def script_windows(script, plot_cab, mtg_cab):
-    """Return (list of window dicts, list of SMF strings)."""
+    """Return (list of window dicts, list of SMF strings).
+
+    타이밍이 아예 없는 스크립트도 있다 — 風呂/風呂冬/風呂冬2/歌詞/URANAI 는
+    MTG 에 `.SET` 자체가 없다. 전부 무성이라는 뜻이므로 창 수를 `.MSG` 에서
+    가져오고 타이밍·음성은 비운다.
+    """
     smf = plot_cab.read(script.upper() + ".SMF")
     strs = smf_strings(smf)
     table = msg_table(smf)
-    sets = [p for _, _, p in clss_objects(mtg_cab.read(script.lower() + ".SET"))]
-    wavs = [p for _, _, p in clss_objects(mtg_cab.read(script.lower() + ".WST"))]
-    want = [timing_chars(p) for p in sets]
+
+    def _objs(name):
+        try:
+            return [p for _, _, p in clss_objects(mtg_cab.read(name))]
+        except Exception:
+            return []
+
+    sets = _objs(script.lower() + ".SET")
+    wavs = _objs(script.lower() + ".WST")
+    nwin = len(sets) or len(table or [])
+    want = [timing_chars(p) for p in sets] + [None] * (nwin - len(sets))
 
     out = []
-    for wi in range(len(sets)):
+    for wi in range(nwin):
         lines, start = (table[wi] if table and wi < len(table) else (0, None))
         idx = ([] if start is None
                else [i for i in range(start, min(start + lines, len(strs)))])
