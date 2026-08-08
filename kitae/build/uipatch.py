@@ -101,19 +101,37 @@ def patch_all(cfg, lang, encode, base=None):
     자리에 들어가는 것은 제자리에, 넘치는 것은 남은 빈칸으로 옮기고 포인터를
     고쳐 쓴다 — kitae.build.relocate 참고.
     """
-    from kitae.build import relocate, symbols
+    from kitae.build import relocate, symbols, xref
 
-    # 심볼 이름은 절대 손대지 않는다 — 엔진이 EDL 전역변수를 이 이름으로 찾는다.
-    # 한쪽만 한글이 되면 조회가 실패하고, 실패해도 조용히 초기값이 남는다.
+    # 심볼 이름과 겹치는 문자열은 **코드 참조로 한 번 더 가른다.**
+    # north01.sym 에 있다고 다 키는 아니다 — 우연히 이름만 같고 화면에만 나오는
+    # 것도 많다(五稜郭, 元町, ベイエリア …). 코드가 주소를 만지는 것만 막는다.
     sym = symbols.names(cfg)
+    mods = modules(cfg)
+
+    # 한 모듈에서라도 키로 판정되면 **모든 모듈에서** 키로 본다.
+    # 같은 이름이 모듈마다 다르게 나오는데(ＵＦＯできる 가 COMMONSAVE 에선 키,
+    # TRFOPTIONGAME 에선 표시), 표 형태를 다 알아보지는 못하므로 안전한 쪽으로
+    # 묶는다. 잘못 번역하면 증상이 조용해서 찾기가 어렵고, 못 번역하면 눈에 띈다.
+    keyed = set()
+    for name, doc in mods:
+        risky = {e["text"]["ja"] for e in doc["entries"]
+                 if ((e.get("text") or {}).get(lang) or "").strip()
+                 and e["text"]["ja"] in sym}
+        if not risky:
+            continue
+        for _off, ja, _ko, how in xref.scan(cfg, name, doc, lang, only=risky):
+            if how != "display":
+                keyed.add(ja)
+
     base = base or {}
     out, warn, blocked = {}, [], []
-    for name, doc in modules(cfg):
+    for name, doc in mods:
         rows = []
         for e in doc["entries"]:
             if not ((e.get("text") or {}).get(lang) or "").strip():
                 continue
-            if e["text"]["ja"] in sym:
+            if e["text"]["ja"] in keyed:
                 blocked.append((name, e["offset"], e["text"]["ja"]))
                 continue
             rows.append(dict(e, text=e["text"][lang]))
