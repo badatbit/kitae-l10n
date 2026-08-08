@@ -12,14 +12,31 @@
 
 항상 원본 덤프에서 새로 시작한다 — 이전 빌드의 중간 산출물이 섞여 들어가
 "폰트만 바꿨는데 대사도 바뀌어 있는" 상황을 한 번 겪었다.
+
+## ★ 중간에 죽어도 `dist/` 는 건드리지 않는다
+
+예전에는 `dist/` 에 원본을 복사해 놓고 거기를 직접 패치했다. 그래서 빌드가
+도중에 죽으면 **반쯤 패치된 이미지가 그대로 남았다.** 한 번은 로그를 `head`
+로 자르는 바람에 파이프가 닫혀 빌드가 죽었는데, 리소스까지만 들어가고 폰트가
+순정으로 남아 게임에서 한글 자리마다 한자가 나왔다. 이미지 자체는 멀쩡히
+돌아가니 겉으로는 "번역이 안 됐다" 로만 보인다 — 제일 나쁜 실패다.
+
+지금은 `work/stage` 에서 다 만들고 마지막에 한 번에 `dist/` 로 옮긴다.
+옮기는 동안에는 `dist/BUILD-INCOMPLETE` 가 놓이므로, 그 순간에 죽더라도
+다음 빌드가 알아채고 알려 준다.
 """
+import datetime
 import glob
 import os
 import shutil
+import sys
+import traceback
 
 from kitae import translation
 from kitae.core.cab import Cab
 from kitae.core.windows import clss_objects, script_windows
+
+MARKER = "BUILD-INCOMPLETE"
 
 
 def _work(cfg, *parts):
@@ -71,7 +88,83 @@ def _timing_specs(doc, lang, wins, strs):
     return out
 
 
+def guide_rows(cfg, lang, src):
+    """{msl 이름: {(창, 줄): {source, target}}} — translation/guide/*.json.
+
+    가이드북 본문은 대사와 다른 아카이브(SOZ.CB)에 있어서 `scripts` 목록과
+    따로 다닌다. 작업대가 없으면 조용히 건너뛴다 — 아직 안 뽑았을 뿐이다.
+    """
+    import json
+    d = cfg.path("translation", "guide")
+    out = {}
+    if not os.path.isdir(d):
+        return out
+    for f in sorted(os.listdir(d)):
+        if not f.endswith(".json"):
+            continue
+        with open(os.path.join(d, f), encoding="utf-8") as fh:
+            doc = json.load(fh)
+        rows = _rows_for(doc, lang, src)
+        if any(r["target"].strip() for r in rows.values()):
+            out[doc.get("script") or f[:-5] + ".msl"] = rows
+    return out
+
+
+def quiz_chars(cfg, lang):
+    """퀴즈 번역이 쓰는 글자. 폰트에 같이 넣어야 화면에 빈칸이 안 뜬다."""
+    import json
+    p = cfg.path("translation", "quiz", "Quiz.json")
+    if not os.path.exists(p):
+        return ""
+    with open(p, encoding="utf-8") as fh:
+        doc = json.load(fh)
+    return "".join((e.get("text") or {}).get(lang) or "" for e in doc["entries"])
+
+
+def _errlog(cfg, exc):
+    """죽은 자리를 파일로 남긴다.
+
+    stdout 이 이미 닫혀 있을 수 있다(파이프를 `head` 로 자른 경우). 그때는
+    print 가 또 터지므로 파일이 유일하게 믿을 수 있는 자국이다.
+    """
+    path = cfg.path(cfg["work_dir"], "build-error.txt")
+    try:
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        stamp = datetime.datetime.now().isoformat(timespec="seconds")
+        with open(path, "w", encoding="utf-8") as fh:
+            fh.write(f"빌드 실패 {stamp}\n\n")
+            fh.write("".join(traceback.format_exception(
+                type(exc), exc, exc.__traceback__)))
+            fh.write("\ndist/ 는 그대로 두었습니다 — 직전 이미지가 살아 있습니다.\n")
+    except Exception:
+        return None
+    return path
+
+
 def build(cfg, scripts, lang, want_font=True):
+    """`_build` 를 감싸 실패를 반드시 남긴다."""
+    try:
+        return _build(cfg, scripts, lang, want_font)
+    except OSError as e:
+        # 로그를 `head`·`less` 로 자르면 여기로 온다. stdout 은 이미 못 쓴다.
+        # 윈도우는 BrokenPipeError 가 아니라 EINVAL(22) 로 온다 — 둘 다 잡는다
+        path = _errlog(cfg, e)          # 파이프가 아니어도 자국은 먼저 남긴다
+        if not isinstance(e, BrokenPipeError) and e.errno not in (22, 32):
+            sys.stderr.write(f"\n빌드 실패 → {path}\n")
+            raise
+        try:
+            os.dup2(os.open(os.devnull, os.O_WRONLY), sys.stdout.fileno())
+        except Exception:
+            pass
+        sys.stderr.write(f"\n빌드가 끊겼습니다(출력 파이프가 닫힘) → {path}\n")
+        return 1
+    except BaseException as e:                 # KeyboardInterrupt 도 남긴다
+        path = _errlog(cfg, e)
+        sys.stderr.write(f"\n빌드 실패 → {path}\n")
+        raise
+
+
+def _build(cfg, scripts, lang, want_font=True):
     from kitae.build import smf as smf_mod, mtg as mtg_mod, disc as disc_mod
     from kitae.build import hangul, uipatch
 
@@ -97,6 +190,7 @@ def build(cfg, scripts, lang, want_font=True):
 
     docs = {s: translation.load(cfg, s) for s in scripts}
     rows = {s: _rows_for(docs[s], lang, src_lang) for s in scripts}
+    guides = guide_rows(cfg, lang, src_lang)
 
     # 1. 폰트 --------------------------------------------------------------
     font_dll = None
@@ -105,6 +199,10 @@ def build(cfg, scripts, lang, want_font=True):
         chars = {c for s in scripts for r in rows[s].values()
                  for c in r["target"] if hangul.is_hangul(c)}
         chars |= {c for c in uipatch.texts(cfg, lang) if hangul.is_hangul(c)}
+        # 가이드북 본문도 같은 폰트를 쓴다 — 여기서 빠지면 화면에 빈칸이 뜬다
+        chars |= {c for r in guides.values() for v in r.values()
+                  for c in v["target"] if hangul.is_hangul(c)}
+        chars |= {c for c in quiz_chars(cfg, lang) if hangul.is_hangul(c)}
         if chars:
             font_dll = hangul.inject(cfg, chars)
             print(f"폰트: {len(chars)}자 주입 → {os.path.relpath(font_dll, cfg.root)}")
@@ -135,6 +233,18 @@ def build(cfg, scripts, lang, want_font=True):
                       + (f"  ⚠ {warn[w]}ms 넘침" if w in warn else ""))
             print(f"  {s}: 타이밍 {n}창 재생성 (줄별 시각·쉼 위치 보존)")
 
+    # 2b. 에뮬레이터 버그 우회 ---------------------------------------------------
+    # 번역이 아니라 에뮬레이터가 못 그리는 자리를 피해 가는 패치다.
+    # 근거·잃는 것·끄는 법: docs/EMULATOR-BUGS.md
+    fixes = cfg.get("emulator_fixes") or {}
+    if fixes.get("choice_gate", True):
+        from kitae.build import ebgate
+        new_eb, n_gate = ebgate.patch_all(plot)
+        if n_gate:
+            new_smf.update(new_eb)
+            print(f"  에뮬레이터 우회 · 선택지 게이트 {n_gate}곳 제거 "
+                  f"({len(new_eb)}개 대본)")
+
     out_plot = _work(cfg, "build", "PLOT.CB")
     smf_mod.repack_cab(plot_cb, new_smf, out_plot)
     print(f"PLOT.CB {os.path.getsize(out_plot):,} / 원본 "
@@ -146,18 +256,83 @@ def build(cfg, scripts, lang, want_font=True):
         print(f"MTG.CB  {os.path.getsize(out_mtg):,} / 원본 "
               f"{os.path.getsize(mtg_cb):,}")
 
+    # 3b. 가이드북 본문 ------------------------------------------------------
+    # SOZ.CB 안의 guide*.msl. 창 표가 있으므로 줄 수를 지켜야 하는 것은
+    # 대사와 같다. 타이밍은 없다 — 음성이 붙지 않는 화면이다.
+    out_soz = None
+    if guides:
+        from kitae.build import msl as msl_mod
+        soz_cb = uipatch.original(cfg, "/RESOURCE/SOZ.CB")
+        soz = Cab(soz_cb)
+        new_msl = {}
+        for name, r in sorted(guides.items()):
+            blob, warns, bad = msl_mod.rebuild(soz.read(name), r,
+                                               encode=hangul.encoder(cfg))
+            new_msl[name] = blob
+            done = sum(1 for v in r.values() if v["target"].strip())
+            print(f"  가이드 {name}: {done}/{len(r)}줄")
+            for w in warns[:3]:
+                print(f"    주의 {w}")
+            if bad:
+                print(f"    인코딩 불가 {len(bad)}건")
+        out_soz = _work(cfg, "build", "SOZ.CB")
+        smf_mod.repack_cab(soz_cb, new_msl, out_soz)
+        print(f"SOZ.CB  {os.path.getsize(out_soz):,} / 원본 "
+              f"{os.path.getsize(soz_cb):,}")
+
+    # 3c. 퀴즈 문제 ----------------------------------------------------------
+    # M05.CB 안의 Quiz.mhd. 문제 292개가 CLSS 객체로 들어 있다.
+    out_m05 = None
+    qpath = cfg.path("translation", "quiz", "Quiz.json")
+    if os.path.exists(qpath):
+        import json as _json
+        from kitae.build import quiz as quiz_mod
+        with open(qpath, encoding="utf-8") as fh:
+            qdoc = _json.load(fh)
+        qrows = {}
+        for e in qdoc["entries"]:
+            t = (e.get("text") or {}).get(lang) or ""
+            if not t.strip():
+                continue
+            r = qrows.setdefault(e["window"], {"choices": [None] * 3})
+            if e["line"] == 0:
+                r["q"] = t
+            else:
+                r["choices"][e["line"] - 1] = t
+        if qrows:
+            m05_cb = uipatch.original(cfg, "/RESOURCE/M05.CB")
+            m05 = Cab(m05_cb)
+            blob, qbad = quiz_mod.rebuild(m05.read("Quiz.mhd"),
+                                          qrows, encode=hangul.encoder(cfg))
+            print(f"  퀴즈 Quiz.mhd: {len(qrows)}문제")
+            if qbad:
+                print(f"    인코딩 불가 {len(qbad)}건")
+            out_m05 = _work(cfg, "build", "M05.CB")
+            smf_mod.repack_cab(m05_cb, {"Quiz.mhd": blob}, out_m05)
+            print(f"M05.CB  {os.path.getsize(out_m05):,} / 원본 "
+                  f"{os.path.getsize(m05_cb):,}")
+
     # 4~5. 디스크 -----------------------------------------------------------
+    # `dist/` 가 아니라 `work/stage` 에서 만든다. 중간에 죽어도 직전 이미지가
+    # 살아 있어야 한다 — 위 도크스트링의 `★` 참고.
     dist = cfg.dir("out_dir")
     os.makedirs(dist, exist_ok=True)
+    if os.path.exists(os.path.join(dist, MARKER)):
+        print(f"  지난 빌드가 {MARKER} 를 남겼습니다 — dist/ 가 반쪽일 수 있습니다")
+    stage = cfg.path(cfg["work_dir"], "stage")
+    shutil.rmtree(stage, ignore_errors=True)
+    os.makedirs(stage, exist_ok=True)
     orig_dir = cfg.dir("orig_dir")
     for name in sorted(os.listdir(orig_dir)):
         p = os.path.join(orig_dir, name)
         if os.path.isfile(p):
-            shutil.copyfile(p, os.path.join(dist, name))
-    track = glob.glob(os.path.join(dist, "*track03.bin"))[0]
+            shutil.copyfile(p, os.path.join(stage, name))
+    track = glob.glob(os.path.join(stage, "*track03.bin"))[0]
 
     for disc_path, built in (("RESOURCE/PLOT.CB", out_plot),
-                             ("RESOURCE/MTG.CB", out_mtg)):
+                             ("RESOURCE/MTG.CB", out_mtg),
+                             ("RESOURCE/SOZ.CB", out_soz),
+                             ("RESOURCE/M05.CB", out_m05)):
         if not built:
             continue
         tmp = track + ".tmp"
@@ -199,6 +374,28 @@ def build(cfg, scripts, lang, want_font=True):
 
     diff = disc_mod.diff_against(track, cfg.track(3))
     print(f"\n원본과 다른 파일: {diff}")
+
+    # 8. 내보내기 -----------------------------------------------------------
+    # 여기까지 왔으면 이미지는 완성이다. 이제야 dist/ 를 갈아 끼운다.
+    # 트랙을 마지막에 옮긴다 — 중간에 죽어도 .gdi 가 옛 트랙을 가리키느니
+    # 아예 없는 편이 낫다. 옮기는 동안만 MARKER 가 놓인다.
+    marker = os.path.join(dist, MARKER)
+    open(marker, "w", encoding="utf-8").write("옮기는 중입니다\n")
+    names = sorted(os.listdir(stage),
+                   key=lambda n: (n.endswith("track03.bin"), n))
+    for name in names:
+        s, d = os.path.join(stage, name), os.path.join(dist, name)
+        try:
+            os.replace(s, d)                   # 같은 볼륨이면 즉시 끝난다
+        except OSError:                        # dist/ 를 다른 드라이브로 잡은 경우
+            shutil.move(s, d)
+    os.remove(marker)
+    shutil.rmtree(stage, ignore_errors=True)
+
+    err = cfg.path(cfg["work_dir"], "build-error.txt")
+    if os.path.exists(err):
+        os.remove(err)
+
     gdi = glob.glob(os.path.join(dist, "*.gdi"))
     if gdi:
         print(f'실행:  redream.exe "{os.path.abspath(gdi[0])}"')

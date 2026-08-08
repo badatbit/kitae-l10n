@@ -34,6 +34,14 @@
     ]
   },
   "scripts": [
-    "KOTORI_01"
-  ]
+    "KOTORI_01",
+    "KOTORI_02",
+    "風呂",
+    "URANAI",
+    "HANYOU",
+    "KOTORI_03"
+  ],
+  "emulator_fixes": {
+    "choice_gate": true
+  }
 }

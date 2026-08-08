@@ -46,6 +46,7 @@ python tools/package.py                     # 실행 가능한 dist/ 조립 + �
 - [EB-FORMAT.md](docs/EB-FORMAT.md) — EDL 바이트코드와 옵코드표
 - [SCRIPT-SYSTEM.md](docs/SCRIPT-SYSTEM.md) — 시나리오 엔진 구조
 - [PLOT-MAP.md](docs/PLOT-MAP.md) — 플롯/씬/메시지 창 매핑
+- [EMULATOR-BUGS.md](docs/EMULATOR-BUGS.md) — 에뮬레이터가 못 하는 일과 디스크 쪽 우회 패치
 
 ## 밝혀진 포맷 요약
 

@@ -135,11 +135,36 @@ def save_codepage(cp):
                   ensure_ascii=False, indent=0)
 
 
+def _decodable(lead, cell):
+    """cp932 로 되읽을 수 있는 칸인가.
+
+    ## ★ 왜 이걸 거르나
+
+    파이프라인은 SMF 문자열을 **cp932 문자열로 들고 다닌다**(`smf_strings`).
+    글리프 칸이라도 cp932 에 정의가 없으면(`0xEEED`·`0xEEEE` 가 그렇다) 되읽는
+    순간 한 글자가 대체 문자 둘로 바뀌어 **길이가 틀어진다.** 게임은 두 바이트를
+    그냥 그리므로 화면은 멀쩡한데, 우리 검사 도구만 어긋난 값을 본다 —
+    실제로 `카`·`친` 때문에 타이밍이 어긋났다고 잘못 짚었다.
+
+    화면에 나오는 결과는 같으니 칸을 옮겨도 손해가 없다. 되읽히는 칸만 쓴다.
+    """
+    try:
+        bytes((lead, cell)).decode("cp932")
+    except UnicodeDecodeError:
+        return False
+    return True
+
+
 def assign(chars, cp=None, reserved=(), pages=None):
     """Give every new character a cell, keeping existing assignments stable."""
     cp = dict(cp or {})
     taken = set(cp.values()) | set(reserved)
     pages = pages or PAGES
+    # 되읽을 수 없는 칸은 아예 후보에서 뺀다 — 위 `_decodable` 참고
+    taken |= {(l, c) for l in pages for c in CELLS if not _decodable(l, c)}
+    # 이미 배정돼 있더라도 못 읽는 칸이면 새로 받게 한다
+    for ch in [c for c, s in cp.items() if not _decodable(*s)]:
+        del cp[ch]
     slots = ((lead, cell) for lead in pages for cell in CELLS)
     for ch in sorted(chars):
         if ch in cp:
