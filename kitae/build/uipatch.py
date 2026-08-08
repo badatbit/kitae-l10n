@@ -51,9 +51,38 @@ def texts(cfg, lang):
     return out
 
 
-def _grow(cfg, name, _cur, base_blob, rows, encode, nbytes=512):
-    """PE 에 데이터 섹션을 붙이고 그 공간까지 써서 다시 배치한다."""
+def disc_slack(cfg, disc_path):
+    """이 파일을 디스크에서 몇 바이트까지 키울 수 있나."""
+    from kitae.core.gdfs import GdFs
+    fs = GdFs(cfg.track(3))
+    rows = []
+    for r in fs.walk():
+        if r[-1]:
+            continue
+        lba, size = fs.find(r[0])
+        rows.append((lba, size, r[0]))
+    rows.sort()
+    i = next((k for k, (_l, _s, q) in enumerate(rows) if q == disc_path), None)
+    if i is None:
+        return 0
+    lba, size, _ = rows[i]
+    nsect = (size + 2047) // 2048
+    tail = nsect * 2048 - size
+    gap = (rows[i + 1][0] - (lba + nsect)) * 2048 if i + 1 < len(rows) else 0
+    return tail + gap
+
+
+def _grow(cfg, name, disc_path, base_blob, rows, encode, nbytes=512):
+    """PE 에 데이터 섹션을 붙이고 그 공간까지 써서 다시 배치한다.
+
+    파일이 커지므로 **디스크 여유가 있어야 한다.** 없으면 시도하지 않는다 —
+    만들어 놓고 디스크에서 거절당하면 빌드가 통째로 멈춘다.
+    """
     from kitae.build import pesection, relocate
+    slack = disc_slack(cfg, disc_path)
+    if slack < nbytes:
+        print(f"  {name}: 디스크 여유 {slack}B — 섹션을 붙일 수 없다")
+        return None
     try:
         blob, off, size = pesection.add(base_blob, ".ktr", nbytes)
     except Exception as e:
@@ -72,14 +101,22 @@ def patch_all(cfg, lang, encode, base=None):
     자리에 들어가는 것은 제자리에, 넘치는 것은 남은 빈칸으로 옮기고 포인터를
     고쳐 쓴다 — kitae.build.relocate 참고.
     """
-    from kitae.build import relocate
+    from kitae.build import relocate, symbols
 
+    # 심볼 이름은 절대 손대지 않는다 — 엔진이 EDL 전역변수를 이 이름으로 찾는다.
+    # 한쪽만 한글이 되면 조회가 실패하고, 실패해도 조용히 초기값이 남는다.
+    sym = symbols.names(cfg)
     base = base or {}
-    out, warn = {}, []
+    out, warn, blocked = {}, [], []
     for name, doc in modules(cfg):
-        rows = [dict(e, text=(e.get("text") or {}).get(lang) or "")
-                for e in doc["entries"]
-                if ((e.get("text") or {}).get(lang) or "").strip()]
+        rows = []
+        for e in doc["entries"]:
+            if not ((e.get("text") or {}).get(lang) or "").strip():
+                continue
+            if e["text"]["ja"] in sym:
+                blocked.append((name, e["offset"], e["text"]["ja"]))
+                continue
+            rows.append(dict(e, text=e["text"][lang]))
         if not rows:
             continue
         disc_path = doc["path"]
@@ -91,7 +128,9 @@ def patch_all(cfg, lang, encode, base=None):
         # 화면에 엉뚱한 문장이 나온다(TRFNAMEIN 에서 실제로 겪었다).
         # 그래서 못 넣는 것을 빼고 원본에서 다시 시도한다.
         base_blob, attempt, dropped = blob, list(rows), []
-        for _round in range(6):
+        # 한 바퀴에 하나씩만 빠질 수 있으므로 항목 수만큼 돌 수 있어야 한다.
+        # 6번으로 끊었더니 ITEMMENU 가 통째로 안 들어갔다.
+        for _round in range(len(rows) + 1):
             got, rep = relocate.apply(base_blob, attempt, encode)
             if rep["failed"]:
                 got2, rep2 = relocate.compact(base_blob, attempt, encode)
@@ -110,8 +149,7 @@ def patch_all(cfg, lang, encode, base=None):
         if dropped:
             # 소유 공간으로 안 되면 PE 에 데이터 섹션을 붙여 본다. 파일이
             # 커지므로 ISO 여유가 필요하고, 로더가 받아 줄지는 미확인이다.
-            grown = _grow(cfg, name, blob if blob is not base_blob else base_blob,
-                          base_blob, rows, encode)
+            grown = _grow(cfg, name, disc_path, base_blob, rows, encode)
             if grown is not None:
                 blob, rep, dropped = grown
                 print(f"  {name}: 자리가 모자라 PE 섹션을 붙였다")
@@ -126,6 +164,9 @@ def patch_all(cfg, lang, encode, base=None):
         print(msg)
         for old, new, nref, text in rep["moved"][:4]:
             print(f"      {old:#08x} → {new:#08x}  포인터 {nref}곳  {text}")
+    if blocked:
+        print(f"  심볼 이름이라 손대지 않음: {len(blocked)}개 "
+              f"({', '.join(sorted({b[2] for b in blocked})[:5])} …)")
     for w in warn:
         print(f"  ⚠ {w}")
     return out, warn

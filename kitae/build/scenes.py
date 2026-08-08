@@ -24,7 +24,10 @@ import re
 # 집 안 장소 9종만 바꿔 봤더니 소용이 없었다. 바깥 장소(ローズヒル南平岸)를
 # 안 바꿔서 그 단계에서 이미 짝이 어긋났기 때문이다. **한쪽만 바꾸면 거기서
 # 끊긴다** — UI 에서 번역한 이름은 씬 제목에서도 전부 같이 바꿔야 한다.
-ONLY = None         # None = 아래 모듈에서 번역한 이름 전부
+# 역어셈블 결과: INIS.CB 의 .INI 는 제작진 문서일 뿐이고 어떤 코드도
+# 씬 제목의 장소 필드를 대조하지 않는다(여는 곳은 디버그 씬 선택기뿐).
+# 즉 이 치환은 무해하지만 아무 효과도 없다. 껐다.
+ONLY = []           # [] = 아무것도 바꾸지 않음
 
 # 씬 제목의 필드와 대조되는 이름이 든 모듈. 시간대·날짜(朝/夜/月/日)는 KITAE 에,
 # 장소는 KITACMDMENU 에 있다.
@@ -43,7 +46,8 @@ def wanted(cfg, lang, names=None):
             continue
         with io.open(p, encoding="utf-8") as fh:
             doc = json.load(fh)
-        only = set(names) if names else (set(ONLY) if ONLY else None)
+        # ONLY 가 None 이면 전부, 목록이면 그 안의 것만(빈 목록 = 아무것도 안 함)
+        only = set(names) if names else (None if ONLY is None else set(ONLY))
         for e in doc["entries"]:
             ja = e["text"]["ja"]
             ko = (e["text"].get(lang) or "").strip()

@@ -76,13 +76,24 @@ def build(cfg, scripts, lang, want_font=True):
     from kitae.build import hangul, uipatch
 
     src_lang = cfg["source"]
-    cb_dir = cfg.path(cfg["work_dir"], "cb", "RESOURCE")
-    plot_cb = os.path.join(cb_dir, "PLOT.CB")
-    mtg_cb = os.path.join(cb_dir, "MTG.CB")
-    for p in (plot_cb, mtg_cb):
-        if not os.path.exists(p):
-            print(f"{p} 가 없습니다 — kitae unpack RESOURCE/PLOT.CB 등으로 꺼내세요")
-            return 1
+
+    # 0. 늘 원본에서 새로 시작한다 ------------------------------------------
+    # 지난 산출물이 섞이면 "폰트만 바꿨는데 대사도 바뀌어 있는" 일이 생긴다.
+    # 실제로 폰트에서 한 번, UI 재배치에서 한 번 겪었다. 그래서
+    #   * work/build 는 매번 비우고
+    #   * 입력은 전부 **원본 디스크**에서 꺼낸 work/orig 캐시를 쓴다
+    #     (work/cb 는 사람이 언팩해 둔 것이라 바뀌어 있을 수 있다)
+    build_dir = cfg.path(cfg["work_dir"], "build")
+    if os.path.isdir(build_dir):
+        shutil.rmtree(build_dir)
+    os.makedirs(build_dir, exist_ok=True)
+
+    try:
+        plot_cb = uipatch.original(cfg, "/RESOURCE/PLOT.CB")
+        mtg_cb = uipatch.original(cfg, "/RESOURCE/MTG.CB")
+    except Exception as e:
+        print(f"원본 디스크에서 꺼낼 수 없습니다: {e}")
+        return 1
 
     docs = {s: translation.load(cfg, s) for s in scripts}
     rows = {s: _rows_for(docs[s], lang, src_lang) for s in scripts}
