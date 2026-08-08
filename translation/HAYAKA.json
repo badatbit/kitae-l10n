@@ -1,0 +1,7758 @@
+{
+ "script": "HAYAKA",
+ "source": "ja",
+ "entries": [
+  {
+   "window": 0,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "須貝ビルに着いた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 0,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "さて　どこに行こうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "１階ゲームセンター",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "２階カラオケ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "やめる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 2,
+   "line": 0,
+   "speaker": "声",
+   "kind": "대사",
+   "voice": "A2046.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "さぁみんな！　ゲームの始まりだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 2,
+   "line": 1,
+   "speaker": "声",
+   "kind": "대사",
+   "voice": "A2046.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "すべては君の腕と　運次第。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 2,
+   "line": 2,
+   "speaker": "声",
+   "kind": "대사",
+   "voice": "A2046.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "狙ったヌイグルミが　取れるかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 3,
+   "line": 0,
+   "speaker": "ヤクザ",
+   "kind": "대사",
+   "voice": "A2047.WAV",
+   "chars": 6,
+   "text": {
+    "ja": "左京さん・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 3,
+   "line": 1,
+   "speaker": "ヤクザ",
+   "kind": "대사",
+   "voice": "A2047.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "やはり借りたお金は　返してもらわないと・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 3,
+   "line": 2,
+   "speaker": "ヤクザ",
+   "kind": "대사",
+   "voice": "A2047.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "その辺の理屈は　おわかりですよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 4,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2048.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "だからって　ガラの悪い連中引き連れて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 4,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2048.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "店に来ることはないだろ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 4,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2048.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "・・他の客に　迷惑なんだよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 5,
+   "line": 0,
+   "speaker": "ヤクザ",
+   "kind": "대사",
+   "voice": "A2049.WAV",
+   "chars": 4,
+   "text": {
+    "ja": "他の客？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 5,
+   "line": 1,
+   "speaker": "ヤクザ",
+   "kind": "대사",
+   "voice": "A2049.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "・・それほどあの店は　繁盛してましたっけ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 6,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2050.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "あんたらのせいで　来なくなったんだよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 7,
+   "line": 0,
+   "speaker": "ヤクザ",
+   "kind": "대사",
+   "voice": "A2051.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "ひどい言い方をしますね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 7,
+   "line": 1,
+   "speaker": "ヤクザ",
+   "kind": "대사",
+   "voice": "A2051.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "・・・常連のお客さんに向かって・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 8,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2052.WAV",
+   "chars": 6,
+   "text": {
+    "ja": "常連？　客？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 8,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2052.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "こっちは迷惑なんだ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 9,
+   "line": 0,
+   "speaker": "ヤクザ",
+   "kind": "대사",
+   "voice": "A2053.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "いくらガラが悪くても　注文さえすれば",
+    "ko": ""
+   }
+  },
+  {
+   "window": 9,
+   "line": 1,
+   "speaker": "ヤクザ",
+   "kind": "대사",
+   "voice": "A2053.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "立派なお客さんです。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 10,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2054.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "ビールだけ飲んで　金も払わないで帰るヤツがか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 11,
+   "line": 0,
+   "speaker": "ヤクザ",
+   "kind": "대사",
+   "voice": "A2055.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "ビール代は　利子です。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 12,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2056.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "@S@・・@P@よく言うよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 12,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2056.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "利子だって　後でしっかり取るつもりだろ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 13,
+   "line": 0,
+   "speaker": "ヤクザ",
+   "kind": "대사",
+   "voice": "A2057.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "おい！　いつまでもナメた口　きいてんじゃねぇよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 13,
+   "line": 1,
+   "speaker": "ヤクザ",
+   "kind": "대사",
+   "voice": "A2057.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "俺だって　そんな　心の広い男じゃねぇんだ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 14,
+   "line": 0,
+   "speaker": "声",
+   "kind": "대사",
+   "voice": "A2058.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "さぁみんな！　ゲームの始まりだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 15,
+   "line": 0,
+   "speaker": "ヤクザ",
+   "kind": "대사",
+   "voice": "A2061.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "俺はよ・・前から　あんたのこと狙ってたんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 15,
+   "line": 1,
+   "speaker": "ヤクザ",
+   "kind": "대사",
+   "voice": "A2061.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "とびっきりの上玉だもんな・・へへへ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 16,
+   "line": 0,
+   "speaker": "声",
+   "kind": "대사",
+   "voice": "A2060.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "すべては君の腕と　運次第。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 17,
+   "line": 0,
+   "speaker": "ヤクザ",
+   "kind": "대사",
+   "voice": "A2063.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "おとなしく言うことを聞きゃあ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 17,
+   "line": 1,
+   "speaker": "ヤクザ",
+   "kind": "대사",
+   "voice": "A2063.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "考えてやってもいいぜ！　さぁ・・どうする？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 18,
+   "line": 0,
+   "speaker": "声",
+   "kind": "대사",
+   "voice": "A2062.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "狙ったヌイグルミが　取れるかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 19,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "なんか・・険悪な感じだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 19,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "僕は・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 20,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "二人の間に割って入る",
+    "ko": ""
+   }
+  },
+  {
+   "window": 20,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "黙って見ている",
+    "ko": ""
+   }
+  },
+  {
+   "window": 20,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "この場を立ち去る",
+    "ko": ""
+   }
+  },
+  {
+   "window": 21,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "a2074.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "@S@・・・@P@私が　悪かったよ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 22,
+   "line": 0,
+   "speaker": "ヤクザ",
+   "kind": "대사",
+   "voice": "A2075.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "へへへ・・わかりゃいいんだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 22,
+   "line": 1,
+   "speaker": "ヤクザ",
+   "kind": "대사",
+   "voice": "A2075.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "で　どうするつもりなんだ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 23,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2076.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "うん。とりあえず・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 24,
+   "line": 0,
+   "speaker": "ヤクザ",
+   "kind": "대사",
+   "voice": "A2077.WAV",
+   "chars": 6,
+   "text": {
+    "ja": "とりあえず？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 25,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2078.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "これで・・払うよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 26,
+   "line": 0,
+   "speaker": "ヤクザ",
+   "kind": "대사",
+   "voice": "A2079.WAV",
+   "chars": 3,
+   "text": {
+    "ja": "おぉ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 27,
+   "line": 0,
+   "speaker": "ヤクザ",
+   "kind": "대사",
+   "voice": "A2080.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "うぐっ・・・ぐ・・うごっ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 28,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "彼女・・前に　ここで会った女の子だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 28,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "何か　トラブってたみたいだな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 29,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "力になってあげられなかったのは残念だけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 29,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "無事に逃げられたみたいだし・・一安心だな。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 30,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "彼女・・前に　ここで会った女の子だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 30,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "何とかして助けなきゃ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 30,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は二人の間に割って入った。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 31,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "やめろよ！　彼女・・嫌がってるだろ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 32,
+   "line": 0,
+   "speaker": "ヤクザ",
+   "kind": "대사",
+   "voice": "A2067.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "何だよてめぇ！　関係ないヤツは　すっこんでろ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 33,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "彼女は僕の知り合いだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 33,
+   "line": 1,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "名前は・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 34,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대기",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "左京葉野香ちゃんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 34,
+   "line": 1,
+   "speaker": "主人公",
+   "kind": "대기",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "右京香野葉ちゃんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 34,
+   "line": 2,
+   "speaker": "主人公",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "仏座右京ちゃんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 35,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "名前は・・そう。左京葉野香ちゃんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 35,
+   "line": 1,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "猪狩商業高校の２年生。間違いないだろ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 36,
+   "line": 0,
+   "speaker": "ヤクザ",
+   "kind": "대사",
+   "voice": "A2070.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "いくら知り合いだからって　俺たちの邪魔をしていい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 36,
+   "line": 1,
+   "speaker": "ヤクザ",
+   "kind": "대사",
+   "voice": "A2070.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "決まりはねぇだろ？　な？　葉野香・・って　おい？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 36,
+   "line": 2,
+   "speaker": "ヤクザ",
+   "kind": "대사",
+   "voice": "A2070.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "@0044@葉野香？　・・・いねぇじゃねぇかよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 37,
+   "line": 0,
+   "speaker": "ヤクザ",
+   "kind": "대사",
+   "voice": "A2073.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "くそっ！　てめぇのせいで逃げられたじゃねえか！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 37,
+   "line": 1,
+   "speaker": "ヤクザ",
+   "kind": "대사",
+   "voice": "A2073.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "このクソガキ！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 38,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "彼女は僕の知り合いだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 38,
+   "line": 1,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "名前は・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 39,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "・・・・・・・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 39,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "よく考えたら　僕はまだ彼女の名前を",
+    "ko": ""
+   }
+  },
+  {
+   "window": 39,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "聞いていなかったっけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 40,
+   "line": 0,
+   "speaker": "ヤクザ",
+   "kind": "대사",
+   "voice": "A2072.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "へんっ！　ばーかー！　名前もしらねぇくせに",
+    "ko": ""
+   }
+  },
+  {
+   "window": 40,
+   "line": 1,
+   "speaker": "ヤクザ",
+   "kind": "대사",
+   "voice": "A2072.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "俺たちの邪魔するんじゃねぇ！　な？　葉野香・・って",
+    "ko": ""
+   }
+  },
+  {
+   "window": 40,
+   "line": 2,
+   "speaker": "ヤクザ",
+   "kind": "대사",
+   "voice": "A2072.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "@0045@おい？　葉野香？　・・・いねぇじゃねぇか！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 41,
+   "line": 0,
+   "speaker": "ヤクザ",
+   "kind": "대사",
+   "voice": "A2071.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "くそっ！　てめぇのせいで逃げられたじゃねえか！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 41,
+   "line": 1,
+   "speaker": "ヤクザ",
+   "kind": "대사",
+   "voice": "A2071.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "このクソガキ！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 42,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2081.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "おい！　大丈夫か？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 43,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "あ・・ここは・・？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 44,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2083.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "あんた　鈴本に殴られたんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 44,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2083.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "それで　気を失って・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 45,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "君・・逃げたんじゃないの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 46,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2085.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "ゲーセンは隠れるトコ　たくさんあるからね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 46,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2085.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "プリクラに入って　様子見てたんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 47,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2086.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "一応　助けてくれたみたいだからさ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 47,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2086.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "お礼言うけど　あんまり私みたいなヤツと",
+    "ko": ""
+   }
+  },
+  {
+   "window": 47,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2086.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "関わらない方がいいよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 48,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "鈴本って男は何者？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 48,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "何で借金してるの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 48,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "好きな男性のタイプは？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 49,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2087.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "あいつ・・『寿商事』っていう金融会社の社員さ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 49,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2087.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "表向きは　普通の金融機関だけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 49,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2087.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "社員のほとんどが　ああいうガラの悪い連中さ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 50,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2088.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "うちの兄貴がギャンブルで失敗してね・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 50,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2088.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "６００万くらい　借金　作っちまったんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 51,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2089.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "あんたひょっとして　大物かもね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 51,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2089.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "よくそんな状況で　そんなこと聞けるね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 52,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2090.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "@S@・・@P@でも悪いけど　そういうのって興味ないな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 52,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2090.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "男なんてみんな同じだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 53,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2091.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "とにかくさ・・怪我の手当てしなくちゃ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 53,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2091.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "ウチの店　近くだから来なよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 53,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2091.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "・・・歩ける？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 54,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "まぁ・・なんとか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 55,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "彼女は僕を　『北海軒』という名前の",
+    "ko": ""
+   }
+  },
+  {
+   "window": 55,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "ラーメン屋に案内してくれた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 56,
+   "line": 0,
+   "speaker": "達也",
+   "kind": "대사",
+   "voice": "A2093.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "てめっ！　葉野香！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 56,
+   "line": 1,
+   "speaker": "達也",
+   "kind": "대사",
+   "voice": "A2093.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "なぁに男　引っ張り込んでるんだよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 57,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2094.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "うるせーな！　クソ兄貴！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 57,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2094.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "怪我してんだから　しょうがねぇだろ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 58,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2095.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "ほら！　顔　こっちむけて！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 58,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2095.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "・・ちょっとしみるからね！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 59,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "うぐっ・・ちょっとどころじゃない・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 59,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "・・しみる！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 60,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2097.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "そう言えば　名前まだ聞いてなかったっけ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 61,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "・・&主人公名前&・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 62,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2099.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "私は左京葉野香。知ってたっけ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 63,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "前にゲーセンで会ったよね・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 64,
+   "line": 0,
+   "speaker": "達也",
+   "kind": "대사",
+   "voice": "A2101.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "そこの兄ちゃん　どこでそんな怪我したんだ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 65,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2102.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "今日　鈴本に呼び出されてさ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 66,
+   "line": 0,
+   "speaker": "達也",
+   "kind": "대사",
+   "voice": "A2103.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "鈴本って寿商事の鈴本か？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 67,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2104.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "ああ。それでこの人　アイツに殴られたんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 68,
+   "line": 0,
+   "speaker": "達也",
+   "kind": "대사",
+   "voice": "A2105.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "おい！　あんまり面倒　起こすんじゃねぇよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 69,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2106.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "面倒？　もともと兄貴が借金したのが悪いんだろ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 70,
+   "line": 0,
+   "speaker": "達也",
+   "kind": "대사",
+   "voice": "A2107.WAV",
+   "chars": 5,
+   "text": {
+    "ja": "うるせー！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 71,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2108.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "ごめんね。ウチの兄貴　バカだから・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 72,
+   "line": 0,
+   "speaker": "達也",
+   "kind": "대사",
+   "voice": "A2109.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "バカとは何だよ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 73,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2110.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "バカだからギャンブルなんてするんだろ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 73,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2110.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "あんなの国が認めた　ぼったくりじゃねぇか！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 74,
+   "line": 0,
+   "speaker": "達也",
+   "kind": "대사",
+   "voice": "A2111.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "あーあー！　俺が悪かったよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 74,
+   "line": 1,
+   "speaker": "達也",
+   "kind": "대사",
+   "voice": "A2111.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "おい！　そこの兄ちゃん。ラーメン食べてくか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 75,
+   "line": 0,
+   "speaker": "達也",
+   "kind": "대사",
+   "voice": "A2112.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "事情は知らねぇけど　妹を助けてくれたんだろ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 75,
+   "line": 1,
+   "speaker": "達也",
+   "kind": "대사",
+   "voice": "A2112.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "どうせ客　いねぇから　タダでいいよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 76,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2113.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "あ・・私　手伝うよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 77,
+   "line": 0,
+   "speaker": "達也",
+   "kind": "대사",
+   "voice": "A2114.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "あーあー・・今日　初めて作るラーメンが",
+    "ko": ""
+   }
+  },
+  {
+   "window": 77,
+   "line": 1,
+   "speaker": "達也",
+   "kind": "대사",
+   "voice": "A2114.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "タダラーメンかよ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 78,
+   "line": 0,
+   "speaker": "達也",
+   "kind": "대사",
+   "voice": "A2115.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "あっ！　てめっ！　葉野香！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 78,
+   "line": 1,
+   "speaker": "達也",
+   "kind": "대사",
+   "voice": "A2115.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "チャーシュー　一枚多いだろ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 79,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2116.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "うるせーな！　クソ兄貴！　けちけちすんなよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 80,
+   "line": 0,
+   "speaker": "達也",
+   "kind": "대사",
+   "voice": "A2117.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "はい！　みそラーメンお待ち！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 81,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2118.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "食べてくれよ。うまいからさ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 82,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "僕は　みそラーメンを食べてみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 82,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "・・・・・！！　うまい！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 83,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "豚骨の深い味わいと野菜の甘み　そして味噌の風味が",
+    "ko": ""
+   }
+  },
+  {
+   "window": 83,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "渾然一体となったスープが　コシのある太麺と",
+    "ko": ""
+   }
+  },
+  {
+   "window": 83,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "よく合っている。シャキッとしたモヤシもうまい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 84,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "チャーシューもとろりと柔らかく　歯ごたえのある",
+    "ko": ""
+   }
+  },
+  {
+   "window": 84,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "メンマと絶妙のコンビネーションだ。こんなおいしい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 84,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "ラーメンなのに　なんでお客さんがいないんだろう？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 85,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2122.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "どう？　結構　うまいだろ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 86,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "うん。うまい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 86,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 87,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2123.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "だろ？　ラーメン横丁ってさ　観光客ばっかりだから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 87,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2123.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "うまいかまずいかより　有名か有名じゃないかで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 87,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2123.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "客の数が決まっちまうんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 88,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2124.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "@S@・・@P@なぁに黙ってんのさ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 88,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2124.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "スープまで全部飲んでおいて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 88,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2124.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "まずいなんて言わせないからな。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 89,
+   "line": 0,
+   "speaker": "達也",
+   "kind": "대사",
+   "voice": "A2125.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "あーー！　ヒマだ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 89,
+   "line": 1,
+   "speaker": "達也",
+   "kind": "대사",
+   "voice": "A2125.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "隣の店にも向かいの店にも　どんどん客が入るのに",
+    "ko": ""
+   }
+  },
+  {
+   "window": 89,
+   "line": 2,
+   "speaker": "達也",
+   "kind": "대사",
+   "voice": "A2125.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "ウチだけガランと客がいねぇ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 90,
+   "line": 0,
+   "speaker": "達也",
+   "kind": "대사",
+   "voice": "A2126.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "客がいねぇからまずいに決まってるって思われて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 90,
+   "line": 1,
+   "speaker": "達也",
+   "kind": "대사",
+   "voice": "A2126.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "さらに客足が遠のく・・これじゃ悪循環だよな！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 91,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2127.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "内装とか変えたらどうだ？　もっとおしゃれにしてさ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 91,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2127.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "壁に貼ってある芸能人のサインとか　全部古いだろ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 91,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2127.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "死んだ演歌歌手とか麻薬で捕まったタレントとか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 92,
+   "line": 0,
+   "speaker": "達也",
+   "kind": "대사",
+   "voice": "A2128.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "親父の代から変えてねぇからな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 92,
+   "line": 1,
+   "speaker": "達也",
+   "kind": "대사",
+   "voice": "A2128.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "それにしても葉野香。おまえの口からおしゃれなんて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 92,
+   "line": 2,
+   "speaker": "達也",
+   "kind": "대사",
+   "voice": "A2128.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "言葉が出るとは思わなかったよ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 93,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2129.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "うるせー！　このクソ兄貴！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 94,
+   "line": 0,
+   "speaker": "達也",
+   "kind": "대사",
+   "voice": "A2130.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "ま・・このままじゃダメだよな。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 94,
+   "line": 1,
+   "speaker": "達也",
+   "kind": "대사",
+   "voice": "A2130.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "それは俺もわかってるつもりさ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 94,
+   "line": 2,
+   "speaker": "達也",
+   "kind": "대사",
+   "voice": "A2130.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "それで　一攫千金を狙って　あんな失敗しちまった・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 95,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2131.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "@S@・・@P@あっ！　もうこんな時間だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 95,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2131.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "あんた　そろそろ帰りなよ。駅まで送るからさ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 96,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2132.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "きょうはどうもありがと。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 96,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2132.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "よかったら　また店に来なよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 96,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2132.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "今度は金　払ってさ。じゃぁな！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 97,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "さよなら。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 98,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2135.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "あっ！　いらっしゃい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 98,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2135.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "また来てくれたんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 99,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "ラーメンが気に入ったからね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 99,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "従業員が気に入ったからね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 100,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2140.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "よく言うよ。今度は金取るからな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 101,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2136.WAV",
+   "chars": 3,
+   "text": {
+    "ja": "だろ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 101,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2136.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "ウチのラーメンは親父が３０年かけて作った味なんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 101,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2136.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "・・・その味を兄貴が５年で落としたけどね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 102,
+   "line": 0,
+   "speaker": "達也",
+   "kind": "대사",
+   "voice": "A2137.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "聞こえてるぞ！　葉野香！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 103,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2138.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "話の途中に割り込むなよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 103,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2138.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "最近は　だいぶ『親父の味』に近づいてきたって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 103,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2138.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "そう言って誉めてやろうと思ってたのに・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 104,
+   "line": 0,
+   "speaker": "達也",
+   "kind": "대사",
+   "voice": "A2139.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "あーあー！　悪かったね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 105,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2141.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "ウチの兄貴さ・・奥さんがいたんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 105,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2141.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "いや・・まだいるんだけどさ　実家に帰っちまった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 105,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2141.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "兄貴の浮気がバレちゃってさ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 106,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2142.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "おかげで私は　こうしてタダ働き・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 106,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2142.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "あーあ！　イヤになるよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 107,
+   "line": 0,
+   "speaker": "達也",
+   "kind": "대사",
+   "voice": "A2143.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "おーい！　無駄話してるヒマがあったら仕事しろ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 108,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2144.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "客いねぇのに　何やれってんだよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 109,
+   "line": 0,
+   "speaker": "達也",
+   "kind": "대사",
+   "voice": "A2145.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "一人いるだろ！　おまえのボーイフレンドが・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 110,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2146.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "ボ・・ボーイフレンドって・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 110,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2146.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "馬鹿！　そんなんじゃねぇよ！　このクソ兄貴！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 111,
+   "line": 0,
+   "speaker": "鈴本",
+   "kind": "대사",
+   "voice": "A2147.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "よう！　相変わらず不景気な店だな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 112,
+   "line": 0,
+   "speaker": "達也",
+   "kind": "대사",
+   "voice": "A2148.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "鈴本！　・・・さん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 113,
+   "line": 0,
+   "speaker": "鈴本",
+   "kind": "대사",
+   "voice": "A2153.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "俺たちがその気になりゃぁ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 113,
+   "line": 1,
+   "speaker": "鈴本",
+   "kind": "대사",
+   "voice": "A2153.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "こんな店　いつでもつぶせるんだぜ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 113,
+   "line": 2,
+   "speaker": "鈴本",
+   "kind": "대사",
+   "voice": "A2153.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "わかってんだろうな！　え？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 114,
+   "line": 0,
+   "speaker": "達也",
+   "kind": "대사",
+   "voice": "A2154.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "くっ・・・くそっ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 115,
+   "line": 0,
+   "speaker": "風祭",
+   "kind": "대사",
+   "voice": "A2155.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "やめろ！　鈴本！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 116,
+   "line": 0,
+   "speaker": "鈴本",
+   "kind": "대사",
+   "voice": "A2156.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "お・・親分！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 117,
+   "line": 0,
+   "speaker": "風祭",
+   "kind": "대사",
+   "voice": "A2157.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "親分じゃねぇ！　社長と呼べ！　・・ったくお前は",
+    "ko": ""
+   }
+  },
+  {
+   "window": 117,
+   "line": 1,
+   "speaker": "風祭",
+   "kind": "대사",
+   "voice": "A2157.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "まだ昔の商売のやり方　引きずってるんだな。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 117,
+   "line": 2,
+   "speaker": "風祭",
+   "kind": "대사",
+   "voice": "A2157.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "いいか？　金を貸したから偉いんじゃねぇ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 118,
+   "line": 0,
+   "speaker": "風祭",
+   "kind": "대사",
+   "voice": "A2158.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "金を貸すことで　向こうさんの商売をサポートして",
+    "ko": ""
+   }
+  },
+  {
+   "window": 118,
+   "line": 1,
+   "speaker": "風祭",
+   "kind": "대사",
+   "voice": "A2158.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "向こうさんが大きくなった時に　分け前をもらうのが",
+    "ko": ""
+   }
+  },
+  {
+   "window": 118,
+   "line": 2,
+   "speaker": "風祭",
+   "kind": "대사",
+   "voice": "A2158.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "現代の金融ってもんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 119,
+   "line": 0,
+   "speaker": "鈴本",
+   "kind": "대사",
+   "voice": "A2159.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "は・・はい親分・・じゃなくて社長！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 120,
+   "line": 0,
+   "speaker": "風祭",
+   "kind": "대사",
+   "voice": "A2160.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "左京さん。会社の若いもんがご迷惑をおかけしたようで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 120,
+   "line": 1,
+   "speaker": "風祭",
+   "kind": "대사",
+   "voice": "A2160.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "誠に申し訳ありませんでした。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 120,
+   "line": 2,
+   "speaker": "風祭",
+   "kind": "대사",
+   "voice": "A2160.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "おい！　鈴本！　・・いや鈴本部長！　おめぇも謝れ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 121,
+   "line": 0,
+   "speaker": "鈴本",
+   "kind": "대사",
+   "voice": "A2161.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "ご・・ごめんなさい。左京さん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 122,
+   "line": 0,
+   "speaker": "風祭",
+   "kind": "대사",
+   "voice": "A2162.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "そのガラの悪い格好も　なんとかしろ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 122,
+   "line": 1,
+   "speaker": "風祭",
+   "kind": "대사",
+   "voice": "A2162.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "商売はな　第一印象が　大切なんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 123,
+   "line": 0,
+   "speaker": "鈴本",
+   "kind": "대사",
+   "voice": "A2163.WAV",
+   "chars": 6,
+   "text": {
+    "ja": "は・・はい！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 124,
+   "line": 0,
+   "speaker": "風祭",
+   "kind": "대사",
+   "voice": "A2164.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "左京さん。もちろん貸したお金は返してもらいますよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 124,
+   "line": 1,
+   "speaker": "風祭",
+   "kind": "대사",
+   "voice": "A2164.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "このお店に　返す見込みがなければ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 124,
+   "line": 2,
+   "speaker": "風祭",
+   "kind": "대사",
+   "voice": "A2164.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "多少　強引に返済をお願いするかもしれません。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 125,
+   "line": 0,
+   "speaker": "風祭",
+   "kind": "대사",
+   "voice": "A2165.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "しかし　このお店が繁盛して",
+    "ko": ""
+   }
+  },
+  {
+   "window": 125,
+   "line": 1,
+   "speaker": "風祭",
+   "kind": "대사",
+   "voice": "A2165.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "儲かる見込みがあるなら",
+    "ko": ""
+   }
+  },
+  {
+   "window": 125,
+   "line": 2,
+   "speaker": "風祭",
+   "kind": "대사",
+   "voice": "A2165.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "この風祭　左京さんのお力になりましょう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 126,
+   "line": 0,
+   "speaker": "風祭",
+   "kind": "대사",
+   "voice": "A2166.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "一週間後　またここに来ます。その時までに",
+    "ko": ""
+   }
+  },
+  {
+   "window": 126,
+   "line": 1,
+   "speaker": "風祭",
+   "kind": "대사",
+   "voice": "A2166.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "このお店を　お客さんで一杯にしておいてください。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 127,
+   "line": 0,
+   "speaker": "達也",
+   "kind": "대사",
+   "voice": "A2167.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "い・・一週間？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 128,
+   "line": 0,
+   "speaker": "風祭",
+   "kind": "대사",
+   "voice": "A2168.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "わかりましたね？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 128,
+   "line": 1,
+   "speaker": "風祭",
+   "kind": "대사",
+   "voice": "A2168.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "さぁ！　てめぇら！　帰るぞ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 129,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "あの・・けあふりぃさん・・ですか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 130,
+   "line": 0,
+   "speaker": "風祭",
+   "kind": "대사",
+   "voice": "A2170.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "私が何で　『けあふりぃ』というハンドルなのか",
+    "ko": ""
+   }
+  },
+  {
+   "window": 130,
+   "line": 1,
+   "speaker": "風祭",
+   "kind": "대사",
+   "voice": "A2170.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "教えてあげますわ。『ハンドル・ケアフリィ』",
+    "ko": ""
+   }
+  },
+  {
+   "window": 130,
+   "line": 2,
+   "speaker": "風祭",
+   "kind": "대사",
+   "voice": "A2170.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "・・つまり『取り扱い注意』って意味ですわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 131,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2171.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "ふーん。社員はバカだけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 131,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2171.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "社長は結構　マトモなんだな。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 132,
+   "line": 0,
+   "speaker": "達也",
+   "kind": "대사",
+   "voice": "A2172.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "バカ言え！　結局　言ってることは同じだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 133,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2173.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "でも店を繁盛させれば　いいわけだろ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 134,
+   "line": 0,
+   "speaker": "達也",
+   "kind": "대사",
+   "voice": "A2174.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "それが出来てりゃ　借金なんてとっくに返してるよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 135,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2175.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "まっ　それもそうだけどな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 136,
+   "line": 0,
+   "speaker": "達也",
+   "kind": "대사",
+   "voice": "A2176.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "ちくしょー！　あと一週間かよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 136,
+   "line": 1,
+   "speaker": "達也",
+   "kind": "대사",
+   "voice": "A2176.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "どうすりゃいいんだよ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 136,
+   "line": 2,
+   "speaker": "達也",
+   "kind": "대사",
+   "voice": "A2176.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "あー！　今日はもう店じまいだ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 137,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2177.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "じゃ　駅まで送るよ。&主人公&さん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 138,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2178.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "あーあ！　なんか　いいアイディアないかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 139,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "新メニューとかどうだろう？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 139,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "大々的に宣伝したら？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 139,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "あんな店　つぶしちゃえばいいじゃん",
+    "ko": ""
+   }
+  },
+  {
+   "window": 140,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2179.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "あっ！　それいいかもね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 140,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2179.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "ねぇ　明日　つきあってくれないかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 140,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2179.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "二条市場に行って　食材を研究したいんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 141,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "もちろん。協力するよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 141,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "明日はちょっと・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 142,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2180.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "それじゃ　明日の午後　狸小路で待ち合わせ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 142,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2180.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "待ってるよ！　じゃぁな！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 143,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2181.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "@S@・・・@P@そうか。じゃ　しょうがないね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 143,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2181.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "まっ　こっちで何とかするから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 143,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2181.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "あんたは心配しないでいいよ。ばいばい！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 144,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2182.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "そんな金ねぇよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 144,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2182.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "@0046@・・あっ！　そうだ！　新メニューだ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 145,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2183.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "ねぇ　明日　つきあってくれないかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 145,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2183.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "二条市場に行って　食材を研究したいんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 146,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "もちろん。協力するよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 146,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "明日はちょっと・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 147,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2184.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "それじゃ　明日の午後　狸小路で待ち合わせ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 147,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2184.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "待ってるよ！　じゃぁな！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 148,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2185.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "@S@・・・@P@そうか。じゃ　しょうがないね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 148,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2185.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "まっ　こっちで何とかするから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 148,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2185.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "あんたは心配しないでいいよ。ばいばい！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 149,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2186.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "あんたに頼った　私が馬鹿だったよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 149,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2186.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "・・・じゃぁな！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 150,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 151,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 152,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 153,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2181.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "@S@・・・@P@そうか。じゃ　しょうがないね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 153,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2181.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "まっ　こっちで何とかするから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 153,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2181.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "あんたは心配しないでいいよ。ばいばい！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 154,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2187.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "よう！　来たね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 155,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "うん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 156,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2189.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "それじゃ早速　市場に行こう！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 156,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2189.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "二条市場は　狸小路１丁目の先にあるよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 157,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2190.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "ここが二条市場。明治時代からある市場らしいね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 157,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2190.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "今じゃどっちかというと観光客向けだけどね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 157,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2190.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "まずは魚介類から見てみるか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 158,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2191.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "エビラーメン・・カニラーメン・・ホタテラーメン・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 158,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2191.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "うーん。どれも定番で面白みがないし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 158,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2191.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "何より値段が高くなっちまうな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 159,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2192.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "ここはパス！　野菜売り場に行くか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 160,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2193.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "ジャガイモラーメン・・アスパララーメン・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 160,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2193.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "・・・うーん。悪くはないんだけどな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 161,
+   "line": 0,
+   "speaker": "お兄さん",
+   "kind": "대사",
+   "voice": "A2194.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "いらっしゃい！　お嬢さん。メロンなんてどう？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 162,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2195.WAV",
+   "chars": 6,
+   "text": {
+    "ja": "うるせーな！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 162,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2195.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "メロンラーメンなんて　まずいに決まってんだろ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 163,
+   "line": 0,
+   "speaker": "お兄さん",
+   "kind": "대사",
+   "voice": "A2196.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "え？　ラーメン？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 164,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2197.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "あ・・いや・・何でもない！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 164,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2197.WAV",
+   "chars": 4,
+   "text": {
+    "ja": "行こう！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 165,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2198.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "でもああいう呼び込みっていうのも善し悪しだよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 165,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2198.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "最近はラーメン横丁でも呼び込みしてる店あるけどさ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 165,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2198.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "私なんかあれで　かえって入りづらい感じだけどな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 166,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2199.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "ちょっと疲れたな。サ店にでも入るか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 166,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2199.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "よく行く店が近くにあるんだ。行こう！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 167,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2200.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "結構　お洒落な喫茶店だろ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 167,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2200.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "ビートルバムって言うんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 168,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2201.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "今日は店　休みだし・・タマにはこういう店で",
+    "ko": ""
+   }
+  },
+  {
+   "window": 168,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2201.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "ゆっくり休んでても罰は当たらないよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 169,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "今日　北海軒 お休みなんだ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 170,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2202.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "兄貴は旭川に行ってるよ。今　旭川ラーメンが",
+    "ko": ""
+   }
+  },
+  {
+   "window": 170,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2202.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "人気だし・・それに兄貴の嫁さん・・清美さんの",
+    "ko": ""
+   }
+  },
+  {
+   "window": 170,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2202.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "実家が旭川なんだ。土下座して謝るって言ってた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 171,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2203.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "夕方には帰ってると思うけど・・うまくいくかね？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 171,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2203.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "二人が仲直りしてくれれば　私もあんな店",
+    "ko": ""
+   }
+  },
+  {
+   "window": 171,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2203.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "手伝わなくってすむんだけどな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 172,
+   "line": 0,
+   "speaker": "ウエイトレス",
+   "kind": "대사",
+   "voice": "A7400.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "お待たせしました。チョコレートパフェでございます。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 173,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2205.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "パフェラーメンかぁ@5101@・・絶対にまずいだろうな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 174,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "逆転の発想はどうかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 174,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "とりあえずラーメンのこと考えるのよそうよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 175,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "逆転の発想をしてみたらどうかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 175,
+   "line": 1,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "パフェラーメン・・つまりパフェの入ったラーメンは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 175,
+   "line": 2,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "まずそうな感じするけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 176,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "例えばラーメンパフェ・・つまりラーメンの形をした",
+    "ko": ""
+   }
+  },
+  {
+   "window": 176,
+   "line": 1,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "パフェを作るとか　その逆にパフェの形をした",
+    "ko": ""
+   }
+  },
+  {
+   "window": 176,
+   "line": 2,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "ラーメンを作るとか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 177,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2208.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "確かに画期的だよ。でも意味がない。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 178,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "とりあえずラーメンのこと考えるのよそうよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 178,
+   "line": 1,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "今あるラーメンにこだわりすぎてると",
+    "ko": ""
+   }
+  },
+  {
+   "window": 178,
+   "line": 2,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "画期的なアイディアが思いつかないんじゃないかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 179,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2210.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "ま・・それもそうだな。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 180,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2211.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "なんか・・煮詰まっちゃった感じだな・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 180,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2211.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "気持ち切り替えて　ホテルにでも行こうか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 181,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "え？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 182,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2213.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "ば・・馬鹿！　なぁに誤解してんだよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 183,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2214.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "ホテルってのはどこも一流の料理人がいるだろ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 183,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2214.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "そこの料理とか食べたら　もっと別の視点で",
+    "ko": ""
+   }
+  },
+  {
+   "window": 183,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2214.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "ラーメンを見直せると思って・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 184,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2215.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "ったく！　変な想像　すんなよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 185,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "・・・いや・・そういうつもりじゃ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 186,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2217.WAV",
+   "chars": 4,
+   "text": {
+    "ja": "ばーか！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 187,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "ところで何でいつも眼帯してるの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 187,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "ところで本当にホテルの食事だけ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 188,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2218.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "眼帯の理由？　世間を両目で見たくないからだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 189,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2219.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "私はそういう女じゃないんだよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 189,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2219.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "頭来た！　帰る！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 190,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2220.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "それじゃ　そろそろここ出るか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 191,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "葉野香ちゃんは僕を　札幌プリンスホテルに",
+    "ko": ""
+   }
+  },
+  {
+   "window": 191,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "案内してくれた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 192,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2221.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "なんか高級そうなホテルだな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 192,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2221.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "・・まぁいいか。入るよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 193,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2222.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "ウチの兄貴　近所でも有名な不良だったんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 193,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2222.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "高校生に上がるまでに悪いこと全部やった感じかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 193,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2222.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "@5150@で　少年院にぶち込まれちまったんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 194,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2223.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "お勤めを終えて　家に戻った最初の晩",
+    "ko": ""
+   }
+  },
+  {
+   "window": 194,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2223.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "親父が何も言わずに店のラーメンを出したんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 195,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2224.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "兄貴もそれ　黙って食って・・そしたら急に",
+    "ko": ""
+   }
+  },
+  {
+   "window": 195,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2224.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "泣き出しちまった。『食い物でこんなに感動したのは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 195,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2224.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "初めてだ。』なんて言いながらさ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 196,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2225.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "普段　食べ慣れてたはずの店のラーメンなのに・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 196,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2225.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "兄貴　すごい勢いで　三杯もおかわりしてた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 196,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2225.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "よっぽど少年院のメシが　まずかったのかね？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 197,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2226.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "でもそれ以来さ　兄貴が変わったのは。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 197,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2226.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "心を入れ替えて　正式に親父に弟子入りしたんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 198,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2227.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "親父がガンで死んだ後も　兄貴　一生懸命努力して",
+    "ko": ""
+   }
+  },
+  {
+   "window": 198,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2227.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "今じゃ何とか　『親父の味』を出せるようになった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 199,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2228.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "でもさ・・たとえ新メニューを作ったとしても",
+    "ko": ""
+   }
+  },
+  {
+   "window": 199,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2228.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "今の兄貴には　あの味を超えるラーメンは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 199,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2228.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "作れないだろうな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 200,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2229.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "親父が３０年かけて作った味を",
+    "ko": ""
+   }
+  },
+  {
+   "window": 200,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2229.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "あと１週間で超えなきゃいけないなんて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 200,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2229.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "ちょっと無理な話だよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 201,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A7401.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "しかしこのレストラン　どうなってんだ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 201,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A7401.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "テーブルへ案内しただけで　全然注文取りに来ないぞ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 201,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A7401.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "私　文句言ってくる。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 202,
+   "line": 0,
+   "speaker": "ウエィター",
+   "kind": "대사",
+   "voice": "A7402.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "お客様　当店はバイキング形式になっております。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 202,
+   "line": 1,
+   "speaker": "ウエィター",
+   "kind": "대사",
+   "voice": "A7402.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "あちらの料理ボードから@5151@　お客様のお好きな料理を",
+    "ko": ""
+   }
+  },
+  {
+   "window": 202,
+   "line": 2,
+   "speaker": "ウエィター",
+   "kind": "대사",
+   "voice": "A7402.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "ご自由にお取り下さい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 203,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2232.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "何だよ！　だったら最初から・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 204,
+   "line": 0,
+   "speaker": "ウエィター",
+   "kind": "대사",
+   "voice": "A2233.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "ご来店の際に　係の者が　そのように",
+    "ko": ""
+   }
+  },
+  {
+   "window": 204,
+   "line": 1,
+   "speaker": "ウエィター",
+   "kind": "대사",
+   "voice": "A2233.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "ご案内させて頂いたはずですが・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 205,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A7403.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "@S@・・@P@あ！　そういえば聞いたかもしれない・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 205,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A7403.WAV",
+   "chars": 5,
+   "text": {
+    "ja": "ごめんね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 206,
+   "line": 0,
+   "speaker": "ウエィター",
+   "kind": "대사",
+   "voice": "A7404.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "いえ　どういたしまして。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 206,
+   "line": 1,
+   "speaker": "ウエィター",
+   "kind": "대사",
+   "voice": "A7404.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "ごゆっくりお過ごし下さい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 207,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2236.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "じゃ！　早速　料理を取りに行くか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 208,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2237.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "すげぇな・・これ全部食べていいのか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 208,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2237.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "なんか　見てるだけでリッチな気分になるな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 208,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2237.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "@5103@あっ！　これ何だ？　こっちも珍しいな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 209,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "葉野香ちゃんは目を輝かせて料理を選んでいる。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 209,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "こんな　可愛らしい面もあったんだな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 210,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2239.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "バイキングって　なんかいいよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 210,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2239.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "つまり@5102@・・その・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 211,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "色々なものが食べられるから？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 211,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "好き嫌いがあっても大丈夫だから？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 212,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2241.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "うーん・・ちょっと違うな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 212,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2241.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "つまり　こう　色々なものをちょっとずつ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 212,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2241.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "食べられるってのがいいのかもな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 213,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2240.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "そう！　それ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 213,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2240.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "色々なものをちょっとずつ食べられるってのが",
+    "ko": ""
+   }
+  },
+  {
+   "window": 213,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2240.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "リッチな感じでいいんだよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 214,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "その時　何か考え込んでいた様子の葉野香ちゃんが",
+    "ko": ""
+   }
+  },
+  {
+   "window": 214,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "ふと　思いついたようにこう言った。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 215,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2242.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "ん？　ちょっと待てよ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 215,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2242.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "これをラーメンに応用したら　どうなるかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 216,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2243.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "味噌ラーメンと醤油ラーメンを半分ずつとか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 216,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2243.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "あるいはウチのラーメンと隣の店のラーメンを",
+    "ko": ""
+   }
+  },
+  {
+   "window": 216,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2243.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "半分ずつとか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 217,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2244.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "うん。いいかもしれないね。ほら　ラーメン横丁ってさ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 217,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2244.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "いくら店がたくさんあっても　客の胃袋はひとつだろ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 217,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2244.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "だからラーメンの値段と量を半分にして・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 218,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2245.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "いろんなメニューを試したり　いろんな店を",
+    "ko": ""
+   }
+  },
+  {
+   "window": 218,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2245.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "はしご出来るようにすれば　いいんじゃないかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 218,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2245.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "うん！　いけそうな感じになってきた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 219,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2246.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "私　店に戻ってみるよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 219,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2246.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "今日はどうもありがとう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 220,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2247.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "あっ！　結果が分かったら連絡する。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 220,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2247.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "電話番号　教えて！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 221,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "僕たちはお互いの電話番号を教えあった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 222,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "葉野香の電話番号をＰＨＳに登録しました。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 223,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2249.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "ＯＫ！　あとで電話する！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 223,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2249.WAV",
+   "chars": 5,
+   "text": {
+    "ja": "ばいばい！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 224,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "葉野香ちゃんはそう言うと　ものすごい勢いで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 224,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "レストランを出ていった。大量の料理と未精算の伝票と",
+    "ko": ""
+   }
+  },
+  {
+   "window": 224,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "唖然とする僕を残して・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 225,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2251.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "あ・・いらっしゃい！　さっきはごめん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 225,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2251.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "半ラーメンの話　早く兄貴に伝えたくて・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 226,
+   "line": 0,
+   "speaker": "達也",
+   "kind": "대사",
+   "voice": "A2252.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "葉野香から聞いたぜ！　いいアイディアじゃないか！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 226,
+   "line": 1,
+   "speaker": "達也",
+   "kind": "대사",
+   "voice": "A2252.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "これでなんとか　やっていけそうだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 226,
+   "line": 2,
+   "speaker": "達也",
+   "kind": "대사",
+   "voice": "A2252.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "うん。兄孝行の妹を持った俺は　幸せ者だ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 227,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2253.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "兄孝行って　なんか聞き慣れない言葉だよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 228,
+   "line": 0,
+   "speaker": "達也",
+   "kind": "대사",
+   "voice": "A2254.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "あんたもありがとう！　協力してくれたんだろ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 228,
+   "line": 1,
+   "speaker": "達也",
+   "kind": "대사",
+   "voice": "A2254.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "うん。葉野香もいいボーイフレンドを持ったもんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 229,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2255.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "だから！　ボーイフレンドって・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 230,
+   "line": 0,
+   "speaker": "達也",
+   "kind": "대사",
+   "voice": "A2256.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "照れなくたっていいよ。俺は認めてやるぜ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 231,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2257.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "馬鹿なこと言ってないで仕事しろよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 231,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2257.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "清美さん　奥で仕込みやってんだろ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 231,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2257.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "手伝わなくていいのかよ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 232,
+   "line": 0,
+   "speaker": "達也",
+   "kind": "대사",
+   "voice": "A2258.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "そうそう！　そうなんだよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 232,
+   "line": 1,
+   "speaker": "達也",
+   "kind": "대사",
+   "voice": "A2258.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "清美ちゃん！　帰ってきたんだよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 232,
+   "line": 2,
+   "speaker": "達也",
+   "kind": "대사",
+   "voice": "A2258.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "ああ！　俺は幸せ者だ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 233,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2259.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "あっち行けよ！　酔っぱらい！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 234,
+   "line": 0,
+   "speaker": "達也",
+   "kind": "대사",
+   "voice": "A2260.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "それじゃ！　あとはよろしく！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 235,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2261.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "清美さん・・兄貴の浮気　許してくれて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 235,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2261.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "明日から二人で店を開けるんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 235,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2261.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "なんか急に　運が向いてきた感じだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 236,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2262.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "あんたのおかげだね。ありがと。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 236,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2262.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "それでさ　何か　お礼したいんだけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 236,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2262.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "どうしたらいいかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 237,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "それじゃデートしようよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 237,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "うーん。何がいいかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 238,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2263.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "え？　・・えーと・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 238,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2263.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "二人で会えば　デートになるのか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 238,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2263.WAV",
+   "chars": 6,
+   "text": {
+    "ja": "ならいいよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 239,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A7406.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "そうだな・・暑いからプールにでも行こうか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 239,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A7406.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "サッポロファクトリーの近くに確かそういうのが",
+    "ko": ""
+   }
+  },
+  {
+   "window": 239,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A7406.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "あったから　そこに行こう！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 240,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2265.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "待ち合わせは午前中に札幌駅。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 240,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2265.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "それじゃ・・そういうことで。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 240,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2265.WAV",
+   "chars": 5,
+   "text": {
+    "ja": "ばいばい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 241,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2266.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "あっ！　金がかかるお礼はダメだぞ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 241,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2266.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "ウチ　貧乏なんだからな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 242,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2267.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "そうだな・・えーと・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 242,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2267.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "プールなんてどうだ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 243,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A7407.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "サッポロファクトリーの近くに確かそういうのが",
+    "ko": ""
+   }
+  },
+  {
+   "window": 243,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A7407.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "あったから　そこに行こう！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 244,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2269.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "待ち合わせは午前中に札幌駅。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 244,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2269.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "それじゃ・・そういうことで。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 244,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2269.WAV",
+   "chars": 5,
+   "text": {
+    "ja": "ばいばい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 245,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2270.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "もしもし。左京です。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 245,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2270.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "あのさ。兄貴に話したら是非やってみたいって。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 245,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2270.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "例のあの半ラーメン！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 246,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2271.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "それと清美さんも　兄貴の浮気　許してくれて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 246,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2271.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "明日から店を開けるんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 246,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2271.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "なんか急に　運が向いてきた感じだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 247,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2272.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "あんたのおかげだね。ありがと。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 247,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2272.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "それでさ　何か　お礼したいんだけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 247,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2272.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "どうしたらいいかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 248,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "それじゃデートしようよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 248,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "うーん。何がいいかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 249,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2273.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "え？　・・えーと・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 249,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2273.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "二人で会えば　デートになるのか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 249,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2273.WAV",
+   "chars": 6,
+   "text": {
+    "ja": "ならいいよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 250,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2274.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "そうだな・・暑いからプールにでも行こうか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 250,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2274.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "サッポロファクトリーの近くに確かそういうのが",
+    "ko": ""
+   }
+  },
+  {
+   "window": 250,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2274.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "あったから　そこに行こう！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 251,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2275.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "待ち合わせは午前中に札幌駅。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 251,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2275.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "それじゃ・・そういうことで。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 251,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2275.WAV",
+   "chars": 5,
+   "text": {
+    "ja": "ばいばい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 252,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2276.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "あっ！　金がかかるお礼はダメだぞ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 252,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2276.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "ウチ　貧乏なんだからな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 253,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2277.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "そうだな・・えーと・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 253,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2277.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "プールなんてどうだ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 254,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2278.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "サッポロファクトリーの近くに確かそういうのが",
+    "ko": ""
+   }
+  },
+  {
+   "window": 254,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2278.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "あったから　そこに行こう！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 255,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2279.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "待ち合わせは午前中に札幌駅。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 255,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2279.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "それじゃ・・そういうことで。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 255,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2279.WAV",
+   "chars": 5,
+   "text": {
+    "ja": "ばいばい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 256,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2280.WAV",
+   "chars": 6,
+   "text": {
+    "ja": "よ・・よう！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 257,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "おはよう！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 258,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대기",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "あれ・・今日は私服なんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 258,
+   "line": 1,
+   "speaker": "主人公",
+   "kind": "대기",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "あれ・・眼帯は？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 259,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2282.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "うん・・まぁ・・タマにはね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 260,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2283.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "前に言ったっけ？　眼帯の理由・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 260,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2283.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "世間を両目で見たくなかったんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 261,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2284.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "でもさ・・最近　見つけたんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 261,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2284.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "両目で見てみたいもの・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 262,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "何？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 263,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2286.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "あっちからバスが出るんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 263,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2286.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "ほら！　早く行こう！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 264,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2287.WAV",
+   "chars": 6,
+   "text": {
+    "ja": "早く行こう！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 264,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2287.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "あっちからバスが出るんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 265,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2288.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "眼帯を外した理由・・さっき言ったのはうそ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 265,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2288.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "本当は　プール行くから外したんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 266,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "そっちの方がウソっぽいよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 266,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "外した方がずっといいよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 266,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "ふぅん",
+    "ko": ""
+   }
+  },
+  {
+   "window": 267,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2289.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "じゃぁ　どっちでもいいよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 268,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2290.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "え？　・・ああ・・ありがと。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 269,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2291.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "なんか　どっちでも良さそうな感じだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 269,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2291.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "まぁいいけどさ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 270,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A7408.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "ここはもともとビール工場だったんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 270,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A7408.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "今は買い物したり　いろんなもの見たりする",
+    "ko": ""
+   }
+  },
+  {
+   "window": 270,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A7408.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "観光名所になってるんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 271,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A7409.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "さぁ！　行こう！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 271,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A7409.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "今日はまず　ここで水着を買うんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 272,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2294.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "ここが煙突広場。この煙突のあたりが",
+    "ko": ""
+   }
+  },
+  {
+   "window": 272,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2294.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "ビール工場だった名残だろうな。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 272,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2294.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "冬はこの煙突に　サンタクロースの飾りが付くんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 273,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2295.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "ここはアトリウム公園。札幌は雪が多いから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 273,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2295.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "こういう工夫をしてるんだろうな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 274,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2296.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "今日みたいな天気いい日は　明るい日差しが入って",
+    "ko": ""
+   }
+  },
+  {
+   "window": 274,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2296.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "ちょっといい感じだよな。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 274,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2296.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "水着は確か　こっちで売ってるよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 275,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2297.WAV",
+   "chars": 4,
+   "text": {
+    "ja": "おーい！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 276,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2298.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "この水着　どうかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 277,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "すごくいいよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 277,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "うーん・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 278,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A7410.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "よし！　それじゃこれに決めた！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 278,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A7410.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "さぁ！　泳ごう！　ここのすぐ近くに",
+    "ko": ""
+   }
+  },
+  {
+   "window": 278,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A7410.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "サッポロＳＰＡランドっていうプールがあるんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 279,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2300.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "そうか・・それじゃ次のヤツ着てみる。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 280,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2301.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "この水着は　どうかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 281,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "すごくいいよ%2%",
+    "ko": ""
+   }
+  },
+  {
+   "window": 281,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "うーん・・%2%",
+    "ko": ""
+   }
+  },
+  {
+   "window": 282,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A7411.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "よし！　それじゃこれに決めた！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 282,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A7411.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "さぁ！　泳ごう！　ここのすぐ近くに",
+    "ko": ""
+   }
+  },
+  {
+   "window": 282,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A7411.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "サッポロＳＰＡランドっていうプールがあるんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 283,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2303.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "そうか・・それじゃ次のヤツ着てみる。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 283,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2303.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "一応　これが最後だからな。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 284,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2304.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "これでどうだ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 285,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "すごくいいよ%3%",
+    "ko": ""
+   }
+  },
+  {
+   "window": 285,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "うーん・・%3%",
+    "ko": ""
+   }
+  },
+  {
+   "window": 286,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A7411.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "よし！　それじゃこれに決めた！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 286,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A7411.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "さぁ！　泳ごう！　ここのすぐ近くに",
+    "ko": ""
+   }
+  },
+  {
+   "window": 286,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A7411.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "サッポロＳＰＡランドっていうプールがあるんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 287,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "a2306.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "一応　さっきの三着が　私のお気に入りなんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 287,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "a2306.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "あの中で一番良かったのは　どれかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 288,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "最初の水着",
+    "ko": ""
+   }
+  },
+  {
+   "window": 288,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "二番目の水着",
+    "ko": ""
+   }
+  },
+  {
+   "window": 288,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "今着ている水着",
+    "ko": ""
+   }
+  },
+  {
+   "window": 289,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 290,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 291,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 291,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "葉野香ちゃんは　ちょっと深呼吸してから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 291,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "もう一度　僕に聞いてきた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 292,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2306.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "一応　さっきの三着が　私のお気に入りなんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 292,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2306.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "あの中で一番良かったのは　どれかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 293,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "最初の水着",
+    "ko": ""
+   }
+  },
+  {
+   "window": 293,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "二番目の水着",
+    "ko": ""
+   }
+  },
+  {
+   "window": 293,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "今着ている水着",
+    "ko": ""
+   }
+  },
+  {
+   "window": 294,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A7412.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "よし！　それに決めた！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 294,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A7412.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "さぁ！　泳ごう！　ここのすぐ近くに",
+    "ko": ""
+   }
+  },
+  {
+   "window": 294,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A7412.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "サッポロＳＰＡランドっていうプールがあるんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 295,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2308.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "あ・・あんまりじろじろ見るなよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 296,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2309.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "ようっし競争だ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 296,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2309.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "負けた方がジュース　おごるんだぞ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 297,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "・・・ちょっと狭いね・・このジャグジー・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 298,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2310.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "こういうのって　なんか照れるな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 298,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2310.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "どういう意図で　作ったんだろうな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 299,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2311.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "根性対決だ！　先に出た方が負け。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 299,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2311.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "負けた方がジュース　おごるんだぞ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 300,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2308.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "あ・・あんまりじろじろ見るなよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 301,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2309.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "ようっし競争だ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 301,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2309.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "負けた方がジュース　おごるんだぞ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 302,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "・・・ちょっと狭いね・・このジャグジー・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 303,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2310.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "こういうのって　なんか照れるな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 303,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2310.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "どういう意図で　作ったんだろうな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 304,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2311.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "根性対決だ！　先に出た方が負け。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 304,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2311.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "負けた方がジュース　おごるんだぞ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 305,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2308.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "あ・・あんまりじろじろ見るなよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 306,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2309.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "ようっし競争だ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 306,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2309.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "負けた方がジュース　おごるんだぞ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 307,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "・・・ちょっと狭いね・・このジャグジー・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 308,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2310.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "こういうのって　なんか照れるな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 308,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2310.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "どういう意図で　作ったんだろうな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 309,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2311.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "根性対決だ！　先に出た方が負け。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 309,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2311.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "負けた方がジュース　おごるんだぞ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 310,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2312.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "あーあ・・今日はジュース二杯も",
+    "ko": ""
+   }
+  },
+  {
+   "window": 310,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2312.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "おごらされちまった・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 311,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "どんまい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 312,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2314.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "そう言えば　さっき　店に電話したらさ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 312,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2314.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "あの半ラーメン　大好評らしくて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 312,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2314.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "兄貴も清美さんも　忙しく働いてるってさ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 313,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2315.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "手伝おうかって言ったら断られた。なんかさ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 313,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2315.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "あの寿商事の若い社員が今まで迷惑かけたお詫びにって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 313,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2315.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "きびきび手伝ってくれてるんだってさ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 314,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2316.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "他の店も協力してくれるって話もある。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 314,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2316.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "まだ　はっきり決まったわけじゃないけどさ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 315,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "よかったよね。本当に・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 316,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2318.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "ところでさぁ・・どんな色が好き？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 317,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "voice": "",
+   "chars": 1,
+   "text": {
+    "ja": "赤",
+    "ko": ""
+   }
+  },
+  {
+   "window": 317,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "voice": "",
+   "chars": 1,
+   "text": {
+    "ja": "青",
+    "ko": ""
+   }
+  },
+  {
+   "window": 317,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "黄色",
+    "ko": ""
+   }
+  },
+  {
+   "window": 317,
+   "line": 3,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "voice": "",
+   "chars": 1,
+   "text": {
+    "ja": "緑",
+    "ko": ""
+   }
+  },
+  {
+   "window": 317,
+   "line": 4,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "voice": "",
+   "chars": 1,
+   "text": {
+    "ja": "紫",
+    "ko": ""
+   }
+  },
+  {
+   "window": 317,
+   "line": 5,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "voice": "",
+   "chars": 1,
+   "text": {
+    "ja": "黒",
+    "ko": ""
+   }
+  },
+  {
+   "window": 317,
+   "line": 6,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "voice": "",
+   "chars": 1,
+   "text": {
+    "ja": "紺",
+    "ko": ""
+   }
+  },
+  {
+   "window": 317,
+   "line": 7,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "voice": "",
+   "chars": 1,
+   "text": {
+    "ja": "白",
+    "ko": ""
+   }
+  },
+  {
+   "window": 318,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 319,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 320,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 320,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "葉野香ちゃんは　ちょっと深呼吸してから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 320,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "もう一度　僕に聞いてきた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 321,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2318.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "ところでさぁ・・どんな色が好き？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 322,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "voice": "",
+   "chars": 1,
+   "text": {
+    "ja": "赤",
+    "ko": ""
+   }
+  },
+  {
+   "window": 322,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "voice": "",
+   "chars": 1,
+   "text": {
+    "ja": "青",
+    "ko": ""
+   }
+  },
+  {
+   "window": 322,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "黄色",
+    "ko": ""
+   }
+  },
+  {
+   "window": 322,
+   "line": 3,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "voice": "",
+   "chars": 1,
+   "text": {
+    "ja": "緑",
+    "ko": ""
+   }
+  },
+  {
+   "window": 322,
+   "line": 4,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "voice": "",
+   "chars": 1,
+   "text": {
+    "ja": "紫",
+    "ko": ""
+   }
+  },
+  {
+   "window": 322,
+   "line": 5,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "voice": "",
+   "chars": 1,
+   "text": {
+    "ja": "黒",
+    "ko": ""
+   }
+  },
+  {
+   "window": 322,
+   "line": 6,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "voice": "",
+   "chars": 1,
+   "text": {
+    "ja": "紺",
+    "ko": ""
+   }
+  },
+  {
+   "window": 322,
+   "line": 7,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "voice": "",
+   "chars": 1,
+   "text": {
+    "ja": "白",
+    "ko": ""
+   }
+  },
+  {
+   "window": 323,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2319.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "そうか・・いや別に聞いてみただけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 324,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2320.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "夜景　綺麗だな。ウチの店の明かり　見えるかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 325,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2321.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "@S@・・・@P@この明かり　ひとつひとつの下で",
+    "ko": ""
+   }
+  },
+  {
+   "window": 325,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2321.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "みんなが笑ったり　泣いたりしてる・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 326,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2322.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "夜景は　誰かに見せるために　光ってるんじゃない。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 326,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2322.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "札幌に住んでいる人たち　一人一人の暮らしの明かりが",
+    "ko": ""
+   }
+  },
+  {
+   "window": 326,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2322.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "こんなにも綺麗に　輝いて見えるんだな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 327,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2323.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "私　この街が好きだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 328,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2324.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "また・・来てくれよ。札幌に・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 328,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "voice": "A2324.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "私　待ってるからさ・・",
+    "ko": ""
+   }
+  }
+ ]
+}

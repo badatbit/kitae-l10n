@@ -1,0 +1,8502 @@
+{
+ "script": "MEGUMI_01",
+ "source": "ja",
+ "entries": [
+  {
+   "window": 0,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "札幌駅に着いた。ここからＪＲに乗れば",
+    "ko": ""
+   }
+  },
+  {
+   "window": 0,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "２時間ぐらいで美瑛に行ける。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 0,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "僕は・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "電車に乗る",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "やっぱりやめる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 2,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "よし！　美瑛に行こう！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 3,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "美瑛駅に着いた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 3,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "愛田牧場の人が　迎えに来てくれるはずだけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 4,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5516.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "あの・・クロちゃん知りませんか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 5,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "クロちゃんって誰？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 5,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "知ってるよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 5,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "知らないよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 6,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5517.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "あ・・猫の名前なんです。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 6,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5517.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "急にいなくなっちゃって・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 6,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5517.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "あーん・・どこ行っちゃったんだろう・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 7,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5518.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "あの・・見かけたら教えて下さい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 7,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5518.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "@5600@よろしくお願いします。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 8,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5519.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "あ・・知ってるんですか？　よかったー！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 8,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5519.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "それで　どこですか？　クロちゃん・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 9,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "・・・・・・・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 10,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5521.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "あの・・知らないんですか？　クロちゃん・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 11,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대기",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "クロちゃんって誰？%２%",
+    "ko": ""
+   }
+  },
+  {
+   "window": 11,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대기",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "知らないよ%２%",
+    "ko": ""
+   }
+  },
+  {
+   "window": 12,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5522.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "あ・・猫の名前なんです。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 12,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5522.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "急にいなくなっちゃって・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 12,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5522.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "あーん・・どこ行っちゃったんだろう・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 13,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5523.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "あの・・見かけたら教えて下さい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 13,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5523.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "@5601@よろしくお願いします。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 14,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5524.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "あ・・そうですか・・@5602@ごめんなさい・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 14,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5524.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "@5604@あーん・・・どこ行っちゃったんだろう・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 15,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5525.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "あの・・見かけたら教えて下さい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 15,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5525.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "@5603@よろしくお願いします。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 16,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 17,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 18,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 19,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5526.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "あの・・クロちゃん知りませんか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 20,
+   "line": 0,
+   "speaker": "老人",
+   "kind": "대사",
+   "voice": "A5527.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "んあ？　何じゃね？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 21,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5528.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "クロちゃん・・いなくなっちゃったんです。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 22,
+   "line": 0,
+   "speaker": "老人",
+   "kind": "대사",
+   "voice": "A5529.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "クロちゃんとな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 23,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5530.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "はい。クロちゃんです。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 24,
+   "line": 0,
+   "speaker": "老人",
+   "kind": "대사",
+   "voice": "A5531.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "それは　食べ物かね？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 25,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5532.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "違うんです。クロちゃんは・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 26,
+   "line": 0,
+   "speaker": "老人",
+   "kind": "대사",
+   "voice": "A5533.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "それは　四角いかね？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 27,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5534.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "四角い？　ですか・・そういうわけじゃ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 28,
+   "line": 0,
+   "speaker": "老人",
+   "kind": "대사",
+   "voice": "A5535.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "お湯に入れると溶けるかね？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 29,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5536.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "あ・・クロちゃんはお風呂が嫌いなんです。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 29,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5536.WAV",
+   "chars": 5,
+   "text": {
+    "ja": "それで・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 30,
+   "line": 0,
+   "speaker": "老人",
+   "kind": "대사",
+   "voice": "A5537.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "わかったぞ！　答えは『黒砂糖』じゃ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 31,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5538.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "あの・・おじいさん・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 31,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5538.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "これ　クイズじゃないんです。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 31,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5538.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "私　猫を探してて・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 32,
+   "line": 0,
+   "speaker": "老人",
+   "kind": "대사",
+   "voice": "A5539.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "その猫は　四角いかね？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 33,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5540.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "あ・・いえ・・もういいです。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 33,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5540.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "@5605@ありがとうございました。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 34,
+   "line": 0,
+   "speaker": "黒猫",
+   "kind": "대사",
+   "voice": "A5541.WAV",
+   "chars": 5,
+   "text": {
+    "ja": "にゃぁ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 35,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "僕の足下に一匹の黒猫が寄ってきた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 35,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "僕は・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 36,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "猫を追い払う",
+    "ko": ""
+   }
+  },
+  {
+   "window": 36,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "猫をなでる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 37,
+   "line": 0,
+   "speaker": "黒猫",
+   "kind": "대사",
+   "voice": "A5543.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "@S@・・@P@にゃぁ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 38,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "猫は寂しそうな声を上げ　それでも僕の足下に",
+    "ko": ""
+   }
+  },
+  {
+   "window": 38,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "まとわりついてくる。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 39,
+   "line": 0,
+   "speaker": "黒猫",
+   "kind": "대사",
+   "voice": "A5545.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "ごろごろごろ・・にゃぁ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 40,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "猫は気持ちよさそうに　のどを鳴らしている。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 41,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5547.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "クロちゃん・・クロちゃん・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 42,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5548.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "あっ！　見つけた！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 42,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5548.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "@5606@・・・クロちゃん！　探したんだよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 43,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5549.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "あの・・ありがとうございます。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 43,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5549.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "この猫　クロちゃんって言うんです。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 44,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5550.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "・・でも不思議・・クロちゃんはめったに人に",
+    "ko": ""
+   }
+  },
+  {
+   "window": 44,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5550.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "なつかないのに・・・かわいがってくれる人は",
+    "ko": ""
+   }
+  },
+  {
+   "window": 44,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5550.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "きっと動物の方でもわかるんですね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 45,
+   "line": 0,
+   "speaker": "黒猫",
+   "kind": "대사",
+   "voice": "A5551.WAV",
+   "chars": 5,
+   "text": {
+    "ja": "ぶっくし！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 46,
+   "line": 0,
+   "speaker": "黒猫",
+   "kind": "대사",
+   "voice": "A5552.WAV",
+   "chars": 5,
+   "text": {
+    "ja": "にゃぁ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 47,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5553.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "助かりました。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 47,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5553.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "本当に　@5607@どうもありがとうございます。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 48,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5554.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "あっ！　いけない！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 48,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5554.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "私　人を捜してたんだっけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 48,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5554.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "名前は確か・・・えーと・・あれ？　メモどこだっけ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 49,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대기",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "ひょっとして君・・愛田牧場の人？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 49,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대기",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "ひょっとして君・・あわてんぼ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 50,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5555.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "あれ？　おかしいなぁ・・車の中かな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 50,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5555.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "あの・・本当に　@5608@ありがとうございました。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 50,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5555.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "@5609@それじゃ。さよなら。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 51,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5557.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "えっ？　何で知ってるんですか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 52,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "僕　今日から愛田牧場でお世話になる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 52,
+   "line": 1,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 1,
+   "text": {
+    "ja": "&主人公名前&。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 53,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5559.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "わぁ！　すごい！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 53,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5559.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "それじゃクロちゃんがあなたのこと",
+    "ko": ""
+   }
+  },
+  {
+   "window": 53,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5559.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "見つけてくれたんですね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 54,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5560.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "私　愛田牧場の愛田めぐみです。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 54,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5560.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "これから　@5610@よろしくお願いします。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 55,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "こちらこそ　よろしく・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 56,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5562.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "それじゃ行きましょ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 56,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5562.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "向こうに父の車が停まってます。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 57,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5563.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "え？　ええ・・まぁ・・よく言われます。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 57,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5563.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "あの・・本当に　@5611@ありがとうございました。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 57,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5563.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "@5612@それじゃ。さよなら。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 58,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "ひょっとしてあの娘・・僕を捜している",
+    "ko": ""
+   }
+  },
+  {
+   "window": 58,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "愛田牧場の人じゃないかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 58,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "・・・だとしたら　また戻ってくるはずだけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 59,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "やっぱり戻って来た。・・・あれ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 60,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5566.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "牧場で働きたいって言うのは　おじいさんですか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 61,
+   "line": 0,
+   "speaker": "老人",
+   "kind": "대사",
+   "voice": "A5567.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "んあ？　何じゃね？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 62,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5568.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "牧場です。愛田牧場。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 63,
+   "line": 0,
+   "speaker": "老人",
+   "kind": "대사",
+   "voice": "A5569.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "ああ！　『あいだ』ではない『はざま』と読むんじゃ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 63,
+   "line": 1,
+   "speaker": "老人",
+   "kind": "대사",
+   "voice": "A5569.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "ワシの名は　『間　朴堂（はざま・ぼくどう）』じゃ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 64,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5570.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "え？　ハザマさん？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 64,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5570.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "ハザマさんだったかなぁ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 65,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5571.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "私　愛田めぐみって言います。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 65,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5571.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "愛田牧場から　お迎えに来たんですけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 66,
+   "line": 0,
+   "speaker": "老人",
+   "kind": "대사",
+   "voice": "A5572.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "んあ？　何じゃね？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 67,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5573.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "お迎えに　来たんです。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 68,
+   "line": 0,
+   "speaker": "老人",
+   "kind": "대사",
+   "voice": "A5574.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "失礼な！　ワシはまだピンピンしとるわい！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 68,
+   "line": 1,
+   "speaker": "老人",
+   "kind": "대사",
+   "voice": "A5574.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "お迎えが来るような歳ではない！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 69,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5575.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "あ・・そういう意味じゃなくて・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 69,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5575.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "愛田牧場から・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 70,
+   "line": 0,
+   "speaker": "老人",
+   "kind": "대사",
+   "voice": "A5576.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "何度言ったらわかるんじゃ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 70,
+   "line": 1,
+   "speaker": "老人",
+   "kind": "대사",
+   "voice": "A5576.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "『あいだ』ではない！　『はざま』と読むんじゃ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 71,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5577.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "え・・あ・・@5613@ご・・ごめんなさい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 71,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5577.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "@5614@でも　違うんです。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 72,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "なんか話がややこしくなってきたぞ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 72,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "僕は・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 73,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "自分が愛田牧場の人を待っているのだと言う。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 73,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "面白いのでもう少し話を聞いてみる。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 74,
+   "line": 0,
+   "speaker": "老人",
+   "kind": "대사",
+   "voice": "A5579.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "何が違うのじゃね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 74,
+   "line": 1,
+   "speaker": "老人",
+   "kind": "대사",
+   "voice": "A5579.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "だいたい近頃の若い娘は　自分の名も名乗らずに",
+    "ko": ""
+   }
+  },
+  {
+   "window": 74,
+   "line": 2,
+   "speaker": "老人",
+   "kind": "대사",
+   "voice": "A5579.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "縁起でもないことを言いくさりおって！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 75,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5580.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "ですから私は　愛田・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 76,
+   "line": 0,
+   "speaker": "老人",
+   "kind": "대사",
+   "voice": "A5581.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "『あいだ』ではない！　『はざま』と読むんじゃ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 77,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5582.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "ええ。そのハザマさんをお迎えに・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 78,
+   "line": 0,
+   "speaker": "老人",
+   "kind": "대사",
+   "voice": "A5583.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "まだ言うのか！　ワシはまだ若いのじゃ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 78,
+   "line": 1,
+   "speaker": "老人",
+   "kind": "대사",
+   "voice": "A5583.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "お迎えが来るような歳ではない！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 79,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5584.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "ごめんなさい・・@5615@でも違うんです。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 80,
+   "line": 0,
+   "speaker": "老人",
+   "kind": "대사",
+   "voice": "A5585.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "何が違うのじゃね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 80,
+   "line": 1,
+   "speaker": "老人",
+   "kind": "대사",
+   "voice": "A5585.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "だいたい近頃の若い娘は　自分の名も名乗らずに",
+    "ko": ""
+   }
+  },
+  {
+   "window": 80,
+   "line": 2,
+   "speaker": "老人",
+   "kind": "대사",
+   "voice": "A5585.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "縁起でもないことを言いくさりおって！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 81,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5586.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "ですから私は　愛田・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 82,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "会話がループしてしまった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 82,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "・・しかたない。僕が事情を説明しよう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 83,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "あの・・おじいさん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 83,
+   "line": 1,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "この子　人違いしてるみたいなんです。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 83,
+   "line": 2,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "失礼なこと言って　すみませんでした。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 84,
+   "line": 0,
+   "speaker": "老人",
+   "kind": "대사",
+   "voice": "A5589.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "うむ！　わかればいいのじゃ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 85,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5590.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "ご・・ごめんなさい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 86,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "ほら！　早く行こう！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 87,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5592.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "はっ！　はい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 87,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5592.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "それじゃおじいさん。さようなら。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 88,
+   "line": 0,
+   "speaker": "老人",
+   "kind": "대사",
+   "voice": "A5593.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "うむ！　さらばじゃ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 89,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5594.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "あの・・助けてくれて　@8000@ありがとうございま@8001@す。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 90,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "君はひょっとして　僕を捜してたんじゃない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 90,
+   "line": 1,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "僕　今日から愛田牧場でお世話になる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 90,
+   "line": 2,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 1,
+   "text": {
+    "ja": "&主人公名前&。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 91,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5596.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "え？　本当ですか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 91,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5596.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "@8002@あー！　私ってバカ！　人違いしちゃったんですね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 92,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5597.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "私　愛田牧場の愛田めぐみです。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 92,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5597.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "@8003@これから　よろしくお願いしま@8004@す。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 93,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "こちらこそ　よろしく・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 94,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5599.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "それじゃ行きましょ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 94,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5599.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "あそこに父の車が停まってます。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 95,
+   "line": 0,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5600.WAV",
+   "chars": 4,
+   "text": {
+    "ja": "&主人公&君だね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 95,
+   "line": 1,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5600.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "初めまして。愛田耕作です。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 96,
+   "line": 0,
+   "speaker": "里子",
+   "kind": "대사",
+   "voice": "A5601.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "初めまして。妻の里子です。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 97,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "初めまして。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 98,
+   "line": 0,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5603.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "見ての通り家内が身重でね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 98,
+   "line": 1,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5603.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "それで君に　仕事を手伝ってもらいたいんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 98,
+   "line": 2,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5603.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "よろしく頼むよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 99,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "はい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 100,
+   "line": 0,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5605.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "じゃ　車に乗ってくれ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 101,
+   "line": 0,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5606.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "東京から来たんだってね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 101,
+   "line": 1,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5606.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "僕も５年前まで　東京にいたんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 101,
+   "line": 2,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5606.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "市ヶ谷にあるソフトハウスで　ゲームを作ってたよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 102,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5607.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "結構ヒットしたゲームも作ったんだよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 103,
+   "line": 0,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5608.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "昔の話さ。それにゲームは一人で作るもんじゃない。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 103,
+   "line": 1,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5608.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "お父さんだけの手柄じゃないさ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 104,
+   "line": 0,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5609.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "で　結局　その会社には１０年いたんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 104,
+   "line": 1,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5609.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "でもさ・・電車のラッシュとか人間関係とか",
+    "ko": ""
+   }
+  },
+  {
+   "window": 104,
+   "line": 2,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5609.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "そういうのにうんざりしちゃってさ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 105,
+   "line": 0,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5610.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "思い切って仕事やめて　こっちに越して来たんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 105,
+   "line": 1,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5610.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "それ以来　いろんな人にお世話になりながら",
+    "ko": ""
+   }
+  },
+  {
+   "window": 105,
+   "line": 2,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5610.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "なんとかこの仕事を続けてるよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 106,
+   "line": 0,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5611.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "田舎暮らしもいいもんだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 106,
+   "line": 1,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5611.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "水も空気もうまいし　星も綺麗だし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 106,
+   "line": 2,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5611.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "何より　人間が少ない。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 107,
+   "line": 0,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A7652.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "見てごらん。この景色。綺麗だろ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 107,
+   "line": 1,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A7652.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "緑の丘・・青い空・・そしてたくさんの花・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 108,
+   "line": 0,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5614.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "サラリーマンやってたころは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 108,
+   "line": 1,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5614.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "財産なんて何にもなかったけどさ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 108,
+   "line": 2,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5614.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "今の僕には　この自然が何よりの宝なんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 109,
+   "line": 0,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5615.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "さぁ。着いたよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 110,
+   "line": 0,
+   "speaker": "里子",
+   "kind": "대사",
+   "voice": "A5616.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "暑かったでしょ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 110,
+   "line": 1,
+   "speaker": "里子",
+   "kind": "대사",
+   "voice": "A5616.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "リビングで冷たいものでも飲んでいってね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 111,
+   "line": 0,
+   "speaker": "里子",
+   "kind": "대사",
+   "voice": "A5617.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "これ　ウチの牧場のミルクなんですよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 111,
+   "line": 1,
+   "speaker": "里子",
+   "kind": "대사",
+   "voice": "A5617.WAV",
+   "chars": 6,
+   "text": {
+    "ja": "さぁどうぞ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 112,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "僕はミルクを飲んでみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 112,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "・・・・・！！　うまい！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 113,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "普段飲んでいる牛乳よりも　ずっと味が濃く",
+    "ko": ""
+   }
+  },
+  {
+   "window": 113,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "嫌な匂いも全くない。口に広がるほのかな甘さと",
+    "ko": ""
+   }
+  },
+  {
+   "window": 113,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "すっきりとした後味・・これは初めての味だ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 114,
+   "line": 0,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5620.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "市販の牛乳は　殺菌の基準が厳しいからね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 114,
+   "line": 1,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5620.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "牛乳本来の風味を　どうしても殺しちゃうんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 115,
+   "line": 0,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5621.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "まぁ安全性を考えたら　仕方ないんだけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 115,
+   "line": 1,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5621.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "なんとかしてこの味の牛乳を全国の人に",
+    "ko": ""
+   }
+  },
+  {
+   "window": 115,
+   "line": 2,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5621.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "飲んでもらいたいって　今それを研究中なんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 116,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5622.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "私もウチのミルク　大好きだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 116,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5622.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "毎日飲んでるけど　でもなかなか背が伸びないの・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 117,
+   "line": 0,
+   "speaker": "里子",
+   "kind": "대사",
+   "voice": "A5623.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "まだ中学生だもの。そんなに気にすることないわよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 118,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5624.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "小学校からずーっと　私だけ腰に手を当てて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 118,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5624.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "『前へならえ』をしてたのよ。そういうのって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 118,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5624.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "結構コンプレックスなんだから・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 119,
+   "line": 0,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5625.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "コンプレックス　大いに結構。弱い心を持っていないと",
+    "ko": ""
+   }
+  },
+  {
+   "window": 119,
+   "line": 1,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5625.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "他人の痛みは　わからないものだからね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 120,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5626.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "でも　できれば１５０センチぐらいになりたいなぁ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 120,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5626.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "あと７センチなんだけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 121,
+   "line": 0,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5627.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "なれればラッキーだし　なれなくても",
+    "ko": ""
+   }
+  },
+  {
+   "window": 121,
+   "line": 1,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5627.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "そんなに気にすることじゃない。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 121,
+   "line": 2,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5627.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "マーク・ボランだって小男だった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 122,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5628.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "お父さんって　時々わかんないこと言うよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 122,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5628.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "・・気にしてないけどさ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 123,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5629.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "ねぇお父さん。明日の朝から&主人公&さんに",
+    "ko": ""
+   }
+  },
+  {
+   "window": 123,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5629.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "牧場の仕事　手伝ってもらうんでしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 123,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5629.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "私　案内するね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 124,
+   "line": 0,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5630.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "それがいい。頼んだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 125,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5631.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "それじゃ&主人公&さん。行こ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 126,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5632.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "ここが牛舎よ。ウチでは２０頭の牛を飼ってるの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 126,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5632.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "全部雌牛。牛も人間と一緒で子供を産んでから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 126,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5632.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "しばらくの間しか　お乳を出さないの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 127,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5633.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "だからここの牛は　いつも妊娠してるのよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 127,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5633.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "生まれた子牛は　雄なら業者に出して",
+    "ko": ""
+   }
+  },
+  {
+   "window": 127,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5633.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "雌ならウチで育てるの。こっちよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 128,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A7653.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "ね。可愛いでしょ？　右から順番に　花ちゃん・@8005@紅丸",
+    "ko": ""
+   }
+  },
+  {
+   "window": 128,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A7653.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "信之助・バブ。子牛は臆病だから　知らない人見ると",
+    "ko": ""
+   }
+  },
+  {
+   "window": 128,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A7653.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "興奮しちゃうの。早めに戻りましょ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 129,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5635.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "手前にある餌入れは『きつ』って言うんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 129,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5635.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "牛はここから牧草を食べるの。牛乳もここで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 129,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5635.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "ミルカーっていう機械を使って搾るんだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 130,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5636.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "搾った牛乳はパイプラインを通じて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 130,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5636.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "あっちのタンクに蓄えられるわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 131,
+   "line": 0,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5637.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "こういうやり方が　ベストだとは思っていない。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 132,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5638.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "きゃっ！　@8007@びっくりしたぁ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 132,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5638.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "お父さん　いつの間に来たの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 133,
+   "line": 0,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5639.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "狭い東京に嫌気がさして　こっちに来た人間が",
+    "ko": ""
+   }
+  },
+  {
+   "window": 133,
+   "line": 1,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5639.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "今度は牛に狭い思いをさせてストレスを与えている・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 133,
+   "line": 2,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5639.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "そういうことじゃダメだと　僕は思ってるんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 134,
+   "line": 0,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5640.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "今やっているのはスタンチョン方式って言って",
+    "ko": ""
+   }
+  },
+  {
+   "window": 134,
+   "line": 1,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5640.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "牛を一ヶ所に閉じこめて　餌やり・搾乳などを",
+    "ko": ""
+   }
+  },
+  {
+   "window": 134,
+   "line": 2,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5640.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "行う方式なんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 135,
+   "line": 0,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5641.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "将来的に考えているのはフリーストール方式って言って",
+    "ko": ""
+   }
+  },
+  {
+   "window": 135,
+   "line": 1,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5641.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "牛が自分で餌場に行き　寝床に行く方式なんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 135,
+   "line": 2,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5641.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "設備投資のめどが立ったら　実行しようと思ってる。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 136,
+   "line": 0,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5642.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "それじゃめぐみ。後の説明はよろしく！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 137,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5643.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "@S@・・・@P@どこまで話したっけ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 137,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5643.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "えーと　ミルクを蓄えるところまでだよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 138,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5644.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "@8010@それから業者の人がタンクにたまったミルクを",
+    "ko": ""
+   }
+  },
+  {
+   "window": 138,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5644.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "取りに来て　牛乳が出来るのよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 139,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5645.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "牛舎の説明はこれでおしまい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 139,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5645.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "とりあえず　外に出るね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 140,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5646.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "あそこの牧草地で刈り取った牧草を　向こうに見える",
+    "ko": ""
+   }
+  },
+  {
+   "window": 140,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5646.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "サイロに入れるのよ。刈り取った牧草は自動的に",
+    "ko": ""
+   }
+  },
+  {
+   "window": 140,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5646.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "ロールって言う円筒形の固まりになるわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 141,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5647.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "それを大きなフォークの付いた機械で運ぶのよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 141,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5647.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "昔は全部手で運んでたから　この機械が出来て",
+    "ko": ""
+   }
+  },
+  {
+   "window": 141,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5647.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "すっごく楽になったんですって。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 142,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "何匹動物がいるの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 142,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "将来は家を継ぐの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 142,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대기",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "好きな男性のタイプは？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 143,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5648.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "成牛が２０頭でしょ？　子牛が４頭でしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 143,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5648.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "それにクロちゃん・・あとは・・あとはいないよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 143,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5648.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "だから全部で２５匹かな。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 144,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5649.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "うーん。わかんないなぁ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 144,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5649.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "でも動物のいる暮らしって　いいと思うな。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 144,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5649.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "もっと頭が良ければ　獣医さんにもなりたかったし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 145,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5650.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "あとペットショップでもいいな。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 145,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5650.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "一緒に働いてくれる人がいれば　牧場もいいかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 146,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5651.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "自信を持ってる人が好きだな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 146,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5651.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "迷ったり困ったりしてる人は嫌い。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 147,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5652.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "@S@・・@P@綺麗な夕焼けだよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 147,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5652.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "そろそろ戻ろ。晩ご飯のしたく出来てる頃だよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 148,
+   "line": 0,
+   "speaker": "里子",
+   "kind": "대사",
+   "voice": "A5653.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "お帰りなさい。今日は鮭のちゃんちゃん焼きですよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 149,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5654.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "うわぁ！　すごい！　今日は豪勢だね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 150,
+   "line": 0,
+   "speaker": "里子",
+   "kind": "대사",
+   "voice": "A5655.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "お客さんが来たから　張り切っちゃった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 150,
+   "line": 1,
+   "speaker": "里子",
+   "kind": "대사",
+   "voice": "A5655.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "さぁ！　食べてね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 151,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "はい。いただきます。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 152,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "僕は鮭のちゃんちゃん焼きを食べてみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 152,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "・・・・・！！　うまい！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 153,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "何よりも鮭自体の味が違う！　脂が乗っていて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 153,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "東京で食べる鮭よりもずっと味が濃い感じだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 154,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "ちょっと甘く味付けされた味噌がそのうまさを",
+    "ko": ""
+   }
+  },
+  {
+   "window": 154,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "さらに引き立てている。一緒に焼いたキャベツや",
+    "ko": ""
+   }
+  },
+  {
+   "window": 154,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "タマネギなどの野菜もうまい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 155,
+   "line": 0,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5660.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "僕たちもこっちに来て初めて食べたんだけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 155,
+   "line": 1,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5660.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "なかなかワイルドな料理だろ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 155,
+   "line": 2,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5660.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "鮭を丸ごと一匹　焼いちゃうんだもんな。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 156,
+   "line": 0,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5661.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "ちなみに　ちゃんちゃん焼きの『ちゃんちゃん』は",
+    "ko": ""
+   }
+  },
+  {
+   "window": 156,
+   "line": 1,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5661.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "焼くときにチャンチャンっていう音がするから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 156,
+   "line": 2,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5661.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "そう言う名前が付いたんだってさ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 157,
+   "line": 0,
+   "speaker": "里子",
+   "kind": "대사",
+   "voice": "A5662.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "&主人公&さん。おいしそうに食べてくれるから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 157,
+   "line": 1,
+   "speaker": "里子",
+   "kind": "대사",
+   "voice": "A5662.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "作りがいがあるわ。おかわりはいい？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 158,
+   "line": 0,
+   "speaker": "里子",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "いただきます。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 158,
+   "line": 1,
+   "speaker": "里子",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "もうお腹一杯です。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 159,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5663.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "すごーい！　お父さんよりたくさん食べる人",
+    "ko": ""
+   }
+  },
+  {
+   "window": 159,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5663.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "私　初めて見たよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 160,
+   "line": 0,
+   "speaker": "里子",
+   "kind": "대사",
+   "voice": "A5664.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "遠慮せずにたくさん食べてね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 160,
+   "line": 1,
+   "speaker": "里子",
+   "kind": "대사",
+   "voice": "A5664.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "おかわりはいい？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 161,
+   "line": 0,
+   "speaker": "里子",
+   "kind": "대기",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "いただきます。%2%",
+    "ko": ""
+   }
+  },
+  {
+   "window": 161,
+   "line": 1,
+   "speaker": "里子",
+   "kind": "대기",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "もうお腹一杯です。%2%",
+    "ko": ""
+   }
+  },
+  {
+   "window": 162,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "もうお腹一杯です。ごちそうさま。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 163,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 164,
+   "line": 0,
+   "speaker": "里子",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 165,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 166,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "本当にうまい！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 166,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "いくらでも食べられそうだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 167,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "もぐ・・・もぐもぐもぐ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 167,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "・・・もぐ・・・もぐもぐもぐ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 168,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "ふぅ・・お腹一杯　食べてしまった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 169,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "おいしかったです。ごちそうさま。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 170,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5666.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "ごちそうさまー！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 171,
+   "line": 0,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5667.WAV",
+   "chars": 6,
+   "text": {
+    "ja": "さっ！　&主人公&君。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 171,
+   "line": 1,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5667.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "明日は５時半に起きなきゃいけないから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 171,
+   "line": 2,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5667.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "早めに休むといいよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 172,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5668.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "じゃ　私　お部屋に案内するね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 173,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5669.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "ここのお部屋　自由に使ってね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 173,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5669.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "ところで&主人公&さん　寝起きはいい方？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 174,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "うん。いい方だよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 174,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대기",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "いやぁ・・あんまり・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 175,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5670.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "それじゃ安心だね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 175,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5670.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "私　時間になったら起こしてあげるね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 176,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5671.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "えー・・そうなの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 176,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5671.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "私　起こしに来るけど　あんまり怒ったりしないでね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 177,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 178,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 179,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 180,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5672.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "それじゃ。おやすみなさーい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 181,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "さてこれから　どうしようかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 182,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5674.WAV",
+   "chars": 6,
+   "text": {
+    "ja": "お早う&主人公&さん！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 182,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5674.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "夕べはよく眠れた？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 183,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 183,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "うん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 184,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5676.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "今日もいい天気だよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 184,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5676.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "それじゃ牛舎に行きましょ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 185,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5675.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "あれ？　まだ寝てるの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 185,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5675.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "おはよー！　朝だよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 185,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5675.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "早く起きて牛舎に行きましょ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 186,
+   "line": 0,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5677.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "お早う。&主人公&君。今日からよろしく頼むよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 186,
+   "line": 1,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5677.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "２０頭いる牛の半分を　めぐみと一緒に",
+    "ko": ""
+   }
+  },
+  {
+   "window": 186,
+   "line": 2,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5677.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "搾乳して欲しいんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 187,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5678.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "それじゃ。やりかたは私が説明するね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 188,
+   "line": 0,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5679.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "素晴らしい！　すごい才能だよ&主人公&君。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 188,
+   "line": 1,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5679.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "めぐみのサポートも完璧だった！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 188,
+   "line": 2,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5679.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "これからも　この調子で頑張ってくれ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 189,
+   "line": 0,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5680.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "うん。上出来だよ&主人公&君。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 189,
+   "line": 1,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5680.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "めぐみもよく頑張ってくれた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 189,
+   "line": 2,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5680.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "また次もよろしく頼むよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 190,
+   "line": 0,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5681.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "まぁ・・慣れていないから仕方ないね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 190,
+   "line": 1,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5681.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "次からは頑張ってくれ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 191,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5682.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "お疲れさま。&主人公&さん！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 191,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5682.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "一階にお風呂があるから　入ってね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 192,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "ふぅ・・いい湯加減だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 192,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "・・昨日も一日　いろんなことがあったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 192,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "美瑛駅に迎えに来てくれた女の子の名前は・・確か・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 193,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "愛田ぬぐみ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 193,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "愛田ねぐみ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 193,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "愛田わぐみ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 193,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "愛田めぐみ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 194,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 194,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "彼女ちょっと　あわてんぼうなところがあるよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 195,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "そうそう・・愛田めぐみちゃんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 195,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "彼女ちょっと　あわてんぼうなところがあるよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 196,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "彼女　猫を飼っていたな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 196,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "名前は確か・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 197,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "グリちゃん",
+    "ko": ""
+   }
+  },
+  {
+   "window": 197,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "グラちゃん",
+    "ko": ""
+   }
+  },
+  {
+   "window": 197,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "クロちゃん",
+    "ko": ""
+   }
+  },
+  {
+   "window": 197,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "グロちゃん",
+    "ko": ""
+   }
+  },
+  {
+   "window": 198,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 198,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "妙に人間くさいところのある猫だよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 199,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "そうそう・・クロちゃんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 199,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "妙に人間くさいところのある猫だよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 200,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "そして　今　お世話になっている",
+    "ko": ""
+   }
+  },
+  {
+   "window": 200,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "この牧場の名前は・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 201,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "愛田ファーム",
+    "ko": ""
+   }
+  },
+  {
+   "window": 201,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "ファーム愛田",
+    "ko": ""
+   }
+  },
+  {
+   "window": 201,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "愛田牧場",
+    "ko": ""
+   }
+  },
+  {
+   "window": 201,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "愛田乳業",
+    "ko": ""
+   }
+  },
+  {
+   "window": 202,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "あれ？　そうだっけ？　・・まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 202,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "あと４日　しっかり働かなくちゃ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 203,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "そうそう・・愛田牧場だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 203,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "あと４日　しっかり働かなくちゃ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 204,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "昨日一日　充実してたし　今日もいいことありそうだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 204,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "やっぱりこっちに来て良かったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 204,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "さて！　そろそろ上がろう！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 205,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5683.WAV",
+   "chars": 4,
+   "text": {
+    "ja": "ねぇ&主人公&さん",
+    "ko": ""
+   }
+  },
+  {
+   "window": 205,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5683.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "これから富良野に行かない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 205,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5683.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "今　ラベンダーが満開なんだよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 206,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "行く",
+    "ko": ""
+   }
+  },
+  {
+   "window": 206,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "行かない",
+    "ko": ""
+   }
+  },
+  {
+   "window": 207,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5685.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "そっか・・それじゃ私　部屋で勉強してるね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 207,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5685.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "これでも一応　受験生だし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 208,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5684.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "富良野はバスに乗ればすぐだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 208,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5684.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "それじゃ行きましょ。&主人公&さん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 209,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 210,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 211,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 212,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5735.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "そっか・・それじゃ私　部屋で勉強してるね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 212,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5735.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "これでも一応　受験生だし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 213,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5686.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "ここはファーム富田。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 213,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5686.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "富良野で初めてラベンダー栽培を始めた所なんだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 213,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5686.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "@8012@ほら！　あっちのラベンダー　すごく綺麗だよ。行こ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 214,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5687.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "ラベンダーって　いつもは７月中旬から",
+    "ko": ""
+   }
+  },
+  {
+   "window": 214,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5687.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "終わりぐらいに咲くんだ。でも今年はちょっと",
+    "ko": ""
+   }
+  },
+  {
+   "window": 214,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5687.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "遅かったみたい。だから@8013@ほら・・満開だよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 215,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5688.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "すごいよね。こんなに綺麗に咲いて・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 215,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5688.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "まるで絵はがきの中に入っちゃったみたいだよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 216,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "本当だね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 216,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대기",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "それって逆じゃない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 217,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "本当だね。僕もこんな景色　見るの初めてだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 218,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5690.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "来て良かったでしょ？　ね？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 219,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "うん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 220,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "それって逆じゃない？　この景色が先にあって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 220,
+   "line": 1,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "絵はがきが出来たんだろ？　だったら",
+    "ko": ""
+   }
+  },
+  {
+   "window": 220,
+   "line": 2,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "『まるで絵はがきみたい』って言うのはおかしいよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 221,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5693.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "@S@・・・@P@うーん。そうかも・・&主人公&さんって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 221,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5693.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "お父さんみたいな突っ込み　するんだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 222,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 223,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 224,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 225,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5694.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "あっ！　あっちも綺麗だよ！　行こ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 226,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5695.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "綺麗！　お花で出来た虹みたいだよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 226,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5695.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "ここぜーんぶ・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 227,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5696.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "あっ！　ごめんなさい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 228,
+   "line": 0,
+   "speaker": "男",
+   "kind": "대사",
+   "voice": "A5697.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "@S@・・・@P@ああ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 229,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5698.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "本当にすみませんでした。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 229,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5698.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "・・・・あの・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 230,
+   "line": 0,
+   "speaker": "男",
+   "kind": "대사",
+   "voice": "A5699.WAV",
+   "chars": 4,
+   "text": {
+    "ja": "何だよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 231,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5700.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "ヘアースタイルが　ずれてますけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 232,
+   "line": 0,
+   "speaker": "男",
+   "kind": "대사",
+   "voice": "A5701.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "ば・・馬鹿野郎！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 233,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5702.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "きゃーーー！　ごめんなさーーい！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 234,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5703.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "はぁ・・はぁ・・@8014@怖かったね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 235,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대기",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "あれはちょっと失礼じゃない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 235,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대기",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "なんかすごいもの見ちゃったよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 236,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5704.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "@S@・・@P@本当だね。反省しなくちゃ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 236,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5704.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "私いつも　大事なときに　こういう取り返しの",
+    "ko": ""
+   }
+  },
+  {
+   "window": 236,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5704.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "付かないことやっちゃうんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 237,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5705.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "本当だよね。あの人の頭がずれたとき",
+    "ko": ""
+   }
+  },
+  {
+   "window": 237,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5705.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "私　心臓が止まりそうになっちゃった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 238,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 239,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 240,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 241,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5706.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "走ったら　のど乾いちゃった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 241,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5706.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "あそこで冷たいもの　飲んで行こうね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 242,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5707.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "東京からこっちに引っ越してきたとき",
+    "ko": ""
+   }
+  },
+  {
+   "window": 242,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5707.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "私　すっごく不安だったんだ。お友達もいないし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 242,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5707.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "北海道は寒いって聞いてたし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 243,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5708.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "でもこっちに来て　そんな不安も吹き飛んじゃった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 243,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5708.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "友達もたくさん出来たし　冬の寒さだって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 243,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5708.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "慣れればそんなに辛くないし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 244,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대기",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "どのくらい寒くなるの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 244,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대기",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "どんな友達が出来たの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 245,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5709.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "一番寒い日は　マイナス２０度ぐらいになるんだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 245,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5709.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "私　初めて来た時　びっくりしちゃった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 246,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5710.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "でもね。気温がマイナス２０度以下になると",
+    "ko": ""
+   }
+  },
+  {
+   "window": 246,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5710.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "学校の始まる時間が１時間遅れるんだ。だから寒い日は",
+    "ko": ""
+   }
+  },
+  {
+   "window": 246,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5710.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "ワクワクしながら温度計　見てたっけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 247,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5711.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "東京にいた頃は　みんな塾に行ってたりして",
+    "ko": ""
+   }
+  },
+  {
+   "window": 247,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5711.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "あんまり一緒に遊べなかったけど　こっちの友達は",
+    "ko": ""
+   }
+  },
+  {
+   "window": 247,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5711.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "いつもすごく親切にしてくれるんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 248,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 249,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 250,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 251,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5712.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "@S@・・@P@東京にいた頃　私　アトピー性皮膚炎だったの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 251,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5712.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "顔なんて真っ赤になっちゃって　それで小学校の頃",
+    "ko": ""
+   }
+  },
+  {
+   "window": 251,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5712.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "結構　いじめられてたんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 252,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5713.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "でもね。こっちに来てそれがすっかり治ったの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 252,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5713.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "水のせいなのか食べ物のせいなのか",
+    "ko": ""
+   }
+  },
+  {
+   "window": 252,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5713.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "その辺は　よくわからないんだけどね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 253,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5714.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "お父さんは一言も　そんなこと言わないけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 253,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5714.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "会社やめたのは　そんな理由もあったのかなって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 253,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5714.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "私　そう思ってるんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 254,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5715.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "この曲　富良野を舞台にしたテレビドラマの",
+    "ko": ""
+   }
+  },
+  {
+   "window": 254,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5715.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "テーマソングなんだ。いい曲なんだけど富良野にいると",
+    "ko": ""
+   }
+  },
+  {
+   "window": 254,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5715.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "ずーっと　かかっているんだよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 255,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5716.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "お店の人とか　いやにならないのかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 255,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5716.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "それとも　そんなこと心配するのは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 255,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5716.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "余計なお世話なのかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 256,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5717.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "あっ！　そろそろ夕方の搾乳の時間だよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 256,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5717.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "@8014@牧場に戻らなくっちゃね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 257,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "富良野のラベンダー畑を見ながら・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 257,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "僕は　めぐみちゃんのお父さん・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 257,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "愛田耕作さんの言葉を思い出していた・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 258,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "『サラリーマンやってたころは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 258,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "財産なんて何にもなかったけどさ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 258,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "今の僕には　この自然が何よりの宝なんだ。』",
+    "ko": ""
+   }
+  },
+  {
+   "window": 259,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "・・・本当に・・そんな感じだな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 260,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5718.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "富良野　楽しかったね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 260,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5718.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "あっ！　もうこんな時間！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 260,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5718.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "そろそろ夕方の搾乳　始めなくっちゃ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 261,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5719.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "あっ！　おかえりなさーい！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 261,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5719.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "そろそろ夕方の搾乳　始める時間だよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 262,
+   "line": 0,
+   "speaker": "説明",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "搾乳の説明を聞きますか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 263,
+   "line": 0,
+   "speaker": "説明",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "はい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 263,
+   "line": 1,
+   "speaker": "説明",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "いいえ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 264,
+   "line": 0,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5679.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "素晴らしい！　すごい才能だよ&主人公&君。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 264,
+   "line": 1,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5679.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "めぐみのサポートも完璧だった！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 264,
+   "line": 2,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5679.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "これからも　この調子で頑張ってくれ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 265,
+   "line": 0,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5680.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "うん。上出来だよ&主人公&君。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 265,
+   "line": 1,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5680.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "めぐみもよく頑張ってくれた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 265,
+   "line": 2,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5680.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "また次もよろしく頼むよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 266,
+   "line": 0,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5681.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "まぁ・・慣れていないから仕方ないね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 266,
+   "line": 1,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5681.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "次からは頑張ってくれ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 267,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "さてこれから　どうしようかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 268,
+   "line": 0,
+   "speaker": "里子",
+   "kind": "대사",
+   "voice": "A5721.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "お邪魔していいかしら？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 268,
+   "line": 1,
+   "speaker": "里子",
+   "kind": "대사",
+   "voice": "A5721.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "・・実は&主人公&さんに　相談があるの・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 269,
+   "line": 0,
+   "speaker": "里子",
+   "kind": "대사",
+   "voice": "A5722.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "あのね。・・実は　めぐみにお付き合いしている人が",
+    "ko": ""
+   }
+  },
+  {
+   "window": 269,
+   "line": 1,
+   "speaker": "里子",
+   "kind": "대사",
+   "voice": "A5722.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "いるらしいの・・荒井っていう人・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 270,
+   "line": 0,
+   "speaker": "里子",
+   "kind": "대사",
+   "voice": "A5723.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "あの子最近　夜中にこっそり家を出て行く",
+    "ko": ""
+   }
+  },
+  {
+   "window": 270,
+   "line": 1,
+   "speaker": "里子",
+   "kind": "대사",
+   "voice": "A5723.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "ことがあるの・・ひょっとしてその人と",
+    "ko": ""
+   }
+  },
+  {
+   "window": 270,
+   "line": 2,
+   "speaker": "里子",
+   "kind": "대사",
+   "voice": "A5723.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "外で会ってるんじゃないかしら？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 271,
+   "line": 0,
+   "speaker": "里子",
+   "kind": "대사",
+   "voice": "A5724.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "ちゃんとしたお付き合いなら　認めてもいいんだけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 271,
+   "line": 1,
+   "speaker": "里子",
+   "kind": "대사",
+   "voice": "A5724.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "でもまだあの子　中学生でしょ？　だから心配で・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 272,
+   "line": 0,
+   "speaker": "里子",
+   "kind": "대사",
+   "voice": "A5725.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "主人は　ああいう人だから相談しても",
+    "ko": ""
+   }
+  },
+  {
+   "window": 272,
+   "line": 1,
+   "speaker": "里子",
+   "kind": "대사",
+   "voice": "A5725.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "『男女交際　大いに結構！』とか言うだけだろうし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 273,
+   "line": 0,
+   "speaker": "里子",
+   "kind": "대사",
+   "voice": "A5726.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "&主人公&さん　めぐみにそれとなく聞いて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 273,
+   "line": 1,
+   "speaker": "里子",
+   "kind": "대사",
+   "voice": "A5726.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "もらえないかしら？　あなただったら歳も近いし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 273,
+   "line": 2,
+   "speaker": "里子",
+   "kind": "대사",
+   "voice": "A5726.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "素直に話してくれるんじゃないかなって思って・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 274,
+   "line": 0,
+   "speaker": "里子",
+   "kind": "대기",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "わかりました。聞いてみます。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 274,
+   "line": 1,
+   "speaker": "里子",
+   "kind": "대기",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "微妙な問題なんで・・ちょっと・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 275,
+   "line": 0,
+   "speaker": "里子",
+   "kind": "대사",
+   "voice": "A5727.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "ありがとう。&主人公&さん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 275,
+   "line": 1,
+   "speaker": "里子",
+   "kind": "대사",
+   "voice": "A5727.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "それとこれ　めぐみの机の上にあったの・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 275,
+   "line": 2,
+   "speaker": "里子",
+   "kind": "대사",
+   "voice": "A5727.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "多分　あの子が書いたんだと思うけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 276,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "&主人公&は　謎のポエムを手に入れました。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 277,
+   "line": 0,
+   "speaker": "里子",
+   "kind": "대사",
+   "voice": "A5729.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "@S@・・・@P@そうよね・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 277,
+   "line": 1,
+   "speaker": "里子",
+   "kind": "대사",
+   "voice": "A5729.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "ごめんなさいね。変なお願いしちゃって・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 277,
+   "line": 2,
+   "speaker": "里子",
+   "kind": "대사",
+   "voice": "A5729.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "さっきの話　忘れてね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 278,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 279,
+   "line": 0,
+   "speaker": "里子",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 280,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 281,
+   "line": 0,
+   "speaker": "里子",
+   "kind": "대사",
+   "voice": "A5729.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "@S@・・・@P@そうよね・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 281,
+   "line": 1,
+   "speaker": "里子",
+   "kind": "대사",
+   "voice": "A5729.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "ごめんなさいね。変なお願いしちゃって・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 281,
+   "line": 2,
+   "speaker": "里子",
+   "kind": "대사",
+   "voice": "A5729.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "さっきの話　忘れてね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 282,
+   "line": 0,
+   "speaker": "謎のポエム",
+   "kind": "대사",
+   "voice": "A5730.WAV",
+   "chars": 4,
+   "text": {
+    "ja": "荒井さん",
+    "ko": ""
+   }
+  },
+  {
+   "window": 283,
+   "line": 0,
+   "speaker": "謎のポエム",
+   "kind": "대사",
+   "voice": "A5731.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "荒井さんのほっぺたは　あったかい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 283,
+   "line": 1,
+   "speaker": "謎のポエム",
+   "kind": "대사",
+   "voice": "A5731.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "荒井さんの手は　ちいさくてかわいい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 283,
+   "line": 2,
+   "speaker": "謎のポエム",
+   "kind": "대사",
+   "voice": "A5731.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "荒井さんの目は　黒くてきょろきょろしている。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 284,
+   "line": 0,
+   "speaker": "謎のポエム",
+   "kind": "대사",
+   "voice": "A5732.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "こんなに大好きな荒井さんなのに",
+    "ko": ""
+   }
+  },
+  {
+   "window": 284,
+   "line": 1,
+   "speaker": "謎のポエム",
+   "kind": "대사",
+   "voice": "A5732.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "お父さんにもお母さんにも　内緒にしなきゃならない。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 284,
+   "line": 2,
+   "speaker": "謎のポエム",
+   "kind": "대사",
+   "voice": "A5732.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "こんなにも　大好きな荒井さんなのに・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 285,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5674.WAV",
+   "chars": 6,
+   "text": {
+    "ja": "お早う&主人公&さん！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 285,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5674.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "夕べはよく眠れた？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 286,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 286,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "うん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 287,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5676.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "今日もいい天気だよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 287,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5676.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "それじゃ牛舎に行きましょ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 288,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5675.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "あれ？　まだ寝てるの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 288,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5675.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "おはよー！　朝だよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 288,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5675.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "早く起きて牛舎に行きましょ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 289,
+   "line": 0,
+   "speaker": "説明",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "搾乳の説明を聞きますか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 290,
+   "line": 0,
+   "speaker": "説明",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "はい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 290,
+   "line": 1,
+   "speaker": "説明",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "いいえ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 291,
+   "line": 0,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5679.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "素晴らしい！　すごい才能だよ&主人公&君。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 291,
+   "line": 1,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5679.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "めぐみのサポートも完璧だった！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 291,
+   "line": 2,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5679.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "これからも　この調子で頑張ってくれ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 292,
+   "line": 0,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5680.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "うん。上出来だよ&主人公&君。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 292,
+   "line": 1,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5680.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "めぐみもよく頑張ってくれた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 292,
+   "line": 2,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5680.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "また次もよろしく頼むよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 293,
+   "line": 0,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5681.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "まぁ・・慣れていないから仕方ないね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 293,
+   "line": 1,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5681.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "次からは頑張ってくれ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 294,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5682.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "お疲れさま。&主人公&さん！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 294,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5682.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "一階にお風呂があるから　入ってね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 295,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5733.WAV",
+   "chars": 4,
+   "text": {
+    "ja": "ねぇ&主人公&さん",
+    "ko": ""
+   }
+  },
+  {
+   "window": 295,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5733.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "これから北竜町に行かない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 295,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5733.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "あそこは今　ひまわりが満開なんだよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 296,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "行く",
+    "ko": ""
+   }
+  },
+  {
+   "window": 296,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "行かない",
+    "ko": ""
+   }
+  },
+  {
+   "window": 297,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5734.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "北竜町はバスに乗ればすぐだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 297,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5734.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "それじゃ行きましょ。&主人公&さん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 298,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 299,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 300,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 301,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5685.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "そっか・・それじゃ私　部屋で勉強してるね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 301,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5685.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "これでも一応　受験生だし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 302,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5736.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "うわぁ！　すごい！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 302,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5736.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "こんなにたくさんのひまわり　私　初めて見たよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 302,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5736.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "@8015@あっ！　あそこ『ひまわり迷路』だって。行こ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 303,
+   "line": 0,
+   "speaker": "説明",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "ひまわり迷路の操作説明を見ますか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 304,
+   "line": 0,
+   "speaker": "説明",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "はい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 304,
+   "line": 1,
+   "speaker": "説明",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "いいえ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 305,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5737.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "それじゃ行こう！！　スタート！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 306,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5738.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "あ・・こっちだよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 307,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5739.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "あれ？　・・・こっちかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 308,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5740.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "うーん・・なんか迷っちゃったんじゃない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 309,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5741.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "あっ！　あった！　あれがチェックポイントだよね？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 310,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5742.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "ねぇ！　あそこが出口じゃない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 311,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5743.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "やったぁ！　出口だよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 312,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5744.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "やったね。新記録だって！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 312,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5744.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "&主人公&さんって　すごいね！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 313,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5745.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "ふぅ・・着いたね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 313,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5745.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "ちょっと迷っちゃったけど　すっごく楽しかったよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 314,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5746.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "良かった！　やっと着いたね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 314,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5746.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "私　ずっとあそこから出られなかったら",
+    "ko": ""
+   }
+  },
+  {
+   "window": 314,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5746.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "どうしようって思っちゃった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 315,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5747.WAV",
+   "chars": 5,
+   "text": {
+    "ja": "ねぇ&主人公&さん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 315,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5747.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "ちょっと疲れたから　あそこで休憩しようね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 316,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5748.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "サンフラワーパークホテルだって。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 316,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5748.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "すっごくお洒落な建物だね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 317,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5749.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "サンフラワーってひまわりのことでしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 317,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5749.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "ここは本当にひまわりの町だね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 318,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5750.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "さっき見たパンフレットに書いてあったんだけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 318,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5750.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "ひまわりの花言葉は『あなたは素晴らしい』ですって。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 318,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5750.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "私たち　たくさん誉められちゃったんだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 319,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5751.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "ほら見て！　虹が綺麗だよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 320,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A7654.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "あのね。さっき食事のメニュー見たら",
+    "ko": ""
+   }
+  },
+  {
+   "window": 320,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A7654.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "『ひまわりっ子ラーメン』っていうのがあったんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 321,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A7655.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "ひまわりの花が入ってるのかと思ったら",
+    "ko": ""
+   }
+  },
+  {
+   "window": 321,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A7655.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "ひまわりの芽っていうの？　それが貝割れダイコン",
+    "ko": ""
+   }
+  },
+  {
+   "window": 321,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A7655.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "みたいにのっかってるラーメンだったよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 322,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대기",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "ところでめぐみちゃん。彼氏はいるの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 322,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대기",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "ところでめぐみちゃん。お腹空かない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 323,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5754.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "彼氏なんていないよ。私　一応　受験生だし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 323,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5754.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "同い年の男の子と話しているより　クロちゃんたちと",
+    "ko": ""
+   }
+  },
+  {
+   "window": 323,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5754.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "話してる方が　ずっと楽しいもん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 324,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A7656.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "それじゃせっかくだから　『ひまわりっ子ラーメン』",
+    "ko": ""
+   }
+  },
+  {
+   "window": 324,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A7656.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "食べちゃおうっかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 325,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A7657.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "うわぁ。おいしそう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 325,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A7657.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "いただきまーす！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 326,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "僕はひまわりっ子ラーメンを食べてみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 326,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・うまい！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 327,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "ひまわりの芽は　少しほろ苦い感じで　それが",
+    "ko": ""
+   }
+  },
+  {
+   "window": 327,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "まろやかなスープに絶妙なアクセントを加えている。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 328,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "ひまわりの芽の下には　とろけるように柔らかくて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 328,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "美味しい　チャーシューが隠れていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 329,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "ひまわりの芽とチャーシューだけの　シンプルな",
+    "ko": ""
+   }
+  },
+  {
+   "window": 329,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "ラーメンだが　それだけに　ひまわりの里",
+    "ko": ""
+   }
+  },
+  {
+   "window": 329,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "北竜町ならではのこだわりを感じる。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 330,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A7662.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "さっき聞いたんだけど　ここのひまわりの芽は",
+    "ko": ""
+   }
+  },
+  {
+   "window": 330,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A7662.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "那須高原の農家の人が　サンフラワーパークの",
+    "ko": ""
+   }
+  },
+  {
+   "window": 330,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A7662.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "為だけに栽培してるんだって。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 331,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5756.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "ごちそうさまー！　おいしかったね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 332,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5757.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "あっ！　そろそろ夕方の搾乳の時間だよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 332,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5757.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "牧場に戻らなくっちゃね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 333,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5719.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "あっ！　おかえりなさーい！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 333,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5719.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "そろそろ夕方の搾乳　始める時間だよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 334,
+   "line": 0,
+   "speaker": "説明",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "搾乳の説明を聞きますか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 335,
+   "line": 0,
+   "speaker": "説明",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "はい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 335,
+   "line": 1,
+   "speaker": "説明",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "いいえ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 336,
+   "line": 0,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5679.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "素晴らしい！　すごい才能だよ&主人公&君。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 336,
+   "line": 1,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5679.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "めぐみのサポートも完璧だった！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 336,
+   "line": 2,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5679.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "これからも　この調子で頑張ってくれ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 337,
+   "line": 0,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5680.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "うん。上出来だよ&主人公&君。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 337,
+   "line": 1,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5680.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "めぐみもよく頑張ってくれた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 337,
+   "line": 2,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5680.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "また次もよろしく頼むよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 338,
+   "line": 0,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5681.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "まぁ・・慣れていないから仕方ないね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 338,
+   "line": 1,
+   "speaker": "耕作",
+   "kind": "대사",
+   "voice": "A5681.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "次からは頑張ってくれ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 339,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "さてこれから　どうしようかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 340,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "あれ？　窓の外で何か光ったぞ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 340,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "外に出て　調べてみようか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 341,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "外に出る",
+    "ko": ""
+   }
+  },
+  {
+   "window": 341,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "やっぱりやめる。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 342,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "あ・・あれはめぐみちゃん・・かな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 342,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "僕は・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 343,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "後を付ける",
+    "ko": ""
+   }
+  },
+  {
+   "window": 343,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "やっぱりやめる。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 344,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "どんどん奧に入って行くぞ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 344,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "僕は・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 345,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "後を付ける",
+    "ko": ""
+   }
+  },
+  {
+   "window": 345,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "やっぱりやめる。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 346,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "めぐみちゃん・・・いない。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 346,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "見失っちゃったのかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 347,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5763.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "荒井さん！　会いたかったよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 347,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5763.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "きゃっ！　くすぐったい・・なめちゃダメ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 347,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5763.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "うふふっ・・いや・・変なトコさわんないで！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 348,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "・・・！！　めぐみちゃんの声だ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 348,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "相手は・・荒井さん？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 348,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "焦った僕は枯れ枝を踏んでしまった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 349,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5765.WAV",
+   "chars": 2,
+   "text": {
+    "ja": "誰？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 350,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5766.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "なぁんだ・・&主人公&さんか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 350,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5766.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "びっくりしたぁ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 351,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "めぐみちゃん　こんな所で何してたんだい？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 352,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5768.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "荒井さんに会ってたんだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 353,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "え？　荒井さんって・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 354,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5770.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "紹介するね。アライグマの荒井さんだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 355,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "あ・・あぁ・・アライグマ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 356,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5772.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "あのね。アライグマって気性が荒いんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 356,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5772.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "だから家で飼うときっとクロちゃんや牛たちと",
+    "ko": ""
+   }
+  },
+  {
+   "window": 356,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5772.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "喧嘩すると思って　ここでこっそり飼ってるんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 357,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5773.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "ねぇお願い。このこと　お父さんとお母さんには",
+    "ko": ""
+   }
+  },
+  {
+   "window": 357,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5773.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "内緒にしておいてね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 358,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "うん。いいよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 358,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "でもなぁ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 359,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5774.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "ありがとう。&主人公&さん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 359,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5774.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "あっ！　そろそろ戻らないと",
+    "ko": ""
+   }
+  },
+  {
+   "window": 359,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5774.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "お母さんたちが心配するね。一緒に帰ろ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 360,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 361,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 362,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 363,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5775.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "もうじき鼻黒２号のお産なんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 363,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5775.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "・・あっ！　鼻黒２号っていうのはウチで飼ってる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 363,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5775.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "牛の名前だよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 364,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5776.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "お父さんもお母さんも　今　そのことで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 364,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5776.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "頭がいっぱいだから　それが終わったら",
+    "ko": ""
+   }
+  },
+  {
+   "window": 364,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5776.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "私から　ちゃんと話すね。それでいいでしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 365,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "うん。そうだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 366,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5778.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "そろそろ戻らないと　お母さんたちが心配するね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 366,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5778.WAV",
+   "chars": 6,
+   "text": {
+    "ja": "一緒に帰ろ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 367,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5779.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "それじゃ　&主人公&さん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 367,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "voice": "A5779.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "おやすみなさい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 368,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "おやすみ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 369,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "部屋に戻った。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 369,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "さてこれから　どうしようかな・・",
+    "ko": ""
+   }
+  }
+ ]
+}

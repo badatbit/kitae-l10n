@@ -1,0 +1,8526 @@
+{
+ "script": "KAORU",
+ "source": "ja",
+ "entries": [
+  {
+   "window": 0,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "北１８条駅に着いた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 0,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "さて　どこに行こうか・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "北海大キャンパス",
+    "ko": ""
+   }
+  },
+  {
+   "window": 2,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "北海大キャンパスに着いた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 2,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "奥のベンチに座っている人・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 2,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "どこかで見覚えがあるな・・近づいてみようか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 3,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "近づく",
+    "ko": ""
+   }
+  },
+  {
+   "window": 3,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "やっぱりやめる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 4,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "あっ！　行きの飛行機の中で出会った女性だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 4,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "名前は・・確か・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 5,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "椎名薫さんだ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 5,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "椎崎香さんだ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 5,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "椎名誠さんだ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 6,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "そうだ！　椎名薫さんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 6,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "僕は・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 7,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "そうだ！　椎崎香さん・・だったっけ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 7,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "僕は・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 8,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "そうだ！　椎名誠さん・・だったっけ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 8,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "僕は・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 9,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "話しかける",
+    "ko": ""
+   }
+  },
+  {
+   "window": 9,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "やっぱりやめる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 10,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "あっ！　行きの飛行機の中で出会った女性だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 10,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "名前は・・確か・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 11,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "よく考えたら　まだ聞いてなかったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 11,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "僕は・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 12,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "話しかける",
+    "ko": ""
+   }
+  },
+  {
+   "window": 12,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "やっぱりやめる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 13,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "あの・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 14,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4231.WAV",
+   "chars": 5,
+   "text": {
+    "ja": "@S@・・@P@何か？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 15,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "僕のこと覚えてますか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 15,
+   "line": 1,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "&主人公名前&です。飛行機の中で会った・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 16,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4233.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "ああ・・あの時の・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 16,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4233.WAV",
+   "chars": 5,
+   "text": {
+    "ja": "何かご用？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 17,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "ちょっとお話したくって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 17,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "また会えるなんて運命的だよね",
+    "ko": ""
+   }
+  },
+  {
+   "window": 17,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "ここよく来るんですか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 18,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4234.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "残念ながら私　今は誰かと話したい気分じゃないの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 19,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4235.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "偶然よ。意味のない偶然に理由を求め過ぎると",
+    "ko": ""
+   }
+  },
+  {
+   "window": 19,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4235.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "いつか『運命』に裏切られるわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 20,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4236.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "誰とも話す気分じゃないときは　職場を抜け出して",
+    "ko": ""
+   }
+  },
+  {
+   "window": 20,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4236.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "ここで本を読んでるわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 21,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "よく見ると彼女の着ている白衣に",
+    "ko": ""
+   }
+  },
+  {
+   "window": 21,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "小さなネームプレートが付いていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 21,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "そこには『研修医　椎名薫』と書いてある。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 22,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "・・・・そうか・・椎名薫っていう名前なのか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 23,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4237.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "ねぇ。聞いて。あなたには悪いけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 23,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4237.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "今のこの時間は　私にとって大切なものなの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 24,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4238.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "誰かに怒ったり　怒られたり　指示したり指示されたり",
+    "ko": ""
+   }
+  },
+  {
+   "window": 24,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4238.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "謝ったり謝られたりしている日常と　バランスを",
+    "ko": ""
+   }
+  },
+  {
+   "window": 24,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4238.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "取るために　私には誰とも喋らない時間が必要なの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 25,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4239.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "だから悪いけど　話しかけないでね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 26,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "ごめんなさい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 26,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "でも・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 27,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4240.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "謝る必要はないわ。私の都合なんだから・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 28,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 29,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "彼女は文庫本を開いたまま",
+    "ko": ""
+   }
+  },
+  {
+   "window": 29,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "こちらを振り向こうともしない。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 30,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "なんか迷惑みたいだし・・帰ろうかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 31,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "帰る",
+    "ko": ""
+   }
+  },
+  {
+   "window": 31,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "まだここにいる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 32,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "よし。帰ろう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 33,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "とりあえず話しかけなければいいわけだし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 33,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "もう少しここにいてみよう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 34,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "・・・・・・・・・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 34,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "・・・・・・・・・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 34,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "・・・・・・・・・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 35,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "・・・・・・・・・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 35,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "・・・・・・・・・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 35,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "・・・・・・・・・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 36,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "ふぅ・・退屈だな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 37,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "帰る",
+    "ko": ""
+   }
+  },
+  {
+   "window": 37,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "まだここにいる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 38,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "よし。帰ろう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 39,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "・・・・・・・・・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 39,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "・・・・・・・・・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 39,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "・・・・・・・・・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 40,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "・・・・・・・・・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 40,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "・・・・僕はなぜ　こんな事をしているのだろう・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 41,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "帰る",
+    "ko": ""
+   }
+  },
+  {
+   "window": 41,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "まだここにいる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 42,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4252.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "@S@・・・@P@時間ね。そろそろ戻らなきゃ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 42,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4252.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "さようなら。&主人公&君。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 43,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "いつものベンチに　椎名薫さんが座っている。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 43,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "僕は・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 44,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "話しかける",
+    "ko": ""
+   }
+  },
+  {
+   "window": 44,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "やっぱりやめる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 45,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "お早う。薫さん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 46,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4255.WAV",
+   "chars": 4,
+   "text": {
+    "ja": "お早う。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 47,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "それっきり彼女は　本に集中したまま",
+    "ko": ""
+   }
+  },
+  {
+   "window": 47,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "こちらを見ようとしない。僕は・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 48,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "帰る",
+    "ko": ""
+   }
+  },
+  {
+   "window": 48,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "まだここにいる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 49,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "よし。帰ろう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 50,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "とりあえず話しかけなければいいわけだし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 50,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "もう少しここにいてみよう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 51,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "・・・・・・・・・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 51,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "・・・・・・・・・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 51,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "・・・・・・・・・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 52,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "・・・・・・・・・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 52,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "・・・・・・・・・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 52,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "・・・・・・・・・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 53,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "ふぅ・・退屈だな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 54,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "帰る",
+    "ko": ""
+   }
+  },
+  {
+   "window": 54,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "まだここにいる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 55,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "よし。帰ろう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 56,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "・・・・・・・・・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 56,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "・・・・・・・・・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 56,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "・・・・・・・・・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 57,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "・・・・・・・・・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 57,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "・・・・僕はなぜ　こんな事をしているのだろう・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 58,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "帰る",
+    "ko": ""
+   }
+  },
+  {
+   "window": 58,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "まだここにいる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 59,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4265.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "@S@・・・@P@時間ね。そろそろ戻らなきゃ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 59,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4265.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "さようなら。&主人公&君。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 60,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "いつものベンチに　椎名薫さんが座っている。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 60,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "僕は・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 61,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "話しかける",
+    "ko": ""
+   }
+  },
+  {
+   "window": 61,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "やっぱりやめる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 62,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "お早う。薫さん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 63,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4268.WAV",
+   "chars": 4,
+   "text": {
+    "ja": "お早う。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 64,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "それっきり彼女は　本に集中したまま",
+    "ko": ""
+   }
+  },
+  {
+   "window": 64,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "こちらを見ようとしない。僕は・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 65,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "帰る",
+    "ko": ""
+   }
+  },
+  {
+   "window": 65,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "まだここにいる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 66,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "よし。帰ろう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 67,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "とりあえず話しかけなければいいわけだし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 67,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "もう少しここにいてみよう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 68,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "・・・・・・・・・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 68,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "・・・・・・・・・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 68,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "・・・・・・・・・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 69,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "・・・・・・・・・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 69,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "・・・・・・・・・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 69,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "・・・・・・・・・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 70,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "ふぅ・・退屈だな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 71,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "帰る",
+    "ko": ""
+   }
+  },
+  {
+   "window": 71,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "まだここにいる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 72,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "よし。帰ろう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 73,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "・・・それにしても薫さん・・ずっと黙ったままだな。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 73,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "こう言うことが何日も続くと　僕は・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 74,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "いいかげん頭に来る",
+    "ko": ""
+   }
+  },
+  {
+   "window": 74,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "妙な親密感が湧いてくる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 74,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "だんだん慣れてくる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 75,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "僕はいいかげん　頭に来ていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 75,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "自分の時間を大切にするのもいいけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 75,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "それじゃ　僕の時間はどうなるんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 76,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "５分や１０分　話をしてくれたっていいじゃないか！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 76,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "仕事がどのぐらい大変なのかは知らないけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 76,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "ずっと黙ってるこっちだって大変なんだ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 77,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4279.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "@S@・・・@P@時間ね。そろそろ戻らなきゃ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 77,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4279.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "さようなら。&主人公&君。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 78,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "僕は薫さんに対して　いつのまにか",
+    "ko": ""
+   }
+  },
+  {
+   "window": 78,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "妙な親密感を持つようになっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 79,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "『おはよう』と『さようなら』しか声を交わさない",
+    "ko": ""
+   }
+  },
+  {
+   "window": 79,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "そんな不思議な関係だけど　この青い空の下・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 79,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "同じ場所で　同じ時を過ごしている。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 80,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "僕が札幌に来なかったら　恐らく一生",
+    "ko": ""
+   }
+  },
+  {
+   "window": 80,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "感じることのなかっただろう　そんな感覚・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 81,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4283.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "@S@・・・@P@観光客が観光もしないで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 81,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4283.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "ずっと毎日　北海大キャンパスのベンチに座ってる・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 82,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4284.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "そういう無駄な時間の使い方って",
+    "ko": ""
+   }
+  },
+  {
+   "window": 82,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4284.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "私　嫌いじゃないわよ。そろそろ戻らなきゃ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 82,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4284.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "さようなら。&主人公&君。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 83,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "僕はだんだん　こういう時間の使い方に",
+    "ko": ""
+   }
+  },
+  {
+   "window": 83,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "慣れてきたようだった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 84,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "・・ふと見上げると　ぽっかりと白い雲・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 84,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "ゆっくりゆっくり　青い空を流れている。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 85,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4287.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "@S@・・・@P@観光客が観光もしないで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 85,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4287.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "ずっと毎日　北海大キャンパスのベンチに座ってる・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 86,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4288.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "そういう無駄な時間の使い方って",
+    "ko": ""
+   }
+  },
+  {
+   "window": 86,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4288.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "私　嫌いじゃないわよ。そろそろ戻らなきゃ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 86,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4288.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "さようなら。&主人公&君。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 87,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "いつものベンチに　椎名薫さんが座っている。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 87,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "僕は・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 88,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "話しかける",
+    "ko": ""
+   }
+  },
+  {
+   "window": 88,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "やっぱりやめる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 89,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "お早う。薫さん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 90,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4291.WAV",
+   "chars": 4,
+   "text": {
+    "ja": "お早う。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 90,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4291.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "・・それにしても　あなたって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 90,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4291.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "ほんっと　変な子よね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 91,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4292.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "確か観光客でしょ？　だったらもっと他に",
+    "ko": ""
+   }
+  },
+  {
+   "window": 91,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4292.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "行くべき所が　あるんじゃない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 91,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4292.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "何で毎日ここに来てるの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 92,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "君に興味があるから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 92,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "ただなんとなく",
+    "ko": ""
+   }
+  },
+  {
+   "window": 93,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4293.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "ただなんとなくか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 93,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4293.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "ちょっと羨ましいなぁ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 94,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4294.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "私　いろんなことに理由を求めちゃう・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 94,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4294.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "働く理由・・読書をする理由・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 94,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4294.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "人と会う理由・・怒る理由・・笑う理由・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 95,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4295.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "『ただなんとなく』なんて感覚・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 95,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4295.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "ずっと忘れてたかもしれない・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 95,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4295.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "・・・きっと　心に余裕がないからね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 96,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "バカにしてるの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 96,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "悪いことじゃないよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 96,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "理由にまで理由を求めてるよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 97,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4296.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "まさか・・ただ羨ましいだけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 97,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4296.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "あなたは　私が忘れかけてた大切なものを",
+    "ko": ""
+   }
+  },
+  {
+   "window": 97,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4296.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "持っているのかもしれないわね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 98,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4297.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "そうね。悪いことじゃないわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 98,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4297.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "でも　花を美しいと思う気持ちや",
+    "ko": ""
+   }
+  },
+  {
+   "window": 98,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4297.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "人を好きになる気持ちに　理由なんてないでしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 99,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4298.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "そういう気持ちを　私　忘れかけているのかも",
+    "ko": ""
+   }
+  },
+  {
+   "window": 99,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4298.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "しれないなって・・そう思っただけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 100,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4299.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "あ・・ほんとね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 100,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4299.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "理由を求めたがる気持ちにまで　理由を求めてる・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 100,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4299.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "・・いやになっちゃうな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 101,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4300.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "このまま・・ただなんとなく・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 101,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4300.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "ここに座っていたいけど　そろそろ行かなくっちゃ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 101,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4300.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "研修医には働かなきゃいけない理由がたくさんあるわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 102,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4301.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "ふざけないで。こっちは迷惑よ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 102,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4301.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "それに私　年下には興味がないの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 103,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "ごめんなさい。もう来ないよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 103,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "迷惑なら君が場所を変えればいい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 104,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4302.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "それが賢明ね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 105,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "話しかけるのが迷惑だって言われたから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 105,
+   "line": 1,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "ずっと黙ってたんだ。それでも迷惑なら",
+    "ko": ""
+   }
+  },
+  {
+   "window": 105,
+   "line": 2,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "君が場所を変えればいい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 106,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4304.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "それも考えたわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 106,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4304.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "でもそれじゃ私が　あなたに負けたみたいじゃない。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 107,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4305.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "大学の６年間。そして研修医になって半年・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 107,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4305.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "私はずっとこのベンチで読書をしてたの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 108,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "６年間って留年したの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 108,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "薫さんって研修医だったんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 109,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4306.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "失礼ね。医学部は６年制なの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 109,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4306.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "最初の２年間は　医学進学課程。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 109,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4306.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "その後の４年で　医学専門課程を勉強するわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 110,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4307.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "そうよ。医学部を卒業して医師免許を取った後も",
+    "ko": ""
+   }
+  },
+  {
+   "window": 110,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4307.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "通常　２年間は研修医として働くわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 110,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4307.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "義務じゃないけどね。そこで医師としての技術を・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 111,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4308.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "ちょっと待ってよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 111,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4308.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "何　質問してるのよ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 111,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4308.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "私　あなたと話す気なんてないのよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 112,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "あ・・ごめんなさい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 112,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "君だって答えてたくせに",
+    "ko": ""
+   }
+  },
+  {
+   "window": 113,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4309.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "何で謝るのよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 114,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4310.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "そりゃ聞かれれば・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 115,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4311.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "なんかあなたといると　調子狂っちゃう・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 115,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4311.WAV",
+   "chars": 4,
+   "text": {
+    "ja": "帰るわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 116,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "あ・・危ない。僕はとっさに・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 117,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "神に祈った",
+    "ko": ""
+   }
+  },
+  {
+   "window": 117,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "飛び出して彼女をかばった",
+    "ko": ""
+   }
+  },
+  {
+   "window": 118,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "僕はとっさに　神に祈った",
+    "ko": ""
+   }
+  },
+  {
+   "window": 118,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "エル・イル・アラム・デオミスム！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 118,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "・・・・すると・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 119,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4314.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "ちょっと！　気を付けなさいよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 120,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "薫さんは間一髪でスクーターを避け",
+    "ko": ""
+   }
+  },
+  {
+   "window": 120,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "そのまま病院に戻ってしまった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 120,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "・・仕方ない・・戻ろう・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 121,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "僕はとっさに　飛び出して彼女をかばった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 122,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "うぐっ！！　右の手首に激痛が走る・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 122,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "やがて意識が遠のいて・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 123,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4317.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "@S@・・@P@大丈夫？　大丈夫？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 124,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4318.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "良かった。気がついたみたいね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 125,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "ここは？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 126,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4320.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "北海大病院。あなた　私をかばって飛び出して",
+    "ko": ""
+   }
+  },
+  {
+   "window": 126,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4320.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "それで　スクーターとぶつかっちゃったの・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 127,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "そのスクーターの人は大丈夫？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 127,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "僕の怪我は？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 128,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4321.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "気にしなくてもいいわ。向こうはかすり傷だったから。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 128,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4321.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "でも　あなたは右手首の骨にひびが入って",
+    "ko": ""
+   }
+  },
+  {
+   "window": 128,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4321.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "全治３週間の怪我よ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 129,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4322.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "右手首の骨にひびが入って　全治３週間の怪我よ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 129,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4322.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "ぶつかった相手は　かすり傷で済んだわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 130,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4323.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "３日ぐらい入院することになると思うけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 130,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4323.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "何か欲しい物はある？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 131,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "愛・・かな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 131,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "読書でもしようかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 132,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4324.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "そういう冗談が言えるなら　回復も早いわね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 133,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4325.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "それじゃ私　後で持ってくるわね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 133,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4325.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "@7504@『激突！！』なんてどう？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 134,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "冗談でしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 134,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "面白そうだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 135,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4326.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "もちろん冗談よ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 136,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4327.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "それじゃ。本当に持ってくるわね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 137,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 138,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 139,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 140,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4328.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "それと・・家の人にも連絡しておいた方がいいわね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 141,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "僕は薫さんに東京の実家と春野家の電話番号を教えた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 142,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4330.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "あ・・私そろそろ医局に戻らなきゃ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 142,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4330.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "連絡は　私からしておくわ。それじゃ。お大事に・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 143,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "病室に　ぽつんと取り残されてしまった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 143,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "さて　どうしようかな・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 144,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "A4332.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "お兄ちゃん。怪我しちゃったの？　大丈夫？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 145,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "うん。全治３週間だって。入院は３日。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 146,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A4334.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "おやおや。せっかくの旅行なのに残念だね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 147,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "A4335.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "お見舞い持ってきたんだよ。はい。デコポン。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 148,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "デコポンって何？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 148,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "あ・・それ好きなんだ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 149,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "A4338.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "ほんと？　良かったぁ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 149,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "A4338.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "あ・・右手ダメなんだっけ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 149,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "A4338.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "私　食べさせてあげるね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 150,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "その日以来　僕はますますデコポンが好きになった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 151,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "A4336.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "デコポンは九州の方の果物だよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 151,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "A4336.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "あ・・右手ダメなんだっけ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 151,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "A4336.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "私　食べさせてあげるね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 152,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "その日以来　僕はデコポンが好きになった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 153,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A4340.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "あんまり長居すると　他の患者さんに迷惑だからね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 153,
+   "line": 1,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A4340.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "そろそろ帰るよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 154,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "A4341.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "えー！　もう？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 155,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A4342.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "タオルとか下着の替えとかは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 155,
+   "line": 1,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A4342.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "明日の朝　持ってくるよ。それじゃお大事にね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 156,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "A4343.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "お兄ちゃん。ばいばい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 157,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "病室に　ぽつんと取り残されてしまった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 157,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "さて　どうしようかな・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 158,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "８月６日　午前　北海大病院・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 158,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "ちょっと寝過ごしてしまったようだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 159,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "８月７日　午前　北海大病院・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 159,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "ちょっと寝過ごしてしまったようだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 160,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "８月８日　午前　北海大病院・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 160,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "ちょっと寝過ごしてしまったようだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 161,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "８月９日　午前　北海大病院・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 161,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "ちょっと寝過ごしてしまったようだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 162,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "８月１０日　午前　北海大病院・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 162,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "ちょっと寝過ごしてしまったようだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 163,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "８月１１日　午前　北海大病院・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 163,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "ちょっと寝過ごしてしまったようだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 164,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "８月１２日　午前　北海大病院・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 164,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "ちょっと寝過ごしてしまったようだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 165,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "寝ている間に　琴梨ちゃんたちが来てくれたらしい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 165,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "・・・起こしてくれれば良かったのに・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 166,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "『ファイト！！』って",
+    "ko": ""
+   }
+  },
+  {
+   "window": 166,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "ティッシュの箱に　書かれてもなぁ・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 167,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4348.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "お早う。容態はどう？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 168,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "まぁまぁかな",
+    "ko": ""
+   }
+  },
+  {
+   "window": 168,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "退屈で死にそう",
+    "ko": ""
+   }
+  },
+  {
+   "window": 169,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4349.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "良かったわ。回復している証拠ね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 170,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4350.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "@7500@大丈夫。退屈で死んだ人はまだいないわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 171,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 172,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 173,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 174,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4351.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "ちょっとその辺　散歩しない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 175,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "うん。いいね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 175,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "今はちょっと・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 176,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4352.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "@7501@それじゃ　行きましょ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 177,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4353.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "@S@・・@P@そう・・残念ね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 177,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4353.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "それじゃ私　医局に戻ってるわね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 178,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4354.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "ここが北海大のポプラ並木よ。観光名所としても",
+    "ko": ""
+   }
+  },
+  {
+   "window": 178,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4354.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "有名よね。でも考えたら大学の敷地内に観光名所が",
+    "ko": ""
+   }
+  },
+  {
+   "window": 178,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4354.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "あるなんて　ちょっと珍しいかもね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 179,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4355.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "枝の落下が危険だから　木の真下は歩けないの・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 179,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4355.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "隣の遊歩道を歩きましょ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 180,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4356.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "ここが農学部の園芸場よ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 180,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4356.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "花がたくさん咲いてて綺麗よね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 181,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4357.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "こんな無愛想な女のせいで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 181,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4357.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "あなたの旅行　台無しになっちゃったわね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 181,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4357.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "ごめんね・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 182,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "気にしないでよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 182,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "まぁ・・・ね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 183,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4358.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "@S@・・@P@やさしいのね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 184,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4359.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "本当に・・ごめんね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 185,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4360.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "私いつも・・・自分のことしか",
+    "ko": ""
+   }
+  },
+  {
+   "window": 185,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4360.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "考えていないのかもしれないわね・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 186,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4361.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "自分のライフスタイルを守りたくて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 186,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4361.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "あなたに厳しいこと言っちゃったり・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 187,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4362.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "@S@・・・@P@ひとつだけ　聞かせて。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 187,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4362.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "あなたはなぜ　そんな私に　毎日会いに来たの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 188,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "薫さんが魅力的だから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 188,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "薫さんが寂しそうだったから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 188,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "なんか・・意地になっちゃって・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 189,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 190,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4364.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "そういう風に言われて　悪い気はしないけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 190,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4364.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "・・・なんか　信じられないな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 190,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4364.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "私　欠点だらけの人間だもん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 191,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 192,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4366.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "そうなのかな・・私　寂しいのかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 192,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4366.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "自分じゃそんな　意識ないけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 193,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4367.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "ひょっとしたら　あなたって　ひねくれ者なのかもね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 193,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4367.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "拒まれると　逆にファイト燃やしちゃうタイプ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 193,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4367.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "だとしたら　私と一緒ね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 194,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 195,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 196,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 197,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4368.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "さっ！　そろそろ戻りましょ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 198,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4369.WAV",
+   "chars": 4,
+   "text": {
+    "ja": "あっ！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 199,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "あっ！！　危ない！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 199,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "僕はとっさに・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 200,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "右手で彼女を抱きかかえようとした",
+    "ko": ""
+   }
+  },
+  {
+   "window": 200,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "左手で彼女を抱きかかえようとした",
+    "ko": ""
+   }
+  },
+  {
+   "window": 201,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕はとっさに　右手を出した。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 202,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "・・・・・！！　△▼♂♀☆◎●〒§※！！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 202,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "うぎゃーーーーーーーーーーーーーー！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 203,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "激痛が走る！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 203,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "僕は怪我をした方の手で　薫さんを抱えていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 204,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4374.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "だっ！！　大丈夫？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 205,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "はぁ・・はぁ・・はぁ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 206,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4376.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "うふふっ・・馬鹿ね。病室に戻りましょ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 206,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4376.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "一応　検査してもらった方がいいわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 207,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4377.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "@S@・・・@P@助けてくれて　ありがと。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 208,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕はとっさに　左手を出した。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 209,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "・・・・・！！　△▼♂♀☆◎●〒§※！！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 209,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "あれ？　あれれれれ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 210,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4380.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "ちょっと！　馬鹿！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 211,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4381.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "事故・・よね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 212,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "もちろん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 212,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 213,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4382.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "ほっぺた　大丈夫？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 214,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "大丈夫",
+    "ko": ""
+   }
+  },
+  {
+   "window": 214,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 215,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4385.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "ひょっとして　怒ってる？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 215,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4385.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "・・ごめんなさいね。・・・つい・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 216,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4386.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "わ・・私そろそろ　医局に戻らなくっちゃ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 216,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4386.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "それじゃ・・ね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 217,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4383.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "わ・・私そろそろ　医局に戻らなくっちゃ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 217,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4383.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "それじゃ・・ね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 218,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4384.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "@S@・・@P@ごめんなさい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 219,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4387.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "とりあえず　異常はないみたいだけど。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 219,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4387.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "念のため専門の先生に看てもらったほうがいいわね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 219,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4387.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "私　内科だから・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 220,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4388.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "あ・・私そろそろ　医局に戻らなくっちゃ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 221,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4389.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "そうだ。昨日言ってた本　持ってきたわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 221,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4389.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "『激突！！』よ。それじゃぁね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 222,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "小説『激突！！』を手に入れました。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 222,
+   "line": 1,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "コマンドメニューで　この小説を読むことができます。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 223,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "病室に　ぽつんと取り残されてしまった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 223,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "さて　どうしようかな・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 224,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "８月７日　午前　北海大病院・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 224,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "ちょっと寝過ごしてしまったようだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 225,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "８月８日　午前　北海大病院・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 225,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "ちょっと寝過ごしてしまったようだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 226,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "８月９日　午前　北海大病院・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 226,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "ちょっと寝過ごしてしまったようだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 227,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "８月１０日　午前　北海大病院・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 227,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "ちょっと寝過ごしてしまったようだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 228,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "８月１１日　午前　北海大病院・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 228,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "ちょっと寝過ごしてしまったようだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 229,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "８月１２日　午前　北海大病院・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 229,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "ちょっと寝過ごしてしまったようだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 230,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "８月１３日　午前　北海大病院・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 230,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "ちょっと寝過ごしてしまったようだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 231,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "寝ている間に　琴梨ちゃんたちが来てくれたらしい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 231,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "・・・起こしてくれれば良かったのに・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 232,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "なんかますます賑やかになってきたな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 233,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4394.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "お早う。いよいよ明日　退院ね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 233,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4394.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "ちょっとその辺　散歩しない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 234,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "うん。いいね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 234,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "今はちょっと・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 235,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4395.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "それじゃ　行きましょ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 236,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4396.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "@S@・・@P@そう・・残念ね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 236,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4396.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "それじゃ私　医局に戻ってるわね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 237,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4397.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "ここのお店　良く来るのよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 237,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4397.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "お茶でも飲んでいきましょ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 238,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4398.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "でも不思議よね。初めてあなたと会ったとき",
+    "ko": ""
+   }
+  },
+  {
+   "window": 238,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4398.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "こんな風に　二人で喫茶店に来るなんて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 238,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4398.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "想像もできなかったのに・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 239,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4399.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "あなたって　不思議な男の子よね・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 240,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "趣味について聞く",
+    "ko": ""
+   }
+  },
+  {
+   "window": 240,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "仕事について聞く",
+    "ko": ""
+   }
+  },
+  {
+   "window": 240,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "好みのタイプについて聞く",
+    "ko": ""
+   }
+  },
+  {
+   "window": 241,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4400.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "趣味は読書・・・こう言うと履歴書に書く",
+    "ko": ""
+   }
+  },
+  {
+   "window": 241,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4400.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "プロフィールみたいに無難で平凡だけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 241,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4400.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "実際　その通りだからしょうがないわよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 242,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4401.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "あなたは　どんな本を読んでるの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 243,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "エッセイ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 243,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "ミステリー",
+    "ko": ""
+   }
+  },
+  {
+   "window": 243,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "ファンタジー",
+    "ko": ""
+   }
+  },
+  {
+   "window": 243,
+   "line": 3,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "ＳＦ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 243,
+   "line": 4,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "本はあまり読まない",
+    "ko": ""
+   }
+  },
+  {
+   "window": 244,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4402.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "私も良く読むわ。椎名誠が好き。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 244,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4402.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "写真もいいし　苗字も同じだしね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 245,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4403.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "あっ！　私と一緒ね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 245,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4403.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "私　スティーブン・キングが好きよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 246,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4404.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "あの人の本読んでると　やっぱり一番恐いのは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 246,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4404.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "ゾンビでも吸血鬼でも悪魔でもなくて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 246,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4404.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "『人間の心』なんだなって　そう思うわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 247,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4405.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "あとクーンツも好きよ。Ｄ．Ｒ．クーンツ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 247,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4405.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "ちょっとハーレクイーンみたいな雰囲気もあるけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 247,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4405.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "一級のエンターテイメントよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 248,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4406.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "私もファンタジーはよく読むわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 248,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4406.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "特にエンデが好き。ミヒャエル・エンデ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 248,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4406.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "『モモ』とか『果てしない物語』とかを書いた人よ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 249,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4407.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "ＳＦは高校の頃に　筒井康隆を読んだくらいかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 249,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4407.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "『最高級有機肥料』って小説知ってる？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 249,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4407.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "具体的な内容は説明できないけど　すごいわよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 250,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4408.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "本は読んでおいた方がいいわよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 250,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4408.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "・・人生の楽しみが増えるわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 251,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4409.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "専門は内科よ。でも研修医だからまだ医者らしい仕事は",
+    "ko": ""
+   }
+  },
+  {
+   "window": 251,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4409.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "していない感じね。今は先輩医師の診療内容を",
+    "ko": ""
+   }
+  },
+  {
+   "window": 251,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4409.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "記録するのが仕事かな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 252,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4410.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "太った人を好きになったこともあるし　痩せた人を",
+    "ko": ""
+   }
+  },
+  {
+   "window": 252,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4410.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "好きになったこともあるし　優しい人が好きだったり",
+    "ko": ""
+   }
+  },
+  {
+   "window": 252,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4410.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "強引な人に惹かれたり・・一貫性はない感じね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 253,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4411.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "あのね。東京の人には　信じられないかもしれないけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 253,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4411.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "北海道では　今も街に熊が出るのよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 254,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4412.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "毎年　秋口になると　狸小路なんかにも",
+    "ko": ""
+   }
+  },
+  {
+   "window": 254,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4412.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "冬眠前の熊が下りて来るわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 255,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4413.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "そういうときは『熊警報発令』ってアナウンスがあって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 255,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4413.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "お店も全部シャッターを下ろすの。もちろんお客さんも",
+    "ko": ""
+   }
+  },
+  {
+   "window": 255,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4413.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "その中に入って熊が通りすぎるのを待ってるのよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 256,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4414.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "地元の人は慣れてるから平気だけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 256,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4414.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "時々　観光客が逃げ遅れて　年に２人ぐらい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 256,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4414.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "被害に遭っているわ。あなたも気を付けてね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 257,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "本当？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 257,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "嘘でしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 258,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4416.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "あら？　よくわかったわね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 258,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4416.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "『北海道では』って言葉には　不思議な力があって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 258,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4416.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "前置きでこう言うと　たいていのことは信用されるわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 259,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4415.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "もちろん。嘘よ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 260,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4417.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "さっ！　そろそろ戻りましょ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 261,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4418.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "明日の朝には退院だから　そろそろ荷物を",
+    "ko": ""
+   }
+  },
+  {
+   "window": 261,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4418.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "まとめておくといいわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 261,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4418.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "それじゃ　私　戻るわね。ばいばい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 262,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "病室に　ぽつんと取り残されてしまった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 262,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "さて　どうしようかな・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 263,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "A4420.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "お兄ちゃん。退院できてよかったね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 264,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4421.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "すみません。わたしのせいで・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 265,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A4422.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "あんたが気にすることないさ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 265,
+   "line": 1,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A4422.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "それにしても　&名前&君。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 265,
+   "line": 2,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A4422.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "あんたはホント　運が悪いねぇ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 266,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A4423.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "いや・・そうでもないか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 267,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "A4424.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "え？　何て言ったの？　お母さん？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 268,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A4425.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "そろそろ帰ろうかって言ったのさ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 269,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "A4426.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "賛成。それじゃ先生。お世話になりました。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 270,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A4427.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "お世話さまでした。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 271,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4428.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "退院祝いに食事に行かない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 271,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4428.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "今日　夕方ぐらいから　ここにいるの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 271,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4428.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "もしよかったら　来てね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 272,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "薫は&主人公名前&に",
+    "ko": ""
+   }
+  },
+  {
+   "window": 272,
+   "line": 1,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "『ママ・サブロッソ』のマッチを手渡しました。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 273,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4429.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "それじゃ。さよなら。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 274,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "さようなら。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 275,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "A4431.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "ほんと退院おめでとう。お兄ちゃん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 275,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "A4431.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "事故にあったって聞いたときは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 275,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "A4431.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "ほんと　びっくりしたんだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 276,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "A4432.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "でもお見舞いに行ったら　お兄ちゃん",
+    "ko": ""
+   }
+  },
+  {
+   "window": 276,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "A4432.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "すごく幸せそうな顔して寝てたから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 276,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "A4432.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "なんか安心しちゃった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 277,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A4433.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "でも旅行つぶれちゃって　残念だったね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 278,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "A4434.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "あっ！　そうだ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 278,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "A4434.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "あのね。今日の夕方豊平川で花火大会があるんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 278,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "A4434.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "もしよかったら　一緒に見ない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 279,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "うん。いいね",
+    "ko": ""
+   }
+  },
+  {
+   "window": 279,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "今日の夕方はちょっと・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 280,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "A4435.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "やったー！　楽しみだね。お兄ちゃん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 281,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A4436.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "ちょうどウチのマンションの窓から",
+    "ko": ""
+   }
+  },
+  {
+   "window": 281,
+   "line": 1,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A4436.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "花火がよく見えるんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 281,
+   "line": 2,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A4436.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "退院祝いもかねて　ぱーっとやろうかね・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 282,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "A4437.WAV",
+   "chars": 3,
+   "text": {
+    "ja": "賛成！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 283,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "A4438.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "そっか・・予定があるならしょうがないよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 284,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A4439.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "私たちに遠慮しないで　好きなことするといいよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 284,
+   "line": 1,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A4439.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "帰る日まで　後ちょっとしかないんだからね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 285,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "A4440.WAV",
+   "chars": 5,
+   "text": {
+    "ja": "そうだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 285,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "A4440.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "@0043@・・・あっ！　もうこんな時間・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 285,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "A4440.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "お兄ちゃん　出かけなくて大丈夫？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 286,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "外は既に夕暮れになっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 286,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "・・・そろそろ出かけなくちゃ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 287,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "それじゃ　行ってきます。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 288,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "A4443.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "行ってらっしゃーい！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 289,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A4444.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "はい。行ってらっしゃい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 290,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "A4445.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "お兄ちゃん。そろそろ花火　始まるよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 291,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "A4446.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "わぁ・・綺麗・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 292,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "A4447.WAV",
+   "chars": 6,
+   "text": {
+    "ja": "たーまやー！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 293,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A4448.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "ぱっと開いてぱっと散って・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 293,
+   "line": 1,
+   "speaker": "陽子",
+   "kind": "대사",
+   "voice": "A4448.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "札幌の短い夏@6001@も　こうやって終わっちゃうんだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 294,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "voice": "A4449.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "でもさ・・また来年@6002@も　夏休みはあるよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 295,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "『また来年も　夏休みはある。』",
+    "ko": ""
+   }
+  },
+  {
+   "window": 295,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "・・・怪我をして　入院して・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 295,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "散々な夏休みだったけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 296,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "また来年・・札幌に来ようか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 296,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "琴梨ちゃんの瞳に映る花火を見ながら",
+    "ko": ""
+   }
+  },
+  {
+   "window": 296,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "僕は　そんなことを考えていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 297,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "マッチに書いてある住所だと　確かここだな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 297,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "「ママ・サブロッソ」と看板にも書いてある。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 297,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "入ってみよう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 298,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4453.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "いらっしゃい。来てくれたのね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 298,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4453.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "ここのお店　好きなんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 298,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4453.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "料理もワインもおいしいし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 299,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4454.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "@S@・・@P@ウエイターもハンサムだしね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 299,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4454.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "でも　イタリアンのお店って一人で来ても",
+    "ko": ""
+   }
+  },
+  {
+   "window": 299,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4454.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "あんまりいろんな種類　頼めないじゃない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 300,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4455.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "来てくれて　助かったわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 300,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4455.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "退院おめでとう！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 301,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "いつも一人で来てるの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 301,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "ひょっとして酔ってる？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 302,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4456.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "そうよ。変な女？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 302,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4456.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "今は恋人もいないし　女友達も少ないし。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 302,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4456.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "仕事がらみの人とはプライベートで会いたくないしね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 303,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "何で医者になったの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 303,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "何で僕を誘ったの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 303,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "何で女友達が少ないの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 304,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4457.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "ちょっとだけ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 304,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4457.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "@7505@でもあなたは未成年だからオレンジジュースよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 305,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "何で医者になったの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 305,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "何で僕を誘ったの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 306,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4458.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "私　子供の頃　身体が弱くってね・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 306,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4458.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "ちょっと外で遊んでても　汗が冷えると",
+    "ko": ""
+   }
+  },
+  {
+   "window": 306,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4458.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "ぜいぜい呼吸が苦しくなってた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 307,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4459.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "ドッヂボールとか縄跳びとか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 307,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4459.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "みんなが当たり前に出来ることが",
+    "ko": ""
+   }
+  },
+  {
+   "window": 307,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4459.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "私には出来なくて　それがくやしかった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 308,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4460.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "だったら私は　みんなが出来ないことを",
+    "ko": ""
+   }
+  },
+  {
+   "window": 308,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4460.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "当たり前のように　やってやろうって・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 308,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4460.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "そう思ったの。それで医者になったのかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 309,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4461.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "私も不思議。年下は　趣味じゃないはずなんだけどね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 309,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4461.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "でもね。あなたって　いつも一生懸命だから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 309,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4461.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "それはいいと思ったな。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 310,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4462.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "私の周りにいる男の人って　自分の身を",
+    "ko": ""
+   }
+  },
+  {
+   "window": 310,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4462.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "守るために　平気で他人のことを",
+    "ko": ""
+   }
+  },
+  {
+   "window": 310,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4462.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "悪く言うような　人ばっかりだから・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 311,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4463.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "あなたが　自分のこと全然考えないで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 311,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4463.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "私を守ってくれたことが　うれしかったのかもね・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 312,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4464.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "向こうの方が避けてるんじゃないかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 312,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4464.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "私って　人を寄せ付けないオーラを",
+    "ko": ""
+   }
+  },
+  {
+   "window": 312,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4464.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "出しているらしいんだ。・・自覚はないんだけどね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 313,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4465.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "それに医者って自分の時間が　なかなか持てないから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 313,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4465.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "連絡しないうちに　だんだん疎遠になって行くわね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 314,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4466.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "言ったっけ？　私　子供の頃　体が弱くて・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 314,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4466.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "それで　家の中でいつも本を読んでたわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 314,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4466.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "推理小説・・伝記・・ファンタジー・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 315,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4467.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "エンデの『果てしない物語』って読んだことある？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 315,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4467.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "男の子が本の中の世界に　入っちゃう話・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 315,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4467.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "私　あれに憧れたなぁ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 316,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4468.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "本を開いたときの　わくわくする気持ちに比べて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 316,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4468.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "本を閉じた世界が　ものすごく無味乾燥に思えて・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 316,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4468.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "そういう風に考えちゃう傾向って　今も残ってるわね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 317,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4469.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "スポーツの本も読んでたから　出来ないくせに",
+    "ko": ""
+   }
+  },
+  {
+   "window": 317,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4469.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "知識だけはあったわ。アメフトのルールとか",
+    "ko": ""
+   }
+  },
+  {
+   "window": 317,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4469.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "卓球のドライブサーブの打ち方とか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 318,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4470.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "@S@・・・@P@私　何話してるんだろうね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 318,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4470.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "@7506@ちょっと酔っぱらっちゃったかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 319,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4471.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "ねぇ・・一般論として聞くんだけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 319,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4471.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "年上って好き？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 320,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "好きだよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 320,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "好きじゃないよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 320,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "一般論として言うけど僕は薫さんが好きだよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 321,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4472.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "ふぅん。そういう人もいるのね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 322,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4473.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "@S@・・@P@私たちって　気が合うかもね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 322,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4473.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "前に言ったかもしれないけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 322,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4473.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "私も年下は好きじゃないんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 323,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4474.WAV",
+   "chars": 6,
+   "text": {
+    "ja": "なぁにそれ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 323,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4474.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "全然一般論じゃないじゃない。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 323,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4474.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "うふふ・・おかしな子ね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 324,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 325,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 326,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 327,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4475.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "でも高校生って　いいわよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 327,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4475.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "何にでもなれるでしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 328,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4476.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "２４歳になると　夢ばっかりは見ていられない・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 328,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4476.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "決まった日常の延長に未来があって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 328,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4476.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "それを変えていくのは　結構　エネルギーが必要ね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 329,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4477.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "もちろん　あきらめてるわけじゃない。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 329,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4477.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "・・あきらめてないから　いつもいつも",
+    "ko": ""
+   }
+  },
+  {
+   "window": 329,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4477.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "周りとぶつかっちゃうのかもしれないけどね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 330,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "頑張ってね",
+    "ko": ""
+   }
+  },
+  {
+   "window": 330,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "スクーターともぶつかりそうになったしね",
+    "ko": ""
+   }
+  },
+  {
+   "window": 331,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4478.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "うふふ・・ありがと。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 331,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4478.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "なんか元気になってきたわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 332,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4479.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "あはは・・・そうよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 332,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4479.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "あの時も　ぶつかりそうになって・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 332,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4479.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "それで　あなたが助けてくれたのよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 333,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 334,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 335,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 336,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4480.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "あなたってさ・・よく見るとハンサムよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 336,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4480.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "ねぇ。明日　ドライブに行かない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 337,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4481.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "あなたと会ってると　本を閉じた世界も",
+    "ko": ""
+   }
+  },
+  {
+   "window": 337,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4481.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "悪くないなって　思えてくるの・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 338,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4482.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "温泉にでも一泊して・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 338,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4482.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "あっ！　もちろん部屋は別々。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 338,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4482.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "いいアイディアだと思わない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 339,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "うん。いいよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 339,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "明日はちょっと・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 340,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4483.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "それじゃ決まり。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 340,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4483.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "あの事故で　台無しになっちゃったあなたの旅行が",
+    "ko": ""
+   }
+  },
+  {
+   "window": 340,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4483.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "これでちょっとでもマシになるといいわね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 341,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4484.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "確か　平岸の家に泊まってるのよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 341,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4484.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "明日の朝　迎えに行くから駅前で待っててね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 341,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4484.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "さぁ！　帰るわよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 342,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4485.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "そう。しょうがないわね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 342,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4485.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "それじゃ　私が泥酔する前に帰ろうか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 343,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4486.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "ばいばい。&主人公&君。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 343,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4486.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "あなたきっと　いい男になるわよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 344,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "薫は電話番号の書かれたメモを",
+    "ko": ""
+   }
+  },
+  {
+   "window": 344,
+   "line": 1,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "&主人公名前&に手渡しました。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 345,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "薫の電話番号をＰＨＳに登録しました。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 346,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "平岸駅前に着いた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 346,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "・・・薫さん　まだ来てないみたいだな。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 347,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4488.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "お早う。絶好のオープンカー日和ね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 347,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4488.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "さぁ！　乗って！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 348,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4489.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "まず室蘭の地球岬に行くわね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 349,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4490.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "地球岬って　いい名前よね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 349,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4490.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "本当に地球が　丸く見えるわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 350,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "どうしたの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 351,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4492.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "見て！　キタキツネ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 352,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4493.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "うふふっ・・可愛らしいわね。人に慣れてる感じ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 353,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4494.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "あ・・でもさわっちゃダメよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 353,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4494.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "キタキツネには　エキノコックスっていう",
+    "ko": ""
+   }
+  },
+  {
+   "window": 353,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4494.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "寄生虫がいることが多いの・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 354,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4495.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "人に感染することもあるから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 354,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4495.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "見るだけにしておいてね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 355,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4496.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "それじゃ　そろそろ行きましょうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 355,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4496.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "キツネ君　ばいばい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 356,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "次はどこに行くの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 357,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4498.WAV",
+   "chars": 3,
+   "text": {
+    "ja": "地獄！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 358,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4499.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "ここが登別温泉の地獄谷よ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 358,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4499.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "今日泊まるホテルは　あっち。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 359,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4500.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "ここが今日泊まるホテルよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 359,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4500.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "@7503@あっ・・もちろん部屋は別々ですからね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 360,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4501.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "『まほろば』は天国って意味よ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 360,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4501.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "地獄の後は　天国ね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 361,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4502.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "一人じゃ出来ないもの・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 361,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4502.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "にらめっこ　腕相撲　そして・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 362,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "そして・・何？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 363,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4504.WAV",
+   "chars": 4,
+   "text": {
+    "ja": "卓球！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 364,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4505.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "いくわよ。ドライブサーブ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 365,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4506.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "あっ！　すごい！　本当に曲がった！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 366,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4507.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "うふふっ！　こんなに笑ったのひさしぶりよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 367,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4508.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "あなたと会って　私　大事なことを学んだわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 368,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "え？　何？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 369,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "voice": "A4510.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "年下も　悪くないなってこと・・",
+    "ko": ""
+   }
+  }
+ ]
+}

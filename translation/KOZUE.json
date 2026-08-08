@@ -1,0 +1,8550 @@
+{
+ "script": "KOZUE",
+ "source": "ja",
+ "entries": [
+  {
+   "window": 0,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2734.wav",
+   "chars": 12,
+   "text": {
+    "ja": "はーい。ゆきちゃんだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 0,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2734.wav",
+   "chars": 21,
+   "text": {
+    "ja": "ごめーん！　あのさぁ・・私　平岸のロイズに",
+    "ko": ""
+   }
+  },
+  {
+   "window": 0,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2734.wav",
+   "chars": 16,
+   "text": {
+    "ja": "リブレット忘れて来ちゃったんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2735.wav",
+   "chars": 15,
+   "text": {
+    "ja": "それで　ほんっとに悪いんだけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2735.wav",
+   "chars": 13,
+   "text": {
+    "ja": "取りに行ってくれないかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2735.wav",
+   "chars": 23,
+   "text": {
+    "ja": "お店にはもう電話してあるから　行くだけでＯＫ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 2,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2736.wav",
+   "chars": 19,
+   "text": {
+    "ja": "あっ！　もちろん後でお礼するからさ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 2,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2736.wav",
+   "chars": 18,
+   "text": {
+    "ja": "私　今　４丁目プラザの前にいるんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 2,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2736.wav",
+   "chars": 22,
+   "text": {
+    "ja": "待ってるから絶対来てね。それじゃ　ばいばい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 3,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "ゆきちゃんって誰だ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 3,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "・・・きっと間違い電話だろう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 3,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "僕は・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 4,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気にしないことにした。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 4,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "電話の相手がちょっと気になった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 5,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "・・・彼女・・間違い電話したことに気付かないで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 5,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "ずっと　４丁目プラザの前で待ってるのかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 5,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "確か　平岸のロイズに忘れ物したって言ってたけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 6,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "まぁ間違い電話を気にしてもしょうがないな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 7,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "ロイズ平岸店に着いた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 7,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "中には店員さんがいる。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 7,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "さて　どうしようか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 8,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "中に入る",
+    "ko": ""
+   }
+  },
+  {
+   "window": 8,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "やめる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 9,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "よく考えたら　間違い電話の相手にまで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 9,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "そんなに親切にすることないよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 9,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "やめた。帰ろう・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 10,
+   "line": 0,
+   "speaker": "売り子",
+   "kind": "대사",
+   "voice": "a2741.wav",
+   "chars": 9,
+   "text": {
+    "ja": "いらっしゃいませ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 10,
+   "line": 1,
+   "speaker": "売り子",
+   "kind": "대사",
+   "voice": "a2741.wav",
+   "chars": 14,
+   "text": {
+    "ja": "ご注文はいかが致しましょう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 11,
+   "line": 0,
+   "speaker": "売り子",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "生チョコレート",
+    "ko": ""
+   }
+  },
+  {
+   "window": 11,
+   "line": 1,
+   "speaker": "売り子",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "生チョコオーレ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 11,
+   "line": 2,
+   "speaker": "売り子",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "そうじゃなくて・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 12,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 13,
+   "line": 0,
+   "speaker": "売り子",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 14,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 14,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "しかし彼女は再び明るく・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 15,
+   "line": 0,
+   "speaker": "売り子",
+   "kind": "대사",
+   "voice": "a2741.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "いらっしゃいませ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 15,
+   "line": 1,
+   "speaker": "売り子",
+   "kind": "대사",
+   "voice": "a2741.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "ご注文はいかが致しましょう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 16,
+   "line": 0,
+   "speaker": "売り子",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "生チョコレート",
+    "ko": ""
+   }
+  },
+  {
+   "window": 16,
+   "line": 1,
+   "speaker": "売り子",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "生チョコオーレ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 16,
+   "line": 2,
+   "speaker": "売り子",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "そうじゃなくて・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 17,
+   "line": 0,
+   "speaker": "売り子",
+   "kind": "대사",
+   "voice": "A2743.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "ありがとうございました。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 18,
+   "line": 0,
+   "speaker": "売り子",
+   "kind": "대사",
+   "voice": "A2742.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "ありがとうございました。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 19,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "そうじゃなくて　忘れ物を取りに来たんです。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 20,
+   "line": 0,
+   "speaker": "売り子",
+   "kind": "대사",
+   "voice": "A2745.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "あ・・ごめんなさい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 20,
+   "line": 1,
+   "speaker": "売り子",
+   "kind": "대사",
+   "voice": "A2745.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "えーと・・ノートパソコンのお忘れ物ですね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 20,
+   "line": 2,
+   "speaker": "売り子",
+   "kind": "대사",
+   "voice": "A2745.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "こちらにあります。どうぞ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 21,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "『リブレット』を手に入れました。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 22,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "さて　どうしようか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 23,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "선택지",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "チョコレートを買う",
+    "ko": ""
+   }
+  },
+  {
+   "window": 23,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "선택지",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "店員に話しかける",
+    "ko": ""
+   }
+  },
+  {
+   "window": 23,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "선택지",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "店を出る",
+    "ko": ""
+   }
+  },
+  {
+   "window": 24,
+   "line": 0,
+   "speaker": "売り子",
+   "kind": "대사",
+   "voice": "A2748.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "はい。何をお求めですか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 25,
+   "line": 0,
+   "speaker": "売り子",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "生チョコレート",
+    "ko": ""
+   }
+  },
+  {
+   "window": 25,
+   "line": 1,
+   "speaker": "売り子",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "生チョコオーレ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 26,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 27,
+   "line": 0,
+   "speaker": "売り子",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 28,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 28,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "しかし彼女は再び明るく・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 29,
+   "line": 0,
+   "speaker": "売り子",
+   "kind": "대사",
+   "voice": "a2748.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "はい。何をお求めですか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 30,
+   "line": 0,
+   "speaker": "売り子",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "生チョコレート",
+    "ko": ""
+   }
+  },
+  {
+   "window": 30,
+   "line": 1,
+   "speaker": "売り子",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "生チョコオーレ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 31,
+   "line": 0,
+   "speaker": "売り子",
+   "kind": "대사",
+   "voice": "a2742.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "ありがとうございました。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 32,
+   "line": 0,
+   "speaker": "売り子",
+   "kind": "대사",
+   "voice": "a2742.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "ありがとうございました。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 33,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "あの・・忘れ物を取りに来たんです。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 34,
+   "line": 0,
+   "speaker": "売り子",
+   "kind": "대사",
+   "voice": "A2749.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "あ・・はい。ノートパソコンのお忘れ物ですね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 34,
+   "line": 1,
+   "speaker": "売り子",
+   "kind": "대사",
+   "voice": "A2749.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "こちらにあります。どうぞ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 35,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "『リブレット』を手に入れました。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 36,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "よし。外に出よう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 37,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "よし。外に出よう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 37,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "確か　このノートパソコンを持って",
+    "ko": ""
+   }
+  },
+  {
+   "window": 37,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "４丁目プラザに行けばいいんだっけな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 38,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2752.wav",
+   "chars": 12,
+   "text": {
+    "ja": "はーい。ゆきちゃんだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 38,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2752.wav",
+   "chars": 11,
+   "text": {
+    "ja": "ねぇ。今どこにいるの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 39,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "４丁目プラザ前だよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 40,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2754.wav",
+   "chars": 16,
+   "text": {
+    "ja": "え？　どこ？　いないじゃない・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 41,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "僕はまだ顔も知らない『彼女』を探した。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 41,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "今　電話中と言うことは携帯電話を持っている",
+    "ko": ""
+   }
+  },
+  {
+   "window": 41,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "女の子を捜せば・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 42,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "げげっ！　・・彼女が・・？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 43,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "ふぅ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 44,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2758.wav",
+   "chars": 12,
+   "text": {
+    "ja": "もしもし！　もしもーし！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 45,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2759.wav",
+   "chars": 8,
+   "text": {
+    "ja": "あれ・・あなた？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 45,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2759.wav",
+   "chars": 13,
+   "text": {
+    "ja": "蒼き月の夜さんじゃないの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 46,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "うん",
+    "ko": ""
+   }
+  },
+  {
+   "window": 46,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대기",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "蒼き月の夜さんって誰？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 46,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "僕が蒼き月の夜だよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 47,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2762.wav",
+   "chars": 18,
+   "text": {
+    "ja": "うそよ。声は似てるけど顔は全然違う。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 47,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2762.wav",
+   "chars": 18,
+   "text": {
+    "ja": "私　蒼き月の夜さんに電話したのに・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 47,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2762.wav",
+   "chars": 13,
+   "text": {
+    "ja": "何であなたがここにいるの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 48,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2761.wav",
+   "chars": 16,
+   "text": {
+    "ja": "蒼き月の夜さんは　私のお友達よ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 48,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2761.wav",
+   "chars": 22,
+   "text": {
+    "ja": "私　蒼き月の夜さんに電話したつもりなのに・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 48,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2761.wav",
+   "chars": 13,
+   "text": {
+    "ja": "何であなたがここにいるの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 49,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2760.wav",
+   "chars": 12,
+   "text": {
+    "ja": "うんって言われたって・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 49,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2760.wav",
+   "chars": 18,
+   "text": {
+    "ja": "それじゃ　何であなたがここにいるの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 50,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2763.wav",
+   "chars": 19,
+   "text": {
+    "ja": "ひょっとして私　間違い電話しちゃった？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 51,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "そうだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 51,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "いや。違うよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 52,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2777.wav",
+   "chars": 8,
+   "text": {
+    "ja": "じゃぁ何なのよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 53,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대기",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "間違いじゃなくて運命だったんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 53,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 54,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2778.wav",
+   "chars": 20,
+   "text": {
+    "ja": "何よそれ？　結局　間違い電話なんでしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 55,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2779.wav",
+   "chars": 9,
+   "text": {
+    "ja": "何　黙ってるのよ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 55,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2779.wav",
+   "chars": 14,
+   "text": {
+    "ja": "結局　間違い電話なんでしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 56,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2764.wav",
+   "chars": 18,
+   "text": {
+    "ja": "でもね。・・でもね。ちょっと待って！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 56,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2764.wav",
+   "chars": 23,
+   "text": {
+    "ja": "あなたが手に持ってるの　私のリブレットでしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 56,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2764.wav",
+   "chars": 23,
+   "text": {
+    "ja": "間違い電話なのに　何でそれ持ってきてくれたの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 57,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대기",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "困ってる雰囲気だったから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 57,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대기",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "君に興味があったから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 58,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2765.wav",
+   "chars": 11,
+   "text": {
+    "ja": "@S@・・@P@あ・・ありがとう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 58,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2765.wav",
+   "chars": 16,
+   "text": {
+    "ja": "でもあなたって　変わってるよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 58,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2765.wav",
+   "chars": 20,
+   "text": {
+    "ja": "間違い電話の相手にまで　親切だなんて・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 59,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2766.wav",
+   "chars": 13,
+   "text": {
+    "ja": "それって口説いてるつもり？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 59,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2766.wav",
+   "chars": 13,
+   "text": {
+    "ja": "・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 60,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2767.wav",
+   "chars": 17,
+   "text": {
+    "ja": "間違い電話を頼りに　女の子に会いに",
+    "ko": ""
+   }
+  },
+  {
+   "window": 60,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2767.wav",
+   "chars": 18,
+   "text": {
+    "ja": "来るような人って　なんか危なくない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 60,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2767.wav",
+   "chars": 21,
+   "text": {
+    "ja": "そういうタイプには　私　興味持てないな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 61,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2771.wav",
+   "chars": 11,
+   "text": {
+    "ja": "なんか・・怪しいな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 61,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2771.wav",
+   "chars": 23,
+   "text": {
+    "ja": "まぁ　リブレット持ってきてくれたことに対しては",
+    "ko": ""
+   }
+  },
+  {
+   "window": 61,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2771.wav",
+   "chars": 10,
+   "text": {
+    "ja": "お礼を言うけどね・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 62,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "『リブレット』を手渡しました。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 63,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2768.wav",
+   "chars": 24,
+   "text": {
+    "ja": "あれ？　あなた・・ロイズの生チョコ持ってるのね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 63,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2768.wav",
+   "chars": 23,
+   "text": {
+    "ja": "それってひょっとして　私に買ってきてくれたの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 64,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "もちろん",
+    "ko": ""
+   }
+  },
+  {
+   "window": 64,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "違うよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 65,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2776.wav",
+   "chars": 12,
+   "text": {
+    "ja": "なぁんだ。つまんないの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 65,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2776.wav",
+   "chars": 11,
+   "text": {
+    "ja": "それじゃ　ばいばーい！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 66,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2769.wav",
+   "chars": 11,
+   "text": {
+    "ja": "すごい！　親切さんだ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 66,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2769.wav",
+   "chars": 21,
+   "text": {
+    "ja": "@5525@ひょっとして　それが私の大好物だってことも",
+    "ko": ""
+   }
+  },
+  {
+   "window": 66,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2769.wav",
+   "chars": 15,
+   "text": {
+    "ja": "知ってて　買ってきてくれたの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 67,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "もちろん%２%",
+    "ko": ""
+   }
+  },
+  {
+   "window": 67,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "違うよ%２%",
+    "ko": ""
+   }
+  },
+  {
+   "window": 68,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2770.wav",
+   "chars": 23,
+   "text": {
+    "ja": "初めて会ったのに　何でそんなこと知ってるのよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 68,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2770.wav",
+   "chars": 23,
+   "text": {
+    "ja": "あっ！　あなた　ひょっとしてストーカーでしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 69,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "違うよ%３%",
+    "ko": ""
+   }
+  },
+  {
+   "window": 69,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대기",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 70,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2771.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "なんか・・怪しいな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 70,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2771.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "@5526@まぁ　リブレット持ってきてくれたことに対しては",
+    "ko": ""
+   }
+  },
+  {
+   "window": 70,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2771.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "お礼を言うけどね・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 71,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2772.wav",
+   "chars": 15,
+   "text": {
+    "ja": "やっぱりストーカーなんでしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 71,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2772.wav",
+   "chars": 12,
+   "text": {
+    "ja": "そういうの　やめてよね！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 72,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2773.wav",
+   "chars": 13,
+   "text": {
+    "ja": "そうよね。初めて会ったのに",
+    "ko": ""
+   }
+  },
+  {
+   "window": 72,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2773.wav",
+   "chars": 24,
+   "text": {
+    "ja": "そんなこと知ってたら　まるでストーカーだもんね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 73,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "『生チョコオーレ』を手渡しました。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 74,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "『生チョコレート』を手渡しました。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 75,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2774.wav",
+   "chars": 17,
+   "text": {
+    "ja": "それじゃ　今日はどうもありがとう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 75,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2774.wav",
+   "chars": 6,
+   "text": {
+    "ja": "ばいばーい！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 76,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2775.wav",
+   "chars": 14,
+   "text": {
+    "ja": "@S@・・・・@P@あっ！　思い出した。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 76,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2775.wav",
+   "chars": 21,
+   "text": {
+    "ja": "さっきからどこかで見た顔だなと思ってたけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 76,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2775.wav",
+   "chars": 24,
+   "text": {
+    "ja": "テイネオリンピアで会った鮎ちゃんの彼氏じゃない。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 77,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2776.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "なぁんだ。つまんないの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 77,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2776.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "それじゃ　ばいばーい！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 78,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2780.wav",
+   "chars": 14,
+   "text": {
+    "ja": "もしもし。私。誰だかわかる？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 79,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "鮎ちゃん？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 79,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "ゆきちゃん？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 79,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 80,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2781.wav",
+   "chars": 19,
+   "text": {
+    "ja": "半分正解。ゆきちゃんは私のハンドルよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 81,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대기",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "ハンドルって何？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 81,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대기",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "ふーん。そうなんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 82,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2782.wav",
+   "chars": 20,
+   "text": {
+    "ja": "パソ通とかで呼び合う　あだ名のことだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 82,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2782.wav",
+   "chars": 21,
+   "text": {
+    "ja": "あっ　ちなみにパソ通はパソコン通信の略ね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 83,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2783.wav",
+   "chars": 19,
+   "text": {
+    "ja": "何で『ゆきちゃん』って言うか知ってる？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 83,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2783.wav",
+   "chars": 16,
+   "text": {
+    "ja": "あのね。私がパソ通初心者だった頃",
+    "ko": ""
+   }
+  },
+  {
+   "window": 83,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2783.wav",
+   "chars": 21,
+   "text": {
+    "ja": "もらったメールを読まないで捨てちゃったの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 84,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2784.wav",
+   "chars": 24,
+   "text": {
+    "ja": "それでみんなから『白ヤギさん』って言われちゃって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 84,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2784.wav",
+   "chars": 21,
+   "text": {
+    "ja": "でもそれじゃあんまりだから『ゆきちゃん』に",
+    "ko": ""
+   }
+  },
+  {
+   "window": 84,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2784.wav",
+   "chars": 19,
+   "text": {
+    "ja": "変えたんだ。ハイジの飼ってる白ヤギよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 85,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2785.wav",
+   "chars": 6,
+   "text": {
+    "ja": "わからない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 85,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2785.wav",
+   "chars": 12,
+   "text": {
+    "ja": "・・・無理もないわよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 85,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2785.wav",
+   "chars": 17,
+   "text": {
+    "ja": "実は私　その件で電話したんだもん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 86,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2786.wav",
+   "chars": 20,
+   "text": {
+    "ja": "あのね。私　また忘れものしちゃったんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 86,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2786.wav",
+   "chars": 10,
+   "text": {
+    "ja": "何　忘れたかわかる？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 86,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2786.wav",
+   "chars": 12,
+   "text": {
+    "ja": "・・うふふ・・自己紹介。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 87,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2787.wav",
+   "chars": 13,
+   "text": {
+    "ja": "あれだけ親切にしてもらって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 87,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2787.wav",
+   "chars": 15,
+   "text": {
+    "ja": "名前も言わないのは失礼でしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 88,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2788.wav",
+   "chars": 19,
+   "text": {
+    "ja": "私の名前は里中梢。大里高校の２年生よ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 88,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2788.wav",
+   "chars": 14,
+   "text": {
+    "ja": "趣味はアニメ全般とパソコン。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 88,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2788.wav",
+   "chars": 8,
+   "text": {
+    "ja": "あなたの名前は？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 89,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "&主人公名前&。東京から来た高校２年生。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 90,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2790.wav",
+   "chars": 16,
+   "text": {
+    "ja": "高２？　じゃあ私とドンパなんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 91,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "ドンパって何？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 91,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "ああ。ドンパだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 92,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2791.wav",
+   "chars": 15,
+   "text": {
+    "ja": "え？　知らないの？　ドンパ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 92,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2791.wav",
+   "chars": 15,
+   "text": {
+    "ja": "ひょっとして　方言なのかなぁ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 92,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2791.wav",
+   "chars": 14,
+   "text": {
+    "ja": "ドンパは　同い年って意味よ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 93,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2792.wav",
+   "chars": 23,
+   "text": {
+    "ja": "でもさぁ・・ドンパって　何が語源なんだろうね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 93,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2792.wav",
+   "chars": 24,
+   "text": {
+    "ja": "私　『同派』・・つまり同じ派閥っていうのに一票。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 94,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2793.wav",
+   "chars": 19,
+   "text": {
+    "ja": "実は　さっきまで私　日記つけてたんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 94,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2793.wav",
+   "chars": 22,
+   "text": {
+    "ja": "で　あなたのこと書こうと思って気づいたんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 94,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2793.wav",
+   "chars": 18,
+   "text": {
+    "ja": "そう言えば　名前聞いてないなって・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 95,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2794.wav",
+   "chars": 23,
+   "text": {
+    "ja": "私　そういうの気になると眠れないタチなのよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 95,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2794.wav",
+   "chars": 22,
+   "text": {
+    "ja": "それで携帯の履歴調べて　ここに電話したわけ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 96,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2795.wav",
+   "chars": 24,
+   "text": {
+    "ja": "今　リブレットのアドレス帳にも登録しておいたから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 96,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2795.wav",
+   "chars": 19,
+   "text": {
+    "ja": "これからはいつでも間違い電話できるよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 96,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2795.wav",
+   "chars": 11,
+   "text": {
+    "ja": "それじゃ。ばいばーい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 97,
+   "line": 0,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2796.wav",
+   "chars": 16,
+   "text": {
+    "ja": "バイオなんて簡単に言うけどさぁ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 97,
+   "line": 1,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2796.wav",
+   "chars": 24,
+   "text": {
+    "ja": "遺伝子工学って　もうやり尽くしてる感じしないか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 97,
+   "line": 2,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2796.wav",
+   "chars": 22,
+   "text": {
+    "ja": "最近はアニメも漫画も小説もそればっかだろ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 98,
+   "line": 0,
+   "speaker": "けあふりぃ",
+   "kind": "대사",
+   "voice": "a2797.wav",
+   "chars": 14,
+   "text": {
+    "ja": "実はパソコンにもバイオが・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 99,
+   "line": 0,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2798.wav",
+   "chars": 21,
+   "text": {
+    "ja": "関係ないだろ！　だから今回の同人のテーマは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 99,
+   "line": 1,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2798.wav",
+   "chars": 18,
+   "text": {
+    "ja": "そういうのやめてさ　いっそのこと・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 100,
+   "line": 0,
+   "speaker": "けあふりぃ",
+   "kind": "대사",
+   "voice": "a2799.wav",
+   "chars": 15,
+   "text": {
+    "ja": "チアガール探偵とか・・・激爆！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 101,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2800.wav",
+   "chars": 7,
+   "text": {
+    "ja": "かっこ笑い・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 102,
+   "line": 0,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2801.wav",
+   "chars": 17,
+   "text": {
+    "ja": "メケメケなこと言ってんじゃねぇよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 102,
+   "line": 1,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2801.wav",
+   "chars": 17,
+   "text": {
+    "ja": "ゆきちゃんさんまで一緒になって・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 103,
+   "line": 0,
+   "speaker": "けあふりぃ",
+   "kind": "대사",
+   "voice": "a2802.wav",
+   "chars": 25,
+   "text": {
+    "ja": "固いテーマはやめて　ファンブック作りたいんですわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 104,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2803.wav",
+   "chars": 17,
+   "text": {
+    "ja": "はーい！　私　七草本がいいでーす！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 105,
+   "line": 0,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2804.wav",
+   "chars": 20,
+   "text": {
+    "ja": "だったらまだ　バイオ物の方がましだって！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 106,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2805.wav",
+   "chars": 8,
+   "text": {
+    "ja": "七草本がいいの！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 107,
+   "line": 0,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2806.wav",
+   "chars": 21,
+   "text": {
+    "ja": "あ・・まぁ・・否定するわけじゃないけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 108,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2807.wav",
+   "chars": 19,
+   "text": {
+    "ja": "ねぇねぇ！　みんなで七草の歌作ろうよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 108,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2807.wav",
+   "chars": 17,
+   "text": {
+    "ja": "替え歌にしたらカラオケでも歌えるし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 108,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2807.wav",
+   "chars": 15,
+   "text": {
+    "ja": "ＣＤにだって録音できるんだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 109,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2808.wav",
+   "chars": 18,
+   "text": {
+    "ja": "あのさあのさ！　歌詞の内容が七草粥の",
+    "ko": ""
+   }
+  },
+  {
+   "window": 109,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2808.wav",
+   "chars": 23,
+   "text": {
+    "ja": "作り方になってたら　ちょっと素敵だと思わない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 110,
+   "line": 0,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2809.wav",
+   "chars": 18,
+   "text": {
+    "ja": "まぁ・・言いたいこともわかるけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 111,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "あの子は４丁目プラザの前で会った・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 111,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "たしか・・里中梢ちゃんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 111,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "僕は・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 112,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "声をかける",
+    "ko": ""
+   }
+  },
+  {
+   "window": 112,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "黙っている",
+    "ko": ""
+   }
+  },
+  {
+   "window": 113,
+   "line": 0,
+   "speaker": "けあふりぃ",
+   "kind": "대사",
+   "voice": "a2811.wav",
+   "chars": 16,
+   "text": {
+    "ja": "やはり七草はミニスカの魅力が・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 114,
+   "line": 0,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2812.wav",
+   "chars": 16,
+   "text": {
+    "ja": "そんなのばっか見てんじゃねぇよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 115,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2813.wav",
+   "chars": 24,
+   "text": {
+    "ja": "きっつい言い方・・そんなのって　ないと思うな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 116,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "こんにちは。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 117,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2815.wav",
+   "chars": 15,
+   "text": {
+    "ja": "あっ！　あなた！　あの時の・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 118,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2816.wav",
+   "chars": 18,
+   "text": {
+    "ja": "紹介するね。こっちが蒼き月の夜さん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 118,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2816.wav",
+   "chars": 15,
+   "text": {
+    "ja": "@0047@で　こっちが　けあふりぃさん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 119,
+   "line": 0,
+   "speaker": "けあふりぃ",
+   "kind": "대사",
+   "voice": "a2817.wav",
+   "chars": 12,
+   "text": {
+    "ja": "よろしくお願いしますわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 120,
+   "line": 0,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2818.wav",
+   "chars": 7,
+   "text": {
+    "ja": "@S@・・@P@よろしく。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 121,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "初めまして。&主人公名前&です。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 122,
+   "line": 0,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2819.wav",
+   "chars": 22,
+   "text": {
+    "ja": "@S@・・@P@確か　テイネオリンピアで会ってるよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 123,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2820.wav",
+   "chars": 17,
+   "text": {
+    "ja": "あっ！　そうそう。良く覚えてるね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 124,
+   "line": 0,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2821.wav",
+   "chars": 5,
+   "text": {
+    "ja": "@S@・・@P@ふん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 125,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2822.wav",
+   "chars": 9,
+   "text": {
+    "ja": "あっ！　あれ見て！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 126,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2823.wav",
+   "chars": 17,
+   "text": {
+    "ja": "屋台の冷やし中華なんて　珍しいね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 126,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2823.wav",
+   "chars": 8,
+   "text": {
+    "ja": "入ってみようか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 127,
+   "line": 0,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2824.wav",
+   "chars": 15,
+   "text": {
+    "ja": "どうせ　まずいに決まってるよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 128,
+   "line": 0,
+   "speaker": "けあふりぃ",
+   "kind": "대사",
+   "voice": "a2825.wav",
+   "chars": 14,
+   "text": {
+    "ja": "まぁまぁ・・行きましょうや。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 128,
+   "line": 1,
+   "speaker": "けあふりぃ",
+   "kind": "대사",
+   "voice": "a2825.wav",
+   "chars": 5,
+   "text": {
+    "ja": "ね。&主人公&さん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 129,
+   "line": 0,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2826.wav",
+   "chars": 23,
+   "text": {
+    "ja": "@S@・・@P@ったく！　・・ったく！　やってらんねぇよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 129,
+   "line": 1,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2826.wav",
+   "chars": 18,
+   "text": {
+    "ja": "何なんだよ！　あの女！　・・ったく！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 130,
+   "line": 0,
+   "speaker": "けあふりぃ",
+   "kind": "대사",
+   "voice": "a2827.wav",
+   "chars": 22,
+   "text": {
+    "ja": "近くの公衆トイレで　頭洗った方がいいですわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 131,
+   "line": 0,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2828.wav",
+   "chars": 12,
+   "text": {
+    "ja": "公衆トイレで　頭を洗う？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 131,
+   "line": 1,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2828.wav",
+   "chars": 5,
+   "text": {
+    "ja": "この俺が？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 132,
+   "line": 0,
+   "speaker": "けあふりぃ",
+   "kind": "대사",
+   "voice": "a2829.wav",
+   "chars": 19,
+   "text": {
+    "ja": "そのままじゃ地下鉄にも乗れないですわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 133,
+   "line": 0,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2830.wav",
+   "chars": 14,
+   "text": {
+    "ja": "ったく！　行けばいいんだろ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 133,
+   "line": 1,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2830.wav",
+   "chars": 17,
+   "text": {
+    "ja": "・・・行って来るよ！　ちきしょー！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 134,
+   "line": 0,
+   "speaker": "けあふりぃ",
+   "kind": "대사",
+   "voice": "a2831.wav",
+   "chars": 18,
+   "text": {
+    "ja": "私もちょっと　ヤボ用があるんですわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 135,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2832.wav",
+   "chars": 14,
+   "text": {
+    "ja": "@S@・・@P@くっ・・くっ・・くっ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 136,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "・・・梢・・ちゃん・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 137,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2834.wav",
+   "chars": 17,
+   "text": {
+    "ja": "@S@・・@P@くっくっくっ・・あははははは！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 137,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2834.wav",
+   "chars": 11,
+   "text": {
+    "ja": "あー！　おかしかった！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 137,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2834.wav",
+   "chars": 22,
+   "text": {
+    "ja": "おかしくって・・笑いこらえるの必死だったわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 138,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2835.wav",
+   "chars": 20,
+   "text": {
+    "ja": "だって　頭から冷やし中華かぶった人なんて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 138,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2835.wav",
+   "chars": 16,
+   "text": {
+    "ja": "私　生まれて初めて見たんだもん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 139,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대기",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "ほんと笑っちゃうよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 139,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대기",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 140,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2836.wav",
+   "chars": 19,
+   "text": {
+    "ja": "私が蒼き月の夜さんを笑うのは楽しいけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 140,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2836.wav",
+   "chars": 20,
+   "text": {
+    "ja": "あなたが蒼き月の夜さんを笑うのを見てると",
+    "ko": ""
+   }
+  },
+  {
+   "window": 140,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2836.wav",
+   "chars": 9,
+   "text": {
+    "ja": "なんか　頭に来る。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 141,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2837.wav",
+   "chars": 16,
+   "text": {
+    "ja": "あんまり笑っちゃうと　失礼よね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 141,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2837.wav",
+   "chars": 21,
+   "text": {
+    "ja": "でも　あのおでこのナルトとか思い出すと・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 141,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2837.wav",
+   "chars": 13,
+   "text": {
+    "ja": "・・くくくっ・・もうダメ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 142,
+   "line": 0,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2838.wav",
+   "chars": 14,
+   "text": {
+    "ja": "ったく！　やってらんねーよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 142,
+   "line": 1,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2838.wav",
+   "chars": 10,
+   "text": {
+    "ja": "ひでぇ目にあった・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 143,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2839.wav",
+   "chars": 20,
+   "text": {
+    "ja": "ほんと災難よね・・頭から・・くくくっ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 143,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2839.wav",
+   "chars": 12,
+   "text": {
+    "ja": "・・冷やし中華なんて・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 144,
+   "line": 0,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2840.wav",
+   "chars": 14,
+   "text": {
+    "ja": "わっ！　笑うなよ・・ったく！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 145,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a7423.wav",
+   "chars": 15,
+   "text": {
+    "ja": "ごめんごめん！　・・ごめんね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 145,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a7423.wav",
+   "chars": 21,
+   "text": {
+    "ja": "お詫びのしるしに　コーヒーおごってあげる。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 146,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a7424.wav",
+   "chars": 18,
+   "text": {
+    "ja": "宮越屋珈琲のホールステアーズカフェ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 146,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a7424.wav",
+   "chars": 16,
+   "text": {
+    "ja": "・・七草の聖地だよ。いいでしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 147,
+   "line": 0,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2842.wav",
+   "chars": 10,
+   "text": {
+    "ja": "まぁ・・いいけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 148,
+   "line": 0,
+   "speaker": "けあふりぃ",
+   "kind": "대사",
+   "voice": "A7425.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "聖地・ホールステアーズカフェですとな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 148,
+   "line": 1,
+   "speaker": "けあふりぃ",
+   "kind": "대사",
+   "voice": "A7425.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "それ　魅力ですわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 149,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2844.wav",
+   "chars": 17,
+   "text": {
+    "ja": "けあふりぃさん。いつ戻って来たの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 150,
+   "line": 0,
+   "speaker": "けあふりぃ",
+   "kind": "대사",
+   "voice": "a2845.wav",
+   "chars": 11,
+   "text": {
+    "ja": "それは秘密なんですわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 151,
+   "line": 0,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2846.wav",
+   "chars": 20,
+   "text": {
+    "ja": "気にしないで行こうぜ！　ゆきちゃんさん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 152,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2847.wav",
+   "chars": 21,
+   "text": {
+    "ja": "ここのお店　七草忍者隊でセリの役をやってる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 152,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2847.wav",
+   "chars": 22,
+   "text": {
+    "ja": "『つかさ☆みどり』ちゃんがバイトしてたんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 153,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2848.wav",
+   "chars": 23,
+   "text": {
+    "ja": "だから私たちの間では『聖地』って呼ばれてるの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 153,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2848.wav",
+   "chars": 10,
+   "text": {
+    "ja": "さっ！　入りましょ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 154,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2849.wav",
+   "chars": 25,
+   "text": {
+    "ja": "やっぱりさぁ・・最近のヒットって言ったら七草よね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 154,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2849.wav",
+   "chars": 24,
+   "text": {
+    "ja": "惑星イガを追放された宇宙抜け忍・七草加代によって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 154,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2849.wav",
+   "chars": 22,
+   "text": {
+    "ja": "組織された科学忍者隊・・・設定がいいわよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 155,
+   "line": 0,
+   "speaker": "けあふりぃ",
+   "kind": "대사",
+   "voice": "a2850.wav",
+   "chars": 14,
+   "text": {
+    "ja": "セリちゃん　萌え萌えですわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 156,
+   "line": 0,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2851.wav",
+   "chars": 24,
+   "text": {
+    "ja": "でもさ・・何で科学忍者隊の名前が『七草』なんだ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 156,
+   "line": 1,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2851.wav",
+   "chars": 25,
+   "text": {
+    "ja": "どうせスポンサーがらみなんだろ？　絶対強引だよな。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 157,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2852.wav",
+   "chars": 13,
+   "text": {
+    "ja": "忍者隊の悪口言わないでよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 158,
+   "line": 0,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2853.wav",
+   "chars": 7,
+   "text": {
+    "ja": "@S@・・・@P@ごめん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 159,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2854.wav",
+   "chars": 20,
+   "text": {
+    "ja": "忍者隊シリーズってさ　メカがいいのよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 159,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2854.wav",
+   "chars": 24,
+   "text": {
+    "ja": "宇宙忍者屋敷エドムラーの変形シーンなんて最高よ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 160,
+   "line": 0,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2855.wav",
+   "chars": 19,
+   "text": {
+    "ja": "でも宇宙空間は真空なのに効果音が・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 161,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2856.wav",
+   "chars": 19,
+   "text": {
+    "ja": "うるさいわね。子供の夢を壊さないでよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 162,
+   "line": 0,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2857.wav",
+   "chars": 7,
+   "text": {
+    "ja": "@S@・・・@P@ごめん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 163,
+   "line": 0,
+   "speaker": "けあふりぃ",
+   "kind": "대사",
+   "voice": "a2858.wav",
+   "chars": 19,
+   "text": {
+    "ja": "ままま　ゆきちゃんさんも落ち着いて・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 163,
+   "line": 1,
+   "speaker": "けあふりぃ",
+   "kind": "대사",
+   "voice": "a2858.wav",
+   "chars": 21,
+   "text": {
+    "ja": "おじさんがギャグで場を和ませてあげますわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 163,
+   "line": 2,
+   "speaker": "けあふりぃ",
+   "kind": "대사",
+   "voice": "a2858.wav",
+   "chars": 11,
+   "text": {
+    "ja": "まずはお葬式ネタ・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 164,
+   "line": 0,
+   "speaker": "けあふりぃ",
+   "kind": "대사",
+   "voice": "a2859.wav",
+   "chars": 13,
+   "text": {
+    "ja": "死んだお父さんの写真持って",
+    "ko": ""
+   }
+  },
+  {
+   "window": 164,
+   "line": 1,
+   "speaker": "けあふりぃ",
+   "kind": "대사",
+   "voice": "a2859.wav",
+   "chars": 9,
+   "text": {
+    "ja": "『いえーーーい！』",
+    "ko": ""
+   }
+  },
+  {
+   "window": 165,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2860.wav",
+   "chars": 19,
+   "text": {
+    "ja": "@S@・・・・@P@いきなりなんてこと言うのよ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 166,
+   "line": 0,
+   "speaker": "けあふりぃ",
+   "kind": "대사",
+   "voice": "a2861.wav",
+   "chars": 9,
+   "text": {
+    "ja": "すみませんですわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 167,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2862.wav",
+   "chars": 8,
+   "text": {
+    "ja": "@S@・・@P@私　にの字。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 168,
+   "line": 0,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2863.wav",
+   "chars": 7,
+   "text": {
+    "ja": "ところでさぁ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 168,
+   "line": 1,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2863.wav",
+   "chars": 16,
+   "text": {
+    "ja": "あんた　ゆきちゃんさんの何なの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 169,
+   "line": 0,
+   "speaker": "蒼き月の夜",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "ただの友達だよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 169,
+   "line": 1,
+   "speaker": "蒼き月の夜",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "彼氏だよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 169,
+   "line": 2,
+   "speaker": "蒼き月の夜",
+   "kind": "대기",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "ところでさっき梢ちゃんが言ってた「にの字」って何？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 170,
+   "line": 0,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2865.wav",
+   "chars": 7,
+   "text": {
+    "ja": "ふざけんなよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 170,
+   "line": 1,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2865.wav",
+   "chars": 20,
+   "text": {
+    "ja": "ゆきちゃんさんは特定の彼氏を作らないって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 170,
+   "line": 2,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2865.wav",
+   "chars": 11,
+   "text": {
+    "ja": "みんなと約束したんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 171,
+   "line": 0,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2864.wav",
+   "chars": 13,
+   "text": {
+    "ja": "本当に　ただの友達なのか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 171,
+   "line": 1,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2864.wav",
+   "chars": 21,
+   "text": {
+    "ja": "俺たちの話にも　ついてきてる感じじゃないし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 171,
+   "line": 2,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2864.wav",
+   "chars": 15,
+   "text": {
+    "ja": "なんか　違うんだよ。お前だけ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 172,
+   "line": 0,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2866.wav",
+   "chars": 19,
+   "text": {
+    "ja": "デパート用語で「トイレ」って意味だよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 172,
+   "line": 1,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2866.wav",
+   "chars": 19,
+   "text": {
+    "ja": "・・って　話をはぐらかすなよ！　おい！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 173,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 174,
+   "line": 0,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 175,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 176,
+   "line": 0,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2867.wav",
+   "chars": 17,
+   "text": {
+    "ja": "とにかく！　ゆきちゃんさんに対して",
+    "ko": ""
+   }
+  },
+  {
+   "window": 176,
+   "line": 1,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2867.wav",
+   "chars": 17,
+   "text": {
+    "ja": "変な気なんて　起こすんじゃないぞ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 176,
+   "line": 2,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2867.wav",
+   "chars": 20,
+   "text": {
+    "ja": "ちょっかい出したら　俺が許さないからな！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 177,
+   "line": 0,
+   "speaker": "蒼き月の夜",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "・・・わかったよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 177,
+   "line": 1,
+   "speaker": "蒼き月の夜",
+   "kind": "대기",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "うるさいんだよ。てめぇ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 177,
+   "line": 2,
+   "speaker": "蒼き月の夜",
+   "kind": "대기",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 178,
+   "line": 0,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2868.wav",
+   "chars": 17,
+   "text": {
+    "ja": "ったく！　本当にわかってんのかね？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 178,
+   "line": 1,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2868.wav",
+   "chars": 10,
+   "text": {
+    "ja": "まぁ　いいけどさ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 179,
+   "line": 0,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2869.wav",
+   "chars": 12,
+   "text": {
+    "ja": "何　黙ってんだよ？　え？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 179,
+   "line": 1,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2869.wav",
+   "chars": 14,
+   "text": {
+    "ja": "ったく！　やってらんねーぜ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 180,
+   "line": 0,
+   "speaker": "蒼き月の夜",
+   "kind": "대기",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "怒りを爆発させる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 180,
+   "line": 1,
+   "speaker": "蒼き月の夜",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "怒りを抑える",
+    "ko": ""
+   }
+  },
+  {
+   "window": 181,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "うるさいんだよ。てめぇ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 181,
+   "line": 1,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "さっきから黙ってりゃ何だ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 181,
+   "line": 2,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "梢ちゃんとどう付き合おうと勝手だろ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 182,
+   "line": 0,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2871.wav",
+   "chars": 8,
+   "text": {
+    "ja": "な・・なんだと？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 182,
+   "line": 1,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2871.wav",
+   "chars": 9,
+   "text": {
+    "ja": "・・て・・てめぇ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 183,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "だいたいお前は何なんだよ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 183,
+   "line": 1,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "梢ちゃんのこと好きなら　陰でこそこそやってないで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 183,
+   "line": 2,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "直接　本人に言えばいいだろ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 184,
+   "line": 0,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2873.wav",
+   "chars": 9,
+   "text": {
+    "ja": "@S@・・@P@たんだよ・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 185,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "え？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 186,
+   "line": 0,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2875.wav",
+   "chars": 15,
+   "text": {
+    "ja": "振られたんだよ！　ああそうさ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 186,
+   "line": 1,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2875.wav",
+   "chars": 18,
+   "text": {
+    "ja": "お友達でいましょうって言われたんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 187,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "そう言われて　本当にお友達づきあい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 187,
+   "line": 1,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "してるヤツも珍しいよな！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 188,
+   "line": 0,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2877.wav",
+   "chars": 4,
+   "text": {
+    "ja": "何だと？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 189,
+   "line": 0,
+   "speaker": "けあふりぃ",
+   "kind": "대사",
+   "voice": "a2878.wav",
+   "chars": 16,
+   "text": {
+    "ja": "ままま　皆さん！　落ち着いて・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 189,
+   "line": 1,
+   "speaker": "けあふりぃ",
+   "kind": "대사",
+   "voice": "a2878.wav",
+   "chars": 18,
+   "text": {
+    "ja": "おじさんがギャグで場を和ませて・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 190,
+   "line": 0,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2879.wav",
+   "chars": 7,
+   "text": {
+    "ja": "うるせーー！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 191,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2880.wav",
+   "chars": 19,
+   "text": {
+    "ja": "@S@・・@P@何なのよ？　この険悪な雰囲気は・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 192,
+   "line": 0,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2881.wav",
+   "chars": 15,
+   "text": {
+    "ja": "@S@・・・@P@ゆ・・ゆきちゃんさん・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 193,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2882.wav",
+   "chars": 18,
+   "text": {
+    "ja": "３人とも　私の大切なお友達なんだから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 193,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2882.wav",
+   "chars": 11,
+   "text": {
+    "ja": "喧嘩なんてやめてよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 194,
+   "line": 0,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2883.wav",
+   "chars": 8,
+   "text": {
+    "ja": "@S@・・・@P@ごめん・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 195,
+   "line": 0,
+   "speaker": "けあふりぃ",
+   "kind": "대사",
+   "voice": "a2884.wav",
+   "chars": 7,
+   "text": {
+    "ja": "すまんですわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 196,
+   "line": 0,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2885.wav",
+   "chars": 6,
+   "text": {
+    "ja": "@S@・・・@P@ほら。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 196,
+   "line": 1,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2885.wav",
+   "chars": 17,
+   "text": {
+    "ja": "あんたも　ゆきちゃんさんに謝れよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 197,
+   "line": 0,
+   "speaker": "蒼き月の夜",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "いやだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 197,
+   "line": 1,
+   "speaker": "蒼き月の夜",
+   "kind": "대기",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "・・ごめん。梢ちゃん",
+    "ko": ""
+   }
+  },
+  {
+   "window": 198,
+   "line": 0,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2886.wav",
+   "chars": 6,
+   "text": {
+    "ja": "@S@・・・@P@何い？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 199,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2887.wav",
+   "chars": 10,
+   "text": {
+    "ja": "もう！！　やめて！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 199,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2887.wav",
+   "chars": 12,
+   "text": {
+    "ja": "何でそうなっちゃうのよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 200,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2888.wav",
+   "chars": 15,
+   "text": {
+    "ja": "@S@・・・@P@今日はもう　帰りましょ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 200,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2888.wav",
+   "chars": 21,
+   "text": {
+    "ja": "ここにいても　また喧嘩になっちゃうから・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 200,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2888.wav",
+   "chars": 22,
+   "text": {
+    "ja": "私の分のお金　ここに置いておくね。ばいばい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 201,
+   "line": 0,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2889.wav",
+   "chars": 16,
+   "text": {
+    "ja": "@S@・・・@P@あっ・・ゆきちゃんさん・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 202,
+   "line": 0,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2890.wav",
+   "chars": 5,
+   "text": {
+    "ja": "あばよ！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 203,
+   "line": 0,
+   "speaker": "けあふりぃ",
+   "kind": "대사",
+   "voice": "a2891.wav",
+   "chars": 14,
+   "text": {
+    "ja": "それじゃ。私も失礼しますわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 204,
+   "line": 0,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2892.wav",
+   "chars": 16,
+   "text": {
+    "ja": "ちょっと待て！　さっきからずっと",
+    "ko": ""
+   }
+  },
+  {
+   "window": 204,
+   "line": 1,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2892.wav",
+   "chars": 20,
+   "text": {
+    "ja": "気になってたんだけどよ！　何であんただけ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 204,
+   "line": 2,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2892.wav",
+   "chars": 25,
+   "text": {
+    "ja": "ゆきちゃんさんのことを　『梢ちゃん』って呼ぶんだ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 205,
+   "line": 0,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "A2893.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "俺たちみんな　ハンドルで呼び合う決まりだろ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 205,
+   "line": 1,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "A2893.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "そもそもあんたのハンドルは何なんだよ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 205,
+   "line": 2,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "A2893.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "だいたい『梢ちゃん』なんて馴れ馴れしい呼び方・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 206,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2894.wav",
+   "chars": 13,
+   "text": {
+    "ja": "やめて！　喧嘩しないでよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 206,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2894.wav",
+   "chars": 14,
+   "text": {
+    "ja": "・・・もういいよ！　私帰る！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 206,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2894.wav",
+   "chars": 23,
+   "text": {
+    "ja": "私の分のお金　ここに置いとくからね。ばいばい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 207,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2888.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "@S@・・・@P@今日はもう　帰りましょ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 207,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2888.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "ここにいても　また喧嘩になっちゃうから・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 207,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2888.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "私の分のお金　ここに置いておくね。ばいばい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 208,
+   "line": 0,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2889.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "@S@・・・@P@あっ・・ゆきちゃんさん・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 209,
+   "line": 0,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2890.WAV",
+   "chars": 5,
+   "text": {
+    "ja": "あばよ！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 210,
+   "line": 0,
+   "speaker": "けあふりぃ",
+   "kind": "대사",
+   "voice": "a2891.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "それじゃ。私も失礼しますわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 211,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "・・・喫茶店に一人　取り残されてしまった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 211,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "ここにいても仕方ない。とりあえず外に出よう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 212,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2896.wav",
+   "chars": 14,
+   "text": {
+    "ja": "私　そろそろ帰らなくっちゃ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 213,
+   "line": 0,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2897.wav",
+   "chars": 5,
+   "text": {
+    "ja": "そうだな。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 214,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2898.wav",
+   "chars": 10,
+   "text": {
+    "ja": "それじゃ。ばいばい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 215,
+   "line": 0,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a2899.wav",
+   "chars": 5,
+   "text": {
+    "ja": "じゃぁな！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 216,
+   "line": 0,
+   "speaker": "けあふりぃ",
+   "kind": "대사",
+   "voice": "a2900.wav",
+   "chars": 9,
+   "text": {
+    "ja": "私も失礼しますわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 217,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2901.wav",
+   "chars": 9,
+   "text": {
+    "ja": "もしもし。私。梢。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 217,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2901.wav",
+   "chars": 13,
+   "text": {
+    "ja": "あのさぁ・・困るんだよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 217,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2901.wav",
+   "chars": 14,
+   "text": {
+    "ja": "今日みたいなことがあると・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 218,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2902.wav",
+   "chars": 22,
+   "text": {
+    "ja": "蒼き月の夜さんは　私の大切なお友達なんだから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 218,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2902.wav",
+   "chars": 14,
+   "text": {
+    "ja": "もっと仲良くして欲しいのよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 219,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "うん。・・まぁ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 219,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "いやだね",
+    "ko": ""
+   }
+  },
+  {
+   "window": 220,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2908.wav",
+   "chars": 11,
+   "text": {
+    "ja": "何よ！　心の狭い人ね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 220,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2908.wav",
+   "chars": 10,
+   "text": {
+    "ja": "それじゃ　ばいばい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 221,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2903.wav",
+   "chars": 15,
+   "text": {
+    "ja": "あの人　ちょっとクセがあるけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 221,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2903.wav",
+   "chars": 14,
+   "text": {
+    "ja": "すごく優しい人なんだからね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 222,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "そうだね",
+    "ko": ""
+   }
+  },
+  {
+   "window": 222,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대기",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "優しいのは君に対してだけだよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 223,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2904.wav",
+   "chars": 15,
+   "text": {
+    "ja": "よかった！　わかってくれて・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 223,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2904.wav",
+   "chars": 16,
+   "text": {
+    "ja": "あのさ・・明日　３人で会わない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 223,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2904.wav",
+   "chars": 16,
+   "text": {
+    "ja": "私　羊ヶ丘展望台に行きたいんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 224,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대기",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "うん。いいよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 224,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "明日はちょっと・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 225,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2905.wav",
+   "chars": 10,
+   "text": {
+    "ja": "ほんと？　よかった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 225,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2905.wav",
+   "chars": 21,
+   "text": {
+    "ja": "それじゃ　明日の午後　平岸駅で待っててね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 225,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2905.wav",
+   "chars": 6,
+   "text": {
+    "ja": "ばいばーい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 226,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2907.wav",
+   "chars": 16,
+   "text": {
+    "ja": "そういうのって　偏見だと思うわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 226,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2907.wav",
+   "chars": 19,
+   "text": {
+    "ja": "まぁいいけどね・・それじゃ　ばいばい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 227,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2906.wav",
+   "chars": 8,
+   "text": {
+    "ja": "ふーん。そう・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 227,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2906.wav",
+   "chars": 17,
+   "text": {
+    "ja": "じゃ　しょうがないね。ばいばーい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 228,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "平岸駅に着いた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 228,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "梢ちゃんはまだ　来ていないみたいだな。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 229,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2910.wav",
+   "chars": 13,
+   "text": {
+    "ja": "おっはよー！　さぁ乗って！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 230,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2911.wav",
+   "chars": 22,
+   "text": {
+    "ja": "それじゃ　竹下さん。羊ヶ丘展望台まで行って！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 231,
+   "line": 0,
+   "speaker": "運転手",
+   "kind": "대사",
+   "voice": "A2912.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "かしこまりました。お嬢様。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 232,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2913.wav",
+   "chars": 22,
+   "text": {
+    "ja": "蒼き月の夜さん　急用が出来て来れないんだって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 232,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2913.wav",
+   "chars": 20,
+   "text": {
+    "ja": "せっかく二人を仲直りさせようと思ったのに",
+    "ko": ""
+   }
+  },
+  {
+   "window": 232,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2913.wav",
+   "chars": 11,
+   "text": {
+    "ja": "・・なんか　残念よね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 233,
+   "line": 0,
+   "speaker": "運転手",
+   "kind": "대사",
+   "voice": "A2914.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "お嬢様。羊ヶ丘展望台に着きました。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 234,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2915.wav",
+   "chars": 14,
+   "text": {
+    "ja": "ありがと。ここで待っててね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 235,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2916.wav",
+   "chars": 10,
+   "text": {
+    "ja": "さっ！　行きましょ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 236,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2917.wav",
+   "chars": 14,
+   "text": {
+    "ja": "ほら！　見て！　羊がいるよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 236,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2917.wav",
+   "chars": 25,
+   "text": {
+    "ja": "北海道らしい場所っていったら　やっぱり　ここよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 236,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2917.wav",
+   "chars": 11,
+   "text": {
+    "ja": "さっ！　こっちこっち！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 237,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2918.wav",
+   "chars": 18,
+   "text": {
+    "ja": "これって有名よね。クラーク博士の像。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 237,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2918.wav",
+   "chars": 17,
+   "text": {
+    "ja": "Ｂｏｙｓ　ｂｅ　Ａｍｂｉｔｉｏｕｓ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 237,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2918.wav",
+   "chars": 18,
+   "text": {
+    "ja": "『少年よ大志を抱け』って言った人よ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 238,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2919.wav",
+   "chars": 22,
+   "text": {
+    "ja": "@S@・・@P@今　生きてたら　きっとウーマンリブの人に",
+    "ko": ""
+   }
+  },
+  {
+   "window": 238,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2919.wav",
+   "chars": 11,
+   "text": {
+    "ja": "文句言われてたわよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 239,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2920.wav",
+   "chars": 19,
+   "text": {
+    "ja": "指さしてる方角に　北海道大学があるわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 239,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2920.wav",
+   "chars": 18,
+   "text": {
+    "ja": "さっ！　あっちのベンチに座りましょ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 240,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2921.wav",
+   "chars": 19,
+   "text": {
+    "ja": "これ・・ロイズに忘れたリブレットだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 240,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2921.wav",
+   "chars": 23,
+   "text": {
+    "ja": "買ったばっかりだったから　私　焦っちゃって・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 240,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2921.wav",
+   "chars": 19,
+   "text": {
+    "ja": "それであんな間違い電話しちゃったんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 241,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2922.wav",
+   "chars": 15,
+   "text": {
+    "ja": "それにしても　いいお天気だね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 241,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2922.wav",
+   "chars": 25,
+   "text": {
+    "ja": "私　こういうところでモバイルするのが夢だったんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 242,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2923.wav",
+   "chars": 21,
+   "text": {
+    "ja": "あっ！　蒼き月の夜さんからメールが来てる。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 242,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2923.wav",
+   "chars": 25,
+   "text": {
+    "ja": "『ゆきちゃんさんとアイツはどういう関係なんですか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 242,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2923.wav",
+   "chars": 20,
+   "text": {
+    "ja": "はっきり言って　目障りです。』だって・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 243,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2924.wav",
+   "chars": 20,
+   "text": {
+    "ja": "うーん。どういう返事　書いたらいいかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 244,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대기",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "ふざけるなって書いておいてよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 244,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대기",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "恋人ですって書いておいてよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 244,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 245,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2925.wav",
+   "chars": 13,
+   "text": {
+    "ja": "うーん。気持ちは分かるけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 245,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2925.wav",
+   "chars": 14,
+   "text": {
+    "ja": "そんな失礼なこと書けないよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 246,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2926.wav",
+   "chars": 23,
+   "text": {
+    "ja": "えー！　そんなウソ書いたって　どうせバレるよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 247,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2927.wav",
+   "chars": 15,
+   "text": {
+    "ja": "どうしたの？　黙っちゃって・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 247,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2927.wav",
+   "chars": 11,
+   "text": {
+    "ja": "ひょっとして怒ってる？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 247,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2927.wav",
+   "chars": 15,
+   "text": {
+    "ja": "まっ　確かに失礼なメールよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 248,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2928.wav",
+   "chars": 16,
+   "text": {
+    "ja": "蒼き月の夜さんってさ　頭もいいし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 248,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2928.wav",
+   "chars": 21,
+   "text": {
+    "ja": "いろいろ世話焼いてくれる優しい人なんだけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 248,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2928.wav",
+   "chars": 21,
+   "text": {
+    "ja": "いっつも何かに対して不満を言ってるのよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 249,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2929.wav",
+   "chars": 17,
+   "text": {
+    "ja": "口を開けば　不満と批判ばっかり・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 249,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2929.wav",
+   "chars": 18,
+   "text": {
+    "ja": "あの人の最高の誉め言葉って知ってる？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 249,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2929.wav",
+   "chars": 18,
+   "text": {
+    "ja": "『悪くないね』って　それだけなのよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 250,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2930.wav",
+   "chars": 25,
+   "text": {
+    "ja": "憎まれ口叩いてないと　周りから馬鹿だと思われるって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 250,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2930.wav",
+   "chars": 15,
+   "text": {
+    "ja": "そんな風に考えてるのかしらね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 251,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대기",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "彼のこと嫌ってるの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 251,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대기",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "ほんとあいつ嫌なヤツだよね",
+    "ko": ""
+   }
+  },
+  {
+   "window": 251,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대기",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "じゃぁ何でいつも一緒にいるの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 252,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2931.wav",
+   "chars": 22,
+   "text": {
+    "ja": "嫌ってるわけじゃないわ。好きでもないけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 253,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2932.wav",
+   "chars": 20,
+   "text": {
+    "ja": "@S@・・・@P@私が彼の悪口言うのは気持ちいいけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 253,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2932.wav",
+   "chars": 22,
+   "text": {
+    "ja": "あなたが言ってるの聞くと　なんか頭にくるわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 254,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2933.wav",
+   "chars": 22,
+   "text": {
+    "ja": "だって　チヤホヤされると気持ちいいじゃない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 255,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2934.wav",
+   "chars": 15,
+   "text": {
+    "ja": "でもさ・・パソ通っていいよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 255,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2934.wav",
+   "chars": 21,
+   "text": {
+    "ja": "モバイルすれば　こうやっていつでもどこでも",
+    "ko": ""
+   }
+  },
+  {
+   "window": 255,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2934.wav",
+   "chars": 14,
+   "text": {
+    "ja": "メールが読み書きできるし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 256,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2935.wav",
+   "chars": 18,
+   "text": {
+    "ja": "パソ通の匿名性？　ってあるじゃない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 256,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2935.wav",
+   "chars": 14,
+   "text": {
+    "ja": "あれがすごく気持ちいいの・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 257,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2936.wav",
+   "chars": 15,
+   "text": {
+    "ja": "ほらウチってお金持ちじゃない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 257,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2936.wav",
+   "chars": 25,
+   "text": {
+    "ja": "だから他人に対して　つい用心深くなっちゃうのよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 258,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2937.wav",
+   "chars": 23,
+   "text": {
+    "ja": "小さい頃　仲よかったお友達に　お人形盗まれたり",
+    "ko": ""
+   }
+  },
+  {
+   "window": 258,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2937.wav",
+   "chars": 21,
+   "text": {
+    "ja": "そういうのばっか・・その子が好きだったのは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 258,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2937.wav",
+   "chars": 22,
+   "text": {
+    "ja": "私じゃなくて　私の持ってるお人形だったのよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 259,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2938.wav",
+   "chars": 21,
+   "text": {
+    "ja": "そんな風だから匿名で語り合えるパソ通の方が",
+    "ko": ""
+   }
+  },
+  {
+   "window": 259,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2938.wav",
+   "chars": 13,
+   "text": {
+    "ja": "よっぽど信用できるのよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 259,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2938.wav",
+   "chars": 19,
+   "text": {
+    "ja": "本当の自分を出せるって言うのかな・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 260,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "なるほどね",
+    "ko": ""
+   }
+  },
+  {
+   "window": 260,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대기",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "匿名だったら本当の自分じゃないよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 261,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2948.wav",
+   "chars": 16,
+   "text": {
+    "ja": "何よ！　人の揚げ足取らないでよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 261,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2948.wav",
+   "chars": 18,
+   "text": {
+    "ja": "匿名だから言えることってあるでしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 262,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "そんなの『仮面の正義』だよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 263,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2950.wav",
+   "chars": 14,
+   "text": {
+    "ja": "そんなの『仮面の正義』だよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 264,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2939.wav",
+   "chars": 13,
+   "text": {
+    "ja": "団体行動も好きじゃないけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 264,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2939.wav",
+   "chars": 13,
+   "text": {
+    "ja": "ひとりぼっちも寂しいんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 264,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2939.wav",
+   "chars": 24,
+   "text": {
+    "ja": "パソ通は　そういう隙間に　ぴったりハマってる・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 265,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2940.wav",
+   "chars": 20,
+   "text": {
+    "ja": "私ね。ＴＰＯに合わせて自分を変えてるの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 265,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2940.wav",
+   "chars": 24,
+   "text": {
+    "ja": "エッチな話題の時は　遊んでる女子大生のフリしたり",
+    "ko": ""
+   }
+  },
+  {
+   "window": 265,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2940.wav",
+   "chars": 21,
+   "text": {
+    "ja": "難しい話題の時は　男の子のフリしたり・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 266,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2941.wav",
+   "chars": 19,
+   "text": {
+    "ja": "『ゆきちゃん』もその中のひとつなんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 266,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2941.wav",
+   "chars": 20,
+   "text": {
+    "ja": "特撮好きで　ちょっと生意気なゆきちゃんは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 266,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2941.wav",
+   "chars": 17,
+   "text": {
+    "ja": "私に近いけど　ちょっとだけ違うわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 267,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대기",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "なるほどね%２%",
+    "ko": ""
+   }
+  },
+  {
+   "window": 267,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대기",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "そう言うのって良くないよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 268,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2942.wav",
+   "chars": 21,
+   "text": {
+    "ja": "何よ！　さっきから『なるほどね』ばっかり！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 268,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2942.wav",
+   "chars": 14,
+   "text": {
+    "ja": "ちゃんと私の話　聞いてるの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 269,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "も・・もちろんだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 270,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2944.wav",
+   "chars": 10,
+   "text": {
+    "ja": "も・・もちろんだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 271,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2945.wav",
+   "chars": 13,
+   "text": {
+    "ja": "何よ！　文句言わないでよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 271,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2945.wav",
+   "chars": 19,
+   "text": {
+    "ja": "パソ通をどう使おうと　私の勝手でしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 272,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "でもそれは人を騙してることになる。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 273,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "A2947.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "でもそれは人を騙してることになる。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 274,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a3048.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "@S@・・・・・@P@ねぇ・・何で黙ってるの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 274,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a3048.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "ひょっとして私　興味ない話題ふっちゃった？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 275,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "え？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 276,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "え？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 276,
+   "line": 1,
+   "speaker": "主人公",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "何言ってるの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 277,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2952.wav",
+   "chars": 7,
+   "text": {
+    "ja": "何言ってるの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 278,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "A2951.WAV",
+   "chars": 2,
+   "text": {
+    "ja": "え？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 279,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "何？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 279,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "真似しないでよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 280,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2954.wav",
+   "chars": 8,
+   "text": {
+    "ja": "真似しないでよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 281,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "A2953.WAV",
+   "chars": 2,
+   "text": {
+    "ja": "何？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 282,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "何なの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 282,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "真似しないでよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 283,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "A2956.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "真似しないでよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 284,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2955.wav",
+   "chars": 4,
+   "text": {
+    "ja": "何なの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 285,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "真似しないでよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 285,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "怒るよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 286,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "A2958.WAV",
+   "chars": 4,
+   "text": {
+    "ja": "怒るよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 287,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2957.wav",
+   "chars": 8,
+   "text": {
+    "ja": "真似しないでよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 288,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "怒るよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 288,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대기",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "いいかげんにしろよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 289,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "A2960.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "いいかげんにしろよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 290,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2959.wav",
+   "chars": 4,
+   "text": {
+    "ja": "怒るよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 291,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대기",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "いいかげんにしろよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 291,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "殴るぞ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 292,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "A2962.WAV",
+   "chars": 4,
+   "text": {
+    "ja": "殴るぞ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 293,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2961.wav",
+   "chars": 10,
+   "text": {
+    "ja": "いいかげんにしろよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 294,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대기",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "殴るぞ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 294,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대기",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "ねぇ。いい加減にしてよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 295,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2964.wav",
+   "chars": 12,
+   "text": {
+    "ja": "ねぇ。いい加減にしてよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 296,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2963.wav",
+   "chars": 4,
+   "text": {
+    "ja": "殴るぞ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 297,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "本当に殴るぞ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 297,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대기",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "ねぇ。いい加減にしてよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 298,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2971.wav",
+   "chars": 12,
+   "text": {
+    "ja": "ねぇ。いい加減にしてよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 299,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2965.wav",
+   "chars": 7,
+   "text": {
+    "ja": "本当に殴るぞ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 300,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "・・・梢ちゃんが　僕の物まねをし続けている。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 300,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "このままじゃきりがない。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 300,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "僕は・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 301,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "本当に殴る",
+    "ko": ""
+   }
+  },
+  {
+   "window": 301,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "謝る",
+    "ko": ""
+   }
+  },
+  {
+   "window": 302,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2967.wav",
+   "chars": 22,
+   "text": {
+    "ja": "痛ったーい！　ホントに殴ることないじゃない！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 302,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2967.wav",
+   "chars": 19,
+   "text": {
+    "ja": "お父さんにだって　お母さんにだって・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 302,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2967.wav",
+   "chars": 16,
+   "text": {
+    "ja": "殴られたこと　なかったんだよ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 303,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2968.wav",
+   "chars": 15,
+   "text": {
+    "ja": "もう知らない！！　私帰る！！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 304,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "梢ちゃんは　車に乗って走り去ってしまった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 304,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "・・・おーい。どうやって帰ったらいいんだよ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 305,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2970.wav",
+   "chars": 6,
+   "text": {
+    "ja": "もういいよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 305,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2970.wav",
+   "chars": 17,
+   "text": {
+    "ja": "・・・帰りましょ。平岸まで送るわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 306,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2972.wav",
+   "chars": 12,
+   "text": {
+    "ja": "私たち　合わないんだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 306,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2972.wav",
+   "chars": 14,
+   "text": {
+    "ja": "もう電話しないね。ばいばい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 307,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "もしもし・・もしもし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 308,
+   "line": 0,
+   "speaker": "声",
+   "kind": "대사",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 309,
+   "line": 0,
+   "speaker": "声",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "誰？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 309,
+   "line": 1,
+   "speaker": "声",
+   "kind": "대기",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "ひょっとして・・梢ちゃん？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 310,
+   "line": 0,
+   "speaker": "声",
+   "kind": "대사",
+   "voice": "a2977.wav",
+   "chars": 13,
+   "text": {
+    "ja": "・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 311,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "もしもし・・もしもし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 312,
+   "line": 0,
+   "speaker": "声",
+   "kind": "대사",
+   "voice": "a2978.wav",
+   "chars": 13,
+   "text": {
+    "ja": "・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 313,
+   "line": 0,
+   "speaker": "声",
+   "kind": "대기",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "誰？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 313,
+   "line": 1,
+   "speaker": "声",
+   "kind": "대기",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "ひょっとして・・梢ちゃん？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 314,
+   "line": 0,
+   "speaker": "声",
+   "kind": "대사",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 315,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "さてどこに行こうか・・・あれ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 316,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "梢ちゃん？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 317,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "あっ！　梢ちゃん！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 318,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "追いかける",
+    "ko": ""
+   }
+  },
+  {
+   "window": 318,
+   "line": 1,
+   "speaker": "主人公",
+   "kind": "대기",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "やめる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 319,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "待って！　梢ちゃん！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 320,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "はぁ・・はぁ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 321,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2984.wav",
+   "chars": 22,
+   "text": {
+    "ja": "はぁ・・はぁ・・何で・・追いかけてくるのよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 321,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2984.wav",
+   "chars": 20,
+   "text": {
+    "ja": "私　あなたなんか・・・大っ嫌いなのに・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 322,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2985.wav",
+   "chars": 22,
+   "text": {
+    "ja": "か・・顔が赤いのは・・走ったせいですからね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 323,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "無言電話したの　梢ちゃんなんだろ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 324,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2987.wav",
+   "chars": 17,
+   "text": {
+    "ja": "大嫌いだから・・・そっちが謝るまで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 324,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2987.wav",
+   "chars": 18,
+   "text": {
+    "ja": "口なんてきいてやるかって思ってたの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 324,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2987.wav",
+   "chars": 18,
+   "text": {
+    "ja": "でも・・声が聞きたくなっちゃって・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 325,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2988.wav",
+   "chars": 16,
+   "text": {
+    "ja": "殴られて・・すっごく頭に来て・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 325,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2988.wav",
+   "chars": 18,
+   "text": {
+    "ja": "でも・・また会いたくなっちゃって・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 326,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2989.wav",
+   "chars": 14,
+   "text": {
+    "ja": "ねぇ！　どんな女の子が好き？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 326,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2989.wav",
+   "chars": 20,
+   "text": {
+    "ja": "私・・・どんな女の子になったらいいかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 327,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2990.wav",
+   "chars": 15,
+   "text": {
+    "ja": "あなたが好きなタイプの女の子に",
+    "ko": ""
+   }
+  },
+  {
+   "window": 327,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2990.wav",
+   "chars": 10,
+   "text": {
+    "ja": "私・・なるから・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 327,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2990.wav",
+   "chars": 14,
+   "text": {
+    "ja": "だから嫌いにならないで・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 328,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2991.wav",
+   "chars": 20,
+   "text": {
+    "ja": "ねぇ私　どんな女の子になったらいいかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 329,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "もっと可愛らしい子",
+    "ko": ""
+   }
+  },
+  {
+   "window": 329,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "もっと素直な子",
+    "ko": ""
+   }
+  },
+  {
+   "window": 329,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대기",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "そのままでいいよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 330,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2992.wav",
+   "chars": 21,
+   "text": {
+    "ja": "@S@・・@P@そうだね。私　可愛いげがなかったよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 330,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2992.wav",
+   "chars": 10,
+   "text": {
+    "ja": "もっと　がんばるよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 330,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2992.wav",
+   "chars": 11,
+   "text": {
+    "ja": "それじゃ・・ばいばい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 331,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "そう言って　梢ちゃんは去って行ってしまった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 332,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2993.wav",
+   "chars": 20,
+   "text": {
+    "ja": "@S@・・@P@そうだね。私　素直じゃなかったよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 332,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2993.wav",
+   "chars": 10,
+   "text": {
+    "ja": "もっと　がんばるよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 332,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2993.wav",
+   "chars": 11,
+   "text": {
+    "ja": "それじゃ・・ばいばい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 333,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "そう言って　梢ちゃんは去って行ってしまった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 334,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "A2994.WAV",
+   "chars": 2,
+   "text": {
+    "ja": "え？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 335,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "無理しなくていいよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 335,
+   "line": 1,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "梢ちゃんは　そのままで充分　魅力的だよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 336,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "A2996.WAV",
+   "chars": 4,
+   "text": {
+    "ja": "あ・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 337,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2997.wav",
+   "chars": 20,
+   "text": {
+    "ja": "あ・・・あのね・・明日　テイセンホールで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 337,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2997.wav",
+   "chars": 21,
+   "text": {
+    "ja": "イベントがあるんだ。私たちも同人誌売ったり",
+    "ko": ""
+   }
+  },
+  {
+   "window": 337,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2997.wav",
+   "chars": 14,
+   "text": {
+    "ja": "コスプレしたり　するんだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 338,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2998.wav",
+   "chars": 14,
+   "text": {
+    "ja": "それで・・もしよかったら・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 338,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2998.wav",
+   "chars": 13,
+   "text": {
+    "ja": "&主人公&さん　来てくれないかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 339,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2999.wav",
+   "chars": 13,
+   "text": {
+    "ja": "@S@・・@P@ううん。来て欲しいの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 339,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2999.wav",
+   "chars": 13,
+   "text": {
+    "ja": "明日の朝　電話するから・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 339,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a2999.wav",
+   "chars": 11,
+   "text": {
+    "ja": "それじゃ・・ばいばい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 340,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "梢は電話番号が書かれたメモを",
+    "ko": ""
+   }
+  },
+  {
+   "window": 340,
+   "line": 1,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "&主人公名前&に手渡しました。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 341,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "梢の電話番号をＰＨＳに登録しました。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 342,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 343,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 344,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 344,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "梢ちゃんは俯いたまま　何も言わず去っていった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 345,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "梢ちゃんは去って行ってしまった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 346,
+   "line": 0,
+   "speaker": "電話",
+   "kind": "대사",
+   "voice": "a3000.wav",
+   "chars": 11,
+   "text": {
+    "ja": "おはようございまーす！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 346,
+   "line": 1,
+   "speaker": "電話",
+   "kind": "대사",
+   "voice": "a3000.wav",
+   "chars": 22,
+   "text": {
+    "ja": "私　ＳＢＳラジオ『電話でポン』の山田でーす。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 347,
+   "line": 0,
+   "speaker": "電話",
+   "kind": "대사",
+   "voice": "a3001.wav",
+   "chars": 20,
+   "text": {
+    "ja": "札幌市在住のみなさんから無作為に抽選して",
+    "ko": ""
+   }
+  },
+  {
+   "window": 347,
+   "line": 1,
+   "speaker": "電話",
+   "kind": "대사",
+   "voice": "a3001.wav",
+   "chars": 22,
+   "text": {
+    "ja": "今朝は　その中から　あなたが選ばれました！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 347,
+   "line": 2,
+   "speaker": "電話",
+   "kind": "대사",
+   "voice": "a3001.wav",
+   "chars": 14,
+   "text": {
+    "ja": "おめでとうございまーーーす！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 348,
+   "line": 0,
+   "speaker": "電話",
+   "kind": "대사",
+   "voice": "a3002.wav",
+   "chars": 16,
+   "text": {
+    "ja": "それでは　チャレンジ・ターイム！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 348,
+   "line": 1,
+   "speaker": "電話",
+   "kind": "대사",
+   "voice": "a3002.wav",
+   "chars": 21,
+   "text": {
+    "ja": "大きな声で『電話でポン』と叫んでください。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 349,
+   "line": 0,
+   "speaker": "電話",
+   "kind": "대사",
+   "voice": "a3003.wav",
+   "chars": 17,
+   "text": {
+    "ja": "声の大きさによって　すてきな商品が",
+    "ko": ""
+   }
+  },
+  {
+   "window": 349,
+   "line": 1,
+   "speaker": "電話",
+   "kind": "대사",
+   "voice": "a3003.wav",
+   "chars": 24,
+   "text": {
+    "ja": "プレゼントされまーす。それでは　いってみよーー！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 349,
+   "line": 2,
+   "speaker": "電話",
+   "kind": "대사",
+   "voice": "a3003.wav",
+   "chars": 4,
+   "text": {
+    "ja": "せーの！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 350,
+   "line": 0,
+   "speaker": "電話",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 350,
+   "line": 1,
+   "speaker": "電話",
+   "kind": "대기",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "電話でポン",
+    "ko": ""
+   }
+  },
+  {
+   "window": 350,
+   "line": 2,
+   "speaker": "電話",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "電話でポン*3",
+    "ko": ""
+   }
+  },
+  {
+   "window": 350,
+   "line": 3,
+   "speaker": "電話",
+   "kind": "대기",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "電話でポン*4",
+    "ko": ""
+   }
+  },
+  {
+   "window": 351,
+   "line": 0,
+   "speaker": "電話",
+   "kind": "대사",
+   "voice": "a3004.wav",
+   "chars": 11,
+   "text": {
+    "ja": "元気がありませんねーー",
+    "ko": ""
+   }
+  },
+  {
+   "window": 351,
+   "line": 1,
+   "speaker": "電話",
+   "kind": "대사",
+   "voice": "a3004.wav",
+   "chars": 11,
+   "text": {
+    "ja": "もう一度お願いします！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 351,
+   "line": 2,
+   "speaker": "電話",
+   "kind": "대사",
+   "voice": "a3004.wav",
+   "chars": 4,
+   "text": {
+    "ja": "せーの！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 352,
+   "line": 0,
+   "speaker": "電話",
+   "kind": "대기",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "%２%・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 352,
+   "line": 1,
+   "speaker": "電話",
+   "kind": "대기",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "%２%電話でポン",
+    "ko": ""
+   }
+  },
+  {
+   "window": 352,
+   "line": 2,
+   "speaker": "電話",
+   "kind": "대기",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "%２%電話でポン*3",
+    "ko": ""
+   }
+  },
+  {
+   "window": 352,
+   "line": 3,
+   "speaker": "電話",
+   "kind": "대기",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "%２%電話でポン*4",
+    "ko": ""
+   }
+  },
+  {
+   "window": 353,
+   "line": 0,
+   "speaker": "電話",
+   "kind": "대사",
+   "voice": "a3005.wav",
+   "chars": 13,
+   "text": {
+    "ja": "えへへへ・・・！　う・そ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 353,
+   "line": 1,
+   "speaker": "電話",
+   "kind": "대사",
+   "voice": "a3005.wav",
+   "chars": 9,
+   "text": {
+    "ja": "誰だか解るでしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 354,
+   "line": 0,
+   "speaker": "電話",
+   "kind": "선택지",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "琴梨ちゃんだ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 354,
+   "line": 1,
+   "speaker": "電話",
+   "kind": "선택지",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "鮎ちゃんだ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 354,
+   "line": 2,
+   "speaker": "電話",
+   "kind": "선택지",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "葉野香ちゃんだ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 354,
+   "line": 3,
+   "speaker": "電話",
+   "kind": "선택지",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "梢ちゃんだ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 354,
+   "line": 4,
+   "speaker": "電話",
+   "kind": "선택지",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "由子さんだ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 354,
+   "line": 5,
+   "speaker": "電話",
+   "kind": "선택지",
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "薫さんだ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 354,
+   "line": 6,
+   "speaker": "電話",
+   "kind": "선택지",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "ターニャだ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 354,
+   "line": 7,
+   "speaker": "電話",
+   "kind": "선택지",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "めぐみちゃんだ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 355,
+   "line": 0,
+   "speaker": "電話",
+   "kind": "대사",
+   "voice": "a3008.wav",
+   "chars": 13,
+   "text": {
+    "ja": "琴梨って　あの琴梨ちゃん？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 355,
+   "line": 1,
+   "speaker": "電話",
+   "kind": "대사",
+   "voice": "a3008.wav",
+   "chars": 22,
+   "text": {
+    "ja": "朝っぱらから　こんな迷惑な電話かけてくるほど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 355,
+   "line": 2,
+   "speaker": "電話",
+   "kind": "대사",
+   "voice": "a3008.wav",
+   "chars": 16,
+   "text": {
+    "ja": "あなた　琴梨ちゃんと仲がいいの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 356,
+   "line": 0,
+   "speaker": "電話",
+   "kind": "대사",
+   "voice": "a3007.wav",
+   "chars": 13,
+   "text": {
+    "ja": "もう知らない！　さよなら！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 357,
+   "line": 0,
+   "speaker": "電話",
+   "kind": "대사",
+   "voice": "A8045.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "鮎って　あの鮎ちゃん？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 357,
+   "line": 1,
+   "speaker": "電話",
+   "kind": "대사",
+   "voice": "A8045.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "朝っぱらから　こんな迷惑な電話かけてくるほど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 357,
+   "line": 2,
+   "speaker": "電話",
+   "kind": "대사",
+   "voice": "A8045.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "あなた　鮎ちゃんと仲がいいの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 358,
+   "line": 0,
+   "speaker": "電話",
+   "kind": "대사",
+   "voice": "a3007.wav",
+   "chars": 13,
+   "text": {
+    "ja": "もう知らない！　さよなら！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 359,
+   "line": 0,
+   "speaker": "電話",
+   "kind": "대사",
+   "voice": "a3006.wav",
+   "chars": 7,
+   "text": {
+    "ja": "葉野香って誰？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 359,
+   "line": 1,
+   "speaker": "電話",
+   "kind": "대사",
+   "voice": "a3006.wav",
+   "chars": 22,
+   "text": {
+    "ja": "朝っぱらから　こんな迷惑な電話かけてくるほど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 359,
+   "line": 2,
+   "speaker": "電話",
+   "kind": "대사",
+   "voice": "a3006.wav",
+   "chars": 14,
+   "text": {
+    "ja": "あなた　その子と仲がいいの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 360,
+   "line": 0,
+   "speaker": "電話",
+   "kind": "대사",
+   "voice": "a3007.wav",
+   "chars": 13,
+   "text": {
+    "ja": "もう知らない！　さよなら！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 361,
+   "line": 0,
+   "speaker": "電話",
+   "kind": "대사",
+   "voice": "a3010.wav",
+   "chars": 11,
+   "text": {
+    "ja": "もっと早く気づいてよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 361,
+   "line": 1,
+   "speaker": "電話",
+   "kind": "대사",
+   "voice": "a3010.wav",
+   "chars": 15,
+   "text": {
+    "ja": "私　電話するって言ったでしょ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 361,
+   "line": 2,
+   "speaker": "電話",
+   "kind": "대사",
+   "voice": "a3010.wav",
+   "chars": 24,
+   "text": {
+    "ja": "名前だって里中にひっかけて山田にしたんだから・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 362,
+   "line": 0,
+   "speaker": "電話",
+   "kind": "대사",
+   "voice": "a3011.wav",
+   "chars": 18,
+   "text": {
+    "ja": "私これから　テイセンホールに行くね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 362,
+   "line": 1,
+   "speaker": "電話",
+   "kind": "대사",
+   "voice": "a3011.wav",
+   "chars": 21,
+   "text": {
+    "ja": "会場で　待ってるから絶対来てね。ばいばい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 363,
+   "line": 0,
+   "speaker": "電話",
+   "kind": "대사",
+   "voice": "A8051.WAV",
+   "chars": 6,
+   "text": {
+    "ja": "由子って誰？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 363,
+   "line": 1,
+   "speaker": "電話",
+   "kind": "대사",
+   "voice": "A8051.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "朝っぱらから　こんな迷惑な電話かけてくるほど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 363,
+   "line": 2,
+   "speaker": "電話",
+   "kind": "대사",
+   "voice": "A8051.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "あなた　その子と仲がいいの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 364,
+   "line": 0,
+   "speaker": "電話",
+   "kind": "대사",
+   "voice": "a3009.wav",
+   "chars": 13,
+   "text": {
+    "ja": "もう知らない！　さよなら！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 365,
+   "line": 0,
+   "speaker": "電話",
+   "kind": "대사",
+   "voice": "A8053.WAV",
+   "chars": 5,
+   "text": {
+    "ja": "薫って誰？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 365,
+   "line": 1,
+   "speaker": "電話",
+   "kind": "대사",
+   "voice": "A8053.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "朝っぱらから　こんな迷惑な電話かけてくるほど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 365,
+   "line": 2,
+   "speaker": "電話",
+   "kind": "대사",
+   "voice": "A8053.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "あなた　その子と仲がいいの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 366,
+   "line": 0,
+   "speaker": "電話",
+   "kind": "대사",
+   "voice": "A3007.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "もう知らない！　さよなら！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 367,
+   "line": 0,
+   "speaker": "電話",
+   "kind": "대사",
+   "voice": "A8049.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "ターニャって誰？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 367,
+   "line": 1,
+   "speaker": "電話",
+   "kind": "대사",
+   "voice": "A8049.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "朝っぱらから　こんな迷惑な電話かけてくるほど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 367,
+   "line": 2,
+   "speaker": "電話",
+   "kind": "대사",
+   "voice": "A8049.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "あなた　その子と仲がいいの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 368,
+   "line": 0,
+   "speaker": "電話",
+   "kind": "대사",
+   "voice": "a3007.wav",
+   "chars": 13,
+   "text": {
+    "ja": "もう知らない！　さよなら！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 369,
+   "line": 0,
+   "speaker": "電話",
+   "kind": "대사",
+   "voice": "A8047.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "めぐみって誰？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 369,
+   "line": 1,
+   "speaker": "電話",
+   "kind": "대사",
+   "voice": "A8047.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "朝っぱらから　こんな迷惑な電話かけてくるほど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 369,
+   "line": 2,
+   "speaker": "電話",
+   "kind": "대사",
+   "voice": "A8047.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "あなた　その子と仲がいいの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 370,
+   "line": 0,
+   "speaker": "電話",
+   "kind": "대사",
+   "voice": "a3007.wav",
+   "chars": 13,
+   "text": {
+    "ja": "もう知らない！　さよなら！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 371,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a3012.wav",
+   "chars": 14,
+   "text": {
+    "ja": "うれしい！　来てくれたんだ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 372,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "もちろん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 373,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a3014.wav",
+   "chars": 19,
+   "text": {
+    "ja": "@S@・・・@P@電話で・・また喧嘩しちゃったから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 373,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a3014.wav",
+   "chars": 13,
+   "text": {
+    "ja": "来てくれないと思ったんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 374,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a3015.wav",
+   "chars": 14,
+   "text": {
+    "ja": "ねぇ・・この格好　どうかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 375,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "似合ってるよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 376,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a3017.wav",
+   "chars": 21,
+   "text": {
+    "ja": "前回は別のサークルの子の方が目立ってたから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 376,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a3017.wav",
+   "chars": 23,
+   "text": {
+    "ja": "今回はその雪辱に燃えてるの・・でも『雪辱』って",
+    "ko": ""
+   }
+  },
+  {
+   "window": 376,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a3017.wav",
+   "chars": 19,
+   "text": {
+    "ja": "何で『雪を辱める』って書くんだろうね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 377,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a3018.wav",
+   "chars": 21,
+   "text": {
+    "ja": "あのね・・この服の中身　見せてあげようか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 378,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "え？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 379,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a3020.wav",
+   "chars": 5,
+   "text": {
+    "ja": "じゃーん！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 380,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a3021.wav",
+   "chars": 12,
+   "text": {
+    "ja": "昨日の夜　刺繍したの・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 380,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a3021.wav",
+   "chars": 13,
+   "text": {
+    "ja": "良く出来てる・・・でしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 381,
+   "line": 0,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a3022.wav",
+   "chars": 19,
+   "text": {
+    "ja": "あっ！　あいつ！　抜け駆けしやがった！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 382,
+   "line": 0,
+   "speaker": "けあふりぃ",
+   "kind": "대사",
+   "voice": "a3023.wav",
+   "chars": 19,
+   "text": {
+    "ja": "なんか　すごく　いい雰囲気なんですわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 383,
+   "line": 0,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a3024.wav",
+   "chars": 4,
+   "text": {
+    "ja": "くそっ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 384,
+   "line": 0,
+   "speaker": "けあふりぃ",
+   "kind": "대사",
+   "voice": "a3025.wav",
+   "chars": 18,
+   "text": {
+    "ja": "今行っても　ピエロになるだけですわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 385,
+   "line": 0,
+   "speaker": "蒼き月の夜",
+   "kind": "대사",
+   "voice": "a3026.wav",
+   "chars": 14,
+   "text": {
+    "ja": "ったく！　やってらんねーよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 386,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a3027.wav",
+   "chars": 24,
+   "text": {
+    "ja": "あーあ！　私たちのイベントも・・終わっちゃった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 386,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a3027.wav",
+   "chars": 18,
+   "text": {
+    "ja": "・・でもね。私　お祭りが終わった後の",
+    "ko": ""
+   }
+  },
+  {
+   "window": 386,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a3027.wav",
+   "chars": 15,
+   "text": {
+    "ja": "けだるい感覚って　好きだな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 387,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a3028.wav",
+   "chars": 16,
+   "text": {
+    "ja": "夏休みももうすぐ終わっちゃう・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 387,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a3028.wav",
+   "chars": 13,
+   "text": {
+    "ja": "今度会えるのは・・冬休み？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 388,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "うん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 389,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a3030.wav",
+   "chars": 12,
+   "text": {
+    "ja": "本当？　・・・絶対だよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 389,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a3030.wav",
+   "chars": 8,
+   "text": {
+    "ja": "・・・だって・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 390,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "voice": "a3031.wav",
+   "chars": 14,
+   "text": {
+    "ja": "あなたのこと　大好きだから。",
+    "ko": ""
+   }
+  }
+ ]
+}
