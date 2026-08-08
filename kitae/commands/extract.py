@@ -19,10 +19,11 @@ def _build(cfg, script):
     """게임 데이터에서 항목 목록을 만든다."""
     from kitae.core.cab import Cab
     from kitae.core.windows import script_windows, display_len
-    from kitae.core import ebdis
+    from kitae.core import ebdis, scenemap
 
-    plot = Cab(cfg.path(cfg["work_dir"], "cb", "RESOURCE", "PLOT.CB"))
-    mtg = Cab(cfg.path(cfg["work_dir"], "cb", "RESOURCE", "MTG.CB"))
+    from kitae.build import uipatch
+    plot = Cab(uipatch.original(cfg, "/RESOURCE/PLOT.CB"))
+    mtg = Cab(uipatch.original(cfg, "/RESOURCE/MTG.CB"))
     wins, strs = script_windows(script, plot, mtg)
 
     eb = plot.read(script.upper() + ".EB")
@@ -33,6 +34,9 @@ def _build(cfg, script):
             spk[w] = sym[s] if s is not None and s < len(sym) else "?"
             op[w] = o
 
+    # 창이 어느 씬·날짜·시간대에 속하는지 — 번역은 날짜순으로 진행한다
+    where = scenemap.window_info(cfg, script)
+
     src = cfg["source"]
     entries = []
     for m in wins:
@@ -42,9 +46,12 @@ def _build(cfg, script):
         kind = ("선택지" if o == 0x74 else "대기" if o == 0x73
                 else "독백" if who == "独白"
                 else "나레이션" if who in NARRATION else "대사")
+        at = where.get(w) or {}
         for n, si in enumerate(m["strings"]):
             entries.append({
                 "window": w, "line": n, "speaker": who, "kind": kind,
+                "scene": at.get("scene"), "date": at.get("date"),
+                "slot": at.get("slot"), "place": at.get("place"),
                 "voice": m["wave"], "chars": display_len(strs[si]),
                 "text": {src: strs[si]},
             })

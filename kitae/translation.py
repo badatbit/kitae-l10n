@@ -74,6 +74,9 @@ def merge(doc, fresh, languages):
             for lang, v in (prev.get("text") or {}).items():
                 if lang in e["text"] and v and v.strip():
                     e["text"][lang] = v
+            # 봐 달라고 남긴 것은 다시 뽑아도 살아남아야 한다
+            if prev.get("ask"):
+                e["ask"] = prev["ask"]
     return fresh
 
 

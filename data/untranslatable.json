@@ -1,6 +1,6 @@
 {
  "note": "조회 키라서 번역하지 않은 문자열. docs/UI-TEXT.md 참고",
- "count": 74,
+ "count": 83,
  "entries": [
   {
    "module": "COMMONSAVE",
@@ -163,6 +163,16 @@
    "ja": "メッセージボーダー"
   },
   {
+   "module": "TRFMILKING",
+   "offset": "0x01ee9c",
+   "ja": "オプション"
+  },
+  {
+   "module": "TRFMILKING",
+   "offset": "0x01eee0",
+   "ja": "操作説明聞く"
+  },
+  {
    "module": "TRFOPTIONGAME",
    "offset": "0x015d48",
    "ja": "オプション"
@@ -263,6 +273,21 @@
    "ja": "めぐみの夏編終了"
   },
   {
+   "module": "TRFQUIZ",
+   "offset": "0x020b34",
+   "ja": "オプション"
+  },
+  {
+   "module": "TRFQUIZ",
+   "offset": "0x020c44",
+   "ja": "オプション"
+  },
+  {
+   "module": "TRFSHOTING",
+   "offset": "0x038810",
+   "ja": "オプション"
+  },
+  {
    "module": "TRFSYSCONFIG",
    "offset": "0x010b74",
    "ja": "ナレスキップ"
@@ -276,6 +301,26 @@
    "module": "TRFSYSCONFIG",
    "offset": "0x010b94",
    "ja": "メッセージボーダー"
+  },
+  {
+   "module": "TRFTENNIS",
+   "offset": "0x021030",
+   "ja": "オプション"
+  },
+  {
+   "module": "TRFTENNIS",
+   "offset": "0x02103c",
+   "ja": "操作説明聞く"
+  },
+  {
+   "module": "TRFUFO",
+   "offset": "0x02e3a0",
+   "ja": "オプション"
+  },
+  {
+   "module": "TRFUFO",
+   "offset": "0x02e3d4",
+   "ja": "操作説明聞く"
   },
   {
    "module": "TRFVMSVIEW",
