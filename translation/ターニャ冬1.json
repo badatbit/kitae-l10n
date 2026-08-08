@@ -1,0 +1,5318 @@
+{
+ "script": "ターニャ冬1",
+ "source": "ja",
+ "entries": [
+  {
+   "window": 0,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "今回の旅には　ひとつの目的があった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 0,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "札幌は今　ホワイト・イルミネーションの",
+    "ko": ""
+   }
+  },
+  {
+   "window": 0,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "真っ最中だ。そして・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 0,
+   "speaker": "文字",
+   "kind": "나레이션",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "@5900@大晦日の夜・・　　　　　　　　　　",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 1,
+   "speaker": "文字",
+   "kind": "나레이션",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "@5901@イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 2,
+   "speaker": "文字",
+   "kind": "나레이션",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "@5902@年越しのＫｉｓｓをした恋人たちは　",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 3,
+   "speaker": "文字",
+   "kind": "나레이션",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "@5903@永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 2,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "こういう伝説は　恐らくあちこちにあるものだろう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 2,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "伝説の通り　幸せになったカップルもいるだろうし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 2,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "きっと　そうならなかったカップルもいるだろう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 3,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "でも僕は信じてみたかった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 3,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "大好きな女の子と離れて暮らしていて・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 4,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "だからこそ　信じられる何かが",
+    "ko": ""
+   }
+  },
+  {
+   "window": 4,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "欲しかったのかもしれない。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 5,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "a5190.wav",
+   "chars": 9,
+   "text": {
+    "ja": "おひさしぶりです。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 6,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "a5191.wav",
+   "chars": 24,
+   "text": {
+    "ja": "夏に会ったときよりも　ずっと逞しくなりましたね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 7,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "ターニャも綺麗になったね",
+    "ko": ""
+   }
+  },
+  {
+   "window": 7,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "具体的にどこが逞しくなった？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 8,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "a5192.wav",
+   "chars": 24,
+   "text": {
+    "ja": "@S@・・@P@うふふ・・お世辞も上手になったみたいですね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 9,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "a5193.wav",
+   "chars": 24,
+   "text": {
+    "ja": "@S@・・・@P@具体的にと言われると・・困るんですけど・@5004@・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 9,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "a5193.wav",
+   "chars": 24,
+   "text": {
+    "ja": "何となく以前よりも　はつらつとした感じがします。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 10,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "a5194.wav",
+   "chars": 13,
+   "text": {
+    "ja": "そろそろ列車の時間ですね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 10,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "a5194.wav",
+   "chars": 10,
+   "text": {
+    "ja": "駅に行きましょう・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 11,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "a5195.wav",
+   "chars": 17,
+   "text": {
+    "ja": "&主人公&さんと一緒に作った赤いスズラン・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 11,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "a5195.wav",
+   "chars": 23,
+   "text": {
+    "ja": "おかげさまで　今でも順調に売れているんですよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 12,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "a5196.wav",
+   "chars": 24,
+   "text": {
+    "ja": "今までは　どちらかというと形の決まっているものを",
+    "ko": ""
+   }
+  },
+  {
+   "window": 12,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "a5196.wav",
+   "chars": 21,
+   "text": {
+    "ja": "加工する仕事が多かったんですけど　あれ以来",
+    "ko": ""
+   }
+  },
+  {
+   "window": 12,
+   "line": 2,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "a5196.wav",
+   "chars": 23,
+   "text": {
+    "ja": "デザインの仕事も　任されるようになったんです。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 13,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "a5197.wav",
+   "chars": 20,
+   "text": {
+    "ja": "クリスマスのオーナメントや　ちょっとした",
+    "ko": ""
+   }
+  },
+  {
+   "window": 13,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "a5197.wav",
+   "chars": 24,
+   "text": {
+    "ja": "アクセサリーを自分の好きな色と形で作ってゆく・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 13,
+   "line": 2,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "a5197.wav",
+   "chars": 19,
+   "text": {
+    "ja": "それは　すごくやりがいのある仕事です。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 14,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "a5198.wav",
+   "chars": 23,
+   "text": {
+    "ja": "最近は体調もいいんですよ。・・不思議ですよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 14,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "a5198.wav",
+   "chars": 23,
+   "text": {
+    "ja": "あの頃と同じ環境で　同じ生活をしているのに・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 15,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "安心したよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 15,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "でも油断は禁物だよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 15,
+   "line": 2,
+   "speaker": "ターニャ",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "気持ちが変わったんじゃないかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 16,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "a5199.wav",
+   "chars": 19,
+   "text": {
+    "ja": "はい。・・その節は　いろいろとご迷惑を",
+    "ko": ""
+   }
+  },
+  {
+   "window": 16,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "a5199.wav",
+   "chars": 12,
+   "text": {
+    "ja": "おかけしてしまって・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 17,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "a5200.wav",
+   "chars": 20,
+   "text": {
+    "ja": "@S@・・・@P@そうですね。心臓病には　今のところ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 17,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "a5200.wav",
+   "chars": 23,
+   "text": {
+    "ja": "特効薬がないですから　無理をせずに　この病気と",
+    "ko": ""
+   }
+  },
+  {
+   "window": 17,
+   "line": 2,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "a5200.wav",
+   "chars": 15,
+   "text": {
+    "ja": "付き合っていくしかないですね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 18,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "a5201.wav",
+   "chars": 11,
+   "text": {
+    "ja": "そうかもしれませんね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 18,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "a5201.wav",
+   "chars": 21,
+   "text": {
+    "ja": "私の場合　ストレスが原因で発作が起こるので",
+    "ko": ""
+   }
+  },
+  {
+   "window": 18,
+   "line": 2,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "a5201.wav",
+   "chars": 25,
+   "text": {
+    "ja": "今まではそれを避けることしか考えていませんでした。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 19,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "a5202.wav",
+   "chars": 23,
+   "text": {
+    "ja": "でも　気持ちを切り替えて　毎日を楽しく過ごせば",
+    "ko": ""
+   }
+  },
+  {
+   "window": 19,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "a5202.wav",
+   "chars": 24,
+   "text": {
+    "ja": "きっとストレスの方から　私を避けてくれますよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 19,
+   "line": 2,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "a5202.wav",
+   "chars": 20,
+   "text": {
+    "ja": "病気の特効薬は　笑顔なのかもしれません。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 20,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "a5203.wav",
+   "chars": 15,
+   "text": {
+    "ja": "もっとお話ししたかったけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 20,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "a5203.wav",
+   "chars": 24,
+   "text": {
+    "ja": "そろそろ駅に着きますね。日本の鉄道は　優秀です。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 21,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "札幌駅前",
+   "voice": "a5204.wav",
+   "chars": 19,
+   "text": {
+    "ja": "ダスヴィダーニャ！　・・覚えてますか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 21,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "札幌駅前",
+   "voice": "a5204.wav",
+   "chars": 18,
+   "text": {
+    "ja": "さよならという意味の　ロシア語です。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 22,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "札幌駅前",
+   "voice": "a5205.wav",
+   "chars": 16,
+   "text": {
+    "ja": "また　お会いできるといいですね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 22,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "札幌駅前",
+   "voice": "a5205.wav",
+   "chars": 18,
+   "text": {
+    "ja": "もしよかったら・・・電話して下さい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 23,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 3,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "部屋に戻った。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 23,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 3,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "イルミネーション・カウントダウンが行われる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 23,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 3,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "大晦日まで　あと三日しかない。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 24,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 3,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "その間　誰とどのように過ごすのか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 24,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 3,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "これは結構　重要な問題だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 25,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 3,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "まず明日のことを考えよう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 25,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 3,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "明日デートに誘いたいのは・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 26,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "もちろんターニャだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 26,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "いや・・そうじゃなくて・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 27,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "札幌駅前",
+   "voice": "a5209.wav",
+   "chars": 21,
+   "text": {
+    "ja": "お早うございます。夕べはよく眠れましたか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 28,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "ぐっすり眠ったよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 28,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "実はあんまり・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 29,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "札幌駅前",
+   "voice": "a5210.wav",
+   "chars": 14,
+   "text": {
+    "ja": "睡眠は生活の基本ですもんね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 29,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "札幌駅前",
+   "voice": "a5210.wav",
+   "chars": 18,
+   "text": {
+    "ja": "それじゃ　そろそろ行きましょうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 30,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "札幌駅前",
+   "voice": "a5211.wav",
+   "chars": 17,
+   "text": {
+    "ja": "私もあんまり　眠れなかったんです。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 30,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "札幌駅前",
+   "voice": "a5211.wav",
+   "chars": 20,
+   "text": {
+    "ja": "なんか　いろんなことを考えてしまって・@5005@・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 30,
+   "line": 2,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "札幌駅前",
+   "voice": "a5211.wav",
+   "chars": 19,
+   "text": {
+    "ja": "お祭りの前の日の　子供みたいですよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 31,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "札幌駅前",
+   "voice": "a5212.wav",
+   "chars": 18,
+   "text": {
+    "ja": "それじゃ　そろそろ行きましょうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 32,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "札幌駅前",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 33,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "札幌駅前",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 34,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 4,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "札幌駅前",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 35,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "札幌駅前",
+   "voice": "A5212.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "それじゃ　そろそろ行きましょうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 36,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "午前",
+   "place": "函館駅前",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "函館駅前に着いた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 37,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "午前",
+   "place": "函館駅前",
+   "voice": "a5214.wav",
+   "chars": 14,
+   "text": {
+    "ja": "&主人公&さんは　函館　初めてですか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 38,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "うん。初めてだよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 38,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "前に何度か・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 39,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "午前",
+   "place": "函館駅前",
+   "voice": "a5215.wav",
+   "chars": 12,
+   "text": {
+    "ja": "実は私も初めてなんです。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 39,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "午前",
+   "place": "函館駅前",
+   "voice": "a5215.wav",
+   "chars": 16,
+   "text": {
+    "ja": "北海道に来て　もう何年も経つのに",
+    "ko": ""
+   }
+  },
+  {
+   "window": 39,
+   "line": 2,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "午前",
+   "place": "函館駅前",
+   "voice": "a5215.wav",
+   "chars": 18,
+   "text": {
+    "ja": "・・・そんなことじゃ　ダメですよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 40,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "午前",
+   "place": "函館駅前",
+   "voice": "a5216.wav",
+   "chars": 16,
+   "text": {
+    "ja": "こんなお天気のいい日は　外に出て",
+    "ko": ""
+   }
+  },
+  {
+   "window": 40,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "午前",
+   "place": "函館駅前",
+   "voice": "a5216.wav",
+   "chars": 19,
+   "text": {
+    "ja": "普段と違うことを　やってみなくちゃ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 41,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "午前",
+   "place": "函館駅前",
+   "voice": "a5217.wav",
+   "chars": 15,
+   "text": {
+    "ja": "知らない街は　これから訪ねる街",
+    "ko": ""
+   }
+  },
+  {
+   "window": 41,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "午前",
+   "place": "函館駅前",
+   "voice": "a5217.wav",
+   "chars": 22,
+   "text": {
+    "ja": "知らない道は　これからひらく道・・ですよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 42,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "午前",
+   "place": "函館駅前",
+   "voice": "a5218.wav",
+   "chars": 19,
+   "text": {
+    "ja": "それじゃ　私のこと　案内して下さいね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 43,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "午前",
+   "place": "函館駅前",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 44,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "午前",
+   "place": "函館駅前",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 45,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "午前",
+   "place": "函館駅前",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 46,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "午前",
+   "place": "函館駅前",
+   "voice": "A5183.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "@S@・・・@P@ごめんなさい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 46,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "午前",
+   "place": "函館駅前",
+   "voice": "A5183.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "私　変なこと言ってしまったようですね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 47,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "午前",
+   "place": "函館駅前",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 48,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "午前",
+   "place": "函館駅前",
+   "voice": "a5219.wav",
+   "chars": 14,
+   "text": {
+    "ja": "これから　どこに行きますか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 49,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 7,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／入口",
+   "voice": "a5220.wav",
+   "chars": 12,
+   "text": {
+    "ja": "ここが函館の朝市ですね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 49,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 7,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／入口",
+   "voice": "a5220.wav",
+   "chars": 11,
+   "text": {
+    "ja": "行ってみましょうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 50,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 8,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／俺の函館",
+   "voice": "a5221.wav",
+   "chars": 15,
+   "text": {
+    "ja": "初めて小樽の市場に来たとき・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 50,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 8,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／俺の函館",
+   "voice": "a5221.wav",
+   "chars": 22,
+   "text": {
+    "ja": "並んでいる品物の種類と量の多さに驚きました。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 50,
+   "line": 2,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 8,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／俺の函館",
+   "voice": "a5221.wav",
+   "chars": 23,
+   "text": {
+    "ja": "それを見て　私は　日本の豊かさを感じたんです。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 51,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 8,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／俺の函館",
+   "voice": "a5222.wav",
+   "chars": 23,
+   "text": {
+    "ja": "@S@・・@P@でもこの市場は　あの時見た小樽の市場よりも",
+    "ko": ""
+   }
+  },
+  {
+   "window": 51,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 8,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／俺の函館",
+   "voice": "a5222.wav",
+   "chars": 15,
+   "text": {
+    "ja": "ずっと大きくて　賑やかですね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 52,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "そうだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 52,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "でも今の日本は不況だし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 53,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 8,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／俺の函館",
+   "voice": "a5223.wav",
+   "chars": 20,
+   "text": {
+    "ja": "はい。高いビルは政府や企業の豊かさですし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 53,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 8,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／俺の函館",
+   "voice": "a5223.wav",
+   "chars": 22,
+   "text": {
+    "ja": "高級な乗用車は　一部のお金持ちの豊かさです。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 53,
+   "line": 2,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 8,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／俺の函館",
+   "voice": "a5223.wav",
+   "chars": 25,
+   "text": {
+    "ja": "でも市場の豊かさは　国民一人一人の豊かさですよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 54,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 8,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／俺の函館",
+   "voice": "a5224.wav",
+   "chars": 15,
+   "text": {
+    "ja": "でも　貧しくはありませんよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 55,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 8,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／俺の函館",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 56,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 8,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／俺の函館",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 57,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 8,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／俺の函館",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 58,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 8,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／俺の函館",
+   "voice": "A5183.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "@S@・・・@P@ごめんなさい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 58,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 8,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／俺の函館",
+   "voice": "A5183.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "私　変なこと言ってしまったようですね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 59,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 8,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／俺の函館",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 60,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 8,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／俺の函館",
+   "voice": "a5225.wav",
+   "chars": 12,
+   "text": {
+    "ja": "次は　どこに行きますか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 61,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 8,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／俺の函館",
+   "voice": "a5252.wav",
+   "chars": 18,
+   "text": {
+    "ja": "そろそろ・・日が暮れてきましたね・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 61,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 8,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／俺の函館",
+   "voice": "a5252.wav",
+   "chars": 20,
+   "text": {
+    "ja": "&主人公&さん。函館山の夜景・・見に行きませんか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 62,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 8,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／俺の函館",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "そうだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 63,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 9,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／ザ・ネイチャーカンパニー／外観",
+   "voice": "a5226.wav",
+   "chars": 11,
+   "text": {
+    "ja": "このお店　素敵ですね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 63,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 9,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／ザ・ネイチャーカンパニー／外観",
+   "voice": "a5226.wav",
+   "chars": 11,
+   "text": {
+    "ja": "行ってみましょうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 64,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 10,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／ザ・ネイチャーカンパニー／内部",
+   "voice": "a5227.wav",
+   "chars": 21,
+   "text": {
+    "ja": "自然をテーマにした雑貨屋さんみたいですね@5006@。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 64,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 10,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／ザ・ネイチャーカンパニー／内部",
+   "voice": "a5227.wav",
+   "chars": 20,
+   "text": {
+    "ja": "このアンモナイトの化石・・シンプルで・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 64,
+   "line": 2,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 10,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／ザ・ネイチャーカンパニー／内部",
+   "voice": "a5227.wav",
+   "chars": 16,
+   "text": {
+    "ja": "とても美しい形だと思いませんか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 65,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "本当だね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 65,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "ただの貝だよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 65,
+   "line": 2,
+   "speaker": "ターニャ",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "ターニャの方が綺麗だよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 66,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 10,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／ザ・ネイチャーカンパニー／内部",
+   "voice": "a5230.wav",
+   "chars": 25,
+   "text": {
+    "ja": "私　時々思うんです。どんなに優れたアーティストでも",
+    "ko": ""
+   }
+  },
+  {
+   "window": 66,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 10,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／ザ・ネイチャーカンパニー／内部",
+   "voice": "a5230.wav",
+   "chars": 20,
+   "text": {
+    "ja": "この自然の造形物の美しさを　超えることは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 66,
+   "line": 2,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 10,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／ザ・ネイチャーカンパニー／内部",
+   "voice": "a5230.wav",
+   "chars": 14,
+   "text": {
+    "ja": "出来ないんじゃないかって・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 67,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 10,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／ザ・ネイチャーカンパニー／内部",
+   "voice": "a5229.wav",
+   "chars": 13,
+   "text": {
+    "ja": "そうですね。ただの貝です。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 67,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 10,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／ザ・ネイチャーカンパニー／内部",
+   "voice": "a5229.wav",
+   "chars": 23,
+   "text": {
+    "ja": "でも・・ただの貝なのに　こんなに美しいんです。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 68,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 10,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／ザ・ネイチャーカンパニー／内部",
+   "voice": "a5228.wav",
+   "chars": 25,
+   "text": {
+    "ja": "私　時々思うんです。どんなに優れたアーティストでも",
+    "ko": ""
+   }
+  },
+  {
+   "window": 68,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 10,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／ザ・ネイチャーカンパニー／内部",
+   "voice": "a5228.wav",
+   "chars": 20,
+   "text": {
+    "ja": "この自然の造形物の美しさを　超えることは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 68,
+   "line": 2,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 10,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／ザ・ネイチャーカンパニー／内部",
+   "voice": "a5228.wav",
+   "chars": 14,
+   "text": {
+    "ja": "出来ないんじゃないかって・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 69,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 10,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／ザ・ネイチャーカンパニー／内部",
+   "voice": "a5231.wav",
+   "chars": 14,
+   "text": {
+    "ja": "あ・・ありがとうございます。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 69,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 10,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／ザ・ネイチャーカンパニー／内部",
+   "voice": "a5231.wav",
+   "chars": 20,
+   "text": {
+    "ja": "・・でも　アンモナイトと比べられても・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 69,
+   "line": 2,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 10,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／ザ・ネイチャーカンパニー／内部",
+   "voice": "a5231.wav",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・ごめんなさい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 70,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 10,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／ザ・ネイチャーカンパニー／内部",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 71,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 10,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／ザ・ネイチャーカンパニー／内部",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 72,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 10,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／ザ・ネイチャーカンパニー／内部",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 73,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 10,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／ザ・ネイチャーカンパニー／内部",
+   "voice": "A5183.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "@S@・・・@P@ごめんなさい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 73,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 10,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／ザ・ネイチャーカンパニー／内部",
+   "voice": "A5183.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "私　変なこと言ってしまったようですね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 74,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 10,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／ザ・ネイチャーカンパニー／内部",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 75,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 10,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／ザ・ネイチャーカンパニー／内部",
+   "voice": "a5232.wav",
+   "chars": 12,
+   "text": {
+    "ja": "次は　どこに行きますか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 76,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 10,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／ザ・ネイチャーカンパニー／内部",
+   "voice": "a5264.wav",
+   "chars": 18,
+   "text": {
+    "ja": "そろそろ・・日が暮れてきましたね・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 76,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 10,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／ザ・ネイチャーカンパニー／内部",
+   "voice": "a5264.wav",
+   "chars": 20,
+   "text": {
+    "ja": "&主人公&さん。函館山の夜景・・見に行きませんか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 77,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 10,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／ザ・ネイチャーカンパニー／内部",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "そうだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 78,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "a5233.wav",
+   "chars": 19,
+   "text": {
+    "ja": "&主人公&さんといると　暖かい気持ちになります。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 78,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "a5233.wav",
+   "chars": 19,
+   "text": {
+    "ja": "・・ずっと昔に・・感じていた気持ち・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 78,
+   "line": 2,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "a5233.wav",
+   "chars": 19,
+   "text": {
+    "ja": "今ではもう・・忘れかけていた気持ち・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 79,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "a5234.wav",
+   "chars": 8,
+   "text": {
+    "ja": "あの・・・私・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 80,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "a5235.wav",
+   "chars": 13,
+   "text": {
+    "ja": "@S@・・@P@あっ・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 80,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "a5235.wav",
+   "chars": 13,
+   "text": {
+    "ja": "・・・・・・ごめんなさい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 81,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "a5236.wav",
+   "chars": 12,
+   "text": {
+    "ja": "この路面電車のように・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 81,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "a5236.wav",
+   "chars": 19,
+   "text": {
+    "ja": "決まったルートを往復するだけの毎日・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 82,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "a5237.wav",
+   "chars": 9,
+   "text": {
+    "ja": "そんな私に　@5002@&主人公&さんは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 82,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "a5237.wav",
+   "chars": 17,
+   "text": {
+    "ja": "新しい風を　吹き込んでくれました。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 82,
+   "line": 2,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "a5237.wav",
+   "chars": 19,
+   "text": {
+    "ja": "・・・私　あれから泣いてないんですよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 83,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "a5238.wav",
+   "chars": 11,
+   "text": {
+    "ja": "次はベイエリアですね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 83,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "a5238.wav",
+   "chars": 14,
+   "text": {
+    "ja": "・・・函館は　素敵な街です。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 84,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "a5239.wav",
+   "chars": 8,
+   "text": {
+    "ja": "次は元町ですね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 84,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "a5239.wav",
+   "chars": 14,
+   "text": {
+    "ja": "・・・函館は　素敵な街です。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 85,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "a5240.wav",
+   "chars": 11,
+   "text": {
+    "ja": "次は湯の川温泉ですね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 85,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "a5240.wav",
+   "chars": 14,
+   "text": {
+    "ja": "・・・函館は　素敵な街です。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 86,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "a5241.wav",
+   "chars": 9,
+   "text": {
+    "ja": "次は五稜郭ですね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 86,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "a5241.wav",
+   "chars": 14,
+   "text": {
+    "ja": "・・・函館は　素敵な街です。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 87,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／ザ・グラススタジオイン函館／外観",
+   "voice": "a5242.wav",
+   "chars": 22,
+   "text": {
+    "ja": "古い港街ですね。小樽の街に　少し似ています。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 87,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／ザ・グラススタジオイン函館／外観",
+   "voice": "a5242.wav",
+   "chars": 24,
+   "text": {
+    "ja": "私の育ったナホトカの街も・・同じ匂いがしました。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 88,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／ザ・グラススタジオイン函館／外観",
+   "voice": "a7644.wav",
+   "chars": 19,
+   "text": {
+    "ja": "あそこに　グラススタジオがありますね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 88,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／ザ・グラススタジオイン函館／外観",
+   "voice": "a7644.wav",
+   "chars": 18,
+   "text": {
+    "ja": "ちょっとだけ・・寄ってもいいですか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 89,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "もちろん",
+    "ko": ""
+   }
+  },
+  {
+   "window": 89,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "僕はちょっと・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 90,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／ザ・グラススタジオイン函館／外観",
+   "voice": "a5245.wav",
+   "chars": 17,
+   "text": {
+    "ja": "そうですね。せっかくのお休みなのに",
+    "ko": ""
+   }
+  },
+  {
+   "window": 90,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／ザ・グラススタジオイン函館／外観",
+   "voice": "a5245.wav",
+   "chars": 21,
+   "text": {
+    "ja": "見たら仕事のこと　思い出しちゃいますよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 90,
+   "line": 2,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／ザ・グラススタジオイン函館／外観",
+   "voice": "a5245.wav",
+   "chars": 17,
+   "text": {
+    "ja": "それでは　どこに行きましょうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 91,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／ザ・グラススタジオイン函館／外観",
+   "voice": "a5244.wav",
+   "chars": 11,
+   "text": {
+    "ja": "ありがとうございます。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 91,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／ザ・グラススタジオイン函館／外観",
+   "voice": "a5244.wav",
+   "chars": 14,
+   "text": {
+    "ja": "それでは　行きましょうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 92,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／ザ・グラススタジオイン函館／外観",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 93,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／ザ・グラススタジオイン函館／外観",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 94,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／ザ・グラススタジオイン函館／外観",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 95,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／ザ・グラススタジオイン函館／外観",
+   "voice": "A5245.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "そうですね。せっかくのお休みなのに",
+    "ko": ""
+   }
+  },
+  {
+   "window": 95,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／ザ・グラススタジオイン函館／外観",
+   "voice": "A5245.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "見たら仕事のこと　思い出しちゃいますよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 95,
+   "line": 2,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／ザ・グラススタジオイン函館／外観",
+   "voice": "A5245.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "それでは　どこに行きましょうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 96,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 13,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／ザ・グラススタジオイン函館／内部",
+   "voice": "A7645.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "素敵な作品がたくさんありますね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 96,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 13,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／ザ・グラススタジオイン函館／内部",
+   "voice": "A7645.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "@5007@特にこの花瓶・・素晴らしいです。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 97,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 13,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／ザ・グラススタジオイン函館／内部",
+   "voice": "a7648.wav",
+   "chars": 24,
+   "text": {
+    "ja": "すごく繊細で・・それでいて力強さを持った花瓶・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 97,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 13,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／ザ・グラススタジオイン函館／内部",
+   "voice": "a7648.wav",
+   "chars": 20,
+   "text": {
+    "ja": "私もいつか・・こんな作品を作りたいです。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 97,
+   "line": 2,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 13,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／ザ・グラススタジオイン函館／内部",
+   "voice": "a7648.wav",
+   "chars": 18,
+   "text": {
+    "ja": "でも・・あと何年かかるでしょうね・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 98,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "大丈夫。自信を持って",
+    "ko": ""
+   }
+  },
+  {
+   "window": 98,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "本当に綺麗だね",
+    "ko": ""
+   }
+  },
+  {
+   "window": 99,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 13,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／ザ・グラススタジオイン函館／内部",
+   "voice": "a5249.wav",
+   "chars": 20,
+   "text": {
+    "ja": "@S@・・・@P@ふしぎですね。&主人公&さんにそう言われたら",
+    "ko": ""
+   }
+  },
+  {
+   "window": 99,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 13,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／ザ・グラススタジオイン函館／内部",
+   "voice": "a5249.wav",
+   "chars": 16,
+   "text": {
+    "ja": "なんだか　自信が湧いてきました。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 99,
+   "line": 2,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 13,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／ザ・グラススタジオイン函館／内部",
+   "voice": "a5249.wav",
+   "chars": 19,
+   "text": {
+    "ja": "目標を持つことって　いいことですよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 100,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 13,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／ザ・グラススタジオイン函館／内部",
+   "voice": "a7649.wav",
+   "chars": 19,
+   "text": {
+    "ja": "はい。作った方の情熱と愛情を感じます。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 101,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 13,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／ザ・グラススタジオイン函館／内部",
+   "voice": "a5251.wav",
+   "chars": 12,
+   "text": {
+    "ja": "次は　どこに行きますか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 102,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 13,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／ザ・グラススタジオイン函館／内部",
+   "voice": "a5274.wav",
+   "chars": 18,
+   "text": {
+    "ja": "そろそろ・・日が暮れてきましたね・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 102,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 13,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／ザ・グラススタジオイン函館／内部",
+   "voice": "a5274.wav",
+   "chars": 20,
+   "text": {
+    "ja": "&主人公&さん。函館山の夜景・・見に行きませんか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 103,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 13,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／ザ・グラススタジオイン函館／内部",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "そうだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 104,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "a5254.wav",
+   "chars": 11,
+   "text": {
+    "ja": "ここは・・温泉ですね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 104,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "a5254.wav",
+   "chars": 15,
+   "text": {
+    "ja": "日帰り入浴・・・したいですか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 105,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "うん",
+    "ko": ""
+   }
+  },
+  {
+   "window": 105,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "やっぱりやめようか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 106,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "a5256.wav",
+   "chars": 6,
+   "text": {
+    "ja": "そうですね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 106,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "a5256.wav",
+   "chars": 24,
+   "text": {
+    "ja": "・・・実は私　共同浴場は　ちょっと苦手なんです。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 106,
+   "line": 2,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "a5256.wav",
+   "chars": 14,
+   "text": {
+    "ja": "それでは　どこに行きますか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 107,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "a5255.wav",
+   "chars": 7,
+   "text": {
+    "ja": "わかりました。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 107,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "a5255.wav",
+   "chars": 14,
+   "text": {
+    "ja": "それでは　行きましょうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 108,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 109,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 110,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 14,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 111,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "A5184.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "@S@・・・・・・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 111,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "A5184.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "@P@どうしたんですか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 111,
+   "line": 2,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "A5184.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "さっきから　ずっと黙ってますよ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 112,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 14,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "僕はちょっと迷っていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 112,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 14,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "ターニャは温泉に入りたくないような表情だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 112,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 14,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "・・・さて　どうしようか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 113,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "温泉に入る",
+    "ko": ""
+   }
+  },
+  {
+   "window": 113,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "やっぱりやめる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 114,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "A5256.WAV",
+   "chars": 6,
+   "text": {
+    "ja": "そうですね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 114,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "A5256.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "・・・実は私　共同浴場は　ちょっと苦手なんです。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 114,
+   "line": 2,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "A5256.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "それでは　どこに行きますか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 115,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "A5255.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "わかりました。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 115,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "A5255.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "それでは　行きましょうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 116,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 15,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／内風呂",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "ホテル平成館の男湯・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 116,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 15,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／内風呂",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "檜のいい香りがする。結構　広いな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 116,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 15,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／内風呂",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "旅の疲れが　癒されてゆく感じだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 117,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 15,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／内風呂",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "確かここって　露天風呂が名物だったっけな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 117,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 15,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／内風呂",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "ちょっと　行ってみようかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 118,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 16,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／露天風呂",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "最上階にある展望露天風呂・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 118,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 16,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／露天風呂",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "うん。いい眺めだ。湯加減もちょうどいい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 118,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 16,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／露天風呂",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "来て良かったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 119,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 16,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／露天風呂",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "さて・・そろそろ上がるか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 120,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／ロビー",
+   "voice": "a5261.wav",
+   "chars": 8,
+   "text": {
+    "ja": "いいお湯でした。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 120,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／ロビー",
+   "voice": "a5261.wav",
+   "chars": 23,
+   "text": {
+    "ja": "実は私　共同浴場は　ちょっと苦手だったんです。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 120,
+   "line": 2,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／ロビー",
+   "voice": "a5261.wav",
+   "chars": 23,
+   "text": {
+    "ja": "でもこんなに広いお風呂なら　また来たいですね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 121,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／ロビー",
+   "voice": "a5262.wav",
+   "chars": 24,
+   "text": {
+    "ja": "素敵な場所　教えてくれて　ありがとうございます。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 122,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／ロビー",
+   "voice": "a5263.wav",
+   "chars": 14,
+   "text": {
+    "ja": "次は　どこに行きましょうか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 123,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／ロビー",
+   "voice": "A5274.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "そろそろ・・日が暮れてきましたね・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 123,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／ロビー",
+   "voice": "A5274.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "&主人公&さん。函館山の夜景・・見に行きませんか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 124,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／ロビー",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "そうだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 125,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／外観",
+   "voice": "a5266.wav",
+   "chars": 17,
+   "text": {
+    "ja": "ガイドブックに書いてあるんですけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 125,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／外観",
+   "voice": "a5266.wav",
+   "chars": 17,
+   "text": {
+    "ja": "この近くにカチューシャという名前の",
+    "ko": ""
+   }
+  },
+  {
+   "window": 125,
+   "line": 2,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／外観",
+   "voice": "a5266.wav",
+   "chars": 17,
+   "text": {
+    "ja": "ロシア料理のお店があるみたいです。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 126,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／外観",
+   "voice": "a5267.wav",
+   "chars": 11,
+   "text": {
+    "ja": "&主人公&さん。ちょっとだけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 126,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／外観",
+   "voice": "a5267.wav",
+   "chars": 9,
+   "text": {
+    "ja": "寄らせて下さいね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 127,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／カチューシャ／外観",
+   "voice": "a5268.wav",
+   "chars": 14,
+   "text": {
+    "ja": "家を出て　日本に来たとき・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 127,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／カチューシャ／外観",
+   "voice": "a5268.wav",
+   "chars": 15,
+   "text": {
+    "ja": "私は祖国を捨てたつもりでした。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 127,
+   "line": 2,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／カチューシャ／外観",
+   "voice": "a5268.wav",
+   "chars": 19,
+   "text": {
+    "ja": "・・でも　そんなこと無理なんですよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 128,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／カチューシャ／外観",
+   "voice": "a5269.wav",
+   "chars": 19,
+   "text": {
+    "ja": "街を歩いていても　こういうお店があると",
+    "ko": ""
+   }
+  },
+  {
+   "window": 128,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／カチューシャ／外観",
+   "voice": "a5269.wav",
+   "chars": 13,
+   "text": {
+    "ja": "つい足が向いてしまいます。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 128,
+   "line": 2,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／カチューシャ／外観",
+   "voice": "a5269.wav",
+   "chars": 12,
+   "text": {
+    "ja": "・・・行きましょうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 129,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 20,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／カチューシャ／内部",
+   "voice": "a5270.wav",
+   "chars": 18,
+   "text": {
+    "ja": "ここの紅茶・・とてもおいしいですね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 129,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 20,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／カチューシャ／内部",
+   "voice": "a5270.wav",
+   "chars": 23,
+   "text": {
+    "ja": "寒い季節・・@5003@家に帰ると　いつも母がいれてくれた",
+    "ko": ""
+   }
+  },
+  {
+   "window": 129,
+   "line": 2,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 20,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／カチューシャ／内部",
+   "voice": "a5270.wav",
+   "chars": 11,
+   "text": {
+    "ja": "あったかい家庭の味・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 130,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 20,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／カチューシャ／内部",
+   "voice": "a5271.wav",
+   "chars": 20,
+   "text": {
+    "ja": "でも私　エンゼルの紅茶も好きなんですよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 130,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 20,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／カチューシャ／内部",
+   "voice": "a5271.wav",
+   "chars": 16,
+   "text": {
+    "ja": "見知らぬ国に来て　初めて味わった",
+    "ko": ""
+   }
+  },
+  {
+   "window": 130,
+   "line": 2,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 20,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／カチューシャ／内部",
+   "voice": "a5271.wav",
+   "chars": 12,
+   "text": {
+    "ja": "あったかい優しさの味・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 131,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 20,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／カチューシャ／内部",
+   "voice": "a5272.wav",
+   "chars": 18,
+   "text": {
+    "ja": "どちらの紅茶も　とてもおいしいです。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 131,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 20,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／カチューシャ／内部",
+   "voice": "a5272.wav",
+   "chars": 22,
+   "text": {
+    "ja": "二つの祖国を持つことも　そんなに悪いことでは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 131,
+   "line": 2,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 20,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／カチューシャ／内部",
+   "voice": "a5272.wav",
+   "chars": 12,
+   "text": {
+    "ja": "ないのかもしれませんね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 132,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 20,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／カチューシャ／内部",
+   "voice": "a5273.wav",
+   "chars": 16,
+   "text": {
+    "ja": "@S@・・@P@そろそろ　行きましょうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 133,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 20,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／カチューシャ／内部",
+   "voice": "A5274.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "そろそろ・・日が暮れてきましたね・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 133,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 20,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／カチューシャ／内部",
+   "voice": "A5274.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "&主人公&さん。函館山の夜景・・見に行きませんか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 134,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 20,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／カチューシャ／内部",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "そうだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 135,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／ロープウェイ内部",
+   "voice": "a5276.wav",
+   "chars": 13,
+   "text": {
+    "ja": "@S@・・・@P@こんな綺麗な夜景・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 135,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／ロープウェイ内部",
+   "voice": "a5276.wav",
+   "chars": 11,
+   "text": {
+    "ja": "私　初めて見ました・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 135,
+   "line": 2,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／ロープウェイ内部",
+   "voice": "a5276.wav",
+   "chars": 14,
+   "text": {
+    "ja": "これが函館の夜景なんですね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 136,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 22,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "a5277.wav",
+   "chars": 25,
+   "text": {
+    "ja": "離れてから　初めて見えてくるものってあるんですね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 136,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 22,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "a5277.wav",
+   "chars": 20,
+   "text": {
+    "ja": "この夜景の美しさも・・祖国の思い出も・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 136,
+   "line": 2,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 22,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "a5277.wav",
+   "chars": 12,
+   "text": {
+    "ja": "父と　母の思いやりも・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 137,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 22,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "a5278.wav",
+   "chars": 21,
+   "text": {
+    "ja": "@S@・・・@P@私　いつかロシアに戻ろうと思います。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 137,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 22,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "a5278.wav",
+   "chars": 19,
+   "text": {
+    "ja": "両親に会って　きちんと事情を話して・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 137,
+   "line": 2,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 22,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "a5278.wav",
+   "chars": 18,
+   "text": {
+    "ja": "それでもう一度　日本に帰ってきます。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 138,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 22,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "a5279.wav",
+   "chars": 16,
+   "text": {
+    "ja": "いつまでも過去を引きずっていたら",
+    "ko": ""
+   }
+  },
+  {
+   "window": 138,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 22,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "a5279.wav",
+   "chars": 18,
+   "text": {
+    "ja": "未来は切り開いてはいけませんから・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 139,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 22,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "a5280.wav",
+   "chars": 18,
+   "text": {
+    "ja": "離れてから　初めて見えてくるもの・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 139,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 22,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "a5280.wav",
+   "chars": 13,
+   "text": {
+    "ja": "もう一つは　私の心でした。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 140,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 22,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "・・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 140,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 22,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "・・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 141,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 22,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "a5282.wav",
+   "chars": 19,
+   "text": {
+    "ja": "@S@・・・@P@会いたくて・・でも会えなくて・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 141,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 22,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "a5282.wav",
+   "chars": 14,
+   "text": {
+    "ja": "苦しくて・・切ない気持ち・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 142,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 22,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "・・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 142,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 22,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "・・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 143,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 22,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "・・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 143,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 22,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "・・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 144,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 22,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "a5285.wav",
+   "chars": 14,
+   "text": {
+    "ja": "@S@・・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 144,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 22,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "a5285.wav",
+   "chars": 14,
+   "text": {
+    "ja": "・・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 144,
+   "line": 2,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 22,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "a5285.wav",
+   "chars": 14,
+   "text": {
+    "ja": "@P@・・私は　あなたが好きです。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 145,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 22,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "a5286.wav",
+   "chars": 14,
+   "text": {
+    "ja": "日本は　素晴らしい国ですね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 145,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 22,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "a5286.wav",
+   "chars": 17,
+   "text": {
+    "ja": "・・・美しくて　あったかい国です。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 146,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "僕はターニャが好きだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 146,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "ターニャ僕のことどう思ってる？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 146,
+   "line": 2,
+   "speaker": "ターニャ",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "寒いね。そろそろ帰ろうか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 147,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 22,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "a5287.wav",
+   "chars": 5,
+   "text": {
+    "ja": "@S@・・・@P@え？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 148,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 22,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "a5288.wav",
+   "chars": 18,
+   "text": {
+    "ja": "@S@・・・・・・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 148,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 22,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "a5288.wav",
+   "chars": 18,
+   "text": {
+    "ja": "・・・・・@P@・ごめんなさい・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 148,
+   "line": 2,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 22,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "a5288.wav",
+   "chars": 15,
+   "text": {
+    "ja": "今はまだ・・・何も言えません。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 149,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 22,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "a5289.wav",
+   "chars": 14,
+   "text": {
+    "ja": "@S@・・・@P@寒くなってきましたね？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 149,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 22,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "a5289.wav",
+   "chars": 13,
+   "text": {
+    "ja": "そろそろ帰りましょうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 150,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 22,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "a5290.wav",
+   "chars": 5,
+   "text": {
+    "ja": "@S@・・・@P@え？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 151,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 22,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "a5291.wav",
+   "chars": 18,
+   "text": {
+    "ja": "@S@・・・・・・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 151,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 22,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "a5291.wav",
+   "chars": 18,
+   "text": {
+    "ja": "・・・・・@P@・ごめんなさい・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 151,
+   "line": 2,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 22,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "a5291.wav",
+   "chars": 15,
+   "text": {
+    "ja": "今はまだ・・・何も言えません。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 152,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 22,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "a5292.wav",
+   "chars": 14,
+   "text": {
+    "ja": "@S@・・・@P@寒くなってきましたね？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 152,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 22,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "a5292.wav",
+   "chars": 13,
+   "text": {
+    "ja": "そろそろ帰りましょうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 153,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 22,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "a5293.wav",
+   "chars": 9,
+   "text": {
+    "ja": "@S@・・・@P@そうですね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 154,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 22,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "a5294.wav",
+   "chars": 14,
+   "text": {
+    "ja": "@S@・・・@P@寒くなってきましたね？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 154,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 22,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "a5294.wav",
+   "chars": 13,
+   "text": {
+    "ja": "そろそろ帰りましょうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 155,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 23,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "ターニャと別れて　書斎に戻った。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 156,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 23,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "イルミネーション・カウントダウンが行われる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 156,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 23,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "大晦日まで　あと二日！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 156,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 23,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "明日デートに誘いたいのは・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 157,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "もちろんターニャだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 157,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "いや・・そうじゃなくて・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 158,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 23,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "明日は一緒に札幌の街を歩きたい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 159,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 23,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "明日は一緒に函館に行きたい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 160,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 23,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "よし！　まずは電話してみよう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 161,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 24,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎２",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "さてこれから　どうしようかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 162,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 24,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎２",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "さてこれから　どうしようかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 163,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 24,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎２",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "さてこれから　どうしようかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 164,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 25,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a5297.wav",
+   "chars": 3,
+   "text": {
+    "ja": "はい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 165,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 25,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "もしもし・・&主人公名前&です。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 166,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 25,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a5299.wav",
+   "chars": 11,
+   "text": {
+    "ja": "@S@・・・@P@あっ・・今晩は。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 166,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 25,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a5299.wav",
+   "chars": 15,
+   "text": {
+    "ja": "今日はとても　楽しかったです。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 167,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 25,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "うん。それでまた明日　函館に",
+    "ko": ""
+   }
+  },
+  {
+   "window": 167,
+   "line": 1,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 25,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "行こうかって　思ってたんだけど・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 168,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 25,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "うん。それでまた明日　札幌に",
+    "ko": ""
+   }
+  },
+  {
+   "window": 168,
+   "line": 1,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 25,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "行こうかって　思ってたんだけど・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 169,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 25,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a5301.wav",
+   "chars": 8,
+   "text": {
+    "ja": "はい。行きます。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 169,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 25,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a5301.wav",
+   "chars": 22,
+   "text": {
+    "ja": "・・・ほんとはずっと　電話　待ってたんです。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 170,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 25,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "うん。それじゃ明日の朝　札幌駅で・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 171,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 25,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a5303.wav",
+   "chars": 10,
+   "text": {
+    "ja": "楽しみにしています。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 171,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 25,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a5303.wav",
+   "chars": 13,
+   "text": {
+    "ja": "それでは　おやすみなさい。",
+    "ko": ""
+   }
+  }
+ ]
+}

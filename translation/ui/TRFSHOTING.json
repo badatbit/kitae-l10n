@@ -1,0 +1,562 @@
+{
+  "module": "TRFSHOTING",
+  "path": "/TRF/TRFSHOTING.DLL",
+  "entries": [
+    {
+      "offset": 222256,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "廨",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 222276,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "膊",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 222280,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "年",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 222308,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "廱",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 222352,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "濟",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 222356,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "膸",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 222360,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "鏤",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 222780,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "熹",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 222792,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "燹",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 222872,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "釆",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 222876,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "狐",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 223288,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "廨",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 223308,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "膊",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 223312,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "年",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 223340,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "廱",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 223384,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "濟",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 223388,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "膸",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 223392,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "鏤",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 223812,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "熹",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 223824,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "燹",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 223904,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "釆",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 223908,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "狐",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 224312,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "廨",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 224332,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "膊",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 224336,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "年",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 224364,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "廱",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 224408,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "濟",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 224412,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "膸",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 224416,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "鏤",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 224836,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "熹",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 224848,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "燹",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 224928,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "釆",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 224932,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "狐",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 230160,
+      "size": 39,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "＜操作説明＞\n「方向ボタン」で自機の移動",
+        "ko": "＜조작설명＞\n「방향버튼」기체　이동"
+      }
+    },
+    {
+      "offset": 230200,
+      "size": 62,
+      "avail": 63,
+      "section": ".data",
+      "text": {
+        "ja": "「Ａボタン」でショット\n押したままで、ある程度の\n連射が可能です",
+        "ko": "「Ａ버튼」으로　발사\n누르고　있으면　어느　정도\n연사가　됩니다"
+      }
+    },
+    {
+      "offset": 230264,
+      "size": 82,
+      "avail": 83,
+      "section": ".data",
+      "text": {
+        "ja": "「Ｂボタン」でスピードチェンジ\nＬ（低速）、Ｈ（高速）の\n２段階に切り替えが出来ます",
+        "ko": "「Ｂ버튼」으로　속도　전환\nＬ（저속）、Ｈ（고속）\n두　단계로　바뀝니다"
+      }
+    },
+    {
+      "offset": 230348,
+      "size": 88,
+      "avail": 91,
+      "section": ".data",
+      "text": {
+        "ja": "スピードチェンジ時に噴射する\nバックファイヤーにも攻撃力が\nあります　上手く利用して下さい",
+        "ko": "속도를　바꿀　때　뿜는\n백파이어에도　공격력이\n있습니다　잘　활용하세요"
+      }
+    },
+    {
+      "offset": 230440,
+      "size": 28,
+      "avail": 31,
+      "section": ".data",
+      "text": {
+        "ja": "それでは本作戦の説明をします",
+        "ko": "그럼　이번　작전을　설명합니다"
+      }
+    },
+    {
+      "offset": 230472,
+      "size": 92,
+      "avail": 95,
+      "section": ".data",
+      "text": {
+        "ja": "先行していた偵察機から　敵軍が\n地球に向けて最終兵器での攻撃を\n決行するという報告を受けました",
+        "ko": "앞서　간　정찰기로부터　적군이\n지구를　향해　최종병기　공격을\n감행한다는　보고를　받았습니다"
+      },
+      "ask": [
+        {
+          "why": "슈팅 미니게임의 극중 설정(외계 최종병기)이다. 진지한 군사 브리핑 말투로 옮겼다 — 원문 톤과 맞는지.",
+          "state": "open"
+        }
+      ]
+    },
+    {
+      "offset": 230568,
+      "size": 72,
+      "avail": 75,
+      "section": ".data",
+      "text": {
+        "ja": "敵最終兵器の\nエネルギーチャージまで、もう\nほとんど時間が残されていません",
+        "ko": "적　최종병기의\n에너지　충전까지　시간이\n거의　남지　않았습니다"
+      }
+    },
+    {
+      "offset": 230644,
+      "size": 68,
+      "avail": 71,
+      "section": ".data",
+      "text": {
+        "ja": "画面左上の緑の文字が\n本作戦に残された時間です\n「２分」しかありません",
+        "ko": "왼쪽　위　초록　글자가\n이　작전에　남은　시간입니다\n「２분」뿐입니다"
+      }
+    },
+    {
+      "offset": 230716,
+      "size": 41,
+      "avail": 43,
+      "section": ".data",
+      "text": {
+        "ja": "ただ、ある特定の敵は\n偵察目的のようなので",
+        "ko": "다만　특정　적은\n정찰이　목적인　듯하니"
+      }
+    },
+    {
+      "offset": 230760,
+      "size": 60,
+      "avail": 63,
+      "section": ".data",
+      "text": {
+        "ja": "その敵を破壊する事が出来れば\nある程度の時間は稼げるよう\nです",
+        "ko": "그　적을　파괴하면\n어느　정도　시간을　벌　수\n있습니다"
+      }
+    },
+    {
+      "offset": 230824,
+      "size": 109,
+      "avail": 111,
+      "section": ".data",
+      "text": {
+        "ja": "残り時間の下に表示されている\nＥＸは追加作戦時間です\n上の作戦時間が０になった時\nＥＸのカウントがスタートします",
+        "ko": "남은　시간　아래에　있는\nＥＸ는　추가　작전　시간입니다\n위의　작전　시간이　０이　되면\nＥＸ　카운트　시작"
+      }
+    },
+    {
+      "offset": 230936,
+      "size": 53,
+      "avail": 55,
+      "section": ".data",
+      "text": {
+        "ja": "その他に特定の敵は　破壊時に\nチップを出す事があります",
+        "ko": "그　밖에　특정　적은　파괴할　때\n칩을　떨어뜨립니다"
+      }
+    },
+    {
+      "offset": 230992,
+      "size": 70,
+      "avail": 71,
+      "section": ".data",
+      "text": {
+        "ja": "このチップは取ると得点になり\nます　数を多くとるほど得点が\n加算されます",
+        "ko": "이　칩은　주우면　점수가　되고\n많이　주울수록　점수가\n쌓입니다"
+      }
+    },
+    {
+      "offset": 231064,
+      "size": 76,
+      "avail": 79,
+      "section": ".data",
+      "text": {
+        "ja": "自機のシールドの説明をします\n自機は敵の攻撃や接触により\nシールドが減少します",
+        "ko": "기체　실드를　설명합니다\n기체는　적의　공격이나　접촉으로\n실드가　줄어듭니다"
+      }
+    },
+    {
+      "offset": 231144,
+      "size": 37,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "画面左下にあるのがシールド\nゲージです",
+        "ko": "왼쪽　아래가\n실드　게이지입니다"
+      }
+    },
+    {
+      "offset": 231184,
+      "size": 51,
+      "avail": 51,
+      "section": ".data",
+      "text": {
+        "ja": "１度シールドが減少すると\n復活までに時間が掛かります",
+        "ko": "실드가　한번　줄면\n회복까지　시간이　걸립니다"
+      }
+    },
+    {
+      "offset": 231236,
+      "size": 55,
+      "avail": 55,
+      "section": ".data",
+      "text": {
+        "ja": "シールドの復活前に敵や弾に\n接触すると自機は破壊されます",
+        "ko": "실드　회복　전에　적이나\n탄에　닿으면　파괴됩니다"
+      }
+    },
+    {
+      "offset": 231292,
+      "size": 33,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "自機が破壊されると\n作戦は終了です",
+        "ko": "기체가　파괴되면\n작전은　끝입니다"
+      }
+    },
+    {
+      "offset": 231328,
+      "size": 37,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "あなたが\n無事生還する事を祈っています",
+        "ko": "당신이\n무사히　귀환하기를　빕니다"
+      }
+    },
+    {
+      "offset": 231368,
+      "size": 34,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "ＧＯＯＤ　ＬＵＣＫ！　　　　　　　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 231440,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "オプション",
+        "ko": "옵션"
+      }
+    },
+    {
+      "offset": 231452,
+      "size": 6,
+      "avail": 13,
+      "section": ".data",
+      "text": {
+        "ja": "スコア",
+        "ko": ""
+      }
+    }
+  ]
+}

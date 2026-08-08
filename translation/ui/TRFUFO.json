@@ -1,0 +1,336 @@
+{
+  "module": "TRFUFO",
+  "path": "/TRF/TRFUFO.DLL",
+  "entries": [
+    {
+      "offset": 187344,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "烙",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 187834,
+      "size": 2,
+      "avail": 6,
+      "section": ".rdata",
+      "text": {
+        "ja": "湿",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 187873,
+      "size": 3,
+      "avail": 7,
+      "section": ".rdata",
+      "text": {
+        "ja": "炳<",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 188002,
+      "size": 2,
+      "avail": 6,
+      "section": ".rdata",
+      "text": {
+        "ja": "隋",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 189344,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "オプション",
+        "ko": "옵션"
+      }
+    },
+    {
+      "offset": 189396,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "操作説明聞く",
+        "ko": "조작설명듣기"
+      }
+    },
+    {
+      "offset": 189452,
+      "size": 18,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "ぱんだジェル取れた",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 189472,
+      "size": 18,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "ぱんだジェル取れた",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 189492,
+      "size": 18,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "ぱんだジェル取れた",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 189512,
+      "size": 16,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "えんジェル取れた",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 189532,
+      "size": 16,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "えんジェル取れた",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 189552,
+      "size": 16,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "えんジェル取れた",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 189572,
+      "size": 16,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "みみジェル取れた",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 189592,
+      "size": 16,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "みみジェル取れた",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 189612,
+      "size": 16,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "みみジェル取れた",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 189632,
+      "size": 16,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "でぶジェル取れた",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 189652,
+      "size": 16,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "でぶジェル取れた",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 189672,
+      "size": 16,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "でぶジェル取れた",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 189692,
+      "size": 18,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "うるふジェル取れた",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 189712,
+      "size": 18,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "うるふジェル取れた",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 189732,
+      "size": 18,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "うるふジェル取れた",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 189752,
+      "size": 16,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "もちジェル取れた",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 189772,
+      "size": 16,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "もちジェル取れた",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 189792,
+      "size": 16,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "もちジェル取れた",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 189812,
+      "size": 16,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "ヌイグルミ取れた",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 189832,
+      "size": 16,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "ヌイグルミ取れた",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 189852,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 190048,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 190052,
+      "size": 95,
+      "avail": 95,
+      "section": ".data",
+      "text": {
+        "ja": "『Ｌ／Ｒトリガー』『方向ボタン』を上手く使って\nお目当てのぬいぐるみの位置をよく確かめて下さい。",
+        "ko": "『Ｌ／Ｒ트리거』와　『방향　버튼』을　잘　써서\n원하는　인형의　위치를　잘　확인해　주세요。"
+      }
+    },
+    {
+      "offset": 190148,
+      "size": 69,
+      "avail": 71,
+      "section": ".data",
+      "text": {
+        "ja": "『Ａボタン』を押している間　クレーンは右側へ移動し\n離すと止まります。",
+        "ko": "『Ａ버튼』을　누르면　크레인이　오른쪽으로\n이동하고　떼면　멈춥니다。"
+      }
+    },
+    {
+      "offset": 190220,
+      "size": 83,
+      "avail": 83,
+      "section": ".data",
+      "text": {
+        "ja": "『Ｂボタン』を押している間　クレーンは奥側へ移動し\n離すとアームが降下していきます。",
+        "ko": "『Ｂ버튼』을　누르면　크레인이　안쪽으로\n이동하고　떼면　팔이　내려갑니다。"
+      }
+    },
+    {
+      "offset": 190304,
+      "size": 132,
+      "avail": 135,
+      "section": ".data",
+      "text": {
+        "ja": "無事ぬいぐるみをキャッチできたら『Ａボタン』を\n押したり離したりしてアームの力を上手く加減し\nぬいぐるみを取り出し口まで運んで下さい。",
+        "ko": "인형을　무사히　집었으면　『Ａ버튼』을\n눌렀다　뗐다　하며　팔의　힘을　잘　조절해\n인형을　배출구까지　옮겨　주세요。"
+      }
+    },
+    {
+      "offset": 190440,
+      "size": 21,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "それでは　スタート！\n",
+        "ko": "그럼　스타트！"
+      }
+    }
+  ]
+}

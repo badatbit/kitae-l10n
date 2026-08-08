@@ -1,0 +1,9398 @@
+{
+ "script": "琴梨冬1",
+ "source": "ja",
+ "entries": [
+  {
+   "window": 0,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "今回の旅には　ひとつの目的があった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 0,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "札幌は今　ホワイト・イルミネーションの",
+    "ko": ""
+   }
+  },
+  {
+   "window": 0,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "真っ最中だ。そして・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 0,
+   "speaker": "文字",
+   "kind": "나레이션",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "@4130@大晦日の夜・・　　　　　　　　　　",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 1,
+   "speaker": "文字",
+   "kind": "나레이션",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "@4131@イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 2,
+   "speaker": "文字",
+   "kind": "나레이션",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "@4132@年越しのＫｉｓｓをした恋人たちは　",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 3,
+   "speaker": "文字",
+   "kind": "나레이션",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "@4133@永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 2,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "こういう伝説は　恐らくあちこちにあるものだろう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 2,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "伝説の通り　幸せになったカップルもいるだろうし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 2,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "きっと　そうならなかったカップルもいるだろう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 3,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "でも僕は信じてみたかった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 3,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "大好きな女の子と離れて暮らしていて・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 4,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "だからこそ　信じられる何かが",
+    "ko": ""
+   }
+  },
+  {
+   "window": 4,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "欲しかったのかもしれない。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 5,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "A6848.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "あっ！　いたいた！　お兄ちゃーん！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 6,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "A6849.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "ごめんね。ちょっと遅れちゃった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 6,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "A6849.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "ひさしぶりだね。元気だった？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 6,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "A6849.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "あれ？　ちょっと背　伸びたんじゃない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 7,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "矢継ぎ早に質問してくる。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 7,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "僕は・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 8,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "琴梨ちゃんも元気そうだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 8,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "琴梨ちゃん綺麗になったよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 9,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "A6851.WAV",
+   "chars": 6,
+   "text": {
+    "ja": "うん。元気。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 9,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "A6851.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "お兄ちゃんに会えたから　もっと元気になったよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 10,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "A6852.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "うふふ。冗談ばっかり・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 10,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "A6852.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "お兄ちゃんも格好良くなったよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 11,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "A6854.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "そろそろ汽車・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 11,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "A6854.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "じゃなくて電車の時間だよ。行こ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 12,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "A6853.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "そろそろ汽車の時間だよ。行こ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 13,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A6855.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "夏に来た時と景色が全然違うでしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 13,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A6855.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "いつも１１月ぐらいから雪が降って",
+    "ko": ""
+   }
+  },
+  {
+   "window": 13,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A6855.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "４月頃になるまで溶けないわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 14,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A6856.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "考えたら半年ぐらい　雪の中で暮らしてるんだ@9998@ね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 14,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A6856.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "お家の屋根なんかも雪が積もらないように",
+    "ko": ""
+   }
+  },
+  {
+   "window": 14,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A6856.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "傾斜が付いて@3333@るんだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 15,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "雪が降って不便なことは？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 15,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "雪が降ってうれしいことは？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 16,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A6857.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "うーん。降るのが当たり前だから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 16,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A6857.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "あまりそういうこと　考えたことないけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 16,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A6857.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "部活とかは不便かな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 17,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A6858.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "雪でグラウンドが使えなくなっちゃうから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 17,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A6858.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "テニス部は体育館で素振りしたり",
+    "ko": ""
+   }
+  },
+  {
+   "window": 17,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A6858.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "廊下や階段を走ったりするんだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 18,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A6859.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "陸上部は冬になるとスキー部に早変わりするし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 18,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A6859.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "外でやるのは・・サッカーぐらいかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 19,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A6860.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "あのね。雪中サッカーって言って",
+    "ko": ""
+   }
+  },
+  {
+   "window": 19,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A6860.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "雪の中で強引にサッカーするんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 19,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A6860.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "転んでも痛くないから　あれ・・なんて言うんだっけ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 20,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A6861.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "足をバーンって高くあげるキック・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 21,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "オーバーヘッドキック？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 21,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "インフロントキック？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 21,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "トウキック？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 22,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A6862.WAV",
+   "chars": 6,
+   "text": {
+    "ja": "うん。それ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 22,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A6862.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "そういう危険な技が簡単に出来るから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 22,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A6862.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "面白いんだって。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 23,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A6863.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "あれ？　・・そうだっけ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 23,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A6863.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "とにかく　そういう危険な技が簡単に出来るから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 23,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A6863.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "面白いんだって。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 24,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 25,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 26,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 27,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "a6698.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "あ・・そういう話題　興味ないみたいだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 28,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A6865.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "うーん。あんまりないよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 28,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A6865.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "@0049@でも何でだろう？　毎年　雪の降り始めは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 28,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A6865.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "ワクワクしちゃうんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 29,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A6866.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "そう言えば私　初めて東京に行ったとき",
+    "ko": ""
+   }
+  },
+  {
+   "window": 29,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A6866.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "お家の屋根が瓦葺きだから驚いちゃった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 30,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A6867.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "そういう文化の違いを見ちゃうと",
+    "ko": ""
+   }
+  },
+  {
+   "window": 30,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A6867.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "東京と札幌ってやっぱり遠いんだなぁって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 30,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A6867.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "思っちゃう・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 31,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "飛行機に乗れば東京から１時間半で着いてしまう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 31,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "そういう意味では札幌は近い。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 32,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "でも　そのチケット買うのに",
+    "ko": ""
+   }
+  },
+  {
+   "window": 32,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "僕は３ヶ月間アルバイトをした。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 32,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "そういう意味では　やっぱり札幌は遠い。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 33,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "僕は・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 34,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "やっぱり札幌は遠いよねと言う。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 34,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "それでも札幌は近いよねと言う。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 35,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A6871.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "でも・・思い出がかすむほど　遠いわけじゃないよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 36,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A6872.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "雑誌とかも二日ぐらい遅れるし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 36,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A6872.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "ほんと　札幌って遠いよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 37,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A6873.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "でも　会いたい時に会えないから・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 37,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A6873.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "やっぱり遠いよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 38,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A6874.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "朝　東京にいたお兄ちゃんが",
+    "ko": ""
+   }
+  },
+  {
+   "window": 38,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A6874.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "お昼には　札幌にいるんだから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 38,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A6874.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "やっぱり　近いんだよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 39,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A6875.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "あっ！　そろそろ駅に着くよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 40,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "平岸駅前に着いた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 40,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "・・・・？　あれ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 41,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "子供と荷物を　ソリに乗せて引っ張っている・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 41,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "僕は・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 42,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "ちょっとびっくりした。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 42,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "特に何とも思わなかった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 43,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "あれ・・珍しいよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 43,
+   "line": 1,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "町中で　ソリを使ってるなんて・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 44,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "A6879.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "え？　そう？　こっちじゃ　当たり前に見るよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 44,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "A6879.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "雪道だとベビーカーも使えないし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 44,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "A6879.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "でも東京には　あんな人　いないかもね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 45,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "まぁ　よく見る光景だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 45,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "僕は特に　気にもとめなかった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 46,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "A6881.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "ねぇお兄ちゃん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 46,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "A6881.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "寒いから手袋はいた方がいいよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 47,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "そうだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 47,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "手袋を『はく』って言うの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 48,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "言われてみれば　結構寒い。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 48,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "僕は手袋をはくことにした。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 49,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "え？　手袋は『はく』って言うの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 50,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "A6884.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "うん。こっちではみんなそう言うよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 50,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "A6884.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "東京では　なんて言うの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 51,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "手袋をはめる。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 51,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "手袋をする。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 51,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "辞書を調べてみる。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 52,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "A6885.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "ふぅん・・そうなんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 52,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "A6885.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "それじゃ　『はく』は方言なんだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 53,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "A6886.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "ふぅん・・そうなんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 53,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "A6886.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "それじゃ　『はく』は方言なんだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 54,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "今　辞書で調べたんだけど　『はく』って言うのは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 54,
+   "line": 1,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "腰から下の衣類などを身につける場合に使われるんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 54,
+   "line": 2,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "だから手袋を『はく』って言い方は間違いだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 55,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "A6888.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "ふぅん・・そうなんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 55,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "A6888.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "それじゃ　『はく』は方言なんだね。@0050@でもお兄ちゃん",
+    "ko": ""
+   }
+  },
+  {
+   "window": 55,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "A6888.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "旅行の時も辞書持ち歩いてるなんてすごいね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 56,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 57,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 58,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 59,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "a6700.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "@S@・・・・・・・・・・・・・・・・・@P@・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 59,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "a6700.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "どうしたの？　お兄ちゃん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 59,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "a6700.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "ぼーっとしてるよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 60,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 61,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "A6889.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "今日はお母さんも　お家にいるんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 61,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "A6889.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "お兄ちゃんに会いたがってたよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 62,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "A6890.WAV",
+   "chars": 6,
+   "text": {
+    "ja": "ただいまー！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 63,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "A6891.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "ああ　お帰り。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 63,
+   "line": 1,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "A6891.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "&名前&君も　長旅　お疲れさま。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 64,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "A6892.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "あっ！　私　紅茶いれてくるね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 65,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "ぜひ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 65,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "遠慮するよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 66,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "あ・・！　飛行機の中で飲んできたし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 66,
+   "line": 1,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "部屋でちょっと　考えたいことがあるから遠慮するよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 67,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 3,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "そう言って　僕は部屋に戻った。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 68,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 3,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "琴梨ちゃんはキッチンに行き　お茶の用意を始めた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 69,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "A6893.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "ほんと　良く来てくれたね。あんたが帰った後",
+    "ko": ""
+   }
+  },
+  {
+   "window": 69,
+   "line": 1,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "A6893.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "琴梨　ちょっと寂しそうだったんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 69,
+   "line": 2,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "A6893.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "まぁ　ゆっくりしてっておくれ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 70,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "A6894.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "そう言えば『料理の下手人』",
+    "ko": ""
+   }
+  },
+  {
+   "window": 70,
+   "line": 1,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "A6894.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "おかげさまであれから大好評でさ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 70,
+   "line": 2,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "A6894.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "この間　２時間スペシャルをやったんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 71,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "A6895.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "あんまり食べ物を粗末にしちゃいけないと思ったから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 71,
+   "line": 1,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "A6895.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "まずい料理を味わった後に　それをプロの料理人が",
+    "ko": ""
+   }
+  },
+  {
+   "window": 71,
+   "line": 2,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "A6895.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "それなりの味に戻すって言うコーナーも作ったんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 72,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "A6896.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "そしたらそれがまた奥さん連中に好評でさ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 72,
+   "line": 1,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "A6896.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "失敗した料理をごまかすテクニックが学べるとか言って",
+    "ko": ""
+   }
+  },
+  {
+   "window": 72,
+   "line": 2,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "A6896.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "名物コーナーになっちゃったんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 73,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "A6897.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "まったく　今の世の中　何が受けるか",
+    "ko": ""
+   }
+  },
+  {
+   "window": 73,
+   "line": 1,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "A6897.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "わかったもんじゃないね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 74,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6898.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "お待たせ。レモンミルクティーだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 75,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6899.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "なんだいそれ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 75,
+   "line": 1,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6899.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "レモンティーなのかい？　ミルクティーなのかい？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 75,
+   "line": 2,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6899.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "その辺　はっきりさせてくれよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 76,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6900.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "まぁ飲んでみてよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 77,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "僕はレモンミルクティーを飲んでみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 77,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "・・・・！　これは不思議な感覚・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 78,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "カップに口を付けた瞬間　レモンのさわやかな",
+    "ko": ""
+   }
+  },
+  {
+   "window": 78,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "香りが広がる。しかし味のベースはあくまでも",
+    "ko": ""
+   }
+  },
+  {
+   "window": 78,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "ミルクティーだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 79,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6903.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "ふぅん・・結構　いいね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 79,
+   "line": 1,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6903.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "でもどうやって作ったんだい？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 79,
+   "line": 2,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6903.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "レモンとミルクを混ぜたら普通　分離しちゃうだろ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 80,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6904.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "レモンの皮だけを絞って使うんだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 80,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6904.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "そうすると分離しないで香りが付けられるの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 81,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6905.WAV",
+   "chars": 6,
+   "text": {
+    "ja": "なるほどね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 82,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6906.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "そうだ。ねぇお兄ちゃん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 82,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6906.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "明日とかどうするの？　もう行きたい場所決めてある？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 83,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "うん。決めてあるよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 83,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "いや。まだなんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 84,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6907.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "ほんと？　じゃぁ心配ないね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 84,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6907.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "せっかくの旅行だから楽しんでってね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 85,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6908.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "ごちそうさま。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 85,
+   "line": 1,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6908.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "レモンミルクティー　おいしかったよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 85,
+   "line": 2,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6908.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "それじゃ　私は会社に戻るからね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 86,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 87,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 88,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 89,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6909.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "今の季節だったら　どこがいいだろうね？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 90,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6910.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "函館の夜景なんてどうかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 90,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6910.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "夜景は冬が一番綺麗だって言うよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 91,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6911.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "函館はいいね。食べ物もおいしいし景色もいいし。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 91,
+   "line": 1,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6911.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "日帰りだったら　許可してもいいよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 92,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6912.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "冬の札幌も楽しいよ。夏とは全然景色が違うし。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 92,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6912.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "ホワイト・イルミネーションもやってるしね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 93,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7679.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "それとお兄ちゃん　サッポロＳＰＡランドって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 93,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7679.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "行ったことある？　いろんなプールがあって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 93,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7679.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "すごく楽しいって話だよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 94,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7680.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "まぁ　だいたいそんな感じかね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 94,
+   "line": 1,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7680.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "今晩中に　じっくり考えておくといいよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 95,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6915.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "琴梨　レモンミルクティー　おいしかったよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 95,
+   "line": 1,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6915.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "それじゃ　私は会社に戻るからね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 96,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "部屋に戻った。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 96,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "イルミネーション・カウントダウンが行われる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 96,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "大晦日まで　あと三日しかない。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 97,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "その間　誰とどのように過ごすのか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 97,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "これは結構　重要な問題だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 98,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "まず明日のことを考えよう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 98,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "明日デートに誘いたいのは・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 99,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "もちろん琴梨ちゃんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 99,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "いや・・そうじゃなくて・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 100,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A6919.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "お兄ちゃん。明日の予定　決まった？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 101,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "a6919.wav",
+   "chars": 17,
+   "text": {
+    "ja": "お兄ちゃん。明日の予定　決まった？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 102,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "うん。決まったよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 102,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "実は・・まだなんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 103,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A6920.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "誰とどこ行くの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 104,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "琴梨ちゃんと函館に行きたいんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 105,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "琴梨ちゃんと札幌の街を歩きたいんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 106,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A6922.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "え？　私？　・・私でいいの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 107,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "もちろん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 108,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A6924.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "うれしいな・・ちょうど予定　空いてるし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 108,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A6924.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "私も函館　行きたかったんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 109,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A6925.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "それじゃお兄ちゃん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 109,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A6925.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "私　準備があるから　お部屋に戻ってるね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 109,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A6925.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "おやすみなさい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 110,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A6941.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "うん。私もそこ　行ってみたいと思ってたんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 110,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A6941.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "それじゃお兄ちゃん。私　準備があるから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 110,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A6941.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "お部屋に戻ってるね。おやすみなさい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 111,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A6926.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "@S@・・@P@そうなんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 111,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A6926.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "でも　焦って決めることないよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 112,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "琴梨ちゃんは　どこに行きたいの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 113,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A6928.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "え？　私？　・・・@0051@私だったら・・うーん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 113,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A6928.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "函館の夜景なんか　見てみたいな。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 114,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "それじゃそこにしよう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 114,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "他に行きたいところは？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 115,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A6929.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "でも　どうせ聞くなら",
+    "ko": ""
+   }
+  },
+  {
+   "window": 115,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A6929.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "明日　一緒に行く人に聞いた方がいいと思うよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 116,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "琴梨ちゃんと一緒に行きたいんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 116,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "それもそうだよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 117,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A6930.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "え？　私？　・・私でいいの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 118,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "もちろん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 119,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A6932.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "うれしいな・・ちょうど予定　開けてたし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 119,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A6932.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "私も函館　行きたかったんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 120,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A6933.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "それじゃお兄ちゃん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 120,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A6933.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "私　準備があるから　お部屋に戻ってるね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 120,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A6933.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "おやすみなさい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 121,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A6934.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "その人に電話して　聞いてみるといいよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 121,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A6934.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "それじゃ私　もう寝るね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 121,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A6934.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "お兄ちゃん。おやすみなさい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 122,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A6935.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "お兄ちゃんと一緒なら　どこでもいいよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 123,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "え？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 124,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A6937.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "あっ！　ごめんなさい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 124,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A6937.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "お兄ちゃん　誰か他の人と行くんだよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 124,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A6937.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "それなのに私　勝手に盛り上がっちゃった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 125,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "僕も琴梨ちゃんと一緒に行きたいんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 125,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "琴梨ちゃん・・ごめんね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 126,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A6938.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "え？　私？　・・私でいいの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 127,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "もちろん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 128,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A6940.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "うれしいな・・ちょうど予定　開けてたし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 128,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A6940.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "それじゃ　どこに行こうか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 129,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "さて　どうしようか・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 130,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "札幌の街を歩きたい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 130,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "函館に行きたい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 131,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "a6941.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "うん。私もそこ　行ってみたいと思ってたんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 131,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "a6941.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "それじゃお兄ちゃん。私　準備があるから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 131,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "a6941.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "お部屋に戻ってるね。おやすみなさい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 132,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A6942.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "その人に電話して　聞いてみるといいよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 132,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A6942.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "それじゃ私　もう寝るね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 132,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A6942.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "お兄ちゃん。おやすみなさい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 133,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A7681.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "あとは・・やっぱりサッポロＳＰＡランドかな。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 133,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A7681.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "参考になった？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 134,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "うん。参考になったよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 134,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "実は琴梨ちゃんと一緒に行きたいんだ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 135,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A6944.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "よかった。ひさしぶりの北海道　楽しんでってね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 135,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A6944.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "それじゃ私　もう寝るね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 135,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A6944.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "お兄ちゃん。おやすみなさい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 136,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A6945.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "え？　私？　・・私でいいの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 137,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "もちろん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 138,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A6947.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "うれしいな・・ちょうど予定　開けてたし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 138,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A6947.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "それじゃ　どこに行こうか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 139,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 140,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 141,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 142,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A6699.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "@S@・・・@P@ごめん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 142,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A6699.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "私　変なこと言っちゃったかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 143,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "そう言うと琴梨ちゃんは　部屋に戻ってしまった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 144,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "・・・・・・・・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 145,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 6,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "・・・仕方ない　他の子を誘おう・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 146,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 7,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "琴梨と函館デートの場合",
+   "voice": "A6948.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "おはよう。お兄ちゃん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 146,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 7,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "琴梨と函館デートの場合",
+   "voice": "A6948.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "函館　楽しみだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 146,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 7,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "琴梨と函館デートの場合",
+   "voice": "A6948.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "それじゃ　そろそろ行こっか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 147,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 9,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／入口",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "函館駅前に着いた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 148,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 9,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／入口",
+   "voice": "A6951.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "ここに来るの　ひさしぶりだなぁ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 148,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 9,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／入口",
+   "voice": "A6951.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "小学生の時　お母さんと来たっきりだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 149,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 9,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／入口",
+   "voice": "A6952.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "ねぇお兄ちゃん。どこ行く？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 149,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 9,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／入口",
+   "voice": "A6952.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "私　夕方になったら函館山の夜景が見たいんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 149,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 9,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／入口",
+   "voice": "A6952.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "後は全部　お兄ちゃんの行きたいトコ行こう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 150,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 10,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／鮮魚売場",
+   "voice": "A6953.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "朝市って言うと　朝しかやってない感じだけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 150,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 10,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／鮮魚売場",
+   "voice": "A6953.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "ちゃんと　今の時間も営業してるんだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 150,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 10,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／鮮魚売場",
+   "voice": "A6953.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "奧に行ってみよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 151,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／土産物屋",
+   "voice": "A6954.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "市場って　見てるだけでも楽しいよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 151,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／土産物屋",
+   "voice": "A6954.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "活気があってさ・・この近くに住んでたら",
+    "ko": ""
+   }
+  },
+  {
+   "window": 151,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／土産物屋",
+   "voice": "A6954.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "毎朝通っちゃうかも・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 152,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／土産物屋",
+   "voice": "A6955.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "でもいいと思わない？　毎朝食卓に　安くて新鮮な",
+    "ko": ""
+   }
+  },
+  {
+   "window": 152,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／土産物屋",
+   "voice": "A6955.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "イカとかサンマとかが並ぶんだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 153,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "カニとかエビとかは？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 153,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "琴梨ちゃん食いしん坊だね？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 153,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "うん。そういうのっていいね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 154,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／土産物屋",
+   "voice": "A6956.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "いくら北海道でも　やっぱりそういうのは高いから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 154,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／土産物屋",
+   "voice": "A6956.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "そんなにしょっちゅうは食べないよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 155,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／土産物屋",
+   "voice": "A6957.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "えへへ・・そうかもね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 155,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／土産物屋",
+   "voice": "A6957.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "でも食べることって基本だから　私　もっともっと",
+    "ko": ""
+   }
+  },
+  {
+   "window": 155,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／土産物屋",
+   "voice": "A6957.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "食いしん坊になって　いろんなお料理　勉強したいな。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 156,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／土産物屋",
+   "voice": "A6958.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "でしょ？　炊き立てのご飯とあったかいおみそ汁と",
+    "ko": ""
+   }
+  },
+  {
+   "window": 156,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／土産物屋",
+   "voice": "A6958.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "とれたてのお魚・・・なんか幸せな感じだよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 157,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／土産物屋",
+   "voice": "A6959.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "見て！　イカの色が黒いでしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 157,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／土産物屋",
+   "voice": "A6959.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "新鮮なイカは黒くて　しばらく時間が経つと",
+    "ko": ""
+   }
+  },
+  {
+   "window": 157,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／土産物屋",
+   "voice": "A6959.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "白くなっちゃうんだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 158,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／土産物屋",
+   "voice": "A6960.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "あと私は見たことないんだけど・・海からとれた",
+    "ko": ""
+   }
+  },
+  {
+   "window": 158,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／土産物屋",
+   "voice": "A6960.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "ばっかりのイカは　透き通った色をしてるんだって。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 158,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／土産物屋",
+   "voice": "A6960.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "なんか　イカって不思議な生き物だよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 159,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／土産物屋",
+   "voice": "A6961.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "あっ！　お兄ちゃん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 159,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／土産物屋",
+   "voice": "A6961.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "あっち行ってみよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 160,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／八幡坂",
+   "voice": "A6962.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "イカ徳利・・イカ座布団・・イカのキーホルダー",
+    "ko": ""
+   }
+  },
+  {
+   "window": 160,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／八幡坂",
+   "voice": "A6962.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "イカの形した絵はがきまであるよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 160,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／八幡坂",
+   "voice": "A6962.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "函館は本当に　イカの街だよね。・・あっ！　見て！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 161,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／八幡坂",
+   "voice": "A7682.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "ほら。イカビールジョッキだって・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 161,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／八幡坂",
+   "voice": "A7682.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "このジョッキにビールをついで飲むんでしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 161,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／八幡坂",
+   "voice": "A7682.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "私よくわかんないけど　イカとビールって合うのかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 162,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "結構いけるんじゃないかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 162,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "きっとまずいと思うよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 162,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "未成年だからよくわかんないな",
+    "ko": ""
+   }
+  },
+  {
+   "window": 163,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／八幡坂",
+   "voice": "A7683.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "そうかな？　おつまみとして食べるならわかるけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 163,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／八幡坂",
+   "voice": "A7683.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "イカの味がついたビール飲むんでしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 163,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／八幡坂",
+   "voice": "A7683.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "私が心配してもしょうがないけど　なんか合わなそう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 164,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／八幡坂",
+   "voice": "A7684.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "そうだよね。イカ味のビールになっちゃうもんね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 164,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／八幡坂",
+   "voice": "A7684.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "でも　それじゃ何で　こういうの作ったのかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 164,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／八幡坂",
+   "voice": "A7684.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "・・私が心配してもしょうがないけどね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 165,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／八幡坂",
+   "voice": "A7685.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "うん。そうだよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 165,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／八幡坂",
+   "voice": "A7685.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "私たちが心配してもしょうがないよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 166,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／八幡坂",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 167,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／八幡坂",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 168,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／八幡坂",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 169,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／八幡坂",
+   "voice": "A6968.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "ねぇお兄ちゃん。次はどこ行く？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 170,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／八幡坂",
+   "voice": "A6969.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "@S@・・・@P@あっ！　もうこんな時間だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 170,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／八幡坂",
+   "voice": "A6969.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "ねぇお兄ちゃん。そろそろ函館山に行こ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 171,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 13,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／函館ハリストス正教会",
+   "voice": "A6970.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "ここってＣＭとかドラマでよく出てくる坂だよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 171,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 13,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／函館ハリストス正教会",
+   "voice": "A6970.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "八幡坂って言うんだって・・函館は坂が多い街だけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 171,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 13,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／函館ハリストス正教会",
+   "voice": "A6970.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "その中でも一番有名な坂なんじゃないかな。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 172,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A6971.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "このお寺のこと　ガイドブックに書いてあるよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 172,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A6971.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "『１８６１年　司祭ニコライが日本で初めて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 172,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A6971.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "ロシア正教を伝導した由緒ある教会。』ですって・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 173,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A6972.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "この当時　キリスト教は国で禁じられていたらしいから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 173,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A6972.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "ニコライさん　きっとすごく苦労したんだろうね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 174,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A6973.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "今じゃ宗教の自由なんて　当たり前だけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 174,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A6973.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "その当たり前を勝ち取るために　いろんな人たちが",
+    "ko": ""
+   }
+  },
+  {
+   "window": 174,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A6973.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "いろんな苦労をしたんだろうね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 175,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A6974.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "そういう風に考えると　当たり前ってすごいよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 176,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "すごくないから『当たり前』なんだよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 176,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "琴梨ちゃんっていろんなこと考えるね",
+    "ko": ""
+   }
+  },
+  {
+   "window": 176,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "常識になっちゃうくらいすごいってことだよね",
+    "ko": ""
+   }
+  },
+  {
+   "window": 177,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A6975.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "うーん。そうかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 177,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A6975.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "・・・そうかもね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 178,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A6976.WAV",
+   "chars": 5,
+   "text": {
+    "ja": "えへへ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 178,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A6976.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "でも私　考えたことを　うまく言葉で",
+    "ko": ""
+   }
+  },
+  {
+   "window": 178,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A6976.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "伝えられないんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 179,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A6977.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "あっ！　それ！　そう言う風に言いたかったの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 179,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A6977.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "当時はキリスト教はダメっていうのが",
+    "ko": ""
+   }
+  },
+  {
+   "window": 179,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A6977.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "常識だったわけでしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 180,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A6978.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "その常識をガラッと変えた人たちがいて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 180,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A6978.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "そのことが今では　新しい常識になってるってことが",
+    "ko": ""
+   }
+  },
+  {
+   "window": 180,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A6978.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "私　すごいと思ったんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 181,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A6979.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "函館ハリストス正教会は礼拝の時に",
+    "ko": ""
+   }
+  },
+  {
+   "window": 181,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A6979.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "鐘がガンガン鳴るから　地元では『ガンガン寺』って",
+    "ko": ""
+   }
+  },
+  {
+   "window": 181,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A6979.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "呼ばれてるんだって。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 182,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A6980.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "あっ！　鳴ってる！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 182,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A6980.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "私たち　ツイてるのかもしれないね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 182,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A6980.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "ねぇお兄ちゃん。次はどこ行く？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 183,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A6981.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "@S@・・・@P@あっ！　もうこんな時間だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 183,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A6981.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "ねぇお兄ちゃん。そろそろ函館山に行こ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 184,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／金森倉庫群",
+   "voice": "A6982.WAV",
+   "chars": 6,
+   "text": {
+    "ja": "あのね・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 184,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／金森倉庫群",
+   "voice": "A6982.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "夏休みが終わって　しばらくの間　私ついつい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 184,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／金森倉庫群",
+   "voice": "A6982.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "ごはん多く作り過ぎたりしてたんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 185,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／金森倉庫群",
+   "voice": "A6983.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "難しい宿題も　お兄ちゃんならわかるかな・・とか",
+    "ko": ""
+   }
+  },
+  {
+   "window": 185,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／金森倉庫群",
+   "voice": "A6983.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "つい　そんな風に思ってたんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 185,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／金森倉庫群",
+   "voice": "A6983.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "お兄ちゃんが帰ってから　ずっとそんな調子・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 186,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／金森倉庫群",
+   "voice": "A6984.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "@S@・・・@P@変だよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 186,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／金森倉庫群",
+   "voice": "A6984.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "ずっと　お母さんと二人で",
+    "ko": ""
+   }
+  },
+  {
+   "window": 186,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／金森倉庫群",
+   "voice": "A6984.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "楽しくやってたつもりなのに・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 187,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／金森倉庫群",
+   "voice": "A6985.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "出会ったから　寂しいのかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 187,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／金森倉庫群",
+   "voice": "A6985.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "それとも　出会う前から　ずっと寂しかったのかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 188,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／金森倉庫群",
+   "voice": "A6986.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "ごめんね。変な話　しちゃって・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 188,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／金森倉庫群",
+   "voice": "A6986.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "・・・・・・・私は・・元気だよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 189,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／金森倉庫群",
+   "voice": "A6987.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "函館の古い建物が　新しく建てられたビルなんかより",
+    "ko": ""
+   }
+  },
+  {
+   "window": 189,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／金森倉庫群",
+   "voice": "A6987.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "ずっと魅力的に見えるのは　なんでなんだろうね？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 190,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／金森倉庫群",
+   "voice": "A6988.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "昔のデザインの方が　かっこいいのかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 190,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／金森倉庫群",
+   "voice": "A6988.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "それとも　大切に守ってきた人たちの気持ちが",
+    "ko": ""
+   }
+  },
+  {
+   "window": 190,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／金森倉庫群",
+   "voice": "A6988.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "建物を魅力的に見せてるのかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 191,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／金森倉庫群",
+   "voice": "A6989.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "次はベイエリアか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 191,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／金森倉庫群",
+   "voice": "A6989.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "楽しみだね。お兄ちゃん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 192,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／金森倉庫群",
+   "voice": "A6990.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "次は元町か・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 192,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／金森倉庫群",
+   "voice": "A6990.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "楽しみだね。お兄ちゃん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 193,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／金森倉庫群",
+   "voice": "A6991.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "次は湯の川温泉か・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 193,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／金森倉庫群",
+   "voice": "A6991.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "楽しみだね。お兄ちゃん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 194,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／金森倉庫群",
+   "voice": "A6992.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "次は五稜郭か・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 194,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／金森倉庫群",
+   "voice": "A6992.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "楽しみだね。お兄ちゃん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 195,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 16,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／クリスマスミュージアム／外観",
+   "voice": "A6993.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "ここは金森倉庫群。函館で最初に倉庫業を始めた",
+    "ko": ""
+   }
+  },
+  {
+   "window": 195,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 16,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／クリスマスミュージアム／外観",
+   "voice": "A6993.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "歴史的な場所なんだって。札幌の道庁もそうだけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 195,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 16,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／クリスマスミュージアム／外観",
+   "voice": "A6993.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "赤煉瓦って暖かい感じがしていいよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 196,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 16,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／クリスマスミュージアム／外観",
+   "voice": "A6994.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "今は函館ヒストリープラザっていう",
+    "ko": ""
+   }
+  },
+  {
+   "window": 196,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 16,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／クリスマスミュージアム／外観",
+   "voice": "A6994.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "ショッピングゾーンになってるんだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 196,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 16,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／クリスマスミュージアム／外観",
+   "voice": "A6994.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "中に入ってみよ！　お兄ちゃん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 197,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／クリスマスミュージアム／内部",
+   "voice": "A6995.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "ここはフェリシモ・クリスマスミュージアム。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 197,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／クリスマスミュージアム／内部",
+   "voice": "A6995.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "世界中のクリスマスグッズが展示されてるんだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 197,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／クリスマスミュージアム／内部",
+   "voice": "A6995.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "・・一年中クリスマスなんだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 198,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／クリスマスミュージアム／内部",
+   "voice": "A6996.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "ねぇお兄ちゃん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 198,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／クリスマスミュージアム／内部",
+   "voice": "A6996.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "毎日がクリスマスだったら・・楽しいかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 199,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "きっとすごくタイクツだよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 199,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "きっとすごく楽しいよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 200,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／クリスマスミュージアム／内部",
+   "voice": "A6997.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "うーん。そうかもね。毎日パーティやってたら",
+    "ko": ""
+   }
+  },
+  {
+   "window": 200,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／クリスマスミュージアム／内部",
+   "voice": "A6997.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "逆になんでもない日を　指折り数えて待ってるかもね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 201,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／クリスマスミュージアム／内部",
+   "voice": "A6998.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "そうだよね。ワクワクすることが毎日あったら",
+    "ko": ""
+   }
+  },
+  {
+   "window": 201,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／クリスマスミュージアム／内部",
+   "voice": "A6998.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "きっと一年に一回ぐらいは　もっとワクワクすることが",
+    "ko": ""
+   }
+  },
+  {
+   "window": 201,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／クリスマスミュージアム／内部",
+   "voice": "A6998.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "起こるよね。・・そういうのって　いいなぁ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 202,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／クリスマスミュージアム／内部",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 203,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／クリスマスミュージアム／内部",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 204,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／クリスマスミュージアム／内部",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 205,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／クリスマスミュージアム／内部",
+   "voice": "A6999.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "ねぇお兄ちゃん。奧に行ってみよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 206,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "A7000.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "あ・・このツリー綺麗だね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 206,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "A7000.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "１８世紀に作られたって書いてあるよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 207,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "A7001.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "@S@・・@P@このツリー作った人　とっくに死んじゃってるけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 207,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "A7001.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "こうして今でもたくさんの人が　見てるんだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 208,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "A7002.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "よく死んだら何もかも終わりだよって言うけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 208,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "A7002.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "そんなの　うそだよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 209,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "A7003.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "この人はこうして　見てるだけで心が暖かくなる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 209,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "A7003.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "作品を残したわけだし　そういうものを作らなかった",
+    "ko": ""
+   }
+  },
+  {
+   "window": 209,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "A7003.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "人だって　思い出は残るよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 210,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "A7004.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "あっ！　そうだ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 210,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "A7004.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "私　お兄ちゃんに言い忘れてたことがあるんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 211,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "何？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 212,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "A7006.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "メリー・クリスマス！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 213,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "A7007.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "@S@・・・@P@そろそろ　次　行こうか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 214,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "A7008.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "@S@・・・@P@あっ！　もうこんな時間だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 214,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "A7008.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "ねぇお兄ちゃん。そろそろ函館山に行こ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 215,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／内風呂",
+   "voice": "A7009.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "湯の川温泉は道南で一番大きい温泉なんだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 215,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／内風呂",
+   "voice": "A7009.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "あっ！　ここのホテル　日帰り入浴もやってるね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 215,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／内風呂",
+   "voice": "A7009.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "ねぇお兄ちゃん！　入ってみよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 216,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 20,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／露天風呂",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "ホテル平成館の男湯・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 216,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 20,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／露天風呂",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "檜のいい香りがする。結構　広いな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 217,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 20,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／露天風呂",
+   "voice": "A7011.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "おーい！　お兄ちゃーん！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 217,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 20,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／露天風呂",
+   "voice": "A7011.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "こっち　ガラガラだよ！　もう貸し切り状態！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 218,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 20,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／露天風呂",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "そっちはガラガラかもしれないけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 218,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 20,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／露天風呂",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "こっちは結構　人がいる。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 218,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 20,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／露天風呂",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "僕は・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 219,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "それでも元気に返事をした",
+    "ko": ""
+   }
+  },
+  {
+   "window": 219,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "黙っていた",
+    "ko": ""
+   }
+  },
+  {
+   "window": 220,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 20,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／露天風呂",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "周囲の目がちょっと気になったが",
+    "ko": ""
+   }
+  },
+  {
+   "window": 220,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 20,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／露天風呂",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "僕は元気に返事をした。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 221,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 20,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／露天風呂",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "こっちは結構　人がいるよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 222,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 20,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／露天風呂",
+   "voice": "A7015.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "え？　そうなの？　・・ごめーん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 222,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 20,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／露天風呂",
+   "voice": "A7015.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "私　頭洗ったりするから　時間かかるかも・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 222,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 20,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／露天風呂",
+   "voice": "A7015.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "ロビーで待っててね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 223,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 20,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／露天風呂",
+   "voice": "A7016.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "あれ？　いないのかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 223,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 20,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／露天風呂",
+   "voice": "A7016.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "まあぃいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 224,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 20,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／露天風呂",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "恥ずかしいような　照れくさいような・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 224,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 20,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／露天風呂",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "ちょっと不思議な感覚だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 224,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 20,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／露天風呂",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "僕は露天風呂に行ってみることにした。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 225,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 21,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／ロビー",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "最上階にある展望露天風呂・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 225,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 21,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／ロビー",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "うん。いい眺めだ。湯加減もちょうどいい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 225,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 21,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／ロビー",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "来て良かったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 226,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 21,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／ロビー",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "さて・・そろそろ上がるか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 227,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 22,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／外観",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "ホテル平成館のロビー・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 227,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 22,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／外観",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "琴梨ちゃん　まだかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 228,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 22,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／外観",
+   "voice": "A7021.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "お待たせ。いいお湯だったね。お兄ちゃん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 228,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 22,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／外観",
+   "voice": "A7021.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "それじゃ次は　どこ行く？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 229,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 22,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／外観",
+   "voice": "A7022.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "@S@・・・@P@あっ！　もうこんな時間だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 229,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 22,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／外観",
+   "voice": "A7022.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "ねぇお兄ちゃん。そろそろ函館山に行こ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 230,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 23,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／五稜郭タワー展望台",
+   "voice": "A7023.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "社会の授業で勉強したんだけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 230,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 23,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／五稜郭タワー展望台",
+   "voice": "A7023.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "ここで昔　大きな戦争があったんだよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 231,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 23,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／五稜郭タワー展望台",
+   "voice": "A7024.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "昔戦争があった場所が　今は公園になっていて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 231,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 23,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／五稜郭タワー展望台",
+   "voice": "A7024.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "そういうのが平和なんだなって思うけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 232,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 23,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／五稜郭タワー展望台",
+   "voice": "A7025.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "でも・・もうこれ以上　そんな公園は",
+    "ko": ""
+   }
+  },
+  {
+   "window": 232,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 23,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／五稜郭タワー展望台",
+   "voice": "A7025.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "増えて欲しくないよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 233,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 23,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／五稜郭タワー展望台",
+   "voice": "A7026.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "あ・・雪が降ってきた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 233,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 23,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／五稜郭タワー展望台",
+   "voice": "A7026.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "ねぇ見て！　雪の結晶だよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 234,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 23,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／五稜郭タワー展望台",
+   "voice": "A7027.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "北海道じゃ雪なんて当たり前だから時々忘れちゃうけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 234,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 23,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／五稜郭タワー展望台",
+   "voice": "A7027.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "こんな綺麗な形のものが　たくさん降って来るのって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 234,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 23,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／五稜郭タワー展望台",
+   "voice": "A7027.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "すごく素敵なことだと思うな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 235,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 23,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／五稜郭タワー展望台",
+   "voice": "A7028.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "@S@・・・@P@ちょっと　寒くなってきたね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 235,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 23,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／五稜郭タワー展望台",
+   "voice": "A7028.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "五稜郭タワー　登ってみよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 236,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／ロープウェイ内部",
+   "voice": "A7029.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "ここからだと五稜郭の形がよく見えるね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 236,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／ロープウェイ内部",
+   "voice": "A7029.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "さっき見た　雪の結晶みたい・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 237,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／ロープウェイ内部",
+   "voice": "A7030.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "あのね。ここ前にも来たことあるんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 237,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／ロープウェイ内部",
+   "voice": "A7030.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "お父さんと・・お母さんと・・３人で・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 238,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／ロープウェイ内部",
+   "voice": "A7031.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "ちょうどお父さんがイギリスに出張する前で",
+    "ko": ""
+   }
+  },
+  {
+   "window": 238,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／ロープウェイ内部",
+   "voice": "A7031.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "お父さんったらお母さんに向かって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 238,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／ロープウェイ内部",
+   "voice": "A7031.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "『離れていても心は一緒だよ』なんて言ったんだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 239,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／ロープウェイ内部",
+   "voice": "A7032.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "そしたらお母さん　ものすごく照れちゃって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 239,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／ロープウェイ内部",
+   "voice": "A7032.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "それを見て　お父さんも照れてた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 240,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／ロープウェイ内部",
+   "voice": "A7033.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "今はお父さんとお母さん　ずっと離れてるけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 240,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／ロープウェイ内部",
+   "voice": "A7033.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "きっと今でも　心は一緒だよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 241,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "僕たちの心も　一緒だよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 241,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "すごくいい話だよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 242,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／ロープウェイ内部",
+   "voice": "A7034.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "あっ・・やっぱり・・そういう風に言われると",
+    "ko": ""
+   }
+  },
+  {
+   "window": 242,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／ロープウェイ内部",
+   "voice": "A7034.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "ちょっと　照れちゃうね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 243,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／ロープウェイ内部",
+   "voice": "A7035.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "うん。私　その時　すごく嬉しかったんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 243,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／ロープウェイ内部",
+   "voice": "A7035.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "仲のいい二人見てると　なんか私も幸せな",
+    "ko": ""
+   }
+  },
+  {
+   "window": 243,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／ロープウェイ内部",
+   "voice": "A7035.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "気持ちになれるし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 244,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／ロープウェイ内部",
+   "voice": "A7036.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "@S@・・@P@そろそろ・・行こうか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 245,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／ロープウェイ内部",
+   "voice": "A7037.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "@S@・・・@P@あっ！　もうこんな時間だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 245,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／ロープウェイ内部",
+   "voice": "A7037.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "ねぇお兄ちゃん。そろそろ函館山に行こ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 246,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 25,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "A7038.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "あっ！　見えたよ！　・・・綺麗だね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 246,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 25,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "A7038.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "今日はお天気がいいから　展望台に着いたら",
+    "ko": ""
+   }
+  },
+  {
+   "window": 246,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 25,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "A7038.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "きっと　もっと綺麗だよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 247,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7039.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "函館は世界三大夜景のひとつなんだって。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 247,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7039.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "@9997@後の二つは香港とナポリだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 247,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7039.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "百万ドルの夜景って言葉　ウソじゃないよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 248,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7040.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "@S@・・・@P@あのね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 248,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7040.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "ここは１８年前　お父さんがお母さんに",
+    "ko": ""
+   }
+  },
+  {
+   "window": 248,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7040.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "プロポーズした場所なんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 249,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7041.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "だから私　お兄ちゃんと二人で",
+    "ko": ""
+   }
+  },
+  {
+   "window": 249,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7041.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "ここに来たかったの・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 250,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7042.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "@S@・・@P@人を好きになることって　素敵なことだよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 250,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7042.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "お父さんが　お母さんのこと好きになったから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 250,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7042.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "こうして　私が生まれたんだし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 251,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7043.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "私が生まれたとき　お父さん　ものすごく喜んで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 251,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7043.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "いつか大空に飛び立ってゆくようにって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 251,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7043.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "『琴梨』って名前をつけてくれたの・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 252,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7044.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "私も・・お兄ちゃんも・・そんな風にみんなから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 252,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7044.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "祝福されて　生まれてきたんだよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 253,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7045.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "お誕生日を祝う言葉・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 253,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7045.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "『ハッピー　バースデイ！』ってさ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 253,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7045.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "なんか　素敵な言葉だよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 254,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7046.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "みんなが祝福されて生まれて来たから・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 254,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7046.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "お誕生日には　『ハッピー　バースデイ！』って",
+    "ko": ""
+   }
+  },
+  {
+   "window": 254,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7046.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "そう言う風に言うんだよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 255,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7047.WAV",
+   "chars": 6,
+   "text": {
+    "ja": "だからさ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 255,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7047.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "幸せにならなくちゃ　罰が当たっちゃうよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 256,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7048.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "私　今　幸せだよ。・・・好きな人もいるし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 257,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7049.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "あのね。・・私はお兄ちゃんが好き。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 258,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7050.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "妹とお兄ちゃんの『好き』じゃなくて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 258,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7050.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "お母さんがお父さんのこと好きだったみたいに",
+    "ko": ""
+   }
+  },
+  {
+   "window": 258,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7050.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "・・私は　お兄ちゃんのことが大好き。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 259,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7051.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "@S@・・@P@えへへ・・言っちゃった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 260,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7052.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "@S@・・・@P@あのね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 260,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7052.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "ここは１８年前　お父さんがお母さんに",
+    "ko": ""
+   }
+  },
+  {
+   "window": 260,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7052.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "プロポーズした場所なんだって。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 261,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7053.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "なんか不思議だよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 261,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7053.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "そんな場所に　私とお兄ちゃんと",
+    "ko": ""
+   }
+  },
+  {
+   "window": 261,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7053.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "二人で来てるなんて・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 262,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7054.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "ほら！　あそこ・・海の方に見えるのは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 262,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7054.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "イカ釣り船の漁り火だよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 263,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "僕は琴梨ちゃんが好きだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 263,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "琴梨ちゃん僕のことどう思ってる？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 263,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "寒いね。そろそろ帰ろうか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 264,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7055.WAV",
+   "chars": 5,
+   "text": {
+    "ja": "@S@・・・@P@え？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 265,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7056.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "お兄ちゃんの気持ち　すごくうれしいよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 265,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7056.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "私もお兄ちゃんのことが好き。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 266,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7057.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "@S@・・@P@でも　その気持ちが",
+    "ko": ""
+   }
+  },
+  {
+   "window": 266,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7057.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "妹とお兄ちゃんの間にある『好き』なのか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 266,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7057.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "お父さんとお母さんの間にある『好き』なのか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 267,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7058.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "それが・・・まだわからないの・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 267,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7058.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "ごめんね。お兄ちゃん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 267,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7058.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "私　もう少し　考える時間が欲しいんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 268,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7060.WAV",
+   "chars": 5,
+   "text": {
+    "ja": "@S@・・・@P@え？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 269,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7061.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "私　お兄ちゃんのこと好きだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 270,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7062.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "@S@・・@P@でも　その気持ちが",
+    "ko": ""
+   }
+  },
+  {
+   "window": 270,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7062.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "妹とお兄ちゃんの間にある『好き』なのか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 270,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7062.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "お父さんとお母さんの間にある『好き』なのか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 271,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7063.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "それが・・・まだわからないの・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 271,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7063.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "ごめんね。お兄ちゃん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 271,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7063.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "私　もう少し　考える時間が欲しいんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 272,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7065.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "うん。あまり遅くなると",
+    "ko": ""
+   }
+  },
+  {
+   "window": 272,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7065.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "お母さん　心配しちゃうもんね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 273,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7059.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "ちょっと寒くなってきたね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 273,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7059.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "そろそろ帰ろうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 274,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 27,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／応接間１",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "琴梨ちゃんと別れて　書斎に戻った。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 275,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 27,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／応接間１",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "イルミネーション・カウントダウンが行われる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 275,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 27,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／応接間１",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "大晦日まで　あと二日！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 275,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 27,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／応接間１",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "明日デートに誘いたいのは・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 276,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "もちろん琴梨ちゃんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 276,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "いや・・そうじゃなくて・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 277,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 27,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／応接間１",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "明日は一緒に札幌の街を歩きたい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 278,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 27,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／応接間１",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "明日は一緒に函館に行きたい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 279,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 27,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／応接間１",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "よし！　さそってみよう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 280,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 27,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／応接間１",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "一緒に行きたい場所は・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 281,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "札幌の街を歩きたい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 281,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "函館に行きたい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 282,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 27,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／応接間１",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "よし！　まずは電話してみよう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 283,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 28,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎２",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "さてこれから　どうしようかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 284,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 28,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎２",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "さてこれから　どうしようかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 285,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 28,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎２",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "さてこれから　どうしようかな・・",
+    "ko": ""
+   }
+  }
+ ]
+}

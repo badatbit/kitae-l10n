@@ -1,0 +1,552 @@
+{
+  "module": "TRFMILKING",
+  "path": "/TRF/TRFMILKING.DLL",
+  "entries": [
+    {
+      "offset": 122784,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "飯",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 122796,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "惟",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 122844,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "蒭",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 122896,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "鶏",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 122924,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "惟",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 122928,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "惟",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 122940,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "惟",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 122984,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "千",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 122996,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "鶏",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 123012,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "珸",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 123024,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "惟",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 123028,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "惟",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 123040,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "惟",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 123072,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "互",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 123080,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "萎",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 123108,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "鶏",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 123136,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "惟",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 123140,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "惟",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 123152,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "惟",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 123477,
+      "size": 3,
+      "avail": 6,
+      "section": ".rdata",
+      "text": {
+        "ja": "昀6",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 124148,
+      "size": 99,
+      "avail": 99,
+      "section": ".rdata",
+      "text": {
+        "ja": "じゃあ　説明するね。\n搾乳機の取り付けは　わたしがするから\n&主人公&さんは牛たちの面倒をみてあげて。\n",
+        "ko": "그럼　설명할게。\n착유기　장착은　내가　할　테니까\n&主人公&씨는　소들을　돌봐　줘。\n"
+      }
+    },
+    {
+      "offset": 124248,
+      "size": 133,
+      "avail": 135,
+      "section": ".data",
+      "text": {
+        "ja": "まず　牛たちの前からうんちを取り除いてあげて。\nうんちがたまっちゃうと　牛たちは機嫌が悪くなって\nたくさんお乳をだしてくれないからね。\n",
+        "ko": "먼저　소들　앞에서　똥을　치워　줘。\n똥이　쌓이면　소들이　기분이　나빠져서\n젖을　많이　안　주거든。"
+      },
+      "ask": [
+        {
+          "why": "메구미가 젖짜기를 가르쳐 주는 대목이다. 원문이 `うんち` 라는 아이 말투를 쓰는데 `똥` 으로 그대로 옮겼다. 게임 화면에 계속 나오는 말이라 어감을 확인해 주면 좋겠다.",
+          "state": "open"
+        }
+      ]
+    },
+    {
+      "offset": 124384,
+      "size": 86,
+      "avail": 87,
+      "section": ".data",
+      "text": {
+        "ja": "うんちを取るときは牛の前で『Ａボタン』を押すの。\nじゃあ　試しにこの牛から取ってみて。\n",
+        "ko": "똥을　치울　땐　소　앞에서　『Ａ버튼』을　눌러。\n그럼　시험　삼아　이　소부터　해　봐。"
+      }
+    },
+    {
+      "offset": 124472,
+      "size": 79,
+      "avail": 79,
+      "section": ".data",
+      "text": {
+        "ja": "そう。取れたよね。\n今度は隣の牛のもお願いね。バケツは一度に２個まで\n持てるわ。\n",
+        "ko": "그래。　치웠지？\n이번엔　옆　소도　부탁해。양동이는\n２개까지　들　수　있어。"
+      }
+    },
+    {
+      "offset": 124552,
+      "size": 94,
+      "avail": 95,
+      "section": ".data",
+      "text": {
+        "ja": "取ったうんちは　あっちに捨てる場所があるから　\n運んで捨ててほしいの。案内するからついてきて。\n",
+        "ko": "치운　똥은　저쪽에　버리는　곳이　있으니까\n옮겨서　버려　줘。안내할　테니　따라와。"
+      }
+    },
+    {
+      "offset": 124648,
+      "size": 95,
+      "avail": 95,
+      "section": ".data",
+      "text": {
+        "ja": "ここがうんちを捨てる場所。\nここで『Ａボタン』を押すと　バケツのうんちを\n捨てることができるわ。\n",
+        "ko": "여기가　똥　버리는　곳。\n여기서　『Ａ버튼』을　누르면　양동이의　똥을\n버릴　수　있어。"
+      }
+    },
+    {
+      "offset": 124744,
+      "size": 86,
+      "avail": 87,
+      "section": ".data",
+      "text": {
+        "ja": "そう。それじゃあ　次はエサの説明をするね。\nエサ置き場がこっちにあるから　ついてきて！\n",
+        "ko": "그래。　그럼　다음은　먹이　설명을　할게。\n먹이　두는　곳이　이쪽이니까　따라와！"
+      }
+    },
+    {
+      "offset": 124832,
+      "size": 104,
+      "avail": 107,
+      "section": ".data",
+      "text": {
+        "ja": "ここがエサ置き場。ここで『Ｂボタン』か\n『Ｘボタン』を押すとエサを取ることができるの。\n試しに取ってみて！",
+        "ko": "여기가　먹이　두는　곳。『Ｂ버튼』이나\n『Ｘ버튼』을　누르면　먹이를　집을　수　있어。\n한번　집어　봐！"
+      }
+    },
+    {
+      "offset": 124940,
+      "size": 84,
+      "avail": 87,
+      "section": ".data",
+      "text": {
+        "ja": "そう。取れたよね。じゃあ　もう１個取ってみて！\nバケツは２個まで持てるんだったよね！\n",
+        "ko": "그래。　집었지？　그럼　하나　더　집어　봐！\n양동이는　２개까지　들　수　있다고　했지！"
+      }
+    },
+    {
+      "offset": 125028,
+      "size": 143,
+      "avail": 143,
+      "section": ".data",
+      "text": {
+        "ja": "じゃあ　この牛にエサをあげて。『Ｂボタン』か\n『Ｘボタン』でエサをあげられるわ。おなかが空いて\nると牛たちはたくさんお乳をだしてくれないからね。\n",
+        "ko": "그럼　이　소한테　먹이를　줘。『Ｂ버튼』이나\n『Ｘ버튼』으로　줄　수　있어。배가　고프면\n소들이　젖을　많이　안　주거든。"
+      }
+    },
+    {
+      "offset": 125172,
+      "size": 66,
+      "avail": 67,
+      "section": ".data",
+      "text": {
+        "ja": "あ　となりの牛がうんちをしたみたい。\n試しにうんちをとってみてよ。\n",
+        "ko": "아　옆　소가　똥을　쌌나　봐。\n시험　삼아　치워　봐。"
+      }
+    },
+    {
+      "offset": 125240,
+      "size": 42,
+      "avail": 43,
+      "section": ".data",
+      "text": {
+        "ja": "そうそう。その調子！\n　　　　　　　　　　\n",
+        "ko": "그래　그래。　그　느낌！\n　　　　　　　　　"
+      }
+    },
+    {
+      "offset": 125284,
+      "size": 66,
+      "avail": 67,
+      "section": ".data",
+      "text": {
+        "ja": "じゃあ　そろそろはじめよっか！\n&主人公&さん。よろしくおねがいね。\n",
+        "ko": "그럼　슬슬　시작해　볼까！\n&主人公&씨。　잘　부탁해。"
+      }
+    },
+    {
+      "offset": 125360,
+      "size": 28,
+      "avail": 31,
+      "section": ".data",
+      "text": {
+        "ja": "あとは　竹下君に聞いてね。\n\n",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 125392,
+      "size": 28,
+      "avail": 31,
+      "section": ".data",
+      "text": {
+        "ja": "あとは　竹下君に聞いてね。\n\n",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 125424,
+      "size": 28,
+      "avail": 31,
+      "section": ".data",
+      "text": {
+        "ja": "あとは　竹下君に聞いてね。\n\n",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 125456,
+      "size": 28,
+      "avail": 31,
+      "section": ".data",
+      "text": {
+        "ja": "あとは　竹下君に聞いてね。\n\n",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 125488,
+      "size": 28,
+      "avail": 31,
+      "section": ".data",
+      "text": {
+        "ja": "あとは　竹下君に聞いてね。\n\n",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 125520,
+      "size": 35,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "それじゃあ　作業開始！\nはい\nいいえ\n",
+        "ko": "그럼　작업　시작！\n예\n아니요\n"
+      }
+    },
+    {
+      "offset": 125556,
+      "size": 58,
+      "avail": 59,
+      "section": ".data",
+      "text": {
+        "ja": "わたしの説明聞いてる？\n先にこっちの牛のうんちをとってよ。\n",
+        "ko": "내　설명　듣고　있어？\n먼저　이쪽　소　똥부터　치워　줘。"
+      }
+    },
+    {
+      "offset": 125616,
+      "size": 56,
+      "avail": 59,
+      "section": ".data",
+      "text": {
+        "ja": "わたしの説明聞いてる？\n先にこっちの牛にえさをあげてよ。\n",
+        "ko": "내　설명　듣고　있어？\n먼저　이쪽　소한테　먹이를　줘。"
+      }
+    },
+    {
+      "offset": 125676,
+      "size": 46,
+      "avail": 47,
+      "section": ".data",
+      "text": {
+        "ja": "わたしの説明聞いてる？\n先にうんちをすててよ。\n",
+        "ko": "내　설명　듣고　있어？\n먼저　똥을　버려　줘。"
+      }
+    },
+    {
+      "offset": 125724,
+      "size": 44,
+      "avail": 47,
+      "section": ".data",
+      "text": {
+        "ja": "わたしの説明聞いてる？\n先にえさをとってよ。\n",
+        "ko": "내　설명　듣고　있어？\n먼저　먹이를　집어　줘。"
+      }
+    },
+    {
+      "offset": 125772,
+      "size": 42,
+      "avail": 43,
+      "section": ".data",
+      "text": {
+        "ja": "ねえ　ねえ　聞こえてるの？\nはやく来てよ！\n",
+        "ko": "야　야　들려？\n빨리　와！"
+      }
+    },
+    {
+      "offset": 125816,
+      "size": 70,
+      "avail": 71,
+      "section": ".data",
+      "text": {
+        "ja": "あらら　えさ置いちゃったみたいね。\n　　　　　　　　　　　　　　　　　\n",
+        "ko": "어라　먹이를　놓아　버렸네。\n　　　　　　　　　　　　　　　　　"
+      }
+    },
+    {
+      "offset": 126376,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "脊",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 126568,
+      "size": 6,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "時間帯",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 126620,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "オプション",
+        "ko": "옵션"
+      }
+    },
+    {
+      "offset": 126688,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "操作説明聞く",
+        "ko": "조작설명듣기"
+      }
+    },
+    {
+      "offset": 126752,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "糞牛",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 126804,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "ストレス牛",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 126908,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "糞牛",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 126964,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "ストレス牛",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 126976,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "乳絞り成果",
+        "ko": ""
+      }
+    }
+  ]
+}

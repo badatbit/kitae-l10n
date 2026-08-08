@@ -1,0 +1,1272 @@
+{
+  "module": "TRFQUIZ",
+  "path": "/TRF/TRFQUIZ.DLL",
+  "entries": [
+    {
+      "offset": 62280,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "鮱",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 62396,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "腱",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 62648,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "腦",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 62664,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "桑",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 62764,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "腦",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 62780,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "桑",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 62796,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "申",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 62832,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "濬",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 62948,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "腦",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 62964,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "桑",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 129976,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "盤",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 130120,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "慱",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 130132,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "番",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 130256,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "慱",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 130268,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "番",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 130312,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "医",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 130360,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "珀",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 130368,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "節",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 130376,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "呉",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 130404,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "慱",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 130416,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "番",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 130428,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "懊",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131236,
+      "size": 18,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "これはテストです。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131256,
+      "size": 20,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "これは選択肢１です。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131280,
+      "size": 20,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "これは選択肢２です。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131304,
+      "size": 20,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "これは選択肢３です。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131348,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "料理",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131356,
+      "size": 6,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "グルメ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131364,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "芸能",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131372,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "文化",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131380,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "政治",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131388,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "経済",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131396,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "歴史",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131404,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "文学",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131412,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "言語",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131420,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "地理",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131428,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "芸術",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131436,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "生物",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131444,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "農業",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131452,
+      "size": 8,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "スポーツ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131464,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "環境",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131472,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "小樽",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131480,
+      "size": 6,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "自衛隊",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131488,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "一般",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131496,
+      "size": 6,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "富良野",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131504,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "琴梨",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131512,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "鮎",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131516,
+      "size": 8,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "ターニャ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131528,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "由子",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131536,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "薫",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131540,
+      "size": 6,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "葉野香",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131548,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "梢",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131552,
+      "size": 6,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "めぐみ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131612,
+      "size": 2,
+      "avail": 9,
+      "section": ".data",
+      "text": {
+        "ja": "　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131628,
+      "size": 8,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "&主人公&",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131644,
+      "size": 8,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "琴梨　　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131660,
+      "size": 8,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "鮎　　　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131676,
+      "size": 8,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "ターニャ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131692,
+      "size": 8,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "由子　　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131708,
+      "size": 8,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "葉野香　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131724,
+      "size": 8,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "薫　　　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131740,
+      "size": 8,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "梢　　　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131756,
+      "size": 8,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "めぐみ　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131772,
+      "size": 8,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "北海太郎",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131788,
+      "size": 8,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "北桑椎造",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 133276,
+      "size": 78,
+      "avail": 79,
+      "section": ".rdata",
+      "text": {
+        "ja": "クイズまるごと北海道は　次々と出題される\n問題に早押しで答えるクイズゲーム！！\n",
+        "ko": "퀴즈　통째로　홋카이도는　잇달아　나오는\n문제를　빨리　맞히는　퀴즈　게임！！\n"
+      }
+    },
+    {
+      "offset": 133356,
+      "size": 97,
+      "avail": 99,
+      "section": ".data",
+      "text": {
+        "ja": "１問正解すると　プラス１０点\n３問間違えると　ゲームオーバー\nチャレンジする問題数を選んで下さい。\n",
+        "ko": "１문제　맞히면　＋１０점\n３문제　틀리면　게임　오버\n도전할　문제　수를　골라　주세요。\n"
+      }
+    },
+    {
+      "offset": 133456,
+      "size": 32,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "問題は全部で１０問出題されます。",
+        "ko": "문제는　전부　１０문제　나옵니다。"
+      }
+    },
+    {
+      "offset": 133492,
+      "size": 32,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "問題は全部で２０問出題されます。",
+        "ko": "문제는　전부　２０문제　나옵니다。"
+      }
+    },
+    {
+      "offset": 133528,
+      "size": 32,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "問題は全部で３０問出題されます。",
+        "ko": "문제는　전부　３０문제　나옵니다。"
+      }
+    },
+    {
+      "offset": 133564,
+      "size": 38,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "決着がつかない場合は延長戦に入ります。",
+        "ko": "승부가　안　나면　연장전으로。"
+      }
+    },
+    {
+      "offset": 133604,
+      "size": 77,
+      "avail": 79,
+      "section": ".data",
+      "text": {
+        "ja": "「とことん」クイズまるごと北海道！！\nゲームオーバーになるまで出題が続きます。",
+        "ko": "「끝까지」퀴즈　통째로　홋카이도！！\n게임　오버가　될　때까지　계속　나옵니다。"
+      },
+      "ask": [
+        {
+          "why": "`「とことん」クイズまるごと北海道！！` 는 이 퀴즈 모드의 이름이다. `「끝까지」 퀴즈 통째로 홋카이도！！` 로 직역했는데 제목답게 다듬을 여지가 있다.",
+          "state": "open"
+        }
+      ]
+    },
+    {
+      "offset": 133684,
+      "size": 22,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "ゲームをはじめますか？",
+        "ko": "게임을　시작할까요？"
+      }
+    },
+    {
+      "offset": 133708,
+      "size": 6,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "主人公",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 133716,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 133720,
+      "size": 8,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "　　　　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 133940,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "オプション",
+        "ko": "옵션"
+      }
+    },
+    {
+      "offset": 133952,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "対戦相手１",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 133964,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "対戦相手２",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 134052,
+      "size": 8,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "誰がびり",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 134100,
+      "size": 14,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "クイズのスコア",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 134144,
+      "size": 20,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "クイズのハイスコア１",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 134168,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "クイズの結果",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 134212,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "オプション",
+        "ko": "옵션"
+      }
+    },
+    {
+      "offset": 134224,
+      "size": 14,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "ギブアップする",
+        "ko": "포기한다"
+      }
+    },
+    {
+      "offset": 134240,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "まだ続ける",
+        "ko": "계속한다"
+      }
+    },
+    {
+      "offset": 134276,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 134280,
+      "size": 6,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "１０問",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 134288,
+      "size": 6,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "３０問",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 134296,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "とことん！",
+        "ko": "끝까지！"
+      }
+    },
+    {
+      "offset": 134308,
+      "size": 6,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "２０問",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 134316,
+      "size": 6,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "３０問",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 134324,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "はい",
+        "ko": "예"
+      }
+    },
+    {
+      "offset": 134332,
+      "size": 6,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "いいえ",
+        "ko": "아니요"
+      }
+    },
+    {
+      "offset": 134340,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 134344,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 134348,
+      "size": 8,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "終了する",
+        "ko": "끝낸다"
+      }
+    },
+    {
+      "offset": 134360,
+      "size": 8,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "終了する",
+        "ko": "끝낸다"
+      }
+    },
+    {
+      "offset": 134372,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "まだ続ける",
+        "ko": "계속한다"
+      }
+    },
+    {
+      "offset": 134384,
+      "size": 8,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "再開する",
+        "ko": "다시　한다"
+      }
+    },
+    {
+      "offset": 134400,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 134404,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "－第",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 134412,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "問－",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 134420,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "　延長中！",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 134432,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 134436,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 134464,
+      "size": 8,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "&主人公&",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 134476,
+      "size": 8,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "結果発表",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 134488,
+      "size": 13,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "\n　　　１位：",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 134504,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 134508,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 134512,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 134516,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 134520,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "点",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 134524,
+      "size": 13,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "\n　　　２位：",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 134540,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 134544,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 134548,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 134552,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 134556,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "点",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 134560,
+      "size": 13,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "\n　　　３位：",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 134576,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 134580,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 134584,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 134588,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 134592,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "点",
+        "ko": ""
+      }
+    }
+  ]
+}

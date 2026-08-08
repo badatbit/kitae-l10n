@@ -1,0 +1,1356 @@
+{
+  "module": "TRFTECHNOMAZE",
+  "path": "/TRF/TRFTECHNOMAZE.DLL",
+  "entries": [
+    {
+      "offset": 157876,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "農",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 157884,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "臉",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 158024,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "腥",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 158044,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "煤",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 158092,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "農",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 158100,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "臉",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 158112,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "濾",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 158132,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "詫",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 158148,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "腥",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 158160,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "艨",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 158168,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "煤",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 158216,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "農",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 158224,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "臉",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 158252,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "腥",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 158272,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "煤",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 158320,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "農",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 158328,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "臉",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 158596,
+      "size": 4,
+      "avail": 7,
+      "section": ".rdata",
+      "text": {
+        "ja": " 鉸6",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 159560,
+      "size": 99,
+      "avail": 99,
+      "section": ".data",
+      "text": {
+        "ja": "テクノメイズは　迷路内の４つのチェックポイントを\n全て回り　より早くゴールする事が目的のゲームです。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 159660,
+      "size": 116,
+      "avail": 119,
+      "section": ".data",
+      "text": {
+        "ja": "『方向ボタン上下』で前進と後退。\n『方向ボタン左右』で左転回と右転回。\n『Ｌ／Ｒトリガー』で左右に平行移動ができます。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 159780,
+      "size": 120,
+      "avail": 123,
+      "section": ".data",
+      "text": {
+        "ja": "『Ｙボタン』で上を　『Ｂボタン』で下を向きます。\n『Ａボタン』を押すと　一緒に歩いている\n女の子に話しかける事ができます。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 159904,
+      "size": 130,
+      "avail": 131,
+      "section": ".data",
+      "text": {
+        "ja": "画面奥に見えるタワーがチェックポイントです。\nどの順番で回っても構いませんが　１番から４番までの\n全部を通らないとゴールできません。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 160036,
+      "size": 76,
+      "avail": 79,
+      "section": ".data",
+      "text": {
+        "ja": "各チェックポイントを通過すると　画面右上にある\nチェックランプが点灯します。\n",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 160116,
+      "size": 138,
+      "avail": 139,
+      "section": ".data",
+      "text": {
+        "ja": "画面左上にあるのが　経過時間を示すタイマーです。\nこのタイマーが３０分に達するとタイムオーバーになり\n強制的に迷路の外へ出されてしまいます。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 160256,
+      "size": 97,
+      "avail": 99,
+      "section": ".data",
+      "text": {
+        "ja": "画面右下にあるのは　現在あなたが向いて\nいる方角を示すコンパスです。迷路を歩く\n参考にして下さい。\n",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 160356,
+      "size": 136,
+      "avail": 139,
+      "section": ".data",
+      "text": {
+        "ja": "進む道がわからなくなった時は『Ａボタン』を押して\n一緒に歩いている女の子に話しかけてみて下さい。\n何かヒントを教えてくれるかもしれません。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 160496,
+      "size": 88,
+      "avail": 95,
+      "section": ".data",
+      "text": {
+        "ja": "また　途中で迷路を抜けたくなった時は\nスタートボタンを押してギブアップする事もできます。\n",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 160636,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "はい",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 160644,
+      "size": 6,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "いいえ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 160952,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "操作説明聞く",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 161012,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "対戦相手１",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 161076,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "オプション",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 161140,
+      "size": 6,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "時間帯",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 161212,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "迷路タイム",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 161268,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "オプション",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 161508,
+      "size": 2,
+      "avail": 9,
+      "section": ".data",
+      "text": {
+        "ja": "　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 161608,
+      "size": 22,
+      "avail": 29,
+      "section": ".data",
+      "text": {
+        "ja": "それじゃ！　スタート！",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 161708,
+      "size": 14,
+      "avail": 21,
+      "section": ".data",
+      "text": {
+        "ja": "こっちこっち！",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 161808,
+      "size": 26,
+      "avail": 33,
+      "section": ".data",
+      "text": {
+        "ja": "こっち・・・でいいのかな？",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 161908,
+      "size": 30,
+      "avail": 37,
+      "section": ".data",
+      "text": {
+        "ja": "なんか迷っちゃったんじゃない？",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 162008,
+      "size": 30,
+      "avail": 37,
+      "section": ".data",
+      "text": {
+        "ja": "チェックポイント　見つけたよ！",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 162108,
+      "size": 26,
+      "avail": 33,
+      "section": ".data",
+      "text": {
+        "ja": "あっ！　あそこがゴールだ！",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 162208,
+      "size": 18,
+      "avail": 25,
+      "section": ".data",
+      "text": {
+        "ja": "やった！　ゴール！",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 162308,
+      "size": 57,
+      "avail": 64,
+      "section": ".data",
+      "text": {
+        "ja": "あっ！　待って！\nまだチェックポイント全部まわってないよ。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 162408,
+      "size": 24,
+      "avail": 31,
+      "section": ".data",
+      "text": {
+        "ja": "・・・・・・・・・・・・",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 162508,
+      "size": 20,
+      "avail": 27,
+      "section": ".data",
+      "text": {
+        "ja": "ギブアップしますか？",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 163048,
+      "size": 2,
+      "avail": 9,
+      "section": ".data",
+      "text": {
+        "ja": "　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 163148,
+      "size": 30,
+      "avail": 37,
+      "section": ".data",
+      "text": {
+        "ja": "それじゃ行こう！！　スタート！",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 163248,
+      "size": 18,
+      "avail": 25,
+      "section": ".data",
+      "text": {
+        "ja": "あ・・こっちだよ！",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 163348,
+      "size": 26,
+      "avail": 33,
+      "section": ".data",
+      "text": {
+        "ja": "あれ？　・・・こっちかな？",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 163448,
+      "size": 40,
+      "avail": 47,
+      "section": ".data",
+      "text": {
+        "ja": "うーん・・なんか迷っちゃったんじゃない？",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 163548,
+      "size": 48,
+      "avail": 55,
+      "section": ".data",
+      "text": {
+        "ja": "あっ！　あった！　あれがチェックポイントだよね？",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 163648,
+      "size": 30,
+      "avail": 37,
+      "section": ".data",
+      "text": {
+        "ja": "ねぇ！　あそこが出口じゃない？",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 163748,
+      "size": 22,
+      "avail": 29,
+      "section": ".data",
+      "text": {
+        "ja": "やったぁ！　出口だよ！",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 163848,
+      "size": 61,
+      "avail": 68,
+      "section": ".data",
+      "text": {
+        "ja": "あれ？　まだ行ってないチェックポイントが\nあるんじゃないかな？",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 163948,
+      "size": 24,
+      "avail": 31,
+      "section": ".data",
+      "text": {
+        "ja": "・・・・・・・・・・・・",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 164048,
+      "size": 20,
+      "avail": 27,
+      "section": ".data",
+      "text": {
+        "ja": "ギブアップしますか？",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 164588,
+      "size": 2,
+      "avail": 9,
+      "section": ".data",
+      "text": {
+        "ja": "　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 164688,
+      "size": 28,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "それじゃ行こ！　お兄ちゃん。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 164788,
+      "size": 26,
+      "avail": 33,
+      "section": ".data",
+      "text": {
+        "ja": "お兄ちゃん！　こっちだよ。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 164888,
+      "size": 26,
+      "avail": 33,
+      "section": ".data",
+      "text": {
+        "ja": "こっち・・・でいいのかな？",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 164988,
+      "size": 34,
+      "avail": 41,
+      "section": ".data",
+      "text": {
+        "ja": "ひょっとして・・迷っちゃったかな？",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 165088,
+      "size": 38,
+      "avail": 45,
+      "section": ".data",
+      "text": {
+        "ja": "あっ！　チェックポイント　見つけたよ！",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 165188,
+      "size": 34,
+      "avail": 41,
+      "section": ".data",
+      "text": {
+        "ja": "あっ！　あそこがゴールみたいだよ！",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 165288,
+      "size": 18,
+      "avail": 25,
+      "section": ".data",
+      "text": {
+        "ja": "やった！　ゴール！",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 165388,
+      "size": 63,
+      "avail": 70,
+      "section": ".data",
+      "text": {
+        "ja": "あれ？　まだ行ってないチェックポイント・・\nあるんじゃないかな？",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 165488,
+      "size": 24,
+      "avail": 31,
+      "section": ".data",
+      "text": {
+        "ja": "・・・・・・・・・・・・",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 165588,
+      "size": 20,
+      "avail": 27,
+      "section": ".data",
+      "text": {
+        "ja": "ギブアップしますか？",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 166128,
+      "size": 2,
+      "avail": 9,
+      "section": ".data",
+      "text": {
+        "ja": "　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 166228,
+      "size": 28,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "それでは　行きましょうか・・",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 166328,
+      "size": 22,
+      "avail": 29,
+      "section": ".data",
+      "text": {
+        "ja": "きっと　こっちですよ。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 166428,
+      "size": 32,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "こっち・・・でいいんでしょうか？",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 166528,
+      "size": 34,
+      "avail": 41,
+      "section": ".data",
+      "text": {
+        "ja": "・・・迷ってしまったのでしょうか？",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 166628,
+      "size": 34,
+      "avail": 41,
+      "section": ".data",
+      "text": {
+        "ja": "チェックポイント　見つけましたよ。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 166728,
+      "size": 22,
+      "avail": 29,
+      "section": ".data",
+      "text": {
+        "ja": "あそこがゴールですね！",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 166828,
+      "size": 26,
+      "avail": 33,
+      "section": ".data",
+      "text": {
+        "ja": "着きましたね。ゴールです！",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 166928,
+      "size": 59,
+      "avail": 66,
+      "section": ".data",
+      "text": {
+        "ja": "まだ　まわってないチェックポイントが\nあるような気がします。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 167028,
+      "size": 24,
+      "avail": 31,
+      "section": ".data",
+      "text": {
+        "ja": "・・・・・・・・・・・・",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 167128,
+      "size": 20,
+      "avail": 27,
+      "section": ".data",
+      "text": {
+        "ja": "ギブアップしますか？",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 167668,
+      "size": 2,
+      "avail": 9,
+      "section": ".data",
+      "text": {
+        "ja": "　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 167768,
+      "size": 28,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "それじゃ！　行ってみよっか！",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 167868,
+      "size": 14,
+      "avail": 21,
+      "section": ".data",
+      "text": {
+        "ja": "こっちこっち！",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 167968,
+      "size": 28,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "こっちだよ！　・・多分・・・",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 168068,
+      "size": 32,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "ひょっとして　迷っちゃったかな？",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 168168,
+      "size": 22,
+      "avail": 29,
+      "section": ".data",
+      "text": {
+        "ja": "チェックポイント発見！",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 168268,
+      "size": 26,
+      "avail": 33,
+      "section": ".data",
+      "text": {
+        "ja": "あっ！　あそこがゴールだ！",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 168368,
+      "size": 20,
+      "avail": 27,
+      "section": ".data",
+      "text": {
+        "ja": "やったぁ！　ゴール！",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 168468,
+      "size": 71,
+      "avail": 78,
+      "section": ".data",
+      "text": {
+        "ja": "あ・・ひょっとして　まだまわってない\nチェックポイントがあるんじゃない？",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 168568,
+      "size": 24,
+      "avail": 31,
+      "section": ".data",
+      "text": {
+        "ja": "・・・・・・・・・・・・",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 168668,
+      "size": 20,
+      "avail": 27,
+      "section": ".data",
+      "text": {
+        "ja": "ギブアップしますか？",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 169208,
+      "size": 2,
+      "avail": 9,
+      "section": ".data",
+      "text": {
+        "ja": "　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 169308,
+      "size": 28,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "それじゃ　行きましょうか・・",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 169408,
+      "size": 10,
+      "avail": 17,
+      "section": ".data",
+      "text": {
+        "ja": "こっちよ。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 169508,
+      "size": 26,
+      "avail": 33,
+      "section": ".data",
+      "text": {
+        "ja": "こっち・・だと思うけど・・",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 169608,
+      "size": 32,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "ちょっと　迷っちゃったみたいね。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 169708,
+      "size": 36,
+      "avail": 43,
+      "section": ".data",
+      "text": {
+        "ja": "あっ！　あそこがチェックポイントね。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 169808,
+      "size": 26,
+      "avail": 33,
+      "section": ".data",
+      "text": {
+        "ja": "あっ！　ゴール見つけたよ！",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 169908,
+      "size": 32,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "お疲れさま。ゴールに着いたわね。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 170008,
+      "size": 50,
+      "avail": 57,
+      "section": ".data",
+      "text": {
+        "ja": "待って！　チェックポイント　まだ残ってるみたいよ。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 170108,
+      "size": 24,
+      "avail": 31,
+      "section": ".data",
+      "text": {
+        "ja": "・・・・・・・・・・・・",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 170208,
+      "size": 20,
+      "avail": 27,
+      "section": ".data",
+      "text": {
+        "ja": "ギブアップしますか？",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 170748,
+      "size": 2,
+      "avail": 9,
+      "section": ".data",
+      "text": {
+        "ja": "　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 170848,
+      "size": 16,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "よし！　行こう！",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 170948,
+      "size": 12,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "こっちだよ！",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 171048,
+      "size": 16,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "こっち・・だよ！",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 171148,
+      "size": 32,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "なんか　迷ってるんじゃないのか？",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 171248,
+      "size": 40,
+      "avail": 47,
+      "section": ".data",
+      "text": {
+        "ja": "あっ！　あれチェックポイントじゃないか？",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 171348,
+      "size": 28,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "見つけた！　あれがゴールだ！",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 171448,
+      "size": 22,
+      "avail": 29,
+      "section": ".data",
+      "text": {
+        "ja": "ふぅ・・ゴールに到着！",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 171548,
+      "size": 57,
+      "avail": 64,
+      "section": ".data",
+      "text": {
+        "ja": "待って！　チェックポイント・・\nまだ抜けがあるみたいだよ。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 171648,
+      "size": 24,
+      "avail": 31,
+      "section": ".data",
+      "text": {
+        "ja": "・・・・・・・・・・・・",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 171748,
+      "size": 20,
+      "avail": 27,
+      "section": ".data",
+      "text": {
+        "ja": "ギブアップしますか？",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 172288,
+      "size": 2,
+      "avail": 9,
+      "section": ".data",
+      "text": {
+        "ja": "　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 172388,
+      "size": 22,
+      "avail": 29,
+      "section": ".data",
+      "text": {
+        "ja": "それじゃ！　スタート！",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 172488,
+      "size": 44,
+      "avail": 51,
+      "section": ".data",
+      "text": {
+        "ja": "こっちこっち！　私こう言うのって得意なんだ！",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 172588,
+      "size": 26,
+      "avail": 33,
+      "section": ".data",
+      "text": {
+        "ja": "こっち・・だと思うけど・・",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 172688,
+      "size": 36,
+      "avail": 43,
+      "section": ".data",
+      "text": {
+        "ja": "ちょっとぐらい迷った方が面白いよね。",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 172788,
+      "size": 42,
+      "avail": 49,
+      "section": ".data",
+      "text": {
+        "ja": "あっ！　あれってチェックポイントじゃない？",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 172888,
+      "size": 26,
+      "avail": 33,
+      "section": ".data",
+      "text": {
+        "ja": "あっ！　ゴール見つけたよ！",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 172988,
+      "size": 14,
+      "avail": 21,
+      "section": ".data",
+      "text": {
+        "ja": "とうちゃーく！",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 173088,
+      "size": 77,
+      "avail": 84,
+      "section": ".data",
+      "text": {
+        "ja": "ゴールには来たけど　まだまわってない\nチェックポイントがあるんじゃないかな・・",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 173188,
+      "size": 24,
+      "avail": 31,
+      "section": ".data",
+      "text": {
+        "ja": "・・・・・・・・・・・・",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 173288,
+      "size": 20,
+      "avail": 27,
+      "section": ".data",
+      "text": {
+        "ja": "ギブアップしますか？",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 173828,
+      "size": 2,
+      "avail": 9,
+      "section": ".data",
+      "text": {
+        "ja": "　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 173928,
+      "size": 2,
+      "avail": 9,
+      "section": ".data",
+      "text": {
+        "ja": "　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 174028,
+      "size": 2,
+      "avail": 9,
+      "section": ".data",
+      "text": {
+        "ja": "　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 174128,
+      "size": 2,
+      "avail": 9,
+      "section": ".data",
+      "text": {
+        "ja": "　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 174228,
+      "size": 2,
+      "avail": 9,
+      "section": ".data",
+      "text": {
+        "ja": "　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 174328,
+      "size": 2,
+      "avail": 9,
+      "section": ".data",
+      "text": {
+        "ja": "　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 174428,
+      "size": 2,
+      "avail": 9,
+      "section": ".data",
+      "text": {
+        "ja": "　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 174528,
+      "size": 2,
+      "avail": 9,
+      "section": ".data",
+      "text": {
+        "ja": "　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 174628,
+      "size": 2,
+      "avail": 9,
+      "section": ".data",
+      "text": {
+        "ja": "　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 174728,
+      "size": 2,
+      "avail": 9,
+      "section": ".data",
+      "text": {
+        "ja": "　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 174828,
+      "size": 20,
+      "avail": 27,
+      "section": ".data",
+      "text": {
+        "ja": "ギブアップしますか？",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 174960,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "　",
+        "ko": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,536 @@
+{
+  "script": "guide4.msl",
+  "entries": [
+    {
+      "window": 0,
+      "line": 0,
+      "speaker": "가이드",
+      "text": {
+        "ja": "ドイツの大手自動車メーカー。",
+        "ko": "독일의　대형　자동차　회사。"
+      }
+    },
+    {
+      "window": 0,
+      "line": 1,
+      "speaker": "가이드",
+      "text": {
+        "ja": "本編では　メルセデスベンツＣＬ６００が",
+        "ko": "본편에서는　메르세데스벤츠　ＣＬ６００이"
+      }
+    },
+    {
+      "window": 0,
+      "line": 2,
+      "speaker": "가이드",
+      "text": {
+        "ja": "里中家の自家用車として登場する。",
+        "ko": "사토나카　집의　자가용으로　나온다。"
+      }
+    },
+    {
+      "window": 1,
+      "line": 0,
+      "speaker": "가이드",
+      "text": {
+        "ja": "メルセデスベンツ日本のホームページアドレスは下記。",
+        "ko": "메르세데스벤츠　일본의　홈페이지　주소。"
+      }
+    },
+    {
+      "window": 1,
+      "line": 1,
+      "speaker": "가이드",
+      "text": {
+        "ja": "http://www.mbj.mercedes-benz.com/",
+        "ko": "http://www.mbj.mercedes-benz.com/"
+      }
+    },
+    {
+      "window": 2,
+      "line": 0,
+      "speaker": "가이드",
+      "text": {
+        "ja": "スウェーデンの大手自動車メーカー。",
+        "ko": "스웨덴의　대형　자동차　회사。"
+      }
+    },
+    {
+      "window": 2,
+      "line": 1,
+      "speaker": "가이드",
+      "text": {
+        "ja": "本編では　ボルボ８５０エステートが",
+        "ko": "본편에서는　볼보　８５０　에스테이트가"
+      }
+    },
+    {
+      "window": 2,
+      "line": 2,
+      "speaker": "가이드",
+      "text": {
+        "ja": "愛田家の自家用車として登場する。",
+        "ko": "아이다　집의　자가용으로　나온다。"
+      }
+    },
+    {
+      "window": 3,
+      "line": 0,
+      "speaker": "가이드",
+      "text": {
+        "ja": "ボルボ・カーズ・ジャパンのホームページアドレスは下記。",
+        "ko": "볼보　카즈　재팬의　홈페이지　주소。"
+      }
+    },
+    {
+      "window": 3,
+      "line": 1,
+      "speaker": "가이드",
+      "text": {
+        "ja": "http://www.volvocars.co.jp/pages/default.asp",
+        "ko": "http://www.volvocars.co.jp/pages/default.asp"
+      }
+    },
+    {
+      "window": 4,
+      "line": 0,
+      "speaker": "가이드",
+      "text": {
+        "ja": "本編で主人公が旅立つ空港。",
+        "ko": "본편에서　주인공이　떠나는　공항。"
+      }
+    },
+    {
+      "window": 4,
+      "line": 1,
+      "speaker": "가이드",
+      "text": {
+        "ja": "毎日３０本以上の便が　羽田　千歳間を往復している。",
+        "ko": "매일　３０편　이상　하네다ー치토세를　오간다。"
+      }
+    },
+    {
+      "window": 5,
+      "line": 0,
+      "speaker": "가이드",
+      "text": {
+        "ja": "羽田空港のホームページアドレスは下記。",
+        "ko": "하네다　공항의　홈페이지　주소。"
+      }
+    },
+    {
+      "window": 5,
+      "line": 1,
+      "speaker": "가이드",
+      "text": {
+        "ja": "http://www.tokyo-airport-bldg.co.jp/index2.html",
+        "ko": "http://www.tokyo-airport-bldg.co.jp/index2.html"
+      }
+    },
+    {
+      "window": 6,
+      "line": 0,
+      "speaker": "가이드",
+      "text": {
+        "ja": "地元では「丸井さん」と呼ばれ　親しまれている",
+        "ko": "현지에서는　「마루이　씨」라　불리며　사랑받는"
+      }
+    },
+    {
+      "window": 6,
+      "line": 1,
+      "speaker": "가이드",
+      "text": {
+        "ja": "老舗のデパート。夏編・梢シナリオに登場する。",
+        "ko": "오래된　백화점。　여름편　코즈에　편에　나온다。"
+      }
+    },
+    {
+      "window": 6,
+      "line": 2,
+      "speaker": "가이드",
+      "text": {
+        "ja": "東京にある「赤いカードの丸井」は全く別のお店。",
+        "ko": "도쿄의　「빨간　카드　마루이」와는　다른　가게다。"
+      },
+      "ask": [
+        {
+          "why": "`赤いカードの丸井` 는 도쿄 마루이의 광고 문구(빨간 카드)를 가리킨다. 한국 독자에게는 통하지 않아 직역만 해 두었다. 각주 없이 그대로 둘지.",
+          "state": "open"
+        }
+      ]
+    },
+    {
+      "window": 7,
+      "line": 0,
+      "speaker": "가이드",
+      "text": {
+        "ja": "丸井今井のホームページアドレスは下記。",
+        "ko": "마루이이마이의　홈페이지　주소。"
+      }
+    },
+    {
+      "window": 7,
+      "line": 1,
+      "speaker": "가이드",
+      "text": {
+        "ja": "http://www.marui-imai.co.jp/",
+        "ko": "http://www.marui-imai.co.jp/"
+      }
+    },
+    {
+      "window": 8,
+      "line": 0,
+      "speaker": "가이드",
+      "text": {
+        "ja": "本編で主人公が降り立つ空港。",
+        "ko": "본편에서　주인공이　내리는　공항。"
+      }
+    },
+    {
+      "window": 8,
+      "line": 1,
+      "speaker": "가이드",
+      "text": {
+        "ja": "北海道の空の玄関口として　ビジネスや観光などに",
+        "ko": "홋카이도의　하늘　관문으로　업무와　관광에"
+      }
+    },
+    {
+      "window": 8,
+      "line": 2,
+      "speaker": "가이드",
+      "text": {
+        "ja": "利用されている。",
+        "ko": "널리　쓰인다。"
+      }
+    },
+    {
+      "window": 9,
+      "line": 0,
+      "speaker": "가이드",
+      "text": {
+        "ja": "新千歳空港のホームページアドレスは下記。",
+        "ko": "신치토세　공항의　홈페이지　주소。"
+      }
+    },
+    {
+      "window": 9,
+      "line": 1,
+      "speaker": "가이드",
+      "text": {
+        "ja": "http://www.iacnet.or.jp/aero/link6.html",
+        "ko": "http://www.iacnet.or.jp/aero/link6.html"
+      }
+    },
+    {
+      "window": 10,
+      "line": 0,
+      "speaker": "가이드",
+      "text": {
+        "ja": "航空自衛隊千歳基地。本編で桜町由子が働いているが",
+        "ko": "항공자위대　치토세　기지。　본편에서　유코가"
+      }
+    },
+    {
+      "window": 10,
+      "line": 1,
+      "speaker": "가이드",
+      "text": {
+        "ja": "もちろんこれは架空の設定。",
+        "ko": "일하지만　물론　이건　가공의　설정이다。"
+      }
+    },
+    {
+      "window": 11,
+      "line": 0,
+      "speaker": "가이드",
+      "text": {
+        "ja": "航空自衛隊のホームページアドレスは下記。",
+        "ko": "항공자위대의　홈페이지　주소。"
+      }
+    },
+    {
+      "window": 11,
+      "line": 1,
+      "speaker": "가이드",
+      "text": {
+        "ja": "http://www.jda.go.jp/jasdf/",
+        "ko": "http://www.jda.go.jp/jasdf/"
+      }
+    },
+    {
+      "window": 12,
+      "line": 0,
+      "speaker": "가이드",
+      "text": {
+        "ja": "大手家電メーカ。本編では里中梢がこの会社の",
+        "ko": "대형　가전　회사。　본편에서　사토나카　코즈에가"
+      }
+    },
+    {
+      "window": 12,
+      "line": 1,
+      "speaker": "가이드",
+      "text": {
+        "ja": "ノートパソコン「リブレット」を使っている。",
+        "ko": "이　회사의　노트북　「리브레토」를　쓴다。"
+      }
+    },
+    {
+      "window": 13,
+      "line": 0,
+      "speaker": "가이드",
+      "text": {
+        "ja": "東芝のホームページアドレスは下記。",
+        "ko": "도시바의　홈페이지　주소。"
+      }
+    },
+    {
+      "window": 13,
+      "line": 1,
+      "speaker": "가이드",
+      "text": {
+        "ja": "http://www.toshiba.co.jp/",
+        "ko": "http://www.toshiba.co.jp/"
+      }
+    },
+    {
+      "window": 14,
+      "line": 0,
+      "speaker": "가이드",
+      "text": {
+        "ja": "大手カメラメーカ。本編では桜町由子がこの会社の",
+        "ko": "대형　카메라　회사。　본편에서　유코가"
+      }
+    },
+    {
+      "window": 14,
+      "line": 1,
+      "speaker": "가이드",
+      "text": {
+        "ja": "「コンタックスＧ１」と「コンタックスＴｉｘ」を",
+        "ko": "이　회사의　「콘탁스Ｇ１」과　「콘탁스Ｔｉｘ」를"
+      }
+    },
+    {
+      "window": 14,
+      "line": 2,
+      "speaker": "가이드",
+      "text": {
+        "ja": "愛用している。",
+        "ko": "즐겨　쓴다。"
+      }
+    },
+    {
+      "window": 15,
+      "line": 0,
+      "speaker": "가이드",
+      "text": {
+        "ja": "京セラのホームページアドレスは下記。",
+        "ko": "교세라의　홈페이지　주소。"
+      }
+    },
+    {
+      "window": 15,
+      "line": 1,
+      "speaker": "가이드",
+      "text": {
+        "ja": "http://www.kyocera.co.jp/index-j.html",
+        "ko": "http://www.kyocera.co.jp/index-j.html"
+      }
+    },
+    {
+      "window": 16,
+      "line": 0,
+      "speaker": "가이드",
+      "text": {
+        "ja": "アメリカの大手自動車メーカー。",
+        "ko": "미국의　대형　자동차　회사。"
+      }
+    },
+    {
+      "window": 16,
+      "line": 1,
+      "speaker": "가이드",
+      "text": {
+        "ja": "本編では　グランドチェロキー　リミティッドＬＸが",
+        "ko": "본편에서는　그랜드체로키　리미티드ＬＸ가"
+      }
+    },
+    {
+      "window": 16,
+      "line": 2,
+      "speaker": "가이드",
+      "text": {
+        "ja": "春野家の自家用車として登場する。",
+        "ko": "하루노　집의　자가용으로　나온다。"
+      }
+    },
+    {
+      "window": 17,
+      "line": 0,
+      "speaker": "가이드",
+      "text": {
+        "ja": "クライスラーのホームページアドレスは下記。",
+        "ko": "크라이슬러의　홈페이지　주소。"
+      }
+    },
+    {
+      "window": 17,
+      "line": 1,
+      "speaker": "가이드",
+      "text": {
+        "ja": "http://www.chrysler.co.jp/japanese/",
+        "ko": "http://www.chrysler.co.jp/japanese/"
+      }
+    },
+    {
+      "window": 18,
+      "line": 0,
+      "speaker": "가이드",
+      "text": {
+        "ja": "イタリアの大手自動車メーカー。",
+        "ko": "이탈리아의　대형　자동차　회사。"
+      }
+    },
+    {
+      "window": 18,
+      "line": 1,
+      "speaker": "가이드",
+      "text": {
+        "ja": "本編では　フィアットバルケッタが",
+        "ko": "본편에서는　피아트　바르케타가"
+      }
+    },
+    {
+      "window": 18,
+      "line": 2,
+      "speaker": "가이드",
+      "text": {
+        "ja": "椎名薫の愛車として登場する。",
+        "ko": "시이나　카오루의　애차로　나온다。"
+      }
+    },
+    {
+      "window": 19,
+      "line": 0,
+      "speaker": "가이드",
+      "text": {
+        "ja": "フィアットのホームページアドレスは下記。",
+        "ko": "피아트의　홈페이지　주소。"
+      }
+    },
+    {
+      "window": 19,
+      "line": 1,
+      "speaker": "가이드",
+      "text": {
+        "ja": "http://www.fiat-auto.co.jp/",
+        "ko": "http://www.fiat-auto.co.jp/"
+      }
+    },
+    {
+      "window": 20,
+      "line": 0,
+      "speaker": "가이드",
+      "text": {
+        "ja": "株式会社ルックが毎年発行しているガイドブック。",
+        "ko": "주식회사　루크가　해마다　내는　가이드북。"
+      },
+      "ask": [
+        {
+          "why": "`株式会社ルック` 가 내는 가이드북 『ビッグラン北海道』 가 게임 내 가이드북의 원전이라는 설명이다. 회사명을 `루크` 로 음차했는데 실재 회사라 표기를 확인해 두면 좋겠다.",
+          "state": "open"
+        }
+      ]
+    },
+    {
+      "window": 20,
+      "line": 1,
+      "speaker": "가이드",
+      "text": {
+        "ja": "ゲーム内ガイドブックは　この本の文章の一部を",
+        "ko": "게임　속　가이드북은　이　책의　글　일부를"
+      }
+    },
+    {
+      "window": 20,
+      "line": 2,
+      "speaker": "가이드",
+      "text": {
+        "ja": "使用している。春発行で定価は１９２０円。",
+        "ko": "쓰고　있다。　봄　발행에　정가는　１９２０엔。"
+      }
+    },
+    {
+      "window": 21,
+      "line": 0,
+      "speaker": "가이드",
+      "text": {
+        "ja": "ビッグラン北海道のホームページアドレスは下記。",
+        "ko": "빅런　홋카이도의　홈페이지　주소。"
+      }
+    },
+    {
+      "window": 21,
+      "line": 1,
+      "speaker": "가이드",
+      "text": {
+        "ja": "http://nexus.earthcape.or.jp/BIGRUN/",
+        "ko": "http://nexus.earthcape.or.jp/BIGRUN/"
+      }
+    },
+    {
+      "window": 22,
+      "line": 0,
+      "speaker": "가이드",
+      "text": {
+        "ja": "大手電話サービス会社。本編では主人公が",
+        "ko": "대형　전화　서비스　회사。　본편에서　주인공이"
+      }
+    },
+    {
+      "window": 22,
+      "line": 1,
+      "speaker": "가이드",
+      "text": {
+        "ja": "この会社のＰＨＳ　パワーキャロットＤＬ－Ｓ２８Ｐを",
+        "ko": "이　회사의　ＰＨＳ　파워캐럿　ＤＬ－Ｓ２８Ｐ를"
+      },
+      "ask": [
+        {
+          "why": "`パワーキャロットＤＬ－Ｓ２８Ｐ` 는 실제 ＰＨＳ 기종명이라 그대로 음차했다.",
+          "state": "open"
+        }
+      ]
+    },
+    {
+      "window": 22,
+      "line": 2,
+      "speaker": "가이드",
+      "text": {
+        "ja": "使用している。",
+        "ko": "쓰고　있다。"
+      }
+    },
+    {
+      "window": 23,
+      "line": 0,
+      "speaker": "가이드",
+      "text": {
+        "ja": "ＤＤＩポケットのホームページアドレスは下記。",
+        "ko": "ＤＤＩ　포켓의　홈페이지　주소。"
+      }
+    },
+    {
+      "window": 23,
+      "line": 1,
+      "speaker": "가이드",
+      "text": {
+        "ja": "http://www.j-plaza.or.jp/ddi-pocket/",
+        "ko": "http://www.j-plaza.or.jp/ddi-pocket/"
+      }
+    }
+  ]
+}

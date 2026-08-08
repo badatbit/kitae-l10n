@@ -1,0 +1,428 @@
+{
+  "module": "TRFKARAOKE",
+  "path": "/TRF/TRFKARAOKE.DLL",
+  "entries": [
+    {
+      "offset": 129252,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "憲",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 129256,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "惓",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 129424,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "森",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 129448,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "膺",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 129468,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "彷",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 129504,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "傑",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 129704,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "精",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 129716,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "憲",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 129888,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "森",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 129912,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "膺",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 129932,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "彷",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 129968,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "傑",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 130112,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "荳",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 130224,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "雜",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 130240,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "憲",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 130244,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "惓",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 130412,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "森",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 130436,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "膺",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 130456,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "彷",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 130492,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "傑",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 130688,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "盛",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 130997,
+      "size": 3,
+      "avail": 7,
+      "section": ".rdata",
+      "text": {
+        "ja": "籌6",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131036,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "濺",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131812,
+      "size": 60,
+      "avail": 63,
+      "section": ".data",
+      "text": {
+        "ja": "ひこうき雲\nしたっけ\nＭＯＶＥ　ＯＮ\nわたしまけましたわ\nおわり",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131876,
+      "size": 60,
+      "avail": 63,
+      "section": ".data",
+      "text": {
+        "ja": "ひこうき雲\nしたっけ\nＭＯＶＥ　ＯＮ\n　　　　　　　　　\nおわり",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131940,
+      "size": 214,
+      "avail": 215,
+      "section": ".data",
+      "text": {
+        "ja": "方向ボタン上下で曲を選択します。\nＢボタンで　メロディーあり\nＸボタンで　メロディー音量５０％モード\nＹボタンで　メロディー音量なし\nスタートボタンで演奏を開始します。\n演奏中にスタートボタンを押すと\n強制終了できます。",
+        "ko": ""
+      },
+      "ask": [
+        {
+          "why": "가라오케에 들어가면 리셋된다(2026-08-08). 원인을 짚기 전까지 원문 그대로 둔다. 가사(`歌詞.SMF`)는 애초에 건드린 적이 없다 — 디스크 대조로 확인했다.",
+          "state": "open"
+        }
+      ]
+    },
+    {
+      "offset": 132168,
+      "size": 54,
+      "avail": 55,
+      "section": ".data",
+      "text": {
+        "ja": "画面の指示に合わせて　パッドのボタンを\n押して下さい。\n",
+        "ko": ""
+      },
+      "ask": [
+        {
+          "why": "가라오케에 들어가면 리셋된다(2026-08-08). 원인을 짚기 전까지 원문 그대로 둔다. 가사(`歌詞.SMF`)는 애초에 건드린 적이 없다 — 디스크 대조로 확인했다.",
+          "state": "open"
+        }
+      ]
+    },
+    {
+      "offset": 133011,
+      "size": 11,
+      "avail": 12,
+      "section": ".data",
+      "text": {
+        "ja": "?オプション",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 133024,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "鮎に勝てる",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 133036,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "まけましたわ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 133052,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "カラオケ番号",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 133068,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "主人公の得点",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 133084,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "琴梨の得点",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 133096,
+      "size": 8,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "鮎の得点",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 133108,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "葉野香の得点",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 133124,
+      "size": 8,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "梢の得点",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 133136,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "由子の得点",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 133148,
+      "size": 8,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "薫の得点",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 133160,
+      "size": 14,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "ターニャの得点",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 133176,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "めぐみの得点",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 133192,
+      "size": 16,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "カラオケ最高得点",
+        "ko": ""
+      }
+    }
+  ]
+}

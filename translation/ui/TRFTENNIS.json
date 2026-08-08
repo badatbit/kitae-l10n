@@ -1,0 +1,486 @@
+{
+  "module": "TRFTENNIS",
+  "path": "/TRF/TRFTENNIS.DLL",
+  "entries": [
+    {
+      "offset": 130908,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "爼",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 130912,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "爼",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 130916,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "茗",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131008,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "晴",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131012,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "牽",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131032,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "凄",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131344,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "爆",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131380,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "霓",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131432,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "乃",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131488,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "爼",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131492,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "茗",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131520,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "牽",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131540,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "凄",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131852,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "爆",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131888,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "霓",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131940,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "乃",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 131996,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "爼",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 132000,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "茗",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 132024,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "軒",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 132032,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "厨",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 132040,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "隶",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 132048,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "牽",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 132068,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "凄",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 132380,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "爆",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 132416,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "霓",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 132468,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "乃",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 132524,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "爼",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 132528,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "茗",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 132548,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "星",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 132572,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "厨",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 133852,
+      "size": 8,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "&主人公&",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 133864,
+      "size": 4,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "琴梨",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 134112,
+      "size": 39,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "移動\n　　　　　　\nボールの\n　　打ち分け",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 134152,
+      "size": 6,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "ポーズ",
+        "ko": "포즈"
+      }
+    },
+    {
+      "offset": 134160,
+      "size": 23,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "ラケットを\n　　　　振る",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 134184,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "ダッシュ移動",
+        "ko": "대시　이동"
+      }
+    },
+    {
+      "offset": 134200,
+      "size": 106,
+      "avail": 107,
+      "section": ".data",
+      "text": {
+        "ja": "画面手前があなた。奥が琴梨です。\n『方向ボタン』で移動と打球コースの変化。\n『Ａボタン』でボールを打ちます。",
+        "ko": "앞이　당신、안쪽이　코토리입니다。\n『방향버튼』으로　이동과　타구　조절。\n『Ａ버튼』으로　공을　칩니다。"
+      }
+    },
+    {
+      "offset": 134308,
+      "size": 118,
+      "avail": 119,
+      "section": ".data",
+      "text": {
+        "ja": "あなたがボールを打ち返す毎に　画面右下の\n『ラリーカウンタ』がプラスされます。\nより多く　ラリーが続くようにして下さい。",
+        "ko": "공을　받아칠　때마다　화면　오른쪽　아래의\n『랠리카운터』가　올라갑니다。\n최대한　오래　랠리가　이어지게　해　주세요。"
+      }
+    },
+    {
+      "offset": 134428,
+      "size": 63,
+      "avail": 63,
+      "section": ".data",
+      "text": {
+        "ja": "あなたも琴梨も　沢山移動すると\n徐々につかれが溜まっていきます。",
+        "ko": "당신도　코토리도　많이　움직이면\n점점　피로가　쌓입니다。"
+      }
+    },
+    {
+      "offset": 134492,
+      "size": 94,
+      "avail": 95,
+      "section": ".data",
+      "text": {
+        "ja": "画面左上にあるのが　あなたの\n画面右上にあるのが　琴梨の\nつかれ具合を表す『つかれゲージ』です。",
+        "ko": "화면　왼쪽　위가　당신의\n오른쪽　위가　코토리의\n피로도를　나타내는　『피로　게이지』입니다。"
+      }
+    },
+    {
+      "offset": 134588,
+      "size": 80,
+      "avail": 83,
+      "section": ".data",
+      "text": {
+        "ja": "『つかれゲージ』が溜まると\nあなたも琴梨も　徐々に移動速度が\n遅くなっていきます。",
+        "ko": "『피로　게이지』가　차면\n당신도　코토리도　이동　속도가\n점점　느려집니다。"
+      }
+    },
+    {
+      "offset": 134672,
+      "size": 110,
+      "avail": 111,
+      "section": ".data",
+      "text": {
+        "ja": "『Ｌ／Ｒトリガー』を押しながら移動すると\n『ダッシュ移動』ができますが\n『つかれゲージ』はさらに早く溜まります。",
+        "ko": "『Ｌ／Ｒ트리거』를　누른　채　움직이면\n『대시　이동』이　되지만\n『피로　게이지』가　더　빨리　찹니다。"
+      }
+    },
+    {
+      "offset": 134784,
+      "size": 65,
+      "avail": 67,
+      "section": ".data",
+      "text": {
+        "ja": "溜まったつかれは　一定時間動かずにいると\n徐々に回復していきます。",
+        "ko": "쌓인　피로는　한동안　움직이지　않으면\n조금씩　회복됩니다。"
+      }
+    },
+    {
+      "offset": 134852,
+      "size": 92,
+      "avail": 95,
+      "section": ".data",
+      "text": {
+        "ja": "あなたか琴梨のどちらかが\nボールを打ち返し損ねると１回ミス。\n３回ミスすると　ゲーム終了です。",
+        "ko": "당신이나　코토리가\n공을　못　받아치면　１회　실수。\n３회　실수하면　게임　종료。"
+      }
+    },
+    {
+      "offset": 134948,
+      "size": 98,
+      "avail": 99,
+      "section": ".data",
+      "text": {
+        "ja": "　　　　　　　　　　　　　　　　\n　　　　  　　　　　　　　　　　\n　　　　　　　　　　　　　　　　",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 135216,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "オプション",
+        "ko": "옵션"
+      }
+    },
+    {
+      "offset": 135228,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "操作説明聞く",
+        "ko": "조작설명듣기"
+      }
+    },
+    {
+      "offset": 135244,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "ラリーの回数",
+        "ko": ""
+      }
+    }
+  ]
+}

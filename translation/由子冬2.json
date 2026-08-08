@@ -1,0 +1,9462 @@
+{
+ "script": "由子冬2",
+ "source": "ja",
+ "entries": [
+  {
+   "window": 0,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-30",
+   "slot": "朝",
+   "place": "由子と札幌デートの場合",
+   "voice": "A3857.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "おっはよー！　今日の気分はどう？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "絶好調",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "まぁまぁ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "最悪",
+    "ko": ""
+   }
+  },
+  {
+   "window": 2,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-30",
+   "slot": "朝",
+   "place": "由子と札幌デートの場合",
+   "voice": "A3858.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "よかった。私も絶好調だよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 2,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-30",
+   "slot": "朝",
+   "place": "由子と札幌デートの場合",
+   "voice": "A3858.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "それじゃ　行こっか！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 3,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-30",
+   "slot": "朝",
+   "place": "由子と札幌デートの場合",
+   "voice": "A3859.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "そっか・・でもこれからきっと良くなるよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 3,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-30",
+   "slot": "朝",
+   "place": "由子と札幌デートの場合",
+   "voice": "A3859.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "お天気もいいしね。それじゃ　行こっか！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 4,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-30",
+   "slot": "朝",
+   "place": "由子と札幌デートの場合",
+   "voice": "A3860.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "そっか・・でも今が最悪なら",
+    "ko": ""
+   }
+  },
+  {
+   "window": 4,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-30",
+   "slot": "朝",
+   "place": "由子と札幌デートの場合",
+   "voice": "A3860.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "これからどんどん良くなるよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 4,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-30",
+   "slot": "朝",
+   "place": "由子と札幌デートの場合",
+   "voice": "A3860.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "それじゃ　行こっか！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 5,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-30",
+   "slot": "朝",
+   "place": "由子と札幌デートの場合",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 6,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-30",
+   "slot": "朝",
+   "place": "由子と札幌デートの場合",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 7,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 0,
+   "date": "12-30",
+   "slot": "朝",
+   "place": "由子と札幌デートの場合",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 8,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-30",
+   "slot": "朝",
+   "place": "由子と札幌デートの場合",
+   "voice": "A3824.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "@S@・・・@P@おーい！　聞いてるかーー？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 9,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-30",
+   "slot": "朝",
+   "place": "由子と札幌デートの場合",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 10,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／紅茶の店アッサム／外観",
+   "voice": "A3992.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "ここ・・紅茶のお店？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 10,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／紅茶の店アッサム／外観",
+   "voice": "A3992.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "&主人公&君って　紅茶が好きなんだ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 10,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／紅茶の店アッサム／外観",
+   "voice": "A3992.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "なんか　意外な感じ。それじゃ　行ってみよっか！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 11,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／紅茶の店アッサム／店内",
+   "voice": "A3993.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "前にイヤミな喫茶店に入っちゃってさ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 11,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／紅茶の店アッサム／店内",
+   "voice": "A3993.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "そのお店　紅茶のことを　『テ』って言うのよ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 12,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／紅茶の店アッサム／店内",
+   "voice": "A3994.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "そこで私　ミルクティー下さいって言ったら",
+    "ko": ""
+   }
+  },
+  {
+   "window": 12,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／紅茶の店アッサム／店内",
+   "voice": "A3994.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "ウエイターに　『テ・オレですね。』って",
+    "ko": ""
+   }
+  },
+  {
+   "window": 12,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／紅茶の店アッサム／店内",
+   "voice": "A3994.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "聞き返されちゃった。・・・なんか　やな感じだよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 13,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／紅茶の店アッサム／店内",
+   "voice": "A3995.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "日本人なんだから　変なフランス語　使わないで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 13,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／紅茶の店アッサム／店内",
+   "voice": "A3995.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "欲しいよね。きっとそいつ　花粉症のことなんかも",
+    "ko": ""
+   }
+  },
+  {
+   "window": 13,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／紅茶の店アッサム／店内",
+   "voice": "A3995.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "『アレルギー性ビエーン』とか言ってるんだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 14,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／紅茶の店アッサム／店内",
+   "voice": "A3996.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "あと嫌いなのは『モチベーション』って言葉を",
+    "ko": ""
+   }
+  },
+  {
+   "window": 14,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／紅茶の店アッサム／店内",
+   "voice": "A3996.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "やたら使う人・・『動機付け』って言えばいいのにね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 14,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／紅茶の店アッサム／店内",
+   "voice": "A3996.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "なんか　居酒屋のメニューみたいじゃない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 15,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "それはもちベーコンだって・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 15,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "わかる気がする。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 15,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "実は僕もよく使う・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 16,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／紅茶の店アッサム／店内",
+   "voice": "A3997.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "突っ込み　ありがと。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 16,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／紅茶の店アッサム／店内",
+   "voice": "A3997.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "&主人公&君って　ノリがいいから好きよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 17,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／紅茶の店アッサム／店内",
+   "voice": "A3998.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "でしょ？　最近自衛隊にも　広告代理店の人とか",
+    "ko": ""
+   }
+  },
+  {
+   "window": 17,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／紅茶の店アッサム／店内",
+   "voice": "A3998.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "出入りすることが多くなったんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 18,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／紅茶の店アッサム／店内",
+   "voice": "A3999.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "そういう人たちって　やたら横文字言葉が多くてさ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 18,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／紅茶の店アッサム／店内",
+   "voice": "A3999.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "『ニュアンスＯＫ！　ノープロブレム』とか言うの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 18,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／紅茶の店アッサム／店内",
+   "voice": "A3999.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "外人の前では　しどろもどろのクセしてさ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 19,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／紅茶の店アッサム／店内",
+   "voice": "A4000.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "あっ！　『しどろもどろ』って言葉",
+    "ko": ""
+   }
+  },
+  {
+   "window": 19,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／紅茶の店アッサム／店内",
+   "voice": "A4000.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "なんか変な妖怪の名前みたいだよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 19,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／紅茶の店アッサム／店内",
+   "voice": "A4000.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "・・・関係ないか・・ごめん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 20,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／紅茶の店アッサム／店内",
+   "voice": "A4001.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "ほんと？　でも&主人公&君が使っても",
+    "ko": ""
+   }
+  },
+  {
+   "window": 20,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／紅茶の店アッサム／店内",
+   "voice": "A4001.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "あんまり嫌味な感じはしないかも・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 20,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／紅茶の店アッサム／店内",
+   "voice": "A4001.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "こう言う感覚って　言う相手にもよるのかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 21,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／紅茶の店アッサム／店内",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 22,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／紅茶の店アッサム／店内",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 23,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／紅茶の店アッサム／店内",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 24,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／北海道庁",
+   "voice": "A4002.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "ガイドブックで紹介される道庁って",
+    "ko": ""
+   }
+  },
+  {
+   "window": 24,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／北海道庁",
+   "voice": "A4002.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "正面向きの写真ばっかりだけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 24,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／北海道庁",
+   "voice": "A4002.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "実は後ろ姿もかっこいいんだよ。・・ちょっと来て！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 25,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 4,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4003.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "ほら。ここが道庁の裏側だよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 25,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 4,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4003.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "なんか　シンプルでかっこいいでしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 26,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 4,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4004.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "観光旅行って　気を抜くとガイドブックに書かれてる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 26,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 4,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4004.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "内容を確認してるだけの作業になりがちじゃない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 26,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 4,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4004.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "だから時々　こういうこと　してみるといいよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 27,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 4,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4005.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "@S@・・・@P@でも　やりすぎると四稜郭の時みたいに",
+    "ko": ""
+   }
+  },
+  {
+   "window": 27,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 4,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4005.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "失敗することになるけどね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 28,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 4,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4006.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "でもさ・・『道庁の裏側』って　言葉だけ聞いたら",
+    "ko": ""
+   }
+  },
+  {
+   "window": 28,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 4,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4006.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "なんか怪しい感じじゃない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 29,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 4,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4007.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "『スクープ！　北海道庁の裏側を暴く！』とか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 29,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 4,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4007.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "『財界さっぽろ』の見出しに似合いそうな感じ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 30,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "財界さっぽろって何？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 30,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "ちょっと大げさかも・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 31,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 4,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4008.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "北海道の地方誌なんだけど　結構面白いよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 31,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 4,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4008.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "陰謀とか野望とか癒着とか不正とか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 31,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 4,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4008.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "そういうこと　たくさん書いてあるんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 32,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 4,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4009.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "うん。でも私　大げさなのって好きだな。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 32,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 4,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4009.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "高校生の頃　好きな男性のタイプは？　って聞かれたら",
+    "ko": ""
+   }
+  },
+  {
+   "window": 32,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 4,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4009.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "私『うっかり八兵衛』って答えてたもん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 33,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 4,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4010.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "ああ言う人が本当にいたら　きっと楽しいよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 33,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 4,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4010.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "『大変だ大変だぁ！』って言いながら",
+    "ko": ""
+   }
+  },
+  {
+   "window": 33,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 4,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4010.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "退屈な毎日に　新しいドラマを運んでくれるんだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 34,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 4,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4011.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "@S@・・・@P@そろそろ　他のとこ　行こっか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 35,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／時計台",
+   "voice": "A4012.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "時計台って　見ての通り高いビルに囲まれてるでしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 35,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／時計台",
+   "voice": "A4012.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "だからガイドブックに載ってる写真とか",
+    "ko": ""
+   }
+  },
+  {
+   "window": 35,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／時計台",
+   "voice": "A4012.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "かなり苦労してる感じだよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 36,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／時計台",
+   "voice": "A4013.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "煽ったり　背景をぼかしたり　空撮したり・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 36,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／時計台",
+   "voice": "A4013.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "ひどいのになると修正してる写真もあるんだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 37,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／時計台",
+   "voice": "A4014.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "私なんか　ビルに囲まれた　ありのままの時計台を",
+    "ko": ""
+   }
+  },
+  {
+   "window": 37,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／時計台",
+   "voice": "A4014.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "撮ればいいのにって思っちゃうんだけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 37,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／時計台",
+   "voice": "A4014.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "商業写真って　そういうわけにはいかないのかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 38,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／時計台",
+   "voice": "A4015.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "写真ってさ・・ただ普通に撮っただけでも",
+    "ko": ""
+   }
+  },
+  {
+   "window": 38,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／時計台",
+   "voice": "A4015.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "誇張になると思うんだ。だってフレームを決めた時点で",
+    "ko": ""
+   }
+  },
+  {
+   "window": 38,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／時計台",
+   "voice": "A4015.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "そこには　何らかの意図が生まれるわけでしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 39,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／時計台",
+   "voice": "A4016.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "だからそれ以上　特殊なことすると",
+    "ko": ""
+   }
+  },
+  {
+   "window": 39,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／時計台",
+   "voice": "A4016.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "だんだん実体と　かけ離れた写真が",
+    "ko": ""
+   }
+  },
+  {
+   "window": 39,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／時計台",
+   "voice": "A4016.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "出来ちゃうような気がするんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 40,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "由子さんって写真が好きだよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 40,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "由子さんって時々理屈っぽくなるよね",
+    "ko": ""
+   }
+  },
+  {
+   "window": 40,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "由子さんってかわいいよね",
+    "ko": ""
+   }
+  },
+  {
+   "window": 41,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／時計台",
+   "voice": "A4017.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "うん。写真って　ハマるよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 41,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／時計台",
+   "voice": "A4017.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "思い通りに表現出来たときの満足感もあるし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 41,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／時計台",
+   "voice": "A4017.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "物欲も満たされるからね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 42,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／時計台",
+   "voice": "A4018.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "そうかな？　@4825@・・・そうかもね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 42,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／時計台",
+   "voice": "A4018.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "なんか写真の話になるとムキになっちゃって・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 43,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／時計台",
+   "voice": "A4019.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "@S@・・・@P@な・・何よいきなり・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 44,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "あ・・ごめん",
+    "ko": ""
+   }
+  },
+  {
+   "window": 44,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 45,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／時計台",
+   "voice": "A4020.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "@S@・・@P@あ・・謝られても・・困るけどさ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 46,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／時計台",
+   "voice": "A4021.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "自分で言ってて　照れないでよ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 46,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／時計台",
+   "voice": "A4021.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "・・・・・・私まで・・・・・照れちゃうじゃない・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 47,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／時計台",
+   "voice": "A4022.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "それじゃ　そろそろ行こっか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 48,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／須貝ビル／外観",
+   "voice": "A4023.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "須貝ビルかぁ・・うん。いいかもね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 48,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／須貝ビル／外観",
+   "voice": "A4023.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "ゲーセンとカラオケと　どっちに行く？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 49,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "それじゃゲーセンに行こうか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 49,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "それじゃカラオケに行こうか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 50,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／須貝ビル／外観",
+   "voice": "A4025.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "ＯＫ！　思いっきり歌うわよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 51,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／須貝ビル／外観",
+   "voice": "A4024.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "ＯＫ！　思いっきり遊ぶわよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 52,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／須貝ビル／外観",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 53,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／須貝ビル／外観",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 54,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 6,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／須貝ビル／外観",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "由子さんは　どっちが好きなんだろう？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 55,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "ゲーセン",
+    "ko": ""
+   }
+  },
+  {
+   "window": 55,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "カラオケ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 56,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／須貝ビル／外観",
+   "voice": "a4024.wav",
+   "chars": 14,
+   "text": {
+    "ja": "ＯＫ！　思いっきり遊ぶわよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 57,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 6,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／須貝ビル／外観",
+   "voice": "a4025.wav",
+   "chars": 14,
+   "text": {
+    "ja": "ＯＫ！　思いっきり歌うわよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 58,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 7,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／須貝ビル／ゲームセンター",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "須貝ビル１階のゲームセンターだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 58,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 7,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／須貝ビル／ゲームセンター",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "ＵＦＯキャッチャー　クイズ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 58,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 7,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／須貝ビル／ゲームセンター",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "シューティングゲームなどの筐体がある。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 59,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 7,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／須貝ビル／ゲームセンター",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "さて　何から遊ぼうか・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 60,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "선택지",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "ＵＦＯキャッチャー",
+    "ko": ""
+   }
+  },
+  {
+   "window": 60,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "선택지",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "クイズ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 60,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "선택지",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "シューティングゲーム",
+    "ko": ""
+   }
+  },
+  {
+   "window": 60,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "선택지",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "外に出る",
+    "ko": ""
+   }
+  },
+  {
+   "window": 61,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 8,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／須貝ビル／カラオケ",
+   "voice": "A7570.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "了解！　行ってみよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 62,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 8,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／須貝ビル／カラオケ",
+   "voice": "A7570.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "了解！　行ってみよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 63,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 8,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／須貝ビル／カラオケ",
+   "voice": "A7570.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "了解！　行ってみよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 64,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 8,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／須貝ビル／カラオケ",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "そろそろ　ここ出ようか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 65,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 8,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／須貝ビル／カラオケ",
+   "voice": "A7571.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "了解！　出よっか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 66,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 8,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／須貝ビル／カラオケ",
+   "voice": "A7570.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "了解！　行ってみよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 67,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 10,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／ビートルバム／店内",
+   "voice": "A4026.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "ＵＦＯキャッチャーか・・・うん。いいね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 67,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 10,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／ビートルバム／店内",
+   "voice": "A4026.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "私　あの紫のお饅頭みたいなヤツ　欲しいな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 68,
+   "line": 0,
+   "speaker": "説明",
+   "kind": "나레이션",
+   "scene": 10,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／ビートルバム／店内",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "ＵＦＯキャッチャーの操作説明を見ますか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 69,
+   "line": 0,
+   "speaker": "説明",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "はい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 69,
+   "line": 1,
+   "speaker": "説明",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "いいえ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 70,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 10,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／ビートルバム／店内",
+   "voice": "A4027.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "あっ！　すごい！　取ったね！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 71,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "scene": 10,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／ビートルバム／店内",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "ぱんだジェルをあげますか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 72,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "はい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 72,
+   "line": 1,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "いいえ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 73,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "scene": 10,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／ビートルバム／店内",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "えんジェルをあげますか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 74,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "はい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 74,
+   "line": 1,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "いいえ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 75,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "scene": 10,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／ビートルバム／店内",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "みみジェルをあげますか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 76,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "はい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 76,
+   "line": 1,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "いいえ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 77,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "scene": 10,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／ビートルバム／店内",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "もちジェルをあげますか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 78,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "はい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 78,
+   "line": 1,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "いいえ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 79,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "scene": 10,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／ビートルバム／店内",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "うるふジェルをあげますか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 80,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "はい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 80,
+   "line": 1,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "いいえ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 81,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "scene": 10,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／ビートルバム／店内",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "でぶジェルをあげますか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 82,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "はい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 82,
+   "line": 1,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "いいえ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 83,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 10,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／ビートルバム／店内",
+   "voice": "A4028.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "え？　くれるの？　サンキュウ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 84,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 10,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／ビートルバム／店内",
+   "voice": "A4029.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "残念・・まぁ　しょうがないよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 85,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 10,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／ビートルバム／店内",
+   "voice": "A4037.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "さて！　次は何のゲームで遊ぼうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 86,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 10,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／ビートルバム／店内",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "さて　どうしようか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 87,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド",
+   "voice": "A4030.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "@S@・・@P@クイズゲーム？　いいね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 87,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド",
+   "voice": "A4030.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "牛丼賭けて　勝負しようか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 88,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド",
+   "voice": "A4031.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "やったね！　いつか牛丼おごってもらうよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 89,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド",
+   "voice": "A4032.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "@S@・・@P@やっぱり高校生と賭けなんかしちゃいけないよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 89,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド",
+   "voice": "A4032.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "ということで　この勝負　無効！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 90,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド",
+   "voice": "A4037.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "さて！　次は何のゲームで遊ぼうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 91,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 11,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "さて　どうしようか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 92,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／プール入口",
+   "voice": "A4033.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "シューティング好きなんだ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 92,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／プール入口",
+   "voice": "A4033.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "応援するから　頑張ってよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 93,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／プール入口",
+   "voice": "A4034.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "すごい！　ハイスコアーだ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 93,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／プール入口",
+   "voice": "A4034.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "&主人公&君って　エースパイロット並みだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 94,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／プール入口",
+   "voice": "A4035.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "あ・・結構上手。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 94,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／プール入口",
+   "voice": "A4035.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "大きくなったら航空自衛隊に入らない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 94,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／プール入口",
+   "voice": "A4035.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "・・・なぁんてね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 95,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／プール入口",
+   "voice": "A4036.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "@S@・・@P@まぁ　実戦じゃなくてよかったよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 96,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／プール入口",
+   "voice": "A4037.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "さて！　次は何のゲームで遊ぼうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 97,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 12,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／プール入口",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "さて　どうしようか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 98,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 13,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／室内プール",
+   "voice": "A4040.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "それじゃ　私が先に歌うね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 98,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 13,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／室内プール",
+   "voice": "A4040.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "『ダイナマイトが５万トン』",
+    "ko": ""
+   }
+  },
+  {
+   "window": 99,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 13,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／室内プール",
+   "voice": "A4044.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "やったぁ！　まぁ実力でしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 100,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 13,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／室内プール",
+   "voice": "A4045.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "やっぱりこの機械　おかしいんじゃない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 101,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 13,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／室内プール",
+   "voice": "A4043.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "それじゃ次！　&主人公&君　歌ってよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 102,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 13,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／室内プール",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "さて　何を歌おうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 103,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "scene": 13,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／室内プール",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "歌う曲目を選んで下さい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 104,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "ＭＯＶＥ　ＯＮ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 104,
+   "line": 1,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "ひこうき雲",
+    "ko": ""
+   }
+  },
+  {
+   "window": 104,
+   "line": 2,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "したっけ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 104,
+   "line": 3,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "わたしまけましたわ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 105,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "scene": 13,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／室内プール",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "歌う曲目を選んで下さい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 106,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "ＭＯＶＥ　ＯＮ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 106,
+   "line": 1,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "ひこうき雲",
+    "ko": ""
+   }
+  },
+  {
+   "window": 106,
+   "line": 2,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "したっけ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 107,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 13,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／室内プール",
+   "voice": "A4041.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "すごい！　いい点出たね！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 107,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 13,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／室内プール",
+   "voice": "A4041.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "なんか裏の方で操作してない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 108,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 13,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／室内プール",
+   "voice": "A4042.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "残念・・きっと機械が悪いんだよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 109,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 13,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／室内プール",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "そろそろ　ここ出ようか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 110,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 13,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／室内プール",
+   "voice": "A7571.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "了解！　出よっか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 111,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／屋外プール",
+   "voice": "A4047.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "あっ！　ここ喫茶店？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 111,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／屋外プール",
+   "voice": "A4047.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "いいね。入ろ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 112,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／サウナ",
+   "voice": "A4048.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "なんかお洒落な喫茶店だね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 112,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／サウナ",
+   "voice": "A4048.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "今かかってる曲は？　ジャズ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 113,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "ボサノバだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 113,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "サルサだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 113,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "ジャングルだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 114,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／サウナ",
+   "voice": "A4049.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "@S@・・・@P@そっか・・これがボサノバか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 114,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／サウナ",
+   "voice": "A4049.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "なんか　いい感じの音楽だよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 114,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／サウナ",
+   "voice": "A4049.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "ところでボサノバって　どこの国の音楽？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 115,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "フランスだよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 115,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "スペインだよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 115,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "ブラジルだよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 116,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／サウナ",
+   "voice": "A4050.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "@S@・・・@P@へぇ・・フランスの音楽なのか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 117,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／サウナ",
+   "voice": "A4051.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "@S@・・・@P@へぇ・・スペインの音楽なのか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 118,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／サウナ",
+   "voice": "A4052.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "@S@・・・@P@へぇ・・ブラジルの音楽なのか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 118,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／サウナ",
+   "voice": "A4052.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "&主人公&君って　音楽にも詳しいんだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 119,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／サウナ",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 120,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／サウナ",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 121,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 15,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／サウナ",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 122,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／サウナ",
+   "voice": "a3822.wav",
+   "chars": 22,
+   "text": {
+    "ja": "@S@・・・@P@なんかずっと黙ってるけど　どうしたの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 123,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／サウナ",
+   "voice": "A4053.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "@S@・・・@P@そっか・・これがサルサか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 123,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／サウナ",
+   "voice": "A4053.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "なんか　いい感じの音楽だよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 124,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／サウナ",
+   "voice": "A4054.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "@S@・・・@P@そっか・・これがジャングルか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 124,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／サウナ",
+   "voice": "A4054.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "なんか　いい感じの音楽だよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 125,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／サウナ",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 126,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／サウナ",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 127,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 15,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／サウナ",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 128,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／サウナ",
+   "voice": "a3822.wav",
+   "chars": 22,
+   "text": {
+    "ja": "@S@・・・@P@なんかずっと黙ってるけど　どうしたの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 129,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 16,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／プール入口２",
+   "voice": "A7572.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "サッポロＳＰＡランドか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 129,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 16,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／プール入口２",
+   "voice": "A7572.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "なんか　観光地ぽくって　いい感じだよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 130,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 16,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／プール入口２",
+   "voice": "A7573.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "@S@・・・@P@私に合う水着があるかどうか心配だけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 130,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 16,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／プール入口２",
+   "voice": "A7573.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "とりあえず行ってみようか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 131,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／プール受付",
+   "voice": "A4059.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "ごめんね・・待った？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 132,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／プール受付",
+   "voice": "A4060.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "@S@・・・@P@ちょっとこの水着　きつくてさ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 132,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／プール受付",
+   "voice": "A4060.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "着るのに時間かかっちゃった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 132,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／プール受付",
+   "voice": "A4060.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "さぁ！　泳ご！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 133,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 17,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／プール受付",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "まず　どこに行こうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 134,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "室内プール",
+    "ko": ""
+   }
+  },
+  {
+   "window": 134,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "屋外プール",
+    "ko": ""
+   }
+  },
+  {
+   "window": 134,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "サウナ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 135,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／プール受付",
+   "voice": "A4062.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "ＯＫ！　それじゃ私　泳いでみる。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 136,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／プール受付",
+   "voice": "A4063.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "外はちょっと寒そうだけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 136,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／プール受付",
+   "voice": "A4063.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "温水プールだから大丈夫だよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 137,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／プール受付",
+   "voice": "A4064.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "サウナ？　いいねぇ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 137,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／プール受付",
+   "voice": "A4064.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "私　サウナって好きだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 137,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／プール受付",
+   "voice": "A4064.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "なんか我慢大会みたいで素敵じゃない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 138,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "선택지",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "室内プール",
+    "ko": ""
+   }
+  },
+  {
+   "window": 138,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "선택지",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "屋外プール",
+    "ko": ""
+   }
+  },
+  {
+   "window": 138,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "선택지",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "サウナ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 139,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／ママ・サブロッソ／外観",
+   "voice": "A4072.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "結構　楽しかったね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 139,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／ママ・サブロッソ／外観",
+   "voice": "A4072.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "そろそろ　ここ出ようか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 140,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／ママ・サブロッソ／内部",
+   "voice": "A4065.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "ねぇ&主人公&君。・・ちょっと見てて！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 141,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／ママ・サブロッソ／内部",
+   "voice": "A4066.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "犬神家の一族・・・なんてね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 142,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "すごいよ由子さん",
+    "ko": ""
+   }
+  },
+  {
+   "window": 142,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "・・何もこんな所で・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 143,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／ママ・サブロッソ／内部",
+   "voice": "A4067.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "あっ！　受けた？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 143,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／ママ・サブロッソ／内部",
+   "voice": "A4067.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "へへっ・・結構簡単だよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 144,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／ママ・サブロッソ／内部",
+   "voice": "A4068.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "あ・・・ごめん・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 145,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／ママ・サブロッソ／内部",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 146,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／ママ・サブロッソ／内部",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 147,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 19,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／ママ・サブロッソ／内部",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 148,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／ママ・サブロッソ／内部",
+   "voice": "a4068.wav",
+   "chars": 9,
+   "text": {
+    "ja": "あ・・・ごめん・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 149,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／ママ・サブロッソ／内部",
+   "voice": "A4069.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "実はこれって　寮のお風呂で同僚の女の子が",
+    "ko": ""
+   }
+  },
+  {
+   "window": 149,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／ママ・サブロッソ／内部",
+   "voice": "A4069.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "見せてくれた技なんだ。それで　私にも出来るかなって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 149,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／ママ・サブロッソ／内部",
+   "voice": "A4069.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "そう思って　試してみたの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 150,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／ママ・サブロッソ／内部",
+   "voice": "A4070.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "でもさ・・お風呂でやると壮絶だよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 150,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／ママ・サブロッソ／内部",
+   "voice": "A4070.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "ちょっと　男の人には見せられない感じかもね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 151,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／ママ・サブロッソ／内部",
+   "voice": "A4071.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "そろそろ他のとこ　行こうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 151,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／ママ・サブロッソ／内部",
+   "voice": "A4071.WAV",
+   "chars": 5,
+   "text": {
+    "ja": "どこ行く？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 152,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 19,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／ママ・サブロッソ／内部",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "さて　どこに行こうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 153,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "선택지",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "室内プール",
+    "ko": ""
+   }
+  },
+  {
+   "window": 153,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "선택지",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "屋外プール",
+    "ko": ""
+   }
+  },
+  {
+   "window": 153,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "선택지",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "サウナ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 154,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／ママ・サブロッソ／内部",
+   "voice": "A4072.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "結構　楽しかったね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 154,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／ママ・サブロッソ／内部",
+   "voice": "A4072.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "そろそろ　ここ出ようか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 155,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4073.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "くっかーーー！　いいね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 155,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4073.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "身体の芯から　あったまる感じ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 156,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "本当だね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 156,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "なんか親父くさいよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 157,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4074.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "ジャグジーになってるから　気持ちいいし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 157,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4074.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "なんか　幸せな気分になってくるよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 158,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4075.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "え？　・・そうかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 158,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4075.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "でも言わない？　お風呂入るときとか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 159,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "そりゃ・・言うけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 159,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "言わないよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 160,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4076.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "よかった。一緒だね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 160,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4076.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "でもさ・・もし二人で　お風呂に入ったら",
+    "ko": ""
+   }
+  },
+  {
+   "window": 160,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4076.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "きっと　すごくうるさいだろうね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 161,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4077.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "『くぁーー！』とか　『極楽極楽』とか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 161,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4077.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "そんなの言い合いっこ　してたりして・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 162,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4078.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "あ・・今ちょっと　照れること言っちゃったね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 163,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4079.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "@S@・・@P@そっか・・でも言うと気持ちよさが倍増するよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 163,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4079.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "&主人公&君も　今度　試してみるといいよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 164,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 165,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 166,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 167,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4080.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "そろそろ　別のとこ行こ。どこにする？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 168,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "さて　どこに行こうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 169,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "선택지",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "室内プール",
+    "ko": ""
+   }
+  },
+  {
+   "window": 169,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "선택지",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "屋外プール",
+    "ko": ""
+   }
+  },
+  {
+   "window": 169,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "선택지",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "サウナ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 170,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4081.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "結構　楽しかったね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 170,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4081.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "そろそろ　ここ出ようか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 171,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／インターミッション２",
+   "voice": "A4082.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "@S@・・・@P@こういう時ってさ　なんか　我慢している",
+    "ko": ""
+   }
+  },
+  {
+   "window": 171,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／インターミッション２",
+   "voice": "A4082.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "自分がいとおしくなって来ない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 172,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／インターミッション２",
+   "voice": "A4083.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "限界ぎりぎりまで入ってて　その後　冷たい水に",
+    "ko": ""
+   }
+  },
+  {
+   "window": 172,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／インターミッション２",
+   "voice": "A4083.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "えいって飛び込んだ時なんて　もう最高！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 172,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／インターミッション２",
+   "voice": "A4083.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "後は何もいらないって感じ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 173,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／インターミッション２",
+   "voice": "A4084.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "あっ・・上がった後にビールと枝豆が欲しいかも・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 174,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "本当だね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 174,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "なんか親父くさいよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 175,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／インターミッション２",
+   "voice": "A4085.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "やっぱり？　私と一緒だね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 175,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／インターミッション２",
+   "voice": "A4085.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "・・・ちょっと待って！　未成年はビール禁止だよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 176,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／インターミッション２",
+   "voice": "A4086.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "うん。でもいいの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 176,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／インターミッション２",
+   "voice": "A4086.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "親父くさくても　おばさんくさくても・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 176,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／インターミッション２",
+   "voice": "A4086.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "胡散臭いのよりはずっといいでしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 177,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／インターミッション２",
+   "voice": "A4087.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "きっと私って　人間くさいんだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 177,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／インターミッション２",
+   "voice": "A4087.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "あ・・くさい人間って意味じゃないよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 178,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／インターミッション２",
+   "voice": "A4088.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "@S@・・@P@それじゃ私　水風呂に入ってくるね・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 179,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 21,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／インターミッション２",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "由子さんは外に出てしまった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 179,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 21,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／インターミッション２",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "さて　どうしようか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 180,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "まだまだ出ないぞ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 180,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "やっぱり出よう！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 181,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 21,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／インターミッション２",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "あんまり待たせちゃ悪いし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 181,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 21,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／インターミッション２",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "そろそろ出よう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 182,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 21,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／インターミッション２",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "よし！　もうちょっと我慢だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 183,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 21,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／インターミッション２",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "・・・あっ！　やばい・・気が遠くなってきた・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 184,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／インターミッション２",
+   "voice": "A4093.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "@S@・・・@P@&主人公&君・・・ねぇ&主人公&君！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 184,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／インターミッション２",
+   "voice": "A4093.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "あっ！　よかった！　気が付いたみたいね！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 184,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／インターミッション２",
+   "voice": "A4093.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "ずっと出てこないから　心配になっちゃってさ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 185,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／インターミッション２",
+   "voice": "A4094.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "あんまり無理しちゃダメだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 185,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／インターミッション２",
+   "voice": "A4094.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "早くここ　出よう！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 186,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 22,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／ステップ１",
+   "voice": "A4095.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "水風呂　気持ちよかったよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 186,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 22,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／ステップ１",
+   "voice": "A4095.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "次はどこ行く？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 187,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 22,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／ステップ１",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "さて　どこに行こうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 188,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "선택지",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "室内プール",
+    "ko": ""
+   }
+  },
+  {
+   "window": 188,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "선택지",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "屋外プール",
+    "ko": ""
+   }
+  },
+  {
+   "window": 188,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "선택지",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "サウナ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 189,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 22,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／ステップ１",
+   "voice": "A4072.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "結構　楽しかったね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 189,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 22,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／ステップ１",
+   "voice": "A4072.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "そろそろ　ここ出ようか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 190,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 22,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／ステップ１",
+   "voice": "A4096.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "ほんと大丈夫？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 190,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 22,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／ステップ１",
+   "voice": "A4096.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "とりあえず　ここ出ようよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 191,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 23,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／ステップ２",
+   "voice": "A4097.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "やっぱり泳いだ後って　気持ちいいよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 191,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 23,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／ステップ２",
+   "voice": "A4097.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "それじゃ　そろそろ行こ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 192,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 23,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／ステップ２",
+   "voice": "A4098.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "お待たせ！　ねぇ&主人公&君　大丈夫？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 192,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 23,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／ステップ２",
+   "voice": "A4098.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "・・・顔色は・・いいみたいだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 192,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 23,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／ステップ２",
+   "voice": "A4098.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "あんまり無理しちゃダメだよ。それじゃここ　出よ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 193,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／ステップ３",
+   "voice": "A4109.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "ここってレストランでしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 193,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／ステップ３",
+   "voice": "A4109.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "ナイス・タイミング！　私ちょうどお腹減ってたんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 194,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 25,
+   "date": "12-31",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "A4110.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "イカスミを初めて食べた人って　勇気あるよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 194,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 25,
+   "date": "12-31",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "A4110.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "普通　そんなの食べようなんて　思わないじゃない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 194,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 25,
+   "date": "12-31",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "A4110.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "しかも食べたら　歯が真っ黒になるし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 195,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 25,
+   "date": "12-31",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "A4111.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "あっ・・やだちょっと・・見ないでよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 195,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 25,
+   "date": "12-31",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "A4111.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "・・なんか　恥ずかしいじゃない・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 196,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "あ・・ごめん",
+    "ko": ""
+   }
+  },
+  {
+   "window": 196,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "僕の歯も黒いから大丈夫",
+    "ko": ""
+   }
+  },
+  {
+   "window": 196,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "『犬神家の一族』は恥ずかしくないのに？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 197,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 25,
+   "date": "12-31",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a4111.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "あっ・・やだちょっと・・見ないでよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 197,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 25,
+   "date": "12-31",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a4111.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "・・なんか　恥ずかしいじゃない・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 198,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "あ・・ごめん",
+    "ko": ""
+   }
+  },
+  {
+   "window": 198,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "僕の歯も黒いから大丈夫",
+    "ko": ""
+   }
+  },
+  {
+   "window": 199,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 25,
+   "date": "12-31",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "A4112.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "@S@・・・@P@謝られると・・よけいに恥ずかしいかも・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 200,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 25,
+   "date": "12-31",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "A4113.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "うーん・・でもなんか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 200,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 25,
+   "date": "12-31",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "A4113.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "やっぱり・・恥ずかしいな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 201,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 25,
+   "date": "12-31",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "A4114.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "あっ！　だってあれは・・・ノリでつい・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 202,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 25,
+   "date": "12-31",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 203,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 25,
+   "date": "12-31",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 204,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 25,
+   "date": "12-31",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 205,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場",
+   "voice": "A4115.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "あっ！　危ない！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 206,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場",
+   "voice": "A4116.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "@S@・・・・@P@大丈夫？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 206,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場",
+   "voice": "A4116.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "その靴　滑りやすいのかもね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 206,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場",
+   "voice": "A4116.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "雪道歩くときは　気を付けた方がいいよ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 207,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場",
+   "voice": "A4117.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "もっと足の裏全体を使って　地面を踏みしめるような",
+    "ko": ""
+   }
+  },
+  {
+   "window": 207,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場",
+   "voice": "A4117.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "気持ちで歩けば　転びにくくなるかもね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 208,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場",
+   "voice": "A4118.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "@S@・・・@P@慣れるまで　手つないで歩こ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 209,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4119.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "@S@・・・@P@もうすぐ今年も終わりだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 209,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4119.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "来年の今頃は・・私たち・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 209,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4119.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "どこで　何をしてるのかな・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 210,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "うん。どうしてるだろうね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 210,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "きっと一緒に歩いてるよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 211,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4121.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "うふふ・・そうだといいね・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 212,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4120.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "@S@・・・@P@でもきっと　お互い・・幸せだよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 213,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4122.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "去年の今頃は・・他人だったんだもん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 213,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4122.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "それだけでも　大きな進歩だよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 214,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "由子／千歳空港",
+   "voice": "A4123.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "私いつか　自分の写真集出したいんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 214,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "由子／千歳空港",
+   "voice": "A4123.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "・・って言っても　モデルになるわけじゃないよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 214,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "由子／千歳空港",
+   "voice": "A4123.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "自分の撮った写真を　本にしたいんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 215,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "由子／千歳空港",
+   "voice": "A4124.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "でもさ・・日本にはアマチュアカメラマンだけで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 215,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "由子／千歳空港",
+   "voice": "A4124.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "何百万人もいるし・・そういうのって　難しいよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 216,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "由子／千歳空港",
+   "voice": "A4125.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "太陽が東から昇らないとか",
+    "ko": ""
+   }
+  },
+  {
+   "window": 216,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "由子／千歳空港",
+   "voice": "A4125.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "丸い太陽が四角くなるとか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 216,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "由子／千歳空港",
+   "voice": "A4125.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "そんな奇跡が起こらない限り　無理かもね・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 217,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "大丈夫。自信を持って・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 217,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "まぁ・・そうだよね",
+    "ko": ""
+   }
+  },
+  {
+   "window": 217,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "南極に行けばいいよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 218,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "由子／千歳空港",
+   "voice": "A4126.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "ありがと。でも私　きちんと写真の勉強を",
+    "ko": ""
+   }
+  },
+  {
+   "window": 218,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "由子／千歳空港",
+   "voice": "A4126.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "したワケじゃないし・・機材だって少ないし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 218,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "由子／千歳空港",
+   "voice": "A4126.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "こればっかりは　自信がないかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 219,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "由子／千歳空港",
+   "voice": "A4129.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "ただ　一生かけてでも実現させたい夢だから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 219,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "由子／千歳空港",
+   "voice": "A4129.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "焦らずに　じっくり・・頑張ってみるよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 220,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "由子／千歳空港",
+   "voice": "A4128.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "うん。自分でも　わかってるんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 220,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "由子／千歳空港",
+   "voice": "A4128.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "私　きちんと写真の勉強をしたワケじゃないし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 220,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "由子／千歳空港",
+   "voice": "A4128.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "機材だって少ないし・・やっぱり難しいよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 221,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "由子／千歳空港",
+   "voice": "A4127.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "ただ　一生かけてでも実現させたい夢だから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 221,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "由子／千歳空港",
+   "voice": "A4127.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "焦らずに　じっくり・・頑張ってみるよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 222,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "由子／千歳空港",
+   "voice": "A4130.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "え？　どういう意味？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 222,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "由子／千歳空港",
+   "voice": "A4130.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "・・@4826@・・あっ！　そうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 223,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "由子／千歳空港",
+   "voice": "A4131.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "極点に行けば　東も西もないもんね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 223,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "由子／千歳空港",
+   "voice": "A4131.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "『太陽が東から昇らない』って言い方は出来るよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 223,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "由子／千歳空港",
+   "voice": "A4131.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "&主人公&君　頭いいじゃない！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 224,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "由子／千歳空港",
+   "voice": "A4132.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "でも・・・それじゃ・・四角い太陽は？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 224,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "由子／千歳空港",
+   "voice": "A4132.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "・・・さすがに四角い太陽は無理だよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 224,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "由子／千歳空港",
+   "voice": "A4132.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "まぁ・・ものの例えだし・・関係ないか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 225,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "由子／千歳空港",
+   "voice": "A4133.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "安心してね。あきらめたわけじゃないよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 225,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "由子／千歳空港",
+   "voice": "A4133.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "一生かけてでも実現させたい夢だから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 225,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "由子／千歳空港",
+   "voice": "A4133.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "焦らずに　じっくり・・頑張ってみるよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 226,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "由子／千歳空港",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 227,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "由子／千歳空港",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 228,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "由子／千歳空港",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 229,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "由子／千歳空港",
+   "voice": "a3822.wav",
+   "chars": 22,
+   "text": {
+    "ja": "@S@・・・@P@なんかずっと黙ってるけど　どうしたの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 230,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "由子／千歳空港",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 231,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "由子／千歳空港",
+   "voice": "A4134.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "そろそろここ　出よっか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 232,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 29,
+   "date": null,
+   "slot": null,
+   "place": "由子／紋別市渚滑町",
+   "voice": "A4135.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "ねぇ。考えたら私ばっかり写真撮ってるから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 232,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 29,
+   "date": null,
+   "slot": null,
+   "place": "由子／紋別市渚滑町",
+   "voice": "A4135.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "今度は　&主人公&君が撮ってみてよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 232,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 29,
+   "date": null,
+   "slot": null,
+   "place": "由子／紋別市渚滑町",
+   "voice": "A4135.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "ほらこれ　コンタックスＴｉｘ。かわいいでしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 233,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 29,
+   "date": null,
+   "slot": null,
+   "place": "由子／紋別市渚滑町",
+   "voice": "A4136.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "ただシャッターを押すだけだから簡単だよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 233,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 29,
+   "date": null,
+   "slot": null,
+   "place": "由子／紋別市渚滑町",
+   "voice": "A4136.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "構図を決めたら　そこの緑のボタンを押してね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 234,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 29,
+   "date": null,
+   "slot": null,
+   "place": "由子／紋別市渚滑町",
+   "voice": "A4137.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "上手に撮ってよ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 235,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 29,
+   "date": null,
+   "slot": null,
+   "place": "由子／紋別市渚滑町",
+   "voice": "A4138.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "結構　サマになってたよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 235,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 29,
+   "date": null,
+   "slot": null,
+   "place": "由子／紋別市渚滑町",
+   "voice": "A4138.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "出来上がるの　楽しみだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 236,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 29,
+   "date": null,
+   "slot": null,
+   "place": "由子／紋別市渚滑町",
+   "voice": "A4139.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "そろそろここ　出よっか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 237,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A4140.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "夏休みのあの日・・&主人公&君　喫茶店で",
+    "ko": ""
+   }
+  },
+  {
+   "window": 237,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A4140.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "ずっと朝まで　私のこと　見ててくれてたんでしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 238,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A4141.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "あの時は　二日酔いで　頭ガンガンだったけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 238,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A4141.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "後で　そのこと思い出したら・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 238,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A4141.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "なんだか私　胸がいっぱいになって　泣いちゃった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 239,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A4142.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "それで・・&主人公&君が東京に帰った後は",
+    "ko": ""
+   }
+  },
+  {
+   "window": 239,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A4142.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "私　なんだか二重に失恋したみたいで・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 239,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A4142.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "・・・やっぱり・・泣いちゃった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 240,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A4143.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "子供の頃から　どんなに大きな怪我をしても",
+    "ko": ""
+   }
+  },
+  {
+   "window": 240,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A4143.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "どんなひどいことされても　泣かなかったのに・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 240,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A4143.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "なんか・・変だよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 241,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A4144.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "さっ！　暗い話はおしまい！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 241,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A4144.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "牛丼でも　食べに行こっか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 242,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A4144.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "さっ！　暗い話はおしまい！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 242,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A4144.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "牛丼でも　食べに行こっか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 243,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "僕は由子さんが好きだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 243,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "由子さん僕のことどう思ってる？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 243,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "そろそろ帰ろうか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 244,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A4145.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "・・・・・・・・・・・・・・・うれしいよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 245,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a4146.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "@S@・・・@P@最初は　興味本位だったんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 245,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a4146.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "ほら・・自衛官って　真面目な人多いから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 245,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a4146.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "&主人公&君みたいな　普通の男の子が珍しかった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 246,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A4147.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "その後は・・やっぱり　ああいう失恋して・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 246,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A4147.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "優しくしてくれる　誰かが欲しかったんだと思う・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 247,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A4148.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "でも・・・いつからだろう・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 248,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A4149.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "興味本位でも　誰かの代わりでもない・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 248,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A4149.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "&主人公&君自身のことを・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 248,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A4149.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "いつも　考えるようになってた・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 249,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A4150.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "一人でいるときも　仲間と騒いでるときも・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 250,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A4151.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "私も　あなたのこと・・大好き！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 251,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A4152.WAV",
+   "chars": 5,
+   "text": {
+    "ja": "@S@・・・@P@え？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 252,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A4153.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "@S@・・・@P@そんな風に言われると・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 252,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A4153.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "ちょっと困っちゃうかも・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 253,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A4154.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "@S@・・・@P@返事は　もうちょっと待ってね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 253,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A4154.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "私　まだ自分の気持ちが　よくわからないんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 254,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A4155.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "そろそろ帰ろうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 255,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A4156.WAV",
+   "chars": 5,
+   "text": {
+    "ja": "@S@・・・@P@え？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 256,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A4157.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "@S@・・・@P@そんな風に聞かれると・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 256,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A4157.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "ちょっと困っちゃうかも・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 257,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A4158.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "@S@・・・@P@返事は　もうちょっと待ってね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 257,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A4158.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "私　まだ自分の気持ちが　よくわからないんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 258,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A4159.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "そろそろ帰ろうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 259,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A4160.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "@S@・・・@P@最初は　興味本位だったんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 259,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A4160.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "ほら・・自衛官って　真面目な人多いから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 259,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A4160.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "&主人公&君みたいな　普通の男の子が珍しかった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 260,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A4161.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "その後は・・やっぱり　ああいう失恋して・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 260,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A4161.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "優しくしてくれる　誰かが欲しかったんだと思う・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 261,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A4162.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "でも・・・いつからだろう・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 262,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A4163.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "興味本位でも　誰かの代わりでもない・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 262,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A4163.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "&主人公&君自身のことを・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 262,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A4163.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "いつも　考えるようになってた・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 263,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A4164.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "一人でいるときも　仲間と騒いでるときも・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 264,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A4165.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "私　あなたのこと・・大好き！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 265,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A4166.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "うん。そうだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 266,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A4167.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "そろそろ帰ろうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 267,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 31,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ＵＦＯキャッチャー前",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "気が付くと外はすっかり暗くなっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 267,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 31,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ＵＦＯキャッチャー前",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "・・楽しい時間は　あっという間に過ぎてゆく・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 268,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 31,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ＵＦＯキャッチャー前",
+   "voice": "A3980.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "@S@・・・@P@寒くなってきたね？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 268,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 31,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ＵＦＯキャッチャー前",
+   "voice": "A3980.WAV",
+   "chars": 5,
+   "text": {
+    "ja": "帰ろっか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 269,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 31,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ＵＦＯキャッチャー前",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "・・うん。そうだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 270,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "よし！　まずは電話してみよう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 270,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "結果はどうあれ　ここで勇気を出さなくちゃ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 270,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "僕はずっと　『旅行者』のままなんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 271,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "A4169.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "はい。桜町です。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 272,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "もしもし。&主人公名前&です。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 273,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "僕は由子さんを　イルミネーション・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 273,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "カウントダウンに誘った。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 274,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 275,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "結論はすぐに出さなくていいよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 275,
+   "line": 1,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "今晩１１時半に　テレビ塔の前にいるから・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 275,
+   "line": 2,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "よかったら　来て欲しいんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 276,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "A4174.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "@S@・・・@P@うん。わかった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 276,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "A4174.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "考えてみるよ。それじゃ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 277,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "由子さん・・来てくれるかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 278,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 33,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "午後１１時１５分・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 278,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 33,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "待ち合わせの時間まで　あと１５分ある。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 278,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 33,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "僕は一人で　会場を回ってみることにした。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 279,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 33,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "・・・この街に来て・・僕は　いろんな人と出会った。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 279,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 33,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "日常から離れ　いろんなことを経験した。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 280,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 33,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "でも考えたら　札幌に住んでいる人にとっては",
+    "ko": ""
+   }
+  },
+  {
+   "window": 280,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 33,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "こっちの生活こそが日常なんだ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 281,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 33,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "日常と非日常・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 281,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 33,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "本当は　そんな境目なんて　ないのかもしれない。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 282,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 33,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "僕は由子さんが好きだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 282,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 33,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "その気持ちだけで　僕は退屈な日常の壁を超えられる。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 283,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 33,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "午後１１時３０分・・待ち合わせの時間だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 283,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 33,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "由子さん・・来てくれるかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 284,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 33,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "午後１１時４０分・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 284,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 33,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "由子さん・・・遅いな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 285,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 33,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "午後１１時５０分・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 285,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 33,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "由子さん・・・どうしたんだろう？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 286,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 33,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "午後１１時５５分・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 286,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 33,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "やっぱり由子さん・・・来ないのかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 287,
+   "line": 0,
+   "speaker": "アナウンサー",
+   "kind": "대사",
+   "scene": 33,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "a7338.wav",
+   "chars": 19,
+   "text": {
+    "ja": "さぁ！　いよいよ今年最後の大イベント！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 287,
+   "line": 1,
+   "speaker": "アナウンサー",
+   "kind": "대사",
+   "scene": 33,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "a7338.wav",
+   "chars": 23,
+   "text": {
+    "ja": "イルミネーション・カウントダウンが始まります。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 287,
+   "line": 2,
+   "speaker": "アナウンサー",
+   "kind": "대사",
+   "scene": 33,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "a7338.wav",
+   "chars": 15,
+   "text": {
+    "ja": "みなさん！　準備はいいですか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 288,
+   "line": 0,
+   "speaker": "アナウンサー",
+   "kind": "대사",
+   "scene": 33,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "a7339.wav",
+   "chars": 21,
+   "text": {
+    "ja": "画面正面にあるディスプレイにご注目下さい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 289,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 33,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "・・・由子さん・・やっぱり来ないのか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 290,
+   "line": 0,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 33,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "A7356.WAV",
+   "chars": 3,
+   "text": {
+    "ja": "１０@4549@！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 290,
+   "line": 1,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 33,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "A7356.WAV",
+   "chars": 2,
+   "text": {
+    "ja": "９@4548@！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 290,
+   "line": 2,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 33,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "A7356.WAV",
+   "chars": 2,
+   "text": {
+    "ja": "８！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 291,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 33,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "まだ間に合うよ！　・・・由子さん・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 292,
+   "line": 0,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 33,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "A7357.WAV",
+   "chars": 2,
+   "text": {
+    "ja": "７@4546@！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 292,
+   "line": 1,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 33,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "A7357.WAV",
+   "chars": 2,
+   "text": {
+    "ja": "６@4545@！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 292,
+   "line": 2,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 33,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "A7357.WAV",
+   "chars": 2,
+   "text": {
+    "ja": "５！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 293,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 33,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "ああ！　ダメだ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 294,
+   "line": 0,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 33,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "A7358.WAV",
+   "chars": 2,
+   "text": {
+    "ja": "４@4543@！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 294,
+   "line": 1,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 33,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "A7358.WAV",
+   "chars": 2,
+   "text": {
+    "ja": "３@4542@！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 294,
+   "line": 2,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 33,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "A7358.WAV",
+   "chars": 2,
+   "text": {
+    "ja": "２！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 295,
+   "line": 0,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 33,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "A7359.WAV",
+   "chars": 2,
+   "text": {
+    "ja": "１@4540@！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 295,
+   "line": 1,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 33,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "A7359.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "ハッピー・ニューイヤー！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 296,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 33,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "由子さん・・・やっぱり来なかったんだな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 296,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 33,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "でもいいさ・・僕はこの街で　たくさんの思い出を",
+    "ko": ""
+   }
+  },
+  {
+   "window": 296,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 33,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "作ることが出来た。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 297,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 33,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "いつかまた・・訪ねてみよう・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 298,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 33,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "・・・北へ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 299,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 33,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "午後１１時４０分・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 299,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 33,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "由子さん・・・遅いな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 300,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 34,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "・・・・！！　あっ！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 301,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 34,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "A4199.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "・・・毎度！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 302,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 34,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "・・・由子さん・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 303,
+   "line": 0,
+   "speaker": "アナウンサー",
+   "kind": "대사",
+   "scene": 34,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "a7354.wav",
+   "chars": 19,
+   "text": {
+    "ja": "さぁ！　いよいよ今年最後の大イベント！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 303,
+   "line": 1,
+   "speaker": "アナウンサー",
+   "kind": "대사",
+   "scene": 34,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "a7354.wav",
+   "chars": 23,
+   "text": {
+    "ja": "イルミネーション・カウントダウンが始まります。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 303,
+   "line": 2,
+   "speaker": "アナウンサー",
+   "kind": "대사",
+   "scene": 34,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "a7354.wav",
+   "chars": 15,
+   "text": {
+    "ja": "みなさん！　準備はいいですか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 304,
+   "line": 0,
+   "speaker": "アナウンサー",
+   "kind": "대사",
+   "scene": 34,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "a7355.wav",
+   "chars": 21,
+   "text": {
+    "ja": "画面正面にあるディスプレイにご注目下さい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 305,
+   "line": 0,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 34,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "a7356.wav",
+   "chars": 3,
+   "text": {
+    "ja": "１０@4649@！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 305,
+   "line": 1,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 34,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "a7356.wav",
+   "chars": 2,
+   "text": {
+    "ja": "９@4648@！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 305,
+   "line": 2,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 34,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "a7356.wav",
+   "chars": 2,
+   "text": {
+    "ja": "８！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 306,
+   "line": 0,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 34,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "a7357.wav",
+   "chars": 2,
+   "text": {
+    "ja": "７！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 306,
+   "line": 1,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 34,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "a7357.wav",
+   "chars": 2,
+   "text": {
+    "ja": "６！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 306,
+   "line": 2,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 34,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "a7357.wav",
+   "chars": 2,
+   "text": {
+    "ja": "５！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 307,
+   "line": 0,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 34,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "a7358.wav",
+   "chars": 2,
+   "text": {
+    "ja": "４！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 307,
+   "line": 1,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 34,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "a7358.wav",
+   "chars": 2,
+   "text": {
+    "ja": "３！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 307,
+   "line": 2,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 34,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "a7358.wav",
+   "chars": 2,
+   "text": {
+    "ja": "２！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 308,
+   "line": 0,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 34,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "a7359.wav",
+   "chars": 2,
+   "text": {
+    "ja": "１@4640@！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 308,
+   "line": 1,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 34,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "a7359.wav",
+   "chars": 13,
+   "text": {
+    "ja": "ハッピー・ニューイヤー！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 309,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 34,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "・・・新しい年が始まる・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 309,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 34,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "そして　僕ら二人の　新しい人生が始まる・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 310,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 34,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "ハッピー・ニューイヤー！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 311,
+   "line": 0,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 34,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "a7362.wav",
+   "chars": 2,
+   "text": {
+    "ja": "１@4740@！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 311,
+   "line": 1,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 34,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "a7362.wav",
+   "chars": 16,
+   "text": {
+    "ja": "ハッピー・ニューセンチュリー！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 312,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 34,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "・・・２１世紀が始まる・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 312,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 34,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "そして　僕ら二人の　新しい人生が始まる・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 313,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 34,
+   "date": "12-30",
+   "slot": null,
+   "place": "由子と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "ハッピー・ニューセンチュリー！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 314,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 36,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場／由子",
+   "voice": "A4212.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "今度会えるのは　春休みかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 314,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 36,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場／由子",
+   "voice": "A4212.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "あっ！　そうだ　こないだの写真　出来たんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 315,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 36,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場／由子",
+   "voice": "A4213.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "結構　綺麗に撮れてるよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 315,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 36,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場／由子",
+   "voice": "A4213.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "・・・ちょっと構図が悪いのもあるけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 316,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 36,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場／由子",
+   "voice": "A4214.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "結構　綺麗に撮れてるよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 316,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 36,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場／由子",
+   "voice": "A4214.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "・・・ちょっと目　つむっちゃった写真もあるけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 317,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 36,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場／由子",
+   "voice": "A4215.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "最高に良く撮れてるよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 317,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 36,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場／由子",
+   "voice": "A4215.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "&主人公&君　写真の才能もあるよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 318,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 36,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場／由子",
+   "voice": "A4216.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "@S@・・・@P@また・・手紙書くよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 318,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 36,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場／由子",
+   "voice": "A4216.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "今度は普通の便せんで・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 319,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 36,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場／由子",
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "うん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 320,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 36,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場／由子",
+   "voice": "A4218.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "それじゃ・・ばいばい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 320,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 36,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場／由子",
+   "voice": "A4218.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "・・・さよなら・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 321,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 36,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場／由子",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "さよなら・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 322,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 37,
+   "date": null,
+   "slot": null,
+   "place": "インターミッション１",
+   "voice": "A4220.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "@S@・・@P@そろそろ今日あたり　撮れるような気がするんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 323,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 37,
+   "date": null,
+   "slot": null,
+   "place": "インターミッション１",
+   "voice": "A4221.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "海面近くの空気が冷えて・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 323,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 37,
+   "date": null,
+   "slot": null,
+   "place": "インターミッション１",
+   "voice": "A4221.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "レンズの役目をする・・それで・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 324,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 37,
+   "date": null,
+   "slot": null,
+   "place": "インターミッション１",
+   "voice": "A4222.WAV",
+   "chars": 4,
+   "text": {
+    "ja": "あっ！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 325,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 37,
+   "date": null,
+   "slot": null,
+   "place": "インターミッション１",
+   "voice": "A4223.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "ほら見て！　四角い太陽が昇るよ！",
+    "ko": ""
+   }
+  }
+ ]
+}
