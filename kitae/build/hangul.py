@@ -181,22 +181,41 @@ def assign(chars, cp=None, reserved=(), pages=None):
     return cp
 
 
-def render_glyph(ch, size=21, y_off=2, ttf=None):
-    """24x24 grayscale of one character from IBM Plex Sans KR."""
+def render_glyph(ch, size=21, y_off=2, ttf=None, widths=None):
+    """24x24 grayscale of one character from IBM Plex Sans KR.
+
+    ## ★ 세로는 글자마다 맞추지 않는다
+
+    예전에는 잉크 높이로 칸 가운데를 맞췄다. 한글끼리는 높이가 비슷해 티가 안
+    났지만 **기준선이 글자마다 흔들리고**, `。` 같은 낮은 글자가 공중에 뜬다.
+    지금은 폰트의 ascent/descent 로 기준선을 한 번 정하고 모든 글자를 거기에
+    올린다 — 가로만 조정한다.
+
+    `widths` 를 주면(kitae.build.widths.Widths) 가로 위치도 그쪽을 따른다:
+    전각 칸에 반각 모양을 **좌측 정렬**로 그린다. 가변폭 전진폭과 짝이라
+    스텁이 없으면 켜지 않는다 — 폭이 24 인데 잉크만 왼쪽에 붙으면 더 이상하다.
+    """
     from PIL import Image, ImageDraw, ImageFont
     ttf = ttf or TTF
     if not os.path.exists(ttf):
         raise FileNotFoundError(ttf)
-    ttf = ImageFont.truetype(ttf, size)
+    font = ImageFont.truetype(ttf, size)
     img = Image.new("L", (24, 24), 0)
     d = ImageDraw.Draw(img)
+
+    if widths is not None:
+        g, ox = widths.shape(ch), widths.offset(ch)
+        d.text((ox, widths.baseline), g, font=font, fill=255, anchor="ls")
+        return img
+
+    asc, desc = font.getmetrics()
+    baseline = (24 - (asc + desc)) // 2 + asc + y_off - 2
     try:
-        box = d.textbbox((0, 0), ch, font=ttf)
+        box = d.textbbox((0, 0), ch, font=font)
     except Exception:
         box = (0, 0, size, size)
-    x = (24 - (box[2] - box[0])) // 2 - box[0]
-    y = (24 - (box[3] - box[1])) // 2 - box[1] + y_off - 2
-    d.text((x, y), ch, font=ttf, fill=255)
+    x = (24 - (box[2] - box[0])) // 2 - box[0]      # 가로는 칸 가운데
+    d.text((x, baseline), ch, font=font, fill=255, anchor="ls")
     return img
 
 
