@@ -262,11 +262,39 @@ def inject(cfg, chars):
     ttf = cfg.path(cfg["font"]["ttf"]) if cfg["font"].get("ttf") else TTF
     size = int(cfg["font"].get("size", 21))
     yoff = int(cfg["font"].get("y_offset", 2))
+
+    # 가변폭을 켜면 글리프도 함께 바뀌어야 한다 — 좌측 정렬, 그리고 전각 칸에는
+    # 반각 모양. 전진폭만 좁히고 원본 글리프를 두면 이웃과 겹친다.
+    W = None
+    if cfg.get("font_variable"):
+        from kitae.build.widths import SHAPE, Widths
+        W = Widths(cfg)
+
     for ch in sorted(chars):
-        body, fringe = planes(render_glyph(ch, size, yoff, ttf))
+        body, fringe = planes(render_glyph(ch, size, yoff, ttf, widths=W))
         code = bytes(cp[ch])
         f.set_glyph(code, body, 0)
         f.set_glyph(code, fringe, 1)
+
+    if W is not None:
+        # 전각 기호·숫자·라틴 칸을 반각 모양으로 덮어쓴다
+        n = 0
+        for ch in SHAPE:
+            try:
+                code = ch.encode("cp932")
+            except Exception:
+                continue
+            if len(code) != 2:            # 반각 칸은 게임 글리프를 그대로 둔다
+                continue
+            body, fringe = planes(render_glyph(ch, size, yoff, ttf, widths=W))
+            try:
+                f.set_glyph(code, body, 0)
+                f.set_glyph(code, fringe, 1)
+            except KeyError:
+                continue
+            n += 1
+        print(f"  폰트: 전각 {n}칸을 반각 모양으로 다시 그림")
+
     f.save(dst)
     return dst
 
