@@ -79,7 +79,21 @@ DEFAULT_W = 24
 #     obj+0x1FF4  현재 인덱스
 #     obj+0x1FFC  ★ 코드 배열 포인터
 #     obj+0x2004  글자 수
-CODE_PTR = 0x1FFC             # obj+0x1FFC = u16 코드 배열 포인터
+# ★ 오프셋 주의 — 코드 배열을 쓰는 자리는 전부 기준에서 **４를 빼고** 나서
+# `0x1FFC` 를 더한다.
+#
+#     0x10003126  mov.l @(52,r14),r13
+#     0x10003128  add   #-4,r13          ← 이것
+#     0x1000312a  mov.w 0x1FF4,r2        인덱스
+#     0x1000312e  mov.w 0x2004,r1        개수
+#
+# 그렇게 보였지만 `+0x1FF8` 은 **포인터가 아니었다 — 인게임에서 죽는다.**
+# 기준이 다른 두 객체가 섞여 있다는 뜻이다. 오프셋은 `0x1FFC` 로 둔다. 우리 루프는 `r10` 을 그대로 쓴다
+# (폭 배열도 `r10+0x1F94` 로 바로 간다). 처음에 `0x1FFC` 로 읽었다가 늘
+# 작은 값이 나왔다 — 상위 바이트가 항상 ０ 이라 어느 글자든 페이지 ０ 에
+# 떨어졌고, 그래서 한글 폭을 ２２·２４·４０ 어느 것으로 바꿔도 화면이
+# 꿈쩍하지 않았다.
+CODE_PTR = 0x1FFC             # obj+0x1FF8 = u16 코드 배열 포인터
 OBJ_REG = 10                  # 루프에서 r10 = 객체, r11 = 글자 인덱스
 
 # 훅이 덮는 원래 워드 — 다르면 다른 빌드다
@@ -93,8 +107,13 @@ HOOK_ORIG = (0x6492, 0x7B01, 0x51AD, 0x341C, 0x52AC, 0x3428)
 MAX_SUBS = 2
 
 
-def build_table(cfg):
-    """(표 바이트, 하위표 수)."""
+def build_table(cfg, swap=False, probe=None):
+    """(표 바이트, 하위표 수).
+
+    `swap` 이면 코드 키의 두 바이트를 뒤집는다 — 엔진이 `mov.w` 한 번으로
+    읽으면 리틀엔디언이라 `0xEE 0xB0` 이 `0xB0EE` 가 된다.
+    `probe` 를 주면 코드페이지(한글) 전부를 그 폭으로 강제한다 — 진단용.
+    """
     import io
     import json
     from kitae.build.widths import CELL, SHAPE, Widths
@@ -103,15 +122,18 @@ def build_table(cfg):
     with io.open(cfg.path("data", "codepage.json"), encoding="utf-8") as fh:
         cp = json.load(fh)
 
+    def key(a, b):
+        return (b << 8) | a if swap else (a << 8) | b
+
     table = {}
     for ch, cell in cp.items():
-        table[(cell[0] << 8) | cell[1]] = W.width(ch)
+        table[key(cell[0], cell[1])] = probe or W.width(ch)
     for ch in SHAPE:
         try:
             b = ch.encode("cp932")
         except Exception:
             continue
-        table[b[0] if len(b) == 1 else (b[0] << 8) | b[1]] = W.width(ch)
+        table[b[0] if len(b) == 1 else key(b[0], b[1])] = W.width(ch)
     for c in range(0x20, 0x7F):
         table[c] = max(1, min(CELL, W.ink_w(chr(c)) + 2))
 
@@ -152,6 +174,56 @@ def build_table(cfg):
             assert w < 0x80
             pagemap[p] = 0x80 | w
     return bytes(pagemap) + bytes(subs), nsub
+
+
+RULER = (8, 16, 28, 40)
+
+
+def table_ruler(shift):
+    """진단용 페이지맵 — 페이지 번호의 두 비트를 **폭으로 부호화**한다.
+
+        폭 = RULER[(페이지 >> shift) & 3]        8 / 16 / 28 / 40
+
+    엔진이 넘겨주는 코드가 무엇인지 모를 때 그 코드의 상위 바이트를 화면에서
+    직접 읽어내는 자다. `shift` 를 ６·４·２·０ 으로 네 판 구우면 ２５６페이지가
+    한 값으로 좁혀진다 — 네 폭이 확연히 달라 눈으로 틀릴 여지가 없다.
+
+    한글 페이지(`0x9B`·`0xE1`~`0xE3`·`0xED`·`0xEE`)를 ４０ 으로 올려도 화면이
+    안 변했는데 **모든** 페이지를 ４０ 으로 하니 변했다. 그래서 코드가 우리가
+    아는 cp932 짝이 아님이 확정됐다. 바이트를 뒤집은 것도 아니었다.
+    """
+    return bytes(0x80 | RULER[(p >> shift) & 3] for p in range(256)), 0
+
+
+def table_low(shift):
+    """진단용 — **하위 바이트**를 폭으로 부호화한다.
+
+        모든 페이지 → 하위표 0,  하위표0[i] = RULER[(i >> shift) & 3]
+
+    눈금자 네 판으로 코드의 상위 바이트가 항상 ０ 임이 드러났다(한글이 어느
+    글자든 같은 폭이었다). 그러면 코드는 사실상 한 바이트다. 그게 무엇인지 —
+    cp932 트레일 바이트인지, 리드 바이트인지, 다른 번호인지 — 를 가른다.
+
+    `방` 은 우리 코드페이지에서 `0xEE 0xB0` 이므로
+
+        트레일(0xB0=176) 이면  shift=6 에서 ２８px
+        리드  (0xEE=238) 이면  shift=6 에서 ４０px
+    """
+    return bytes(256) + bytes(RULER[(i >> shift) & 3] for i in range(256)), 1
+
+
+def table_uniform(width=40):
+    """진단용 페이지맵 — **２５６페이지 전부 직접값 `width`**. 하위표 없음.
+
+    "스텁이 우리 표를 실제로 타는가" 를 이진으로 묻는다. 어느 코드가 오든
+    같은 값이 나오므로 코드가 무엇인지와 무관하다.
+
+        전부 벌어짐  → 표를 탄다. 그러면 한글이 ２０ 이었던 건 **코드가
+                       우리가 아는 cp932 짝이 아니어서** 엉뚱한 페이지를
+                       맞힌 것이다
+        한글만 그대로 → 한글은 이 루프를 아예 안 지난다
+    """
+    return bytes([0x80 | width]) * 256, 0
 
 
 def stub_flat(width=22):
@@ -333,7 +405,36 @@ def apply(cfg, blob):
 
     mode = cfg.get("font_variable")
     flat = mode in ("flat", "len")
-    if mode == "len":
+    if mode == "cp40":
+        code, _ = stub_code()
+        table, npages = build_table(cfg, probe=40)
+    elif isinstance(mode, str) and mode.startswith("low"):
+        code, _ = stub_code()
+        table, npages = table_low(int(mode[3:]))
+    elif isinstance(mode, str) and mode.startswith("ruler"):
+        code, _ = stub_code()
+        table, npages = table_ruler(int(mode[5:]))
+    elif mode == "swap40":
+        code, _ = stub_code()
+        table, npages = build_table(cfg, swap=True, probe=40)
+    elif mode == "page40":
+        flat = False
+    if mode == "cp40":
+        code, _ = stub_code()
+        table, npages = build_table(cfg, probe=40)
+    elif isinstance(mode, str) and mode.startswith("low"):
+        code, _ = stub_code()
+        table, npages = table_low(int(mode[3:]))
+    elif isinstance(mode, str) and mode.startswith("ruler"):
+        code, _ = stub_code()
+        table, npages = table_ruler(int(mode[5:]))
+    elif mode == "swap40":
+        code, _ = stub_code()
+        table, npages = build_table(cfg, swap=True, probe=40)
+    elif mode == "page40":
+        code, _ = stub_code()
+        table, npages = table_uniform()
+    elif mode == "len":
         code, table, npages = stub_len(), b"", 0
     elif flat:
         code, table, npages = stub_flat(), b"", 0

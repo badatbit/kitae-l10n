@@ -44,5 +44,5 @@
   "emulator_fixes": {
     "choice_gate": true
   },
-  "font_variable": true
+  "font_variable": false
 }
