@@ -66,6 +66,10 @@ def shlr8(rn):
     return 0x4019 | (_n(rn) << 8)
 
 
+def shlr16(rn):
+    return 0x4029 | (_n(rn) << 8)
+
+
 def shll(rn):
     return 0x4000 | (_n(rn) << 8)
 
