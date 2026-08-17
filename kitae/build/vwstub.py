@@ -113,7 +113,6 @@ HOOK2_ORIG = (0x6BA3, 0x4B08, 0xEC54, 0x3C8C, 0xE550, 0x4508)
 HOOK3 = 0x10003582
 HOOK3_LEN = 12
 HOOK3_ORIG = (0x384C, 0x533D, 0x382C, 0x6583, 0x430B, 0x64D3)
-X2SCRATCH = 0x8CFE0100        # tmp = 그리기 직전 rec.x2(=width) 임시 보관(1워드)
 
 # ★ (진단) 문자열→텍스처 렌더러 진입 뒤(pr 저장 후) 0x100076DC. r5=문자열. 여기서
 # 받은 문자열을 스크래치에 덤프해 실제 몇 글자 받는지 본다. 복귀 0x100076E8.
@@ -867,40 +866,43 @@ def stub_rec_x2(table_bytes):
 
 def stub_drawchar1():
     """DrawChar #1 래퍼(0x10003582 훅) — rec 완성 후 x2 를 x1+24(풀박스)로 스왑하고
-    원래 x2(=width)를 스크래치에 보관한 뒤 jsr DrawChar 재발행. pr 은 스택 보존."""
+    원래 x2(=width)를 스크래치에 보관한 뒤 jsr DrawChar 재발행. pr 은 스택 보존.
+
+    스크래치는 **DLL 자기 섹션의 쓰기가능 슬롯**(모듈 소유·안전). 두 스텁이 `mova`(PC상대,
+    리로케이션 무관)로 공유한다. mova 변위는 페이로드 배치를 아는 apply() 가 채운다.
+    반환: (바이트, mova 바이트오프셋)."""
     S = sh4
     body = [
         (0x384C, "add r4,r8"),           # 0  r8 += 글자*320
         (0x382C, "add r2,r8"),           # 1  r8 += 줄*16 → rec 완성
         (0x533D, "mov.l @(52,r3),r3"),   # 2  r3 = vtable[52] = DrawChar
         (0x5082, "mov.l @(8,r8),r0"),    # 3  r0 = rec.x2 (=width)
-        (0xD105, None),                  # 4  mov.l scratch,r1
-        (0x2102, "mov.l r0,@r1"),        # 5  scratch = rec.x2
-        (0x6082, "mov.l @r8,r0"),        # 6  r0 = rec.x1
-        (0x7018, "add #24,r0"),          # 7  x1+24
-        (0x1802, "mov.l r0,@(8,r8)"),    # 8  rec.x2 = x1+24 (풀박스)
-        (0x6583, "mov r8,r5"),           # 9  r5 = rec
-        (0x4F22, "sts.l pr,@-r15"),      # 10 pr 저장
-        (0x430B, "jsr @r3"),             # 11 DrawChar
-        (0x64D3, "mov r13,r4"),          # 12 (지연슬롯) r4 = r13
-        (0x4F26, "lds.l @r15+,pr"),      # 13 pr 복원
-        (S.rts(), "rts"),                # 14 → 0x1000358E
-        (S.nop(), "nop"),                # 15
+        (0x6103, "mov r0,r1"),           # 4  r1 = width 보관
+        (0xC700, None),                  # 5  ★ mova scratch,r0 (변위 apply 패치)
+        (0x2012, "mov.l r1,@r0"),        # 6  *scratch = width
+        (0x6082, "mov.l @r8,r0"),        # 7  r0 = rec.x1
+        (0x7018, "add #24,r0"),          # 8  x1+24
+        (0x1802, "mov.l r0,@(8,r8)"),    # 9  rec.x2 = x1+24 (풀박스)
+        (0x6583, "mov r8,r5"),           # 10 r5 = rec
+        (0x4F22, "sts.l pr,@-r15"),      # 11 pr 저장
+        (0x430B, "jsr @r3"),             # 12 DrawChar
+        (0x64D3, "mov r13,r4"),          # 13 (지연슬롯) r4 = r13
+        (0x4F26, "lds.l @r15+,pr"),      # 14 pr 복원
+        (S.rts(), "rts"),                # 15 → 0x1000358E
+        (S.nop(), "nop"),                # 16
     ]
-    n = len(body)
-    lit_off = (n * 2 + 3) & ~3
-    body += [(S.nop(), "nop")] * ((lit_off - n * 2) // 2)
-    body[4] = (S.movl_pc(lit_off - ((4 * 2 + 4) & ~3), 1), None)   # scratch
-    return S.assemble(body) + struct.pack("<I", X2SCRATCH)
+    if len(body) % 2:                    # 4바이트 정렬 (스크래치 슬롯 정렬 유지)
+        body.append((S.nop(), "nop"))
+    return S.assemble(body), 5 * 2       # mova = body[5] → 오프셋 10
 
 
 def stub_advance():
     """전진폭 훅(0x100035B4) — rec.x2 를 스크래치(=width)로 복원하고 전진폭 r4=width.
-    이어서 원본 자간(@52)·보정(@48)·charIdx++ 재현."""
+    이어서 원본 자간(@52)·보정(@48)·charIdx++ 재현.  반환: (바이트, mova 바이트오프셋)."""
     S = sh4
     body = [
-        (0xD103, None),                  # 0  mov.l scratch,r1
-        (0x6012, "mov.l @r1,r0"),        # 1  r0 = tmp(=width)
+        (0xC700, None),                  # 0  ★ mova scratch,r0 (변위 apply 패치)
+        (0x6002, "mov.l @r0,r0"),        # 1  r0 = tmp(=width)
         (0x1802, "mov.l r0,@(8,r8)"),    # 2  rec.x2 = tmp (복원)
         (0x6403, "mov r0,r4"),           # 3  r4 = width
         # 원본 자간/보정
@@ -912,11 +914,9 @@ def stub_advance():
         (S.rts(), "rts"),                # 9
         (S.nop(), "nop"),                # 10
     ]
-    n = len(body)
-    lit_off = (n * 2 + 3) & ~3
-    body += [(S.nop(), "nop")] * ((lit_off - n * 2) // 2)
-    body[0] = (S.movl_pc(lit_off - ((0 * 2 + 4) & ~3), 1), None)        # scratch
-    return S.assemble(body) + struct.pack("<I", X2SCRATCH)
+    if len(body) % 2:                    # 4바이트 정렬
+        body.append((S.nop(), "nop"))
+    return S.assemble(body), 0           # mova = body[0] → 오프셋 0
 
 
 def stub_measure(table_bytes):
@@ -1369,7 +1369,7 @@ def trampoline(tramp_va, stub_va):
 
 
 SECTION = ".ktrw"
-CHARS = 0x60000020            # CODE | EXECUTE | READ
+CHARS = 0xE0000020            # CODE | EXECUTE | READ | WRITE (스텁이 폭 스크래치 4B 를 쓴다)
 
 
 def _section_va(blob, name):
@@ -1577,13 +1577,24 @@ def apply(cfg, blob):
     # rec 는 obj 안 글리프와 함께 살아 동기 — 버퍼·카운트·재사용 desync 전부 없음.
     if mode is True:
         table, npages = build_table(cfg)
-        s_adv, s_dc1, s_cpy = stub_advance(), stub_drawchar1(), stub_rec_x2(table)
-        payload = s_adv + s_dc1 + s_cpy
+        s_adv, adv_mova = stub_advance()
+        s_dc1, dc1_mova = stub_drawchar1()
+        s_cpy = stub_rec_x2(table)
+        # 폭 스크래치 4B 를 s_dc1 뒤(두 mova 앞)에 4정렬로 끼운다 → 물리 RAM 대신 모듈 메모리.
+        base = len(s_adv) + len(s_dc1)
+        scratch_off = (base + 3) & ~3
+        payload = s_adv + s_dc1 + b"\0" * (scratch_off - base) + b"\0\0\0\0" + s_cpy
         out, foff, _fsize = pesection.add(blob, SECTION, len(payload), CHARS)
         va = _section_va(out, SECTION)
-        va_adv, va_dc1, va_cpy = va, va + len(s_adv), va + len(s_adv) + len(s_dc1)
+        va_adv, va_dc1, va_cpy = va, va + len(s_adv), va + scratch_off + 4
         out = bytearray(out)
         out[foff:foff + len(payload)] = payload
+        # mova @(disp,pc),r0 변위 채우기: target=scratch_off. disp=(scratch_off-((off&~3)+4))//4
+        for moff in (adv_mova, len(s_adv) + dc1_mova):
+            disp = (scratch_off - ((moff & ~3) + 4)) // 4
+            if not 0 <= disp <= 255:
+                raise ValueError(f"mova 변위 {disp} 범위밖 (moff={moff}, scratch={scratch_off})")
+            out[foff + moff] = disp       # 0xC7dd 저바이트
         for hookva, horig in ((HOOK, HOOK_ORIG), (HOOK3, HOOK3_ORIG), (HOOK2, HOOK2_ORIG)):
             for i, want in enumerate(horig):
                 got = struct.unpack_from("<H", blob, raw + (hookva - lo) + i * 2)[0]
@@ -1610,18 +1621,23 @@ def apply(cfg, blob):
         if struct.unpack_from("<H", blob, raw + (0x10003542 - lo))[0] != 0xE150:
             raise ValueError("0x10003542 != 0xE150")
         struct.pack_into("<H", out, raw + (0x10003542 - lo), 0xE120)
-        # ★ 렌더러 조각수 클램프 min(cnt,25) → min(cnt,62). 0x10007c32 mov #25,r3
-        #   (0xE319), 0x10007c38 mov #25,r2 (0xE219) → #62 (0xE33E / 0xE23E).
-        for cva, orig, new in ((0x10007C32, 0xE319, 0xE33E), (0x10007C38, 0xE219, 0xE23E)):
-            if struct.unpack_from("<H", blob, raw + (cva - lo))[0] != orig:
-                raise ValueError(f"{cva:#x} != {orig:#06x}")
-            struct.pack_into("<H", out, raw + (cva - lo), new)
-        # ★ 글리프 버퍼 크기 alloc(@(40,r8)+1) → +64 (조각수 62 여유). 0x10007766
-        #   add #1,r4 (0x7401) → add #64,r4 (0x7440).
-        if struct.unpack_from("<H", blob, raw + (0x10007766 - lo))[0] != 0x7401:
-            raise ValueError("0x10007766 != 0x7401")
-        struct.pack_into("<H", out, raw + (0x10007766 - lo), 0x7440)
-        note = (f"가변폭(rec.x2): adv{len(s_adv)}+dc1{len(s_dc1)}+cpy{len(s_cpy)}B "
+        # ★ >25자 확장 전용 크기 패치 (접은 실험). redream 이 25칸 배열 오버플로로
+        #   죽는 원인 후보라 vw_extension=false 면 걸지 않는다. 핵심 프로포셔널(≤25/줄)은
+        #   이것 없이 동작. cfg 로 껐을 때 원본 25 클램프·원본 버퍼 alloc 그대로 나간다.
+        if cfg.get("vw_extension", True):
+            # 렌더러 조각수 클램프 min(cnt,25) → min(cnt,62). 0x10007c32 mov #25,r3
+            #   (0xE319), 0x10007c38 mov #25,r2 (0xE219) → #62 (0xE33E / 0xE23E).
+            for cva, orig, new in ((0x10007C32, 0xE319, 0xE33E), (0x10007C38, 0xE219, 0xE23E)):
+                if struct.unpack_from("<H", blob, raw + (cva - lo))[0] != orig:
+                    raise ValueError(f"{cva:#x} != {orig:#06x}")
+                struct.pack_into("<H", out, raw + (cva - lo), new)
+            # 글리프 버퍼 크기 alloc(@(40,r8)+1) → +64 (조각수 62 여유). 0x10007766
+            #   add #1,r4 (0x7401) → add #64,r4 (0x7440).
+            if struct.unpack_from("<H", blob, raw + (0x10007766 - lo))[0] != 0x7401:
+                raise ValueError("0x10007766 != 0x7401")
+            struct.pack_into("<H", out, raw + (0x10007766 - lo), 0x7440)
+        ext = "확장" if cfg.get("vw_extension", True) else "핵심만(≤25)"
+        note = (f"가변폭(rec.x2·{ext}): adv{len(s_adv)}+dc1{len(s_dc1)}+cpy{len(s_cpy)}B "
                 f"표{len(table)}B({npages}p) @ {va:#x} · 훅 {HOOK:#x}/{HOOK3:#x}/{HOOK2:#x}"
                 f"→{t_va:#x} · 0x10003b12 nop")
         return bytes(out), note
