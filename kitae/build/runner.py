@@ -368,6 +368,14 @@ def _build(cfg, scripts, lang, want_font=True):
     ui, _warn = uipatch.patch_all(cfg, lang, hangul.encoder(cfg), base)
     if font_dll and "/TRF/TRFSTRINGS.DLL" not in ui:
         ui["/TRF/TRFSTRINGS.DLL"] = base["TRFSTRINGS"]
+    # 이름화면 힌트 한글 — 폰트 텍스처 베이크 소스에 번역 글자를 주입 (근거: nameinfont.py)
+    nkey = "/TRF/TRFNAMEIN.DLL"
+    if nkey in ui:
+        from kitae.build import nameinfont
+        blob2, nchar = nameinfont.patch(cfg, lang, hangul.encoder(cfg), ui[nkey])
+        if nchar:
+            ui[nkey] = blob2
+            print(f"  이름화면 힌트 폰트: 굽기 소스에 한글 {nchar}자 주입")
     for disc_path, blob in sorted(ui.items()):
         out = _work(cfg, "build", *disc_path.strip("/").split("/"))
         with open(out, "wb") as fh:
