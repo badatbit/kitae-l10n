@@ -106,6 +106,21 @@ HOOK2 = 0x10003AE6
 HOOK2_LEN = 12
 HOOK2_ORIG = (0x6BA3, 0x4B08, 0xEC54, 0x3C8C, 0xE550, 0x4508)
 
+# ★ DrawChar #1 래퍼 훅 — 첫 DrawChar(vtable[52]) 호출 구간(0x10003582~0x1000358D,
+# jsr+지연슬롯 포함)을 스텁으로 감싼다. 스텁이 rec 완성→x2 스왑(width→x1+24)→jsr
+# DrawChar 재발행. 진입 시 r8=obj+84, r4=글자*320, r2=줄*16, r3=@r13, r13=렌더러,
+# r6/r7=폭배열. 복귀 0x1000358E. 트램폴린은 r0만 클로버.
+HOOK3 = 0x10003582
+HOOK3_LEN = 12
+HOOK3_ORIG = (0x384C, 0x533D, 0x382C, 0x6583, 0x430B, 0x64D3)
+X2SCRATCH = 0x8CFE0100        # tmp = 그리기 직전 rec.x2(=width) 임시 보관(1워드)
+
+# ★ (진단) 문자열→텍스처 렌더러 진입 뒤(pr 저장 후) 0x100076DC. r5=문자열. 여기서
+# 받은 문자열을 스크래치에 덤프해 실제 몇 글자 받는지 본다. 복귀 0x100076E8.
+HOOK4 = 0x100076DC
+HOOK4_LEN = 12
+HOOK4_ORIG = (0x6843, 0x6A53, 0x7FB0, 0x6EF3, 0x7FBC, 0x548E)
+
 
 # ★ 디스크 익스텐트에 여유가 1,024B 뿐이다.
 # TRFSTRINGS 의 ISO 엔트리는 1,275,904B 인데 원본이 1,274,880B 다. 그래서
@@ -672,6 +687,236 @@ def stub_measure_addrtrace():
     body[9] = (S.movl_pc(lit_off + 4 - ((9 * 2 + 4) & ~3), 3), None)   # ring_addr
     body[12] = (S.movl_pc(lit_off + 8 - ((12 * 2 + 4) & ~3), 1), None) # off
     return S.assemble(body) + struct.pack("<III", 0x8CFE07FC, 0x8CFE0800, 0x1F94)
+
+
+def stub_rendumpstring():
+    """진단 — 렌더러 진입(0x100076DC, r5=문자열)에서 받은 문자열을 스크래치(0x8CFE0A00,
+    96B, 널종료)에 복사. 원본 6워드 재현 후 0x100076E8 복귀. 이게 40자면 렌더러가 40 받는
+    것 → 25 캡은 렌더 내부(텍스처 너비/조각수). r0~r3 임시, r4·r5·r8·r15 보존."""
+    S = sh4
+    body = [
+        (0x6153, "mov r5,r1"),           # 0  string src
+        (0x2118, "tst r1,r1"),           # 1  널?
+        (0x8909, "bt 0x1a"),             # 2  → skip(13)
+        (0xD009, None),                  # 3  mov.l scratch,r0
+        (0xE230, "mov #48,r2"),          # 4  96B 상한
+        # loop(5):
+        (0x6311, "mov.w @r1,r3"),        # 5
+        (0x2338, "tst r3,r3"),           # 6  널 종료?
+        (0x8904, "bt 0x1a"),             # 7  → skip(13)
+        (0x2031, "mov.w r3,@r0"),        # 8
+        (0x7102, "add #2,r1"),           # 9
+        (0x7002, "add #2,r0"),           # 10
+        (0x4210, "dt r2"),               # 11
+        (0x8BF7, "bf 0xa"),              # 12 → loop(5)
+        # skip(13): 원본 6워드 재현
+        (0x6843, "mov r4,r8"),           # 13
+        (0x6A53, "mov r5,r10"),          # 14
+        (0x7FB0, "add #-80,r15"),        # 15
+        (0x6EF3, "mov r15,r14"),         # 16
+        (0x7FBC, "add #-68,r15"),        # 17
+        (0x548E, "mov.l @(56,r8),r4"),   # 18
+        (S.rts(), "rts"),                # 19 → 0x100076E8
+        (S.nop(), "nop"),                # 20
+    ]
+    n = len(body)
+    lit_off = (n * 2 + 3) & ~3
+    body += [(S.nop(), "nop")] * ((lit_off - n * 2) // 2)
+    body[3] = (S.movl_pc(lit_off - ((3 * 2 + 4) & ~3), 0), None)   # scratch
+    return S.assemble(body) + struct.pack("<I", 0x8CFE0A00)
+
+
+def stub_copy_strdump():
+    """진단 — copy 훅(0x10003AE6)에서 받은 문자열(r11)을 스크래치(0x8CFE0A00, 128B)에
+    복사하고 조각수(@(36,gbr))를 0x8CFE0AFC 에 기록. 원본 6워드(스트라이드 128) 재현.
+    문자열 길이(널까지)가 40자면 copy 가 40 받는 것 → 캡은 조각수(vt[24]) 상류."""
+    S = sh4
+    body = [
+        (0x61B3, "mov r11,r1"),          # 0  string src
+        (0x2118, "tst r1,r1"),           # 1  r11 널?
+        (0x8909, "bt 0x1a"),             # 2  → skip(13)
+        (0xD00B, None),                  # 3  mov.l scratch,r0
+        (0xE230, "mov #48,r2"),          # 4  48 halfword(96B) 상한
+        # loop(5):
+        (0x6311, "mov.w @r1,r3"),        # 5
+        (0x2338, "tst r3,r3"),           # 6  널 종료?
+        (0x8904, "bt 0x1a"),             # 7  → skip(13)
+        (0x2031, "mov.w r3,@r0"),        # 8
+        (0x7102, "add #2,r1"),           # 9
+        (0x7002, "add #2,r0"),           # 10
+        (0x4210, "dt r2"),               # 11
+        (0x8BF7, "bf 0xa"),              # 12 → loop(5)
+        # skip(13): 조각수 로그
+        (0xC512, "mov.w @(36,gbr),r0"),  # 13
+        (0x600D, "extu.w r0,r0"),        # 14
+        (0xD106, None),                  # 15 mov.l cntaddr,r1
+        (0x2102, "mov.l r0,@r1"),        # 16
+        # 원본 6워드 (스트라이드 128)
+        (0x6BA3, "mov r10,r11"),         # 17
+        (0x4B08, "shll2 r11"),           # 18
+        (0xEC54, "mov #84,r12"),         # 19
+        (0x3C8C, "add r8,r12"),          # 20
+        (0xE520, "mov #32,r5"),          # 21
+        (0x4508, "shll2 r5"),            # 22
+        (S.rts(), "rts"),                # 23
+        (S.nop(), "nop"),                # 24
+    ]
+    n = len(body)
+    lit_off = (n * 2 + 3) & ~3
+    body += [(S.nop(), "nop")] * ((lit_off - n * 2) // 2)
+    body[3] = (S.movl_pc(lit_off - ((3 * 2 + 4) & ~3), 0), None)       # scratch
+    body[15] = (S.movl_pc(lit_off + 4 - ((15 * 2 + 4) & ~3), 1), None) # cntaddr
+    return S.assemble(body) + struct.pack("<II", 0x8CFE0A00, 0x8CFE0AFC)
+
+
+def stub_rec_x2(table_bytes):
+    """copy 훅(0x10003AE6, 줄 단위) — 줄 문자열(@r11)을 1/2바이트 파싱→build_table
+    조회→**각 글자 레코드의 x2(rec+8) = width** 를 쓴다. rec = this+84 + 글자*320 +
+    줄*16 이므로 x2 = this+92 + 줄*16, 글자마다 +320. 게임의 x2 쓰기(0x10003b12)는
+    apply 에서 nop. 원본 6워드 재현. 보존필수 r4(=0)·r13. table 은 mova(pc-상대)."""
+    S = sh4
+    body = [
+        (0x6283, "mov r8,r2"),           # 0  this
+        (0xE05C, "mov #92,r0"),          # 1  84+8
+        (0x320C, "add r0,r2"),           # 2  this+92
+        (0x61A3, "mov r10,r1"),          # 3  줄
+        (0x4108, "shll2 r1"),            # 4
+        (0x4108, "shll2 r1"),            # 5  줄*16
+        (0x321C, "add r1,r2"),           # 6  r2 = rec_0.x2
+        (0xC720, None),                  # 7  mova table,r0
+        (0x6303, "mov r0,r3"),           # 8  table base
+        (0xC512, "mov.w @(36,gbr),r0"),  # 9  조각수(글자수)
+        (0x600D, "extu.w r0,r0"),        # 10
+        (0x6703, "mov r0,r7"),           # 11 count
+        (0x66B3, "mov r11,r6"),          # 12 cursor
+        # loop(13):
+        (0x6060, "mov.b @r6,r0"),        # 13
+        (0x600C, "extu.b r0,r0"),        # 14
+        (0xE57F, "mov #127,r5"),         # 15
+        (0x7502, "add #2,r5"),           # 16 0x81
+        (0x3053, "cmp/ge r5,r0"),        # 17
+        (0x8B03, "bf 0x2e"),             # 18 → check_e0(23)
+        (0xE57F, "mov #127,r5"),         # 19
+        (0x7520, "add #32,r5"),          # 20 0x9F
+        (0x3503, "cmp/ge r0,r5"),        # 21
+        (0x890C, "bt 0x48"),             # 22 → is2(36)
+        # check_e0(23):
+        (0xE570, "mov #112,r5"),         # 23
+        (0x4500, "shll r5"),             # 24 0xE0
+        (0x3053, "cmp/ge r5,r0"),        # 25
+        (0x8B03, "bf 0x3e"),             # 26 → is1(31)
+        (0xE57F, "mov #127,r5"),         # 27
+        (0x7570, "add #112,r5"),         # 28 0xEF
+        (0x3503, "cmp/ge r0,r5"),        # 29
+        (0x8904, "bt 0x48"),             # 30 → is2(36)
+        # is1(31):
+        (0x6503, "mov r0,r5"),           # 31 trail=code
+        (0xE100, "mov #0,r1"),           # 32 page=0
+        (0x7601, "add #1,r6"),           # 33 cursor+1
+        (0xA005, "bra 0x52"),            # 34 → lookup(41)
+        (S.nop(), "nop"),                # 35
+        # is2(36):
+        (0x6103, "mov r0,r1"),           # 36 page
+        (0x8461, "mov.b @(1,r6),r0"),    # 37 trail
+        (0x600C, "extu.b r0,r0"),        # 38
+        (0x6503, "mov r0,r5"),           # 39
+        (0x7602, "add #2,r6"),           # 40 cursor+2
+        # lookup(41):
+        (0x6013, "mov r1,r0"),           # 41 page
+        (0x003C, "mov.b @(r0,r3),r0"),   # 42 페이지맵
+        (0x600C, "extu.b r0,r0"),        # 43 pv
+        (0x6103, "mov r0,r1"),           # 44
+        (0xC880, "tst #128,r0"),         # 45
+        (0x8903, "bt 0x66"),             # 46 → subtable(51)
+        # direct(47):
+        (0x6013, "mov r1,r0"),           # 47
+        (0xC97F, "and #127,r0"),         # 48
+        (0xA007, "bra 0x74"),            # 49 → store(58)
+        (S.nop(), "nop"),                # 50
+        # subtable(51):
+        (0x6013, "mov r1,r0"),           # 51
+        (0x7001, "add #1,r0"),           # 52
+        (0x4018, "shll8 r0"),            # 53
+        (0x303C, "add r3,r0"),           # 54
+        (0x305C, "add r5,r0"),           # 55
+        (0x6000, "mov.b @r0,r0"),        # 56
+        (0x600C, "extu.b r0,r0"),        # 57
+        # store(58): rec.x2 = width ; r2 += 320
+        (0x2202, "mov.l r0,@r2"),        # 58
+        (0xE120, "mov #32,r1"),          # 59 (★ 글자 스트라이드 320→128)
+        (0x4108, "shll2 r1"),            # 60 128
+        (0x321C, "add r1,r2"),           # 61
+        (0x4710, "dt r7"),               # 62
+        (0x8BCC, "bf 0x1a"),             # 63 → loop(13)
+        # 원본 6워드
+        (0x6BA3, "mov r10,r11"),         # 64
+        (0x4B08, "shll2 r11"),           # 65
+        (0xEC54, "mov #84,r12"),         # 66
+        (0x3C8C, "add r8,r12"),          # 67
+        (0xE520, "mov #32,r5"),          # 68 (★ 게임 copy 글자 스트라이드 320→128)
+        (0x4508, "shll2 r5"),            # 69 128
+        (S.rts(), "rts"),                # 70
+        (S.nop(), "nop"),                # 71
+    ]
+    n = len(body)
+    lit_off = (n * 2 + 3) & ~3
+    body += [(S.nop(), "nop")] * ((lit_off - n * 2) // 2)
+    body[7] = (S.mova(lit_off - ((7 * 2 + 4) & ~3)), None)   # mova table
+    return S.assemble(body) + table_bytes
+
+
+def stub_drawchar1():
+    """DrawChar #1 래퍼(0x10003582 훅) — rec 완성 후 x2 를 x1+24(풀박스)로 스왑하고
+    원래 x2(=width)를 스크래치에 보관한 뒤 jsr DrawChar 재발행. pr 은 스택 보존."""
+    S = sh4
+    body = [
+        (0x384C, "add r4,r8"),           # 0  r8 += 글자*320
+        (0x382C, "add r2,r8"),           # 1  r8 += 줄*16 → rec 완성
+        (0x533D, "mov.l @(52,r3),r3"),   # 2  r3 = vtable[52] = DrawChar
+        (0x5082, "mov.l @(8,r8),r0"),    # 3  r0 = rec.x2 (=width)
+        (0xD105, None),                  # 4  mov.l scratch,r1
+        (0x2102, "mov.l r0,@r1"),        # 5  scratch = rec.x2
+        (0x6082, "mov.l @r8,r0"),        # 6  r0 = rec.x1
+        (0x7018, "add #24,r0"),          # 7  x1+24
+        (0x1802, "mov.l r0,@(8,r8)"),    # 8  rec.x2 = x1+24 (풀박스)
+        (0x6583, "mov r8,r5"),           # 9  r5 = rec
+        (0x4F22, "sts.l pr,@-r15"),      # 10 pr 저장
+        (0x430B, "jsr @r3"),             # 11 DrawChar
+        (0x64D3, "mov r13,r4"),          # 12 (지연슬롯) r4 = r13
+        (0x4F26, "lds.l @r15+,pr"),      # 13 pr 복원
+        (S.rts(), "rts"),                # 14 → 0x1000358E
+        (S.nop(), "nop"),                # 15
+    ]
+    n = len(body)
+    lit_off = (n * 2 + 3) & ~3
+    body += [(S.nop(), "nop")] * ((lit_off - n * 2) // 2)
+    body[4] = (S.movl_pc(lit_off - ((4 * 2 + 4) & ~3), 1), None)   # scratch
+    return S.assemble(body) + struct.pack("<I", X2SCRATCH)
+
+
+def stub_advance():
+    """전진폭 훅(0x100035B4) — rec.x2 를 스크래치(=width)로 복원하고 전진폭 r4=width.
+    이어서 원본 자간(@52)·보정(@48)·charIdx++ 재현."""
+    S = sh4
+    body = [
+        (0xD103, None),                  # 0  mov.l scratch,r1
+        (0x6012, "mov.l @r1,r0"),        # 1  r0 = tmp(=width)
+        (0x1802, "mov.l r0,@(8,r8)"),    # 2  rec.x2 = tmp (복원)
+        (0x6403, "mov r0,r4"),           # 3  r4 = width
+        # 원본 자간/보정
+        (0x7B01, "add #1,r11"),          # 4
+        (0x51AD, "mov.l @(52,r10),r1"),  # 5
+        (0x341C, "add r1,r4"),           # 6
+        (0x52AC, "mov.l @(48,r10),r2"),  # 7
+        (0x3428, "sub r2,r4"),           # 8
+        (S.rts(), "rts"),                # 9
+        (S.nop(), "nop"),                # 10
+    ]
+    n = len(body)
+    lit_off = (n * 2 + 3) & ~3
+    body += [(S.nop(), "nop")] * ((lit_off - n * 2) // 2)
+    body[0] = (S.movl_pc(lit_off - ((0 * 2 + 4) & ~3), 1), None)        # scratch
+    return S.assemble(body) + struct.pack("<I", X2SCRATCH)
 
 
 def stub_measure(table_bytes):
@@ -1322,63 +1567,82 @@ def apply(cfg, blob):
     elif flat:
         code, table, npages = stub_flat(), b"", 0
     else:
-        code = stub_draw_orig()               # ★ draw: 버퍼[키*32+charIdx] 전진폭
-        table, npages = build_table(cfg)      # 코드→실측폭 (copy 스텁이 mova 로 조회)
-    # ★ mode is True 면 measure 스텁(코드→표→버퍼)도 싣는다.
-    measure = stub_measure(table) if mode is True else b""
-    payload = code + measure + (b"" if mode is True else table)
+        code = stub_draw_orig()               # (진단) draw: 버퍼[키*32+charIdx]
+        table, npages = build_table(cfg)
 
+    # ★★ 정식 방식 (mode is True) — rec.x2 에 글자별 폭을 실어 그린다 (3 훅):
+    #   copy(HOOK2 0x10003AE6): rec.x2 = width  (게임의 x2 쓰기 0x10003b12 nop)
+    #   DrawChar 래퍼(HOOK3 0x10003582): x2 를 x1+24 풀박스로 스왑 후 jsr DrawChar
+    #   전진폭(HOOK 0x100035b4): rec.x2 복원 후 전진폭 = width
+    # rec 는 obj 안 글리프와 함께 살아 동기 — 버퍼·카운트·재사용 desync 전부 없음.
+    if mode is True:
+        table, npages = build_table(cfg)
+        s_adv, s_dc1, s_cpy = stub_advance(), stub_drawchar1(), stub_rec_x2(table)
+        payload = s_adv + s_dc1 + s_cpy
+        out, foff, _fsize = pesection.add(blob, SECTION, len(payload), CHARS)
+        va = _section_va(out, SECTION)
+        va_adv, va_dc1, va_cpy = va, va + len(s_adv), va + len(s_adv) + len(s_dc1)
+        out = bytearray(out)
+        out[foff:foff + len(payload)] = payload
+        for hookva, horig in ((HOOK, HOOK_ORIG), (HOOK3, HOOK3_ORIG), (HOOK2, HOOK2_ORIG)):
+            for i, want in enumerate(horig):
+                got = struct.unpack_from("<H", blob, raw + (hookva - lo) + i * 2)[0]
+                if got != want:
+                    raise ValueError(f"{hookva + i*2:#x} = {got:#06x}, {want:#06x} 기대")
+        t_va, t_off = _cave(out, raw, lo)
+        tl = len(trampoline(t_va, va_adv))
+        for k, (hookva, hlen, stubva) in enumerate((
+                (HOOK, HOOK_LEN, va_adv), (HOOK3, HOOK3_LEN, va_dc1), (HOOK2, HOOK2_LEN, va_cpy))):
+            tva, toff = t_va + k * tl, t_off + k * tl
+            tr = trampoline(tva, stubva)
+            if any(out[toff:toff + len(tr)]):
+                raise ValueError(f"케이브 {tva:#x} 가 비어 있지 않다")
+            out[toff:toff + len(tr)] = tr
+            _grow_virtual(out, ".text", (tva - lo) + len(tr))
+            out[raw + (hookva - lo): raw + (hookva - lo) + hlen] = hook_code(hookva, tva)
+        # 게임의 rec.x2 쓰기 (0x10003b12 mov.l r1,@(8,r2) = 0x1212) → nop
+        if struct.unpack_from("<H", blob, raw + (0x10003B12 - lo))[0] != 0x1212:
+            raise ValueError("0x10003b12 != 0x1212")
+        struct.pack_into("<H", out, raw + (0x10003B12 - lo), 0x0009)
+        # ★ 글자 스트라이드 320→128 (레코드 격자 25글자→62글자, 줄 20→8).
+        #   draw 프롤로그 0x10003542 mov #80,r1 (=0xE150) → mov #32,r1 (=0xE120).
+        #   copy 쪽은 stub_rec_x2 안에서 이미 mov #32 로 재현. 최대 3줄이라 8줄 여유 안전.
+        if struct.unpack_from("<H", blob, raw + (0x10003542 - lo))[0] != 0xE150:
+            raise ValueError("0x10003542 != 0xE150")
+        struct.pack_into("<H", out, raw + (0x10003542 - lo), 0xE120)
+        # ★ 렌더러 조각수 클램프 min(cnt,25) → min(cnt,62). 0x10007c32 mov #25,r3
+        #   (0xE319), 0x10007c38 mov #25,r2 (0xE219) → #62 (0xE33E / 0xE23E).
+        for cva, orig, new in ((0x10007C32, 0xE319, 0xE33E), (0x10007C38, 0xE219, 0xE23E)):
+            if struct.unpack_from("<H", blob, raw + (cva - lo))[0] != orig:
+                raise ValueError(f"{cva:#x} != {orig:#06x}")
+            struct.pack_into("<H", out, raw + (cva - lo), new)
+        # ★ 글리프 버퍼 크기 alloc(@(40,r8)+1) → +64 (조각수 62 여유). 0x10007766
+        #   add #1,r4 (0x7401) → add #64,r4 (0x7440).
+        if struct.unpack_from("<H", blob, raw + (0x10007766 - lo))[0] != 0x7401:
+            raise ValueError("0x10007766 != 0x7401")
+        struct.pack_into("<H", out, raw + (0x10007766 - lo), 0x7440)
+        note = (f"가변폭(rec.x2): adv{len(s_adv)}+dc1{len(s_dc1)}+cpy{len(s_cpy)}B "
+                f"표{len(table)}B({npages}p) @ {va:#x} · 훅 {HOOK:#x}/{HOOK3:#x}/{HOOK2:#x}"
+                f"→{t_va:#x} · 0x10003b12 nop")
+        return bytes(out), note
+
+    # (mode is not True: 단일 draw 훅 진단 경로)
+    payload = code + table
     out, foff, _fsize = pesection.add(blob, SECTION, len(payload), CHARS)
     va = _section_va(out, SECTION)
-    va2 = va + len(code)                    # measure 스텁 위치
-
     out = bytearray(out)
     out[foff:foff + len(payload)] = payload
-
-    # `.text` 꼬리의 빈 자리에 징검다리를 놓는다 — 훅에서 １６비트로 닿는다
     tramp_va, tramp_off = _cave(out, raw, lo)
-
     tramp = trampoline(tramp_va, va)
     if any(out[tramp_off:tramp_off + len(tramp)]):
         raise ValueError(f"케이브 {tramp_va:#x} 가 비어 있지 않다")
     out[tramp_off:tramp_off + len(tramp)] = tramp
-    # ★ 케이브는 파일 패딩이라 `.text` 의 **가상 크기 밖**이다. 그대로 두면
-    # 로더가 그 자리를 안 올려 ０만 실행된다 — 실제로 그래서 무한 반복이
-    # 안 고쳐졌다. 징검다리 끝까지 덮이도록 VirtualSize 를 늘린다.
     _grow_virtual(out, ".text", (tramp_va - lo) + len(tramp))
-
-    hook = hook_code(HOOK, tramp_va)
-    out[raw + (HOOK - lo): raw + (HOOK - lo) + HOOK_LEN] = hook
-
-    # ★ 뛰는 자리를 다시 계산해 맞는지 본다. 예전에 명령을 하나 더하고 거리
-    # 식을 안 고쳐 ２바이트 어긋난 자리로 뛰었다 — 죽지는 않고 글자 인덱스가
-    # 안 늘어 같은 음성이 １초마다 되풀이됐다. 눈으로는 못 잡는 종류다.
+    out[raw + (HOOK - lo): raw + (HOOK - lo) + HOOK_LEN] = hook_code(HOOK, tramp_va)
     _check_jump(out, raw, lo, tramp_va, va)
-
-    # ★ 두 번째 훅 — 복사 루프(HOOK2)에서 배열[charIdx] 채우기. 첫 징검다리 바로
-    # 뒤에 두 번째 징검다리를 놓고, HOOK2 를 그리로 뛰게 한다.
-    HOOK2_ENABLED = True    # ← 복사 훅(버퍼 채우기) 활성
-    if mode is True and HOOK2_ENABLED:
-        for i, want in enumerate(HOOK2_ORIG):
-            got = struct.unpack_from("<H", blob, raw + (HOOK2 - lo) + i * 2)[0]
-            if got != want:
-                raise ValueError(
-                    f"{HOOK2 + i * 2:#x} 워드가 {got:#06x} — {want:#06x} 를 기대했다")
-        tramp2_va = tramp_va + len(tramp)
-        tramp2_off = tramp_off + len(tramp)
-        tramp2 = trampoline(tramp2_va, va2)
-        if any(out[tramp2_off:tramp2_off + len(tramp2)]):
-            raise ValueError(f"케이브2 {tramp2_va:#x} 가 비어 있지 않다")
-        out[tramp2_off:tramp2_off + len(tramp2)] = tramp2
-        _grow_virtual(out, ".text", (tramp2_va - lo) + len(tramp2))
-        hook2 = hook_code(HOOK2, tramp2_va)
-        out[raw + (HOOK2 - lo): raw + (HOOK2 - lo) + HOOK2_LEN] = hook2
-
     what = (f"가변폭[진단 {mode}]: 스텁 {len(code)}B" if flat else
             f"가변폭: 스텁 {len(code)}B + 표 {len(table)}B({npages}페이지)")
     note = f"{what} @ {va:#x} · 징검다리 {tramp_va:#x} · 훅 {HOOK:#x}"
-    if mode is True and HOOK2_ENABLED:
-        note += f" · 복사훅 {HOOK2:#x}→{tramp2_va:#x}(스텁 {va2:#x})"
     return bytes(out), note
 
 
