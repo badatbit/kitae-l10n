@@ -195,14 +195,15 @@ def _render_picture(texes, w, h, blits):
     return canvas
 
 
-def compose(cab, set_name):
-    """Build the full picture described by a `<name>.SET`.
+def pictures(cab, set_name):
+    """Render each picture of a `<name>.SET` on its own canvas → list of images.
 
-    A `.SET` may hold several pictures (CTRFPictures `count`); a multi-line
-    caption stores one line per picture.  All pictures are stacked vertically
-    so the whole message is visible.  A single-picture set renders unchanged.
+    A `.SET` may hold several pictures (CTRFPictures `count`). They are NOT one
+    tall image: each is a separate frame/overlay drawn over the screen at its own
+    size and position (e.g. Namein.SET = 13 distinct UI elements — menu strips,
+    a 24×24 cursor, the 460×170 name box …). Each is rendered at its header
+    `w×h`, so blit destinations keep their on-screen coordinates.
     """
-    from PIL import Image
     from kitae.core.clss import parse
     root, objs = parse(cab.read(set_name))
     tex_obj, pic_obj = _find(objs, "CTRFTexture"), _find(objs, "CTRFPictures")
@@ -217,7 +218,17 @@ def compose(cab, set_name):
     pics = _pictures(pic_obj.payload)
     if not pics:
         raise ValueError(f"{set_name}: no pictures")
-    rendered = [_render_picture(texes, w, h, blits) for (w, h, blits) in pics]
+    return [_render_picture(texes, w, h, blits) for (w, h, blits) in pics]
+
+
+def compose(cab, set_name):
+    """Single image for a `<name>.SET`; multi-picture sets stack vertically.
+
+    Kept for convenience/back-compat. To keep the pictures separate (usually
+    what you want, since they are independent overlays) use `pictures()`.
+    """
+    from PIL import Image
+    rendered = pictures(cab, set_name)
     if len(rendered) == 1:
         return rendered[0]
     width = max(im.width for im in rendered)
@@ -228,6 +239,26 @@ def compose(cab, set_name):
         canvas.paste(im, (0, y), im)
         y += im.height
     return canvas
+
+
+def save_set(cab, set_name, out_dir):
+    """Save a `.SET` as PNG(s) into `out_dir`. One picture → `<base>.png`;
+    several → `<base>_00.png`, `<base>_01.png`, … (kept separate, not stacked,
+    since the pictures are independent overlays). Returns the paths written.
+    """
+    base = set_name.rsplit(".", 1)[0]
+    imgs = pictures(cab, set_name)
+    written = []
+    if len(imgs) == 1:
+        p = os.path.join(out_dir, base + ".png")
+        imgs[0].save(p)
+        written.append(p)
+    else:
+        for i, im in enumerate(imgs):
+            p = os.path.join(out_dir, f"{base}_{i:02d}.png")
+            im.save(p)
+            written.append(p)
+    return written
 
 
 def main():
@@ -246,14 +277,12 @@ def main():
             if not nm.lower().endswith(".set"):
                 continue
             try:
-                compose(cab, nm).save(  # noqa: E501
-                    os.path.join(out, nm.rsplit(".", 1)[0] + ".png"))
-                ok += 1
+                ok += len(save_set(cab, nm, out))
             except Exception as e:
                 fail += 1
                 if fail <= 5:
                     print(f"  FAIL {nm}: {e}")
-        print(f"{ok} pictures composed, {fail} failed -> {out}")
+        print(f"{ok} pictures saved, {fail} sets failed -> {out}")
         return
     if sys.argv[2] == "--all":
         out = sys.argv[3]
