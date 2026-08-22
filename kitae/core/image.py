@@ -145,8 +145,63 @@ def _find(objs, cls):
     return None
 
 
+def _pictures(payload):
+    """CTRFPictures 를 그림 리스트로 분해.
+
+    구조:  u32 count,  그림마다 [u16 hdr, u16 nblit, u16 w, u16 h, u32 pad]
+    (12바이트 헤더) 다음에 nblit 개의 20바이트 blit 레코드.  다음 그림은
+    `pos + 12 + nblit*20` 에서 시작한다.  옛 코드는 count 를 무시하고 첫 그림만
+    읽어 여러 줄짜리 문구(예: soz_001 = 4줄)의 둘째 줄부터가 통째로 빠졌다.
+    """
+    out = []
+    if len(payload) < 4:
+        return out
+    count = struct.unpack_from("<I", payload, 0)[0]
+    pos = 4
+    for _ in range(max(count, 1)):
+        if pos + 12 > len(payload):
+            break
+        _hdr, nblit, w, h = struct.unpack_from("<HHHH", payload, pos)
+        bstart = pos + 12
+        blits = []
+        for i in range(nblit):
+            o = bstart + i * 20
+            if o + 20 > len(payload):
+                break
+            tex = struct.unpack_from("<I", payload, o)[0]
+            src = struct.unpack_from("<4H", payload, o + 4)
+            dst = struct.unpack_from("<4H", payload, o + 12)
+            blits.append((tex, src, dst))
+        out.append((w, h, blits))
+        pos = bstart + nblit * 20
+    return out
+
+
+def _render_picture(texes, w, h, blits):
+    from PIL import Image
+    # 헤더 w/h 가 비거나 이상하면 dst 범위로 캔버스를 잡는다
+    if not (0 < w <= 2048 and 0 < h <= 2048):
+        w = max([d[2] for _, _, d in blits] + [0]) + 1
+        h = max([d[3] for _, _, d in blits] + [0]) + 1
+    canvas = Image.new("RGBA", (max(1, w), max(1, h)), (0, 0, 0, 0))
+    for tex, (sx0, sy0, sx1, sy1), (dx0, dy0, dx1, dy1) in blits:
+        if tex >= len(texes):
+            continue
+        part = texes[tex].crop((sx0, sy0, sx1 + 1, sy1 + 1))
+        tgt = (max(1, dx1 - dx0 + 1), max(1, dy1 - dy0 + 1))
+        if part.size != tgt:
+            part = part.resize(tgt)
+        canvas.paste(part, (dx0, dy0))
+    return canvas
+
+
 def compose(cab, set_name):
-    """Build the full picture described by a `<name>.SET`."""
+    """Build the full picture described by a `<name>.SET`.
+
+    A `.SET` may hold several pictures (CTRFPictures `count`); a multi-line
+    caption stores one line per picture.  All pictures are stacked vertically
+    so the whole message is visible.  A single-picture set renders unchanged.
+    """
     from PIL import Image
     from kitae.core.clss import parse
     root, objs = parse(cab.read(set_name))
@@ -159,21 +214,19 @@ def compose(cab, set_name):
              if s and s.lower().endswith(b".dds")]
     texes = [TrfImage(cab.read(n)).to_image() for n in names]
 
-    p = pic_obj.payload
-    hdr, nblit = struct.unpack_from("<HH", p, 4)
-    width, height = struct.unpack_from("<HH", p, 8)
+    pics = _pictures(pic_obj.payload)
+    if not pics:
+        raise ValueError(f"{set_name}: no pictures")
+    rendered = [_render_picture(texes, w, h, blits) for (w, h, blits) in pics]
+    if len(rendered) == 1:
+        return rendered[0]
+    width = max(im.width for im in rendered)
+    height = sum(im.height for im in rendered)
     canvas = Image.new("RGBA", (width, height), (0, 0, 0, 0))
-    for i in range(nblit):
-        o = hdr + i * 20
-        tex = struct.unpack_from("<I", p, o)[0]
-        sx0, sy0, sx1, sy1 = struct.unpack_from("<4H", p, o + 4)
-        dx0, dy0, dx1, dy1 = struct.unpack_from("<4H", p, o + 12)
-        if tex >= len(texes):
-            continue
-        part = texes[tex].crop((sx0, sy0, sx1 + 1, sy1 + 1))
-        if part.size != (dx1 - dx0 + 1, dy1 - dy0 + 1):
-            part = part.resize((dx1 - dx0 + 1, dy1 - dy0 + 1))
-        canvas.paste(part, (dx0, dy0))
+    y = 0
+    for im in rendered:
+        canvas.paste(im, (0, y), im)
+        y += im.height
     return canvas
 
 
