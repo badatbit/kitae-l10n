@@ -1,4 +1,4 @@
-# kitahe-l10n
+# 북으로. White Illumination 한국어 패치
 
 드림캐스트 **北へ。White Illumination** (Hudson, 1999) 한국어화 도구 모음.
 

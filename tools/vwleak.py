@@ -27,10 +27,12 @@ braf 분기 타깃을 유효 코드 페이지로 못 잡는 것**이다. 링버�
 있다. 다만 스텁이 남기는 것은 값이므로, r10/r8 이 P1(0x8Cxxxxxx) 형식이면 그대로
 읽을 수 있다.
 """
+import os
 import struct
 import sys
 
-sys.path.insert(0, r"F:\dev-kitahe\kitahe-l10n")
+sys.path.insert(0, os.path.dirname(os.path.dirname(
+    os.path.abspath(__file__))))              # 저장소 루트 (tools/..)
 from kitae.build import sh4
 
 HOOK_PHYS = 0x8CCAB5B4

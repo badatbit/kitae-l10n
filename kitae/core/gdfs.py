@@ -7,7 +7,21 @@ Usage:
 """
 import struct, sys, os
 
-TRACK = r"F:\dev-kitahe\kitahe-org\Kita He - White Illumination v2.002 (1999)(Hudson)(JP)[!]\track03.bin"
+
+def _default_track():
+    """원본 트랙 경로 — kitae.config.json 의 orig_dir 에서 찾는다(하드코딩 제거).
+
+    설정이 없거나 덤프가 없으면 None. 실빌드(runner)는 staged 트랙을 명시로 넘기니
+    이 기본값에 의존하지 않는다 — GdFs()/patch() 를 인자 없이 쓰는 경우의 기본값이다.
+    """
+    try:
+        from kitae.config import Config
+        return Config.load().track(3)
+    except Exception:
+        return None
+
+
+TRACK = _default_track()
 BASE_LBA = 45000
 RAW = 2352  # raw mode-1 sector: 16B header + 2048B data + 288B EDC/ECC
 

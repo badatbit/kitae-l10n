@@ -26,7 +26,8 @@ import re
 import sys
 
 sys.stdout.reconfigure(encoding='utf-8')
-sys.path.insert(0, r"f:\dev-kitahe\kitahe-l10n")
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(
+    os.path.abspath(__file__)))))            # 저장소 루트 (translation/src/../../..)
 from kitae.core.windows import MARKUP          # noqa: E402
 from kitae.build.hangul import is_hangul        # noqa: E402
 

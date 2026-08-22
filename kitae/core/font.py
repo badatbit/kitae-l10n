@@ -69,24 +69,20 @@ assert len(LEAD_TABLE) == 42
 LEAD_INDEX = {b: i for i, b in enumerate(LEAD_TABLE)}
 NUM_SLOTS = len(LEAD_TABLE) * CELLS_PER_LEAD  # 7938
 
-_DEFAULT_DLL_CANDIDATES = (
-    r"f:\dev-kitahe\kitahe-l10n\dump\build\TRF\TRFSTRINGS.DLL",
-    r"f:\dev-kitahe\kitahe-l10n\dump\assets\TRF\TRFSTRINGS.DLL",
-    os.path.join(os.environ.get("TEMP", ""), "claude", "f--dev-kitahe",
-                 "7d651431-514a-4342-b14a-3c75d457183a", "scratchpad",
-                 "ext", "TRF", "TRFSTRINGS.DLL"),
-)
-
-
 def _default_dll():
-    env = os.environ.get("TRFSTRINGS_DLL")
-    if env and os.path.exists(env):
-        return env
-    for p in _DEFAULT_DLL_CANDIDATES:
-        if p and os.path.exists(p):
-            return p
+    # 경로 해석은 kitae.config 한 곳에 모았다 (env > config paths > 저장소 dump/).
+    try:
+        from kitae.config import Config
+        p = Config.load().trfstrings_dll()
+    except Exception:
+        p = os.environ.get("TRFSTRINGS_DLL")
+        if p and not os.path.exists(p):
+            p = None
+    if p:
+        return p
     raise FileNotFoundError(
-        "TRFSTRINGS.DLL not found; pass a path to Font() or set $TRFSTRINGS_DLL")
+        "TRFSTRINGS.DLL not found; pass a path to Font(), set $TRFSTRINGS_DLL, "
+        "또는 kitae.config.json 의 paths.trfstrings_dll 을 지정하세요")
 
 
 # ---------------------------------------------------------------- addressing

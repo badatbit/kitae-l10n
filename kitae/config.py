@@ -28,6 +28,12 @@ DEFAULTS = {
                   0xE7, 0xE8, 0xE9, 0xEA, 0xE0, 0x9C, 0x9D, 0x9E, 0x9F],
     },
     "scripts": ["KOTORI_01"],             # 작업 대상 시나리오
+    # 기계마다 다른 절대경로 오버라이드. 비우면 저장소 기준으로 찾으므로,
+    # 클론만 하면 대개 손댈 필요가 없다. 절대경로를 적으면 그걸 그대로 쓴다.
+    "paths": {
+        # 폰트 소스 DLL. 비면 dump/build|assets/TRF/TRFSTRINGS.DLL 를 찾는다.
+        "trfstrings_dll": "",
+    },
 }
 
 
@@ -94,6 +100,25 @@ class Config(dict):
     @property
     def translation_dir(self):
         return self.path("translation")
+
+    def trfstrings_dll(self):
+        """폰트 소스 TRFSTRINGS.DLL 경로. env > config paths > 저장소 dump/ 순.
+
+        하나도 못 찾으면 None. (하드코딩을 없애고 이 한 곳으로 모았다.)
+        """
+        env = os.environ.get("TRFSTRINGS_DLL")
+        if env and os.path.exists(env):
+            return env
+        override = (self.get("paths") or {}).get("trfstrings_dll")
+        if override:
+            p = self.path(override)
+            if os.path.exists(p):
+                return p
+        for sub in ("build", "assets"):
+            p = self.path("dump", sub, "TRF", "TRFSTRINGS.DLL")
+            if os.path.exists(p):
+                return p
+        return None
 
     def track(self, n=3):
         """원본 덤프의 트랙 파일 경로."""
