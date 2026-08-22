@@ -69,6 +69,9 @@ class Cab:
         tag, payload = self.get(name)
         if tag == b"ENC0":
             return payload[:esz]
+        if tag == b"ENC1":
+            from kitae.core.enc1 import decompress
+            return decompress(payload, esz)
         if tag == b"ENC2":
             from kitae.core.enc2 import decompress
             return decompress(payload, esz)
