@@ -162,6 +162,9 @@ def _pictures(payload):
         if pos + 12 > len(payload):
             break
         _hdr, nblit, w, h = struct.unpack_from("<HHHH", payload, pos)
+        # w,h 뒤 4바이트 = 픽처의 화면 offset (i16 x, i16 y). blit dst 는 이
+        # offset 기준 상대좌표다 — 무시하면(0,0 에 붙이면) 라벨/점이 어긋난다.
+        ox, oy = struct.unpack_from("<hh", payload, pos + 8)
         bstart = pos + 12
         blits = []
         for i in range(nblit):
@@ -172,18 +175,17 @@ def _pictures(payload):
             src = struct.unpack_from("<4H", payload, o + 4)
             dst = struct.unpack_from("<4H", payload, o + 12)
             blits.append((tex, src, dst))
-        out.append((w, h, blits))
+        out.append((w, h, ox, oy, blits))
         pos = bstart + nblit * 20
     return out
 
 
-def _render_picture(texes, w, h, blits):
+def _render_picture(texes, cw, ch, ox, oy, blits):
+    """한 픽처를 `cw×ch` 캔버스에 렌더. blit 은 픽처 offset `(ox,oy)` 기준이라
+    최종 위치 = `(ox+dx, oy+dy)`. 그래서 픽처들을 (0,0) 에 겹치면 바로 합쳐진다.
+    """
     from PIL import Image
-    # 헤더 w/h 가 비거나 이상하면 dst 범위로 캔버스를 잡는다
-    if not (0 < w <= 2048 and 0 < h <= 2048):
-        w = max([d[2] for _, _, d in blits] + [0]) + 1
-        h = max([d[3] for _, _, d in blits] + [0]) + 1
-    canvas = Image.new("RGBA", (max(1, w), max(1, h)), (0, 0, 0, 0))
+    canvas = Image.new("RGBA", (max(1, cw), max(1, ch)), (0, 0, 0, 0))
     for tex, (sx0, sy0, sx1, sy1), (dx0, dy0, dx1, dy1) in blits:
         if tex >= len(texes):
             continue
@@ -191,18 +193,15 @@ def _render_picture(texes, w, h, blits):
         tgt = (max(1, dx1 - dx0 + 1), max(1, dy1 - dy0 + 1))
         if part.size != tgt:
             part = part.resize(tgt)
-        canvas.paste(part, (dx0, dy0))
+        canvas.alpha_composite(part, (ox + dx0, oy + dy0))
     return canvas
 
 
 def pictures(cab, set_name):
-    """Render each picture of a `<name>.SET` on its own canvas → list of images.
-
-    A `.SET` may hold several pictures (CTRFPictures `count`). They are NOT one
-    tall image: each is a separate frame/overlay drawn over the screen at its own
-    size and position (e.g. Namein.SET = 13 distinct UI elements — menu strips,
-    a 24×24 cursor, the 460×170 name box …). Each is rendered at its header
-    `w×h`, so blit destinations keep their on-screen coordinates.
+    """Render each picture of a `<name>.SET` → list of images, all on one common
+    canvas and each placed at its own `(ox,oy)` offset. So overlaying (alpha) the
+    returned images at (0,0) reconstructs the full picture — the layers (e.g.
+    soz_068 = base + dots + labels) line up because the offset is baked in.
     """
     from kitae.core.clss import parse
     root, objs = parse(cab.read(set_name))
@@ -218,26 +217,59 @@ def pictures(cab, set_name):
     pics = _pictures(pic_obj.payload)
     if not pics:
         raise ValueError(f"{set_name}: no pictures")
-    return [_render_picture(texes, w, h, blits) for (w, h, blits) in pics]
+    # 공통 캔버스: 헤더 w/h 의 최대(대개 화면 크기). 이상값은 무시.
+    ws = [w for (w, h, ox, oy, b) in pics if 0 < w <= 2048]
+    hs = [h for (w, h, ox, oy, b) in pics if 0 < h <= 2048]
+    cw = max(ws) if ws else 640
+    ch = max(hs) if hs else 480
+    return [_render_picture(texes, cw, ch, ox, oy, blits)
+            for (w, h, ox, oy, blits) in pics]
 
 
 def compose(cab, set_name):
-    """Single image for a `<name>.SET`; multi-picture sets stack vertically.
-
-    Kept for convenience/back-compat. To keep the pictures separate (usually
-    what you want, since they are independent overlays) use `pictures()`.
+    """Single flattened image for a `<name>.SET` — all pictures overlaid at their
+    offsets (base + dots + labels …). Use `pictures()` to keep the layers apart.
     """
     from PIL import Image
     rendered = pictures(cab, set_name)
     if len(rendered) == 1:
         return rendered[0]
-    width = max(im.width for im in rendered)
-    height = sum(im.height for im in rendered)
-    canvas = Image.new("RGBA", (width, height), (0, 0, 0, 0))
-    y = 0
+    canvas = Image.new("RGBA", rendered[0].size, (0, 0, 0, 0))
     for im in rendered:
-        canvas.paste(im, (0, y), im)
-        y += im.height
+        canvas.alpha_composite(im)
+    return canvas
+
+
+# ---------------------------------------------------------------- recompose
+# 조각 배치 예외 규칙. 일부 셋(예: soz-068)은 CTRFPictures 의 blit de-pack 이
+# 아니라, 여러 텍스처 조각을 캔버스에 그대로 이어붙여야 완성된다(게임 로더가
+# 런타임에 조립하는 모양 — .SET 에 그 배치가 없다). 자동 추론이 위험하므로
+# (type-lettering README 의 recompose 원칙: 눈검증 후 데이터로 고정) 셋별로
+# 손으로 확인한 move 스펙을 여기 둔다.
+#   move = (텍스처명, (sx, sy, w, h) 소스 크롭, (dx, dy) 캔버스 위치)
+RECOMPOSE = {
+    "soz-068": {  # 스스키노 라벨 지도 — 타일 3장을 이어붙인다(가로 + t2 분할)
+        "canvas": (620, 465),
+        "moves": [
+            ("soz-068_00.dds", (0, 0, 256, 256), (0, 0)),
+            ("soz-068_01.dds", (0, 0, 256, 256), (256, 0)),
+            ("soz-068_02.dds", (0, 0, 128, 128), (512, 0)),      # t2 좌상 → 우상
+            ("soz-068_02.dds", (128, 0, 128, 128), (512, 128)),  # t2 우상 → 우하
+            ("soz-068_02.dds", (0, 128, 256, 128), (0, 256)),    # t2 아래 → 좌하
+        ],
+    },
+}
+
+
+def recompose(cab, key):
+    """RECOMPOSE 예외 규칙대로 텍스처 조각을 이어붙인 완성 이미지."""
+    from PIL import Image
+    spec = RECOMPOSE[key]
+    cw, ch = spec["canvas"]
+    canvas = Image.new("RGBA", (cw, ch), (0, 0, 0, 0))
+    for name, (sx, sy, w, h), (dx, dy) in spec["moves"]:
+        tex = TrfImage(cab.read(name)).to_image().convert("RGBA")
+        canvas.alpha_composite(tex.crop((sx, sy, sx + w, sy + h)), (dx, dy))
     return canvas
 
 
@@ -245,8 +277,15 @@ def save_set(cab, set_name, out_dir):
     """Save a `.SET` as PNG(s) into `out_dir`. One picture → `<base>.png`;
     several → `<base>_00.png`, `<base>_01.png`, … (kept separate, not stacked,
     since the pictures are independent overlays). Returns the paths written.
+
+    A set listed in RECOMPOSE is assembled by its move spec into one image
+    (`<base>_00.png`) instead of the CTRFPictures de-pack.
     """
     base = set_name.rsplit(".", 1)[0]
+    if base in RECOMPOSE:
+        p = os.path.join(out_dir, base + "_00.png")
+        recompose(cab, base).save(p)
+        return [p]
     imgs = pictures(cab, set_name)
     written = []
     if len(imgs) == 1:
