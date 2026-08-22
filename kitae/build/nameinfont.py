@@ -50,7 +50,7 @@ def patch(cfg, lang, encode, dll):
     seen = set()
     for e in j.get("entries", []):
         for c in e.get("text", {}).get(lang, ""):
-            if c in ("　", "\n", " ") or c in seen:
+            if c in ("　", "\n", " ", " ", " ") or c in seen:
                 continue
             seen.add(c)
             chars.append(c)

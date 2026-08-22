@@ -227,12 +227,22 @@ def planes(gray, solid=128, edge=40):
     return body, fringe
 
 
+# UI 정렬용 폭 스페이서 — 이름화면 예/아니오처럼 상자에 맞춰 미세 배치할 때 쓴다.
+# 게임 폰트는 바이트 수로 전진폭이 갈린다: 1바이트=반각 12px, 2바이트=전각 24px.
+#   U+2002(EN SPACE)  -> 0x20    반각 공백 12px
+#   U+2003(EM SPACE)  -> 0x8140  전각 공백 24px
+# (cp932 에 없는 문자라 그냥 두면 인코딩 실패 → 여기서 게임 공백 칸으로 매핑.)
+_SPACER = {" ": b"\x20", " ": b"\x81\x40"}
+
+
 def encode(text, cp):
     """Korean-aware replacement for `text.encode('cp932')`."""
     out = bytearray()
     for ch in text:
         if ch in cp:
             out += bytes(cp[ch])
+        elif ch in _SPACER:
+            out += _SPACER[ch]
         else:
             out += ch.encode("cp932")
     return bytes(out)

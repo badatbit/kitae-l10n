@@ -1,6 +1,6 @@
 {
  "note": "조회 키라서 번역하지 않은 문자열. docs/UI-TEXT.md 참고",
- "count": 83,
+ "count": 100,
  "entries": [
   {
    "module": "COMMONSAVE",
@@ -148,6 +148,11 @@
    "ja": "セーブ場所"
   },
   {
+   "module": "KITACMDMENU",
+   "offset": "0x01ac00",
+   "ja": "ターニャ"
+  },
+  {
    "module": "KITATITLE",
    "offset": "0x010a34",
    "ja": "ナレスキップ"
@@ -274,8 +279,88 @@
   },
   {
    "module": "TRFQUIZ",
+   "offset": "0x0201b0",
+   "ja": "琴梨"
+  },
+  {
+   "module": "TRFQUIZ",
+   "offset": "0x0201b8",
+   "ja": "鮎"
+  },
+  {
+   "module": "TRFQUIZ",
+   "offset": "0x0201bc",
+   "ja": "ターニャ"
+  },
+  {
+   "module": "TRFQUIZ",
+   "offset": "0x0201c8",
+   "ja": "由子"
+  },
+  {
+   "module": "TRFQUIZ",
+   "offset": "0x0201d0",
+   "ja": "薫"
+  },
+  {
+   "module": "TRFQUIZ",
+   "offset": "0x0201d4",
+   "ja": "葉野香"
+  },
+  {
+   "module": "TRFQUIZ",
+   "offset": "0x0201dc",
+   "ja": "梢"
+  },
+  {
+   "module": "TRFQUIZ",
+   "offset": "0x0201e0",
+   "ja": "めぐみ"
+  },
+  {
+   "module": "TRFQUIZ",
+   "offset": "0x02025c",
+   "ja": "ターニャ"
+  },
+  {
+   "module": "TRFQUIZ",
+   "offset": "0x020a4c",
+   "ja": "主人公"
+  },
+  {
+   "module": "TRFQUIZ",
    "offset": "0x020b34",
    "ja": "オプション"
+  },
+  {
+   "module": "TRFQUIZ",
+   "offset": "0x020b40",
+   "ja": "対戦相手１"
+  },
+  {
+   "module": "TRFQUIZ",
+   "offset": "0x020b4c",
+   "ja": "対戦相手２"
+  },
+  {
+   "module": "TRFQUIZ",
+   "offset": "0x020ba4",
+   "ja": "誰がびり"
+  },
+  {
+   "module": "TRFQUIZ",
+   "offset": "0x020bd4",
+   "ja": "クイズのスコア"
+  },
+  {
+   "module": "TRFQUIZ",
+   "offset": "0x020c00",
+   "ja": "クイズのハイスコア１"
+  },
+  {
+   "module": "TRFQUIZ",
+   "offset": "0x020c18",
+   "ja": "クイズの結果"
   },
   {
    "module": "TRFQUIZ",

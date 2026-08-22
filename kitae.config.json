@@ -41,9 +41,12 @@
     "HANYOU",
     "KOTORI_03"
   ],
+  "paths": {
+    "trfstrings_dll": ""
+  },
   "emulator_fixes": {
     "choice_gate": true
   },
-  "font_variable": true,
+  "font_variable": false,
   "vw_extension": false
 }
