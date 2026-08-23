@@ -123,6 +123,10 @@ class TrfImage:
         rlut = bytes(v * 255 // rmax for v in range(rmax + 1)) if rmax else b"\0"
         glut = bytes(v * 255 // gmax for v in range(gmax + 1)) if gmax else b"\0"
         blut = bytes(v * 255 // bmax for v in range(bmax + 1)) if bmax else b"\0"
+        # 알파도 마스크 비트수대로 스케일한다 — ARGB1555 는 1비트(이진),
+        # ARGB4444 는 4비트(16단계 그라디언트). 예전엔 무조건 이진이라
+        # 4444 라벨의 그라디언트 알파가 뭉개졌다.
+        alut = bytes(v * 255 // amax for v in range(amax + 1)) if amax else b"\0"
 
         out = bytearray(len(px) * 4)
         rm, gm, bm, am = self.rmask, self.gmask, self.bmask, amask
@@ -131,7 +135,7 @@ class TrfImage:
             out[o] = rlut[(v & rm) >> rs]
             out[o + 1] = glut[(v & gm) >> gs]
             out[o + 2] = blut[(v & bm) >> bs]
-            out[o + 3] = 255 if not am else (255 if (v & am) else 0)
+            out[o + 3] = 255 if not am else alut[(v & am) >> as_]
         return Image.frombytes("RGBA", (self.width, self.height), bytes(out))
 
 
