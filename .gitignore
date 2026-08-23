@@ -10,3 +10,9 @@ __pycache__/
 *.DLL
 *.EXE
 tmp/
+
+# 빌드 아티팩트·편집 백업
+*.egg-info/
+*.bak
+*.bak[0-9]
+_textbak/
