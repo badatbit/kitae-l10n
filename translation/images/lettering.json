@@ -1,0 +1,10072 @@
+{
+ "styles": [
+  {
+   "name": "map_label",
+   "font_family_ko": "IBM Plex Sans KR",
+   "font_weight": 500,
+   "font_size_px": 24,
+   "text_align": "mt",
+   "fill_rgb": "#FF0000",
+   "effect": "drop_shadow(dx=1,dy=1,blur=0,color=#FFFFFF)",
+   "offset_y": 15
+  },
+  {
+   "name": "map_label1",
+   "base": "map_label",
+   "offset_y": -15,
+   "text_align": "mb"
+  },
+  {
+   "name": "map_label-5",
+   "base": "map_label1"
+  },
+  {
+   "name": "map-small",
+   "font_family_ko": "IBM Plex Sans KR",
+   "font_weight": 600,
+   "font_size_px": 13,
+   "text_align": "mm",
+   "fill_rgb": "#FFFFFF"
+  },
+  {
+   "name": "poi-text",
+   "font_family_ko": "IBM Plex Sans KR",
+   "font_weight": 600,
+   "font_size_px": 20,
+   "fill_rgb": "#000000",
+   "line_height": 1.1,
+   "text_align": "mm"
+  },
+  {
+   "name": "poi-vertical",
+   "base": "poi-text",
+   "line_height": 1,
+   "orientation": "vertical"
+  },
+  {
+   "name": "poi-text-left",
+   "base": "poi-text",
+   "text_align": "lm"
+  },
+  {
+   "name": "poi-text-right",
+   "base": "poi-text",
+   "text_align": "rm"
+  },
+  {
+   "name": "poi-text-alpha",
+   "base": "poi-text",
+   "fill_rgb": "#00000099"
+  }
+ ],
+ "rows": [
+  {
+   "box_id": "som1",
+   "file": "SOZ/soz_011_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "稚内",
+   "ko": "왓카나이",
+   "ocr_id": null,
+   "crop": [
+    271,
+    30,
+    61,
+    48
+   ],
+   "text": [
+    271,
+    30,
+    61,
+    48
+   ],
+   "source": [
+    271,
+    30,
+    61,
+    48
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "map_label",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "jaguk extract (overlay)"
+  },
+  {
+   "box_id": "som2",
+   "file": "SOZ/soz_011_02.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "留萌",
+   "ko": "루모이",
+   "ocr_id": null,
+   "crop": [
+    227,
+    147,
+    60,
+    48
+   ],
+   "text": [
+    227,
+    147,
+    60,
+    48
+   ],
+   "source": [
+    227,
+    147,
+    60,
+    48
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "map_label1",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "jaguk extract (overlay)"
+  },
+  {
+   "box_id": "som3",
+   "file": "SOZ/soz_011_03.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "旭川",
+   "ko": "아사히카와",
+   "ocr_id": null,
+   "crop": [
+    271,
+    184,
+    61,
+    45
+   ],
+   "text": [
+    271,
+    184,
+    61,
+    45
+   ],
+   "source": [
+    271,
+    184,
+    61,
+    45
+   ],
+   "canvas": null,
+   "pad": null,
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "jaguk extract (overlay)",
+   "style": "map_label-5"
+  },
+  {
+   "box_id": "som4",
+   "file": "SOZ/soz_011_04.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "岩見沢",
+   "ko": "이와미자와",
+   "ocr_id": null,
+   "crop": [
+    192,
+    228,
+    95,
+    46
+   ],
+   "text": [
+    192,
+    228,
+    95,
+    46
+   ],
+   "source": [
+    192,
+    228,
+    95,
+    46
+   ],
+   "canvas": null,
+   "pad": null,
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "jaguk extract (overlay)",
+   "style": "map_label1"
+  },
+  {
+   "box_id": "som5",
+   "file": "SOZ/soz_011_05.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "札幌",
+   "ko": "삿포로",
+   "ocr_id": null,
+   "crop": [
+    176,
+    259,
+    63,
+    47
+   ],
+   "text": [
+    176,
+    259,
+    63,
+    47
+   ],
+   "source": [
+    176,
+    259,
+    63,
+    47
+   ],
+   "canvas": null,
+   "pad": null,
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "jaguk extract (overlay)",
+   "style": "map_label"
+  },
+  {
+   "box_id": "som6",
+   "file": "SOZ/soz_011_06.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "倶知安",
+   "ko": "쿳찬",
+   "ocr_id": null,
+   "crop": [
+    102,
+    227,
+    95,
+    48
+   ],
+   "text": [
+    102,
+    227,
+    95,
+    48
+   ],
+   "source": [
+    102,
+    227,
+    95,
+    48
+   ],
+   "canvas": null,
+   "pad": null,
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "jaguk extract (overlay)",
+   "style": "map_label1"
+  },
+  {
+   "box_id": "som7",
+   "file": "SOZ/soz_011_07.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "室蘭",
+   "ko": "무로란",
+   "ocr_id": null,
+   "crop": [
+    126,
+    287,
+    63,
+    47
+   ],
+   "text": [
+    126,
+    287,
+    63,
+    47
+   ],
+   "source": [
+    126,
+    287,
+    63,
+    47
+   ],
+   "canvas": null,
+   "pad": null,
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "jaguk extract (overlay)",
+   "style": "map_label1"
+  },
+  {
+   "box_id": "som8",
+   "file": "SOZ/soz_011_09.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "函館",
+   "ko": "하코다테",
+   "ocr_id": null,
+   "crop": [
+    100,
+    337,
+    63,
+    48
+   ],
+   "text": [
+    100,
+    337,
+    63,
+    48
+   ],
+   "source": [
+    100,
+    337,
+    63,
+    48
+   ],
+   "canvas": null,
+   "pad": null,
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "jaguk extract (overlay)",
+   "style": "map_label1"
+  },
+  {
+   "box_id": "som9",
+   "file": "SOZ/soz_011_11.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "帯広",
+   "ko": "오비히로",
+   "ocr_id": null,
+   "crop": [
+    312,
+    280,
+    61,
+    49
+   ],
+   "text": [
+    312,
+    280,
+    61,
+    49
+   ],
+   "source": [
+    312,
+    280,
+    61,
+    49
+   ],
+   "canvas": null,
+   "pad": null,
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "jaguk extract (overlay)",
+   "style": "map_label1"
+  },
+  {
+   "box_id": "som10",
+   "file": "SOZ/soz_011_12.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "釧路",
+   "ko": "쿠시로",
+   "ocr_id": null,
+   "crop": [
+    410,
+    297,
+    64,
+    50
+   ],
+   "text": [
+    410,
+    297,
+    64,
+    50
+   ],
+   "source": [
+    410,
+    297,
+    64,
+    50
+   ],
+   "canvas": null,
+   "pad": null,
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "jaguk extract (overlay)",
+   "style": "map_label1"
+  },
+  {
+   "box_id": "som11",
+   "file": "SOZ/soz_011_13.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "根室",
+   "ko": "네무로",
+   "ocr_id": null,
+   "crop": [
+    482,
+    287,
+    63,
+    53
+   ],
+   "text": [
+    482,
+    287,
+    63,
+    53
+   ],
+   "source": [
+    482,
+    287,
+    63,
+    53
+   ],
+   "canvas": null,
+   "pad": null,
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "jaguk extract (overlay)",
+   "style": "map_label1"
+  },
+  {
+   "box_id": "som12",
+   "file": "SOZ/soz_011_14.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "網走",
+   "ko": "아바시리",
+   "ocr_id": null,
+   "crop": [
+    419,
+    197,
+    63,
+    49
+   ],
+   "text": [
+    419,
+    197,
+    63,
+    49
+   ],
+   "source": [
+    419,
+    197,
+    63,
+    49
+   ],
+   "canvas": null,
+   "pad": null,
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "jaguk extract (overlay)",
+   "style": "map_label1"
+  },
+  {
+   "box_id": "som13",
+   "file": "SOZ/soz_011_08.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "江差",
+   "ko": "에사시",
+   "ocr_id": null,
+   "crop": [
+    39,
+    313,
+    62,
+    46
+   ],
+   "text": [
+    39,
+    313,
+    62,
+    46
+   ],
+   "source": [
+    39,
+    313,
+    62,
+    46
+   ],
+   "canvas": null,
+   "pad": null,
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "jaguk extract (overlay)",
+   "style": "map_label1"
+  },
+  {
+   "box_id": "som14",
+   "file": "SOZ/soz_011_10.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "浦河",
+   "ko": "우라카와",
+   "ocr_id": null,
+   "crop": [
+    276,
+    357,
+    62,
+    50
+   ],
+   "text": [
+    276,
+    357,
+    62,
+    50
+   ],
+   "source": [
+    276,
+    357,
+    62,
+    50
+   ],
+   "canvas": null,
+   "pad": null,
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "jaguk extract (overlay)",
+   "style": "map_label1"
+  },
+  {
+   "box_id": "som15",
+   "file": "SOZ/soz_011_15.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "稚内",
+   "ko": "왓카나이",
+   "ocr_id": null,
+   "crop": [
+    265,
+    51,
+    28,
+    12
+   ],
+   "text": [
+    265,
+    51,
+    28,
+    12
+   ],
+   "source": [
+    265,
+    51,
+    28,
+    12
+   ],
+   "canvas": null,
+   "pad": null,
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "jaguk extract (overlay)",
+   "style": "map-small"
+  },
+  {
+   "box_id": "som16",
+   "file": "SOZ/soz_011_16.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "留萌",
+   "ko": "루모이",
+   "ocr_id": null,
+   "crop": [
+    241,
+    164,
+    28,
+    13
+   ],
+   "text": [
+    241,
+    164,
+    28,
+    13
+   ],
+   "source": [
+    241,
+    164,
+    28,
+    13
+   ],
+   "canvas": null,
+   "pad": null,
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "jaguk extract (overlay)",
+   "style": "map-small"
+  },
+  {
+   "box_id": "som17",
+   "file": "SOZ/soz_011_17.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "旭川",
+   "ko": "아사히카와",
+   "ocr_id": null,
+   "crop": [
+    285,
+    199,
+    28,
+    12
+   ],
+   "text": [
+    285,
+    199,
+    28,
+    12
+   ],
+   "source": [
+    285,
+    199,
+    28,
+    12
+   ],
+   "canvas": null,
+   "pad": null,
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "jaguk extract (overlay)",
+   "style": "map-small"
+  },
+  {
+   "box_id": "som18",
+   "file": "SOZ/soz_011_18.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "岩見沢",
+   "ko": "이와미자와",
+   "ocr_id": null,
+   "crop": [
+    215,
+    243,
+    44,
+    13
+   ],
+   "text": [
+    215,
+    243,
+    44,
+    13
+   ],
+   "source": [
+    215,
+    243,
+    44,
+    13
+   ],
+   "canvas": null,
+   "pad": null,
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "jaguk extract (overlay)",
+   "style": "map-small"
+  },
+  {
+   "box_id": "som19",
+   "file": "SOZ/soz_011_19.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "札幌",
+   "ko": "삿포로",
+   "ocr_id": null,
+   "crop": [
+    190,
+    276,
+    28,
+    14
+   ],
+   "text": [
+    190,
+    276,
+    28,
+    14
+   ],
+   "source": [
+    190,
+    276,
+    28,
+    14
+   ],
+   "canvas": null,
+   "pad": null,
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "jaguk extract (overlay)",
+   "style": "map-small"
+  },
+  {
+   "box_id": "som20",
+   "file": "SOZ/soz_011_20.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "倶知安",
+   "ko": "쿳찬",
+   "ocr_id": null,
+   "crop": [
+    126,
+    245,
+    44,
+    13
+   ],
+   "text": [
+    126,
+    245,
+    44,
+    13
+   ],
+   "source": [
+    126,
+    245,
+    44,
+    13
+   ],
+   "canvas": null,
+   "pad": null,
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "jaguk extract (overlay)",
+   "style": "map-small"
+  },
+  {
+   "box_id": "som21",
+   "file": "SOZ/soz_011_21.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "室蘭",
+   "ko": "무로란",
+   "ocr_id": null,
+   "crop": [
+    142,
+    303,
+    28,
+    12
+   ],
+   "text": [
+    142,
+    303,
+    28,
+    12
+   ],
+   "source": [
+    142,
+    303,
+    28,
+    12
+   ],
+   "canvas": null,
+   "pad": null,
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "jaguk extract (overlay)",
+   "style": "map-small"
+  },
+  {
+   "box_id": "som22",
+   "file": "SOZ/soz_011_22.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "江差",
+   "ko": "에사시",
+   "ocr_id": null,
+   "crop": [
+    65,
+    328,
+    27,
+    12
+   ],
+   "text": [
+    65,
+    328,
+    27,
+    12
+   ],
+   "source": [
+    65,
+    328,
+    27,
+    12
+   ],
+   "canvas": null,
+   "pad": null,
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "jaguk extract (overlay)",
+   "style": "map-small"
+  },
+  {
+   "box_id": "som23",
+   "file": "SOZ/soz_011_23.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "函館",
+   "ko": "하코다테",
+   "ocr_id": null,
+   "crop": [
+    107,
+    354,
+    29,
+    12
+   ],
+   "text": [
+    107,
+    354,
+    29,
+    12
+   ],
+   "source": [
+    107,
+    354,
+    29,
+    12
+   ],
+   "canvas": null,
+   "pad": null,
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "jaguk extract (overlay)",
+   "style": "map-small"
+  },
+  {
+   "box_id": "som24",
+   "file": "SOZ/soz_011_24.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "浦河",
+   "ko": "우라카와",
+   "ocr_id": null,
+   "crop": [
+    293,
+    376,
+    28,
+    13
+   ],
+   "text": [
+    293,
+    376,
+    28,
+    13
+   ],
+   "source": [
+    293,
+    376,
+    28,
+    13
+   ],
+   "canvas": null,
+   "pad": null,
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "jaguk extract (overlay)",
+   "style": "map-small"
+  },
+  {
+   "box_id": "som25",
+   "file": "SOZ/soz_011_25.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "帯広",
+   "ko": "오비히로",
+   "ocr_id": null,
+   "crop": [
+    328,
+    298,
+    28,
+    13
+   ],
+   "text": [
+    328,
+    298,
+    28,
+    13
+   ],
+   "source": [
+    328,
+    298,
+    28,
+    13
+   ],
+   "canvas": null,
+   "pad": null,
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "jaguk extract (overlay)",
+   "style": "map-small"
+  },
+  {
+   "box_id": "som26",
+   "file": "SOZ/soz_011_26.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "釧路",
+   "ko": "쿠시로",
+   "ocr_id": null,
+   "crop": [
+    427,
+    316,
+    29,
+    13
+   ],
+   "text": [
+    427,
+    316,
+    29,
+    13
+   ],
+   "source": [
+    427,
+    316,
+    29,
+    13
+   ],
+   "canvas": null,
+   "pad": null,
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "jaguk extract (overlay)",
+   "style": "map-small"
+  },
+  {
+   "box_id": "som27",
+   "file": "SOZ/soz_011_27.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "根室",
+   "ko": "네무로",
+   "ocr_id": null,
+   "crop": [
+    498,
+    308,
+    28,
+    14
+   ],
+   "text": [
+    498,
+    308,
+    28,
+    14
+   ],
+   "source": [
+    498,
+    308,
+    28,
+    14
+   ],
+   "canvas": null,
+   "pad": null,
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "jaguk extract (overlay)",
+   "style": "map-small"
+  },
+  {
+   "box_id": "som28",
+   "file": "SOZ/soz_011_28.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "網走",
+   "ko": "아바시리",
+   "ocr_id": null,
+   "crop": [
+    437,
+    215,
+    28,
+    13
+   ],
+   "text": [
+    437,
+    215,
+    28,
+    13
+   ],
+   "source": [
+    437,
+    215,
+    28,
+    13
+   ],
+   "canvas": null,
+   "pad": null,
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "jaguk extract (overlay)",
+   "style": "map-small"
+  },
+  {
+   "box_id": "so1",
+   "file": "SOZ/soz_013_02.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "おくむら生花店",
+   "ko": "오쿠무라 꽂집",
+   "ocr_id": null,
+   "crop": [
+    419,
+    69,
+    140,
+    22
+   ],
+   "text": [
+    419,
+    69,
+    140,
+    22
+   ],
+   "source": [
+    419,
+    69,
+    140,
+    22
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so2",
+   "file": "SOZ/soz_013_02.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "YES",
+   "ko": "YES",
+   "ocr_id": null,
+   "crop": [
+    296,
+    64,
+    37,
+    20
+   ],
+   "text": [
+    296,
+    64,
+    37,
+    20
+   ],
+   "source": [
+    296,
+    64,
+    37,
+    20
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so3",
+   "file": "SOZ/soz_013_02.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "狸小路",
+   "ko": "다누키코지",
+   "ocr_id": null,
+   "crop": [
+    230,
+    109,
+    94,
+    21
+   ],
+   "text": [
+    230,
+    109,
+    94,
+    21
+   ],
+   "source": [
+    230,
+    109,
+    94,
+    21
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so4",
+   "file": "SOZ/soz_013_02.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "千秋庵",
+   "ko": "센슈안",
+   "ocr_id": null,
+   "crop": [
+    278,
+    165,
+    65,
+    22
+   ],
+   "text": [
+    278,
+    165,
+    65,
+    22
+   ],
+   "source": [
+    278,
+    165,
+    65,
+    22
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so5",
+   "file": "SOZ/soz_013_02.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "アルシュ",
+   "ko": "아르슈",
+   "ocr_id": null,
+   "crop": [
+    175,
+    173,
+    78,
+    22
+   ],
+   "text": [
+    175,
+    173,
+    78,
+    22
+   ],
+   "source": [
+    175,
+    173,
+    78,
+    22
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so6",
+   "file": "SOZ/soz_013_02.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "アーバン札幌",
+   "ko": "어반 삿포로",
+   "ocr_id": null,
+   "crop": [
+    135,
+    231,
+    130,
+    22
+   ],
+   "text": [
+    135,
+    231,
+    130,
+    22
+   ],
+   "source": [
+    135,
+    231,
+    130,
+    22
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so7",
+   "file": "SOZ/soz_013_02.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "すすきの",
+   "ko": "스스키노",
+   "ocr_id": null,
+   "crop": [
+    264,
+    270,
+    21,
+    86
+   ],
+   "text": [
+    264,
+    270,
+    21,
+    86
+   ],
+   "source": [
+    264,
+    270,
+    21,
+    86
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-vertical",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so8",
+   "file": "SOZ/soz_013_02.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "豊水すすきの",
+   "ko": "호스이스스키노",
+   "ocr_id": null,
+   "crop": [
+    592,
+    281,
+    20,
+    146
+   ],
+   "text": [
+    592,
+    281,
+    20,
+    146
+   ],
+   "source": [
+    592,
+    281,
+    20,
+    146
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-vertical",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so10",
+   "file": "SOZ/soz_013_02.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "F45ビル",
+   "ko": "F45빌딩",
+   "ocr_id": null,
+   "crop": [
+    36,
+    303,
+    78,
+    20
+   ],
+   "text": [
+    36,
+    303,
+    78,
+    20
+   ],
+   "source": [
+    36,
+    303,
+    78,
+    20
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so14",
+   "file": "SOZ/soz_013_02.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "ロビンソンのグリーン",
+   "ko": "로빈슨",
+   "ocr_id": null,
+   "crop": [
+    143,
+    338,
+    91,
+    21
+   ],
+   "text": [
+    143,
+    338,
+    91,
+    21
+   ],
+   "source": [
+    143,
+    338,
+    91,
+    21
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so15",
+   "file": "SOZ/soz_013_02.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "グリーンビル2",
+   "ko": "그린 빌딩2",
+   "ocr_id": null,
+   "crop": [
+    263,
+    373,
+    86,
+    21
+   ],
+   "text": [
+    263,
+    373,
+    86,
+    21
+   ],
+   "source": [
+    263,
+    373,
+    86,
+    21
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so17",
+   "file": "SOZ/soz_013_02.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "東急イン",
+   "ko": "도큐인",
+   "ocr_id": null,
+   "crop": [
+    41,
+    389,
+    84,
+    22
+   ],
+   "text": [
+    41,
+    389,
+    84,
+    22
+   ],
+   "source": [
+    41,
+    389,
+    84,
+    22
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so18",
+   "file": "SOZ/soz_013_02.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "グリーンビル3",
+   "ko": "그린 빌딩3",
+   "ocr_id": null,
+   "crop": [
+    360,
+    381,
+    90,
+    26
+   ],
+   "text": [
+    360,
+    381,
+    90,
+    26
+   ],
+   "source": [
+    360,
+    381,
+    90,
+    26
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so19",
+   "file": "SOZ/soz_014_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "信行寺",
+   "ko": "신교지",
+   "ocr_id": null,
+   "crop": [
+    474,
+    136,
+    67,
+    23
+   ],
+   "text": [
+    474,
+    136,
+    67,
+    23
+   ],
+   "source": [
+    474,
+    136,
+    67,
+    23
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so20",
+   "file": "SOZ/soz_014_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "北海道熱供給公社\n中央熱製造所",
+   "ko": "홋카이도 난방공사\n중앙 열발전소",
+   "ocr_id": null,
+   "crop": [
+    244,
+    256,
+    180,
+    52
+   ],
+   "text": [
+    244,
+    256,
+    180,
+    52
+   ],
+   "source": [
+    244,
+    256,
+    180,
+    52
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so21",
+   "file": "SOZ/soz_014_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "サッポロ\nテイセンホール",
+   "ko": "삿포로\n테이센 홀",
+   "ocr_id": null,
+   "crop": [
+    103,
+    259,
+    143,
+    48
+   ],
+   "text": [
+    103,
+    259,
+    143,
+    48
+   ],
+   "source": [
+    103,
+    259,
+    143,
+    48
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so23",
+   "file": "SOZ/soz_014_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "札幌中央郵便局",
+   "ko": "삿포로 중앙우체국",
+   "ocr_id": null,
+   "crop": [
+    78,
+    412,
+    160,
+    25
+   ],
+   "text": [
+    78,
+    412,
+    160,
+    25
+   ],
+   "source": [
+    78,
+    412,
+    160,
+    25
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so24",
+   "file": "SOZ/soz_014_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "札幌総合卸売センター",
+   "ko": "삿포로 종합도매센터",
+   "ocr_id": null,
+   "crop": [
+    324,
+    406,
+    170,
+    24
+   ],
+   "text": [
+    324,
+    406,
+    170,
+    24
+   ],
+   "source": [
+    324,
+    406,
+    170,
+    24
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so25",
+   "file": "SOZ/soz_016_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "スガイディノス",
+   "ko": "스가이 디노스",
+   "ocr_id": null,
+   "crop": [
+    47,
+    114,
+    145,
+    27
+   ],
+   "text": [
+    47,
+    114,
+    145,
+    27
+   ],
+   "source": [
+    47,
+    114,
+    145,
+    27
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so26",
+   "file": "SOZ/soz_016_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "白石区役所",
+   "ko": "시로이시 구청",
+   "ocr_id": null,
+   "crop": [
+    201,
+    161,
+    127,
+    26
+   ],
+   "text": [
+    201,
+    161,
+    127,
+    26
+   ],
+   "source": [
+    201,
+    161,
+    127,
+    26
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so27",
+   "file": "SOZ/soz_016_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "白石",
+   "ko": "시로이시",
+   "ocr_id": null,
+   "crop": [
+    42,
+    187,
+    75,
+    26
+   ],
+   "text": [
+    42,
+    187,
+    75,
+    26
+   ],
+   "source": [
+    42,
+    187,
+    75,
+    26
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so28",
+   "file": "SOZ/soz_016_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "アサヒビール園",
+   "ko": "아사히 맥주원",
+   "ocr_id": null,
+   "crop": [
+    94,
+    313,
+    120,
+    26
+   ],
+   "text": [
+    94,
+    313,
+    120,
+    26
+   ],
+   "source": [
+    94,
+    313,
+    120,
+    26
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-right",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so29",
+   "file": "SOZ/soz_016_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "マジックスパイス",
+   "ko": "매직 스파이스",
+   "ocr_id": null,
+   "crop": [
+    381,
+    342,
+    171,
+    25
+   ],
+   "text": [
+    381,
+    342,
+    171,
+    25
+   ],
+   "source": [
+    381,
+    342,
+    171,
+    25
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so30",
+   "file": "SOZ/soz_016_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "南郷7丁目",
+   "ko": "난고 7초메",
+   "ocr_id": null,
+   "crop": [
+    419,
+    400,
+    120,
+    25
+   ],
+   "text": [
+    419,
+    400,
+    120,
+    25
+   ],
+   "source": [
+    419,
+    400,
+    120,
+    25
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so31",
+   "file": "SOZ/soz_017_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "平岸",
+   "ko": "히라기시",
+   "ocr_id": null,
+   "crop": [
+    3,
+    29,
+    73,
+    25
+   ],
+   "text": [
+    3,
+    29,
+    73,
+    25
+   ],
+   "source": [
+    3,
+    29,
+    73,
+    25
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so32",
+   "file": "SOZ/soz_017_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "白石中の島通",
+   "ko": "시로이시 나카노시마도리",
+   "ocr_id": null,
+   "crop": [
+    112,
+    29,
+    199,
+    27
+   ],
+   "text": [
+    112,
+    29,
+    199,
+    27
+   ],
+   "source": [
+    112,
+    29,
+    199,
+    27
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed",
+   "angle": -4.3
+  },
+  {
+   "box_id": "so33",
+   "file": "SOZ/soz_017_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "月寒公園",
+   "ko": "츠키사무 공원",
+   "ocr_id": null,
+   "crop": [
+    361,
+    77,
+    112,
+    27
+   ],
+   "text": [
+    361,
+    77,
+    112,
+    27
+   ],
+   "source": [
+    361,
+    77,
+    112,
+    27
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so34",
+   "file": "SOZ/soz_017_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "豊平区",
+   "ko": "도요히라구",
+   "ocr_id": null,
+   "crop": [
+    185,
+    87,
+    88,
+    24
+   ],
+   "text": [
+    185,
+    87,
+    88,
+    24
+   ],
+   "source": [
+    185,
+    87,
+    88,
+    24
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-alpha",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so37",
+   "file": "SOZ/soz_017_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "北海道テレビ",
+   "ko": "홋카이도 텔레비전",
+   "ocr_id": null,
+   "crop": [
+    161,
+    113,
+    28,
+    168
+   ],
+   "text": [
+    161,
+    113,
+    28,
+    168
+   ],
+   "source": [
+    161,
+    113,
+    28,
+    168
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-vertical",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so38",
+   "file": "SOZ/soz_017_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "南平岸",
+   "ko": "미나미히라기시",
+   "ocr_id": null,
+   "crop": [
+    28,
+    306,
+    131,
+    26
+   ],
+   "text": [
+    28,
+    306,
+    131,
+    26
+   ],
+   "source": [
+    28,
+    306,
+    131,
+    26
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so39",
+   "file": "SOZ/soz_017_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "ロイズ",
+   "ko": "로이즈",
+   "ocr_id": null,
+   "crop": [
+    318,
+    300,
+    70,
+    25
+   ],
+   "text": [
+    318,
+    300,
+    70,
+    25
+   ],
+   "source": [
+    318,
+    300,
+    70,
+    25
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so40",
+   "file": "SOZ/soz_017_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "白石岩通",
+   "ko": "시로이시 이와도리",
+   "ocr_id": null,
+   "crop": [
+    419,
+    357,
+    140,
+    25
+   ],
+   "text": [
+    419,
+    357,
+    140,
+    25
+   ],
+   "source": [
+    419,
+    357,
+    140,
+    25
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed",
+   "angle": -4.5
+  },
+  {
+   "box_id": "so41",
+   "file": "SOZ/soz_017_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "平岸霊園",
+   "ko": "히라기시 공원묘지",
+   "ocr_id": null,
+   "crop": [
+    112,
+    430,
+    151,
+    25
+   ],
+   "text": [
+    112,
+    430,
+    151,
+    25
+   ],
+   "source": [
+    112,
+    430,
+    151,
+    25
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so42",
+   "file": "SOZ/soz_019_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "札幌センタービル",
+   "ko": "삿포로 센터빌딩",
+   "ocr_id": null,
+   "crop": [
+    33,
+    237,
+    164,
+    21
+   ],
+   "text": [
+    33,
+    237,
+    164,
+    21
+   ],
+   "source": [
+    33,
+    237,
+    164,
+    21
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so43",
+   "file": "SOZ/soz_019_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "アッサム",
+   "ko": "아삼",
+   "ocr_id": null,
+   "crop": [
+    6,
+    305,
+    80,
+    20
+   ],
+   "text": [
+    6,
+    305,
+    80,
+    20
+   ],
+   "source": [
+    6,
+    305,
+    80,
+    20
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so44",
+   "file": "SOZ/soz_021_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "環状通",
+   "ko": "칸조도리",
+   "ocr_id": null,
+   "crop": [
+    487,
+    19,
+    68,
+    25
+   ],
+   "text": [
+    487,
+    19,
+    68,
+    25
+   ],
+   "source": [
+    487,
+    19,
+    68,
+    25
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so45",
+   "file": "SOZ/soz_021_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "藻岩山原始林",
+   "ko": "모이와산 원시림",
+   "ocr_id": null,
+   "crop": [
+    19,
+    26,
+    137,
+    24
+   ],
+   "text": [
+    19,
+    26,
+    137,
+    24
+   ],
+   "source": [
+    19,
+    26,
+    137,
+    24
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-alpha",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so46",
+   "file": "SOZ/soz_021_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "平和記念塔",
+   "ko": "평화기념탑",
+   "ocr_id": null,
+   "crop": [
+    249,
+    36,
+    112,
+    24
+   ],
+   "text": [
+    249,
+    36,
+    112,
+    24
+   ],
+   "source": [
+    249,
+    36,
+    112,
+    24
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so47",
+   "file": "SOZ/soz_021_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "中央図書館",
+   "ko": "중앙도서관",
+   "ocr_id": null,
+   "crop": [
+    463,
+    111,
+    111,
+    23
+   ],
+   "text": [
+    463,
+    111,
+    111,
+    23
+   ],
+   "source": [
+    463,
+    111,
+    111,
+    23
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so49",
+   "file": "SOZ/soz_021_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "藻岩山口ープウェイ",
+   "ko": "모이와산 로프웨이",
+   "ocr_id": null,
+   "crop": [
+    316,
+    172,
+    191,
+    22
+   ],
+   "text": [
+    316,
+    172,
+    191,
+    22
+   ],
+   "source": [
+    316,
+    172,
+    191,
+    22
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so50",
+   "file": "SOZ/soz_021_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "石山通",
+   "ko": "이시야마도리",
+   "ocr_id": null,
+   "crop": [
+    587,
+    134,
+    26,
+    123
+   ],
+   "text": [
+    587,
+    134,
+    26,
+    123
+   ],
+   "source": [
+    587,
+    134,
+    26,
+    123
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-vertical",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so51",
+   "file": "SOZ/soz_021_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "藻岩山",
+   "ko": "모이와산",
+   "ocr_id": null,
+   "crop": [
+    116,
+    198,
+    67,
+    22
+   ],
+   "text": [
+    116,
+    198,
+    67,
+    22
+   ],
+   "source": [
+    116,
+    198,
+    67,
+    22
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so52",
+   "file": "SOZ/soz_021_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "展望台",
+   "ko": "전망대",
+   "ocr_id": null,
+   "crop": [
+    265,
+    262,
+    66,
+    22
+   ],
+   "text": [
+    265,
+    262,
+    66,
+    22
+   ],
+   "source": [
+    265,
+    262,
+    66,
+    22
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so53",
+   "file": "SOZ/soz_021_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "南警察署",
+   "ko": "남경찰서",
+   "ocr_id": null,
+   "crop": [
+    509,
+    282,
+    89,
+    22
+   ],
+   "text": [
+    509,
+    282,
+    89,
+    22
+   ],
+   "source": [
+    509,
+    282,
+    89,
+    22
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-right",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so54",
+   "file": "SOZ/soz_021_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "パノラマ館",
+   "ko": "파노라마관",
+   "ocr_id": null,
+   "crop": [
+    78,
+    279,
+    100,
+    22
+   ],
+   "text": [
+    78,
+    279,
+    100,
+    22
+   ],
+   "source": [
+    78,
+    279,
+    100,
+    22
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-right",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so55",
+   "file": "SOZ/soz_021_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "藻岩山スキー場",
+   "ko": "모이와산 스키장",
+   "ocr_id": null,
+   "crop": [
+    276,
+    338,
+    154,
+    24
+   ],
+   "text": [
+    276,
+    338,
+    154,
+    24
+   ],
+   "source": [
+    276,
+    338,
+    154,
+    24
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-right",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so56",
+   "file": "SOZ/soz_021_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "藻岩山発電所",
+   "ko": "모이와산 발전소",
+   "ocr_id": null,
+   "crop": [
+    411,
+    398,
+    134,
+    24
+   ],
+   "text": [
+    411,
+    398,
+    134,
+    24
+   ],
+   "source": [
+    411,
+    398,
+    134,
+    24
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-right",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so57",
+   "file": "SOZ/soz_024_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "宮の森北24条通",
+   "ko": "미야노모리 키타24조도리",
+   "ocr_id": null,
+   "crop": [
+    416,
+    44,
+    180,
+    20
+   ],
+   "text": [
+    416,
+    44,
+    180,
+    20
+   ],
+   "source": [
+    416,
+    44,
+    180,
+    20
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed",
+   "angle": 8.9
+  },
+  {
+   "box_id": "so58",
+   "file": "SOZ/soz_024_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "サンプラザ",
+   "ko": "선플라자",
+   "ocr_id": null,
+   "crop": [
+    63,
+    34,
+    111,
+    24
+   ],
+   "text": [
+    63,
+    34,
+    111,
+    24
+   ],
+   "source": [
+    63,
+    34,
+    111,
+    24
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-right",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so59",
+   "file": "SOZ/soz_024_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "宝来",
+   "ko": "호라이",
+   "ocr_id": null,
+   "crop": [
+    253,
+    55,
+    45,
+    22
+   ],
+   "text": [
+    253,
+    55,
+    45,
+    22
+   ],
+   "source": [
+    253,
+    55,
+    45,
+    22
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so60",
+   "file": "SOZ/soz_024_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "北区役所",
+   "ko": "키타구청",
+   "ocr_id": null,
+   "crop": [
+    71,
+    89,
+    97,
+    22
+   ],
+   "text": [
+    71,
+    89,
+    97,
+    22
+   ],
+   "source": [
+    71,
+    89,
+    97,
+    22
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so61",
+   "file": "SOZ/soz_024_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "美香保体育館",
+   "ko": "미카호 체육관",
+   "ocr_id": null,
+   "crop": [
+    371,
+    98,
+    146,
+    22
+   ],
+   "text": [
+    371,
+    98,
+    146,
+    22
+   ],
+   "source": [
+    371,
+    98,
+    146,
+    22
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-right",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so62",
+   "file": "SOZ/soz_024_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "北24条",
+   "ko": "키타24조",
+   "ocr_id": null,
+   "crop": [
+    176,
+    105,
+    81,
+    22
+   ],
+   "text": [
+    176,
+    105,
+    81,
+    22
+   ],
+   "source": [
+    176,
+    105,
+    81,
+    22
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so63",
+   "file": "SOZ/soz_024_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "美香保公園",
+   "ko": "미카호 공원",
+   "ocr_id": null,
+   "crop": [
+    469,
+    153,
+    120,
+    22
+   ],
+   "text": [
+    469,
+    153,
+    120,
+    22
+   ],
+   "source": [
+    469,
+    153,
+    120,
+    22
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so64",
+   "file": "SOZ/soz_024_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "地下鉄南北線",
+   "ko": "지하철 난보쿠선",
+   "ocr_id": null,
+   "crop": [
+    244,
+    185,
+    31,
+    155
+   ],
+   "text": [
+    244,
+    185,
+    31,
+    155
+   ],
+   "source": [
+    244,
+    185,
+    31,
+    155
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-vertical",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed",
+   "angle": 9.6
+  },
+  {
+   "box_id": "so65",
+   "file": "SOZ/soz_024_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "東警察署",
+   "ko": "동경찰서",
+   "ocr_id": null,
+   "crop": [
+    445,
+    402,
+    96,
+    24
+   ],
+   "text": [
+    445,
+    402,
+    96,
+    24
+   ],
+   "source": [
+    445,
+    402,
+    96,
+    24
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so66",
+   "file": "SOZ/soz_024_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "北18条",
+   "ko": "키타18조",
+   "ocr_id": null,
+   "crop": [
+    232,
+    405,
+    81,
+    22
+   ],
+   "text": [
+    232,
+    405,
+    81,
+    22
+   ],
+   "source": [
+    232,
+    405,
+    81,
+    22
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so67",
+   "file": "SOZ/soz_025_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "豊平区",
+   "ko": "토요히라구",
+   "ocr_id": null,
+   "crop": [
+    67,
+    13,
+    91,
+    20
+   ],
+   "text": [
+    67,
+    13,
+    91,
+    20
+   ],
+   "source": [
+    67,
+    13,
+    91,
+    20
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-alpha",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so68",
+   "file": "SOZ/soz_025_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "吉田川公園",
+   "ko": "요시다가와 공원",
+   "ocr_id": null,
+   "crop": [
+    467,
+    13,
+    134,
+    22
+   ],
+   "text": [
+    467,
+    13,
+    134,
+    22
+   ],
+   "source": [
+    467,
+    13,
+    134,
+    22
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so69",
+   "file": "SOZ/soz_025_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "羊ヶ丘病院",
+   "ko": "히츠지가오카\n병원",
+   "ocr_id": null,
+   "crop": [
+    449,
+    81,
+    107,
+    42
+   ],
+   "text": [
+    449,
+    81,
+    107,
+    42
+   ],
+   "source": [
+    449,
+    81,
+    107,
+    42
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so70",
+   "file": "SOZ/soz_025_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "中央バス月寒ターミナル",
+   "ko": "추오버스 츠키사무 터미널",
+   "ocr_id": null,
+   "crop": [
+    387,
+    146,
+    229,
+    21
+   ],
+   "text": [
+    387,
+    146,
+    229,
+    21
+   ],
+   "source": [
+    387,
+    146,
+    229,
+    21
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so71",
+   "file": "SOZ/soz_025_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "農水省北海道農業試験場",
+   "ko": "농림수산성 홋카이도 농업시험장",
+   "ocr_id": null,
+   "crop": [
+    194,
+    271,
+    261,
+    21
+   ],
+   "text": [
+    194,
+    271,
+    261,
+    21
+   ],
+   "source": [
+    194,
+    271,
+    261,
+    21
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-alpha",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so72",
+   "file": "SOZ/soz_025_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "物産センター",
+   "ko": "물산센터",
+   "ocr_id": null,
+   "crop": [
+    32,
+    276,
+    86,
+    21
+   ],
+   "text": [
+    32,
+    276,
+    86,
+    21
+   ],
+   "source": [
+    32,
+    276,
+    86,
+    21
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so73",
+   "file": "SOZ/soz_025_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "羊ヶ丘展望台",
+   "ko": "히츠지가오카 전망대",
+   "ocr_id": null,
+   "crop": [
+    57,
+    338,
+    171,
+    21
+   ],
+   "text": [
+    57,
+    338,
+    171,
+    21
+   ],
+   "source": [
+    57,
+    338,
+    171,
+    21
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so74",
+   "file": "SOZ/soz_025_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "羊ヶ丘",
+   "ko": "히츠지가오카",
+   "ocr_id": null,
+   "crop": [
+    21,
+    433,
+    111,
+    20
+   ],
+   "text": [
+    21,
+    433,
+    111,
+    20
+   ],
+   "source": [
+    21,
+    433,
+    111,
+    20
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-alpha",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so75",
+   "file": "SOZ/soz_027_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "グラスシップ",
+   "ko": "글래스 쉽",
+   "ocr_id": null,
+   "crop": [
+    127,
+    28,
+    117,
+    22
+   ],
+   "text": [
+    127,
+    28,
+    117,
+    22
+   ],
+   "source": [
+    127,
+    28,
+    117,
+    22
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so76",
+   "file": "SOZ/soz_027_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "ペテルブルグ美術館",
+   "ko": "페테르부르크 미술관",
+   "ocr_id": null,
+   "crop": [
+    123,
+    73,
+    168,
+    24
+   ],
+   "text": [
+    123,
+    73,
+    168,
+    24
+   ],
+   "source": [
+    123,
+    73,
+    168,
+    24
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so77",
+   "file": "SOZ/soz_027_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "小樽郵便局",
+   "ko": "오타루 우체국",
+   "ocr_id": null,
+   "crop": [
+    213,
+    121,
+    112,
+    22
+   ],
+   "text": [
+    213,
+    121,
+    112,
+    22
+   ],
+   "source": [
+    213,
+    121,
+    112,
+    22
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so78",
+   "file": "SOZ/soz_027_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "越中屋旅館",
+   "ko": "엣추야 료칸",
+   "ocr_id": null,
+   "crop": [
+    41,
+    145,
+    111,
+    24
+   ],
+   "text": [
+    41,
+    145,
+    111,
+    24
+   ],
+   "source": [
+    41,
+    145,
+    111,
+    24
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-right",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so79",
+   "file": "SOZ/soz_027_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "水天宮",
+   "ko": "스이텐구",
+   "ocr_id": null,
+   "crop": [
+    463,
+    169,
+    80,
+    24
+   ],
+   "text": [
+    463,
+    169,
+    80,
+    24
+   ],
+   "source": [
+    463,
+    169,
+    80,
+    24
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-right",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so80",
+   "file": "SOZ/soz_027_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "文学館・美術館",
+   "ko": "문학관·미술관",
+   "ocr_id": null,
+   "crop": [
+    19,
+    194,
+    139,
+    23
+   ],
+   "text": [
+    19,
+    194,
+    139,
+    23
+   ],
+   "source": [
+    19,
+    194,
+    139,
+    23
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-right",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so81",
+   "file": "SOZ/soz_027_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "小樽寿司屋通",
+   "ko": "오타루 스시야도리",
+   "ocr_id": null,
+   "crop": [
+    333,
+    231,
+    151,
+    22
+   ],
+   "text": [
+    333,
+    231,
+    151,
+    22
+   ],
+   "source": [
+    333,
+    231,
+    151,
+    22
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so82",
+   "file": "SOZ/soz_027_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "新倉屋",
+   "ko": "니쿠라야",
+   "ocr_id": null,
+   "crop": [
+    387,
+    280,
+    76,
+    24
+   ],
+   "text": [
+    387,
+    280,
+    76,
+    24
+   ],
+   "source": [
+    387,
+    280,
+    76,
+    24
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so83",
+   "file": "SOZ/soz_027_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "櫻倶楽部",
+   "ko": "사쿠라 클럽",
+   "ocr_id": null,
+   "crop": [
+    159,
+    284,
+    103,
+    23
+   ],
+   "text": [
+    159,
+    284,
+    103,
+    23
+   ],
+   "source": [
+    159,
+    284,
+    103,
+    23
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so84",
+   "file": "SOZ/soz_027_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "産業会館",
+   "ko": "산업회관",
+   "ocr_id": null,
+   "crop": [
+    95,
+    392,
+    90,
+    23
+   ],
+   "text": [
+    95,
+    392,
+    90,
+    23
+   ],
+   "source": [
+    95,
+    392,
+    90,
+    23
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so85",
+   "file": "SOZ/soz_027_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "珈琲屋",
+   "ko": "커피집",
+   "ocr_id": null,
+   "crop": [
+    216,
+    427,
+    68,
+    22
+   ],
+   "text": [
+    216,
+    427,
+    68,
+    22
+   ],
+   "source": [
+    216,
+    427,
+    68,
+    22
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so86",
+   "file": "SOZ/soz_028_02.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "小樽駅",
+   "ko": "오타루역",
+   "ocr_id": null,
+   "crop": [
+    193,
+    44,
+    82,
+    25
+   ],
+   "text": [
+    193,
+    44,
+    82,
+    25
+   ],
+   "source": [
+    193,
+    44,
+    82,
+    25
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-right",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so87",
+   "file": "SOZ/soz_028_02.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "小樽港",
+   "ko": "오타루항",
+   "ocr_id": null,
+   "crop": [
+    399,
+    64,
+    77,
+    27
+   ],
+   "text": [
+    399,
+    64,
+    77,
+    27
+   ],
+   "source": [
+    399,
+    64,
+    77,
+    27
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so88",
+   "file": "SOZ/soz_028_02.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "天狗山",
+   "ko": "텐구산",
+   "ocr_id": null,
+   "crop": [
+    144,
+    183,
+    80,
+    27
+   ],
+   "text": [
+    144,
+    183,
+    80,
+    27
+   ],
+   "source": [
+    144,
+    183,
+    80,
+    27
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so89",
+   "file": "SOZ/soz_028_02.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "於古発山",
+   "ko": "오코바치산",
+   "ocr_id": null,
+   "crop": [
+    36,
+    235,
+    98,
+    28
+   ],
+   "text": [
+    36,
+    235,
+    98,
+    28
+   ],
+   "source": [
+    36,
+    235,
+    98,
+    28
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so90",
+   "file": "SOZ/soz_028_02.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "菓子工房トーイス\nファクトリー",
+   "ko": "과자공방\n토이스 팩토리",
+   "ocr_id": null,
+   "crop": [
+    406,
+    345,
+    145,
+    55
+   ],
+   "text": [
+    406,
+    345,
+    145,
+    55
+   ],
+   "source": [
+    406,
+    345,
+    145,
+    55
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so91",
+   "file": "SOZ/soz_028_02.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "雨乞の滝",
+   "ko": "아마고이 폭포",
+   "ocr_id": null,
+   "crop": [
+    122,
+    322,
+    113,
+    26
+   ],
+   "text": [
+    122,
+    322,
+    113,
+    26
+   ],
+   "source": [
+    122,
+    322,
+    113,
+    26
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so93",
+   "file": "SOZ/soz_028_02.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "穴滝",
+   "ko": "아나타키 폭포",
+   "ocr_id": null,
+   "crop": [
+    48,
+    366,
+    117,
+    27
+   ],
+   "text": [
+    48,
+    366,
+    117,
+    27
+   ],
+   "source": [
+    48,
+    366,
+    117,
+    27
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so94",
+   "file": "SOZ/soz_028_02.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "小樽峠",
+   "ko": "오타루 고개",
+   "ocr_id": null,
+   "crop": [
+    89,
+    411,
+    100,
+    25
+   ],
+   "text": [
+    89,
+    411,
+    100,
+    25
+   ],
+   "source": [
+    89,
+    411,
+    100,
+    25
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so95",
+   "file": "SOZ/soz_031_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "海中公園",
+   "ko": "해중공원",
+   "ocr_id": null,
+   "crop": [
+    142,
+    128,
+    91,
+    23
+   ],
+   "text": [
+    142,
+    128,
+    91,
+    23
+   ],
+   "source": [
+    142,
+    128,
+    91,
+    23
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so96",
+   "file": "SOZ/soz_031_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "高島岬",
+   "ko": "타카시마곶",
+   "ocr_id": null,
+   "crop": [
+    319,
+    147,
+    93,
+    24
+   ],
+   "text": [
+    319,
+    147,
+    93,
+    24
+   ],
+   "source": [
+    319,
+    147,
+    93,
+    24
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so97",
+   "file": "SOZ/soz_031_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "おたる水族館",
+   "ko": "오타루 수족관",
+   "ocr_id": null,
+   "crop": [
+    302,
+    197,
+    138,
+    23
+   ],
+   "text": [
+    302,
+    197,
+    138,
+    23
+   ],
+   "source": [
+    302,
+    197,
+    138,
+    23
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so98",
+   "file": "SOZ/soz_031_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "芽柴岬",
+   "ko": "카야시바곶",
+   "ocr_id": null,
+   "crop": [
+    334,
+    229,
+    92,
+    22
+   ],
+   "text": [
+    334,
+    229,
+    92,
+    22
+   ],
+   "source": [
+    334,
+    229,
+    92,
+    22
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so99",
+   "file": "SOZ/soz_031_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "手宮公園",
+   "ko": "테미야 공원",
+   "ocr_id": null,
+   "crop": [
+    158,
+    280,
+    97,
+    22
+   ],
+   "text": [
+    158,
+    280,
+    97,
+    22
+   ],
+   "source": [
+    158,
+    280,
+    97,
+    22
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-right",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so100",
+   "file": "SOZ/soz_031_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "小樽港",
+   "ko": "오타루항",
+   "ocr_id": null,
+   "crop": [
+    330,
+    377,
+    71,
+    22
+   ],
+   "text": [
+    330,
+    377,
+    71,
+    22
+   ],
+   "source": [
+    330,
+    377,
+    71,
+    22
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so101",
+   "file": "SOZ/soz_032_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "ドリームビーチ",
+   "ko": "드림비치",
+   "ocr_id": null,
+   "crop": [
+    321,
+    29,
+    138,
+    22
+   ],
+   "text": [
+    321,
+    29,
+    138,
+    22
+   ],
+   "source": [
+    321,
+    29,
+    138,
+    22
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so102",
+   "file": "SOZ/soz_032_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "前田森林公園",
+   "ko": "마에다 삼림공원",
+   "ocr_id": null,
+   "crop": [
+    423,
+    115,
+    133,
+    24
+   ],
+   "text": [
+    423,
+    115,
+    133,
+    24
+   ],
+   "source": [
+    423,
+    115,
+    133,
+    24
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-right",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so103",
+   "file": "SOZ/soz_032_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "樹の部屋",
+   "ko": "키노헤야",
+   "ocr_id": null,
+   "crop": [
+    100,
+    108,
+    88,
+    22
+   ],
+   "text": [
+    100,
+    108,
+    88,
+    22
+   ],
+   "source": [
+    100,
+    108,
+    88,
+    22
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so104",
+   "file": "SOZ/soz_032_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "星置の滝",
+   "ko": "호시오키 폭포",
+   "ocr_id": null,
+   "crop": [
+    334,
+    241,
+    114,
+    22
+   ],
+   "text": [
+    334,
+    241,
+    114,
+    22
+   ],
+   "source": [
+    334,
+    241,
+    114,
+    22
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so105",
+   "file": "SOZ/soz_032_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "乙女の滝",
+   "ko": "오토메 폭포",
+   "ocr_id": null,
+   "crop": [
+    306,
+    303,
+    97,
+    22
+   ],
+   "text": [
+    306,
+    303,
+    97,
+    22
+   ],
+   "source": [
+    306,
+    303,
+    97,
+    22
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so106",
+   "file": "SOZ/soz_032_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "テイネオリンピア",
+   "ko": "테이네 올림피아",
+   "ocr_id": null,
+   "crop": [
+    199,
+    387,
+    155,
+    22
+   ],
+   "text": [
+    199,
+    387,
+    155,
+    22
+   ],
+   "source": [
+    199,
+    387,
+    155,
+    22
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-right",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so107",
+   "file": "SOZ/soz_036_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "カチューシャ",
+   "ko": "카츄샤",
+   "ocr_id": null,
+   "crop": [
+    147,
+    17,
+    115,
+    23
+   ],
+   "text": [
+    147,
+    17,
+    115,
+    23
+   ],
+   "source": [
+    147,
+    17,
+    115,
+    23
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so109",
+   "file": "SOZ/soz_036_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "五稜郭タワー",
+   "ko": "고료카쿠 타워",
+   "ocr_id": null,
+   "crop": [
+    482,
+    17,
+    121,
+    22
+   ],
+   "text": [
+    482,
+    17,
+    121,
+    22
+   ],
+   "source": [
+    482,
+    17,
+    121,
+    22
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so110",
+   "file": "SOZ/soz_036_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "新生橋",
+   "ko": "신세이바시",
+   "ocr_id": null,
+   "crop": [
+    17,
+    45,
+    90,
+    26
+   ],
+   "text": [
+    17,
+    45,
+    90,
+    26
+   ],
+   "source": [
+    17,
+    45,
+    90,
+    26
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so111",
+   "file": "SOZ/soz_036_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "北海道新聞",
+   "ko": "홋카이도 신문",
+   "ocr_id": null,
+   "crop": [
+    310,
+    35,
+    117,
+    24
+   ],
+   "text": [
+    310,
+    35,
+    117,
+    24
+   ],
+   "source": [
+    310,
+    35,
+    117,
+    24
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so112",
+   "file": "SOZ/soz_036_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "函館美術館",
+   "ko": "하코다테 미술관",
+   "ocr_id": null,
+   "crop": [
+    455,
+    63,
+    107,
+    23
+   ],
+   "text": [
+    455,
+    63,
+    107,
+    23
+   ],
+   "source": [
+    455,
+    63,
+    107,
+    23
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so113",
+   "file": "SOZ/soz_036_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "北洋資料館",
+   "ko": "북양자료관",
+   "ocr_id": null,
+   "crop": [
+    425,
+    100,
+    109,
+    24
+   ],
+   "text": [
+    425,
+    100,
+    109,
+    24
+   ],
+   "source": [
+    425,
+    100,
+    109,
+    24
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so114",
+   "file": "SOZ/soz_036_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "西武デパート",
+   "ko": "세이부 백화점",
+   "ocr_id": null,
+   "crop": [
+    24,
+    127,
+    109,
+    24
+   ],
+   "text": [
+    24,
+    127,
+    109,
+    24
+   ],
+   "source": [
+    24,
+    127,
+    109,
+    24
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so115",
+   "file": "SOZ/soz_036_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "高龍寺",
+   "ko": "코류지",
+   "ocr_id": null,
+   "crop": [
+    257,
+    124,
+    63,
+    22
+   ],
+   "text": [
+    257,
+    124,
+    63,
+    22
+   ],
+   "source": [
+    257,
+    124,
+    63,
+    22
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so116",
+   "file": "SOZ/soz_036_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "五稜郭病院",
+   "ko": "고료카쿠 병원",
+   "ocr_id": null,
+   "crop": [
+    400,
+    142,
+    107,
+    23
+   ],
+   "text": [
+    400,
+    142,
+    107,
+    23
+   ],
+   "source": [
+    400,
+    142,
+    107,
+    23
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so117",
+   "file": "SOZ/soz_036_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "ダイエー",
+   "ko": "다이에",
+   "ocr_id": null,
+   "crop": [
+    269,
+    165,
+    78,
+    22
+   ],
+   "text": [
+    269,
+    165,
+    78,
+    22
+   ],
+   "source": [
+    269,
+    165,
+    78,
+    22
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so118",
+   "file": "SOZ/soz_036_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "陸上競技場",
+   "ko": "육상경기장",
+   "ocr_id": null,
+   "crop": [
+    19,
+    199,
+    113,
+    24
+   ],
+   "text": [
+    19,
+    199,
+    113,
+    24
+   ],
+   "source": [
+    19,
+    199,
+    113,
+    24
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so119",
+   "file": "SOZ/soz_036_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "パーラー・トップス",
+   "ko": "파러 탑스",
+   "ocr_id": null,
+   "crop": [
+    150,
+    217,
+    123,
+    23
+   ],
+   "text": [
+    150,
+    217,
+    123,
+    23
+   ],
+   "source": [
+    150,
+    217,
+    123,
+    23
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-right",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so120",
+   "file": "SOZ/soz_036_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "ヤン衆漁場本町市場",
+   "ko": "얀슈교조 혼조시장",
+   "ocr_id": null,
+   "crop": [
+    285,
+    235,
+    190,
+    24
+   ],
+   "text": [
+    285,
+    235,
+    190,
+    24
+   ],
+   "source": [
+    285,
+    235,
+    190,
+    24
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so121",
+   "file": "SOZ/soz_036_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "ホテルリード・コア",
+   "ko": "호텔 리드 코어",
+   "ocr_id": null,
+   "crop": [
+    315,
+    283,
+    124,
+    22
+   ],
+   "text": [
+    315,
+    283,
+    124,
+    22
+   ],
+   "source": [
+    315,
+    283,
+    124,
+    22
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so122",
+   "file": "SOZ/soz_036_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "中央病院",
+   "ko": "추오병원",
+   "ocr_id": null,
+   "crop": [
+    210,
+    297,
+    92,
+    22
+   ],
+   "text": [
+    210,
+    297,
+    92,
+    22
+   ],
+   "source": [
+    210,
+    297,
+    92,
+    22
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so123",
+   "file": "SOZ/soz_036_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "オーシャンスタジアム",
+   "ko": "오션\n스타디움",
+   "ocr_id": null,
+   "crop": [
+    82,
+    293,
+    77,
+    46
+   ],
+   "text": [
+    82,
+    293,
+    77,
+    46
+   ],
+   "source": [
+    82,
+    293,
+    77,
+    46
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so124",
+   "file": "SOZ/soz_036_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "函館遺愛高等学校",
+   "ko": "하코다테 이아이 고교",
+   "ocr_id": null,
+   "crop": [
+    417,
+    351,
+    175,
+    26
+   ],
+   "text": [
+    417,
+    351,
+    175,
+    26
+   ],
+   "source": [
+    417,
+    351,
+    175,
+    26
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so125",
+   "file": "SOZ/soz_036_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "夏井珈琲店",
+   "ko": "나츠이 커피점",
+   "ocr_id": null,
+   "crop": [
+    371,
+    410,
+    114,
+    24
+   ],
+   "text": [
+    371,
+    410,
+    114,
+    24
+   ],
+   "source": [
+    371,
+    410,
+    114,
+    24
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so126",
+   "file": "SOZ/soz_037_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "低区浄水場",
+   "ko": "테이구 정수장",
+   "ocr_id": null,
+   "crop": [
+    226,
+    126,
+    110,
+    21
+   ],
+   "text": [
+    226,
+    126,
+    110,
+    21
+   ],
+   "source": [
+    226,
+    126,
+    110,
+    21
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so127",
+   "file": "SOZ/soz_037_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "四陵郭",
+   "ko": "시료카쿠",
+   "ocr_id": null,
+   "crop": [
+    294,
+    205,
+    75,
+    22
+   ],
+   "text": [
+    294,
+    205,
+    75,
+    22
+   ],
+   "source": [
+    294,
+    205,
+    75,
+    22
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so128",
+   "file": "SOZ/soz_037_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "亀田衛生センター",
+   "ko": "카메다 위생센터",
+   "ocr_id": null,
+   "crop": [
+    181,
+    272,
+    162,
+    24
+   ],
+   "text": [
+    181,
+    272,
+    162,
+    24
+   ],
+   "source": [
+    181,
+    272,
+    162,
+    24
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so129",
+   "file": "SOZ/soz_038_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "美ぜん",
+   "ko": "비젠",
+   "ocr_id": null,
+   "crop": [
+    186,
+    27,
+    74,
+    21
+   ],
+   "text": [
+    186,
+    27,
+    74,
+    21
+   ],
+   "source": [
+    186,
+    27,
+    74,
+    21
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so130",
+   "file": "SOZ/soz_038_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "函館競馬場",
+   "ko": "하코다테 경마장",
+   "ocr_id": null,
+   "crop": [
+    25,
+    77,
+    111,
+    24
+   ],
+   "text": [
+    25,
+    77,
+    111,
+    24
+   ],
+   "source": [
+    25,
+    77,
+    111,
+    24
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so131",
+   "file": "SOZ/soz_038_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "渡部病院",
+   "ko": "와타나베 병원",
+   "ocr_id": null,
+   "crop": [
+    308,
+    134,
+    115,
+    21
+   ],
+   "text": [
+    308,
+    134,
+    115,
+    21
+   ],
+   "source": [
+    308,
+    134,
+    115,
+    21
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so132",
+   "file": "SOZ/soz_038_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "湯倉神社",
+   "ko": "유쿠라 신사",
+   "ocr_id": null,
+   "crop": [
+    470,
+    188,
+    99,
+    23
+   ],
+   "text": [
+    470,
+    188,
+    99,
+    23
+   ],
+   "source": [
+    470,
+    188,
+    99,
+    23
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so133",
+   "file": "SOZ/soz_038_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "花びしホテル",
+   "ko": "하나비시 호텔",
+   "ocr_id": null,
+   "crop": [
+    277,
+    212,
+    123,
+    23
+   ],
+   "text": [
+    277,
+    212,
+    123,
+    23
+   ],
+   "source": [
+    277,
+    212,
+    123,
+    23
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so134",
+   "file": "SOZ/soz_038_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "プリンスホテル\n別館松風苑",
+   "ko": "프린스 호텔 별관\n쇼후엔",
+   "ocr_id": null,
+   "crop": [
+    113,
+    249,
+    141,
+    45
+   ],
+   "text": [
+    113,
+    249,
+    141,
+    45
+   ],
+   "source": [
+    113,
+    249,
+    141,
+    45
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-right",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so135",
+   "file": "SOZ/soz_038_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "KKR函館",
+   "ko": "KKR 하코다테",
+   "ocr_id": null,
+   "crop": [
+    304,
+    284,
+    121,
+    21
+   ],
+   "text": [
+    304,
+    284,
+    121,
+    21
+   ],
+   "source": [
+    304,
+    284,
+    121,
+    21
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so137",
+   "file": "SOZ/soz_038_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "ホテル平成館新館",
+   "ko": "호텔 헤이세이칸 신관",
+   "ocr_id": null,
+   "crop": [
+    238,
+    348,
+    171,
+    22
+   ],
+   "text": [
+    238,
+    348,
+    171,
+    22
+   ],
+   "source": [
+    238,
+    348,
+    171,
+    22
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so138",
+   "file": "SOZ/soz_038_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "若松",
+   "ko": "와카마츠",
+   "ocr_id": null,
+   "crop": [
+    111,
+    370,
+    78,
+    21
+   ],
+   "text": [
+    111,
+    370,
+    78,
+    21
+   ],
+   "source": [
+    111,
+    370,
+    78,
+    21
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-right",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so139",
+   "file": "SOZ/soz_038_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "ホテル平成館",
+   "ko": "호텔 헤이세이칸",
+   "ocr_id": null,
+   "crop": [
+    237,
+    387,
+    132,
+    26
+   ],
+   "text": [
+    237,
+    387,
+    132,
+    26
+   ],
+   "source": [
+    237,
+    387,
+    132,
+    26
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so140",
+   "file": "SOZ/soz_038_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "根崎グランド",
+   "ko": "네자키 그라운드",
+   "ocr_id": null,
+   "crop": [
+    401,
+    402,
+    132,
+    22
+   ],
+   "text": [
+    401,
+    402,
+    132,
+    22
+   ],
+   "source": [
+    401,
+    402,
+    132,
+    22
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so141",
+   "file": "SOZ/soz_042_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "阿寒湖",
+   "ko": "아칸호",
+   "ocr_id": null,
+   "crop": [
+    494,
+    34,
+    69,
+    22
+   ],
+   "text": [
+    494,
+    34,
+    69,
+    22
+   ],
+   "source": [
+    494,
+    34,
+    69,
+    22
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so142",
+   "file": "SOZ/soz_042_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "阿寒国立公園",
+   "ko": "아칸 국립공원",
+   "ocr_id": null,
+   "crop": [
+    426,
+    103,
+    128,
+    24
+   ],
+   "text": [
+    426,
+    103,
+    128,
+    24
+   ],
+   "source": [
+    426,
+    103,
+    128,
+    24
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so143",
+   "file": "SOZ/soz_042_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "阿寒湖畔温泉",
+   "ko": "아칸코반 온천",
+   "ocr_id": null,
+   "crop": [
+    468,
+    165,
+    122,
+    24
+   ],
+   "text": [
+    468,
+    165,
+    122,
+    24
+   ],
+   "source": [
+    468,
+    165,
+    122,
+    24
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-right",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so144",
+   "file": "SOZ/soz_042_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "フップシ岳",
+   "ko": "훗푸시다케",
+   "ocr_id": null,
+   "crop": [
+    231,
+    149,
+    100,
+    24
+   ],
+   "text": [
+    231,
+    149,
+    100,
+    24
+   ],
+   "source": [
+    231,
+    149,
+    100,
+    24
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so145",
+   "file": "SOZ/soz_042_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "フレベツ岳",
+   "ko": "후레베츠다케",
+   "ocr_id": null,
+   "crop": [
+    353,
+    322,
+    114,
+    25
+   ],
+   "text": [
+    353,
+    322,
+    114,
+    25
+   ],
+   "source": [
+    353,
+    322,
+    114,
+    25
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so146",
+   "file": "SOZ/soz_042_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "雌阿寒",
+   "ko": "메아칸",
+   "ocr_id": null,
+   "crop": [
+    147,
+    311,
+    71,
+    23
+   ],
+   "text": [
+    147,
+    311,
+    71,
+    23
+   ],
+   "source": [
+    147,
+    311,
+    71,
+    23
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so147",
+   "file": "SOZ/soz_042_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "雌阿寒岳",
+   "ko": "메아칸다케",
+   "ocr_id": null,
+   "crop": [
+    225,
+    334,
+    96,
+    24
+   ],
+   "text": [
+    225,
+    334,
+    96,
+    24
+   ],
+   "source": [
+    225,
+    334,
+    96,
+    24
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so148",
+   "file": "SOZ/soz_042_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "オンネトー湖",
+   "ko": "온네토호",
+   "ocr_id": null,
+   "crop": [
+    123,
+    383,
+    118,
+    21
+   ],
+   "text": [
+    123,
+    383,
+    118,
+    21
+   ],
+   "source": [
+    123,
+    383,
+    118,
+    21
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so149",
+   "file": "SOZ/soz_042_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "阿寒富士",
+   "ko": "아칸후지",
+   "ocr_id": null,
+   "crop": [
+    223,
+    412,
+    86,
+    22
+   ],
+   "text": [
+    223,
+    412,
+    86,
+    22
+   ],
+   "source": [
+    223,
+    412,
+    86,
+    22
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so150",
+   "file": "SOZ/soz_043_02.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "藻琴山展望駐車場公園",
+   "ko": "모코토산 전망주차장 공원",
+   "ocr_id": null,
+   "crop": [
+    141,
+    33,
+    231,
+    20
+   ],
+   "text": [
+    141,
+    33,
+    231,
+    20
+   ],
+   "source": [
+    141,
+    33,
+    231,
+    20
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so151",
+   "file": "SOZ/soz_043_02.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "屈斜路湖",
+   "ko": "쿳샤로호",
+   "ocr_id": null,
+   "crop": [
+    171,
+    95,
+    85,
+    20
+   ],
+   "text": [
+    171,
+    95,
+    85,
+    20
+   ],
+   "source": [
+    171,
+    95,
+    85,
+    20
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so152",
+   "file": "SOZ/soz_043_02.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "蝦夷風俗\n木彫美術館",
+   "ko": "에조 풍속\n목조미술관",
+   "ocr_id": null,
+   "crop": [
+    314,
+    112,
+    108,
+    43
+   ],
+   "text": [
+    314,
+    112,
+    108,
+    43
+   ],
+   "source": [
+    314,
+    112,
+    108,
+    43
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so153",
+   "file": "SOZ/soz_043_02.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "神ノ子池",
+   "ko": "카미노코못",
+   "ocr_id": null,
+   "crop": [
+    505,
+    118,
+    98,
+    20
+   ],
+   "text": [
+    505,
+    118,
+    98,
+    20
+   ],
+   "source": [
+    505,
+    118,
+    98,
+    20
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-right",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so154",
+   "file": "SOZ/soz_043_02.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "中島",
+   "ko": "나카지마",
+   "ocr_id": null,
+   "crop": [
+    81,
+    130,
+    76,
+    20
+   ],
+   "text": [
+    81,
+    130,
+    76,
+    20
+   ],
+   "source": [
+    81,
+    130,
+    76,
+    20
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so156",
+   "file": "SOZ/soz_043_02.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "裏摩周展望台",
+   "ko": "우라마슈 전망대",
+   "ocr_id": null,
+   "crop": [
+    451,
+    204,
+    135,
+    20
+   ],
+   "text": [
+    451,
+    204,
+    135,
+    20
+   ],
+   "source": [
+    451,
+    204,
+    135,
+    20
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-right",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so157",
+   "file": "SOZ/soz_043_02.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "第三展望台",
+   "ko": "제3전망대",
+   "ocr_id": null,
+   "crop": [
+    371,
+    246,
+    106,
+    20
+   ],
+   "text": [
+    371,
+    246,
+    106,
+    20
+   ],
+   "source": [
+    371,
+    246,
+    106,
+    20
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-right",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so158",
+   "file": "SOZ/soz_043_02.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "屈斜路フリンスホテル",
+   "ko": "쿳샤로 프린스 호텔",
+   "ocr_id": null,
+   "crop": [
+    25,
+    261,
+    160,
+    20
+   ],
+   "text": [
+    25,
+    261,
+    160,
+    20
+   ],
+   "source": [
+    25,
+    261,
+    160,
+    20
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so159",
+   "file": "SOZ/soz_043_02.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "摩周湖",
+   "ko": "마슈호",
+   "ocr_id": null,
+   "crop": [
+    538,
+    266,
+    63,
+    20
+   ],
+   "text": [
+    538,
+    266,
+    63,
+    20
+   ],
+   "source": [
+    538,
+    266,
+    63,
+    20
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so160",
+   "file": "SOZ/soz_043_02.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "アイヌ民族資料館",
+   "ko": "아이누 민족자료관",
+   "ocr_id": null,
+   "crop": [
+    114,
+    335,
+    162,
+    20
+   ],
+   "text": [
+    114,
+    335,
+    162,
+    20
+   ],
+   "source": [
+    114,
+    335,
+    162,
+    20
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so161",
+   "file": "SOZ/soz_043_02.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "第一展望台",
+   "ko": "제1전망대",
+   "ocr_id": null,
+   "crop": [
+    432,
+    341,
+    107,
+    20
+   ],
+   "text": [
+    432,
+    341,
+    107,
+    20
+   ],
+   "source": [
+    432,
+    341,
+    107,
+    20
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so162",
+   "file": "SOZ/soz_044_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "オコタンペ展望台",
+   "ko": "오코탄페 전망대",
+   "ocr_id": null,
+   "crop": [
+    74,
+    20,
+    135,
+    23
+   ],
+   "text": [
+    74,
+    20,
+    135,
+    23
+   ],
+   "source": [
+    74,
+    20,
+    135,
+    23
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so163",
+   "file": "SOZ/soz_044_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "恵庭岳",
+   "ko": "에니와다케",
+   "ocr_id": null,
+   "crop": [
+    121,
+    50,
+    93,
+    21
+   ],
+   "text": [
+    121,
+    50,
+    93,
+    21
+   ],
+   "source": [
+    121,
+    50,
+    93,
+    21
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so164",
+   "file": "SOZ/soz_044_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "丸駒温泉",
+   "ko": "마루코마 온천",
+   "ocr_id": null,
+   "crop": [
+    88,
+    94,
+    119,
+    22
+   ],
+   "text": [
+    88,
+    94,
+    119,
+    22
+   ],
+   "source": [
+    88,
+    94,
+    119,
+    22
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so165",
+   "file": "SOZ/soz_044_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "遊覧船乗り場",
+   "ko": "유람선 승강장",
+   "ocr_id": null,
+   "crop": [
+    374,
+    133,
+    123,
+    23
+   ],
+   "text": [
+    374,
+    133,
+    123,
+    23
+   ],
+   "source": [
+    374,
+    133,
+    123,
+    23
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-right",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so166",
+   "file": "SOZ/soz_044_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "モーラップ山",
+   "ko": "모랏푸산",
+   "ocr_id": null,
+   "crop": [
+    498,
+    231,
+    81,
+    21
+   ],
+   "text": [
+    498,
+    231,
+    81,
+    21
+   ],
+   "source": [
+    498,
+    231,
+    81,
+    21
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so167",
+   "file": "SOZ/soz_044_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "支笏湖",
+   "ko": "시코츠호",
+   "ocr_id": null,
+   "crop": [
+    134,
+    243,
+    75,
+    22
+   ],
+   "text": [
+    134,
+    243,
+    75,
+    22
+   ],
+   "source": [
+    134,
+    243,
+    75,
+    22
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so168",
+   "file": "SOZ/soz_044_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "国設美苗野営場",
+   "ko": "국설 비후에 야영장",
+   "ocr_id": null,
+   "crop": [
+    24,
+    290,
+    149,
+    23
+   ],
+   "text": [
+    24,
+    290,
+    149,
+    23
+   ],
+   "source": [
+    24,
+    290,
+    149,
+    23
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so169",
+   "file": "SOZ/soz_044_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "巨木の森",
+   "ko": "거목의 숲",
+   "ocr_id": null,
+   "crop": [
+    68,
+    323,
+    84,
+    21
+   ],
+   "text": [
+    68,
+    323,
+    84,
+    21
+   ],
+   "source": [
+    68,
+    323,
+    84,
+    21
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so170",
+   "file": "SOZ/soz_044_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "風不死岳",
+   "ko": "후풋시다케",
+   "ocr_id": null,
+   "crop": [
+    318,
+    372,
+    95,
+    21
+   ],
+   "text": [
+    318,
+    372,
+    95,
+    21
+   ],
+   "source": [
+    318,
+    372,
+    95,
+    21
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so171",
+   "file": "SOZ/soz_044_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "苔の洞門",
+   "ko": "코케노도몬",
+   "ocr_id": null,
+   "crop": [
+    267,
+    427,
+    90,
+    22
+   ],
+   "text": [
+    267,
+    427,
+    90,
+    22
+   ],
+   "source": [
+    267,
+    427,
+    90,
+    22
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so172",
+   "file": "SOZ/soz_045_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "島武意海岸",
+   "ko": "시마무이 해안",
+   "ocr_id": null,
+   "crop": [
+    457,
+    44,
+    106,
+    21
+   ],
+   "text": [
+    457,
+    44,
+    106,
+    21
+   ],
+   "source": [
+    457,
+    44,
+    106,
+    21
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so173",
+   "file": "SOZ/soz_045_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "積丹岬",
+   "ko": "샤코탄곶",
+   "ocr_id": null,
+   "crop": [
+    367,
+    93,
+    77,
+    20
+   ],
+   "text": [
+    367,
+    93,
+    77,
+    20
+   ],
+   "source": [
+    367,
+    93,
+    77,
+    20
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-right",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so174",
+   "file": "SOZ/soz_045_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "女郎子岩",
+   "ko": "조로코 바위",
+   "ocr_id": null,
+   "crop": [
+    511,
+    109,
+    96,
+    20
+   ],
+   "text": [
+    511,
+    109,
+    96,
+    20
+   ],
+   "source": [
+    511,
+    109,
+    96,
+    20
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-right",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so175",
+   "file": "SOZ/soz_045_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "海鮮食堂みさき",
+   "ko": "해선식당 미사키",
+   "ocr_id": null,
+   "crop": [
+    383,
+    138,
+    141,
+    20
+   ],
+   "text": [
+    383,
+    138,
+    141,
+    20
+   ],
+   "source": [
+    383,
+    138,
+    141,
+    20
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so176",
+   "file": "SOZ/soz_045_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "ワリシリ岬",
+   "ko": "와리시리곶",
+   "ocr_id": null,
+   "crop": [
+    119,
+    247,
+    95,
+    20
+   ],
+   "text": [
+    119,
+    247,
+    95,
+    20
+   ],
+   "source": [
+    119,
+    247,
+    95,
+    20
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so177",
+   "file": "SOZ/soz_045_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "しやこたん",
+   "ko": "샤코탄",
+   "ocr_id": null,
+   "crop": [
+    367,
+    273,
+    91,
+    19
+   ],
+   "text": [
+    367,
+    273,
+    91,
+    19
+   ],
+   "source": [
+    367,
+    273,
+    91,
+    19
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so178",
+   "file": "SOZ/soz_045_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "神威岬",
+   "ko": "카무이곶",
+   "ocr_id": null,
+   "crop": [
+    45,
+    286,
+    76,
+    20
+   ],
+   "text": [
+    45,
+    286,
+    76,
+    20
+   ],
+   "source": [
+    45,
+    286,
+    76,
+    20
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so179",
+   "file": "SOZ/soz_045_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "積丹原野",
+   "ko": "샤코탄 원야",
+   "ocr_id": null,
+   "crop": [
+    388,
+    315,
+    107,
+    20
+   ],
+   "text": [
+    388,
+    315,
+    107,
+    20
+   ],
+   "source": [
+    388,
+    315,
+    107,
+    20
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so180",
+   "file": "SOZ/soz_045_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "ふれあいの森\n積丹シーサイド余別",
+   "ko": "후레아이 숲\n샤코탄 시사이드 요베츠",
+   "ocr_id": null,
+   "crop": [
+    176,
+    341,
+    189,
+    44
+   ],
+   "text": [
+    176,
+    341,
+    189,
+    44
+   ],
+   "source": [
+    176,
+    341,
+    189,
+    44
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so182",
+   "file": "SOZ/soz_045_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "積丹大滝",
+   "ko": "샤코탄 오타키 폭포",
+   "ocr_id": null,
+   "crop": [
+    410,
+    374,
+    159,
+    20
+   ],
+   "text": [
+    410,
+    374,
+    159,
+    20
+   ],
+   "source": [
+    410,
+    374,
+    159,
+    20
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so183",
+   "file": "SOZ/soz_046_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "河南公園",
+   "ko": "카난 공원",
+   "ocr_id": null,
+   "crop": [
+    83,
+    15,
+    96,
+    23
+   ],
+   "text": [
+    83,
+    15,
+    96,
+    23
+   ],
+   "source": [
+    83,
+    15,
+    96,
+    23
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so184",
+   "file": "SOZ/soz_046_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "黒沢病院",
+   "ko": "쿠로사와 병원",
+   "ocr_id": null,
+   "crop": [
+    412,
+    18,
+    127,
+    23
+   ],
+   "text": [
+    412,
+    18,
+    127,
+    23
+   ],
+   "source": [
+    412,
+    18,
+    127,
+    23
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-right",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so185",
+   "file": "SOZ/soz_046_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "ホテルニュ-スズキ",
+   "ko": "호텔 뉴 스즈키",
+   "ocr_id": null,
+   "crop": [
+    135,
+    64,
+    160,
+    24
+   ],
+   "text": [
+    135,
+    64,
+    160,
+    24
+   ],
+   "source": [
+    135,
+    64,
+    160,
+    24
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so186",
+   "file": "SOZ/soz_046_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "新橋",
+   "ko": "신바시",
+   "ocr_id": null,
+   "crop": [
+    328,
+    76,
+    68,
+    23
+   ],
+   "text": [
+    328,
+    76,
+    68,
+    23
+   ],
+   "source": [
+    328,
+    76,
+    68,
+    23
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so187",
+   "file": "SOZ/soz_046_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "大通り",
+   "ko": "오도리",
+   "ocr_id": null,
+   "crop": [
+    561,
+    115,
+    22,
+    78
+   ],
+   "text": [
+    561,
+    115,
+    22,
+    78
+   ],
+   "source": [
+    561,
+    115,
+    22,
+    78
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-vertical",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so190",
+   "file": "SOZ/soz_046_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "シェル",
+   "ko": "쉘",
+   "ocr_id": null,
+   "crop": [
+    325,
+    166,
+    64,
+    20
+   ],
+   "text": [
+    325,
+    166,
+    64,
+    20
+   ],
+   "source": [
+    325,
+    166,
+    64,
+    20
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so191",
+   "file": "SOZ/soz_046_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "カフェ幻想",
+   "ko": "카페 환상",
+   "ocr_id": null,
+   "crop": [
+    175,
+    219,
+    106,
+    20
+   ],
+   "text": [
+    175,
+    219,
+    106,
+    20
+   ],
+   "source": [
+    175,
+    219,
+    106,
+    20
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so192",
+   "file": "SOZ/soz_046_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "ホテル若松\nホテル若松別館",
+   "ko": "호텔 와카마츠\n호텔 와카마츠 별관",
+   "ocr_id": null,
+   "crop": [
+    402,
+    225,
+    170,
+    46
+   ],
+   "text": [
+    402,
+    225,
+    170,
+    46
+   ],
+   "source": [
+    402,
+    225,
+    170,
+    46
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so194",
+   "file": "SOZ/soz_046_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "日石",
+   "ko": "닛세키",
+   "ocr_id": null,
+   "crop": [
+    238,
+    272,
+    62,
+    19
+   ],
+   "text": [
+    238,
+    272,
+    62,
+    19
+   ],
+   "source": [
+    238,
+    272,
+    62,
+    19
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so195",
+   "file": "SOZ/soz_046_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "パークサイドホテル",
+   "ko": "파크사이드 호텔",
+   "ocr_id": null,
+   "crop": [
+    51,
+    299,
+    147,
+    20
+   ],
+   "text": [
+    51,
+    299,
+    147,
+    20
+   ],
+   "source": [
+    51,
+    299,
+    147,
+    20
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so196",
+   "file": "SOZ/soz_046_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "アンデルセン",
+   "ko": "안데르센",
+   "ocr_id": null,
+   "crop": [
+    314,
+    318,
+    134,
+    23
+   ],
+   "text": [
+    314,
+    318,
+    134,
+    23
+   ],
+   "source": [
+    314,
+    318,
+    134,
+    23
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so197",
+   "file": "SOZ/soz_046_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "共石",
+   "ko": "쿄세키",
+   "ocr_id": null,
+   "crop": [
+    516,
+    339,
+    53,
+    22
+   ],
+   "text": [
+    516,
+    339,
+    53,
+    22
+   ],
+   "source": [
+    516,
+    339,
+    53,
+    22
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so198",
+   "file": "SOZ/soz_046_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "中央公園",
+   "ko": "중앙공원",
+   "ocr_id": null,
+   "crop": [
+    15,
+    357,
+    83,
+    23
+   ],
+   "text": [
+    15,
+    357,
+    83,
+    23
+   ],
+   "source": [
+    15,
+    357,
+    83,
+    23
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so199",
+   "file": "SOZ/soz_047_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "大黒島",
+   "ko": "다이코쿠섬",
+   "ocr_id": null,
+   "crop": [
+    63,
+    79,
+    63,
+    20
+   ],
+   "text": [
+    63,
+    79,
+    63,
+    20
+   ],
+   "source": [
+    63,
+    79,
+    63,
+    20
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so200",
+   "file": "SOZ/soz_047_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "室蘭港",
+   "ko": "무로란항",
+   "ocr_id": null,
+   "crop": [
+    210,
+    125,
+    77,
+    20
+   ],
+   "text": [
+    210,
+    125,
+    77,
+    20
+   ],
+   "source": [
+    210,
+    125,
+    77,
+    20
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so201",
+   "file": "SOZ/soz_047_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "絵鞆岬",
+   "ko": "에토모곶",
+   "ocr_id": null,
+   "crop": [
+    76,
+    150,
+    74,
+    20
+   ],
+   "text": [
+    76,
+    150,
+    74,
+    20
+   ],
+   "source": [
+    76,
+    150,
+    74,
+    20
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so202",
+   "file": "SOZ/soz_047_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "イタンキ岬",
+   "ko": "이탄키곶",
+   "ocr_id": null,
+   "crop": [
+    497,
+    151,
+    92,
+    20
+   ],
+   "text": [
+    497,
+    151,
+    92,
+    20
+   ],
+   "source": [
+    497,
+    151,
+    92,
+    20
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so203",
+   "file": "SOZ/soz_047_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "銀屏風",
+   "ko": "긴뵤부",
+   "ocr_id": null,
+   "crop": [
+    54,
+    218,
+    64,
+    20
+   ],
+   "text": [
+    54,
+    218,
+    64,
+    20
+   ],
+   "source": [
+    54,
+    218,
+    64,
+    20
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so204",
+   "file": "SOZ/soz_047_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "トッカリショ岬",
+   "ko": "톳카리쇼곶",
+   "ocr_id": null,
+   "crop": [
+    409,
+    298,
+    116,
+    19
+   ],
+   "text": [
+    409,
+    298,
+    116,
+    19
+   ],
+   "source": [
+    409,
+    298,
+    116,
+    19
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so205",
+   "file": "SOZ/soz_047_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "金屏風",
+   "ko": "킨뵤부",
+   "ocr_id": null,
+   "crop": [
+    398,
+    324,
+    64,
+    20
+   ],
+   "text": [
+    398,
+    324,
+    64,
+    20
+   ],
+   "source": [
+    398,
+    324,
+    64,
+    20
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so206",
+   "file": "SOZ/soz_047_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "地球岬",
+   "ko": "치키우곶",
+   "ocr_id": null,
+   "crop": [
+    332,
+    363,
+    63,
+    20
+   ],
+   "text": [
+    332,
+    363,
+    63,
+    20
+   ],
+   "source": [
+    332,
+    363,
+    63,
+    20
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so207",
+   "file": "SOZ/soz_048_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "カルルス",
+   "ko": "카를루스",
+   "ocr_id": null,
+   "crop": [
+    64,
+    38,
+    80,
+    20
+   ],
+   "text": [
+    64,
+    38,
+    80,
+    20
+   ],
+   "source": [
+    64,
+    38,
+    80,
+    20
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so208",
+   "file": "SOZ/soz_048_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "登別原始林",
+   "ko": "노보리베츠 원시림",
+   "ocr_id": null,
+   "crop": [
+    207,
+    40,
+    168,
+    23
+   ],
+   "text": [
+    207,
+    40,
+    168,
+    23
+   ],
+   "source": [
+    207,
+    40,
+    168,
+    23
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so209",
+   "file": "SOZ/soz_048_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "倶多楽湖",
+   "ko": "쿳타라호",
+   "ocr_id": null,
+   "crop": [
+    329,
+    93,
+    93,
+    25
+   ],
+   "text": [
+    329,
+    93,
+    93,
+    25
+   ],
+   "source": [
+    329,
+    93,
+    93,
+    25
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so210",
+   "file": "SOZ/soz_048_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "地獄谷",
+   "ko": "지옥계곡",
+   "ocr_id": null,
+   "crop": [
+    247,
+    122,
+    68,
+    25
+   ],
+   "text": [
+    247,
+    122,
+    68,
+    25
+   ],
+   "source": [
+    247,
+    122,
+    68,
+    25
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so211",
+   "file": "SOZ/soz_048_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "天華園",
+   "ko": "텐카엔",
+   "ocr_id": null,
+   "crop": [
+    103,
+    154,
+    68,
+    22
+   ],
+   "text": [
+    103,
+    154,
+    68,
+    22
+   ],
+   "source": [
+    103,
+    154,
+    68,
+    22
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-right",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so212",
+   "file": "SOZ/soz_048_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "登別温泉",
+   "ko": "노보리베츠 온천",
+   "ocr_id": null,
+   "crop": [
+    187,
+    168,
+    149,
+    26
+   ],
+   "text": [
+    187,
+    168,
+    149,
+    26
+   ],
+   "source": [
+    187,
+    168,
+    149,
+    26
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so213",
+   "file": "SOZ/soz_048_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "のぼりべつくま牧場",
+   "ko": "노보리베츠 곰목장",
+   "ocr_id": null,
+   "crop": [
+    351,
+    193,
+    175,
+    26
+   ],
+   "text": [
+    351,
+    193,
+    175,
+    26
+   ],
+   "source": [
+    351,
+    193,
+    175,
+    26
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so214",
+   "file": "SOZ/soz_048_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "虎杖浜",
+   "ko": "코조하마",
+   "ocr_id": null,
+   "crop": [
+    470,
+    305,
+    85,
+    21
+   ],
+   "text": [
+    470,
+    305,
+    85,
+    21
+   ],
+   "source": [
+    470,
+    305,
+    85,
+    21
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-right",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so215",
+   "file": "SOZ/soz_048_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "登別時代村",
+   "ko": "노보리베츠 시대촌",
+   "ocr_id": null,
+   "crop": [
+    129,
+    320,
+    153,
+    23
+   ],
+   "text": [
+    129,
+    320,
+    153,
+    23
+   ],
+   "source": [
+    129,
+    320,
+    153,
+    23
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-right",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so216",
+   "file": "SOZ/soz_048_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "登別マリンパークニクス",
+   "ko": "노보리베츠 마린파크 닉스",
+   "ocr_id": null,
+   "crop": [
+    250,
+    371,
+    207,
+    23
+   ],
+   "text": [
+    250,
+    371,
+    207,
+    23
+   ],
+   "source": [
+    250,
+    371,
+    207,
+    23
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so217",
+   "file": "SOZ/soz_049_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "観光ホテル滝乃家",
+   "ko": "관광호텔 타키노야",
+   "ocr_id": null,
+   "crop": [
+    113,
+    67,
+    193,
+    22
+   ],
+   "text": [
+    113,
+    67,
+    193,
+    22
+   ],
+   "source": [
+    113,
+    67,
+    193,
+    22
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-right",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so218",
+   "file": "SOZ/soz_049_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "わかさや本舗",
+   "ko": "와카사야 혼포",
+   "ocr_id": null,
+   "crop": [
+    387,
+    97,
+    148,
+    23
+   ],
+   "text": [
+    387,
+    97,
+    148,
+    23
+   ],
+   "source": [
+    387,
+    97,
+    148,
+    23
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-right",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so219",
+   "file": "SOZ/soz_049_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "秋吉ホテル",
+   "ko": "아키요시 호텔",
+   "ocr_id": null,
+   "crop": [
+    344,
+    169,
+    117,
+    24
+   ],
+   "text": [
+    344,
+    169,
+    117,
+    24
+   ],
+   "source": [
+    344,
+    169,
+    117,
+    24
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-right",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so220",
+   "file": "SOZ/soz_049_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "ホテルまほろば",
+   "ko": "호텔 마호로바",
+   "ocr_id": null,
+   "crop": [
+    129,
+    198,
+    164,
+    24
+   ],
+   "text": [
+    129,
+    198,
+    164,
+    24
+   ],
+   "source": [
+    129,
+    198,
+    164,
+    24
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-right",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so221",
+   "file": "SOZ/soz_049_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "いせくら",
+   "ko": "이세쿠라",
+   "ocr_id": null,
+   "crop": [
+    491,
+    245,
+    84,
+    22
+   ],
+   "text": [
+    491,
+    245,
+    84,
+    22
+   ],
+   "source": [
+    491,
+    245,
+    84,
+    22
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so222",
+   "file": "SOZ/soz_049_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "大入屋\n玉川旅館",
+   "ko": "오이리야\n타마가와 료칸",
+   "ocr_id": null,
+   "crop": [
+    465,
+    298,
+    112,
+    52
+   ],
+   "text": [
+    465,
+    298,
+    112,
+    52
+   ],
+   "source": [
+    465,
+    298,
+    112,
+    52
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so224",
+   "file": "SOZ/soz_050_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "ホテルニューすずらん",
+   "ko": "호텔 뉴 스즈란",
+   "ocr_id": null,
+   "crop": [
+    309,
+    90,
+    224,
+    22
+   ],
+   "text": [
+    309,
+    90,
+    224,
+    22
+   ],
+   "source": [
+    309,
+    90,
+    224,
+    22
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so225",
+   "file": "SOZ/soz_050_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "富良野プリンスホテル",
+   "ko": "후라노 프린스 호텔",
+   "ocr_id": null,
+   "crop": [
+    138,
+    246,
+    225,
+    21
+   ],
+   "text": [
+    138,
+    246,
+    225,
+    21
+   ],
+   "source": [
+    138,
+    246,
+    225,
+    21
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so226",
+   "file": "SOZ/soz_050_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "ヘリポート",
+   "ko": "헬리포트",
+   "ocr_id": null,
+   "crop": [
+    442,
+    314,
+    104,
+    20
+   ],
+   "text": [
+    442,
+    314,
+    104,
+    20
+   ],
+   "source": [
+    442,
+    314,
+    104,
+    20
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so227",
+   "file": "SOZ/soz_050_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "新富良野プリンスホテル",
+   "ko": "신후라노 프린스 호텔",
+   "ocr_id": null,
+   "crop": [
+    97,
+    322,
+    251,
+    22
+   ],
+   "text": [
+    97,
+    322,
+    251,
+    22
+   ],
+   "source": [
+    97,
+    322,
+    251,
+    22
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so228",
+   "file": "SOZ/soz_051_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "富良野風景画館",
+   "ko": "후라노 풍경화관",
+   "ocr_id": null,
+   "crop": [
+    204,
+    78,
+    148,
+    20
+   ],
+   "text": [
+    204,
+    78,
+    148,
+    20
+   ],
+   "source": [
+    204,
+    78,
+    148,
+    20
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so229",
+   "file": "SOZ/soz_051_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "ファーム富田",
+   "ko": "팜 토미타",
+   "ocr_id": null,
+   "crop": [
+    201,
+    180,
+    116,
+    20
+   ],
+   "text": [
+    201,
+    180,
+    116,
+    20
+   ],
+   "source": [
+    201,
+    180,
+    116,
+    20
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so230",
+   "file": "SOZ/soz_051_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "ラベンダー畑",
+   "ko": "라벤더 밭",
+   "ocr_id": null,
+   "crop": [
+    215,
+    230,
+    117,
+    20
+   ],
+   "text": [
+    215,
+    230,
+    117,
+    20
+   ],
+   "source": [
+    215,
+    230,
+    117,
+    20
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so231",
+   "file": "SOZ/soz_051_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "森林公園",
+   "ko": "삼림공원",
+   "ocr_id": null,
+   "crop": [
+    146,
+    258,
+    85,
+    20
+   ],
+   "text": [
+    146,
+    258,
+    85,
+    20
+   ],
+   "source": [
+    146,
+    258,
+    85,
+    20
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-right",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so232",
+   "file": "SOZ/soz_052_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "北海道物産センター",
+   "ko": "홋카이도 물산센터",
+   "ocr_id": null,
+   "crop": [
+    325,
+    167,
+    182,
+    22
+   ],
+   "text": [
+    325,
+    167,
+    182,
+    22
+   ],
+   "source": [
+    325,
+    167,
+    182,
+    22
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so233",
+   "file": "SOZ/soz_052_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "瑞穂橋",
+   "ko": "미즈호교",
+   "ocr_id": null,
+   "crop": [
+    76,
+    188,
+    98,
+    21
+   ],
+   "text": [
+    76,
+    188,
+    98,
+    21
+   ],
+   "source": [
+    76,
+    188,
+    98,
+    21
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so234",
+   "file": "SOZ/soz_052_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "十三哩橋",
+   "ko": "주산마이루교",
+   "ocr_id": null,
+   "crop": [
+    77,
+    248,
+    127,
+    22
+   ],
+   "text": [
+    77,
+    248,
+    127,
+    22
+   ],
+   "source": [
+    77,
+    248,
+    127,
+    22
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so235",
+   "file": "SOZ/soz_053_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "美葉牛橋",
+   "ko": "미바우시교",
+   "ocr_id": null,
+   "crop": [
+    304,
+    44,
+    97,
+    21
+   ],
+   "text": [
+    304,
+    44,
+    97,
+    21
+   ],
+   "source": [
+    304,
+    44,
+    97,
+    21
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-right",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so236",
+   "file": "SOZ/soz_053_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "筑紫橋",
+   "ko": "치쿠시교",
+   "ocr_id": null,
+   "crop": [
+    453,
+    59,
+    73,
+    22
+   ],
+   "text": [
+    453,
+    59,
+    73,
+    22
+   ],
+   "source": [
+    453,
+    59,
+    73,
+    22
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so237",
+   "file": "SOZ/soz_053_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "北竜温泉\nサンフラワーパーク",
+   "ko": "호쿠류 온천\n선플라워 파크",
+   "ocr_id": null,
+   "crop": [
+    209,
+    179,
+    138,
+    46
+   ],
+   "text": [
+    209,
+    179,
+    138,
+    46
+   ],
+   "source": [
+    209,
+    179,
+    138,
+    46
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so239",
+   "file": "SOZ/soz_053_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "北竜町ひまわりの里",
+   "ko": "호쿠류초 해바라기 마을",
+   "ocr_id": null,
+   "crop": [
+    117,
+    283,
+    204,
+    24
+   ],
+   "text": [
+    117,
+    283,
+    204,
+    24
+   ],
+   "source": [
+    117,
+    283,
+    204,
+    24
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-right",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so240",
+   "file": "SOZ/soz_053_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "金毘羅公園",
+   "ko": "콘피라 공원",
+   "ocr_id": null,
+   "crop": [
+    171,
+    355,
+    122,
+    26
+   ],
+   "text": [
+    171,
+    355,
+    122,
+    26
+   ],
+   "source": [
+    171,
+    355,
+    122,
+    26
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so241",
+   "file": "SOZ/soz_053_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "北竜橋",
+   "ko": "호쿠류교",
+   "ocr_id": null,
+   "crop": [
+    502,
+    387,
+    72,
+    24
+   ],
+   "text": [
+    502,
+    387,
+    72,
+    24
+   ],
+   "source": [
+    502,
+    387,
+    72,
+    24
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so242",
+   "file": "SOZ/soz_053_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "恵岱別橋",
+   "ko": "에타이베츠교",
+   "ocr_id": null,
+   "crop": [
+    242,
+    401,
+    128,
+    23
+   ],
+   "text": [
+    242,
+    401,
+    128,
+    23
+   ],
+   "source": [
+    242,
+    401,
+    128,
+    23
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-right",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so243",
+   "file": "SOZ/soz_054_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "留萌海岸",
+   "ko": "루모이 해안",
+   "ocr_id": null,
+   "crop": [
+    234,
+    64,
+    96,
+    19
+   ],
+   "text": [
+    234,
+    64,
+    96,
+    19
+   ],
+   "source": [
+    234,
+    64,
+    96,
+    19
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-right",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so244",
+   "file": "SOZ/soz_054_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "黄金岬",
+   "ko": "오곤곶",
+   "ocr_id": null,
+   "crop": [
+    225,
+    144,
+    65,
+    21
+   ],
+   "text": [
+    225,
+    144,
+    65,
+    21
+   ],
+   "source": [
+    225,
+    144,
+    65,
+    21
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-right",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so245",
+   "file": "SOZ/soz_054_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "神居岩",
+   "ko": "카무이 바위",
+   "ocr_id": null,
+   "crop": [
+    489,
+    169,
+    95,
+    22
+   ],
+   "text": [
+    489,
+    169,
+    95,
+    22
+   ],
+   "source": [
+    489,
+    169,
+    95,
+    22
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-right",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so246",
+   "file": "SOZ/soz_054_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "栄萌橋",
+   "ko": "에이호교",
+   "ocr_id": null,
+   "crop": [
+    373,
+    227,
+    71,
+    22
+   ],
+   "text": [
+    373,
+    227,
+    71,
+    22
+   ],
+   "source": [
+    373,
+    227,
+    71,
+    22
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so247",
+   "file": "SOZ/soz_054_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "見晴公園",
+   "ko": "미하라시 공원",
+   "ocr_id": null,
+   "crop": [
+    341,
+    275,
+    114,
+    23
+   ],
+   "text": [
+    341,
+    275,
+    114,
+    23
+   ],
+   "source": [
+    341,
+    275,
+    114,
+    23
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so248",
+   "file": "SOZ/soz_054_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "浜中海水浴場",
+   "ko": "하마나카 해수욕장",
+   "ocr_id": null,
+   "crop": [
+    141,
+    288,
+    149,
+    24
+   ],
+   "text": [
+    141,
+    288,
+    149,
+    24
+   ],
+   "source": [
+    141,
+    288,
+    149,
+    24
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so249",
+   "file": "SOZ/soz_068_02.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "すすきの",
+   "ko": "스스키노",
+   "ocr_id": null,
+   "crop": [
+    267,
+    27,
+    22,
+    86
+   ],
+   "text": [
+    267,
+    27,
+    22,
+    86
+   ],
+   "source": [
+    267,
+    27,
+    22,
+    86
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so250",
+   "file": "SOZ/soz_068_02.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "F45ビル",
+   "ko": "F45빌딩",
+   "ocr_id": null,
+   "crop": [
+    40,
+    56,
+    76,
+    21
+   ],
+   "text": [
+    40,
+    56,
+    76,
+    21
+   ],
+   "source": [
+    40,
+    56,
+    76,
+    21
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so251",
+   "file": "SOZ/soz_068_02.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "ビ",
+   "ko": "비",
+   "ocr_id": null,
+   "crop": [
+    171,
+    94,
+    18,
+    20
+   ],
+   "text": [
+    171,
+    94,
+    18,
+    20
+   ],
+   "source": [
+    171,
+    94,
+    18,
+    20
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so252",
+   "file": "SOZ/soz_068_02.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "ロ",
+   "ko": "로",
+   "ocr_id": null,
+   "crop": [
+    148,
+    96,
+    17,
+    17
+   ],
+   "text": [
+    148,
+    96,
+    17,
+    17
+   ],
+   "source": [
+    148,
+    96,
+    17,
+    17
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so253",
+   "file": "SOZ/soz_068_02.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "ン",
+   "ko": "ㄴ",
+   "ocr_id": null,
+   "crop": [
+    192,
+    97,
+    18,
+    18
+   ],
+   "text": [
+    192,
+    97,
+    18,
+    18
+   ],
+   "source": [
+    192,
+    97,
+    18,
+    18
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so254",
+   "file": "SOZ/soz_068_02.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "ン",
+   "ko": "ㄴ",
+   "ocr_id": null,
+   "crop": [
+    236,
+    98,
+    18,
+    18
+   ],
+   "text": [
+    236,
+    98,
+    18,
+    18
+   ],
+   "source": [
+    236,
+    98,
+    18,
+    18
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so255",
+   "file": "SOZ/soz_068_02.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "グリーン",
+   "ko": "그린",
+   "ocr_id": null,
+   "crop": [
+    285,
+    108,
+    85,
+    22
+   ],
+   "text": [
+    285,
+    108,
+    85,
+    22
+   ],
+   "source": [
+    285,
+    108,
+    85,
+    22
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so256",
+   "file": "SOZ/soz_068_02.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "ビル2",
+   "ko": "빌딩2",
+   "ocr_id": null,
+   "crop": [
+    286,
+    132,
+    57,
+    20
+   ],
+   "text": [
+    286,
+    132,
+    57,
+    20
+   ],
+   "source": [
+    286,
+    132,
+    57,
+    20
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so257",
+   "file": "SOZ/soz_068_02.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "東急イン",
+   "ko": "도큐인",
+   "ocr_id": null,
+   "crop": [
+    45,
+    142,
+    86,
+    22
+   ],
+   "text": [
+    45,
+    142,
+    86,
+    22
+   ],
+   "source": [
+    45,
+    142,
+    86,
+    22
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so258",
+   "file": "SOZ/soz_068_02.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "グリーンアオキビル",
+   "ko": "그린 아오키빌딩",
+   "ocr_id": null,
+   "crop": [
+    351,
+    143,
+    209,
+    30
+   ],
+   "text": [
+    351,
+    143,
+    209,
+    30
+   ],
+   "source": [
+    351,
+    143,
+    209,
+    30
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so259",
+   "file": "SOZ/soz_068_02.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "ビル3",
+   "ko": "빌딩3",
+   "ocr_id": null,
+   "crop": [
+    352,
+    166,
+    57,
+    21
+   ],
+   "text": [
+    352,
+    166,
+    57,
+    21
+   ],
+   "source": [
+    352,
+    166,
+    57,
+    21
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so260",
+   "file": "SOZ/soz_068_02.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "ニューススキノビル",
+   "ko": "뉴 스스키노빌딩",
+   "ocr_id": null,
+   "crop": [
+    385,
+    197,
+    182,
+    21
+   ],
+   "text": [
+    385,
+    197,
+    182,
+    21
+   ],
+   "source": [
+    385,
+    197,
+    182,
+    21
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so261",
+   "file": "SOZ/soz_068_02.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "フーメン横丁",
+   "ko": "라멘 요코초",
+   "ocr_id": null,
+   "crop": [
+    223,
+    208,
+    120,
+    22
+   ],
+   "text": [
+    223,
+    208,
+    120,
+    22
+   ],
+   "source": [
+    223,
+    208,
+    120,
+    22
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so262",
+   "file": "SOZ/soz_068_02.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "豊",
+   "ko": "도요",
+   "ocr_id": null,
+   "crop": [
+    570,
+    227,
+    21,
+    21
+   ],
+   "text": [
+    570,
+    227,
+    21,
+    21
+   ],
+   "source": [
+    570,
+    227,
+    21,
+    21
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so263",
+   "file": "SOZ/soz_068_02.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "オークラビル水",
+   "ko": "오쿠라빌딩",
+   "ocr_id": null,
+   "crop": [
+    417,
+    249,
+    173,
+    26
+   ],
+   "text": [
+    417,
+    249,
+    173,
+    26
+   ],
+   "source": [
+    417,
+    249,
+    173,
+    26
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so264",
+   "file": "SOZ/soz_068_02.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "アルトビル",
+   "ko": "알토빌딩",
+   "ocr_id": null,
+   "crop": [
+    128,
+    254,
+    99,
+    22
+   ],
+   "text": [
+    128,
+    254,
+    99,
+    22
+   ],
+   "source": [
+    128,
+    254,
+    99,
+    22
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so265",
+   "file": "SOZ/soz_068_02.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "東宝公楽会館",
+   "ko": "도호 고라쿠 회관",
+   "ocr_id": null,
+   "crop": [
+    277,
+    293,
+    131,
+    24
+   ],
+   "text": [
+    277,
+    293,
+    131,
+    24
+   ],
+   "source": [
+    277,
+    293,
+    131,
+    24
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so266",
+   "file": "SOZ/soz_068_02.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "す",
+   "ko": "스",
+   "ocr_id": null,
+   "crop": [
+    570,
+    293,
+    19,
+    20
+   ],
+   "text": [
+    570,
+    293,
+    19,
+    20
+   ],
+   "source": [
+    570,
+    293,
+    19,
+    20
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so267",
+   "file": "SOZ/soz_068_02.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "き",
+   "ko": "키",
+   "ocr_id": null,
+   "crop": [
+    570,
+    316,
+    17,
+    19
+   ],
+   "text": [
+    570,
+    316,
+    17,
+    19
+   ],
+   "source": [
+    570,
+    316,
+    17,
+    19
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so268",
+   "file": "SOZ/soz_068_02.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "の",
+   "ko": "노",
+   "ocr_id": null,
+   "crop": [
+    568,
+    339,
+    20,
+    18
+   ],
+   "text": [
+    568,
+    339,
+    20,
+    18
+   ],
+   "source": [
+    568,
+    339,
+    20,
+    18
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so269",
+   "file": "SOZ/soz_068_02.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "すすきの市場",
+   "ko": "스스키노 시장",
+   "ocr_id": null,
+   "crop": [
+    130,
+    381,
+    130,
+    24
+   ],
+   "text": [
+    130,
+    381,
+    130,
+    24
+   ],
+   "source": [
+    130,
+    381,
+    130,
+    24
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "OCR seed"
+  },
+  {
+   "box_id": "so270",
+   "file": "SOZ/soz_013_02.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "メッセ",
+   "ko": "멧세",
+   "ocr_id": null,
+   "crop": [
+    400,
+    129,
+    42,
+    24
+   ],
+   "text": [
+    400,
+    129,
+    42,
+    24
+   ],
+   "source": [
+    400,
+    129,
+    42,
+    24
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "manual"
+  },
+  {
+   "box_id": "so271",
+   "file": "SOZ/soz_013_02.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "アオキビル",
+   "ko": "아오키 빌딩",
+   "ocr_id": null,
+   "crop": [
+    454,
+    383,
+    112,
+    25
+   ],
+   "text": [
+    454,
+    383,
+    112,
+    25
+   ],
+   "source": [
+    454,
+    383,
+    112,
+    25
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "manual"
+  },
+  {
+   "box_id": "so272",
+   "file": "SOZ/soz_016_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "南郷通",
+   "ko": "난고도리",
+   "ocr_id": null,
+   "crop": [
+    133,
+    248,
+    84,
+    24
+   ],
+   "text": [
+    133,
+    248,
+    84,
+    24
+   ],
+   "source": [
+    133,
+    248,
+    84,
+    24
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "manual",
+   "angle": -26.6
+  },
+  {
+   "box_id": "so273",
+   "file": "SOZ/soz_016_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "環状通",
+   "ko": "칸조도리",
+   "ocr_id": null,
+   "crop": [
+    109,
+    57,
+    93,
+    25
+   ],
+   "text": [
+    109,
+    57,
+    93,
+    25
+   ],
+   "source": [
+    109,
+    57,
+    93,
+    25
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "manual",
+   "angle": 49.4
+  },
+  {
+   "box_id": "so274",
+   "file": "SOZ/soz_021_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "",
+   "ko": "",
+   "ocr_id": null,
+   "crop": [
+    222,
+    306,
+    33,
+    164
+   ],
+   "text": [
+    222,
+    306,
+    33,
+    164
+   ],
+   "source": [
+    222,
+    306,
+    33,
+    164
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "",
+   "opacity": "FF",
+   "status": "todo",
+   "notes": "manual",
+   "angle": 27.0
+  },
+  {
+   "box_id": "so275",
+   "file": "SOZ/soz_025_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "福住桑園通",
+   "ko": "후쿠즈미소엔도리",
+   "ocr_id": null,
+   "crop": [
+    112,
+    86,
+    29,
+    159
+   ],
+   "text": [
+    112,
+    86,
+    29,
+    159
+   ],
+   "source": [
+    112,
+    86,
+    29,
+    159
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-vertical",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "manual",
+   "angle": -40.5
+  },
+  {
+   "box_id": "so276",
+   "file": "SOZ/soz_027_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "スパル",
+   "ko": "스파루",
+   "ocr_id": null,
+   "crop": [
+    296,
+    34,
+    68,
+    22
+   ],
+   "text": [
+    296,
+    34,
+    68,
+    22
+   ],
+   "source": [
+    296,
+    34,
+    68,
+    22
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "manual"
+  },
+  {
+   "box_id": "so277",
+   "file": "SOZ/soz_036_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "丸井今井デパート",
+   "ko": "마루이이마이 백화점",
+   "ocr_id": null,
+   "crop": [
+    314,
+    208,
+    153,
+    21
+   ],
+   "text": [
+    314,
+    208,
+    153,
+    21
+   ],
+   "source": [
+    314,
+    208,
+    153,
+    21
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "manual"
+  },
+  {
+   "box_id": "so278",
+   "file": "SOZ/soz_036_00.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "テーオーデパート",
+   "ko": "테오 백화점",
+   "ocr_id": null,
+   "crop": [
+    104,
+    68,
+    120,
+    29
+   ],
+   "text": [
+    104,
+    68,
+    120,
+    29
+   ],
+   "source": [
+    104,
+    68,
+    120,
+    29
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text-left",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "manual"
+  },
+  {
+   "box_id": "so279",
+   "file": "SOZ/soz_045_01.png",
+   "element_id": null,
+   "run_id": null,
+   "jp": "武威岬",
+   "ko": "무이곶",
+   "ocr_id": null,
+   "crop": [
+    234,
+    239,
+    68,
+    22
+   ],
+   "text": [
+    234,
+    239,
+    68,
+    22
+   ],
+   "source": [
+    234,
+    239,
+    68,
+    22
+   ],
+   "canvas": null,
+   "pad": null,
+   "style": "poi-text",
+   "opacity": "FF",
+   "status": "render_ready",
+   "notes": "manual"
+  }
+ ],
+ "rules": {
+  "soz_011_g1": {
+   "mode": "overlay",
+   "base": "SOZ/soz_011_00.png",
+   "members": [
+    "SOZ/soz_011_01.png",
+    "SOZ/soz_011_02.png",
+    "SOZ/soz_011_03.png",
+    "SOZ/soz_011_04.png",
+    "SOZ/soz_011_05.png",
+    "SOZ/soz_011_06.png",
+    "SOZ/soz_011_07.png",
+    "SOZ/soz_011_08.png",
+    "SOZ/soz_011_09.png",
+    "SOZ/soz_011_10.png",
+    "SOZ/soz_011_11.png",
+    "SOZ/soz_011_12.png",
+    "SOZ/soz_011_13.png",
+    "SOZ/soz_011_14.png"
+   ]
+  },
+  "soz_011_g2": {
+   "mode": "overlay",
+   "base": "SOZ/soz_011_00.png",
+   "members": [
+    "SOZ/soz_011_15.png",
+    "SOZ/soz_011_16.png",
+    "SOZ/soz_011_17.png",
+    "SOZ/soz_011_18.png",
+    "SOZ/soz_011_19.png",
+    "SOZ/soz_011_20.png",
+    "SOZ/soz_011_21.png",
+    "SOZ/soz_011_22.png",
+    "SOZ/soz_011_23.png",
+    "SOZ/soz_011_24.png",
+    "SOZ/soz_011_25.png",
+    "SOZ/soz_011_26.png",
+    "SOZ/soz_011_27.png",
+    "SOZ/soz_011_28.png"
+   ]
+  },
+  "soz_012_g": {
+   "mode": "overlay",
+   "base": "SOZ/soz_012_00.png",
+   "members": [
+    "SOZ/soz_012_01.png",
+    "SOZ/soz_012_02.png",
+    "SOZ/soz_012_03.png"
+   ]
+  },
+  "soz_013_g": {
+   "mode": "overlay",
+   "base": "SOZ/soz_013_00.png",
+   "members": [
+    "SOZ/soz_013_01.png",
+    "SOZ/soz_013_02.png",
+    "SOZ/soz_013_03.png",
+    "SOZ/soz_013_04.png",
+    "SOZ/soz_013_05.png",
+    "SOZ/soz_013_06.png",
+    "SOZ/soz_013_07.png"
+   ]
+  },
+  "soz_014_g": {
+   "mode": "overlay",
+   "base": "SOZ/soz_014_00.png",
+   "members": [
+    "SOZ/soz_014_01.png",
+    "SOZ/soz_014_02.png",
+    "SOZ/soz_014_03.png",
+    "SOZ/soz_014_04.png"
+   ]
+  },
+  "soz_015_g": {
+   "mode": "overlay",
+   "base": "SOZ/soz_015_00.png",
+   "members": [
+    "SOZ/soz_015_01.png",
+    "SOZ/soz_015_02.png"
+   ]
+  },
+  "soz_016_g": {
+   "mode": "overlay",
+   "base": "SOZ/soz_016_00.png",
+   "members": [
+    "SOZ/soz_016_01.png",
+    "SOZ/soz_016_02.png",
+    "SOZ/soz_016_03.png",
+    "SOZ/soz_016_04.png"
+   ]
+  },
+  "soz_017_g": {
+   "mode": "overlay",
+   "base": "SOZ/soz_017_00.png",
+   "members": [
+    "SOZ/soz_017_01.png",
+    "SOZ/soz_017_02.png",
+    "SOZ/soz_017_03.png",
+    "SOZ/soz_017_04.png"
+   ]
+  },
+  "soz_018_g": {
+   "mode": "overlay",
+   "base": "SOZ/soz_018_00.png",
+   "members": [
+    "SOZ/soz_018_01.png",
+    "SOZ/soz_018_02.png"
+   ]
+  },
+  "soz_019_g": {
+   "mode": "overlay",
+   "base": "SOZ/soz_019_00.png",
+   "members": [
+    "SOZ/soz_019_01.png",
+    "SOZ/soz_019_02.png",
+    "SOZ/soz_019_03.png",
+    "SOZ/soz_019_04.png",
+    "SOZ/soz_019_05.png",
+    "SOZ/soz_019_06.png"
+   ]
+  },
+  "soz_020_g": {
+   "mode": "overlay",
+   "base": "SOZ/soz_020_00.png",
+   "members": [
+    "SOZ/soz_020_01.png",
+    "SOZ/soz_020_02.png"
+   ]
+  },
+  "soz_021_g": {
+   "mode": "overlay",
+   "base": "SOZ/soz_021_00.png",
+   "members": [
+    "SOZ/soz_021_01.png",
+    "SOZ/soz_021_02.png",
+    "SOZ/soz_021_03.png",
+    "SOZ/soz_021_04.png"
+   ]
+  },
+  "soz_022_g": {
+   "mode": "overlay",
+   "base": "SOZ/soz_022_00.png",
+   "members": [
+    "SOZ/soz_022_01.png",
+    "SOZ/soz_022_02.png",
+    "SOZ/soz_022_03.png",
+    "SOZ/soz_022_04.png",
+    "SOZ/soz_022_05.png",
+    "SOZ/soz_022_06.png"
+   ]
+  },
+  "soz_023_g": {
+   "mode": "overlay",
+   "base": "SOZ/soz_023_00.png",
+   "members": [
+    "SOZ/soz_023_01.png",
+    "SOZ/soz_023_02.png"
+   ]
+  },
+  "soz_024_g": {
+   "mode": "overlay",
+   "base": "SOZ/soz_024_00.png",
+   "members": [
+    "SOZ/soz_024_01.png",
+    "SOZ/soz_024_02.png",
+    "SOZ/soz_024_03.png",
+    "SOZ/soz_024_04.png"
+   ]
+  },
+  "soz_025_g": {
+   "mode": "overlay",
+   "base": "SOZ/soz_025_00.png",
+   "members": [
+    "SOZ/soz_025_01.png",
+    "SOZ/soz_025_02.png",
+    "SOZ/soz_025_03.png",
+    "SOZ/soz_025_04.png"
+   ]
+  },
+  "soz_026_g": {
+   "mode": "overlay",
+   "base": "SOZ/soz_026_00.png",
+   "members": [
+    "SOZ/soz_026_01.png",
+    "SOZ/soz_026_02.png"
+   ]
+  },
+  "soz_027_g": {
+   "mode": "overlay",
+   "base": "SOZ/soz_027_00.png",
+   "members": [
+    "SOZ/soz_027_01.png",
+    "SOZ/soz_027_02.png",
+    "SOZ/soz_027_03.png",
+    "SOZ/soz_027_04.png",
+    "SOZ/soz_027_05.png"
+   ]
+  },
+  "soz_028_g": {
+   "mode": "overlay",
+   "base": "SOZ/soz_028_00.png",
+   "members": [
+    "SOZ/soz_028_01.png",
+    "SOZ/soz_028_02.png",
+    "SOZ/soz_028_03.png",
+    "SOZ/soz_028_04.png"
+   ]
+  },
+  "soz_029_g": {
+   "mode": "overlay",
+   "base": "SOZ/soz_029_00.png",
+   "members": [
+    "SOZ/soz_029_01.png",
+    "SOZ/soz_029_02.png",
+    "SOZ/soz_029_03.png"
+   ]
+  },
+  "soz_030_g": {
+   "mode": "overlay",
+   "base": "SOZ/soz_030_00.png",
+   "members": [
+    "SOZ/soz_030_01.png",
+    "SOZ/soz_030_02.png",
+    "SOZ/soz_030_03.png",
+    "SOZ/soz_030_04.png",
+    "SOZ/soz_030_05.png"
+   ]
+  },
+  "soz_031_g": {
+   "mode": "overlay",
+   "base": "SOZ/soz_031_00.png",
+   "members": [
+    "SOZ/soz_031_01.png",
+    "SOZ/soz_031_02.png",
+    "SOZ/soz_031_03.png",
+    "SOZ/soz_031_04.png"
+   ]
+  },
+  "soz_032_g": {
+   "mode": "overlay",
+   "base": "SOZ/soz_032_00.png",
+   "members": [
+    "SOZ/soz_032_01.png",
+    "SOZ/soz_032_02.png",
+    "SOZ/soz_032_03.png",
+    "SOZ/soz_032_04.png",
+    "SOZ/soz_032_05.png",
+    "SOZ/soz_032_06.png"
+   ]
+  },
+  "soz_033_g": {
+   "mode": "overlay",
+   "base": "SOZ/soz_033_00.png",
+   "members": [
+    "SOZ/soz_033_01.png",
+    "SOZ/soz_033_02.png",
+    "SOZ/soz_033_03.png",
+    "SOZ/soz_033_04.png",
+    "SOZ/soz_033_05.png",
+    "SOZ/soz_033_06.png",
+    "SOZ/soz_033_07.png",
+    "SOZ/soz_033_08.png"
+   ]
+  },
+  "soz_034_g": {
+   "mode": "overlay",
+   "base": "SOZ/soz_034_00.png",
+   "members": [
+    "SOZ/soz_034_01.png",
+    "SOZ/soz_034_02.png",
+    "SOZ/soz_034_03.png",
+    "SOZ/soz_034_04.png"
+   ]
+  },
+  "soz_035_g": {
+   "mode": "overlay",
+   "base": "SOZ/soz_035_00.png",
+   "members": [
+    "SOZ/soz_035_01.png",
+    "SOZ/soz_035_02.png",
+    "SOZ/soz_035_03.png",
+    "SOZ/soz_035_04.png"
+   ]
+  },
+  "soz_036_g": {
+   "mode": "overlay",
+   "base": "SOZ/soz_036_00.png",
+   "members": [
+    "SOZ/soz_036_01.png",
+    "SOZ/soz_036_02.png",
+    "SOZ/soz_036_03.png",
+    "SOZ/soz_036_04.png",
+    "SOZ/soz_036_05.png",
+    "SOZ/soz_036_06.png",
+    "SOZ/soz_036_07.png",
+    "SOZ/soz_036_08.png"
+   ]
+  },
+  "soz_037_g": {
+   "mode": "overlay",
+   "base": "SOZ/soz_037_00.png",
+   "members": [
+    "SOZ/soz_037_01.png",
+    "SOZ/soz_037_02.png",
+    "SOZ/soz_037_03.png",
+    "SOZ/soz_037_04.png"
+   ]
+  },
+  "soz_038_g": {
+   "mode": "overlay",
+   "base": "SOZ/soz_038_00.png",
+   "members": [
+    "SOZ/soz_038_01.png",
+    "SOZ/soz_038_02.png",
+    "SOZ/soz_038_03.png",
+    "SOZ/soz_038_04.png",
+    "SOZ/soz_038_05.png"
+   ]
+  },
+  "soz_039_g": {
+   "mode": "overlay",
+   "base": "SOZ/soz_039_00.png",
+   "members": [
+    "SOZ/soz_039_01.png",
+    "SOZ/soz_039_02.png",
+    "SOZ/soz_039_03.png",
+    "SOZ/soz_039_04.png"
+   ]
+  },
+  "soz_040_g": {
+   "mode": "overlay",
+   "base": "SOZ/soz_040_00.png",
+   "members": [
+    "SOZ/soz_040_01.png",
+    "SOZ/soz_040_02.png"
+   ]
+  },
+  "soz_041_g": {
+   "mode": "overlay",
+   "base": "SOZ/soz_041_00.png",
+   "members": [
+    "SOZ/soz_041_01.png",
+    "SOZ/soz_041_02.png"
+   ]
+  },
+  "soz_042_g": {
+   "mode": "overlay",
+   "base": "SOZ/soz_042_00.png",
+   "members": [
+    "SOZ/soz_042_01.png",
+    "SOZ/soz_042_02.png",
+    "SOZ/soz_042_03.png",
+    "SOZ/soz_042_04.png"
+   ]
+  },
+  "soz_043_g": {
+   "mode": "overlay",
+   "base": "SOZ/soz_043_00.png",
+   "members": [
+    "SOZ/soz_043_01.png",
+    "SOZ/soz_043_02.png",
+    "SOZ/soz_043_03.png",
+    "SOZ/soz_043_04.png",
+    "SOZ/soz_043_05.png",
+    "SOZ/soz_043_06.png"
+   ]
+  },
+  "soz_044_g": {
+   "mode": "overlay",
+   "base": "SOZ/soz_044_00.png",
+   "members": [
+    "SOZ/soz_044_01.png",
+    "SOZ/soz_044_02.png",
+    "SOZ/soz_044_03.png",
+    "SOZ/soz_044_04.png",
+    "SOZ/soz_044_05.png"
+   ]
+  },
+  "soz_045_g": {
+   "mode": "overlay",
+   "base": "SOZ/soz_045_00.png",
+   "members": [
+    "SOZ/soz_045_01.png",
+    "SOZ/soz_045_02.png",
+    "SOZ/soz_045_03.png",
+    "SOZ/soz_045_04.png",
+    "SOZ/soz_045_05.png"
+   ]
+  },
+  "soz_046_g": {
+   "mode": "overlay",
+   "base": "SOZ/soz_046_00.png",
+   "members": [
+    "SOZ/soz_046_01.png",
+    "SOZ/soz_046_02.png",
+    "SOZ/soz_046_03.png",
+    "SOZ/soz_046_04.png",
+    "SOZ/soz_046_05.png"
+   ]
+  },
+  "soz_047_g": {
+   "mode": "overlay",
+   "base": "SOZ/soz_047_00.png",
+   "members": [
+    "SOZ/soz_047_01.png",
+    "SOZ/soz_047_02.png",
+    "SOZ/soz_047_03.png",
+    "SOZ/soz_047_04.png"
+   ]
+  },
+  "soz_048_g": {
+   "mode": "overlay",
+   "base": "SOZ/soz_048_00.png",
+   "members": [
+    "SOZ/soz_048_01.png",
+    "SOZ/soz_048_02.png",
+    "SOZ/soz_048_03.png",
+    "SOZ/soz_048_04.png"
+   ]
+  },
+  "soz_049_g": {
+   "mode": "overlay",
+   "base": "SOZ/soz_049_00.png",
+   "members": [
+    "SOZ/soz_049_01.png",
+    "SOZ/soz_049_02.png",
+    "SOZ/soz_049_03.png",
+    "SOZ/soz_049_04.png"
+   ]
+  },
+  "soz_050_g": {
+   "mode": "overlay",
+   "base": "SOZ/soz_050_00.png",
+   "members": [
+    "SOZ/soz_050_01.png",
+    "SOZ/soz_050_02.png",
+    "SOZ/soz_050_03.png",
+    "SOZ/soz_050_04.png"
+   ]
+  },
+  "soz_051_g": {
+   "mode": "overlay",
+   "base": "SOZ/soz_051_00.png",
+   "members": [
+    "SOZ/soz_051_01.png",
+    "SOZ/soz_051_02.png",
+    "SOZ/soz_051_03.png",
+    "SOZ/soz_051_04.png"
+   ]
+  },
+  "soz_052_g": {
+   "mode": "overlay",
+   "base": "SOZ/soz_052_00.png",
+   "members": [
+    "SOZ/soz_052_01.png",
+    "SOZ/soz_052_02.png",
+    "SOZ/soz_052_03.png",
+    "SOZ/soz_052_04.png"
+   ]
+  },
+  "soz_053_g": {
+   "mode": "overlay",
+   "base": "SOZ/soz_053_00.png",
+   "members": [
+    "SOZ/soz_053_01.png",
+    "SOZ/soz_053_02.png",
+    "SOZ/soz_053_03.png",
+    "SOZ/soz_053_04.png",
+    "SOZ/soz_053_05.png"
+   ]
+  },
+  "soz_054_g": {
+   "mode": "overlay",
+   "base": "SOZ/soz_054_00.png",
+   "members": [
+    "SOZ/soz_054_01.png",
+    "SOZ/soz_054_02.png",
+    "SOZ/soz_054_03.png",
+    "SOZ/soz_054_04.png",
+    "SOZ/soz_054_05.png"
+   ]
+  },
+  "soz_068_g": {
+   "mode": "overlay",
+   "base": "SOZ/soz_068_00.png",
+   "members": [
+    "SOZ/soz_068_01.png",
+    "SOZ/soz_068_02.png",
+    "SOZ/soz_068_03.png",
+    "SOZ/soz_068_04.png",
+    "SOZ/soz_068_05.png",
+    "SOZ/soz_068_06.png",
+    "SOZ/soz_068_07.png"
+   ]
+  }
+ }
+}
