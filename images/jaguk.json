@@ -1,21 +1,21 @@
 {
- "source": "",
- "originals": "originals",
- "data": "../translation/images",
- "erased": "erased",
- "injected": "injected",
- "preview_root": "preview",
- "font_root": "fonts",
- "ocr_lang": "ja",
- "ocr_backend": "auto",
- "ocr_min_conf": 0.2,
- "ocr_dict": [],
- "ocr_dict_min": 0.7,
- "ocr_recognizer": "",
- "fonts": {
-  "IBM Plex Sans KR/400": "IBMPlexSansKR-Text.otf",
-  "IBM Plex Sans KR/500": "IBMPlexSansKR-Medium.otf",
-  "IBM Plex Sans KR/600": "IBMPlexSansKR-SemiBold.otf"
- },
- "supersample": 4
+  "source": "",
+  "originals": "originals",
+  "data": "../translation/images",
+  "erased": "erased",
+  "injected": "injected",
+  "preview_root": "preview",
+  "font_root": "fonts",
+  "ocr_lang": "ja",
+  "ocr_backend": "easyocr",
+  "ocr_min_conf": 0.2,
+  "ocr_dict": [],
+  "ocr_dict_min": 0.7,
+  "ocr_recognizer": "manga-ocr",
+  "fonts": {
+    "IBM Plex Sans KR/400": "IBMPlexSansKR-Text.otf",
+    "IBM Plex Sans KR/500": "IBMPlexSansKR-Medium.otf",
+    "IBM Plex Sans KR/600": "IBMPlexSansKR-SemiBold.otf"
+  },
+  "supersample": 4
 }
