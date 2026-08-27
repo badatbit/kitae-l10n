@@ -117,6 +117,93 @@ def decompress(data: bytes, out_size: int | None = None) -> bytes:
     return bytes(out)
 
 
+def _build_tree(weight):
+    """decompress 와 동일한 그리디 트리 재구성. nodes + root 반환."""
+    nodes = [[0, 0, 0] for _ in range(514)]
+    for b in range(256):
+        nodes[b][0] = weight[b]
+    nodes[END_MARKER][0] = 1
+    nodes[_INF][0] = 0xFFFF
+    nxt = END_MARKER + 1
+    while True:
+        first = second = _INF
+        for i in range(nxt):
+            w = nodes[i][0]
+            if not w:
+                continue
+            if nodes[first][0] > w:
+                second, first = first, i
+            elif nodes[second][0] > w:
+                second = i
+        if second == _INF:
+            break
+        nodes[nxt] = [(nodes[first][0] + nodes[second][0]) & 0xFFFF, first, second]
+        nodes[first][0] = 0
+        nodes[second][0] = 0
+        nxt += 1
+    return nodes, nxt - 1
+
+
+def compress(data: bytes) -> bytes:
+    """ENC1(정적 Huffman)로 압축. `decompress(compress(x), len(x)) == x`.
+
+    weight 는 u8 이라 바이트 빈도를 1..255 로 스케일한다(트리는 이 weight 로
+    양쪽에서 동일하게 재구성되므로 왕복은 정확). 게임의 ENC1 디코더가 실제로
+    동작하는지는 인게임 검증 필요(enc1 도크스트링 참고)."""
+    from collections import Counter
+    freq = Counter(data)
+    weight = [0] * 256
+    if freq:
+        maxf = max(freq.values())
+        for b, f in freq.items():
+            weight[b] = max(1, min(255, (f * 255 + maxf - 1) // maxf))
+    nodes, root = _build_tree(weight)
+
+    # 코드 배정 (decompress 와 같은 규칙: 0→zero_child[1], 1→one_child[2])
+    code = {}
+    stack = [(root, ())]
+    while stack:
+        node, bits = stack.pop()
+        if node <= END_MARKER:
+            code[node] = bits
+        else:
+            stack.append((nodes[node][1], bits + (0,)))
+            stack.append((nodes[node][2], bits + (1,)))
+
+    bits = bytearray()
+    for byte in data:
+        bits.extend(code[byte])
+    bits.extend(code[END_MARKER])
+    out = bytearray()
+    cur = nb = 0
+    for bit in bits:
+        cur |= bit << nb; nb += 1
+        if nb == 8:
+            out.append(cur); cur = nb = 0
+    if nb:
+        out.append(cur)
+
+    # 헤더: start, (end, weights.., next_start).. , 0
+    present = [b for b in range(256) if weight[b] > 0]
+    hdr = bytearray()
+    if not present:
+        hdr += b"\x00\x00\x00"
+    else:
+        ranges = []
+        for b in present:
+            if ranges and b == ranges[-1][1] + 1:
+                ranges[-1][1] = b
+            else:
+                ranges.append([b, b])
+        hdr.append(ranges[0][0])
+        for i, (s, e) in enumerate(ranges):
+            hdr.append(e)
+            for sym in range(s, e + 1):
+                hdr.append(weight[sym])
+            hdr.append(ranges[i + 1][0] if i + 1 < len(ranges) else 0)
+    return bytes(hdr) + bytes(out)
+
+
 if __name__ == "__main__":
     import sys, struct, os
     sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(

@@ -301,6 +301,23 @@ def _build(cfg, scripts, lang, want_font=True):
         print(f"SOZ.CB  {os.path.getsize(out_soz):,} / 원본 "
               f"{os.path.getsize(soz_cb):,}")
 
+    # 3b'. SOZ.CB 지도 라벨 -------------------------------------------------
+    # 가이드 본문(위)과 별개로, 지도 위 한글 라벨을 dds 텍스처에 주입한다.
+    # typelet compose_file 이 만든 이미지를 게임 포맷에 넣는다(kitae.build.soz).
+    # 라벨 포함 SOZ.CB 는 원 슬롯을 넘으므로 디스크 단계에서 재배치한다.
+    _jaguk = cfg.path("images", "jaguk.json")
+    if os.path.exists(_jaguk):
+        from kitae.build import soz as soz_mod
+        soz_base = out_soz or uipatch.original(cfg, "/RESOURCE/SOZ.CB")
+        srepl, srep = soz_mod.build_replacements(
+            Cab(soz_base), soz_mod.load_composer(_jaguk))
+        if srepl:
+            out_soz = _work(cfg, "build", "SOZ_final.CB")
+            smf_mod.repack_cab(soz_base, srepl, out_soz)
+            sng = sum(1 for _, k, _ in srep if k in ("glyph", "glyph+base"))
+            print(f"  지도 라벨: 글리프 {sng}, 래스터 {len(srep) - sng} 맵  "
+                  f"→ SOZ.CB {os.path.getsize(out_soz):,}")
+
     # 3c. 퀴즈 문제 ----------------------------------------------------------
     # M05.CB 안의 Quiz.mhd. 문제 292개가 CLSS 객체로 들어 있다.
     out_m05 = None
@@ -357,7 +374,15 @@ def _build(cfg, scripts, lang, want_font=True):
         if not built:
             continue
         tmp = track + ".tmp"
-        disc_mod.patch(disc_path, open(built, "rb").read(), tmp, track)
+        if disc_path == "RESOURCE/SOZ.CB":
+            # 라벨 포함 SOZ.CB 는 원 슬롯을 넘을 수 있다 → apply_to_disc 가 슬롯에
+            # 맞으면 제자리 패치, 넘치면 뒤 DEBUG.CB(테스트 잔재)를 축소·이동해
+            # 공간을 만든다(다른 파일 LBA 불변).
+            from kitae.build import soz as soz_mod
+            soz_mod.apply_to_disc(track, tmp, open(built, "rb").read(),
+                                  cfg.path(cfg["work_dir"], "stage"))
+        else:
+            disc_mod.patch(disc_path, open(built, "rb").read(), tmp, track)
         os.replace(tmp, track)
 
     # 6. 시스템 UI ----------------------------------------------------------

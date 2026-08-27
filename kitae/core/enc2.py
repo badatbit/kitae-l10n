@@ -102,6 +102,9 @@ def decompress(data: bytes, out_size: int) -> bytes:
     return bytes(out[:out_size])
 
 
+_CAND_CAP = 4096   # 후보 리스트 상한 (96→4096: 게임 원본 압축기 수준 도달, ~1s/청크)
+
+
 def compress(data: bytes) -> bytes:
     """Produce a valid ENC2 stream for `data`.
 
@@ -122,8 +125,8 @@ def compress(data: bytes) -> bytes:
         nonlocal wpos
         win[wpos] = byte
         buckets[byte].append(wpos)
-        if len(buckets[byte]) > 96:          # cap the candidate list
-            del buckets[byte][:-96]
+        if len(buckets[byte]) > _CAND_CAP:   # cap the candidate list
+            del buckets[byte][:-_CAND_CAP]
         wpos = (wpos + 1) & WINDOW_MASK
 
     i, n = 0, len(data)

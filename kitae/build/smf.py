@@ -102,6 +102,7 @@ def repack_cab(src_path, replacements, dst_path):
     occupies on the disc.
     """
     from kitae.core.enc2 import compress
+    from kitae.core.enc1 import compress as compress_enc1
     cab = Cab(src_path)
     entries, blobs = [], []
     for i, name in enumerate(cab.names):
@@ -112,6 +113,10 @@ def repack_cab(src_path, replacements, dst_path):
             esz = len(body)          # INFO size is always the real file size
             if tag == b"ENC2":
                 body = compress(body)
+            elif tag == b"ENC1":
+                # ENC1 도 반드시 재압축해야 한다 — raw 를 ENC1 태그로 쓰면
+                # 리더가 ENC1 해제하려다 깨진다 (soz_024.SET 손상 원인)
+                body = compress_enc1(body)
         else:
             # copy the stored chunk verbatim, including its padding, and keep
             # the INFO size untouched (it is the *uncompressed* size for ENC2
