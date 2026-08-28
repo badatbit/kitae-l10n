@@ -913,7 +913,7 @@
    "element_id": null,
    "run_id": null,
    "jp": "狸小路",
-   "ko": "다누키코지",
+   "ko": "타누키코지",
    "ocr_id": null,
    "text": [
     230,
@@ -1215,7 +1215,7 @@
    "text": [
     474,
     136,
-    67,
+    76,
     23
    ],
    "source": [
@@ -8064,7 +8064,7 @@
     278,
     2,
     74,
-    26
+    20
    ],
    "jp": "創成橋",
    "ko": "소세이바시",
@@ -8089,14 +8089,14 @@
    "box_id": "sb25",
    "file": "SOZ/soz_012_00.png",
    "text": [
-    268,
-    166,
+    267,
+    165,
     96,
     30
    ],
    "jp": "南二条橋",
    "ko": "미나미니조바시",
-   "style": "poi-text",
+   "style": "poi-text-alpha",
    "status": "render_ready"
   },
   {
@@ -10907,501 +10907,11 @@
   }
  ],
  "rules": {
-  "soz_011_g1": {
-   "mode": "overlay",
-   "base": "SOZ/soz_011_00.png",
-   "members": [
-    "SOZ/soz_011_01.png",
-    "SOZ/soz_011_02.png",
-    "SOZ/soz_011_03.png",
-    "SOZ/soz_011_04.png",
-    "SOZ/soz_011_05.png",
-    "SOZ/soz_011_06.png",
-    "SOZ/soz_011_07.png",
-    "SOZ/soz_011_08.png",
-    "SOZ/soz_011_09.png",
-    "SOZ/soz_011_10.png",
-    "SOZ/soz_011_11.png",
-    "SOZ/soz_011_12.png",
-    "SOZ/soz_011_13.png",
-    "SOZ/soz_011_14.png"
-   ]
+  "M05": {
+   "mode": "no-text",
+   "cat": ""
   },
-  "soz_011_g2": {
-   "mode": "overlay",
-   "base": "SOZ/soz_011_00.png",
-   "members": [
-    "SOZ/soz_011_15.png",
-    "SOZ/soz_011_16.png",
-    "SOZ/soz_011_17.png",
-    "SOZ/soz_011_18.png",
-    "SOZ/soz_011_19.png",
-    "SOZ/soz_011_20.png",
-    "SOZ/soz_011_21.png",
-    "SOZ/soz_011_22.png",
-    "SOZ/soz_011_23.png",
-    "SOZ/soz_011_24.png",
-    "SOZ/soz_011_25.png",
-    "SOZ/soz_011_26.png",
-    "SOZ/soz_011_27.png",
-    "SOZ/soz_011_28.png"
-   ]
-  },
-  "soz_012_g": {
-   "mode": "overlay",
-   "base": "SOZ/soz_012_00.png",
-   "members": [
-    "SOZ/soz_012_01.png",
-    "SOZ/soz_012_02.png",
-    "SOZ/soz_012_03.png"
-   ]
-  },
-  "soz_013_g": {
-   "mode": "overlay",
-   "base": "SOZ/soz_013_00.png",
-   "members": [
-    "SOZ/soz_013_01.png",
-    "SOZ/soz_013_02.png",
-    "SOZ/soz_013_03.png",
-    "SOZ/soz_013_04.png",
-    "SOZ/soz_013_05.png",
-    "SOZ/soz_013_06.png",
-    "SOZ/soz_013_07.png"
-   ]
-  },
-  "soz_014_g": {
-   "mode": "overlay",
-   "base": "SOZ/soz_014_00.png",
-   "members": [
-    "SOZ/soz_014_01.png",
-    "SOZ/soz_014_02.png",
-    "SOZ/soz_014_03.png",
-    "SOZ/soz_014_04.png"
-   ]
-  },
-  "soz_015_g": {
-   "mode": "overlay",
-   "base": "SOZ/soz_015_00.png",
-   "members": [
-    "SOZ/soz_015_01.png",
-    "SOZ/soz_015_02.png"
-   ]
-  },
-  "soz_016_g": {
-   "mode": "overlay",
-   "base": "SOZ/soz_016_00.png",
-   "members": [
-    "SOZ/soz_016_01.png",
-    "SOZ/soz_016_02.png",
-    "SOZ/soz_016_03.png",
-    "SOZ/soz_016_04.png"
-   ]
-  },
-  "soz_017_g": {
-   "mode": "overlay",
-   "base": "SOZ/soz_017_00.png",
-   "members": [
-    "SOZ/soz_017_01.png",
-    "SOZ/soz_017_02.png",
-    "SOZ/soz_017_03.png",
-    "SOZ/soz_017_04.png"
-   ]
-  },
-  "soz_018_g": {
-   "mode": "overlay",
-   "base": "SOZ/soz_018_00.png",
-   "members": [
-    "SOZ/soz_018_01.png",
-    "SOZ/soz_018_02.png"
-   ]
-  },
-  "soz_019_g": {
-   "mode": "overlay",
-   "base": "SOZ/soz_019_00.png",
-   "members": [
-    "SOZ/soz_019_01.png",
-    "SOZ/soz_019_02.png",
-    "SOZ/soz_019_03.png",
-    "SOZ/soz_019_04.png",
-    "SOZ/soz_019_05.png",
-    "SOZ/soz_019_06.png"
-   ]
-  },
-  "soz_020_g": {
-   "mode": "overlay",
-   "base": "SOZ/soz_020_00.png",
-   "members": [
-    "SOZ/soz_020_01.png",
-    "SOZ/soz_020_02.png"
-   ]
-  },
-  "soz_021_g": {
-   "mode": "overlay",
-   "base": "SOZ/soz_021_00.png",
-   "members": [
-    "SOZ/soz_021_01.png",
-    "SOZ/soz_021_02.png",
-    "SOZ/soz_021_03.png",
-    "SOZ/soz_021_04.png"
-   ]
-  },
-  "soz_022_g": {
-   "mode": "overlay",
-   "base": "SOZ/soz_022_00.png",
-   "members": [
-    "SOZ/soz_022_01.png",
-    "SOZ/soz_022_02.png",
-    "SOZ/soz_022_03.png",
-    "SOZ/soz_022_04.png",
-    "SOZ/soz_022_05.png",
-    "SOZ/soz_022_06.png"
-   ]
-  },
-  "soz_023_g": {
-   "mode": "overlay",
-   "base": "SOZ/soz_023_00.png",
-   "members": [
-    "SOZ/soz_023_01.png",
-    "SOZ/soz_023_02.png"
-   ]
-  },
-  "soz_024_g": {
-   "mode": "overlay",
-   "base": "SOZ/soz_024_00.png",
-   "members": [
-    "SOZ/soz_024_01.png",
-    "SOZ/soz_024_02.png",
-    "SOZ/soz_024_03.png",
-    "SOZ/soz_024_04.png"
-   ]
-  },
-  "soz_025_g": {
-   "mode": "overlay",
-   "base": "SOZ/soz_025_00.png",
-   "members": [
-    "SOZ/soz_025_01.png",
-    "SOZ/soz_025_02.png",
-    "SOZ/soz_025_03.png",
-    "SOZ/soz_025_04.png"
-   ]
-  },
-  "soz_026_g": {
-   "mode": "overlay",
-   "base": "SOZ/soz_026_00.png",
-   "members": [
-    "SOZ/soz_026_01.png",
-    "SOZ/soz_026_02.png"
-   ]
-  },
-  "soz_027_g": {
-   "mode": "overlay",
-   "base": "SOZ/soz_027_00.png",
-   "members": [
-    "SOZ/soz_027_01.png",
-    "SOZ/soz_027_02.png",
-    "SOZ/soz_027_03.png",
-    "SOZ/soz_027_04.png",
-    "SOZ/soz_027_05.png"
-   ]
-  },
-  "soz_028_g": {
-   "mode": "overlay",
-   "base": "SOZ/soz_028_00.png",
-   "members": [
-    "SOZ/soz_028_01.png",
-    "SOZ/soz_028_02.png",
-    "SOZ/soz_028_03.png",
-    "SOZ/soz_028_04.png"
-   ]
-  },
-  "soz_029_g": {
-   "mode": "overlay",
-   "base": "SOZ/soz_029_00.png",
-   "members": [
-    "SOZ/soz_029_01.png",
-    "SOZ/soz_029_02.png",
-    "SOZ/soz_029_03.png"
-   ]
-  },
-  "soz_030_g": {
-   "mode": "overlay",
-   "base": "SOZ/soz_030_00.png",
-   "members": [
-    "SOZ/soz_030_01.png",
-    "SOZ/soz_030_02.png",
-    "SOZ/soz_030_03.png",
-    "SOZ/soz_030_04.png",
-    "SOZ/soz_030_05.png"
-   ]
-  },
-  "soz_031_g": {
-   "mode": "overlay",
-   "base": "SOZ/soz_031_00.png",
-   "members": [
-    "SOZ/soz_031_01.png",
-    "SOZ/soz_031_02.png",
-    "SOZ/soz_031_03.png",
-    "SOZ/soz_031_04.png"
-   ]
-  },
-  "soz_032_g": {
-   "mode": "overlay",
-   "base": "SOZ/soz_032_00.png",
-   "members": [
-    "SOZ/soz_032_01.png",
-    "SOZ/soz_032_02.png",
-    "SOZ/soz_032_03.png",
-    "SOZ/soz_032_04.png",
-    "SOZ/soz_032_05.png",
-    "SOZ/soz_032_06.png"
-   ]
-  },
-  "soz_033_g": {
-   "mode": "overlay",
-   "base": "SOZ/soz_033_00.png",
-   "members": [
-    "SOZ/soz_033_01.png",
-    "SOZ/soz_033_02.png",
-    "SOZ/soz_033_03.png",
-    "SOZ/soz_033_04.png",
-    "SOZ/soz_033_05.png",
-    "SOZ/soz_033_06.png",
-    "SOZ/soz_033_07.png",
-    "SOZ/soz_033_08.png"
-   ]
-  },
-  "soz_034_g": {
-   "mode": "overlay",
-   "base": "SOZ/soz_034_00.png",
-   "members": [
-    "SOZ/soz_034_01.png",
-    "SOZ/soz_034_02.png",
-    "SOZ/soz_034_03.png",
-    "SOZ/soz_034_04.png"
-   ]
-  },
-  "soz_035_g": {
-   "mode": "overlay",
-   "base": "SOZ/soz_035_00.png",
-   "members": [
-    "SOZ/soz_035_01.png",
-    "SOZ/soz_035_02.png",
-    "SOZ/soz_035_03.png",
-    "SOZ/soz_035_04.png"
-   ]
-  },
-  "soz_036_g": {
-   "mode": "overlay",
-   "base": "SOZ/soz_036_00.png",
-   "members": [
-    "SOZ/soz_036_01.png",
-    "SOZ/soz_036_02.png",
-    "SOZ/soz_036_03.png",
-    "SOZ/soz_036_04.png",
-    "SOZ/soz_036_05.png",
-    "SOZ/soz_036_06.png",
-    "SOZ/soz_036_07.png",
-    "SOZ/soz_036_08.png"
-   ]
-  },
-  "soz_037_g": {
-   "mode": "overlay",
-   "base": "SOZ/soz_037_00.png",
-   "members": [
-    "SOZ/soz_037_01.png",
-    "SOZ/soz_037_02.png",
-    "SOZ/soz_037_03.png",
-    "SOZ/soz_037_04.png"
-   ]
-  },
-  "soz_038_g": {
-   "mode": "overlay",
-   "base": "SOZ/soz_038_00.png",
-   "members": [
-    "SOZ/soz_038_01.png",
-    "SOZ/soz_038_02.png",
-    "SOZ/soz_038_03.png",
-    "SOZ/soz_038_04.png",
-    "SOZ/soz_038_05.png"
-   ]
-  },
-  "soz_039_g": {
-   "mode": "overlay",
-   "base": "SOZ/soz_039_00.png",
-   "members": [
-    "SOZ/soz_039_01.png",
-    "SOZ/soz_039_02.png",
-    "SOZ/soz_039_03.png",
-    "SOZ/soz_039_04.png"
-   ]
-  },
-  "soz_040_g": {
-   "mode": "overlay",
-   "base": "SOZ/soz_040_00.png",
-   "members": [
-    "SOZ/soz_040_01.png",
-    "SOZ/soz_040_02.png"
-   ]
-  },
-  "soz_041_g": {
-   "mode": "overlay",
-   "base": "SOZ/soz_041_00.png",
-   "members": [
-    "SOZ/soz_041_01.png",
-    "SOZ/soz_041_02.png"
-   ]
-  },
-  "soz_042_g": {
-   "mode": "overlay",
-   "base": "SOZ/soz_042_00.png",
-   "members": [
-    "SOZ/soz_042_01.png",
-    "SOZ/soz_042_02.png",
-    "SOZ/soz_042_03.png",
-    "SOZ/soz_042_04.png"
-   ]
-  },
-  "soz_043_g": {
-   "mode": "overlay",
-   "base": "SOZ/soz_043_00.png",
-   "members": [
-    "SOZ/soz_043_01.png",
-    "SOZ/soz_043_02.png",
-    "SOZ/soz_043_03.png",
-    "SOZ/soz_043_04.png",
-    "SOZ/soz_043_05.png",
-    "SOZ/soz_043_06.png"
-   ]
-  },
-  "soz_044_g": {
-   "mode": "overlay",
-   "base": "SOZ/soz_044_00.png",
-   "members": [
-    "SOZ/soz_044_01.png",
-    "SOZ/soz_044_02.png",
-    "SOZ/soz_044_03.png",
-    "SOZ/soz_044_04.png",
-    "SOZ/soz_044_05.png"
-   ]
-  },
-  "soz_045_g": {
-   "mode": "overlay",
-   "base": "SOZ/soz_045_00.png",
-   "members": [
-    "SOZ/soz_045_01.png",
-    "SOZ/soz_045_02.png",
-    "SOZ/soz_045_03.png",
-    "SOZ/soz_045_04.png",
-    "SOZ/soz_045_05.png"
-   ]
-  },
-  "soz_046_g": {
-   "mode": "overlay",
-   "base": "SOZ/soz_046_00.png",
-   "members": [
-    "SOZ/soz_046_01.png",
-    "SOZ/soz_046_02.png",
-    "SOZ/soz_046_03.png",
-    "SOZ/soz_046_04.png",
-    "SOZ/soz_046_05.png"
-   ]
-  },
-  "soz_047_g": {
-   "mode": "overlay",
-   "base": "SOZ/soz_047_00.png",
-   "members": [
-    "SOZ/soz_047_01.png",
-    "SOZ/soz_047_02.png",
-    "SOZ/soz_047_03.png",
-    "SOZ/soz_047_04.png"
-   ]
-  },
-  "soz_048_g": {
-   "mode": "overlay",
-   "base": "SOZ/soz_048_00.png",
-   "members": [
-    "SOZ/soz_048_01.png",
-    "SOZ/soz_048_02.png",
-    "SOZ/soz_048_03.png",
-    "SOZ/soz_048_04.png"
-   ]
-  },
-  "soz_049_g": {
-   "mode": "overlay",
-   "base": "SOZ/soz_049_00.png",
-   "members": [
-    "SOZ/soz_049_01.png",
-    "SOZ/soz_049_02.png",
-    "SOZ/soz_049_03.png",
-    "SOZ/soz_049_04.png"
-   ]
-  },
-  "soz_050_g": {
-   "mode": "overlay",
-   "base": "SOZ/soz_050_00.png",
-   "members": [
-    "SOZ/soz_050_01.png",
-    "SOZ/soz_050_02.png",
-    "SOZ/soz_050_03.png",
-    "SOZ/soz_050_04.png"
-   ]
-  },
-  "soz_051_g": {
-   "mode": "overlay",
-   "base": "SOZ/soz_051_00.png",
-   "members": [
-    "SOZ/soz_051_01.png",
-    "SOZ/soz_051_02.png",
-    "SOZ/soz_051_03.png",
-    "SOZ/soz_051_04.png"
-   ]
-  },
-  "soz_052_g": {
-   "mode": "overlay",
-   "base": "SOZ/soz_052_00.png",
-   "members": [
-    "SOZ/soz_052_01.png",
-    "SOZ/soz_052_02.png",
-    "SOZ/soz_052_03.png",
-    "SOZ/soz_052_04.png"
-   ]
-  },
-  "soz_053_g": {
-   "mode": "overlay",
-   "base": "SOZ/soz_053_00.png",
-   "members": [
-    "SOZ/soz_053_01.png",
-    "SOZ/soz_053_02.png",
-    "SOZ/soz_053_03.png",
-    "SOZ/soz_053_04.png",
-    "SOZ/soz_053_05.png"
-   ]
-  },
-  "soz_054_g": {
-   "mode": "overlay",
-   "base": "SOZ/soz_054_00.png",
-   "members": [
-    "SOZ/soz_054_01.png",
-    "SOZ/soz_054_02.png",
-    "SOZ/soz_054_03.png",
-    "SOZ/soz_054_04.png",
-    "SOZ/soz_054_05.png"
-   ]
-  },
-  "soz_068_g": {
-   "mode": "overlay",
-   "base": "SOZ/soz_068_00.png",
-   "members": [
-    "SOZ/soz_068_01.png",
-    "SOZ/soz_068_02.png",
-    "SOZ/soz_068_03.png",
-    "SOZ/soz_068_04.png",
-    "SOZ/soz_068_05.png",
-    "SOZ/soz_068_06.png",
-    "SOZ/soz_068_07.png"
-   ]
-  },
-  "m08_bghut_names": {
+  "헛간 이름표": {
    "mode": "overlay",
    "base": "M08/BGHut.png",
    "members": [
@@ -11432,10 +10942,549 @@
       36
      ]
     }
-   ]
+   ],
+   "cat": "",
+   "hide_base": true
   },
-  "M05": {
-   "mode": "no-text"
+  "홋카이도 전도 (선택)": {
+   "mode": "overlay",
+   "base": "SOZ/soz_011_00.png",
+   "members": [
+    "SOZ/soz_011_01.png",
+    "SOZ/soz_011_02.png",
+    "SOZ/soz_011_03.png",
+    "SOZ/soz_011_04.png",
+    "SOZ/soz_011_05.png",
+    "SOZ/soz_011_06.png",
+    "SOZ/soz_011_07.png",
+    "SOZ/soz_011_08.png",
+    "SOZ/soz_011_09.png",
+    "SOZ/soz_011_10.png",
+    "SOZ/soz_011_11.png",
+    "SOZ/soz_011_12.png",
+    "SOZ/soz_011_13.png",
+    "SOZ/soz_011_14.png"
+   ],
+   "cat": "전도"
+  },
+  "홋카이도 전도 (비선택)": {
+   "mode": "overlay",
+   "base": "SOZ/soz_011_00.png",
+   "members": [
+    "SOZ/soz_011_15.png",
+    "SOZ/soz_011_16.png",
+    "SOZ/soz_011_17.png",
+    "SOZ/soz_011_18.png",
+    "SOZ/soz_011_19.png",
+    "SOZ/soz_011_20.png",
+    "SOZ/soz_011_21.png",
+    "SOZ/soz_011_22.png",
+    "SOZ/soz_011_23.png",
+    "SOZ/soz_011_24.png",
+    "SOZ/soz_011_25.png",
+    "SOZ/soz_011_26.png",
+    "SOZ/soz_011_27.png",
+    "SOZ/soz_011_28.png"
+   ],
+   "cat": "전도"
+  },
+  "삿포로 니조 시장 부근": {
+   "mode": "overlay",
+   "base": "SOZ/soz_012_00.png",
+   "members": [
+    "SOZ/soz_012_01.png",
+    "SOZ/soz_012_02.png",
+    "SOZ/soz_012_03.png"
+   ],
+   "cat": "삿포로"
+  },
+  "삿포로 스스키노": {
+   "mode": "overlay",
+   "base": "SOZ/soz_013_00.png",
+   "members": [
+    "SOZ/soz_013_01.png",
+    "SOZ/soz_013_02.png",
+    "SOZ/soz_013_03.png",
+    "SOZ/soz_013_04.png",
+    "SOZ/soz_013_05.png",
+    "SOZ/soz_013_06.png",
+    "SOZ/soz_013_07.png"
+   ],
+   "cat": "삿포로"
+  },
+  "삿포로 신교지 부근": {
+   "mode": "overlay",
+   "base": "SOZ/soz_014_00.png",
+   "members": [
+    "SOZ/soz_014_01.png",
+    "SOZ/soz_014_02.png",
+    "SOZ/soz_014_03.png",
+    "SOZ/soz_014_04.png"
+   ],
+   "cat": "삿포로"
+  },
+  "삿포로 팩토리": {
+   "mode": "overlay",
+   "base": "SOZ/soz_015_00.png",
+   "members": [
+    "SOZ/soz_015_01.png",
+    "SOZ/soz_015_02.png"
+   ],
+   "cat": "삿포로"
+  },
+  "삿포로 시로이시": {
+   "mode": "overlay",
+   "base": "SOZ/soz_016_00.png",
+   "members": [
+    "SOZ/soz_016_01.png",
+    "SOZ/soz_016_02.png",
+    "SOZ/soz_016_03.png",
+    "SOZ/soz_016_04.png"
+   ],
+   "cat": "삿포로"
+  },
+  "삿포로 히라기시": {
+   "mode": "overlay",
+   "base": "SOZ/soz_017_00.png",
+   "members": [
+    "SOZ/soz_017_01.png",
+    "SOZ/soz_017_02.png",
+    "SOZ/soz_017_03.png",
+    "SOZ/soz_017_04.png"
+   ],
+   "cat": "삿포로"
+  },
+  "삿포로 추오 구청 부근": {
+   "mode": "overlay",
+   "base": "SOZ/soz_018_00.png",
+   "members": [
+    "SOZ/soz_018_01.png",
+    "SOZ/soz_018_02.png"
+   ],
+   "cat": "삿포로"
+  },
+  "삿포로역": {
+   "mode": "overlay",
+   "base": "SOZ/soz_019_00.png",
+   "members": [
+    "SOZ/soz_019_01.png",
+    "SOZ/soz_019_02.png",
+    "SOZ/soz_019_03.png",
+    "SOZ/soz_019_04.png",
+    "SOZ/soz_019_05.png",
+    "SOZ/soz_019_06.png"
+   ],
+   "cat": "삿포로"
+  },
+  "삿포로 시계탑 부근": {
+   "mode": "overlay",
+   "base": "SOZ/soz_020_00.png",
+   "members": [
+    "SOZ/soz_020_01.png",
+    "SOZ/soz_020_02.png"
+   ],
+   "cat": "삿포로"
+  },
+  "삿포로 모이와산": {
+   "mode": "overlay",
+   "base": "SOZ/soz_021_00.png",
+   "members": [
+    "SOZ/soz_021_01.png",
+    "SOZ/soz_021_02.png",
+    "SOZ/soz_021_03.png",
+    "SOZ/soz_021_04.png"
+   ],
+   "cat": "삿포로"
+  },
+  "삿포로 오도리공원": {
+   "mode": "overlay",
+   "base": "SOZ/soz_022_00.png",
+   "members": [
+    "SOZ/soz_022_01.png",
+    "SOZ/soz_022_02.png",
+    "SOZ/soz_022_03.png",
+    "SOZ/soz_022_04.png",
+    "SOZ/soz_022_05.png",
+    "SOZ/soz_022_06.png"
+   ],
+   "cat": "삿포로"
+  },
+  "삿포로 도청 부근": {
+   "mode": "overlay",
+   "base": "SOZ/soz_023_00.png",
+   "members": [
+    "SOZ/soz_023_01.png",
+    "SOZ/soz_023_02.png"
+   ],
+   "cat": "삿포로"
+  },
+  "삿포로 키타24조": {
+   "mode": "overlay",
+   "base": "SOZ/soz_024_00.png",
+   "members": [
+    "SOZ/soz_024_01.png",
+    "SOZ/soz_024_02.png",
+    "SOZ/soz_024_03.png",
+    "SOZ/soz_024_04.png"
+   ],
+   "cat": "삿포로"
+  },
+  "삿포로 히츠지가오카": {
+   "mode": "overlay",
+   "base": "SOZ/soz_025_00.png",
+   "members": [
+    "SOZ/soz_025_01.png",
+    "SOZ/soz_025_02.png",
+    "SOZ/soz_025_03.png",
+    "SOZ/soz_025_04.png"
+   ],
+   "cat": "삿포로"
+  },
+  "오타루 오르골당": {
+   "mode": "overlay",
+   "base": "SOZ/soz_026_00.png",
+   "members": [
+    "SOZ/soz_026_01.png",
+    "SOZ/soz_026_02.png"
+   ],
+   "cat": "그외 지역"
+  },
+  "오타루 스시야도리": {
+   "mode": "overlay",
+   "base": "SOZ/soz_027_00.png",
+   "members": [
+    "SOZ/soz_027_01.png",
+    "SOZ/soz_027_02.png",
+    "SOZ/soz_027_03.png",
+    "SOZ/soz_027_04.png",
+    "SOZ/soz_027_05.png"
+   ],
+   "cat": "그외 지역"
+  },
+  "오타루 근교": {
+   "mode": "overlay",
+   "base": "SOZ/soz_028_00.png",
+   "members": [
+    "SOZ/soz_028_01.png",
+    "SOZ/soz_028_02.png",
+    "SOZ/soz_028_03.png",
+    "SOZ/soz_028_04.png"
+   ],
+   "cat": "그외 지역"
+  },
+  "오타루 운하": {
+   "mode": "overlay",
+   "base": "SOZ/soz_029_00.png",
+   "members": [
+    "SOZ/soz_029_01.png",
+    "SOZ/soz_029_02.png",
+    "SOZ/soz_029_03.png"
+   ],
+   "cat": "그외 지역"
+  },
+  "오타루역": {
+   "mode": "overlay",
+   "base": "SOZ/soz_030_00.png",
+   "members": [
+    "SOZ/soz_030_01.png",
+    "SOZ/soz_030_02.png",
+    "SOZ/soz_030_03.png",
+    "SOZ/soz_030_04.png",
+    "SOZ/soz_030_05.png"
+   ],
+   "cat": "그외 지역"
+  },
+  "오타루 수족관": {
+   "mode": "overlay",
+   "base": "SOZ/soz_031_00.png",
+   "members": [
+    "SOZ/soz_031_01.png",
+    "SOZ/soz_031_02.png",
+    "SOZ/soz_031_03.png",
+    "SOZ/soz_031_04.png"
+   ],
+   "cat": "그외 지역"
+  },
+  "제니바코": {
+   "mode": "overlay",
+   "base": "SOZ/soz_032_00.png",
+   "members": [
+    "SOZ/soz_032_01.png",
+    "SOZ/soz_032_02.png",
+    "SOZ/soz_032_03.png",
+    "SOZ/soz_032_04.png",
+    "SOZ/soz_032_05.png",
+    "SOZ/soz_032_06.png"
+   ],
+   "cat": "그외 지역"
+  },
+  "하코다테 베이": {
+   "mode": "overlay",
+   "base": "SOZ/soz_033_00.png",
+   "members": [
+    "SOZ/soz_033_01.png",
+    "SOZ/soz_033_02.png",
+    "SOZ/soz_033_03.png",
+    "SOZ/soz_033_04.png",
+    "SOZ/soz_033_05.png",
+    "SOZ/soz_033_06.png",
+    "SOZ/soz_033_07.png",
+    "SOZ/soz_033_08.png"
+   ],
+   "cat": "하코다테"
+  },
+  "하코다테 모토마치": {
+   "mode": "overlay",
+   "base": "SOZ/soz_034_00.png",
+   "members": [
+    "SOZ/soz_034_01.png",
+    "SOZ/soz_034_02.png",
+    "SOZ/soz_034_03.png",
+    "SOZ/soz_034_04.png"
+   ],
+   "cat": "하코다테"
+  },
+  "하코다테 모토이자카": {
+   "mode": "overlay",
+   "base": "SOZ/soz_035_00.png",
+   "members": [
+    "SOZ/soz_035_01.png",
+    "SOZ/soz_035_02.png",
+    "SOZ/soz_035_03.png",
+    "SOZ/soz_035_04.png"
+   ],
+   "cat": "하코다테"
+  },
+  "하코다테 고료카쿠": {
+   "mode": "overlay",
+   "base": "SOZ/soz_036_00.png",
+   "members": [
+    "SOZ/soz_036_01.png",
+    "SOZ/soz_036_02.png",
+    "SOZ/soz_036_03.png",
+    "SOZ/soz_036_04.png",
+    "SOZ/soz_036_05.png",
+    "SOZ/soz_036_06.png",
+    "SOZ/soz_036_07.png",
+    "SOZ/soz_036_08.png"
+   ],
+   "cat": "하코다테"
+  },
+  "하코다테 시료카쿠": {
+   "mode": "overlay",
+   "base": "SOZ/soz_037_00.png",
+   "members": [
+    "SOZ/soz_037_01.png",
+    "SOZ/soz_037_02.png",
+    "SOZ/soz_037_03.png",
+    "SOZ/soz_037_04.png"
+   ],
+   "cat": "하코다테"
+  },
+  "하코다테 유노카와": {
+   "mode": "overlay",
+   "base": "SOZ/soz_038_00.png",
+   "members": [
+    "SOZ/soz_038_01.png",
+    "SOZ/soz_038_02.png",
+    "SOZ/soz_038_03.png",
+    "SOZ/soz_038_04.png",
+    "SOZ/soz_038_05.png"
+   ],
+   "cat": "하코다테"
+  },
+  "하코다테역": {
+   "mode": "overlay",
+   "base": "SOZ/soz_039_00.png",
+   "members": [
+    "SOZ/soz_039_01.png",
+    "SOZ/soz_039_02.png",
+    "SOZ/soz_039_03.png",
+    "SOZ/soz_039_04.png"
+   ],
+   "cat": "하코다테"
+  },
+  "하코다테 백화점가": {
+   "mode": "overlay",
+   "base": "SOZ/soz_040_00.png",
+   "members": [
+    "SOZ/soz_040_01.png",
+    "SOZ/soz_040_02.png"
+   ],
+   "cat": "하코다테"
+  },
+  "하코다테산": {
+   "mode": "overlay",
+   "base": "SOZ/soz_041_00.png",
+   "members": [
+    "SOZ/soz_041_01.png",
+    "SOZ/soz_041_02.png"
+   ],
+   "cat": "하코다테"
+  },
+  "아쇼로": {
+   "mode": "overlay",
+   "base": "SOZ/soz_042_00.png",
+   "members": [
+    "SOZ/soz_042_01.png",
+    "SOZ/soz_042_02.png",
+    "SOZ/soz_042_03.png",
+    "SOZ/soz_042_04.png"
+   ],
+   "cat": "그외 지역"
+  },
+  "테시카가": {
+   "mode": "overlay",
+   "base": "SOZ/soz_043_00.png",
+   "members": [
+    "SOZ/soz_043_01.png",
+    "SOZ/soz_043_02.png",
+    "SOZ/soz_043_03.png",
+    "SOZ/soz_043_04.png",
+    "SOZ/soz_043_05.png",
+    "SOZ/soz_043_06.png"
+   ],
+   "cat": "그외 지역"
+  },
+  "시코츠호": {
+   "mode": "overlay",
+   "base": "SOZ/soz_044_00.png",
+   "members": [
+    "SOZ/soz_044_01.png",
+    "SOZ/soz_044_02.png",
+    "SOZ/soz_044_03.png",
+    "SOZ/soz_044_04.png",
+    "SOZ/soz_044_05.png"
+   ],
+   "cat": "그외 지역"
+  },
+  "샤코탄곶": {
+   "mode": "overlay",
+   "base": "SOZ/soz_045_00.png",
+   "members": [
+    "SOZ/soz_045_01.png",
+    "SOZ/soz_045_02.png",
+    "SOZ/soz_045_03.png",
+    "SOZ/soz_045_04.png",
+    "SOZ/soz_045_05.png"
+   ],
+   "cat": "그외 지역"
+  },
+  "오비히로": {
+   "mode": "overlay",
+   "base": "SOZ/soz_046_00.png",
+   "members": [
+    "SOZ/soz_046_01.png",
+    "SOZ/soz_046_02.png",
+    "SOZ/soz_046_03.png",
+    "SOZ/soz_046_04.png",
+    "SOZ/soz_046_05.png"
+   ],
+   "cat": "그외 지역"
+  },
+  "무로란": {
+   "mode": "overlay",
+   "base": "SOZ/soz_047_00.png",
+   "members": [
+    "SOZ/soz_047_01.png",
+    "SOZ/soz_047_02.png",
+    "SOZ/soz_047_03.png",
+    "SOZ/soz_047_04.png"
+   ],
+   "cat": "그외 지역"
+  },
+  "노보리베츠": {
+   "mode": "overlay",
+   "base": "SOZ/soz_048_00.png",
+   "members": [
+    "SOZ/soz_048_01.png",
+    "SOZ/soz_048_02.png",
+    "SOZ/soz_048_03.png",
+    "SOZ/soz_048_04.png"
+   ],
+   "cat": "그외 지역"
+  },
+  "노보리베츠 온천가": {
+   "mode": "overlay",
+   "base": "SOZ/soz_049_00.png",
+   "members": [
+    "SOZ/soz_049_01.png",
+    "SOZ/soz_049_02.png",
+    "SOZ/soz_049_03.png",
+    "SOZ/soz_049_04.png"
+   ],
+   "cat": "그외 지역"
+  },
+  "후라노 호텔": {
+   "mode": "overlay",
+   "base": "SOZ/soz_050_00.png",
+   "members": [
+    "SOZ/soz_050_01.png",
+    "SOZ/soz_050_02.png",
+    "SOZ/soz_050_03.png",
+    "SOZ/soz_050_04.png"
+   ],
+   "cat": "그외 지역"
+  },
+  "후라노": {
+   "mode": "overlay",
+   "base": "SOZ/soz_051_00.png",
+   "members": [
+    "SOZ/soz_051_01.png",
+    "SOZ/soz_051_02.png",
+    "SOZ/soz_051_03.png",
+    "SOZ/soz_051_04.png"
+   ],
+   "cat": "그외 지역"
+  },
+  "유바리": {
+   "mode": "overlay",
+   "base": "SOZ/soz_052_00.png",
+   "members": [
+    "SOZ/soz_052_01.png",
+    "SOZ/soz_052_02.png",
+    "SOZ/soz_052_03.png",
+    "SOZ/soz_052_04.png"
+   ],
+   "cat": "그외 지역"
+  },
+  "호쿠류": {
+   "mode": "overlay",
+   "base": "SOZ/soz_053_00.png",
+   "members": [
+    "SOZ/soz_053_01.png",
+    "SOZ/soz_053_02.png",
+    "SOZ/soz_053_03.png",
+    "SOZ/soz_053_04.png",
+    "SOZ/soz_053_05.png"
+   ],
+   "cat": "그외 지역"
+  },
+  "루모이": {
+   "mode": "overlay",
+   "base": "SOZ/soz_054_00.png",
+   "members": [
+    "SOZ/soz_054_01.png",
+    "SOZ/soz_054_02.png",
+    "SOZ/soz_054_03.png",
+    "SOZ/soz_054_04.png",
+    "SOZ/soz_054_05.png"
+   ],
+   "cat": "그외 지역"
+  },
+  "삿포로 스스키노 남부": {
+   "mode": "overlay",
+   "base": "SOZ/soz_068_00.png",
+   "members": [
+    "SOZ/soz_068_01.png",
+    "SOZ/soz_068_02.png",
+    "SOZ/soz_068_03.png",
+    "SOZ/soz_068_04.png",
+    "SOZ/soz_068_05.png",
+    "SOZ/soz_068_06.png",
+    "SOZ/soz_068_07.png"
+   ],
+   "cat": "삿포로"
   }
  }
 }
