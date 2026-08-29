@@ -1,5 +1,5 @@
 {
-  "orig_dir": "F:\\dev-kitahe\\kitahe-org\\Kita He - White Illumination v2.002 (1999)(Hudson)(JP)[!]",
+  "orig_dir": "F:\\dev-kitahe\\kitae-org",
   "out_dir": "dist",
   "work_dir": "work",
   "languages": [
@@ -39,7 +39,11 @@
     "風呂",
     "URANAI",
     "HANYOU",
-    "KOTORI_03"
+    "KOTORI_03",
+    "KAORU",
+    "KOZUE",
+    "MEGUMI_01",
+    "TANYA"
   ],
   "paths": {
     "trfstrings_dll": ""
