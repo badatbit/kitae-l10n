@@ -131,7 +131,9 @@ def patch_all(cfg, lang, encode, base=None):
         for e in doc["entries"]:
             if not ((e.get("text") or {}).get(lang) or "").strip():
                 continue
-            if e["text"]["ja"] in keyed:
+            # `force` 는 키 차단을 뚫는다 — 같은 ja 가 다른 모듈에선 키라도
+            # 이 자리는 표시용임을 사람이 확인했을 때만 쓴다(검토 근거를 남긴다).
+            if e["text"]["ja"] in keyed and not e.get("force"):
                 blocked.append((name, e["offset"], e["text"]["ja"]))
                 continue
             rows.append(dict(e, text=e["text"][lang]))
