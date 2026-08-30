@@ -126,6 +126,9 @@ def _retime_line(dur, lip, m, text=""):
             # 뒤에 올 쉼들이 설 칸을 남겨 둔다
             j = _snap(j0, text, prev + 1, m - 1 - (len(extra) - 1 - n))
             j = max(prev + 1, min(j, m - 1))
+        # 원문 쉼 구간이 새 글자수보다 많으면 자리가 모자란다. 넘치는 쉼은
+        # 마지막 칸에 얹어 크래시를 막는다(총합·싱크는 그 줄 끝에서만 약간 늘어난다).
+        j = min(j, m - 1)
         want[j] += e
         prev = j
 
