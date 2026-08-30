@@ -140,6 +140,26 @@ def nop():
     return 0x0009
 
 
+def movl_push(rm):
+    """mov.l Rm,@-r15 — 스택 푸시"""
+    return 0x2F06 | (_n(rm) << 4)
+
+
+def movl_pop(rn):
+    """mov.l @r15+,Rn — 스택 팝 (MOV.L @Rm+,Rn, m=15)"""
+    return 0x6006 | (_n(rn) << 8) | (15 << 4)
+
+
+def sts_pr_push():
+    """sts.l pr,@-r15"""
+    return 0x4F22
+
+
+def lds_pr_pop():
+    """lds.l @r15+,pr"""
+    return 0x4F26
+
+
 def bsr(disp_words):
     return 0xB000 | (disp_words & 0xFFF)
 
