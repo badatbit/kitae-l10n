@@ -88,9 +88,9 @@ def load_composer(jaguk_json, use_cache=True):
     return compose
 
 
-def composed_rgba(compose, mp, pi):
+def composed_rgba(compose, mp, pi, container='SOZ'):
     """멤버(pic)의 합성 이미지를 numpy RGBA 로. 라벨 없으면 None."""
-    img = compose(f'SOZ/{mp}_{pi:02d}.png')
+    img = compose(f'{container}/{mp}_{pi:02d}.png')
     return None if img is None else np.array(img)
 
 
@@ -207,7 +207,7 @@ def _free_finder(occupied, W, H):
 
 
 # ─────────────────────────── 글리프 주입(패킹) ───────────────────────────
-def inject_glyph(cab, set_name, compose, verbose=False):
+def inject_glyph(cab, set_name, compose, verbose=False, container='SOZ'):
     """전용 아틀라스를 쓰는 팝업 라벨을 빈 공간에 패킹하고 blit 을 재작성.
 
     반환: (new_set_bytes, {dds: bytes}, base_rows) / 'RASTER' / None.
@@ -223,7 +223,7 @@ def inject_glyph(cab, set_name, compose, verbose=False):
     # 라벨 픽처 = 합성 이미지가 있는 pic. pic#0 은 베이스(래스터로 넘김).
     label_pics, base_has = {}, False
     for n in range(len(pics)):
-        arr = composed_rgba(compose, mp, n)
+        arr = composed_rgba(compose, mp, n, container)
         if arr is None or not (arr[..., 3] > 0).any():
             continue
         if n == 0:
@@ -366,12 +366,12 @@ def inject_glyph(cab, set_name, compose, verbose=False):
     pn = setb.find(b'CTRFPictures'); po = pn + 12
     old = struct.unpack_from('<I', setb, po)[0]
     newset = setb[:po] + struct.pack('<I', len(newpay)) + newpay + setb[pn + 16 + old:]
-    base_rows = f'SOZ/{mp}_00.png' if base_has else None
+    base_rows = f'{container}/{mp}_00.png' if base_has else None
     return newset, new_dds, base_rows
 
 
 # ─────────────────────────── 래스터 주입(덮어쓰기) ──────────────────────────
-def inject_raster(cab, set_name, compose, only_pics=None):
+def inject_raster(cab, set_name, compose, only_pics=None, container='SOZ'):
     """라벨 blit 영역을 합성 이미지(erased+한글)로 덮어쓴다. .SET 불변.
     only_pics: None=모든 라벨 픽처. {0}이면 pic#0 만(글리프와 병합용)."""
     mp = set_name[:-4]
@@ -385,7 +385,7 @@ def inject_raster(cab, set_name, compose, only_pics=None):
     for n in range(len(pics)):
         if only_pics is not None and n not in only_pics:
             continue
-        arr = composed_rgba(compose, mp, n)
+        arr = composed_rgba(compose, mp, n, container)
         if arr is not None and (arr[..., 3] > 0).any():
             label_pics[n] = arr
     if not label_pics:
@@ -426,36 +426,40 @@ def inject_raster(cab, set_name, compose, only_pics=None):
 
 
 # ─────────────────────────────── 라우팅 ──────────────────────────────────
-def inject_set(cab, set_name, compose, verbose=False):
+def inject_set(cab, set_name, compose, verbose=False, container='SOZ'):
     """글리프 먼저 시도, 실패/공유 시 래스터. 반환: ((setb, new_dds), kind)."""
-    res = inject_glyph(cab, set_name, compose, verbose)
+    res = inject_glyph(cab, set_name, compose, verbose, container)
     if res == 'RASTER':
-        return inject_raster(cab, set_name, compose), 'raster'
+        return inject_raster(cab, set_name, compose, container=container), 'raster'
     if res is None:
-        rr = inject_raster(cab, set_name, compose)
+        rr = inject_raster(cab, set_name, compose, container=container)
         return rr, ('raster-fb' if rr else 'none')
     setb, new_dds, base_rows = res
     if base_rows:                            # pic#0 베이스 라벨 → erase+overlay 병합
-        rr = inject_raster(cab, set_name, compose, only_pics={0})
+        rr = inject_raster(cab, set_name, compose, only_pics={0}, container=container)
         if rr:
             _, base_dds = rr
             if set(new_dds) & set(base_dds):     # 팝업이 pic#0 텍스처에 spill → 안전 폴백
-                rrall = inject_raster(cab, set_name, compose)
+                rrall = inject_raster(cab, set_name, compose, container=container)
                 return rrall, ('raster-fb' if rrall else 'none')
             new_dds = {**new_dds, **base_dds}
         return (setb, new_dds), 'glyph+base'
     return (setb, new_dds), 'glyph'
 
 
-def build_replacements(cab, compose, verbose=False):
-    """CB 안 모든 soz_*.SET 을 주입 → {entry_name: bytes} + 리포트."""
+def build_replacements(cab, compose, verbose=False, set_prefix='soz_', container='SOZ', raster_only=False):
+    """CB 안 `set_prefix`* .SET 을 주입 → {entry_name: bytes} + 리포트.
+    SOZ 는 기본(soz_/SOZ). M08 이름판은 set_prefix='bghut', container='M08'."""
     maps = sorted({n[:-4] for n in cab.names
-                   if n.lower().endswith('.set') and n.lower().startswith('soz_')})
+                   if n.lower().endswith('.set') and n.lower().startswith(set_prefix.lower())})
     repl, report = {}, []
     for mp in maps:
-        sn = mp + '.SET'
+        sn = [x for x in cab.names if x[:-4] == mp and x.lower().endswith('.set')][0]
         try:
-            res, kind = inject_set(cab, sn, compose, verbose)
+            if raster_only:
+                res, kind = inject_raster(cab, sn, compose, container=container), 'raster'
+            else:
+                res, kind = inject_set(cab, sn, compose, verbose, container)
         except Exception as e:            # noqa: BLE001
             report.append((mp, f'ERR {type(e).__name__}:{e}', 0)); continue
         if not res:

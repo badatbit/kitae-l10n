@@ -318,6 +318,24 @@ def _build(cfg, scripts, lang, want_font=True):
             print(f"  지도 라벨: 글리프 {sng}, 래스터 {len(srep) - sng} 맵  "
                   f"→ SOZ.CB {os.path.getsize(out_soz):,}")
 
+    # 3b''. M08.CB 이름판(BGHut) 이미지 ------------------------------------
+    # SOZ 와 같은 SET+DDS 아틀라스 구조. 합성 한글 이미지(images/injected/M08)를
+    # BGHut.set 에 주입한다. soz 모듈을 컨테이너 인자로 재사용.
+    out_m08 = None
+    if os.path.exists(_jaguk):
+        from kitae.build import soz as soz_mod
+        m08_cb = uipatch.original(cfg, "/RESOURCE/M08.CB")
+        # raster(제자리 덮어쓰기) — 글리프 패킹은 텍스처를 키워 슬롯을 넘는다.
+        mrepl, mrep = soz_mod.build_replacements(
+            Cab(m08_cb), soz_mod.load_composer(_jaguk),
+            set_prefix="bghut", container="M08", raster_only=True)
+        if mrepl:
+            out_m08 = _work(cfg, "build", "M08.CB")
+            smf_mod.repack_cab(m08_cb, mrepl, out_m08)
+            nd = sum(n for _, _, n in mrep)
+            print(f"  M08 이름판: 텍스처 {nd} 맵 → M08.CB "
+                  f"{os.path.getsize(out_m08):,} / 원본 {os.path.getsize(m08_cb):,}")
+
     # 3c. 퀴즈 문제 ----------------------------------------------------------
     # M05.CB 안의 Quiz.mhd. 문제 292개가 CLSS 객체로 들어 있다.
     out_m05 = None
@@ -370,7 +388,8 @@ def _build(cfg, scripts, lang, want_font=True):
     for disc_path, built in (("RESOURCE/PLOT.CB", out_plot),
                              ("RESOURCE/MTG.CB", out_mtg),
                              ("RESOURCE/SOZ.CB", out_soz),
-                             ("RESOURCE/M05.CB", out_m05)):
+                             ("RESOURCE/M05.CB", out_m05),
+                             ("RESOURCE/M08.CB", out_m08)):
         if not built:
             continue
         tmp = track + ".tmp"
