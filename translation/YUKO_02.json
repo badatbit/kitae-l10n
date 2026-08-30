@@ -1,0 +1,4406 @@
+{
+ "script": "YUKO_02",
+ "source": "ja",
+ "entries": [
+  {
+   "window": 0,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 0,
+   "date": "08-10",
+   "slot": "朝",
+   "place": "札幌駅",
+   "voice": "a3717.wav",
+   "chars": 15,
+   "text": {
+    "ja": "おはよー！　時間ぴったりだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 0,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 0,
+   "date": "08-10",
+   "slot": "朝",
+   "place": "札幌駅",
+   "voice": "a3717.wav",
+   "chars": 21,
+   "text": {
+    "ja": "それじゃここから汽車で千歳の駅まで行くよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 1,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／外観",
+   "voice": "a7502.wav",
+   "chars": 24,
+   "text": {
+    "ja": "ここが航空自衛隊・千歳基地。約２５００人の隊員が",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 1,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／外観",
+   "voice": "a7502.wav",
+   "chars": 23,
+   "text": {
+    "ja": "働いてるんだ。面積は約１０００万平方メートル。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 1,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／外観",
+   "voice": "a7502.wav",
+   "chars": 19,
+   "text": {
+    "ja": "東京ドーム約２８８個分よ。広いでしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 2,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／広報館",
+   "voice": "a7503.wav",
+   "chars": 18,
+   "text": {
+    "ja": "今日は一般的な見学ルートをまわるね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 2,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／広報館",
+   "voice": "a7503.wav",
+   "chars": 22,
+   "text": {
+    "ja": "まずここが広報館。基地の概要なんかを話すわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 2,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／広報館",
+   "voice": "a7503.wav",
+   "chars": 8,
+   "text": {
+    "ja": "説明を聞きたい？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 3,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "もちろん",
+    "ko": ""
+   }
+  },
+  {
+   "window": 3,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "別にいいよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 4,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／広報館",
+   "voice": "a7504.wav",
+   "chars": 11,
+   "text": {
+    "ja": "それじゃ　説明するね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 4,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／広報館",
+   "voice": "a7504.wav",
+   "chars": 21,
+   "text": {
+    "ja": "大正１５年　千歳村民の手で作られた滑走路が",
+    "ko": ""
+   }
+  },
+  {
+   "window": 4,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／広報館",
+   "voice": "a7504.wav",
+   "chars": 13,
+   "text": {
+    "ja": "この千歳基地のはじまりよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 5,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／広報館",
+   "voice": "a7505.wav",
+   "chars": 14,
+   "text": {
+    "ja": "現在は　Ｆ－１５Ｊ要撃戦闘機",
+    "ko": ""
+   }
+  },
+  {
+   "window": 5,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／広報館",
+   "voice": "a7505.wav",
+   "chars": 22,
+   "text": {
+    "ja": "Ｔ－４ジェット練習機・Ｕ－１２５Ａ救難捜索機",
+    "ko": ""
+   }
+  },
+  {
+   "window": 5,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／広報館",
+   "voice": "a7505.wav",
+   "chars": 14,
+   "text": {
+    "ja": "ＵＨ－６０Ｊ救難ヘリコプター",
+    "ko": ""
+   }
+  },
+  {
+   "window": 6,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／広報館",
+   "voice": "a7506.wav",
+   "chars": 21,
+   "text": {
+    "ja": "Ｂ－７４７－４００特別輸送機などを配備する",
+    "ko": ""
+   }
+  },
+  {
+   "window": 6,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／広報館",
+   "voice": "a7506.wav",
+   "chars": 16,
+   "text": {
+    "ja": "北海道最大の航空基地になったわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 7,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／広報館",
+   "voice": "a7507.wav",
+   "chars": 17,
+   "text": {
+    "ja": "普段の仕事内容は　領空侵犯措置・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 7,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／広報館",
+   "voice": "a7507.wav",
+   "chars": 18,
+   "text": {
+    "ja": "つまり国籍不明機の不法侵入を監視して",
+    "ko": ""
+   }
+  },
+  {
+   "window": 7,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／広報館",
+   "voice": "a7507.wav",
+   "chars": 9,
+   "text": {
+    "ja": "退去させる仕事ね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 8,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／広報館",
+   "voice": "a7508.wav",
+   "chars": 20,
+   "text": {
+    "ja": "それと災害派遣・・これは災害地に輸送機で",
+    "ko": ""
+   }
+  },
+  {
+   "window": 8,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／広報館",
+   "voice": "a7508.wav",
+   "chars": 22,
+   "text": {
+    "ja": "食料や衣料を運んだり　ヘリコプターで遭難者を",
+    "ko": ""
+   }
+  },
+  {
+   "window": 8,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／広報館",
+   "voice": "a7508.wav",
+   "chars": 10,
+   "text": {
+    "ja": "救出したりする仕事。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 9,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／広報館",
+   "voice": "a7509.wav",
+   "chars": 22,
+   "text": {
+    "ja": "その他　航空輸送や航空救難・航空管制なんかを",
+    "ko": ""
+   }
+  },
+  {
+   "window": 9,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／広報館",
+   "voice": "a7509.wav",
+   "chars": 12,
+   "text": {
+    "ja": "この基地で行っているわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 10,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／広報館",
+   "voice": "a7510.wav",
+   "chars": 7,
+   "text": {
+    "ja": "それじゃ省略。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 11,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 2,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／広報館",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 12,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／広報館",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 13,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 2,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／広報館",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "彼女は僕の沈黙を『ＮＯ』と解釈したらしい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 14,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／広報館",
+   "voice": "A7510.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "それじゃ省略。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 15,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／広報館",
+   "voice": "a7511.wav",
+   "chars": 22,
+   "text": {
+    "ja": "この後格納庫に行ってＦ－１５Ｊを見るんだけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 15,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／広報館",
+   "voice": "a7511.wav",
+   "chars": 16,
+   "text": {
+    "ja": "格納庫って　ちょっとうるさいから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 15,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／広報館",
+   "voice": "a7511.wav",
+   "chars": 17,
+   "text": {
+    "ja": "いつもここで説明をやって置くんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 16,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／広報館",
+   "voice": "a7512.wav",
+   "chars": 18,
+   "text": {
+    "ja": "Ｆ－１５Ｊについての説明を聞きたい？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 17,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "もちろん",
+    "ko": ""
+   }
+  },
+  {
+   "window": 17,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "別にいいよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 18,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／広報館",
+   "voice": "a7513.wav",
+   "chars": 11,
+   "text": {
+    "ja": "それじゃ　説明するね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 19,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／広報館",
+   "voice": "a7514.wav",
+   "chars": 20,
+   "text": {
+    "ja": "Ｆ－１５Ｊはアメリカで開発された戦闘機で",
+    "ko": ""
+   }
+  },
+  {
+   "window": 19,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／広報館",
+   "voice": "a7514.wav",
+   "chars": 23,
+   "text": {
+    "ja": "全長約１９．４メートル。幅は約１３．１メートル",
+    "ko": ""
+   }
+  },
+  {
+   "window": 19,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／広報館",
+   "voice": "a7514.wav",
+   "chars": 23,
+   "text": {
+    "ja": "高さ約５．１メートル。重さは約１２トンあるわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 20,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／広報館",
+   "voice": "a7515.wav",
+   "chars": 14,
+   "text": {
+    "ja": "速さはだいたいマッハ２．５。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 20,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／広報館",
+   "voice": "a7515.wav",
+   "chars": 18,
+   "text": {
+    "ja": "札幌から東京まで１７分で行けるのよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 21,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／広報館",
+   "voice": "a7516.wav",
+   "chars": 14,
+   "text": {
+    "ja": "馬力に換算すると２０万馬力。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 21,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／広報館",
+   "voice": "a7516.wav",
+   "chars": 10,
+   "text": {
+    "ja": "鉄腕アトム二人分ね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 22,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／広報館",
+   "voice": "a7510.wav",
+   "chars": 7,
+   "text": {
+    "ja": "それじゃ省略。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 23,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 2,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／広報館",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 24,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／広報館",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 25,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 2,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／広報館",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "彼女は僕の沈黙を『ＮＯ』と解釈したらしい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 26,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／広報館",
+   "voice": "a7510.wav",
+   "chars": 7,
+   "text": {
+    "ja": "それじゃ省略。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 27,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／広報館",
+   "voice": "a7517.wav",
+   "chars": 15,
+   "text": {
+    "ja": "それじゃ　格納庫に行きましょ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 28,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 3,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／格納庫",
+   "voice": "a7518.wav",
+   "chars": 23,
+   "text": {
+    "ja": "ここは格納庫。私たちはハンガーって呼んでるわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 28,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 3,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／格納庫",
+   "voice": "a7518.wav",
+   "chars": 19,
+   "text": {
+    "ja": "あそこに見えるのが整備中のＦ－１５Ｊ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 28,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 3,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／格納庫",
+   "voice": "a7518.wav",
+   "chars": 24,
+   "text": {
+    "ja": "展示用じゃなくて　実際に飛んでいる戦闘機なのよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 29,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 3,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／格納庫",
+   "voice": "a7519.wav",
+   "chars": 14,
+   "text": {
+    "ja": "ちょっと近づいてみましょ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 30,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 3,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／格納庫",
+   "voice": "a7520.wav",
+   "chars": 22,
+   "text": {
+    "ja": "戦闘機って精密機器の固まりだから熱に弱いの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 30,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 3,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／格納庫",
+   "voice": "a7520.wav",
+   "chars": 25,
+   "text": {
+    "ja": "だからこうしてエアコンで冷やしながら整備するのよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 31,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 3,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／格納庫",
+   "voice": "a7521.wav",
+   "chars": 24,
+   "text": {
+    "ja": "前にも言ったかも知れないけど　Ｆ－１５Ｊは１機で",
+    "ko": ""
+   }
+  },
+  {
+   "window": 31,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 3,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／格納庫",
+   "voice": "a7521.wav",
+   "chars": 22,
+   "text": {
+    "ja": "１３０億円するでしょ？　だからそれを操縦する",
+    "ko": ""
+   }
+  },
+  {
+   "window": 31,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 3,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／格納庫",
+   "voice": "a7521.wav",
+   "chars": 19,
+   "text": {
+    "ja": "パイロットもエリート中のエリートなの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 32,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 3,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／格納庫",
+   "voice": "a7522.wav",
+   "chars": 19,
+   "text": {
+    "ja": "そして　１機を飛ばすために３０人以上の",
+    "ko": ""
+   }
+  },
+  {
+   "window": 32,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 3,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／格納庫",
+   "voice": "a7522.wav",
+   "chars": 22,
+   "text": {
+    "ja": "地上要員が必要になるんだ。・・・ここにいると",
+    "ko": ""
+   }
+  },
+  {
+   "window": 32,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 3,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／格納庫",
+   "voice": "a7522.wav",
+   "chars": 18,
+   "text": {
+    "ja": "作業の邪魔になるから先に進みましょ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 33,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 4,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／滑走路",
+   "voice": "a7523.wav",
+   "chars": 24,
+   "text": {
+    "ja": "ここが滑走路。奧に見えるのが政府専用機の格納庫。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 33,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 4,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／滑走路",
+   "voice": "a7523.wav",
+   "chars": 12,
+   "text": {
+    "ja": "右に見えるのが管制塔よ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 34,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 4,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／滑走路",
+   "voice": "a7524.wav",
+   "chars": 20,
+   "text": {
+    "ja": "政府専用機はボーイング７４７－４００型で",
+    "ko": ""
+   }
+  },
+  {
+   "window": 34,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 4,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／滑走路",
+   "voice": "a7524.wav",
+   "chars": 17,
+   "text": {
+    "ja": "通常はこの基地に格納されているわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 34,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 4,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／滑走路",
+   "voice": "a7524.wav",
+   "chars": 23,
+   "text": {
+    "ja": "パイロットもスチュワーデスももちろん自衛官よ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 35,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 4,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／滑走路",
+   "voice": "a7525.wav",
+   "chars": 18,
+   "text": {
+    "ja": "国賓や政府要人を乗せるだけじゃなくて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 35,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 4,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／滑走路",
+   "voice": "a7525.wav",
+   "chars": 21,
+   "text": {
+    "ja": "国際緊急援助活動なんかにも使われているわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 36,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 4,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／滑走路",
+   "voice": "A8191.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "ここの滑走路からＦ－１５Ｊが発着するわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 36,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 4,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／滑走路",
+   "voice": "A8191.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "あ・・ちょうど今　飛び立つみたい。見て！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 37,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 4,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／滑走路",
+   "voice": "A8192.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "ね？　近くで見ると　すごい迫力でしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 37,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 4,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／滑走路",
+   "voice": "A8192.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "それじゃ　次行くね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 38,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 4,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／滑走路",
+   "voice": "a7526.wav",
+   "chars": 14,
+   "text": {
+    "ja": "それと左に見えるのが救難隊。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 38,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 4,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／滑走路",
+   "voice": "a7526.wav",
+   "chars": 9,
+   "text": {
+    "ja": "行ってみましょう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 39,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 5,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／救難隊",
+   "voice": "a7527.wav",
+   "chars": 20,
+   "text": {
+    "ja": "ここが救難隊。レスキュー隊って言った方が",
+    "ko": ""
+   }
+  },
+  {
+   "window": 39,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 5,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／救難隊",
+   "voice": "a7527.wav",
+   "chars": 10,
+   "text": {
+    "ja": "わかりやすいかもね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 40,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 5,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／救難隊",
+   "voice": "a7528.wav",
+   "chars": 15,
+   "text": {
+    "ja": "正面に見えるのがＵ－１２５Ａ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 40,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 5,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／救難隊",
+   "voice": "a7528.wav",
+   "chars": 23,
+   "text": {
+    "ja": "赤外線やレーダーで捜索が出来る最新の飛行機よ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 41,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 5,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／救難隊",
+   "voice": "a7529.wav",
+   "chars": 21,
+   "text": {
+    "ja": "事故機の捜索や援助　緊急物資の空輸なんかを",
+    "ko": ""
+   }
+  },
+  {
+   "window": 41,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 5,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／救難隊",
+   "voice": "a7529.wav",
+   "chars": 25,
+   "text": {
+    "ja": "仕事にした　『空の救急車』の役目を果たしているわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 41,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 5,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／救難隊",
+   "voice": "a7529.wav",
+   "chars": 13,
+   "text": {
+    "ja": "それじゃ　次　行きましょ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 42,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 6,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／厚生センター",
+   "voice": "a7530.wav",
+   "chars": 10,
+   "text": {
+    "ja": "ここが厚生センター。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 42,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 6,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／厚生センター",
+   "voice": "a7530.wav",
+   "chars": 16,
+   "text": {
+    "ja": "３億円かけて作られた厚生施設よ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 43,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 6,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／厚生センター",
+   "voice": "a7531.wav",
+   "chars": 14,
+   "text": {
+    "ja": "１Ｆは売店とトレーニングジム",
+    "ko": ""
+   }
+  },
+  {
+   "window": 43,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 6,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／厚生センター",
+   "voice": "a7531.wav",
+   "chars": 21,
+   "text": {
+    "ja": "２ＦはＡＶルームやリラクゼーションルーム。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 43,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 6,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／厚生センター",
+   "voice": "a7531.wav",
+   "chars": 13,
+   "text": {
+    "ja": "サウナ付きの浴場もあるわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 44,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 6,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／厚生センター",
+   "voice": "a7532.wav",
+   "chars": 19,
+   "text": {
+    "ja": "日用品の買い物なんかは　たいていここで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 44,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 6,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／厚生センター",
+   "voice": "a7532.wav",
+   "chars": 10,
+   "text": {
+    "ja": "済ませちゃう感じね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 44,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 6,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／厚生センター",
+   "voice": "a7532.wav",
+   "chars": 14,
+   "text": {
+    "ja": "さて　次は食堂に案内するわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 45,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 7,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／食堂内部",
+   "voice": "a7533.wav",
+   "chars": 20,
+   "text": {
+    "ja": "ここが食堂。私が一番よく利用する施設ね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 45,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 7,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／食堂内部",
+   "voice": "a7533.wav",
+   "chars": 21,
+   "text": {
+    "ja": "メニューは日替わりで　献立は選べないんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 45,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 7,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／食堂内部",
+   "voice": "a7533.wav",
+   "chars": 22,
+   "text": {
+    "ja": "でも自衛官はタダだし　結構　おいしいんだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 46,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 7,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／食堂内部",
+   "voice": "a7534.wav",
+   "chars": 22,
+   "text": {
+    "ja": "ボリュームもあって　全部食べると３０００キロ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 46,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 7,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／食堂内部",
+   "voice": "a7534.wav",
+   "chars": 21,
+   "text": {
+    "ja": "カロリー！　ちょっと多いけど　その分身体を",
+    "ko": ""
+   }
+  },
+  {
+   "window": 46,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 7,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／食堂内部",
+   "voice": "a7534.wav",
+   "chars": 12,
+   "text": {
+    "ja": "動かしてるから平気だよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 47,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 7,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／食堂内部",
+   "voice": "a7535.wav",
+   "chars": 22,
+   "text": {
+    "ja": "それと　月に一度　誕生献立ってのがあるんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 47,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 7,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／食堂内部",
+   "voice": "a7535.wav",
+   "chars": 22,
+   "text": {
+    "ja": "これはその月に生まれた人のお誕生日をまとめて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 47,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 7,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／食堂内部",
+   "voice": "a7535.wav",
+   "chars": 12,
+   "text": {
+    "ja": "祝う豪華なメニューなの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 48,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 7,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／食堂内部",
+   "voice": "a7536.wav",
+   "chars": 12,
+   "text": {
+    "ja": "ちなみに今月はステーキ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 48,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 7,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／食堂内部",
+   "voice": "a7536.wav",
+   "chars": 15,
+   "text": {
+    "ja": "私　今から楽しみにしてるんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 48,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 7,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／食堂内部",
+   "voice": "a7536.wav",
+   "chars": 13,
+   "text": {
+    "ja": "さて　そろそろここ出るね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 49,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 8,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／宿舎前",
+   "voice": "a7537.wav",
+   "chars": 18,
+   "text": {
+    "ja": "ここが女子寮。もちろん男子禁制だから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 49,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 8,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／宿舎前",
+   "voice": "a7537.wav",
+   "chars": 11,
+   "text": {
+    "ja": "内部は案内できないよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 50,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 8,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／宿舎前",
+   "voice": "a7538.wav",
+   "chars": 20,
+   "text": {
+    "ja": "@S@・・@P@ほんとは部屋に飾ってあるラッセンの絵",
+    "ko": ""
+   }
+  },
+  {
+   "window": 50,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 8,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／宿舎前",
+   "voice": "a7538.wav",
+   "chars": 15,
+   "text": {
+    "ja": "見せてあげたかったんだけどね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 50,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 8,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／宿舎前",
+   "voice": "a7538.wav",
+   "chars": 6,
+   "text": {
+    "ja": "さて！　次！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 51,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 9,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／隊員クラブ前",
+   "voice": "a7539.wav",
+   "chars": 9,
+   "text": {
+    "ja": "ここは隊員クラブ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 51,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 9,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／隊員クラブ前",
+   "voice": "a7539.wav",
+   "chars": 18,
+   "text": {
+    "ja": "基地内で唯一　お酒を飲める場所だよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 52,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 9,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／隊員クラブ前",
+   "voice": "a7540.wav",
+   "chars": 24,
+   "text": {
+    "ja": "でもさ・・仕事で一緒の人たちと　プライベートまで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 52,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 9,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／隊員クラブ前",
+   "voice": "a7540.wav",
+   "chars": 18,
+   "text": {
+    "ja": "一緒なのって　ちょっとつらいでしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 52,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 9,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／隊員クラブ前",
+   "voice": "a7540.wav",
+   "chars": 21,
+   "text": {
+    "ja": "だから私は　たいてい千歳の街で飲んでるわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 53,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 9,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／隊員クラブ前",
+   "voice": "a7541.wav",
+   "chars": 21,
+   "text": {
+    "ja": "@S@・・@P@とまぁ・・とりあえず　こんな感じかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 53,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 9,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／隊員クラブ前",
+   "voice": "a7541.wav",
+   "chars": 23,
+   "text": {
+    "ja": "これでなんとなく　自衛隊のことわかったでしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 54,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "そうだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 54,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "もっと見たいな",
+    "ko": ""
+   }
+  },
+  {
+   "window": 55,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 9,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／隊員クラブ前",
+   "voice": "a3720.wav",
+   "chars": 13,
+   "text": {
+    "ja": "それじゃ　見学はおしまい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 55,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 9,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／隊員クラブ前",
+   "voice": "a3720.wav",
+   "chars": 11,
+   "text": {
+    "ja": "私　札幌駅まで送るね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 56,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 9,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／隊員クラブ前",
+   "voice": "a3721.wav",
+   "chars": 19,
+   "text": {
+    "ja": "基地の奧に　宇宙怪獣をやっつけるための",
+    "ko": ""
+   }
+  },
+  {
+   "window": 56,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 9,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／隊員クラブ前",
+   "voice": "a3721.wav",
+   "chars": 19,
+   "text": {
+    "ja": "超電磁粒子砲があるんだけど　残念ながら",
+    "ko": ""
+   }
+  },
+  {
+   "window": 56,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 9,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／隊員クラブ前",
+   "voice": "a3721.wav",
+   "chars": 14,
+   "text": {
+    "ja": "部外者には見せられないの・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 57,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 9,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／隊員クラブ前",
+   "voice": "a3722.wav",
+   "chars": 15,
+   "text": {
+    "ja": "ということで　見学はおしまい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 57,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 9,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／隊員クラブ前",
+   "voice": "a3722.wav",
+   "chars": 11,
+   "text": {
+    "ja": "私　札幌駅まで送るね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 58,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 9,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／隊員クラブ前",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 59,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 9,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／隊員クラブ前",
+   "voice": "a3823.wav",
+   "chars": 12,
+   "text": {
+    "ja": "@S@・・・@P@ねぇ・・無口なの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 59,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 9,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／隊員クラブ前",
+   "voice": "a3823.wav",
+   "chars": 15,
+   "text": {
+    "ja": "それともちゃんと聞いてないの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 60,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 9,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／隊員クラブ前",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 61,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 9,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／隊員クラブ前",
+   "voice": "a3720.wav",
+   "chars": 13,
+   "text": {
+    "ja": "それじゃ　見学はおしまい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 61,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 9,
+   "date": "08-10",
+   "slot": "午前",
+   "place": "千歳航空自衛隊基地／隊員クラブ前",
+   "voice": "a3720.wav",
+   "chars": 11,
+   "text": {
+    "ja": "私　札幌駅まで送るね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 62,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 11,
+   "date": "08-10",
+   "slot": "夕方",
+   "place": "札幌",
+   "voice": "a3723.wav",
+   "chars": 22,
+   "text": {
+    "ja": "仕事　忙しくなってきたから　これからしばらく",
+    "ko": ""
+   }
+  },
+  {
+   "window": 62,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 11,
+   "date": "08-10",
+   "slot": "夕方",
+   "place": "札幌",
+   "voice": "a3723.wav",
+   "chars": 23,
+   "text": {
+    "ja": "会えなくなるかも・・時間が空いたら電話するよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 62,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 11,
+   "date": "08-10",
+   "slot": "夕方",
+   "place": "札幌",
+   "voice": "a3723.wav",
+   "chars": 10,
+   "text": {
+    "ja": "それじゃ。ばいばい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 63,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 12,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a3724.wav",
+   "chars": 24,
+   "text": {
+    "ja": "もしもーし。桜町でーす！　あははははは！　元気？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 63,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 12,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a3724.wav",
+   "chars": 17,
+   "text": {
+    "ja": "突然だけどさぁ・・今から会えない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 63,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 12,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a3724.wav",
+   "chars": 17,
+   "text": {
+    "ja": "私　ススキノにいるんだけどさ・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 64,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "うん。いいよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 64,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "今はちょっと・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 65,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 12,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a3725.wav",
+   "chars": 21,
+   "text": {
+    "ja": "ＯＫ！　それじゃ　１００数える間に来てね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 65,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 12,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a3725.wav",
+   "chars": 14,
+   "text": {
+    "ja": "１・２・３・４・５・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 66,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 12,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a3726.wav",
+   "chars": 21,
+   "text": {
+    "ja": "そっかー！　じゃ　また今度ね。ばいばーい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 67,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 12,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 68,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 12,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 69,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 12,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 70,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 12,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a3726.wav",
+   "chars": 20,
+   "text": {
+    "ja": "そっかー！　じゃ　また今度ね。ばいばい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 71,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 13,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "ススキノ",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "由子さん！　大丈夫？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 72,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 13,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "ススキノ",
+   "voice": "a3728.wav",
+   "chars": 17,
+   "text": {
+    "ja": "@S@・・・@P@９７・９８・９９・１００！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 72,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 13,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "ススキノ",
+   "voice": "a3728.wav",
+   "chars": 13,
+   "text": {
+    "ja": "すごーい！　間に合ったね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 72,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 13,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "ススキノ",
+   "voice": "a3728.wav",
+   "chars": 9,
+   "text": {
+    "ja": "私　うれしいなぁ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 73,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "由子さん・・酔っぱらってるの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 73,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "由子さん・・泣いてるの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 74,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 13,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "ススキノ",
+   "voice": "a3729.wav",
+   "chars": 17,
+   "text": {
+    "ja": "酔っぱらってなんて・・・いません！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 74,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 13,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "ススキノ",
+   "voice": "a3729.wav",
+   "chars": 15,
+   "text": {
+    "ja": "ただお酒と　戯れているんです。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 74,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 13,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "ススキノ",
+   "voice": "a3729.wav",
+   "chars": 14,
+   "text": {
+    "ja": "ささっ！　社長！　もう一軒！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 75,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 13,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "ススキノ",
+   "voice": "a3730.wav",
+   "chars": 14,
+   "text": {
+    "ja": "泣いてなんて・・・いません！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 75,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 13,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "ススキノ",
+   "voice": "a3730.wav",
+   "chars": 17,
+   "text": {
+    "ja": "ただ悲しみを　見つめているんです。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 75,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 13,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "ススキノ",
+   "voice": "a3730.wav",
+   "chars": 14,
+   "text": {
+    "ja": "ささっ！　社長！　もう一軒！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 76,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 13,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "ススキノ",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "とにかく　ここに座ってたら邪魔になるから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 76,
+   "line": 1,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 13,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "ススキノ",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "ほら！　立って！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 77,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 14,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "キュービック／外観",
+   "voice": "a3732.wav",
+   "chars": 10,
+   "text": {
+    "ja": "え？　ここ・・どこ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 78,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 14,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "キュービック／外観",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "キュービック！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 79,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 14,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "キュービック／外観",
+   "voice": "a7542.wav",
+   "chars": 20,
+   "text": {
+    "ja": "キューブリック？　ああ・・２００１年ね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 80,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 14,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "キュービック／外観",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "馬鹿なこと言ってないで　ほら！　中に入って！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 81,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 15,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "キュービック／内部",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "すすきの駅近くの喫茶店・キュービック。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 81,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 15,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "キュービック／内部",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "泥酔した由子さんを　なんとかここまで運んできた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 82,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 15,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "キュービック／内部",
+   "voice": "a3737.wav",
+   "chars": 19,
+   "text": {
+    "ja": "今日は　とってもおめでたい日なんだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 82,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 15,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "キュービック／内部",
+   "voice": "a3737.wav",
+   "chars": 13,
+   "text": {
+    "ja": "私の上官と　部下の結婚式！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 82,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 15,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "キュービック／内部",
+   "voice": "a3737.wav",
+   "chars": 19,
+   "text": {
+    "ja": "だからほら。私　お洒落してきましたー。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 83,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 15,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "キュービック／内部",
+   "voice": "a3738.wav",
+   "chars": 22,
+   "text": {
+    "ja": "知ってる？　女性自衛官が男性自衛官と結婚する",
+    "ko": ""
+   }
+  },
+  {
+   "window": 83,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 15,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "キュービック／内部",
+   "voice": "a3738.wav",
+   "chars": 24,
+   "text": {
+    "ja": "確率は　なんと９０％！　ほとんどが営内恋愛なの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 83,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 15,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "キュービック／内部",
+   "voice": "a3738.wav",
+   "chars": 18,
+   "text": {
+    "ja": "それだけ　出会いが少ないのかしらね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 84,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "由子さん。気分はどう？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 84,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "由子さんは営内恋愛してるの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 85,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 15,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "キュービック／内部",
+   "voice": "a3739.wav",
+   "chars": 8,
+   "text": {
+    "ja": "気分？　最高よ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 85,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 15,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "キュービック／内部",
+   "voice": "a3739.wav",
+   "chars": 15,
+   "text": {
+    "ja": "気持ちよく酔っぱらってるし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 85,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 15,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "キュービック／内部",
+   "voice": "a3739.wav",
+   "chars": 18,
+   "text": {
+    "ja": "世話を焼いてくれる男の子もいるし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 86,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 15,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "キュービック／内部",
+   "voice": "a3740.wav",
+   "chars": 16,
+   "text": {
+    "ja": "嫌なことなんて　忘れちゃうくらい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 86,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 15,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "キュービック／内部",
+   "voice": "a3740.wav",
+   "chars": 15,
+   "text": {
+    "ja": "・・・最高の気分なんだから・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 87,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 15,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "キュービック／内部",
+   "voice": "a3741.wav",
+   "chars": 18,
+   "text": {
+    "ja": "してた！　・・・片思いだったけどね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 87,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 15,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "キュービック／内部",
+   "voice": "a3741.wav",
+   "chars": 13,
+   "text": {
+    "ja": "でも　もう終わっちゃった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 88,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 15,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "キュービック／内部",
+   "voice": "a3742.wav",
+   "chars": 16,
+   "text": {
+    "ja": "私の・・初恋の話　してあげるね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 89,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 15,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "キュービック／内部",
+   "voice": "a3743.wav",
+   "chars": 21,
+   "text": {
+    "ja": "私が１０歳の頃　お父さんの運転していた車が",
+    "ko": ""
+   }
+  },
+  {
+   "window": 89,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 15,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "キュービック／内部",
+   "voice": "a3743.wav",
+   "chars": 15,
+   "text": {
+    "ja": "山道でエンストしちゃったんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 90,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 15,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "キュービック／内部",
+   "voice": "a3744.wav",
+   "chars": 17,
+   "text": {
+    "ja": "外は猛吹雪。歩くわけにもいかなくて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 90,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 15,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "キュービック／内部",
+   "voice": "a3744.wav",
+   "chars": 14,
+   "text": {
+    "ja": "お父さんとお兄さんと私と・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 90,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 15,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "キュービック／内部",
+   "voice": "a3744.wav",
+   "chars": 15,
+   "text": {
+    "ja": "三人して　途方に暮れていたわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 91,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 15,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "キュービック／内部",
+   "voice": "a3745.wav",
+   "chars": 12,
+   "text": {
+    "ja": "そのうちお腹もすいてきて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 91,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 15,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "キュービック／内部",
+   "voice": "a3745.wav",
+   "chars": 13,
+   "text": {
+    "ja": "どんどん寒くなってきて・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 92,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 15,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "キュービック／内部",
+   "voice": "a3746.wav",
+   "chars": 24,
+   "text": {
+    "ja": "その時　クラクションで鳴らしたＳＯＳを聞きつけて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 92,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 15,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "キュービック／内部",
+   "voice": "a3746.wav",
+   "chars": 18,
+   "text": {
+    "ja": "自衛隊のジープが助けに来てくれたの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 92,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 15,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "キュービック／内部",
+   "voice": "a3746.wav",
+   "chars": 19,
+   "text": {
+    "ja": "香月さんっていう　若い隊員さんだった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 93,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 15,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "キュービック／内部",
+   "voice": "a3747.wav",
+   "chars": 24,
+   "text": {
+    "ja": "彼は私たちに暖かい毛布と温かいココアを差し出して",
+    "ko": ""
+   }
+  },
+  {
+   "window": 93,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 15,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "キュービック／内部",
+   "voice": "a3747.wav",
+   "chars": 18,
+   "text": {
+    "ja": "自分はお父さんの車を修理してくれた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 93,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 15,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "キュービック／内部",
+   "voice": "a3747.wav",
+   "chars": 15,
+   "text": {
+    "ja": "吹雪の中・・汗だくになって・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 94,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 15,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "キュービック／内部",
+   "voice": "a3748.wav",
+   "chars": 18,
+   "text": {
+    "ja": "@S@・・@P@淡いあこがれだったんだろうな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 94,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 15,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "キュービック／内部",
+   "voice": "a3748.wav",
+   "chars": 22,
+   "text": {
+    "ja": "子供心にも私　この人のお嫁さんになりたいって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 94,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 15,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "キュービック／内部",
+   "voice": "a3748.wav",
+   "chars": 8,
+   "text": {
+    "ja": "そう思ったんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 95,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 15,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "キュービック／内部",
+   "voice": "a3749.wav",
+   "chars": 20,
+   "text": {
+    "ja": "それから８年たって　私は自衛隊に入った。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 95,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 15,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "キュービック／内部",
+   "voice": "a3749.wav",
+   "chars": 11,
+   "text": {
+    "ja": "@0042@そして彼と再会したの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 95,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 15,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "キュービック／内部",
+   "voice": "a3749.wav",
+   "chars": 15,
+   "text": {
+    "ja": "香月さんは曹長になっていたわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 96,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 15,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "キュービック／内部",
+   "voice": "a3750.wav",
+   "chars": 13,
+   "text": {
+    "ja": "涙が出るくらい嬉しかった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 96,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 15,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "キュービック／内部",
+   "voice": "a3750.wav",
+   "chars": 21,
+   "text": {
+    "ja": "でも　彼にはその気持ちを伝えられなかった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 96,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 15,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "キュービック／内部",
+   "voice": "a3750.wav",
+   "chars": 21,
+   "text": {
+    "ja": "私のこと　覚えている感じじゃなかったし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 97,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 15,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "キュービック／内部",
+   "voice": "a3751.wav",
+   "chars": 24,
+   "text": {
+    "ja": "上官としての香月曹長は　やっぱり素敵な人だった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 97,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 15,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "キュービック／内部",
+   "voice": "a3751.wav",
+   "chars": 22,
+   "text": {
+    "ja": "でも年も離れてるし　きっといつか　別の人生を",
+    "ko": ""
+   }
+  },
+  {
+   "window": 97,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 15,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "キュービック／内部",
+   "voice": "a3751.wav",
+   "chars": 22,
+   "text": {
+    "ja": "歩いてゆくんだろうなって　そう思ってたの・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 98,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 16,
+   "date": "08-13",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a3752.wav",
+   "chars": 10,
+   "text": {
+    "ja": "でもね！　聞いてよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 98,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 16,
+   "date": "08-13",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a3752.wav",
+   "chars": 22,
+   "text": {
+    "ja": "彼が結婚した相手は１９歳！　私の後輩なのよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 99,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 16,
+   "date": "08-13",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a3753.wav",
+   "chars": 13,
+   "text": {
+    "ja": "彼女も　すごくいい子だから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 99,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 16,
+   "date": "08-13",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a3753.wav",
+   "chars": 16,
+   "text": {
+    "ja": "『おめでとう！　幸せにね。』って",
+    "ko": ""
+   }
+  },
+  {
+   "window": 99,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 16,
+   "date": "08-13",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a3753.wav",
+   "chars": 23,
+   "text": {
+    "ja": "心からそう思ったし・・二人にもそう言ったし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 100,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 16,
+   "date": "08-13",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a3754.wav",
+   "chars": 18,
+   "text": {
+    "ja": "でも・・私の心はどうなっちゃうのよ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 100,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 16,
+   "date": "08-13",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a3754.wav",
+   "chars": 17,
+   "text": {
+    "ja": "ずっとずっと・・誰にも言えないまま",
+    "ko": ""
+   }
+  },
+  {
+   "window": 100,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 16,
+   "date": "08-13",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a3754.wav",
+   "chars": 22,
+   "text": {
+    "ja": "誰にも気付かれないまま消えちゃった私の心は？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 101,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 16,
+   "date": "08-13",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a3755.wav",
+   "chars": 22,
+   "text": {
+    "ja": "登場人物が　みんな善人だから困っちゃうのよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 101,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 16,
+   "date": "08-13",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a3755.wav",
+   "chars": 19,
+   "text": {
+    "ja": "一人ぐらい悪人がいたら　そいつのせいに",
+    "ko": ""
+   }
+  },
+  {
+   "window": 101,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 16,
+   "date": "08-13",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a3755.wav",
+   "chars": 7,
+   "text": {
+    "ja": "出来るのに・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 102,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 16,
+   "date": "08-13",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a3756.wav",
+   "chars": 15,
+   "text": {
+    "ja": "シンデレラのお話って有名だけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 102,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 16,
+   "date": "08-13",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a3756.wav",
+   "chars": 20,
+   "text": {
+    "ja": "あそこに出てきた「意地悪なお姉さん」・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 103,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 16,
+   "date": "08-13",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a3757.wav",
+   "chars": 16,
+   "text": {
+    "ja": "彼女だって女だし　ひょっとしたら",
+    "ko": ""
+   }
+  },
+  {
+   "window": 103,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 16,
+   "date": "08-13",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a3757.wav",
+   "chars": 16,
+   "text": {
+    "ja": "シンデレラよりずっと王子様のこと",
+    "ko": ""
+   }
+  },
+  {
+   "window": 103,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 16,
+   "date": "08-13",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a3757.wav",
+   "chars": 16,
+   "text": {
+    "ja": "好きだったかもしれないじゃない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 104,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 16,
+   "date": "08-13",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a3758.wav",
+   "chars": 15,
+   "text": {
+    "ja": "意地悪って決めつけられてるけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 104,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 16,
+   "date": "08-13",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a3758.wav",
+   "chars": 16,
+   "text": {
+    "ja": "そう思ってるのは物語の作者だけで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 104,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 16,
+   "date": "08-13",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a3758.wav",
+   "chars": 23,
+   "text": {
+    "ja": "実は　すごくいい人だったかもしれないじゃない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 105,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 16,
+   "date": "08-13",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a3759.wav",
+   "chars": 19,
+   "text": {
+    "ja": "おとぎ話ですら　そんなに残酷なんだから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 105,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 16,
+   "date": "08-13",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a3759.wav",
+   "chars": 22,
+   "text": {
+    "ja": "現実の物語は　きっと　もっと厳しいんだよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 105,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 16,
+   "date": "08-13",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a3759.wav",
+   "chars": 14,
+   "text": {
+    "ja": "・・@4830@・ねぇ？　&主人公&君　飲んでる？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 106,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 16,
+   "date": "08-13",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "コ・・コーヒーなら　飲んでるけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 107,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 16,
+   "date": "08-13",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a3761.wav",
+   "chars": 17,
+   "text": {
+    "ja": "今日は朝までつきあってもらうわよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 108,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 16,
+   "date": "08-13",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "え・・でも由子さん・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 109,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 16,
+   "date": "08-13",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a3763.wav",
+   "chars": 13,
+   "text": {
+    "ja": "朝まで・・@4831@つきあって・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 110,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 16,
+   "date": "08-13",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "あれ？　由子さん？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 111,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 16,
+   "date": "08-13",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "朝まで営業している喫茶店で",
+    "ko": ""
+   }
+  },
+  {
+   "window": 111,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 16,
+   "date": "08-13",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "僕はずっと　由子さんの寝顔を見ていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 112,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 16,
+   "date": "08-13",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "少し眠かったけど　ここで眠ってしまったら",
+    "ko": ""
+   }
+  },
+  {
+   "window": 112,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 16,
+   "date": "08-13",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "由子さんが　消えてしまいそうな気がして・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 112,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 16,
+   "date": "08-13",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "朝までずっと　由子さんの寝顔を見ていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 113,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 16,
+   "date": "08-13",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "おはよう。由子さん。朝だよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 114,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 16,
+   "date": "08-13",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "僕は　まだお酒の抜けていない由子さんを",
+    "ko": ""
+   }
+  },
+  {
+   "window": 114,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 16,
+   "date": "08-13",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "駅まで送って　それからローズヒルに戻った。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 114,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 16,
+   "date": "08-13",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "・・・結局　徹夜しちゃったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 115,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 17,
+   "date": "08-14",
+   "slot": "朝",
+   "place": "平岸駅",
+   "voice": "a3768.wav",
+   "chars": 10,
+   "text": {
+    "ja": "もしもし。桜町です。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 115,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 17,
+   "date": "08-14",
+   "slot": "朝",
+   "place": "平岸駅",
+   "voice": "a3768.wav",
+   "chars": 8,
+   "text": {
+    "ja": "夕べはごめんね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 116,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 17,
+   "date": "08-14",
+   "slot": "朝",
+   "place": "平岸駅",
+   "voice": "a3769.wav",
+   "chars": 18,
+   "text": {
+    "ja": "あのさ・・明日　休みが取れたんだけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 116,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 17,
+   "date": "08-14",
+   "slot": "朝",
+   "place": "平岸駅",
+   "voice": "a3769.wav",
+   "chars": 15,
+   "text": {
+    "ja": "二人で　ツーリングに行かない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 116,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 17,
+   "date": "08-14",
+   "slot": "朝",
+   "place": "平岸駅",
+   "voice": "a3769.wav",
+   "chars": 13,
+   "text": {
+    "ja": "私　積丹の海が見たいんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 117,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "うん。いいね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 117,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "明日はちょっと・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 118,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 17,
+   "date": "08-14",
+   "slot": "朝",
+   "place": "平岸駅",
+   "voice": "a3770.wav",
+   "chars": 21,
+   "text": {
+    "ja": "それじゃ　明日の朝　平岸駅に迎えに行くね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 118,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 17,
+   "date": "08-14",
+   "slot": "朝",
+   "place": "平岸駅",
+   "voice": "a3770.wav",
+   "chars": 5,
+   "text": {
+    "ja": "ばいばい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 119,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 17,
+   "date": "08-14",
+   "slot": "朝",
+   "place": "平岸駅",
+   "voice": "a3771.wav",
+   "chars": 16,
+   "text": {
+    "ja": "そっかー。じゃ　しょうがないね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 119,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 17,
+   "date": "08-14",
+   "slot": "朝",
+   "place": "平岸駅",
+   "voice": "a3771.wav",
+   "chars": 18,
+   "text": {
+    "ja": "また電話するよ。それじゃ　ばいばい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 120,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 17,
+   "date": "08-14",
+   "slot": "朝",
+   "place": "平岸駅",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 121,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 17,
+   "date": "08-14",
+   "slot": "朝",
+   "place": "平岸駅",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 122,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 17,
+   "date": "08-14",
+   "slot": "朝",
+   "place": "平岸駅",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 123,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 17,
+   "date": "08-14",
+   "slot": "朝",
+   "place": "平岸駅",
+   "voice": "a3771.wav",
+   "chars": 16,
+   "text": {
+    "ja": "そっかー。じゃ　しょうがないね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 123,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 17,
+   "date": "08-14",
+   "slot": "朝",
+   "place": "平岸駅",
+   "voice": "a3771.wav",
+   "chars": 18,
+   "text": {
+    "ja": "また電話するよ。それじゃ　ばいばい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 124,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 18,
+   "date": "08-14",
+   "slot": "午前",
+   "place": "島武威海岸",
+   "voice": "a3772.wav",
+   "chars": 7,
+   "text": {
+    "ja": "おはよう。&主人公&君。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 125,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 18,
+   "date": "08-14",
+   "slot": "午前",
+   "place": "島武威海岸",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "おはよう。由子さん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 126,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 18,
+   "date": "08-14",
+   "slot": "午前",
+   "place": "島武威海岸",
+   "voice": "a3774.wav",
+   "chars": 12,
+   "text": {
+    "ja": "いいお天気で良かったね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 126,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 18,
+   "date": "08-14",
+   "slot": "午前",
+   "place": "島武威海岸",
+   "voice": "a3774.wav",
+   "chars": 12,
+   "text": {
+    "ja": "それじゃ　後ろに乗って！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 127,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 19,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "キュービック／内部２",
+   "voice": "a3775.wav",
+   "chars": 25,
+   "text": {
+    "ja": "あそこに見える女郎子岩には　@5635@悲しい伝説があるんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 127,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 19,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "キュービック／内部２",
+   "voice": "a3775.wav",
+   "chars": 24,
+   "text": {
+    "ja": "旅立つ恋人を追いかけて　波に飲まれてしまった娘が",
+    "ko": ""
+   }
+  },
+  {
+   "window": 127,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 19,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "キュービック／内部２",
+   "voice": "a3775.wav",
+   "chars": 25,
+   "text": {
+    "ja": "亡くなった後も　岩に化身して沖を見つめてるって・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 128,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 19,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "キュービック／内部２",
+   "voice": "a3776.wav",
+   "chars": 15,
+   "text": {
+    "ja": "そんな風に純粋に恋できるのって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 128,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 19,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "キュービック／内部２",
+   "voice": "a3776.wav",
+   "chars": 19,
+   "text": {
+    "ja": "ちょっと　うらやましい気もするけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 128,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 19,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "キュービック／内部２",
+   "voice": "a3776.wav",
+   "chars": 14,
+   "text": {
+    "ja": "私はそんなに気が長くないわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 129,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 19,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "キュービック／内部２",
+   "voice": "a3777.wav",
+   "chars": 23,
+   "text": {
+    "ja": "ねぇ知ってる？　ここってウニ丼の元祖なんだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 130,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 19,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "キュービック／内部２",
+   "voice": "a3778.wav",
+   "chars": 19,
+   "text": {
+    "ja": "ご飯がこんなにおいしいのは　きっと私が",
+    "ko": ""
+   }
+  },
+  {
+   "window": 130,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 19,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "キュービック／内部２",
+   "voice": "a3778.wav",
+   "chars": 21,
+   "text": {
+    "ja": "失恋のショックから立ち直ってる証拠だよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 131,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 19,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "キュービック／内部２",
+   "voice": "a3779.wav",
+   "chars": 15,
+   "text": {
+    "ja": "ねぇ。またさ・・札幌に来てよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 131,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 19,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "キュービック／内部２",
+   "voice": "a3779.wav",
+   "chars": 14,
+   "text": {
+    "ja": "もう一度　始めてみたいんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 132,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 19,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "キュービック／内部２",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "・・え？　何を？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 133,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 19,
+   "date": "08-12",
+   "slot": "夕方",
+   "place": "キュービック／内部２",
+   "voice": "a3781.wav",
+   "chars": 3,
+   "text": {
+    "ja": "恋愛。",
+    "ko": ""
+   }
+  }
+ ]
+}

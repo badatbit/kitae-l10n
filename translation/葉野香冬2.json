@@ -1,0 +1,7782 @@
+{
+ "script": "葉野香冬2",
+ "source": "ja",
+ "entries": [
+  {
+   "window": 0,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-30",
+   "slot": "朝",
+   "place": "葉野香と札幌デートの場合",
+   "voice": "A2404.WAV",
+   "chars": 4,
+   "text": {
+    "ja": "おはよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 0,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-30",
+   "slot": "朝",
+   "place": "葉野香と札幌デートの場合",
+   "voice": "A2404.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "ちょうど今　来たとこなんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 0,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-30",
+   "slot": "朝",
+   "place": "葉野香と札幌デートの場合",
+   "voice": "A2404.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "それじゃ　そろそろ行こうか！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／紅茶の店アッサム／外観",
+   "voice": "A2523.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "紅茶の店アッサムか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／紅茶の店アッサム／外観",
+   "voice": "A2523.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "&主人公&さん　紅茶　好きなのか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 2,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "うん",
+    "ko": ""
+   }
+  },
+  {
+   "window": 2,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "それほどでも・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 3,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／紅茶の店アッサム／外観",
+   "voice": "A2524.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "じゃ　入るか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 4,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／紅茶の店アッサム／外観",
+   "voice": "A2525.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "それじゃ　別のとこ行こう！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 5,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／紅茶の店アッサム／外観",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 6,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／紅茶の店アッサム／外観",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 7,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 1,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／紅茶の店アッサム／外観",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 8,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／紅茶の店アッサム／外観",
+   "voice": "A2525.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "それじゃ　別のとこ行こう！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 9,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／紅茶の店アッサム／店内",
+   "voice": "A2526.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "紅茶には　ちょっとイヤな思い出があってね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 9,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／紅茶の店アッサム／店内",
+   "voice": "A2526.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "中学の頃・・だったかな・・友達の家に遊びに行って",
+    "ko": ""
+   }
+  },
+  {
+   "window": 9,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／紅茶の店アッサム／店内",
+   "voice": "A2526.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "そこで紅茶を入れてもらったんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 10,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／紅茶の店アッサム／店内",
+   "voice": "A2527.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "で　その友達が２杯目の紅茶を入れるときに",
+    "ko": ""
+   }
+  },
+  {
+   "window": 10,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／紅茶の店アッサム／店内",
+   "voice": "A2527.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "新しいティーバッグを使ったから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 10,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／紅茶の店アッサム／店内",
+   "voice": "A2527.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "もったいないよって言ったら大笑いされたんだ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 11,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／紅茶の店アッサム／店内",
+   "voice": "A2528.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "うちじゃ３杯は余裕で入れるよって言ったら",
+    "ko": ""
+   }
+  },
+  {
+   "window": 11,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／紅茶の店アッサム／店内",
+   "voice": "A2528.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "それ以来『ビンボー』ってあだ名になっちまった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 12,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／紅茶の店アッサム／店内",
+   "voice": "A2529.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "そりゃウチは昔から裕福じゃなかったけどさ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 12,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／紅茶の店アッサム／店内",
+   "voice": "A2529.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "紅茶代に困るほど　貧乏じゃないよ。私も兄貴も",
+    "ko": ""
+   }
+  },
+  {
+   "window": 12,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／紅茶の店アッサム／店内",
+   "voice": "A2529.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "色が付きゃいいやって　考えだっただけさ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 13,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／紅茶の店アッサム／店内",
+   "voice": "A2530.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "今考えたら　紅茶をティーバッグで飲んでる時点で",
+    "ko": ""
+   }
+  },
+  {
+   "window": 13,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／紅茶の店アッサム／店内",
+   "voice": "A2530.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "リッチさは５０歩１００歩じゃないか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 13,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／紅茶の店アッサム／店内",
+   "voice": "A2530.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "何か腹が立って　それ以来　家じゃ緑茶ばかりなんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 14,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "気にすることないよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 14,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "紅茶だけに『苦い思い出』・・だったりして・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 14,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "そんなに貧乏なの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 15,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／紅茶の店アッサム／店内",
+   "voice": "A2531.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "そんなに気にしてるつもりはないし　その子だって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 15,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／紅茶の店アッサム／店内",
+   "voice": "A2531.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "悪気があって笑ったわけじゃないと思うけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 15,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／紅茶の店アッサム／店内",
+   "voice": "A2531.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "なんか　今でも思い出すと腹が立ってね・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 16,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／紅茶の店アッサム／店内",
+   "voice": "A2532.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "@S@・・・・・・・・・・・・・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 16,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／紅茶の店アッサム／店内",
+   "voice": "A2532.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "・・・・・・・@0060@・@P@うまいね。座布団１枚・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 17,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／紅茶の店アッサム／店内",
+   "voice": "A2533.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "だからそんなに貧乏じゃないって！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 17,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／紅茶の店アッサム／店内",
+   "voice": "A2533.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "@0061@まぁ・・店に借金取りが来るところ見られてるし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 17,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／紅茶の店アッサム／店内",
+   "voice": "A2533.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "そう思われても　仕方ないだろうけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 18,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／紅茶の店アッサム／店内",
+   "voice": "A2534.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "でもさ・・例えば家に１００万の借金があるヤツは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 18,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／紅茶の店アッサム／店内",
+   "voice": "A2534.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "だからって１万円単位の金に困ってるわけじゃない。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 19,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／紅茶の店アッサム／店内",
+   "voice": "A2535.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "逆にそういう細かい金にこだわらないから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 19,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／紅茶の店アッサム／店内",
+   "voice": "A2535.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "いつか１００万単位の借金をするようになるんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 20,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／紅茶の店アッサム／店内",
+   "voice": "A2536.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "ウチの場合だって借金の原因は兄貴のギャンブルだし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 20,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／紅茶の店アッサム／店内",
+   "voice": "A2536.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "少なくとも　生活しながらギャンブルをする程度の",
+    "ko": ""
+   }
+  },
+  {
+   "window": 20,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／紅茶の店アッサム／店内",
+   "voice": "A2536.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "余裕はあったってことなんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 21,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／紅茶の店アッサム／店内",
+   "voice": "A2537.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "まぁ・・こういう問題って　バカにされても腹が立つし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 21,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／紅茶の店アッサム／店内",
+   "voice": "A2537.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "同情されるのも　なんか　みじめだから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 21,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／紅茶の店アッサム／店内",
+   "voice": "A2537.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "ほっといてくれるのが一番いいのさ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 22,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／北海道庁",
+   "voice": "A2538.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "ここが北海道庁。知ってるよな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 22,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／北海道庁",
+   "voice": "A2538.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "私　時々思うんだけどさ　何で北海道だけ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 22,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／北海道庁",
+   "voice": "A2538.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "@5120@『道』なんだろうな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 23,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／北海道庁",
+   "voice": "A2539.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "東京が『都』なのは首都だからだろうし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 23,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／北海道庁",
+   "voice": "A2539.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "京都や大阪が『府』なのも　まぁ昔都があったから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 23,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／北海道庁",
+   "voice": "A2539.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "そういう特別扱いも　なんとなく許せるんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 24,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／北海道庁",
+   "voice": "A2540.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "でも北海道が『道』っていうのは　なんか　仲間外れの",
+    "ko": ""
+   }
+  },
+  {
+   "window": 24,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／北海道庁",
+   "voice": "A2540.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "感じがするんだ・・『県』だったら北海県になって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 24,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／北海道庁",
+   "voice": "A2540.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "ウチの店と同じになるのにな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 25,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "店の名前の方を変えたらどう？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 25,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "そんなこと言われたって・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 26,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／北海道庁",
+   "voice": "A2541.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "あっ！　そうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 26,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／北海道庁",
+   "voice": "A2541.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "店の名前を『北海堂』にすれば一緒になるか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 27,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／北海道庁",
+   "voice": "A2542.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "@S@・・・@P@でも一緒にしたからって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 27,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／北海道庁",
+   "voice": "A2542.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "それで繁盛したりするわけないよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 28,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／北海道庁",
+   "voice": "A2543.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "道庁は　まぁ許せるし　道立病院とかもあんまり",
+    "ko": ""
+   }
+  },
+  {
+   "window": 28,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／北海道庁",
+   "voice": "A2543.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "気にならないんだ。でも道の道が『道道』なのは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 28,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／北海道庁",
+   "voice": "A2543.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "ちょっと考え直して欲しい感じだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 29,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／北海道庁",
+   "voice": "A2544.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "@S@・・・@P@何の話だっけ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 29,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／北海道庁",
+   "voice": "A2544.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "まぁいいや　他のとこ　行こう・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 30,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／時計台",
+   "voice": "A2545.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "兄貴の机の上に『野望』って書いてある大学ノートが",
+    "ko": ""
+   }
+  },
+  {
+   "window": 30,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／時計台",
+   "voice": "A2545.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "あってさ・・悪いとは思ったんだけど読んでみたんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 30,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／時計台",
+   "voice": "A2545.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "そしたら　いきなり時計台の絵が書いてあってさ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 31,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／時計台",
+   "voice": "A2546.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "どうも未来の北海軒の完成予想図らしいんだけどさ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 31,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／時計台",
+   "voice": "A2546.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "その絵がすごいへたくそで　見てて大笑いしちゃった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 31,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／時計台",
+   "voice": "A2546.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "時計台の形をしたラーメン屋ってのも安易だよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 32,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／時計台",
+   "voice": "A2547.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "それとその絵の下に書いてあるコピーがふるっててさ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 32,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／時計台",
+   "voice": "A2547.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "『時計台　留根算酢（ルネッサンス）　北の味を求めて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 32,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／時計台",
+   "voice": "A2547.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "今　北海軒は生まれ変わります。』だってさ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 33,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／時計台",
+   "voice": "A2548.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "兄貴がそんな野望持ってるってだけでも笑えるのに",
+    "ko": ""
+   }
+  },
+  {
+   "window": 33,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／時計台",
+   "voice": "A2548.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "『留根算酢』なんて変な当て字して・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 33,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／時計台",
+   "voice": "A2548.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "ほんと勘弁して欲しいよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 34,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "笑っちゃ失礼だよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 34,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "なんか暴走族みたいだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 35,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／時計台",
+   "voice": "A2549.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "でも　絶対趣味悪いよ！　『留根算酢』だよ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 35,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／時計台",
+   "voice": "A2549.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "最後の『酢』は何を意味してるんだ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 35,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／時計台",
+   "voice": "A2549.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "お酢でも入れるつもりなのかよ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 36,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／時計台",
+   "voice": "A2550.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "みたいって言うか　そのまんまなんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 36,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／時計台",
+   "voice": "A2550.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "兄貴って　石狩巣苦乱舞留（スクランブル）っていう",
+    "ko": ""
+   }
+  },
+  {
+   "window": 36,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／時計台",
+   "voice": "A2550.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "暴走族のヘッドだったからね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 37,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／時計台",
+   "voice": "A2551.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "もっと笑えるのは　その時計台の背景に",
+    "ko": ""
+   }
+  },
+  {
+   "window": 37,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／時計台",
+   "voice": "A2551.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "巨大ロボットみたいな絵があって　よく見るとそれが",
+    "ko": ""
+   }
+  },
+  {
+   "window": 37,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／時計台",
+   "voice": "A2551.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "自由の女神のつもりらしいんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 38,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／時計台",
+   "voice": "A2552.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "あいつきっとニューヨークに進出する野望を",
+    "ko": ""
+   }
+  },
+  {
+   "window": 38,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／時計台",
+   "voice": "A2552.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "持ってるんだぜ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 39,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "ニューヨークで『留根算酢』はないかもね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 39,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "すごくいい計画だと思うよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 40,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／時計台",
+   "voice": "A2553.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "だろ？　ちょっと商売が順調になると",
+    "ko": ""
+   }
+  },
+  {
+   "window": 40,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／時計台",
+   "voice": "A2553.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "とたんにへんてこな夢を持つから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 40,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／時計台",
+   "voice": "A2553.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "それで商売　失敗するんだよな。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 41,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／時計台",
+   "voice": "A2554.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "ホントに？　冗談だろ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 41,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／時計台",
+   "voice": "A2554.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "ニューヨークに時計台だよ？　『留根算酢』だよ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 42,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／時計台",
+   "voice": "A2555.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "あいつ　ちょっと商売が順調になると",
+    "ko": ""
+   }
+  },
+  {
+   "window": 42,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／時計台",
+   "voice": "A2555.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "とたんにへんてこな夢を持つから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 42,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／時計台",
+   "voice": "A2555.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "それで商売　失敗するんだよな。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 43,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／時計台",
+   "voice": "A2556.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "確かに夢を持つのは自由だけどさ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 43,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／時計台",
+   "voice": "A2556.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "兄貴に関して言えば　まず　地に足をつけたところで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 43,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／時計台",
+   "voice": "A2556.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "地道にやって欲しいんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 44,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／時計台",
+   "voice": "A2557.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "いい年して　いつまでも夢みたいなこと言ってるから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 44,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／時計台",
+   "voice": "A2557.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "なんか　心配になっちゃってさ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 44,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／時計台",
+   "voice": "A2557.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "・・それじゃ　そろそろ次　行こうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 45,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／須貝ビル／外観",
+   "voice": "A2558.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "須貝ビルか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 45,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／須貝ビル／外観",
+   "voice": "A2558.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "ゲーセンとカラオケ・・どっちにする？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 46,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "それじゃゲーセンに行こうか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 46,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "それじゃカラオケに行こうか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 47,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／須貝ビル／外観",
+   "voice": "A2559.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "ゲーセンか・・まぁ付き合うよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 48,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／須貝ビル／外観",
+   "voice": "A2560.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "カラオケか・・まぁ付き合うよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 49,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／須貝ビル／外観",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 50,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／須貝ビル／外観",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 51,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 5,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／須貝ビル／外観",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "葉野香ちゃんは　どっちが好きなんだろう？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 52,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "ゲーセン",
+    "ko": ""
+   }
+  },
+  {
+   "window": 52,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "カラオケ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 53,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／須貝ビル／外観",
+   "voice": "A2559.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "ゲーセンか・・まぁ付き合うよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 54,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／須貝ビル／外観",
+   "voice": "A2560.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "カラオケか・・まぁ付き合うよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 55,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 6,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "須貝ビル１階のゲームセンターだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 55,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 6,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "ＵＦＯキャッチャー　クイズ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 55,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 6,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "シューティングゲームなどの筐体がある。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 56,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 6,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "さて　何から遊ぼうか・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 57,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "선택지",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "ＵＦＯキャッチャー",
+    "ko": ""
+   }
+  },
+  {
+   "window": 57,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "선택지",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "クイズ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 57,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "선택지",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "シューティングゲーム",
+    "ko": ""
+   }
+  },
+  {
+   "window": 57,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "선택지",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "外に出る",
+    "ko": ""
+   }
+  },
+  {
+   "window": 58,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 7,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／須貝ビル／カラオケ",
+   "voice": "A2573.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "そうだな。行こうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 59,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 7,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／須貝ビル／カラオケ",
+   "voice": "A2573.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "そうだな。行こうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 60,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 7,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／須貝ビル／カラオケ",
+   "voice": "A2573.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "そうだな。行こうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 61,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 7,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／須貝ビル／カラオケ",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "そろそろ　ここ出ようか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 62,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 7,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／須貝ビル／カラオケ",
+   "voice": "A2574.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "そうだな。出ようか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 63,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 7,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／須貝ビル／カラオケ",
+   "voice": "A2573.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "そうだな。行こうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 64,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 9,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ビートルバム／店内",
+   "voice": "A2561.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "ＵＦＯキャッチャー？　なんかガキっぽくないか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 64,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 9,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ビートルバム／店内",
+   "voice": "A2561.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "まぁいいや・・やってみなよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 65,
+   "line": 0,
+   "speaker": "説明",
+   "kind": "나레이션",
+   "scene": 9,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ビートルバム／店内",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "ＵＦＯキャッチャーの操作説明を見ますか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 66,
+   "line": 0,
+   "speaker": "説明",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "はい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 66,
+   "line": 1,
+   "speaker": "説明",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "いいえ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 67,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 9,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ビートルバム／店内",
+   "voice": "A2562.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "ラッキー！　取れた！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 67,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 9,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ビートルバム／店内",
+   "voice": "A2562.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "・・・バカにしてたけど　結構燃えるね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 68,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "scene": 9,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ビートルバム／店内",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "ぱんだジェルをあげますか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 69,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "はい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 69,
+   "line": 1,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "いいえ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 70,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "scene": 9,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ビートルバム／店内",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "えんジェルをあげますか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 71,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "はい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 71,
+   "line": 1,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "いいえ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 72,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "scene": 9,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ビートルバム／店内",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "みみジェルをあげますか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 73,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "はい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 73,
+   "line": 1,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "いいえ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 74,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "scene": 9,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ビートルバム／店内",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "もちジェルをあげますか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 75,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "はい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 75,
+   "line": 1,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "いいえ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 76,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "scene": 9,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ビートルバム／店内",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "うるふジェルをあげますか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 77,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "はい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 77,
+   "line": 1,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "いいえ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 78,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "scene": 9,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ビートルバム／店内",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "でぶジェルをあげますか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 79,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "はい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 79,
+   "line": 1,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "いいえ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 80,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 9,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ビートルバム／店内",
+   "voice": "A2563.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "え？　いいのか・・あ・・ありがとう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 81,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 9,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ビートルバム／店内",
+   "voice": "A2564.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "まぁ・・そう言う風に出来てるのさ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 82,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 9,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ビートルバム／店内",
+   "voice": "A2572.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "次はどうする？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 83,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 9,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ビートルバム／店内",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "さて　どうしようか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 84,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 10,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／サッポロＳＰＡランド",
+   "voice": "A2565.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "クイズゲームか・・・よし！　勝負だ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 85,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 10,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／サッポロＳＰＡランド",
+   "voice": "A2566.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "へへ・・勝ったね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 86,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 10,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／サッポロＳＰＡランド",
+   "voice": "A2567.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "くっ・・負けたか。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 87,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 10,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／サッポロＳＰＡランド",
+   "voice": "A2572.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "次はどうする？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 88,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 10,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／サッポロＳＰＡランド",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "さて　どうしようか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 89,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ママ・サブロッソ／外観",
+   "voice": "A2568.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "シューティング？　結構　面白そうだな。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 89,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ママ・サブロッソ／外観",
+   "voice": "A2568.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "やってみなよ。見てるからさ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 90,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ママ・サブロッソ／外観",
+   "voice": "A2569.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "すごい！　ハイスコアーだ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 91,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ママ・サブロッソ／外観",
+   "voice": "A2570.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "ふぅん　結構　上手いんだな。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 92,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ママ・サブロッソ／外観",
+   "voice": "A2571.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "まぁ・・そんなもんだろうな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 93,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ママ・サブロッソ／外観",
+   "voice": "A2572.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "次はどうする？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 94,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 11,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ママ・サブロッソ／外観",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "さて　どうしようか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 95,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ママ・サブロッソ／内部",
+   "voice": "A2575.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "先に歌っていいよ。何にする？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 96,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 12,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ママ・サブロッソ／内部",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "さて　何を歌おうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 97,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "scene": 12,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ママ・サブロッソ／内部",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "歌う曲目を選んで下さい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 98,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "ＭＯＶＥ　ＯＮ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 98,
+   "line": 1,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "ひこうき雲",
+    "ko": ""
+   }
+  },
+  {
+   "window": 98,
+   "line": 2,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "したっけ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 98,
+   "line": 3,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "わたしまけましたわ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 99,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "scene": 12,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ママ・サブロッソ／内部",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "歌う曲目を選んで下さい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 100,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "ＭＯＶＥ　ＯＮ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 100,
+   "line": 1,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "ひこうき雲",
+    "ko": ""
+   }
+  },
+  {
+   "window": 100,
+   "line": 2,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "したっけ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 101,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ママ・サブロッソ／内部",
+   "voice": "A2576.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "へぇ・・・歌　うまかったんだな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 101,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ママ・サブロッソ／内部",
+   "voice": "A2576.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "点数もでてるし・・・見直したよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 102,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ママ・サブロッソ／内部",
+   "voice": "A2577.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "@S@・・@P@まぁ・・機械の採点だからしょうがないよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 103,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ママ・サブロッソ／内部",
+   "voice": "A2578.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "それじゃ歌おうか・・『札幌ススキノ雨の２５時』・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 104,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ママ・サブロッソ／内部",
+   "voice": "A2579.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "よし！　高得点だ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 105,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ママ・サブロッソ／内部",
+   "voice": "A2580.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "@S@・・@P@たく　機械のクセに人間の歌を評価するなよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 106,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ママ・サブロッソ／内部",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "そろそろ　ここ出ようか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 107,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ママ・サブロッソ／内部",
+   "voice": "A2581.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "そうだな。出ようか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 108,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 13,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／インターミッション１",
+   "voice": "A2582.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "あっ・・この店　夏にも来たな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 108,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 13,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／インターミッション１",
+   "voice": "A2582.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "外歩いて　身体冷えてきたし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 108,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 13,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／インターミッション１",
+   "voice": "A2582.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "ちょっと　寄ってみようか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 109,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／インターミッション２",
+   "voice": "A2583.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "ラーメン屋もさ・・今のウチの店みたいに",
+    "ko": ""
+   }
+  },
+  {
+   "window": 109,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／インターミッション２",
+   "voice": "A2583.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "演歌が似合うインテリアじゃなくって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 109,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／インターミッション２",
+   "voice": "A2583.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "こんな風に　お洒落な感じの店にしたいよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 110,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／インターミッション２",
+   "voice": "A2584.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "今　ラーメン屋って　女一人じゃ　入りにくい感じだし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 110,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／インターミッション２",
+   "voice": "A2584.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "その辺を考えたら　もっと客層が広がるのにな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 111,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "そうかもね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 111,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "葉野香ちゃん商売熱心だよね",
+    "ko": ""
+   }
+  },
+  {
+   "window": 111,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "でもラーメンは男の食い物だよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 112,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／インターミッション２",
+   "voice": "A2585.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "今でも多少は　お洒落なラーメン屋　あるけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 112,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／インターミッション２",
+   "voice": "A2585.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "そう言う店は　たいてい味もそれなりだから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 112,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／インターミッション２",
+   "voice": "A2585.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "おいしくってお洒落な店が出来れば　きっと流行るよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 113,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／インターミッション２",
+   "voice": "A2586.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "@S@・・・@P@ごめん。私　こんな話ばっかりだよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 113,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／インターミッション２",
+   "voice": "A2586.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "ただ　なんだかんだ言っても兄貴のこと　心配なんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 113,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／インターミッション２",
+   "voice": "A2586.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "あんなヤツだけど　たった一人の肉親だからね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 114,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／インターミッション２",
+   "voice": "A2587.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "まぁ　今はそうかもしれないけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 114,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／インターミッション２",
+   "voice": "A2587.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "だからって　ずっとそうだっていう保証はないだろ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 115,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／インターミッション２",
+   "voice": "A2588.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "昔　親父くさいって言われた歩数計だって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 115,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／インターミッション２",
+   "voice": "A2588.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "今じゃ　ＯＬや小学生が付けてる時代だしね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 116,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／インターミッション２",
+   "voice": "A2589.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "まぁ　私は将来　ラーメン屋になるつもりはないから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 116,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／インターミッション２",
+   "voice": "A2589.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "無関係って言えば　無関係なんだけどね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 117,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ステップ１",
+   "voice": "A7421.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "サッポロＳＰＡランドか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 117,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ステップ１",
+   "voice": "A7421.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "・・・あのさ・・ここまで来てさ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 117,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ステップ１",
+   "voice": "A7421.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "こんなこと言うのって　何なんだけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 118,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ステップ１",
+   "voice": "A7422.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "@S@・・@P@実は昨日の夜から始まっちゃってさ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 118,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ステップ１",
+   "voice": "A7422.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "今日はプール　入れないんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 119,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "何が始まったの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 119,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "じゃ別のとこ行こうか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 120,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ステップ１",
+   "voice": "A2592.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "聞かなくたってわかるだろ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 120,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ステップ１",
+   "voice": "A2592.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "『ヤン衆どすこほい祭り』だよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 121,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ステップ１",
+   "voice": "A2593.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "うん。・・悪いね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 122,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ステップ１",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 123,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ステップ１",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 124,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 15,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ステップ１",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 125,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ステップ１",
+   "voice": "A2367.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "@S@・・・・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 125,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ステップ１",
+   "voice": "A2367.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "@P@ったく！　何か喋れよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 126,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 16,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ステップ２",
+   "voice": "A2612.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "ママ・サブロッソ・・イタメシか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 126,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 16,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ステップ２",
+   "voice": "A2612.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "フランス料理はフラメシって言わないのに",
+    "ko": ""
+   }
+  },
+  {
+   "window": 126,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 16,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ステップ２",
+   "voice": "A2612.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "何でイタリアだけ特別なんだろうな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 127,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 16,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ステップ２",
+   "voice": "A2613.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "まぁいいや・・入るか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 128,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ステップ３",
+   "voice": "A2614.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "カルパッチョなんて言うから　何かと思ったら",
+    "ko": ""
+   }
+  },
+  {
+   "window": 128,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ステップ３",
+   "voice": "A2614.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "これって　刺身だよな。それならそうと",
+    "ko": ""
+   }
+  },
+  {
+   "window": 128,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ステップ３",
+   "voice": "A2614.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "『イタリア風刺身』ってメニューに書きゃいいのに・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 129,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "それも一理あるね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 129,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "それじゃピザは『イタリア風お好み焼き』？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 129,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "でもイタリアンレストランだし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 130,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ステップ３",
+   "voice": "A2615.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "うん。これはこれでおいしいけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 130,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ステップ３",
+   "voice": "A2615.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "テーブルにワサビ醤油とか置いてあったら",
+    "ko": ""
+   }
+  },
+  {
+   "window": 130,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ステップ３",
+   "voice": "A2615.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "私　迷わず使うだろうな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 131,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ステップ３",
+   "voice": "A2616.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "無理矢理日本語にしなくたって　ピザはピザでいいよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 131,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ステップ３",
+   "voice": "A2616.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "私の言いたいのは　馴染みの薄いメニューの説明が",
+    "ko": ""
+   }
+  },
+  {
+   "window": 131,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ステップ３",
+   "voice": "A2616.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "なんか　足りないと思うんだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 132,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ステップ３",
+   "voice": "A2617.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "日本のイタリアンレストランで　日本人の作る料理を",
+    "ko": ""
+   }
+  },
+  {
+   "window": 132,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ステップ３",
+   "voice": "A2617.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "日本人が食べるわけだから　無理にイタリアの都合に",
+    "ko": ""
+   }
+  },
+  {
+   "window": 132,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ステップ３",
+   "voice": "A2617.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "合わせる必要はないと思うんだけどね・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 133,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ステップ３",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 134,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ステップ３",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 135,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 17,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ステップ３",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 136,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ステップ３",
+   "voice": "A2366.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "@S@・・・@P@私　何か変なこと言ったか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 136,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-30",
+   "slot": null,
+   "place": "葉野香と札幌デート／ステップ３",
+   "voice": "A2366.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "まぁいいけどさ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 137,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-30",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A2618.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "今日みたいに気温が低い日は",
+    "ko": ""
+   }
+  },
+  {
+   "window": 137,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-30",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A2618.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "雪を踏むたんびに『きゅっきゅっ』って音がするんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 137,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-30",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A2618.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "・・ほら　聞こえるだろ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 138,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-30",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A2619.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "昔はこの音　嫌いだったんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 138,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-30",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A2619.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "・・・なんか　寂しい感じがしてさ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 138,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-30",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A2619.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "でも今日から　好きになれそうな気がするな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 139,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-30",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A2620.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "二人だと　こんなにあったかいんだな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 140,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-31",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "A2621.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "手・・冷たいな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 141,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-31",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "A2622.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "今のウチに　手のサイズ　覚えておいて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 141,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-31",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "A2622.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "次に会った時までに　手袋　編んでおくよ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 142,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-31",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "A2623.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "@S@・・・@P@それとも　また夏になるまで会えないかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 143,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-31",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "A2624.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "@S@・・@P@寂しいなんて言ったら・・負担になるよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 144,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2625.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "北海軒は　おかげ様で順調だよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 144,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2625.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "半ラーメンも　協力してくれる店が増えて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 144,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2625.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "今　横丁スタンプラリーなんて企画も上がってるんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 145,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2626.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "参加している全店のラーメンを食べて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 145,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2626.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "スタンプをもらうっていうイベントなんだけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 145,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2626.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "さすがに全部食べたら　飽きるだろうな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 146,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2627.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "でもさ　半ラーメンは　根本的な解決じゃない。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 146,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2627.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "だから今　材料のひとつひとつを見直して　新しい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 146,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2627.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "北海軒の味を作ろうって　兄貴　張り切ってるよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 147,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2628.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "風祭って金融会社の社長　覚えてる？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 147,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2628.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "後で聞いたんだけど　実はあの社長もウチのラーメンの",
+    "ko": ""
+   }
+  },
+  {
+   "window": 147,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2628.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "ファンなんだってさ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 148,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2629.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "今じゃすっかり　お得意さんだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 148,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2629.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "何やってもうまくいかなかったあの頃に比べたら",
+    "ko": ""
+   }
+  },
+  {
+   "window": 148,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2629.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "今の状態って　信じられないくらいいい感じだよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 149,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2630.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "それで調子に乗って　ニューヨークに出店だなんて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 149,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2630.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "変な野望抱くところが　まぁ　兄貴らしいって言えば",
+    "ko": ""
+   }
+  },
+  {
+   "window": 149,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2630.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "兄貴らしいんだけどさ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 150,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2631.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "ちゃんとお礼　言ってなかった気がするから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 150,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2631.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "もう一回言うね。・・・ありがとう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 151,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "僕の力じゃないよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 151,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "まぁね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 152,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2632.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "うん。兄貴だって頑張ったし　私も私なりに",
+    "ko": ""
+   }
+  },
+  {
+   "window": 152,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2632.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "一生懸命だったつもりだったし・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 152,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2632.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "でも　アイディアをくれたのは　&主人公&さんだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 153,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2633.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "今度また　ウチのラーメン　食べてくれよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 153,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2633.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "チャーシュー　おまけするからさ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 153,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2633.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "兄貴だって　怒らないはずだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 154,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2634.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "そろそろここ　出よっか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 155,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 21,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2635.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "高校を卒業したら　東京の大学に行きたいな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 155,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 21,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2635.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "私　こう見えても成績いいんだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 156,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 21,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2636.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "大学に行って　見つけたいんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 156,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 21,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2636.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "自分が何になりたいのか？　何が好きなのか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 157,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 21,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2637.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "こないだまで兄貴に振り回されっぱなしで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 157,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 21,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2637.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "そんなこと　考えてもいなかったから　今度は",
+    "ko": ""
+   }
+  },
+  {
+   "window": 157,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 21,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2637.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "自分自身のこと　じっくり見つめ直したいんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 158,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 21,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2638.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "金のことなら心配するなって　兄貴も言ってたし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 158,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 21,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2638.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "いざとなったら奨学金だってあるしね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 159,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 21,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2639.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "東京の大学　受かったら　いつでも会えるよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 159,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 21,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2639.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "そういうのって　迷惑・・・かな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 160,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "大歓迎だよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 160,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "そんなこと・・ないよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 161,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 21,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2640.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "うん。それじゃ私　もっと勉強するよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 162,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 21,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2641.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "まぁ・・まだ先のことなんだし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 162,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 21,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2641.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "本当に受かるかどうかなんて　わかんないけどね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 163,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 21,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 164,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 21,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 165,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 21,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 166,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 21,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2367.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "@S@・・・・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 166,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 21,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2367.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "@P@ったく！　何か喋れよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 167,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 21,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2642.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "そろそろここ　出よっか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 168,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 22,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／滝上公園",
+   "voice": "A2643.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "学校の奴ら見てるとさ　私　なんか気味悪いんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 169,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 22,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／滝上公園",
+   "voice": "A2644.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "例えば　ルーズソックスが流行ったら　みんなが",
+    "ko": ""
+   }
+  },
+  {
+   "window": 169,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 22,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／滝上公園",
+   "voice": "A2644.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "一緒になって履きたがる。言葉なんかも　わざわざ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 169,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 22,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／滝上公園",
+   "voice": "A2644.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "言い直してでも流行の喋り方にしてる・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 170,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 22,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／滝上公園",
+   "voice": "A2645.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "なんか『テレビに出てくる女子高生』に成りきろう",
+    "ko": ""
+   }
+  },
+  {
+   "window": 170,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 22,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／滝上公園",
+   "voice": "A2645.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "として　必死になってるような感じ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 171,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 22,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／滝上公園",
+   "voice": "A2646.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "でも　そのくせ　『女子高生って言葉で私たちを",
+    "ko": ""
+   }
+  },
+  {
+   "window": 171,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 22,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／滝上公園",
+   "voice": "A2646.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "ひとくくりにしないで欲しい』とか言ってるし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 171,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 22,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／滝上公園",
+   "voice": "A2646.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "ああいうのって　何なんだろうね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 172,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 22,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／滝上公園",
+   "voice": "A2647.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "まぁ　私の場合　兄貴が『伝説の不良』だったから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 172,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 22,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／滝上公園",
+   "voice": "A2647.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "そう言う奴らとは　縁がなかったけどね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 173,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 22,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／滝上公園",
+   "voice": "A2648.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "世間話してる連中も　私が教室に入ると",
+    "ko": ""
+   }
+  },
+  {
+   "window": 173,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 22,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／滝上公園",
+   "voice": "A2648.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "ぴたっと静かになったりしてさ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 174,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 22,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／滝上公園",
+   "voice": "A2649.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "それで開き直って　わざと不良っぽくしてた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 174,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 22,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／滝上公園",
+   "voice": "A2649.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "何言っても　どうせわかって貰えないって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 174,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 22,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／滝上公園",
+   "voice": "A2649.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "そう思ってたからさ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 175,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 22,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／滝上公園",
+   "voice": "A2650.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "でも　&主人公&さんは違ってた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 175,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 22,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／滝上公園",
+   "voice": "A2650.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "&主人公&さんと会ってると　意地はってる自分が",
+    "ko": ""
+   }
+  },
+  {
+   "window": 175,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 22,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／滝上公園",
+   "voice": "A2650.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "なんだか　バカらしく思えてきてさ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 176,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 22,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／滝上公園",
+   "voice": "A2651.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "だから　もっと素直になりたいって思った。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 176,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 22,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／滝上公園",
+   "voice": "A2651.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "でも　一度曲がった根性は　なかなか直らなくてさ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 177,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 22,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／滝上公園",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "それで　&主人公&さんに変な態度",
+    "ko": ""
+   }
+  },
+  {
+   "window": 177,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 22,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／滝上公園",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "たくさん　取っちゃったかもしれないね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 178,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 22,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／滝上公園",
+   "voice": "A2652.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "それで　&主人公&さんに変な態度",
+    "ko": ""
+   }
+  },
+  {
+   "window": 178,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 22,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／滝上公園",
+   "voice": "A2652.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "たくさん　取っちゃったかもしれないね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 179,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "僕は葉野香ちゃんが好きだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 179,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "葉野香ちゃん僕のことどう思ってる？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 179,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "そろそろ帰ろうか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 180,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 22,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／滝上公園",
+   "voice": "A2653.WAV",
+   "chars": 5,
+   "text": {
+    "ja": "@S@・・・@P@え？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 181,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 22,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／滝上公園",
+   "voice": "A2654.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "@S@・・・@P@急に言われたから　びっくりした・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 181,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 22,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／滝上公園",
+   "voice": "A2654.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "私の気持ちは・・・どうなんだろう？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 182,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 22,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／滝上公園",
+   "voice": "A2655.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "自分の気持ちのくせに　よくわからないんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 182,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 22,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／滝上公園",
+   "voice": "A2655.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "好きなのか・・それとも好意を持ってるだけなのか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 182,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 22,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／滝上公園",
+   "voice": "A2655.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "ちゃんとわかるまで　返事は待って欲しいんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 183,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 22,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／滝上公園",
+   "voice": "A2656.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "そろそろ帰るか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 184,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 22,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／滝上公園",
+   "voice": "A2657.WAV",
+   "chars": 5,
+   "text": {
+    "ja": "@S@・・・@P@え？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 185,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 22,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／滝上公園",
+   "voice": "A2658.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "@S@・・・@P@急に言われたから　びっくりした・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 185,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 22,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／滝上公園",
+   "voice": "A2658.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "私の気持ちは・・・どうなんだろう？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 186,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 22,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／滝上公園",
+   "voice": "A2659.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "自分の気持ちのクセに　よくわからないんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 186,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 22,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／滝上公園",
+   "voice": "A2659.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "好きなのか・・それとも好意を持ってるだけなのか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 186,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 22,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／滝上公園",
+   "voice": "A2659.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "ちゃんとわかるまで　返事は待って欲しいんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 187,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 22,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／滝上公園",
+   "voice": "A2660.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "そろそろ帰るか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 188,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 22,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／滝上公園",
+   "voice": "A2661.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "うん。そうだな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 189,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 22,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／滝上公園",
+   "voice": "A2662.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "離れてる間　すごく辛かった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 189,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 22,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／滝上公園",
+   "voice": "A2662.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "いつも&主人公&さんのこと　考えてた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 189,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 22,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／滝上公園",
+   "voice": "A2662.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "それで私　気付いたんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 190,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 22,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／滝上公園",
+   "voice": "A2663.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "私はあなたが好き。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 191,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 22,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／滝上公園",
+   "voice": "A2664.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "こんな気持ちになったの　初めてだから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 191,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 22,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／滝上公園",
+   "voice": "A2664.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "どうしたらいいのか　わからなくて・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 192,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 22,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／滝上公園",
+   "voice": "A2665.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "それで&主人公&さんに　変なことたくさん",
+    "ko": ""
+   }
+  },
+  {
+   "window": 192,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 22,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／滝上公園",
+   "voice": "A2665.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "言っちゃったかもしれない・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 193,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 22,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／滝上公園",
+   "voice": "A2666.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "でもそれは　言いたくても言えなかった一言を",
+    "ko": ""
+   }
+  },
+  {
+   "window": 193,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 22,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／滝上公園",
+   "voice": "A2666.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "ずっと　我慢してたから・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 194,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 22,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／滝上公園",
+   "voice": "a2667.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "私はあなたが好き。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 195,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 22,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／滝上公園",
+   "voice": "A2668.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "ずっと素直になれなかったけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 195,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 22,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／滝上公園",
+   "voice": "A2668.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "今なら自分の気持ちに　正直になれる。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 195,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 22,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／滝上公園",
+   "voice": "A2668.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "理屈なんか抜きで　あなたのこと大好き。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 196,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 22,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／滝上公園",
+   "voice": "A2669.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "そろそろ帰るか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 197,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 23,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／大通公園",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "気が付くと外はすっかり暗くなっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 197,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 23,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／大通公園",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "・・楽しい時間は　あっという間に過ぎてゆく・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 198,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 23,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／大通公園",
+   "voice": "A2510.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "@S@・・・@P@寒くなってきたな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 198,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 23,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／大通公園",
+   "voice": "A2510.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "そろそろ帰るか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 199,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 23,
+   "date": null,
+   "slot": null,
+   "place": "葉野香／大通公園",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "・・うん。そうだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 200,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 24,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "よし！　まずは電話してみよう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 200,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 24,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "結果はどうあれ　ここで勇気を出さなくちゃ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 200,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 24,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "僕はずっと　『旅行者』のままなんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 201,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A2684.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "はい。左京です。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 202,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "もしもし。&主人公名前&です。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 203,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 24,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "僕は葉野香ちゃんを　イルミネーション・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 203,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 24,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "カウントダウンに誘った。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 204,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A2687.WAV",
+   "chars": 6,
+   "text": {
+    "ja": "・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 205,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "結論はすぐに出さなくていいよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 205,
+   "line": 1,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "今晩１１時半に　テレビ塔の前にいるから・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 205,
+   "line": 2,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "よかったら　来て欲しいんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 206,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A2689.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "@S@・・・@P@うん。わかった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 206,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A2689.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "考えてみるよ。それじゃ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 207,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 24,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "葉野香ちゃん・・来てくれるかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 208,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 25,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ＵＦＯキャッチャー前",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "午後１１時１５分・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 208,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 25,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ＵＦＯキャッチャー前",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "待ち合わせの時間まで　あと１５分ある。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 208,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 25,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ＵＦＯキャッチャー前",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "僕は一人で　会場を回ってみることにした。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 209,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 25,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ＵＦＯキャッチャー前",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "・・・この街に来て・・僕は　いろんな人と出会った。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 209,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 25,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ＵＦＯキャッチャー前",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "日常から離れ　いろんなことを経験した。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 210,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 25,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ＵＦＯキャッチャー前",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "でも考えたら　札幌に住んでいる人にとっては",
+    "ko": ""
+   }
+  },
+  {
+   "window": 210,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 25,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ＵＦＯキャッチャー前",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "こっちの生活こそが日常なんだ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 211,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 25,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ＵＦＯキャッチャー前",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "日常と非日常・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 211,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 25,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ＵＦＯキャッチャー前",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "本当は　そんな境目なんて　ないのかもしれない。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 212,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 25,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ＵＦＯキャッチャー前",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "僕は葉野香ちゃんが好きだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 212,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 25,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ＵＦＯキャッチャー前",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "その気持ちだけで　僕は退屈な日常の壁を超えられる。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 213,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 25,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ＵＦＯキャッチャー前",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "午後１１時３０分・・待ち合わせの時間だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 213,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 25,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ＵＦＯキャッチャー前",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "葉野香ちゃん・・来てくれるかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 214,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 25,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ＵＦＯキャッチャー前",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "午後１１時４０分・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 214,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 25,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ＵＦＯキャッチャー前",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "葉野香ちゃん・・・遅いな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 215,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 25,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ＵＦＯキャッチャー前",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "午後１１時５０分・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 215,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 25,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ＵＦＯキャッチャー前",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "葉野香ちゃん・・・どうしたんだろう？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 216,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 25,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ＵＦＯキャッチャー前",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "午後１１時５５分・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 216,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 25,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ＵＦＯキャッチャー前",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "やっぱり葉野香ちゃん・・・来ないのかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 217,
+   "line": 0,
+   "speaker": "アナウンサー",
+   "kind": "대사",
+   "scene": 25,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ＵＦＯキャッチャー前",
+   "voice": "a7338.wav",
+   "chars": 19,
+   "text": {
+    "ja": "さぁ！　いよいよ今年最後の大イベント！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 217,
+   "line": 1,
+   "speaker": "アナウンサー",
+   "kind": "대사",
+   "scene": 25,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ＵＦＯキャッチャー前",
+   "voice": "a7338.wav",
+   "chars": 23,
+   "text": {
+    "ja": "イルミネーション・カウントダウンが始まります。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 217,
+   "line": 2,
+   "speaker": "アナウンサー",
+   "kind": "대사",
+   "scene": 25,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ＵＦＯキャッチャー前",
+   "voice": "a7338.wav",
+   "chars": 15,
+   "text": {
+    "ja": "みなさん！　準備はいいですか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 218,
+   "line": 0,
+   "speaker": "アナウンサー",
+   "kind": "대사",
+   "scene": 25,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ＵＦＯキャッチャー前",
+   "voice": "a7339.wav",
+   "chars": 21,
+   "text": {
+    "ja": "画面正面にあるディスプレイにご注目下さい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 219,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 25,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ＵＦＯキャッチャー前",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "・・・葉野香ちゃん・・やっぱり来ないのか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 220,
+   "line": 0,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 25,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ＵＦＯキャッチャー前",
+   "voice": "A7356.WAV",
+   "chars": 3,
+   "text": {
+    "ja": "１０@4529@！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 220,
+   "line": 1,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 25,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ＵＦＯキャッチャー前",
+   "voice": "A7356.WAV",
+   "chars": 2,
+   "text": {
+    "ja": "９@4528@！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 220,
+   "line": 2,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 25,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ＵＦＯキャッチャー前",
+   "voice": "A7356.WAV",
+   "chars": 2,
+   "text": {
+    "ja": "８！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 221,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 25,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ＵＦＯキャッチャー前",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "まだ間に合うよ！　・・・葉野香ちゃん・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 222,
+   "line": 0,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 25,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ＵＦＯキャッチャー前",
+   "voice": "A7357.WAV",
+   "chars": 2,
+   "text": {
+    "ja": "７@4526@！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 222,
+   "line": 1,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 25,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ＵＦＯキャッチャー前",
+   "voice": "A7357.WAV",
+   "chars": 2,
+   "text": {
+    "ja": "６@4525@！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 222,
+   "line": 2,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 25,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ＵＦＯキャッチャー前",
+   "voice": "A7357.WAV",
+   "chars": 2,
+   "text": {
+    "ja": "５！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 223,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 25,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ＵＦＯキャッチャー前",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "ああ！　ダメだ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 224,
+   "line": 0,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 25,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ＵＦＯキャッチャー前",
+   "voice": "A7358.WAV",
+   "chars": 2,
+   "text": {
+    "ja": "４@4523@！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 224,
+   "line": 1,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 25,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ＵＦＯキャッチャー前",
+   "voice": "A7358.WAV",
+   "chars": 2,
+   "text": {
+    "ja": "３@4522@！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 224,
+   "line": 2,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 25,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ＵＦＯキャッチャー前",
+   "voice": "A7358.WAV",
+   "chars": 2,
+   "text": {
+    "ja": "２！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 225,
+   "line": 0,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 25,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ＵＦＯキャッチャー前",
+   "voice": "A7359.WAV",
+   "chars": 2,
+   "text": {
+    "ja": "１@4520@！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 225,
+   "line": 1,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 25,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ＵＦＯキャッチャー前",
+   "voice": "A7359.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "ハッピー・ニューイヤー！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 226,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 25,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ＵＦＯキャッチャー前",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "葉野香ちゃん・・・やっぱり来なかったんだな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 226,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 25,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ＵＦＯキャッチャー前",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "でもいいさ・・僕はこの街で　たくさんの思い出を",
+    "ko": ""
+   }
+  },
+  {
+   "window": 226,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 25,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ＵＦＯキャッチャー前",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "作ることが出来た。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 227,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 25,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ＵＦＯキャッチャー前",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "いつかまた・・訪ねてみよう・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 228,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 25,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ＵＦＯキャッチャー前",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "・・・北へ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 229,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 25,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ＵＦＯキャッチャー前",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "午後１１時４０分・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 229,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 25,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ＵＦＯキャッチャー前",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "葉野香ちゃん・・・遅いな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 230,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 26,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "・・・・！！　あっ！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 231,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "A2714.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "@S@・・・@P@よ・・よう！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 232,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "・・・葉野香ちゃん・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 233,
+   "line": 0,
+   "speaker": "アナウンサー",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "a7354.wav",
+   "chars": 19,
+   "text": {
+    "ja": "さぁ！　いよいよ今年最後の大イベント！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 233,
+   "line": 1,
+   "speaker": "アナウンサー",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "a7354.wav",
+   "chars": 23,
+   "text": {
+    "ja": "イルミネーション・カウントダウンが始まります。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 233,
+   "line": 2,
+   "speaker": "アナウンサー",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "a7354.wav",
+   "chars": 15,
+   "text": {
+    "ja": "みなさん！　準備はいいですか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 234,
+   "line": 0,
+   "speaker": "アナウンサー",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "a7355.wav",
+   "chars": 21,
+   "text": {
+    "ja": "画面正面にあるディスプレイにご注目下さい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 235,
+   "line": 0,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "a7356.wav",
+   "chars": 3,
+   "text": {
+    "ja": "１０@4629@！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 235,
+   "line": 1,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "a7356.wav",
+   "chars": 2,
+   "text": {
+    "ja": "９@4628@！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 235,
+   "line": 2,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "a7356.wav",
+   "chars": 2,
+   "text": {
+    "ja": "８！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 236,
+   "line": 0,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "a7357.wav",
+   "chars": 2,
+   "text": {
+    "ja": "７！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 236,
+   "line": 1,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "a7357.wav",
+   "chars": 2,
+   "text": {
+    "ja": "６！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 236,
+   "line": 2,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "a7357.wav",
+   "chars": 2,
+   "text": {
+    "ja": "５！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 237,
+   "line": 0,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "a7358.wav",
+   "chars": 2,
+   "text": {
+    "ja": "４！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 237,
+   "line": 1,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "a7358.wav",
+   "chars": 2,
+   "text": {
+    "ja": "３！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 237,
+   "line": 2,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "a7358.wav",
+   "chars": 2,
+   "text": {
+    "ja": "２！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 238,
+   "line": 0,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "a7359.wav",
+   "chars": 2,
+   "text": {
+    "ja": "１@4620@！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 238,
+   "line": 1,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "a7359.wav",
+   "chars": 13,
+   "text": {
+    "ja": "ハッピー・ニューイヤー！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 239,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 26,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "・・・新しい年が始まる・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 239,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 26,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "そして　僕ら二人の　新しい人生が始まる・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 240,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 26,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "ハッピー・ニューイヤー！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 241,
+   "line": 0,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "a7362.wav",
+   "chars": 2,
+   "text": {
+    "ja": "１@4720@！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 241,
+   "line": 1,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "a7362.wav",
+   "chars": 16,
+   "text": {
+    "ja": "ハッピー・ニューセンチュリー！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 242,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 26,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "・・・２１世紀が始まる・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 242,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 26,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "そして　僕ら二人の　新しい人生が始まる・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 243,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 26,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "ハッピー・ニューセンチュリー！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 244,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 28,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場２",
+   "voice": "A2727.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "春になると　こんなに綺麗な花が咲くんだな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 244,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 28,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場２",
+   "voice": "A2727.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "ずっと・・気付かなかったよ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 244,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 28,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場２",
+   "voice": "A2727.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "こんな近くに　こんな場所があるなんて・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 245,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 28,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場２",
+   "voice": "A2728.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "私さ・・なんか・・もっと・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 245,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 28,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場２",
+   "voice": "A2728.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "素直になれそうな気がするよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 246,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 28,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場２",
+   "voice": "A2729.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "・・あのさ・・もっといろんな場所の",
+    "ko": ""
+   }
+  },
+  {
+   "window": 246,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 28,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場２",
+   "voice": "A2729.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "いろんな春を見てみようよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 246,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 28,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場２",
+   "voice": "A2729.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "一緒に・・二人でさ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 247,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場／葉野香",
+   "voice": "A2730.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "大通公園は・・思い出の場所だよな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 247,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場／葉野香",
+   "voice": "A2730.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "春になると　ライラックが咲くのか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 247,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場／葉野香",
+   "voice": "A2730.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "ちゃんと見たのって　初めてかもしれないな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 248,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場／葉野香",
+   "voice": "A2731.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "あのさ・・ライラックの花言葉って知ってる？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 248,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場／葉野香",
+   "voice": "A2731.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "・・・ライラックの花言葉は・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 249,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場／葉野香",
+   "voice": "A2732.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "@S@・・@P@初恋の味・・だってさ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 249,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場／葉野香",
+   "voice": "A2732.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "あっ！　バカ！　何赤くなってんだよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 249,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場／葉野香",
+   "voice": "A2732.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "こっちまで照れるだろ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 250,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場／葉野香",
+   "voice": "A2733.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "@S@・・@P@キスの味は・・焼きトウモロコシの味・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 250,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場／葉野香",
+   "voice": "A2733.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "・・・・うふふ・・うそだよ。",
+    "ko": ""
+   }
+  }
+ ]
+}

@@ -1,0 +1,7942 @@
+{
+ "script": "めぐみ冬1",
+ "source": "ja",
+ "entries": [
+  {
+   "window": 0,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "今回の旅には　ひとつの目的があった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 0,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "@5059@札幌は今　ホワイト・イルミネーションの",
+    "ko": ""
+   }
+  },
+  {
+   "window": 0,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "真っ最中だ。そして・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 0,
+   "speaker": "文字",
+   "kind": "나레이션",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "@5050@大晦日の夜・・　　　　　　　　　　",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 1,
+   "speaker": "文字",
+   "kind": "나레이션",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "@5051@イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 2,
+   "speaker": "文字",
+   "kind": "나레이션",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "@5052@年越しのＫｉｓｓをした恋人たちは　",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 3,
+   "speaker": "文字",
+   "kind": "나레이션",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "@5053@永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 2,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "こういう伝説は　恐らくあちこちにあるものだろう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 2,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "伝説の通り　幸せになったカップルもいるだろうし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 2,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "きっと　そうならなかったカップルもいるだろう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 3,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "でも僕は信じてみたかった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 3,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "大好きな女の子と離れて暮らしていて・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 4,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "だからこそ　信じられる何かが",
+    "ko": ""
+   }
+  },
+  {
+   "window": 4,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "欲しかったのかもしれない。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 5,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "A5917.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "ひさしぶり！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 5,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "A5917.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "・・会いたかったんだよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 6,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "A5918.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "ねぇ・・私　ちょっとだけ　大きくなったと思わない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 7,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "僕は・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 8,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "めぐみの背丈を見る",
+    "ko": ""
+   }
+  },
+  {
+   "window": 8,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "めぐみの顔を見る",
+    "ko": ""
+   }
+  },
+  {
+   "window": 8,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "めぐみの胸を見る",
+    "ko": ""
+   }
+  },
+  {
+   "window": 9,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "A5920.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "あれから２センチ！　身長が伸びたんだ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 9,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "A5920.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "まだまだチビだけど　私にとっては",
+    "ko": ""
+   }
+  },
+  {
+   "window": 9,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "A5920.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "すっごく大きな２センチなんだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 10,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "A5921.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "@S@・・@P@顔は大きくなってないよ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 10,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "A5921.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "&主人公&さんって　変な人・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 11,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "A5922.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "@S@・・・@P@やだ！　どこ見てるのよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 11,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "A5922.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "胸は・・あんまり大きくなってないよ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 12,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "A5923.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "ねぇ。そろそろ電車に乗ろ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 13,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A5924.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "あのね。里沙ちゃんの写真　見てくれる？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 14,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A5925.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "赤ちゃんって　本当に可愛いよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 14,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A5925.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "ごきげんな時の笑顔とか　泣いてるときの涙とか",
+    "ko": ""
+   }
+  },
+  {
+   "window": 14,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A5925.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "ちっちゃい手とか足とか　もう全部可愛いの・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 15,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A5926.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "この子がだんだん　はいはい出来るようになったり",
+    "ko": ""
+   }
+  },
+  {
+   "window": 15,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A5926.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "喋るようになったり　そんな風に成長していくのが",
+    "ko": ""
+   }
+  },
+  {
+   "window": 15,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A5926.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "私　今からすっごく楽しみなんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 16,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A5927.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "@S@・・@P@何か信じられないよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 16,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A5927.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "私だって　&主人公&さんだって　こんなに可愛くて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 16,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A5927.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "ちっちゃくて　無防備な時代があったんだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 17,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "めぐみちゃんは今でも可愛いよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 17,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "育ててくれた親に感謝しないとね",
+    "ko": ""
+   }
+  },
+  {
+   "window": 18,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A5928.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "@S@・・・@P@それって　誉めてくれてるんだよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 18,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A5928.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "子供っぽいっていう意味じゃないよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 19,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A5929.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "だとしたら・・すっごく　うれしいな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 20,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A5930.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "うん。ひとつの命が生まれて　一人前に育ってくことの",
+    "ko": ""
+   }
+  },
+  {
+   "window": 20,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A5930.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "大切さと大変さを考えたら　大きくなったって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 20,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A5930.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "親には絶対逆らえない感じだよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 21,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A5931.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "あのね　お父さんから聞いたんだけど　里沙って名前は",
+    "ko": ""
+   }
+  },
+  {
+   "window": 21,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A5931.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "実は昔のコンピューターから取ったんだって・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 21,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A5931.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "なんかお父さんらしいよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 22,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A5932.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "でもこれからは国際化社会だから　外人さんにも",
+    "ko": ""
+   }
+  },
+  {
+   "window": 22,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A5932.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "発音しやすい名前がいいよね。リサって言う名前は",
+    "ko": ""
+   }
+  },
+  {
+   "window": 22,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A5932.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "アメリカ人にも多いって言うし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 23,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A5933.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "めぐみだって　メグって略したらメグ・ライアンとか",
+    "ko": ""
+   }
+  },
+  {
+   "window": 23,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A5933.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "外人の女優さんみたいだし　お父さんもそう言うことを",
+    "ko": ""
+   }
+  },
+  {
+   "window": 23,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A5933.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "考えて名前付けてくれたらしいんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 24,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "列車内",
+   "voice": "A5934.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "あっ！　そろそろ駅に着くよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 25,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "A5935.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "ローズヒルはこっちだよ。行こ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 26,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "え？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 27,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "A5937.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "えへへ・・実は私も昨日から",
+    "ko": ""
+   }
+  },
+  {
+   "window": 27,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "A5937.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "春野さんのお家に　泊まってるんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 27,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "A5937.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "陽子おばさんも面白い人だし　琴梨さんも綺麗だよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 28,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "A5938.WAV",
+   "chars": 5,
+   "text": {
+    "ja": "ねぇ&主人公&さん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 28,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "A5938.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "琴梨さんのこと　どう思ってるの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 29,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "妹みたいなもんだよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 29,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "実は・・・好きなんだ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 29,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "めぐみちゃんの方がずっと綺麗だよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 30,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "A5939.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "ふぅん・・そうなんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 30,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "A5939.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "でも　琴梨さんは　どう思ってるのかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 31,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "A5940.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "琴梨さん　彼氏いないって言ってたし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 31,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "A5940.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "ひょっとしたら　&主人公&さんのこと",
+    "ko": ""
+   }
+  },
+  {
+   "window": 31,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "A5940.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "好きなんじゃないかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 32,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "A5941.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "ちゃんと聞いた訳じゃないし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 32,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "A5941.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "ただ　なんとなく思っただけなんだけどね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 33,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "A5942.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "え？　・・・あ・・・そうなんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 33,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "A5942.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "だったら私となんか付き合ってないで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 33,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "A5942.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "明日　琴梨さんを誘ってみたらいいよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 34,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "A5943.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "琴梨さん　彼氏いないって言ってたし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 34,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "A5943.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "ひょっとしたら　琴梨さんも&主人公&さんのこと",
+    "ko": ""
+   }
+  },
+  {
+   "window": 34,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "A5943.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "好きなんじゃないかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 35,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "A5944.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "私　二人とも大好きだから　二人が幸せになれたら",
+    "ko": ""
+   }
+  },
+  {
+   "window": 35,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "A5944.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "きっと　私も幸せな気分になると思うんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 36,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "A5945.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "え？　・・・あ・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 36,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "A5945.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "急に言われたから　びっくりしちゃった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 36,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "A5945.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "@0065@・・・うそだとしても　うれしいよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 37,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 38,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 39,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 40,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "A5910.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "@S@・・・@P@ごめん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 40,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "A5910.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "私　変なこと言っちゃったかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 41,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 42,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 3,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／外観",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "ローズヒル南平岸・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 42,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 3,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／外観",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "今回もここにお世話になる予定でいる。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 42,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 3,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／外観",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "琴梨ちゃんと陽子おばさん　元気かな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 43,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "A5947.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "ただいま@5210@戻りましたぁ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 44,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "A5948.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "ああ！　めぐみちゃん。お帰り。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 44,
+   "line": 1,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "A5948.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "&名前&君も　良く来たね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 45,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "A5949.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "お兄ちゃんひさしぶり！　元気だった？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 46,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "うん。琴梨ちゃんも元気そうだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 47,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "A5951.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "元気元気！　外　寒かったでしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 47,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "A5951.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "私　お茶入れてくるね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 48,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "ぜひ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 48,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "遠慮するよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 49,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "あ・・！　飛行機の中で飲んできたし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 49,
+   "line": 1,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "部屋でちょっと　考えたいことがあるから遠慮するよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 50,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "そう言って　僕は部屋に戻った。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 51,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "琴梨ちゃんはキッチンに行き　お茶の用意を始めた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 52,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "A5952.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "さぁ！　遠慮しないでゆっくりしてっておくれ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 52,
+   "line": 1,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "A5952.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "賑やかなのは大歓迎だよ。・・なんか子供が急に",
+    "ko": ""
+   }
+  },
+  {
+   "window": 52,
+   "line": 2,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "A5952.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "二人増えたみたいで　こういうのもいいもんだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 53,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "A5953.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "そう言えば『料理の下手人』",
+    "ko": ""
+   }
+  },
+  {
+   "window": 53,
+   "line": 1,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "A5953.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "おかげさまであれから大好評でさ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 53,
+   "line": 2,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "A5953.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "この間　２時間スペシャルをやったんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 54,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "A5954.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "あんまり食べ物を粗末にしちゃいけないと思ったから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 54,
+   "line": 1,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "A5954.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "まずい料理を味わった後に　それをプロの料理人が",
+    "ko": ""
+   }
+  },
+  {
+   "window": 54,
+   "line": 2,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "A5954.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "それなりの味に戻すって言うコーナーも作ったんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 55,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "A5955.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "そしたらそれがまた奥さん連中に好評でさ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 55,
+   "line": 1,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "A5955.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "失敗した料理をごまかすテクニックが学べるとか言って",
+    "ko": ""
+   }
+  },
+  {
+   "window": 55,
+   "line": 2,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "A5955.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "名物コーナーになっちゃったんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 56,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "A5956.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "まったく　今の世の中　何が受けるか",
+    "ko": ""
+   }
+  },
+  {
+   "window": 56,
+   "line": 1,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "A5956.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "わかったもんじゃないね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 57,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A5957.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "お待たせ。@5211@今日はチャイをいれてみたんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 58,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A5958.WAV",
+   "chars": 4,
+   "text": {
+    "ja": "チャイ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 59,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A5959.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "うん。チャイはインドのミルクティーなんだ。英国風の",
+    "ko": ""
+   }
+  },
+  {
+   "window": 59,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A5959.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "ミルクティーは　紅茶をたてた後にミルクを入れるけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 59,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A5959.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "チャイはミルクと葉っぱを一緒に煮込むの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 60,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A5960.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "ふぅん・・琴梨さんって　何でも詳しいんだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 61,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A5961.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "料理に関してだけだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 61,
+   "line": 1,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A5961.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "その他のことは　全然ダメなんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 62,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A5962.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "でも私　昨日　琴梨さんに数学の宿題を",
+    "ko": ""
+   }
+  },
+  {
+   "window": 62,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A5962.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "教えてもらったんですよ。琴梨さん　難しい問題も",
+    "ko": ""
+   }
+  },
+  {
+   "window": 62,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A5962.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "すいすい解いちゃうから　びっくりしちゃった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 63,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A5963.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "うふふ・・私めぐみちゃん大好き。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 64,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A5964.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "中学生の宿題なら　すいすい解けるのが普通だろ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 65,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A5965.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "あーん！　お母さんがいじめるよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 66,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A5966.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "いくら勉強が出来たって　性格がゆがんでたらダメさ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 66,
+   "line": 1,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A5966.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "その点　琴梨は素直だから　母さんはそれだけで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 66,
+   "line": 2,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A5966.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "満足してるんだよ。あんたは私の自慢の娘さ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 67,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A5967.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "なんか　取って付けたような誉め方してない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 68,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A5968.WAV",
+   "chars": 4,
+   "text": {
+    "ja": "ばれた？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 69,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A5969.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "うふふ・・もういいよ。それより紅茶　飲んでみて。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 70,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A5970.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "あっ！　おいしい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 71,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A5971.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "うん。結構いけるね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 72,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "僕はチャイを飲んでみた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 72,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "・・・・！　うまい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 73,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "普通のミルクティーより　ずっとコクがあって味も",
+    "ko": ""
+   }
+  },
+  {
+   "window": 73,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "まろやかだ。ミルクの香りの中に　紅茶本来の香りが",
+    "ko": ""
+   }
+  },
+  {
+   "window": 73,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "しっかりと立っている。後味も爽やかな感じだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 74,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A5974.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "煮るときに鉄のお鍋を使わないのがコツなんだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 74,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A5974.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "鉄を使うとお茶の成分が化合して　色も味も",
+    "ko": ""
+   }
+  },
+  {
+   "window": 74,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A5974.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "香りも悪くなるんですって・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 75,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A5975.WAV",
+   "chars": 6,
+   "text": {
+    "ja": "なるほどね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 76,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A5976.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "そうだ。ねぇお兄ちゃん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 76,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A5976.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "明日とかどうするの？　もう行きたい場所決めてある？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 77,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "うん。決めてあるよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 77,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "いや。まだなんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 78,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A5977.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "ほんと？　じゃぁ心配ないね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 78,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A5977.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "せっかくの旅行だから楽しんでってね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 79,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A5978.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "ごちそうさま。チャイ　おいしかったよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 79,
+   "line": 1,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A5978.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "それじゃ　私は会社に戻るからね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 80,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 81,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 82,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 83,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A5979.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "今の季節だったら　どこがいいだろうね？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 84,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A5980.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "函館の夜景なんてどうかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 84,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A5980.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "夜景は冬が一番綺麗だって言うよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 85,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A5981.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "函館はいいね。食べ物もおいしいし景色もいいし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 86,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A5982.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "冬の札幌も楽しいよ。夏とは全然景色が違うし。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 86,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A5982.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "ホワイト・イルミネーションもやってるしね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 87,
+   "line": 0,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7668.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "それとお兄ちゃん　サッポロＳＰＡランドって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 87,
+   "line": 1,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7668.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "行ったことある？　いろんなプールがあって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 87,
+   "line": 2,
+   "speaker": "琴梨",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7668.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "すごく楽しいって話だよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 88,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7669.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "まぁ　だいたいそんな感じかね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 88,
+   "line": 1,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A7669.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "今晩中に　じっくり考えておくといいよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 89,
+   "line": 0,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A5985.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "琴梨　チャイ　おいしかったよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 89,
+   "line": 1,
+   "speaker": "陽子",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A5985.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "それじゃ　私は会社に戻るからね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 90,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 6,
+   "date": "12-28",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "めぐみちゃんと別れて　書斎に戻った。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 91,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 6,
+   "date": "12-28",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "イルミネーション・カウントダウンが行われる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 91,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 6,
+   "date": "12-28",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "大晦日まで　あと三日しかない。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 92,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 6,
+   "date": "12-28",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "その間　誰とどのように過ごすのか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 92,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 6,
+   "date": "12-28",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "これは結構　重要な問題だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 93,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 6,
+   "date": "12-28",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "まず明日のことを考えよう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 93,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 6,
+   "date": "12-28",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "明日デートに誘いたいのは・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 94,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "もちろんめぐみちゃんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 94,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "いや・・そうじゃなくて・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 95,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 7,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A5989.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "なんだか・・寝付けなくって・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 95,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 7,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A5989.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "ねぇ・・&主人公&さんは　明日の予定　決まったの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 96,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "うん。決まったよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 96,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "実は・・まだなんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 97,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 7,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A5990.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "誰とどこに行くの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 98,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 7,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "めぐみちゃんと函館に行きたいんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 99,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 7,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "めぐみちゃんと札幌の街を歩きたいんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 100,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 7,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A5992.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "え？　私？　・・私でいいの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 101,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 7,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "もちろん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 102,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 7,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A5994.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "@S@・・・@P@よかった。私も函館　行きたかったんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 102,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 7,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A5994.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "うふふ・・何着て行こうかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 102,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 7,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A5994.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "それじゃ　私　明日の準備してるね。おやすみ@5214@なさい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 103,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 7,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A6097.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "@S@・・・@P@よかった。私も明日　ヒマだったんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 103,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 7,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A6097.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "うふふ・・何着て行こうかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 103,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 7,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A6097.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "それじゃ　私　明日の準備してるね。おやすみ@4901@なさい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 104,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 7,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A5995.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "@S@・・・@P@ふぅん・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 104,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 7,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A5995.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "でも　焦って決めることはないよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 105,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 7,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A5996.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "まず行きたい人を決めて　行く場所はその人と",
+    "ko": ""
+   }
+  },
+  {
+   "window": 105,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 7,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A5996.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "相談してみたらどうかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 106,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 7,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "そうだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 107,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 7,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 108,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 7,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 109,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 7,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 110,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 7,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A6099.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "まず行きたい人を決めて　行く場所はその人と",
+    "ko": ""
+   }
+  },
+  {
+   "window": 110,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 7,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "A6099.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "相談してみたらどうかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 111,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 7,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／応接間",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "そうだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 112,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 8,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "めぐみと函館デートの場合",
+   "voice": "A5998.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "おはよう。@5212@&主人公&さん。今日もいいお天気だね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 112,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 8,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "めぐみと函館デートの場合",
+   "voice": "A5998.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "それじゃ　そろそろ函館に行こう！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 113,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 10,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／入口",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "函館駅前に着いた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 114,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 10,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／入口",
+   "voice": "A6000.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "函館は家族旅行で　二回ぐらい来たことあるよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 114,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 10,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／入口",
+   "voice": "A6000.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "でも何回来ても　いい街だよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 115,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 10,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／入口",
+   "voice": "A6001.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "これからどこに行く？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 115,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 10,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／入口",
+   "voice": "A6001.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "&主人公&さんの行きたいところ　どこでもいいよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 116,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／本間商店",
+   "voice": "A6002.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "やっぱり市場は活気があっていいよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 116,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／本間商店",
+   "voice": "A6002.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "ねぇ&主人公&さん。向こう行ってみよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 117,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／レイモンハウス元町／外観",
+   "voice": "A6003.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "こんなにたくさんのお魚が　夕方になると",
+    "ko": ""
+   }
+  },
+  {
+   "window": 117,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／レイモンハウス元町／外観",
+   "voice": "A6003.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "ほとんど売り切れちゃうんでしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 117,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／レイモンハウス元町／外観",
+   "voice": "A6003.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "そう言うのって　なんかすごいよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 118,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／レイモンハウス元町／外観",
+   "voice": "A6004.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "@S@・・@P@前に私　言ったよね。ウチで生まれた子牛は",
+    "ko": ""
+   }
+  },
+  {
+   "window": 118,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／レイモンハウス元町／外観",
+   "voice": "A6004.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "雌ならウチで育てて　雄なら業者に出すって・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 118,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／レイモンハウス元町／外観",
+   "voice": "A6004.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "でも　業者に出した後の話は　してなかったよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 119,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／レイモンハウス元町／外観",
+   "voice": "A6005.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "@S@・・@P@業者に出した後は　食用として殺されちゃうんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 119,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／レイモンハウス元町／外観",
+   "voice": "A6005.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "初めてその話を聞いた時・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 119,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／レイモンハウス元町／外観",
+   "voice": "A6005.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "私　ショックで泣いちゃった・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 120,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／レイモンハウス元町／外観",
+   "voice": "A6006.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "でもそんな私を見て　お父さんはこう言ったの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 120,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／レイモンハウス元町／外観",
+   "voice": "A6006.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "たくさんの命が　たくさんの命を動かす・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 120,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／レイモンハウス元町／外観",
+   "voice": "A6006.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "それが自然の摂理なんだって・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 121,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／レイモンハウス元町／外観",
+   "voice": "A6007.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "人間は動物や植物の命を奪って生きている。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 121,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／レイモンハウス元町／外観",
+   "voice": "A6007.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "受け止め方によっては　すごく残酷だけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 121,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／レイモンハウス元町／外観",
+   "voice": "A6007.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "でもそれを否定したら　生きていけないよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 122,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／レイモンハウス元町／外観",
+   "voice": "A6008.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "だからせめて　自分の血となり肉となる命に",
+    "ko": ""
+   }
+  },
+  {
+   "window": 122,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／レイモンハウス元町／外観",
+   "voice": "A6008.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "感謝して生きていくことが大切なんだって。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 123,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／レイモンハウス元町／外観",
+   "voice": "A6009.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "その話を聞く前は　こういう市場に来ても",
+    "ko": ""
+   }
+  },
+  {
+   "window": 123,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／レイモンハウス元町／外観",
+   "voice": "A6009.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "なんか　残酷な感じで　正視できなかったけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 123,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／レイモンハウス元町／外観",
+   "voice": "A6009.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "今はちょっとだけ　好きになったんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 124,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／レイモンハウス元町／外観",
+   "voice": "A6010.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "市場の活気は　人間の生きてゆく力だもんね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 125,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "すごくよくわかるよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 125,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "牧場の生活も結構大変だよね",
+    "ko": ""
+   }
+  },
+  {
+   "window": 126,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／レイモンハウス元町／外観",
+   "voice": "A6011.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "今だって　雌の子牛が生まれたらすごく嬉しいし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 126,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／レイモンハウス元町／外観",
+   "voice": "A6011.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "雄の子牛が業者の人に連れていかれるのを見ると",
+    "ko": ""
+   }
+  },
+  {
+   "window": 126,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／レイモンハウス元町／外観",
+   "voice": "A6011.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "やっぱり　辛い気持ちになるよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 127,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／レイモンハウス元町／外観",
+   "voice": "A6012.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "だからまだ完全に割り切ってるわけじゃないんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 127,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／レイモンハウス元町／外観",
+   "voice": "A6012.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "でも・・ちょっとだけ　救われた気がするの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 128,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／レイモンハウス元町／外観",
+   "voice": "A6013.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "前にアルバイトに来た学生さんが",
+    "ko": ""
+   }
+  },
+  {
+   "window": 128,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／レイモンハウス元町／外観",
+   "voice": "A6013.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "『糞がくさいから辞めます』って言って",
+    "ko": ""
+   }
+  },
+  {
+   "window": 128,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／レイモンハウス元町／外観",
+   "voice": "A6013.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "途中で帰っちゃったことあるんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 129,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／レイモンハウス元町／外観",
+   "voice": "A6014.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "私　びっくりしちゃった。生き物を飼ってたら",
+    "ko": ""
+   }
+  },
+  {
+   "window": 129,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／レイモンハウス元町／外観",
+   "voice": "A6014.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "糞が臭いのなんて当たり前だし　たくさんの命があれば",
+    "ko": ""
+   }
+  },
+  {
+   "window": 129,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／レイモンハウス元町／外観",
+   "voice": "A6014.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "それだけたくさんの死と向かい合うんだし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 130,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／レイモンハウス元町／外観",
+   "voice": "A6015.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "牧場の生活って　ロマンチックなイメージがあるけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 130,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／レイモンハウス元町／外観",
+   "voice": "A6015.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "実際は　大変なこともたくさんあるよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 130,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／レイモンハウス元町／外観",
+   "voice": "A6015.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "でもその大変さも含めて　私は牧場が好き。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 131,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／レイモンハウス元町／外観",
+   "voice": "A6016.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "そろそろ別のとこ　行こ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 132,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／レイモンハウス元町／外観",
+   "voice": "a6016.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "そろそろ別のとこ　行こ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 133,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／レイモンハウス元町／外観",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "もうこんな時間だね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 133,
+   "line": 1,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／レイモンハウス元町／外観",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "函館山の夜景を見に行こうか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 134,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／レイモンハウス元町／外観",
+   "voice": "A6279.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "うん。そうだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 135,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 13,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／レイモンハウス元町／内部",
+   "voice": "A6017.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "ここ　レイモンハウスって言うんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 135,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 13,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／レイモンハウス元町／内部",
+   "voice": "A6017.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "有名なソーセージ屋さんなんだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 135,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 13,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／レイモンハウス元町／内部",
+   "voice": "A6017.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "中に入ってみよう！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 136,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A6018.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "ここはカール・レイモンさんのお店なんだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 136,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A6018.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "カール・レイモンさんはドイツから函館に来て",
+    "ko": ""
+   }
+  },
+  {
+   "window": 136,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A6018.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "生涯をハムとソーセージ作りにかけた人なんだって。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 137,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A6019.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "まだ今みたいに交通が発達していなかった時代に",
+    "ko": ""
+   }
+  },
+  {
+   "window": 137,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A6019.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "知らない国に来て　知らない文化を伝えてくれた",
+    "ko": ""
+   }
+  },
+  {
+   "window": 137,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A6019.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "その情熱って　すごいよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 138,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A6020.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "私　ドイツ料理って好きなんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 138,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A6020.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "ハンバーグも好きだし　ザワークラウトって言うの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 138,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A6020.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "このキャベツの塩漬けも好きだし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 139,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A6021.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "あと・・・何があったっけ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 140,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "ティラミス",
+    "ko": ""
+   }
+  },
+  {
+   "window": 140,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "バウムクーヘン",
+    "ko": ""
+   }
+  },
+  {
+   "window": 140,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "カヌレ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 141,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A6024.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "あれ？　・・・そうだっけ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 141,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A6024.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 142,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A6023.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "あっ！　そうそう！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 142,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A6023.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "バウムクーヘンもドイツのお菓子なんだよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 143,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A6022.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "あれ？　・・・そうだっけ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 143,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A6022.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 144,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 145,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 146,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 14,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 147,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A6025.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "そんな感じで　行ったことなんてないし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 147,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A6025.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "知識もあんまりないんだけど　なんか私",
+    "ko": ""
+   }
+  },
+  {
+   "window": 147,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A6025.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "ドイツって国に憧れてるんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 148,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A6026.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "そろそろここ　出ようか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 148,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A6026.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "&主人公&さん。次はどこ行く？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 149,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A6016.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "そろそろ別のとこ　行こ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 150,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "もうこんな時間だね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 150,
+   "line": 1,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "函館山の夜景を見に行こうか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 151,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A6279.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "うん。そうだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 152,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／金森倉庫群",
+   "voice": "A6027.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "私　お祈りしてたんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 152,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／金森倉庫群",
+   "voice": "A6027.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "&主人公&さんに　会えますようにって・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 152,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／金森倉庫群",
+   "voice": "A6027.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "ベランダに出て・・星を見ながら・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 153,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／金森倉庫群",
+   "voice": "A6028.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "東京の空は　いつも曇ってるけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 153,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／金森倉庫群",
+   "voice": "A6028.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "それでも美瑛の空とは　繋がってるよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 154,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／金森倉庫群",
+   "voice": "A6029.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "だから星の綺麗な夜は　ちょっとだけでいいから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 154,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／金森倉庫群",
+   "voice": "A6029.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "私のこと　思い出して欲しいの・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 154,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／金森倉庫群",
+   "voice": "A6029.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "その時は　きっと私　同じ星を見てるから・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 155,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／金森倉庫群",
+   "voice": "A6030.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "&主人公&さんと　一緒に過ごした夏休みは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 155,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／金森倉庫群",
+   "voice": "A6030.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "あっという間に終わっちゃったよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 155,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／金森倉庫群",
+   "voice": "A6030.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "・・きっと冬休みも　あっという間なんだろうな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 156,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／金森倉庫群",
+   "voice": "A6031.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "次はベイエリアだよ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 156,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／金森倉庫群",
+   "voice": "A6031.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "楽しみだね。&主人公&さん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 157,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／金森倉庫群",
+   "voice": "A6032.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "次は元町だよ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 157,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／金森倉庫群",
+   "voice": "A6032.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "楽しみだね。&主人公&さん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 158,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／金森倉庫群",
+   "voice": "A6033.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "次は湯の川温泉だよ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 158,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／金森倉庫群",
+   "voice": "A6033.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "楽しみだね。&主人公&さん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 159,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／金森倉庫群",
+   "voice": "A6034.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "次は五稜郭だよ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 159,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／金森倉庫群",
+   "voice": "A6034.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "楽しみだね。&主人公&さん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 160,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 16,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／クリスマスミュージアム／外観",
+   "voice": "A6035.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "この古い倉庫群は　きっとみんなに愛されているから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 160,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 16,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／クリスマスミュージアム／外観",
+   "voice": "A6035.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "今でも　役目を変えて　残ってるんだよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 160,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 16,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／クリスマスミュージアム／外観",
+   "voice": "A6035.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "そういうのって　素敵だな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 161,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 16,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／クリスマスミュージアム／外観",
+   "voice": "A6036.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "あのね。私　行きたいところがあるんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 161,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 16,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／クリスマスミュージアム／外観",
+   "voice": "A6036.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "&主人公&さん　付き合ってね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 162,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "A6037.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "フェリシモ・クリスマスミュージアム・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 162,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "A6037.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "ここは一年中　クリスマスを祝ってるんだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 163,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "A6038.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "だから私　ここで&主人公&さんに",
+    "ko": ""
+   }
+  },
+  {
+   "window": 163,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "A6038.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "クリスマスプレゼントを渡したかったの・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 163,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "A6038.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "一年中　クリスマスだから　今渡しても平気だよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 164,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "A6039.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "メリー・クリスマス！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 165,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "A6040.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "ほら！　「めぐみちゃん人形」だよ。・・・・・あっ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 165,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "A6040.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "欲しくなかったら返してね。自分でもちょっと",
+    "ko": ""
+   }
+  },
+  {
+   "window": 165,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "A6040.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "子供っぽいかなって　思ったりして・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 166,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "A6041.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "でも私もほら　&主人公&さんの人形持ってて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 166,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "A6041.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "二人で一緒に持ってたら　離れてても",
+    "ko": ""
+   }
+  },
+  {
+   "window": 166,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "A6041.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "寂しくないかな・・なんて思ったから・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 167,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "A6042.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "@S@・・・@P@もらって　くれるかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 168,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "もちろんだよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 168,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "まぁ・・いいよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 168,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "悪いけどいらないよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 169,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "A6043.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "うれしい！　ありがとう！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 169,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "A6043.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "@0066@・・・あっ！　でも私がありがとうって言うのは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 169,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "A6043.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "ちょっと変かもね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 170,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "うん。でも気に入ったよ。ありがとう！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 171,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "A6045.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "えへへ・・ごめんね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 171,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "A6045.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "私　変な女の子かもね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 172,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "A6046.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "@S@・・・@P@やっぱり　そうだよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 172,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "A6046.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "あ・・でも気にしないでね。私が勝手に作ったんだし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 172,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "A6046.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "私が一緒に持ってた方が　お人形も寂しくないよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 173,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 174,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 175,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 176,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "A6046.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "@S@・・・@P@やっぱり　そうだよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 176,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "A6046.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "あ・・でも気にしないでね。私が勝手に作ったんだし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 176,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "A6046.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "私が一緒に持ってた方が　お人形も寂しくないよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 177,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "A6047.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "そろそろ他のとこ　行こうか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 177,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "A6047.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "&主人公&さん。次はどこに行きたい？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 178,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "A6016.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "そろそろ別のとこ　行こ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 179,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "もうこんな時間だね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 179,
+   "line": 1,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "函館山の夜景を見に行こうか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 180,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "A6279.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "うん。そうだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 181,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／内風呂",
+   "voice": "A6048.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "ホテル平成館・・ここって確か　展望露天風呂が",
+    "ko": ""
+   }
+  },
+  {
+   "window": 181,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／内風呂",
+   "voice": "A6048.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "有名なんだよね。ねぇ&主人公&さん　入ってみよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 182,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 19,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／露天風呂",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "ホテル平成館の男湯・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 182,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 19,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／露天風呂",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "檜のいい香りがする。結構　広いな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 182,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 19,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／露天風呂",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "旅の疲れが　癒されてゆく感じだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 183,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／露天風呂",
+   "voice": "A6050.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "あーーっ！　ごめんなさい！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 184,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 19,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／露天風呂",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "なんか　やらかしたみたいだな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 184,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 19,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／露天風呂",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "でも助けに行くわけにもいかないし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 185,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／露天風呂",
+   "voice": "A6052.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "ホントにごめんなさい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 185,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／露天風呂",
+   "voice": "A6052.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "あっ　もう大丈夫ですから・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 186,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 19,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／露天風呂",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "・・・大丈夫か・・よかったよかった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 186,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 19,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／露天風呂",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "それじゃ露天風呂にでも　行ってみようかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 187,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 20,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／ロビー",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "最上階にある展望露天風呂・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 187,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 20,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／ロビー",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "うん。いい眺めだ。湯加減もちょうどいい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 187,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 20,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／ロビー",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "来て良かったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 188,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 20,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／ロビー",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "さて・・そろそろ上がるか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 189,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／外観",
+   "voice": "A6056.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "いいお湯だったね。すっかりあったまった感じ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 189,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／外観",
+   "voice": "A6056.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "やっぱり温泉っていいよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 190,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／外観",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "なんか・・すごい音が聞こえたけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 191,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／外観",
+   "voice": "A6058.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "え？　聞こえてたの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 191,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／外観",
+   "voice": "A6058.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "・・やだ・・恥ずかしいな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 191,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／外観",
+   "voice": "A6058.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "私　転んじゃって・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 192,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／外観",
+   "voice": "A6059.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "あっ！　でも今は　大丈夫だよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 192,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／外観",
+   "voice": "A6059.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "それじゃ・・そろそろ　ここ出よ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 193,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／外観",
+   "voice": "A6016.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "そろそろ別のとこ　行こ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 194,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／外観",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "もうこんな時間だね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 194,
+   "line": 1,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／外観",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "函館山の夜景を見に行こうか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 195,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／外観",
+   "voice": "A6279.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "うん。そうだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 196,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 22,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／ＴＯＰ’Ｓ／外観",
+   "voice": "A6060.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "五稜郭公園か・・ここに来たら私　ＴＯＰ’Ｓの",
+    "ko": ""
+   }
+  },
+  {
+   "window": 196,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 22,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／ＴＯＰ’Ｓ／外観",
+   "voice": "A6060.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "ソフトクリームが食べたくなっちゃうんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 196,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 22,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／ＴＯＰ’Ｓ／外観",
+   "voice": "A6060.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "ねぇ&主人公&さん。行ってみよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 197,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 23,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／ＴＯＰ’Ｓ／内部",
+   "voice": "A6061.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "ここだよ。・・・でも不思議だよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 197,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 23,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／ＴＯＰ’Ｓ／内部",
+   "voice": "A6061.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "外はこんなに寒いのに　私　ソフトクリームは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 197,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 23,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／ＴＯＰ’Ｓ／内部",
+   "voice": "A6061.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "一年中　食べたくなっちゃうんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 198,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／ロープウェイ内部",
+   "voice": "A6062.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "最近は北海道にも　こういう　ちゃんと牛乳の味がする",
+    "ko": ""
+   }
+  },
+  {
+   "window": 198,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／ロープウェイ内部",
+   "voice": "A6062.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "ソフトクリームのお店が増えたんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 198,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／ロープウェイ内部",
+   "voice": "A6062.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "だから結構　幸せな感じだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 199,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／ロープウェイ内部",
+   "voice": "A6063.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "やっぱり牧場の娘としては　こうやって乳製品を",
+    "ko": ""
+   }
+  },
+  {
+   "window": 199,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／ロープウェイ内部",
+   "voice": "A6063.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "どんどん食べて　消費拡大につなげなくっちゃね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 200,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "お父さん思いなんだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 200,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "ただ単に好きなだけでしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 201,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／ロープウェイ内部",
+   "voice": "A6064.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "えへへ・・そう言う風に言われると照れちゃうな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 202,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／ロープウェイ内部",
+   "voice": "A6065.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "えへへ・・ばれた？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 203,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／ロープウェイ内部",
+   "voice": "A6066.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "ソフトクリームは好きな人多いけど　チーズなんかは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 203,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／ロープウェイ内部",
+   "voice": "A6066.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "まだまだ日本に溶け込んでない感じだよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 203,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／ロープウェイ内部",
+   "voice": "A6066.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "外国じゃ漬け物みたいな感覚で食卓に並ぶのにね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 204,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／ロープウェイ内部",
+   "voice": "A6067.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "知ってる？　日本で生産されるナチュラルチーズの",
+    "ko": ""
+   }
+  },
+  {
+   "window": 204,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／ロープウェイ内部",
+   "voice": "A6067.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "ほとんどが北海道産なんだよ。だからチーズの消費が",
+    "ko": ""
+   }
+  },
+  {
+   "window": 204,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／ロープウェイ内部",
+   "voice": "A6067.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "もっともっと増えたら　愛田牧場も安泰なんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 205,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／ロープウェイ内部",
+   "voice": "A6068.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "さて　そろそろ　次の場所　行こうか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 206,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／ロープウェイ内部",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "もうこんな時間だね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 206,
+   "line": 1,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／ロープウェイ内部",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "函館山の夜景を見に行こうか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 207,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／ロープウェイ内部",
+   "voice": "A6279.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "うん。そうだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 208,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 25,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "A6069.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "うわー！　綺麗！　ねぇねぇ！　見た？！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 208,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 25,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "A6069.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "あれが函館の夜景なんだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 209,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6070.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "@S@・・・@P@綺麗だね・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 210,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6071.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "@S@・・・@P@本当・・・綺麗だね。・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 211,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "・・めぐみちゃん・・・何で泣いてるの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 212,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6073.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "・・・・・・・・・・わからないの・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 213,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6074.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "ただ・・夜景見てたら・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 213,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6074.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "いろんなこと・・思い出しちゃった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 214,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6075.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "&主人公&さんと一緒に　気球に乗った日のこととか",
+    "ko": ""
+   }
+  },
+  {
+   "window": 214,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6075.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "ラベンダー見たり　北竜町のひまわり見たり・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 214,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6075.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "一緒にベランダから　夜空を眺めたり・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 215,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6076.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "そんなこと思い出したら・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 215,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6076.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "急に　涙が止まらなくなって・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 216,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6077.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "@S@・・・@P@こんな風に　ずっと一緒に・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 216,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6077.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "同じ思い出を　持てたらいいよね・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 216,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6077.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "・・・・・ずっと一緒に・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 217,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6078.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "私　お婆さんになっても　今日の日のこと忘れないよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 217,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6078.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "二人で見た夜景は　こんなに綺麗だったって・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 218,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6079.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "私　&主人公&さんが大好き！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 218,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6079.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "会えない夜に　電話ばかり気にしてるのはもういや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 219,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6080.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "私　&主人公&さんが大好き！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 219,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6080.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "・・・だからずっと・・ずっと一緒にいて・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 220,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6081.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "@S@・・・@P@何でだろう？　・・変だよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 220,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6081.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "でもきっと　理由のない涙って　あるんだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 221,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "僕はめぐみちゃんが好きだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 221,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "めぐみちゃん僕のことどう思ってる？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 221,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "寒いね。そろそろ帰ろうか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 222,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6082.WAV",
+   "chars": 5,
+   "text": {
+    "ja": "@S@・・・@P@え？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 223,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6083.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "@S@・・・@P@うん。ありがとう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 223,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6083.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "&主人公&さんの気持ち　すごくうれしいよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 224,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6084.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "でも　その気持ちに答えられるほど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 224,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6084.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "私　大人になってないかもしれない・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 224,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6084.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "・・・返事は　もうちょっと待ってね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 225,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6085.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "@S@・・・@P@寒くなってきたね？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 225,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6085.WAV",
+   "chars": 5,
+   "text": {
+    "ja": "帰ろっか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 226,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6086.WAV",
+   "chars": 5,
+   "text": {
+    "ja": "@S@・・・@P@え？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 227,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6087.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "@S@・・・@P@私　なんて答えたらいんだろう・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 227,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6087.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "&主人公&さんのこと　好きって言う気持ち・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 227,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6087.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "それは今でも　変わってないよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 228,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6088.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "&主人公&さんの期待している",
+    "ko": ""
+   }
+  },
+  {
+   "window": 228,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6088.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "「好き」とは違うような気がするんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 228,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6088.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "・・・返事は　もうちょっと待ってね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 229,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6089.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "@S@・・・@P@寒くなってきたね？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 229,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6089.WAV",
+   "chars": 5,
+   "text": {
+    "ja": "帰ろっか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 230,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6090.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "@S@・・・@P@そうだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 231,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6089.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "@S@・・・@P@寒くなってきたね？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 231,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 26,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "A6089.WAV",
+   "chars": 5,
+   "text": {
+    "ja": "帰ろっか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 232,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 27,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "イルミネーション・カウントダウンが行われる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 232,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 27,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "大晦日まで　あと二日！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 232,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 27,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "明日デートに誘いたいのは・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 233,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "もちろんめぐみちゃんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 233,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "いや・・そうじゃなくて・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 234,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 27,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "明日は一緒に札幌の街を歩きたい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 235,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 27,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "明日は一緒に函館に行きたい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 236,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 27,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "よし！　さそってみよう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 237,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 27,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "一緒に行きたい場所は・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 238,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "札幌の街を歩きたい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 238,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "函館に行きたい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 239,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 27,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／応接間",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "よし！　まずは電話してみよう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 240,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 28,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎２",
+   "voice": "A6092.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "今日はすごく楽しかったね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 240,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 28,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎２",
+   "voice": "A6092.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "ねぇ&主人公&さん。明日の予定は決まったの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 241,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "うん。決まったよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 241,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "実は・・まだなんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 242,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 28,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎２",
+   "voice": "A6093.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "誰とどこに行くの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 243,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 28,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎２",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "めぐみちゃんと札幌の街を",
+    "ko": ""
+   }
+  },
+  {
+   "window": 243,
+   "line": 1,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 28,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎２",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "歩きたいんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 244,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 28,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎２",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "めぐみちゃんと函館の街を",
+    "ko": ""
+   }
+  },
+  {
+   "window": 244,
+   "line": 1,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 28,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎２",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "歩きたいんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 245,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 28,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎２",
+   "voice": "A6095.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "え？　私？　・・私でいいの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 246,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 28,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎２",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "もちろん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 247,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 28,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎２",
+   "voice": "a6097.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "@S@・・・@P@よかった。私も明日　ヒマだったんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 247,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 28,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎２",
+   "voice": "a6097.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "うふふ・・何着て行こうかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 247,
+   "line": 2,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 28,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎２",
+   "voice": "a6097.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "それじゃ　私　明日の準備してるね。おやすみ@5213@なさい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 248,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 28,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎２",
+   "voice": "A6098.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "@S@・・・@P@ふぅん・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 248,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 28,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎２",
+   "voice": "A6098.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "でも　焦って決めることはないよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 249,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 28,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎２",
+   "voice": "A5996.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "まず行きたい人を決めて　行く場所はその人と",
+    "ko": ""
+   }
+  },
+  {
+   "window": 249,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 28,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎２",
+   "voice": "A5996.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "相談してみたらどうかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 250,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 28,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎２",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "そうだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 251,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 28,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎２",
+   "voice": "A6101.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "ねぇ&主人公&さん。明日の予定は決まったの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 252,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 28,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎２",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 253,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 28,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎２",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 254,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 28,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎２",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 255,
+   "line": 0,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 28,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎２",
+   "voice": "A5996.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "まず行きたい人を決めて　行く場所はその人と",
+    "ko": ""
+   }
+  },
+  {
+   "window": 255,
+   "line": 1,
+   "speaker": "めぐみ",
+   "kind": "대사",
+   "scene": 28,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎２",
+   "voice": "A5996.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "相談してみたらどうかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 256,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 29,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／応接間／チャイ",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "部屋に戻った。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 256,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 29,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "ローズヒル南平岸／応接間／チャイ",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "さてこれから　どうしようかな・・",
+    "ko": ""
+   }
+  }
+ ]
+}

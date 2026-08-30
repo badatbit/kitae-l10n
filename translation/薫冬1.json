@@ -1,0 +1,5766 @@
+{
+ "script": "薫冬1",
+ "source": "ja",
+ "entries": [
+  {
+   "window": 0,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "今回の旅には　ひとつの目的があった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 0,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "札幌は今　ホワイト・イルミネーションの",
+    "ko": ""
+   }
+  },
+  {
+   "window": 0,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "真っ最中だ。そして・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 0,
+   "speaker": "文字",
+   "kind": "나레이션",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "@4140@大晦日の夜・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 1,
+   "speaker": "文字",
+   "kind": "나레이션",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "@4141@イルミネーション・カウントダウンで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 2,
+   "speaker": "文字",
+   "kind": "나레이션",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "@4142@年越しのＫｉｓｓをした恋人たちは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 3,
+   "speaker": "文字",
+   "kind": "나레이션",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "@4143@永遠の幸せが約束されるという・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 2,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "こういう伝説は　恐らくあちこちにあるものだろう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 2,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "伝説の通り　幸せになったカップルもいるだろうし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 2,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "きっと　そうならなかったカップルもいるだろう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 3,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "でも僕は信じてみたかった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 3,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "大好きな女の子と離れて暮らしていて・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 4,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "だからこそ　信じられる何かが",
+    "ko": ""
+   }
+  },
+  {
+   "window": 4,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "欲しかったのかもしれない。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 5,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "A4535.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "ひさしぶりね・・元気だった？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 6,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "A4536.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "ついでがあったから　ちょっと寄ってみたの・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 6,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "A4536.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "車で来てるから　平岸駅まで送るわよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 7,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "ありがとう",
+    "ko": ""
+   }
+  },
+  {
+   "window": 7,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "ついでって何？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 8,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "A4537.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "@S@・・・@P@それじゃこっち・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 8,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "A4537.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "大きな声じゃ言えないけど　路上駐車なの・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 8,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "A4537.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "急ぎましょ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 9,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "A4538.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "@S@・・・@P@まぁ・・いろいろ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 10,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "A4539.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "さぁ！　急ぎましょ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 10,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "A4539.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "大きな声じゃ言えないけど　路上駐車なの・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 11,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 12,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 13,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 14,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "A4537.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "@S@・・・@P@それじゃこっち・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 14,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "A4537.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "大きな声じゃ言えないけど　路上駐車なの・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 14,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-28",
+   "slot": "昼",
+   "place": "千歳空港／到着ロビー",
+   "voice": "A4537.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "急ぎましょ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 15,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "千歳空港／外観",
+   "voice": "A4540.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "オープンカーって　夏は気持ちいいんだけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 15,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "千歳空港／外観",
+   "voice": "A4540.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "冬は寒いし　雪が積もっちゃうし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 15,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "千歳空港／外観",
+   "voice": "A4540.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "だからオプションの　ハードトップを付けたんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 16,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "千歳空港／外観",
+   "voice": "A4541.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "さぁ乗って・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 16,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "千歳空港／外観",
+   "voice": "A4541.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "高速　使うから３０分ぐらいで着くはずよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 17,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "車内",
+   "voice": "A4542.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "人を乗せてから　こんなこと言うのって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 17,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "車内",
+   "voice": "A4542.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "ちょっと　あれかもしれないけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 17,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "車内",
+   "voice": "A4542.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "私　雪道の運転って　まだ慣れてないんだ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 18,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "車内",
+   "voice": "A4543.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "札幌はスパイクタイヤが禁止されているから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 18,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "車内",
+   "voice": "A4543.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "この車も　スタッドレスタイヤ　付けてるんだけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 18,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "車内",
+   "voice": "A4543.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "やっぱり坂道や交差点ではスリップしやすいのよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 19,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "車内",
+   "voice": "A4544.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "ただ冬になると　札幌のドライバーって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 19,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "車内",
+   "voice": "A4544.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "急に親切になるのよ。ちゃんと道を譲ってくれるし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 19,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "車内",
+   "voice": "A4544.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "車間距離も　きちんと守るし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 20,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "車内",
+   "voice": "A4545.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "ひょっとしたらその反動で　夏は凶暴になって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 20,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "車内",
+   "voice": "A4545.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "それで死亡事故なんかが増えるのかもしれないわね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 21,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "事故の話はやめようよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 21,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "雪道運転の秘訣を教えて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 21,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "この車・・なんて言うの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 22,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "車内",
+   "voice": "A4546.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "あ・・ごめんね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 22,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "車内",
+   "voice": "A4546.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "そうよね。雪道運転に慣れてないって言った後に",
+    "ko": ""
+   }
+  },
+  {
+   "window": 22,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "車内",
+   "voice": "A4546.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "交通事故の話したら　ちょっと縁起悪いわよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 23,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "車内",
+   "voice": "A4547.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "それじゃ　話題を変えましょ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 23,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "車内",
+   "voice": "A4547.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "何年か前に　この高速道路で２００台以上の",
+    "ko": ""
+   }
+  },
+  {
+   "window": 23,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "車内",
+   "voice": "A4547.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "玉突き事故が・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 24,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "車内",
+   "voice": "A4548.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "@S@・・・・・・・・・@P@話題　変わってなかったわね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 25,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "車内",
+   "voice": "A4549.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "急発進　急加速　急ブレーキ　急ハンドル・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 25,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "車内",
+   "voice": "A4549.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "とにかくそういう　急の付く操作をしないことね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 26,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "車内",
+   "voice": "A4550.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "フィアット・バルケッタ。かわいいでしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 26,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "車内",
+   "voice": "A4550.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "バルケッタは小舟っていう意味のイタリア語よ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 27,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "車内",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 28,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "車内",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 29,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "車内",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 30,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "車内",
+   "voice": "A4546.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "あ・・ごめんね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 30,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "車内",
+   "voice": "A4546.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "そうよね。雪道運転に慣れてないって言った後に",
+    "ko": ""
+   }
+  },
+  {
+   "window": 30,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "車内",
+   "voice": "A4546.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "交通事故の話したら　ちょっと縁起悪いわよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 31,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "車内",
+   "voice": "A4547.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "それじゃ　話題を変えましょ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 31,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "車内",
+   "voice": "A4547.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "何年か前に　この高速道路で２００台以上の",
+    "ko": ""
+   }
+  },
+  {
+   "window": 31,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "車内",
+   "voice": "A4547.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "玉突き事故が・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 32,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "車内",
+   "voice": "A4548.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "@S@・・・・・・・・・@P@話題　変わってなかったわね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 33,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "車内",
+   "voice": "A4551.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "前途有望な男の子を乗せてるわけだから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 33,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "車内",
+   "voice": "A4551.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "運転は　慎重にしないとね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 33,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "車内",
+   "voice": "A4551.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "きちんと法定速度を守って・・@4200@安全第一に・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 34,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "車内",
+   "voice": "A4552.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "あの車・・ちょっと失礼じゃない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 34,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "車内",
+   "voice": "A4552.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "つかまって！　追い越すわよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 35,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "車内",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "・・・か・・薫さん・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 36,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "A4554.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "何回か　ひやっとしたけど　無事に着いたでしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 37,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "・・・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 38,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "A4556.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "ちょっと顔色悪いみたいだけど　大丈夫よね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 39,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "A4557.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "私　ローテーション　変えてもらったから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 39,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "A4557.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "明日も明後日もフリーよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 39,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "A4557.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "もしよかったら　今晩電話してね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 40,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-28",
+   "slot": "午後",
+   "place": "平岸駅前",
+   "voice": "A4558.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "それじゃ・・ばいばい！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 41,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "部屋に戻った。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 41,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "イルミネーション・カウントダウンが行われる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 41,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "大晦日まで　あと三日しかない。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 42,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "その間　誰とどのように過ごすのか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 42,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "これは結構　重要な問題だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 43,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "まず明日のことを考えよう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 43,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 4,
+   "date": "12-28",
+   "slot": "夕方",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "明日デートに誘いたいのは・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 44,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "もちろん薫さんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 44,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "いや・・そうじゃなくて・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 45,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "札幌駅前",
+   "voice": "A4562.WAV",
+   "chars": 5,
+   "text": {
+    "ja": "おはよう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 45,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "札幌駅前",
+   "voice": "A4562.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "今日もいい天気ね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 45,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-29",
+   "slot": "朝",
+   "place": "札幌駅前",
+   "voice": "A4562.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "それじゃ　行きましょうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 46,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 7,
+   "date": "12-29",
+   "slot": "午前",
+   "place": "函館駅前",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "函館駅前に着いた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 47,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 7,
+   "date": "12-29",
+   "slot": "午前",
+   "place": "函館駅前",
+   "voice": "A4564.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "どこもそうだけど観光地って　独特のあざとさがない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 47,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 7,
+   "date": "12-29",
+   "slot": "午前",
+   "place": "函館駅前",
+   "voice": "A4564.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "私　それがイヤだったんだ・・でも不思議ね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 47,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 7,
+   "date": "12-29",
+   "slot": "午前",
+   "place": "函館駅前",
+   "voice": "A4564.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "今はそんなこと　全然感じない・・・何でかしら？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 48,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 7,
+   "date": "12-29",
+   "slot": "午前",
+   "place": "函館駅前",
+   "voice": "A4565.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "きっと今の私たちが　骨の髄まで観光客だからね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 48,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 7,
+   "date": "12-29",
+   "slot": "午前",
+   "place": "函館駅前",
+   "voice": "A4565.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "それじゃ　行きましょう・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 49,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 8,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／入口",
+   "voice": "A4566.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "私　市場って好きよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 49,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 8,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／入口",
+   "voice": "A4566.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "外国に行くと　まずその国の市場に行って",
+    "ko": ""
+   }
+  },
+  {
+   "window": 49,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 8,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／入口",
+   "voice": "A4566.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "その国の人たちの雰囲気にふれるのが好きなの・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 50,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 8,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／入口",
+   "voice": "A4567.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "血まみれの豚の頭が　そのまんま並んでたり・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 50,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 8,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／入口",
+   "voice": "A4567.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "熱帯魚みたいな魚が切り身になってたり・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 51,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 8,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／入口",
+   "voice": "A4568.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "函館の市場には　そういうのはないと思うけどね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 51,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 8,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／入口",
+   "voice": "A4568.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "行きましょ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 52,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 9,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／鮮魚売場",
+   "voice": "A4569.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "イカって確か・・液晶を作るときの原料になるのよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 52,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 9,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／鮮魚売場",
+   "voice": "A4569.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "なんか不思議じゃない？　ハイテク部品の原料が",
+    "ko": ""
+   }
+  },
+  {
+   "window": 52,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 9,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／鮮魚売場",
+   "voice": "A4569.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "こういう市場で売られてるのって・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 53,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 9,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／鮮魚売場",
+   "voice": "A4570.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "でも考えたら石油だって石炭だって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 53,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 9,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／鮮魚売場",
+   "voice": "A4570.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "大昔の動物や植物の死骸が　変化したものだし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 54,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 9,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／鮮魚売場",
+   "voice": "A4571.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "ひょっとしたら人間の文明なんて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 54,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 9,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／鮮魚売場",
+   "voice": "A4571.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "子供が積み木遊びしてるような",
+    "ko": ""
+   }
+  },
+  {
+   "window": 54,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 9,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／鮮魚売場",
+   "voice": "A4571.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "ものなのかもしれないわね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 55,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "そうかもね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 55,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "積み木遊びって？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 55,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "なんか難しい話してるね",
+    "ko": ""
+   }
+  },
+  {
+   "window": 56,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 9,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／鮮魚売場",
+   "voice": "A4572.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "人間の作業を代わってくれる機械は作れても",
+    "ko": ""
+   }
+  },
+  {
+   "window": 56,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 9,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／鮮魚売場",
+   "voice": "A4572.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "人間そのものは作れないわけだし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 56,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 9,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／鮮魚売場",
+   "voice": "A4572.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "せめて　人工のイカぐらいは　作って欲しいわよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 57,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 9,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／鮮魚売場",
+   "voice": "A4573.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "積み木で遊んでいる子供は　積み木を使って",
+    "ko": ""
+   }
+  },
+  {
+   "window": 57,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 9,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／鮮魚売場",
+   "voice": "A4573.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "お城や自動車を作れるけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 58,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 9,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／鮮魚売場",
+   "voice": "A4574.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "でも積み木そのものは作れないわよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 58,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 9,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／鮮魚売場",
+   "voice": "A4574.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "人間の文明もその程度のものなんじゃないかしら？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 59,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 9,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／鮮魚売場",
+   "voice": "A4575.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "あ・・ごめんね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 59,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 9,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／鮮魚売場",
+   "voice": "A4575.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "デート中の話題じゃなかったかもね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 59,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 9,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／鮮魚売場",
+   "voice": "A4575.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "私いっつもそうなんだ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 60,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 9,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／鮮魚売場",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 61,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 9,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／鮮魚売場",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 62,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 9,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／鮮魚売場",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 63,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 9,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／鮮魚売場",
+   "voice": "A4575.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "あ・・ごめんね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 63,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 9,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／鮮魚売場",
+   "voice": "A4575.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "デート中の話題じゃなかったかもね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 63,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 9,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／鮮魚売場",
+   "voice": "A4575.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "私いっつもそうなんだ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 64,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 9,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／鮮魚売場",
+   "voice": "A4576.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "それじゃ　そろそろ別のとこ　行きましょうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 65,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 9,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／鮮魚売場",
+   "voice": "A4604.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "@S@・・・@P@そろそろ　時間ね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 65,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 9,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／朝市／鮮魚売場",
+   "voice": "A4604.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "函館山の夜景　見に行きましょ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 66,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 10,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／アジアン・カフェＴａｏＴａｏ／外観",
+   "voice": "A7579.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "ここ知ってる？　アジアン・カフェＴａｏＴａｏ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 66,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 10,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／アジアン・カフェＴａｏＴａｏ／外観",
+   "voice": "A7579.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "私　こういうお店　好きなんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 66,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 10,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／アジアン・カフェＴａｏＴａｏ／外観",
+   "voice": "A7579.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "ちょっとつきあってね・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 67,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／アジアン・カフェＴａｏＴａｏ／内部",
+   "voice": "A7580.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "函館って港町だから　いろんな国の文化が",
+    "ko": ""
+   }
+  },
+  {
+   "window": 67,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／アジアン・カフェＴａｏＴａｏ／内部",
+   "voice": "A7580.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "混ざり合っている感じよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 68,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／アジアン・カフェＴａｏＴａｏ／内部",
+   "voice": "A7581.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "私　昔からアジアのリゾート地に惹かれるの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 68,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／アジアン・カフェＴａｏＴａｏ／内部",
+   "voice": "A7581.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "同じアジア人だからかしらね・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 69,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／アジアン・カフェＴａｏＴａｏ／内部",
+   "voice": "A7582.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "学生の頃にも　友達とバリ島に行ったわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 69,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／アジアン・カフェＴａｏＴａｏ／内部",
+   "voice": "A7582.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "ホテルの近くに　ちょうどこんな感じの",
+    "ko": ""
+   }
+  },
+  {
+   "window": 69,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／アジアン・カフェＴａｏＴａｏ／内部",
+   "voice": "A7582.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "カフェがあったっけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 70,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／アジアン・カフェＴａｏＴａｏ／内部",
+   "voice": "A7583.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "バリ島って　すごく素敵な所よ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 70,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／アジアン・カフェＴａｏＴａｏ／内部",
+   "voice": "A7583.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "夕日が綺麗で・・住んでる人の笑顔が魅力的で・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 71,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／アジアン・カフェＴａｏＴａｏ／内部",
+   "voice": "A7584.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "それと田園風景。見ているとなんだか",
+    "ko": ""
+   }
+  },
+  {
+   "window": 71,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／アジアン・カフェＴａｏＴａｏ／内部",
+   "voice": "A7584.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "懐かしい気持ちになってくるの・・不思議よね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 71,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／アジアン・カフェＴａｏＴａｏ／内部",
+   "voice": "A7584.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "私　そんな田舎で育ったわけじゃないのに・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 72,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／アジアン・カフェＴａｏＴａｏ／内部",
+   "voice": "A7585.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "何て言うのかな・・生まれてすぐに生き別れになった",
+    "ko": ""
+   }
+  },
+  {
+   "window": 72,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／アジアン・カフェＴａｏＴａｏ／内部",
+   "voice": "A7585.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "双子の弟と再会したような懐かしさ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 72,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／アジアン・カフェＴａｏＴａｏ／内部",
+   "voice": "A7585.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "ちょっと　わかりにくい表現かしら？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 73,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "なんとなくわかるよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 73,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "薫さんって双子だったの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 73,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "ちょっと難しい例えだね",
+    "ko": ""
+   }
+  },
+  {
+   "window": 74,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／アジアン・カフェＴａｏＴａｏ／内部",
+   "voice": "A7586.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "そう？　よかった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 74,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／アジアン・カフェＴａｏＴａｏ／内部",
+   "voice": "A7586.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "察しのいい人って好きよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 75,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／アジアン・カフェＴａｏＴａｏ／内部",
+   "voice": "A7587.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "まさか。ものの例えよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 75,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／アジアン・カフェＴａｏＴａｏ／内部",
+   "voice": "A7587.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "兄弟がいたら　もっと社交的な性格になってたかもね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 76,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／アジアン・カフェＴａｏＴａｏ／内部",
+   "voice": "A7588.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "うふふ・・ごめんね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 76,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／アジアン・カフェＴａｏＴａｏ／内部",
+   "voice": "A7588.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "あなたも行ってみればわかるわよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 77,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／アジアン・カフェＴａｏＴａｏ／内部",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 78,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／アジアン・カフェＴａｏＴａｏ／内部",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 79,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／アジアン・カフェＴａｏＴａｏ／内部",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 80,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／アジアン・カフェＴａｏＴａｏ／内部",
+   "voice": "A7589.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "そう言えばあそこの壁に『福』って文字が",
+    "ko": ""
+   }
+  },
+  {
+   "window": 80,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／アジアン・カフェＴａｏＴａｏ／内部",
+   "voice": "A7589.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "逆さまに掛かってるでしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 80,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／アジアン・カフェＴａｏＴａｏ／内部",
+   "voice": "A7589.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "@0058@あれ　どういう意味か知ってる？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 81,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "『福』の反対だから『不幸』って意味かな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 81,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "お店の人が掛け間違えたんじゃないの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 81,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "福が天から降りてくる図でしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 82,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／アジアン・カフェＴａｏＴａｏ／内部",
+   "voice": "A7590.WAV",
+   "chars": 4,
+   "text": {
+    "ja": "はずれ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 82,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／アジアン・カフェＴａｏＴａｏ／内部",
+   "voice": "A7590.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "そんな縁起の悪いもの飾らないわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 83,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／アジアン・カフェＴａｏＴａｏ／内部",
+   "voice": "A7591.WAV",
+   "chars": 4,
+   "text": {
+    "ja": "はずれ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 83,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／アジアン・カフェＴａｏＴａｏ／内部",
+   "voice": "A7591.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "わざと逆さまに書いてあるのよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 84,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／アジアン・カフェＴａｏＴａｏ／内部",
+   "voice": "A7592.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "中国では福は天から授かるものと考えられているの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 84,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／アジアン・カフェＴａｏＴａｏ／内部",
+   "voice": "A7592.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "だから字を逆さまに書いて　福が天から降りてくる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 84,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／アジアン・カフェＴａｏＴａｏ／内部",
+   "voice": "A7592.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "状態を表しているのよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 85,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／アジアン・カフェＴａｏＴａｏ／内部",
+   "voice": "A7593.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "すごい。よく知ってるわね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 85,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／アジアン・カフェＴａｏＴａｏ／内部",
+   "voice": "A7593.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "実は私　さっきこっそりお店の人に聞いて来たの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 86,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／アジアン・カフェＴａｏＴａｏ／内部",
+   "voice": "A7594.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "知ってるんだったら　最初からあなたに",
+    "ko": ""
+   }
+  },
+  {
+   "window": 86,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／アジアン・カフェＴａｏＴａｏ／内部",
+   "voice": "A7594.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "聞いておけば良かったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 87,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／アジアン・カフェＴａｏＴａｏ／内部",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 88,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／アジアン・カフェＴａｏＴａｏ／内部",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 89,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／アジアン・カフェＴａｏＴａｏ／内部",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 90,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／アジアン・カフェＴａｏＴａｏ／内部",
+   "voice": "A4527.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "@S@・・・@P@こんな話　つまらないかしら？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 91,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／アジアン・カフェＴａｏＴａｏ／内部",
+   "voice": "A7595.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "それじゃ　そろそろ　行きましょうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 92,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／アジアン・カフェＴａｏＴａｏ／内部",
+   "voice": "A4615.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "@S@・・・@P@そろそろ　時間ね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 92,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／元町／アジアン・カフェＴａｏＴａｏ／内部",
+   "voice": "A4615.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "函館山の夜景　見に行きましょ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 93,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A4585.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "一人じゃ出来ないもの・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 93,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A4585.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "にらめっこ　腕相撲　卓球・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 94,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A4586.WAV",
+   "chars": 6,
+   "text": {
+    "ja": "そして・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 95,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A4587.WAV",
+   "chars": 4,
+   "text": {
+    "ja": "恋愛・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 96,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A4588.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "一人じゃ出来ないもの・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 96,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A4588.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "にらめっこ　腕相撲　卓球・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 97,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A4589.WAV",
+   "chars": 6,
+   "text": {
+    "ja": "そして・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 98,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A4590.WAV",
+   "chars": 5,
+   "text": {
+    "ja": "指相撲・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 99,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A4591.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "１２３４５６７８９１０！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 99,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A4591.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "・・私の勝ちね！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 100,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A4592.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "@S@・・・@P@自動車に追いやられて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 100,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A4592.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "消えていってしまう路面電車・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 101,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A4593.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "中に乗っている人同士で多数決を取ったら",
+    "ko": ""
+   }
+  },
+  {
+   "window": 101,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-29",
+   "slot": "午後",
+   "place": "インターミッション",
+   "voice": "A4593.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "絶対に路面電車が勝つのにね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 102,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 13,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／埠頭",
+   "voice": "A4594.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "昔　船なんてなかった頃・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 102,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 13,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／埠頭",
+   "voice": "A4594.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "海はきっと　世界の果てだったのよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 103,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 13,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／埠頭",
+   "voice": "A4595.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "今　私たちはロケットを作って",
+    "ko": ""
+   }
+  },
+  {
+   "window": 103,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 13,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／埠頭",
+   "voice": "A4595.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "新しい世界を　広げようとしているわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 104,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 13,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／埠頭",
+   "voice": "A4596.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "海外旅行に行くみたいに",
+    "ko": ""
+   }
+  },
+  {
+   "window": 104,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 13,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／埠頭",
+   "voice": "A4596.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "宇宙を旅することが出来るようになる頃・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 104,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 13,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／埠頭",
+   "voice": "A4596.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "私　何歳になってるかしらね・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 105,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "３０歳ぐらいじゃない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 105,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "４０歳ぐらいじゃない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 105,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "６０歳ぐらいじゃない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 106,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 13,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／埠頭",
+   "voice": "A4597.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "@S@・・・@P@私が３０歳になった頃・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 106,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 13,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／埠頭",
+   "voice": "A4597.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "隣にいる人は　どんな人かしら？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 107,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 13,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／埠頭",
+   "voice": "A4600.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "@S@・・・@P@もしかしたら　一生　独り者かも・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 108,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 13,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／埠頭",
+   "voice": "A4599.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "@S@・・・@P@私が４０歳になった頃・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 108,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 13,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／埠頭",
+   "voice": "A4599.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "隣にいる人は　どんな人かしら？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 109,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 13,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／埠頭",
+   "voice": "A4602.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "@S@・・・@P@もしかしたら　一生　独り者かも・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 110,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 13,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／埠頭",
+   "voice": "A4601.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "@S@・・・@P@私が６０歳になった頃・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 110,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 13,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／埠頭",
+   "voice": "A4601.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "隣にいる人は　どんな人かしら？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 111,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 13,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／埠頭",
+   "voice": "A4598.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "@S@・・・@P@もしかしたら　一生　独り者かも・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 112,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 13,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／埠頭",
+   "voice": "A4603.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "そろそろ　行きましょうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 113,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 13,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／埠頭",
+   "voice": "A4623.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "@S@・・・@P@そろそろ　時間ね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 113,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 13,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／ベイエリア／埠頭",
+   "voice": "A4623.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "函館山の夜景　見に行きましょ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 114,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "A4605.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "ホテル平成館・・展望露天風呂か・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 114,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館",
+   "voice": "A4605.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "うん。たまにはいいかもね・・行きましょ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 115,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 15,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／内風呂",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "ホテル平成館の男湯・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 115,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 15,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／内風呂",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "檜のいい香りがする。結構　広いな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 115,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 15,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／内風呂",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "旅の疲れが　癒されてゆく感じだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 116,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 15,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／内風呂",
+   "voice": "",
+   "chars": 22,
+   "text": {
+    "ja": "確かここって　露天風呂が名物だったっけな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 116,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 15,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／内風呂",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "ちょっと　行ってみようかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 117,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 16,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／露天風呂",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "最上階にある展望露天風呂・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 117,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 16,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／露天風呂",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "うん。いい眺めだ。湯加減もちょうどいい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 117,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 16,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／露天風呂",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "来て良かったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 118,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 16,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／露天風呂",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "さて・・そろそろ上がるか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 119,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／ロビー",
+   "voice": "A4610.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "気持ちよかったわね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 119,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／ロビー",
+   "voice": "A4610.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "ちょっとは若返ったかしら・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 120,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "薫さんまだまだ若いよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 120,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "何おばさんくさいこと言ってるの",
+    "ko": ""
+   }
+  },
+  {
+   "window": 120,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "５歳ぐらい若返ったかも・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 121,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／ロビー",
+   "voice": "A4611.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "まだ若いって言われちゃうことは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 121,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／ロビー",
+   "voice": "A4611.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "結構　歳ってことよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 121,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／ロビー",
+   "voice": "A4611.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "若さなんて持っている人にとっては当たり前のものよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 122,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／ロビー",
+   "voice": "A4612.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "@S@・・・@P@うふふ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 122,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／ロビー",
+   "voice": "A4612.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "本気でそう思ってるわけじゃないけどね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 123,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／ロビー",
+   "voice": "A4613.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "@S@・・@P@５歳若返ったら　私１９よ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 123,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／ロビー",
+   "voice": "A4613.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "それでもあなたより年上ね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 124,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／ロビー",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 125,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／ロビー",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 126,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／ロビー",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 127,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／ロビー",
+   "voice": "A4614.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "そろそろ　行きましょうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 128,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／ロビー",
+   "voice": "A4604.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "@S@・・・@P@そろそろ　時間ね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 128,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／湯の川温泉／ホテル平成館／ロビー",
+   "voice": "A4604.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "函館山の夜景　見に行きましょ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 129,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／外観",
+   "voice": "A4616.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "五稜郭タワー　昇ってみましょ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 129,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭／外観",
+   "voice": "A4616.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "高いところに昇らないと　見えない景色もあるわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 130,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭タワー展望台",
+   "voice": "A4617.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "不思議よね・・戦争のために作ったお城なのに",
+    "ko": ""
+   }
+  },
+  {
+   "window": 130,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭タワー展望台",
+   "voice": "A4617.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "こんなに綺麗な形してるのよ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 131,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭タワー展望台",
+   "voice": "A4618.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "戦争が起きる理由は　色々あるけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 131,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭タワー展望台",
+   "voice": "A4618.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "結果はいつも同じ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 131,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭タワー展望台",
+   "voice": "A4618.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "たくさんの命が失われてしまう・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 132,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭タワー展望台",
+   "voice": "A4619.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "でも戦争も含めて　人間の歴史だから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 132,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭タワー展望台",
+   "voice": "A4619.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "その全てを否定することなんて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 132,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭タワー展望台",
+   "voice": "A4619.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "出来ないのかもしれないわね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 133,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "そうかもしれないね",
+    "ko": ""
+   }
+  },
+  {
+   "window": 133,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "僕は戦争の全てを否定したいな",
+    "ko": ""
+   }
+  },
+  {
+   "window": 134,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭タワー展望台",
+   "voice": "A4620.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "戦争は　時に美しく見えたり",
+    "ko": ""
+   }
+  },
+  {
+   "window": 134,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭タワー展望台",
+   "voice": "A4620.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "時には正義に見えたりするものよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 134,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭タワー展望台",
+   "voice": "A4620.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "完全に悪なものに対して　人は命を懸けないわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 135,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭タワー展望台",
+   "voice": "A4621.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "戦争だって平和だって　どちらも人間が生きてきた",
+    "ko": ""
+   }
+  },
+  {
+   "window": 135,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭タワー展望台",
+   "voice": "A4621.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "証みたいなものよ。完全に否定することは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 135,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭タワー展望台",
+   "voice": "A4621.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "人間自身を否定することに繋がるんじゃないかしら・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 136,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭タワー展望台",
+   "voice": "A4622.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "そろそろ　行きましょうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 137,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭タワー展望台",
+   "voice": "A4604.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "@S@・・・@P@そろそろ　時間ね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 137,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-29",
+   "slot": null,
+   "place": "午前｜午後／五稜郭タワー展望台",
+   "voice": "A4604.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "函館山の夜景　見に行きましょ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 138,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 20,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／ロープウェイ内部",
+   "voice": "A4624.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "グランドキャニオンが一番綺麗に見えるのは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 138,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 20,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／ロープウェイ内部",
+   "voice": "A4624.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "それを初めて見た瞬間だって言うわよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 138,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 20,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／ロープウェイ内部",
+   "voice": "A4624.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "ここの夜景も　そんな感じかもね・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 139,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "A4625.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "夜景なんて　電力の無駄使いよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 139,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "A4625.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "夜は暗いのが当たり前なのに",
+    "ko": ""
+   }
+  },
+  {
+   "window": 139,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "A4625.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "限りある資源を使って　無理に闇を照らしている・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 140,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "A4626.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "@S@・・・・・・@P@でも・・綺麗・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 141,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "A4627.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "いくら否定しても・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 141,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "A4627.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "この景色を美しいと思う気持ちは　変わらない・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 142,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "A4628.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "恋愛って　女の弱さが出ちゃうような気がして",
+    "ko": ""
+   }
+  },
+  {
+   "window": 142,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "A4628.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "・・・ずっと避けていたわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 143,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "A4629.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "好きになった人は何人もいるけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 143,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "A4629.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "その人のことを　嫌いになることだって簡単だった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 144,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "A4630.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "だって恋愛なんて　錯覚と思いこみの産物でしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 144,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "A4630.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "冷めちゃえば　後は退屈が待っているだけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 145,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "A4631.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "優しい人は優柔不断で",
+    "ko": ""
+   }
+  },
+  {
+   "window": 145,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "A4631.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "強い人は強引で・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 145,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "A4631.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "長所はやがて　全部短所に変わってゆくわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 146,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "A4632.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "あなただってそうよ。歳も離れてるし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 146,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "A4632.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "おせっかいで　しつこいところもあるし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 146,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "A4632.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "生意気だし　物好きだし・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 147,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "A4633.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "@S@・・・・・・@P@でも好き・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 148,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "A4634.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "頭でいくら否定しても・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 148,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "A4634.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "心が・・叫んでるの・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 149,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "A4635.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "あなたのことが・・・大好きって・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 150,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "A4636.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "@S@・・@P@何でかしらね・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 150,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "A4636.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "心なんて　頭で全部　否定できるはずなのに・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 151,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "僕は薫さんが好きだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 151,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "薫さん僕のことどう思ってる？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 151,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "寒いね。そろそろ帰ろうか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 152,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "A4637.WAV",
+   "chars": 5,
+   "text": {
+    "ja": "@S@・・・@P@え？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 153,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "A4638.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "@S@・・・・・・・@P@ごめんね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 153,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "A4638.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "今は　何も言えないわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 153,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "A4638.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "そんな風に言われると・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 154,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "A4639.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "あなたに関しても　私の頭と心が",
+    "ko": ""
+   }
+  },
+  {
+   "window": 154,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "A4639.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "折り合い付いていないみたい・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 155,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "A4640.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "@S@・・・@P@寒くなってきたわね？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 155,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "A4640.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "そろそろ帰りましょう・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 156,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "A4641.WAV",
+   "chars": 5,
+   "text": {
+    "ja": "@S@・・・@P@え？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 157,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "A4642.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "@S@・・・・・・・@P@ごめんね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 157,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "A4642.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "今は　何も言えないわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 157,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "A4642.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "そんな風に言われると・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 158,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "A4643.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "あなたに関しても　私の頭と心が",
+    "ko": ""
+   }
+  },
+  {
+   "window": 158,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "A4643.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "折り合い付いていないみたい・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 159,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "A4646.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "@S@・・・@P@寒くなってきたわね？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 159,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "A4646.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "そろそろ帰りましょう・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 160,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "A4645.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "@S@・・・@P@そうね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 161,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "A4644.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "@S@・・・@P@寒くなってきたわね？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 161,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-29",
+   "slot": "夕方",
+   "place": "函館山／展望台",
+   "voice": "A4644.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "そろそろ帰りましょう・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 162,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 22,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "薫さんと別れて　書斎に戻った。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 163,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 22,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "イルミネーション・カウントダウンが行われる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 163,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 22,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "大晦日まで　あと二日！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 163,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 22,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "明日デートに誘いたいのは・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 164,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "もちろん薫さんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 164,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "いや・・そうじゃなくて・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 165,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 22,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "明日は一緒に札幌の街を歩きたい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 166,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 22,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "明日は一緒に函館に行きたい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 167,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 22,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "よし！　まずは電話してみよう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 168,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 23,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎２",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "さてこれから　どうしようかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 169,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 23,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎２",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "さてこれから　どうしようかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 170,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 23,
+   "date": "12-29",
+   "slot": "夜",
+   "place": "ローズヒル南平岸／書斎２",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "さてこれから　どうしようかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 171,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 24,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4649.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "はい。椎名です。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 172,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 24,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "もしもし・・&主人公名前&です。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 173,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 24,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4651.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "あら？　奇遇ね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 173,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 24,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4651.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "ちょうど私も　電話しようと思っていた所よ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 173,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 24,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4651.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "それでご用件は？　ひょっとしてデートのお誘い？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 174,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 24,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "うん。明日　函館に行こうかって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 174,
+   "line": 1,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 24,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "思ってたんだけど・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 175,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 24,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "うん。明日　札幌の街を歩こうかって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 175,
+   "line": 1,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 24,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "思ってたんだけど・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 176,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 24,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4653.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "@S@・・・@P@どうしようかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 176,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 24,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4653.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "ねぇ&主人公&君　私とそんなに会ってたら",
+    "ko": ""
+   }
+  },
+  {
+   "window": 176,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 24,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4653.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "他の女の子がヤキモチ焼かない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 177,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 24,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "そんな人・・いないよ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 178,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 24,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a4655.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "それならいいけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 178,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 24,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a4655.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "・・・待ち合わせ　どうする？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 178,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 24,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a4655.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "札幌駅でいい？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 179,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 24,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "うん。それじゃ明日の朝　札幌駅で・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 180,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 24,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4657.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "@S@・・・@P@電話　嬉しかったわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 180,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 24,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4657.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "それじゃ　また明日。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 180,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 24,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4657.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "・・おやすみなさい・・",
+    "ko": ""
+   }
+  }
+ ]
+}

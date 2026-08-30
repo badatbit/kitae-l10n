@@ -1,0 +1,918 @@
+{
+ "script": "TANYA_CBS",
+ "source": "ja",
+ "entries": [
+  {
+   "window": 0,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 0,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a5142.wav",
+   "chars": 11,
+   "text": {
+    "ja": "あ・・ごめんなさい・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 0,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 0,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a5142.wav",
+   "chars": 11,
+   "text": {
+    "ja": "先に言っていいですよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 0,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a5143.wav",
+   "chars": 5,
+   "text": {
+    "ja": "あの・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 0,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a5143.wav",
+   "chars": 25,
+   "text": {
+    "ja": "あ・・ごめんなさい・・同時に喋ってしまいましたね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 2,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 0,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a5143.wav",
+   "chars": 14,
+   "text": {
+    "ja": "・・・あの・・お先にどうぞ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 2,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 0,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a5144.wav",
+   "chars": 16,
+   "text": {
+    "ja": "私・・・あ・・・ごめんなさい・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 2,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 0,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a5144.wav",
+   "chars": 12,
+   "text": {
+    "ja": "どうぞ先に喋って下さい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 3,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a5145.wav",
+   "chars": 8,
+   "text": {
+    "ja": "はい。何ですか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 4,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a7636.wav",
+   "chars": 11,
+   "text": {
+    "ja": "あの・・どうしました？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 5,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a7637.wav",
+   "chars": 2,
+   "text": {
+    "ja": "え？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 6,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a7638.wav",
+   "chars": 13,
+   "text": {
+    "ja": "あの・・どうしたんですか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 7,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "もう一回最初から話して",
+    "ko": ""
+   }
+  },
+  {
+   "window": 7,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "その話題・・もういいよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 7,
+   "line": 2,
+   "speaker": "ターニャ",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "いや・・何でもない・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 7,
+   "line": 3,
+   "speaker": "ターニャ",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "プレゼントをあげる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 8,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a5146.wav",
+   "chars": 9,
+   "text": {
+    "ja": "はい。いいですよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 9,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a5147.wav",
+   "chars": 3,
+   "text": {
+    "ja": "ええ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 10,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a5148.wav",
+   "chars": 6,
+   "text": {
+    "ja": "そうですね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 11,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a5149.wav",
+   "chars": 10,
+   "text": {
+    "ja": "あ・・ごめんなさい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 11,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a5149.wav",
+   "chars": 17,
+   "text": {
+    "ja": "それでは・・何を話しましょうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 11,
+   "line": 2,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a5149.wav",
+   "chars": 15,
+   "text": {
+    "ja": "・・・そうですね。それでは・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 12,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a5150.wav",
+   "chars": 12,
+   "text": {
+    "ja": "@S@・・・・・@P@そうですか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 12,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a5150.wav",
+   "chars": 17,
+   "text": {
+    "ja": "それでは・・何を話しましょうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 12,
+   "line": 2,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a5150.wav",
+   "chars": 10,
+   "text": {
+    "ja": "・・・あ・・そうだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 13,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a5151.wav",
+   "chars": 19,
+   "text": {
+    "ja": "@S@・・・・・@P@そうですか・・そうですよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 13,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a5151.wav",
+   "chars": 17,
+   "text": {
+    "ja": "それでは・・何を話しましょうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 13,
+   "line": 2,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a5151.wav",
+   "chars": 10,
+   "text": {
+    "ja": "・・・あ・・そうだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 14,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a5152.wav",
+   "chars": 10,
+   "text": {
+    "ja": "あ・・そうですか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 14,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a5152.wav",
+   "chars": 20,
+   "text": {
+    "ja": "本当に　何でもないなら　いいのですが・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 14,
+   "line": 2,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a5152.wav",
+   "chars": 24,
+   "text": {
+    "ja": "・・・どこまで話しましたっけ・・あ・・そうだ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 15,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a5153.wav",
+   "chars": 13,
+   "text": {
+    "ja": "@S@・・・・・・・@P@そうですか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 15,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a5153.wav",
+   "chars": 20,
+   "text": {
+    "ja": "本当に　何でもないなら　いいのですが・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 15,
+   "line": 2,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a5153.wav",
+   "chars": 24,
+   "text": {
+    "ja": "・・・どこまで話しましたっけ・・あ・・そうだ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 16,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a5154.wav",
+   "chars": 17,
+   "text": {
+    "ja": "@S@・・・・・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 16,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a5154.wav",
+   "chars": 24,
+   "text": {
+    "ja": "・・@P@・どこまで話しましたっけ・・あ・・そうだ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 17,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a5154.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "@S@・・・・・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 17,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a5154.WAV",
+   "chars": 24,
+   "text": {
+    "ja": "・・@P@・どこまで話しましたっけ・・あ・・そうだ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 18,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a7639.wav",
+   "chars": 15,
+   "text": {
+    "ja": "え？　それ・・頂けるんですか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 18,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a7639.wav",
+   "chars": 21,
+   "text": {
+    "ja": "ありがとうございます。私　大切にしますね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 19,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a7640.wav",
+   "chars": 15,
+   "text": {
+    "ja": "え？　それ・・頂けるんですか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 19,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a7640.wav",
+   "chars": 11,
+   "text": {
+    "ja": "ありがとうございます。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 20,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a7641.wav",
+   "chars": 24,
+   "text": {
+    "ja": "それ・・頂けるんですか？　お気持ちは嬉しいです。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 20,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a7641.wav",
+   "chars": 17,
+   "text": {
+    "ja": "でも・・私　もう持ってますから・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 20,
+   "line": 2,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a7641.wav",
+   "chars": 13,
+   "text": {
+    "ja": "・・・・・・ごめんなさい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 21,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a7642.wav",
+   "chars": 24,
+   "text": {
+    "ja": "それ・・頂けるんですか？　お気持ちは嬉しいです。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 21,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a7642.wav",
+   "chars": 11,
+   "text": {
+    "ja": "でも・・ごめんなさい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 21,
+   "line": 2,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a7642.wav",
+   "chars": 23,
+   "text": {
+    "ja": "誰か他の人にあげた方が　喜ばれると思いますよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 22,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a7643.wav",
+   "chars": 24,
+   "text": {
+    "ja": "それ・・頂けるんですか？　お気持ちは嬉しいです。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 22,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a7643.wav",
+   "chars": 24,
+   "text": {
+    "ja": "でも　そんな高価なものを頂くわけにはいきません。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 22,
+   "line": 2,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a7643.wav",
+   "chars": 13,
+   "text": {
+    "ja": "・・・・・・ごめんなさい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 23,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 2,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a5182.wav",
+   "chars": 10,
+   "text": {
+    "ja": "@S@・・・@P@ごめんなさい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 23,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 2,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a5182.wav",
+   "chars": 15,
+   "text": {
+    "ja": "こんな話　つまらないですよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 24,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 2,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a5183.wav",
+   "chars": 10,
+   "text": {
+    "ja": "@S@・・・@P@ごめんなさい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 24,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 2,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a5183.wav",
+   "chars": 20,
+   "text": {
+    "ja": "私　変なことを言ってしまったようですね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 25,
+   "line": 0,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 2,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a5184.wav",
+   "chars": 16,
+   "text": {
+    "ja": "@S@・・・・・・・・・・・・・・・@P@・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 25,
+   "line": 1,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 2,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a5184.wav",
+   "chars": 9,
+   "text": {
+    "ja": "どうしたんですか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 25,
+   "line": 2,
+   "speaker": "ターニャ",
+   "kind": "대사",
+   "scene": 2,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a5184.wav",
+   "chars": 16,
+   "text": {
+    "ja": "さっきから　ずっと黙ってますよ？",
+    "ko": ""
+   }
+  }
+ ]
+}

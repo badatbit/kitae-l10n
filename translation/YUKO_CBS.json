@@ -1,0 +1,950 @@
+{
+ "script": "YUKO_CBS",
+ "source": "ja",
+ "entries": [
+  {
+   "window": 0,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 0,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a3782.wav",
+   "chars": 3,
+   "text": {
+    "ja": "あ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 0,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 0,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a3782.wav",
+   "chars": 19,
+   "text": {
+    "ja": "・・・ごめん！　タイミング悪かったね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 0,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 0,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a3782.wav",
+   "chars": 12,
+   "text": {
+    "ja": "うん。先に喋っていいよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 0,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a3783.wav",
+   "chars": 6,
+   "text": {
+    "ja": "あのさ・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 0,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a3783.wav",
+   "chars": 19,
+   "text": {
+    "ja": "・・・ごめん！　同時に喋っちゃったね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 0,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a3783.wav",
+   "chars": 12,
+   "text": {
+    "ja": "うん。先に喋っていいよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 2,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 0,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a3784.wav",
+   "chars": 16,
+   "text": {
+    "ja": "でさぁ！！　・・・あ・・ごめん！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 2,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 0,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a3784.wav",
+   "chars": 15,
+   "text": {
+    "ja": "なんか・・タイミング悪いよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 2,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 0,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a3784.wav",
+   "chars": 12,
+   "text": {
+    "ja": "うん。先に喋っていいよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 3,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a3785.wav",
+   "chars": 6,
+   "text": {
+    "ja": "え？　なに？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 4,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a7545.wav",
+   "chars": 4,
+   "text": {
+    "ja": "何よぉ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 5,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a7546.wav",
+   "chars": 3,
+   "text": {
+    "ja": "ん！？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 6,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a7547.wav",
+   "chars": 17,
+   "text": {
+    "ja": "ねぇちょっと！　私　喋ってるのよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 6,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a7547.wav",
+   "chars": 9,
+   "text": {
+    "ja": "で・・どうしたの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 7,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "もう一回最初から話して",
+    "ko": ""
+   }
+  },
+  {
+   "window": 7,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "その話題・・もういいよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 7,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "いや・・何でもない・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 7,
+   "line": 3,
+   "speaker": "由子",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "プレゼントをあげる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 8,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a3786.wav",
+   "chars": 8,
+   "text": {
+    "ja": "まぁ　いいけど？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 9,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a3787.wav",
+   "chars": 4,
+   "text": {
+    "ja": "まぁ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 10,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a3788.wav",
+   "chars": 5,
+   "text": {
+    "ja": "いいけど？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 11,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a3789.wav",
+   "chars": 13,
+   "text": {
+    "ja": "@S@・・・・・@P@そんな風に言う？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 11,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a3789.wav",
+   "chars": 13,
+   "text": {
+    "ja": "まぁ・・しょうがないか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 11,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a3789.wav",
+   "chars": 23,
+   "text": {
+    "ja": "それじゃ・・何話そうかな・・あ・・そうそう・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 12,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a3790.wav",
+   "chars": 15,
+   "text": {
+    "ja": "何よ！　ちゃんと聞きなさいよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 12,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a3790.wav",
+   "chars": 15,
+   "text": {
+    "ja": "でもまぁ・・しょうがないか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 12,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a3790.wav",
+   "chars": 23,
+   "text": {
+    "ja": "それじゃ・・何話そうかな・・あ・・そうそう・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 13,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a3791.wav",
+   "chars": 20,
+   "text": {
+    "ja": "頭来た！　人の話　ちゃんと聞きなさいよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 13,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a3791.wav",
+   "chars": 24,
+   "text": {
+    "ja": "でもまぁ・・しょうがないのかな・・高校生だし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 13,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a3791.wav",
+   "chars": 23,
+   "text": {
+    "ja": "それじゃ・・何話そうかな・・あ・・そうそう・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 14,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a3792.wav",
+   "chars": 11,
+   "text": {
+    "ja": "何よぉ・・ちょっと・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 14,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a3792.wav",
+   "chars": 21,
+   "text": {
+    "ja": "どこまで話したか　忘れちゃったじゃない・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 14,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a3792.wav",
+   "chars": 20,
+   "text": {
+    "ja": "えーと・・何だっけ・・あ・・そうそう・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 15,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a3793.wav",
+   "chars": 15,
+   "text": {
+    "ja": "そういうのやめてくれないかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 15,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a3793.wav",
+   "chars": 21,
+   "text": {
+    "ja": "どこまで話したか　忘れちゃったじゃない・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 15,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a3793.wav",
+   "chars": 20,
+   "text": {
+    "ja": "えーと・・何だっけ・・あ・・そうそう・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 16,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a3794.wav",
+   "chars": 14,
+   "text": {
+    "ja": "@S@・・・・・・・・・@P@変なの！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 16,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a3794.wav",
+   "chars": 22,
+   "text": {
+    "ja": "私　何話してたんだっけ・・あ・・そうそう・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 17,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a3794.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "@S@・・・・・・・・・@P@変なの！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 17,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a3794.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "私　何話してたんだっけ・・あ・・そうそう・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 18,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a7548.wav",
+   "chars": 13,
+   "text": {
+    "ja": "え？　プレゼント？　私に？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 18,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a7548.wav",
+   "chars": 12,
+   "text": {
+    "ja": "サンキュウ！　ありがと！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 18,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a7548.wav",
+   "chars": 12,
+   "text": {
+    "ja": "私それ　欲しかったんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 19,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a7549.wav",
+   "chars": 13,
+   "text": {
+    "ja": "え？　プレゼント？　私に？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 19,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a7549.wav",
+   "chars": 19,
+   "text": {
+    "ja": "せっかくだから　もらっておこうかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 19,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a7549.wav",
+   "chars": 6,
+   "text": {
+    "ja": "ありがとう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 20,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a7550.wav",
+   "chars": 13,
+   "text": {
+    "ja": "え？　それってプレゼント？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 20,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a7550.wav",
+   "chars": 17,
+   "text": {
+    "ja": "でもなぁ・・私　それ持ってるんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 20,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a7550.wav",
+   "chars": 15,
+   "text": {
+    "ja": "誰か他の人に　あげるといいよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 21,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a7551.wav",
+   "chars": 13,
+   "text": {
+    "ja": "え？　それってプレゼント？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 21,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a7551.wav",
+   "chars": 25,
+   "text": {
+    "ja": "でもなぁ・・私　そういうの趣味じゃないからなぁ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 21,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a7551.wav",
+   "chars": 15,
+   "text": {
+    "ja": "誰か他の人に　あげるといいよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 22,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a7552.wav",
+   "chars": 13,
+   "text": {
+    "ja": "え？　プレゼント？　私に？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 22,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a7552.wav",
+   "chars": 17,
+   "text": {
+    "ja": "でもなぁ・・それって高いんでしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 22,
+   "line": 2,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a7552.wav",
+   "chars": 11,
+   "text": {
+    "ja": "悪いけど　貰えないよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 23,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a3822.wav",
+   "chars": 22,
+   "text": {
+    "ja": "@S@・・・@P@なんかずっと黙ってるけど　どうしたの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 24,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a3823.wav",
+   "chars": 12,
+   "text": {
+    "ja": "@S@・・・@P@ねぇ・・無口なの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 24,
+   "line": 1,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a3823.wav",
+   "chars": 15,
+   "text": {
+    "ja": "それともちゃんと聞いてないの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 25,
+   "line": 0,
+   "speaker": "由子",
+   "kind": "대사",
+   "scene": 2,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a3824.wav",
+   "chars": 16,
+   "text": {
+    "ja": "@S@・・・@P@おーい！　聞いてるかーー？",
+    "ko": ""
+   }
+  }
+ ]
+}

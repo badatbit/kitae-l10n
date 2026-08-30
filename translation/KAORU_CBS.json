@@ -1,0 +1,870 @@
+{
+ "script": "KAORU_CBS",
+ "source": "ja",
+ "entries": [
+  {
+   "window": 0,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 0,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4511.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "あ・・・ごめんなさい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 0,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 0,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4511.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "一緒に喋っちゃったわね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 0,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 0,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4511.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "お先にどうぞ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 0,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4513.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "あのね・・・あ・・ごめんなさい・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 0,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4513.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "お先にどうぞ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 2,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 0,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4512.WAV",
+   "chars": 4,
+   "text": {
+    "ja": "あ・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 2,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 0,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4512.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "うふふ・・ハッピーアイスクリーム・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 2,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 0,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4512.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "先に喋っていいわよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 3,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4514.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "ん？　なぁに？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 4,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4515.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "え？　どうしたの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 5,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4516.WAV",
+   "chars": 2,
+   "text": {
+    "ja": "ん？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 6,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4517.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "ちょっと・・人の話　ちゃんと聞いてくれない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 6,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4517.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "それで？　・・どうしたの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 7,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "もう一回最初から話して",
+    "ko": ""
+   }
+  },
+  {
+   "window": 7,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "その話題・・もういいよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 7,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "いや・・何でもない・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 7,
+   "line": 3,
+   "speaker": "薫",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "プレゼントをあげる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 8,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4518.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "ええ。いいわよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 9,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4519.WAV",
+   "chars": 4,
+   "text": {
+    "ja": "そうね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 10,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4520.WAV",
+   "chars": 5,
+   "text": {
+    "ja": "いいわよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 11,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4521.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "あ・・・ごめんなさい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 11,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4521.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "それじゃ・・何を話しましょうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 11,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4521.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "・・あ・・そうそう・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 12,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4522.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "@S@・・・・・@P@ごめんなさいね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 12,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4522.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "それじゃ・・何を話しましょうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 12,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4522.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "・・あ・・そうそう・・あのね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 13,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4523.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "@S@・・・・・@P@ふーん・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 13,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4523.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "じゃぁ・・何を話せばいいのかしらね？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 13,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4523.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "・・・それじゃ・・こう言うのはどう？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 14,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4524.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "うふふ・・変な子ね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 14,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4524.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "どこまで話したかしら・・・そうそう・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 15,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4525.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "ふぅん・・まぁいいわ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 15,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4525.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "どこまで話したかしら・・・そうそう・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 16,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4526.WAV",
+   "chars": 6,
+   "text": {
+    "ja": "変なの・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 16,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4526.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "私　何話してたっけ・・あ・・そうそう・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 17,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a4526.WAV",
+   "chars": 6,
+   "text": {
+    "ja": "変なの・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 17,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a4526.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "私　何話してたっけ・・あ・・そうそう・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 18,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a7574.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "え？　それ　プレゼントしてくれるの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 18,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a7574.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "嬉しいわ。大切にするわね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 19,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A7575.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "あら　それって　プレゼント？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 19,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A7575.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "うふふ・・ありがとう。もらっておくわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 20,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A7576.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "あら　それって　プレゼント？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 20,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A7576.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "でも私　それ持ってるから他の人にあげてね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 21,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A7577.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "あら　それって　プレゼント？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 21,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A7577.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "せっかくだけど　ちょっと趣味じゃないかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 21,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A7577.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "他の人にあげてね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 22,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A7578.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "え？　それ　プレゼントしてくれるの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 22,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A7578.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "・・でも　ちょっと高すぎない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 22,
+   "line": 2,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A7578.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "年下の男の子から　そういうのは貰えないな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 23,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 2,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4527.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "@S@・・・@P@こんな話　つまらないかしら？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 24,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 2,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4528.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "@S@・・・@P@忠告させて。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 24,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 2,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4528.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "人の話は　ちゃんと聞くものよ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 25,
+   "line": 0,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 2,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4529.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "@S@・・・・・・・・・・・・・・・@P@・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 25,
+   "line": 1,
+   "speaker": "薫",
+   "kind": "대사",
+   "scene": 2,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A4529.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "ねぇ？　人の話　ちゃんと聞いてる？",
+    "ko": ""
+   }
+  }
+ ]
+}

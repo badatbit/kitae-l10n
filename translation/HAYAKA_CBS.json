@@ -1,0 +1,886 @@
+{
+ "script": "HAYAKA_CBS",
+ "source": "ja",
+ "entries": [
+  {
+   "window": 0,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 0,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2325.WAV",
+   "chars": 4,
+   "text": {
+    "ja": "あ・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 0,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 0,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2325.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "・・あんた先に　言いなよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 0,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2326.WAV",
+   "chars": 5,
+   "text": {
+    "ja": "でさ・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 0,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2326.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "・・・まいったね。一緒に喋っちまった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 0,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2326.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "お先にどうぞ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 2,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 0,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2327.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "あ・・・ごめん・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 2,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 0,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2327.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "先に喋んなよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 3,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2328.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "あん？　・・なんだよ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 4,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A7413.WAV",
+   "chars": 8,
+   "text": {
+    "ja": "え？　何だって？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 5,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A7414.WAV",
+   "chars": 3,
+   "text": {
+    "ja": "あん？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 6,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A7415.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "ったく！　こっちが喋ってるだろ！　何だよ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 7,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "もう一回最初から話して",
+    "ko": ""
+   }
+  },
+  {
+   "window": 7,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "その話題・・もういいよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 7,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "いや・・何でもない・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 7,
+   "line": 3,
+   "speaker": "葉野香",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "プレゼントをあげる",
+    "ko": ""
+   }
+  },
+  {
+   "window": 8,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2329.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "ああ・・いいけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 9,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2330.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "まぁ・・いいけどさ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 10,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2331.WAV",
+   "chars": 4,
+   "text": {
+    "ja": "ああ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 11,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2332.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "そっか・・・じゃ・・何話すかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 11,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2332.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "・・あ・・そうだ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 12,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2333.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "@S@・・・・@P@なんだかなぁ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 12,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2333.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "それじゃ　あの話するよ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 13,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2334.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "@S@・・・@P@はん！　・・・そうかよ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 13,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2334.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "じゃ　何話せばいいんだよ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 13,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2334.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "・・・・ったく　しょうがねぇな・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 14,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2335.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "何だよ？　気になるだろ？　・・・まぁいいけどさ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 14,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2335.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "どこまで話したか忘れちまったよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 14,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2335.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "・・・あ・・そうそう・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 15,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2336.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "変なヤツ・・・まぁいいけどさ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 15,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2336.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "どこまで話したか忘れちまったよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 15,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2336.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "・・・あ・・そうそう・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 16,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2337.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "ふぅん・・・まぁいいけどさ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 16,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2337.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "何話してたっけ・・あ・・そうそう・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 17,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2336.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "変なヤツ・・・まぁいいけどさ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 17,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2336.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "どこまで話したか忘れちまったよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 17,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2336.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "・・・あ・・そうそう・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 18,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A7416.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "え？　それ？　くれるのか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 18,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A7416.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "ありがとう！　欲しかったんだ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 19,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A7417.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "あ・・え？　くれるのか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 19,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A7417.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "まぁ　もらっておくよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 20,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A7418.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "あ・・え？　くれるのか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 20,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A7418.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "でもそれ　持ってるからなぁ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 20,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A7418.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "他の人にあげた方が　いいんじゃないか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 21,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A7419.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "あ・・え？　くれるのか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 21,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A7419.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "でも　そういうの趣味じゃないな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 21,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A7419.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "他の人にあげた方が　いいんじゃないか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 22,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A7420.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "え？　それ？　くれるのか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 22,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A7420.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "・・でも高いだろ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 22,
+   "line": 2,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 1,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A7420.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "気持ちだけもらっておくよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 23,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 2,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2365.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "@S@・・・・・@P@話　つまんないみたいだな。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 23,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 2,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2365.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "さっきからずっと　黙ってるし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 24,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 2,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2366.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "@S@・・・@P@私　何か変なこと言ったか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 24,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 2,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2366.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "まぁいいけどさ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 25,
+   "line": 0,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 2,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2367.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "@S@・・・・・・・・・・・・・・・@P@・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 25,
+   "line": 1,
+   "speaker": "葉野香",
+   "kind": "대사",
+   "scene": 2,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A2367.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "ったく！　何か喋れよ！",
+    "ko": ""
+   }
+  }
+ ]
+}

@@ -1,0 +1,10406 @@
+{
+ "script": "梢冬2",
+ "source": "ja",
+ "entries": [
+  {
+   "window": 0,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-30",
+   "slot": "朝",
+   "place": "梢と札幌デートの場合",
+   "voice": "A3126.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "おっはよー！　今日もいい天気だね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 0,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-30",
+   "slot": "朝",
+   "place": "梢と札幌デートの場合",
+   "voice": "A3126.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "それじゃ　そろそろ行こ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／紅茶の店アッサム／外観",
+   "voice": "a3272.wav",
+   "chars": 16,
+   "text": {
+    "ja": "あ・・このお店　結構有名だよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／紅茶の店アッサム／外観",
+   "voice": "a3272.wav",
+   "chars": 19,
+   "text": {
+    "ja": "でも&主人公&さん　何でこんなお店　知ってるの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／紅茶の店アッサム／外観",
+   "voice": "a3272.wav",
+   "chars": 24,
+   "text": {
+    "ja": "・・ひょっとして　紅茶好きの女の子に紹介された？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 2,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "まぁ・・ね",
+    "ko": ""
+   }
+  },
+  {
+   "window": 2,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "たまたま来ただけだよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 2,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "自分で調べたんだよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 3,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／紅茶の店アッサム／外観",
+   "voice": "a3273.wav",
+   "chars": 9,
+   "text": {
+    "ja": "@S@・・・@P@ふぅーん・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 4,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／紅茶の店アッサム／外観",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "あっ！　でも親戚の子だよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 5,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／紅茶の店アッサム／外観",
+   "voice": "a3275.wav",
+   "chars": 14,
+   "text": {
+    "ja": "例の　一緒に住んでる女の子？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 6,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／紅茶の店アッサム／外観",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "一緒に住んでるって言っても・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 7,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／紅茶の店アッサム／外観",
+   "voice": "a3277.wav",
+   "chars": 13,
+   "text": {
+    "ja": "私　信じてるから　大丈夫！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 7,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／紅茶の店アッサム／外観",
+   "voice": "a3277.wav",
+   "chars": 19,
+   "text": {
+    "ja": "疑ったり嫉妬したりヤキモチ焼いたり・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 7,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／紅茶の店アッサム／外観",
+   "voice": "a3277.wav",
+   "chars": 23,
+   "text": {
+    "ja": "なんてことはないから　安心してね。行きましょ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 8,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／紅茶の店アッサム／外観",
+   "voice": "a3278.wav",
+   "chars": 16,
+   "text": {
+    "ja": "そっか・・疑ったりしてごめんね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 8,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／紅茶の店アッサム／外観",
+   "voice": "a3278.wav",
+   "chars": 6,
+   "text": {
+    "ja": "行きましょ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 9,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／紅茶の店アッサム／外観",
+   "voice": "a3279.wav",
+   "chars": 22,
+   "text": {
+    "ja": "ほんと？　私のために色々調べてくれたんだ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 9,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／紅茶の店アッサム／外観",
+   "voice": "a3279.wav",
+   "chars": 19,
+   "text": {
+    "ja": "ありがとう。・・疑ったりしてごめんね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 9,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／紅茶の店アッサム／外観",
+   "voice": "a3279.wav",
+   "chars": 11,
+   "text": {
+    "ja": "それじゃ　行きましょ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 10,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／紅茶の店アッサム／外観",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 11,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／紅茶の店アッサム／外観",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 12,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 1,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／紅茶の店アッサム／外観",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 13,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／紅茶の店アッサム／外観",
+   "voice": "A3049.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "@S@・・・@P@なんか黙っちゃったね・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 13,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／紅茶の店アッサム／外観",
+   "voice": "A3049.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "私　変なこと言った？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 14,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／紅茶の店アッサム／外観",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 15,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／紅茶の店アッサム／外観",
+   "voice": "A3277.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "私　信じてるから　大丈夫！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 15,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／紅茶の店アッサム／外観",
+   "voice": "A3277.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "疑ったり嫉妬したりヤキモチ焼いたり・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 15,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／紅茶の店アッサム／外観",
+   "voice": "A3277.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "なんてことはないから　安心してね。行きましょ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 16,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／紅茶の店アッサム／店内",
+   "voice": "a3280.wav",
+   "chars": 19,
+   "text": {
+    "ja": "紅茶って　高いヤツはホント高いわよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 16,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／紅茶の店アッサム／店内",
+   "voice": "a3280.wav",
+   "chars": 23,
+   "text": {
+    "ja": "１００グラム４０００円なんてのもザラにあるよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 17,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／紅茶の店アッサム／店内",
+   "voice": "a3281.wav",
+   "chars": 21,
+   "text": {
+    "ja": "そういう紅茶って　値段を言われてから飲むと",
+    "ko": ""
+   }
+  },
+  {
+   "window": 17,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／紅茶の店アッサム／店内",
+   "voice": "a3281.wav",
+   "chars": 21,
+   "text": {
+    "ja": "なるほどなぁって思うけど　何も言われないと",
+    "ko": ""
+   }
+  },
+  {
+   "window": 17,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／紅茶の店アッサム／店内",
+   "voice": "a3281.wav",
+   "chars": 19,
+   "text": {
+    "ja": "ただぼんやりと普通に飲んじゃうかも・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 18,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／紅茶の店アッサム／店内",
+   "voice": "a3282.wav",
+   "chars": 24,
+   "text": {
+    "ja": "安くてもおいしい紅茶って　あると思うし　高くても",
+    "ko": ""
+   }
+  },
+  {
+   "window": 18,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／紅茶の店アッサム／店内",
+   "voice": "a3282.wav",
+   "chars": 20,
+   "text": {
+    "ja": "これはちょっとっていうヤツもあるでしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 18,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／紅茶の店アッサム／店内",
+   "voice": "a3282.wav",
+   "chars": 15,
+   "text": {
+    "ja": "ものの価値って　不思議だよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 19,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／紅茶の店アッサム／店内",
+   "voice": "a3283.wav",
+   "chars": 22,
+   "text": {
+    "ja": "『地球上の石ころが　全てダイヤモンドだったら",
+    "ko": ""
+   }
+  },
+  {
+   "window": 19,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／紅茶の店アッサム／店内",
+   "voice": "a3283.wav",
+   "chars": 23,
+   "text": {
+    "ja": "人々は一握りの泥のために命を落とすだろう』って",
+    "ko": ""
+   }
+  },
+  {
+   "window": 19,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／紅茶の店アッサム／店内",
+   "voice": "a3283.wav",
+   "chars": 13,
+   "text": {
+    "ja": "そんな感じの格言あるよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 20,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／紅茶の店アッサム／店内",
+   "voice": "a3284.wav",
+   "chars": 22,
+   "text": {
+    "ja": "それって　なんとなく　わかる気がするなぁ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 20,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／紅茶の店アッサム／店内",
+   "voice": "a3284.wav",
+   "chars": 22,
+   "text": {
+    "ja": "好きとか嫌いじゃなくて　レアなのかどうかって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 20,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／紅茶の店アッサム／店内",
+   "voice": "a3284.wav",
+   "chars": 21,
+   "text": {
+    "ja": "言うのが　今の流行を左右してる感じだしね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 21,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／北海道庁",
+   "voice": "a3285.wav",
+   "chars": 19,
+   "text": {
+    "ja": "小学校の頃　ここで写生大会やったんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 21,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／北海道庁",
+   "voice": "a3285.wav",
+   "chars": 19,
+   "text": {
+    "ja": "ちょうどこんな感じの　雪の道庁だった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 22,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／北海道庁",
+   "voice": "a3286.wav",
+   "chars": 24,
+   "text": {
+    "ja": "その時の美術の先生が　すごくいい先生だったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 22,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／北海道庁",
+   "voice": "a3286.wav",
+   "chars": 23,
+   "text": {
+    "ja": "絵を描くまえに　その先生　こう教えてくれたの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 23,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／北海道庁",
+   "voice": "a3287.wav",
+   "chars": 24,
+   "text": {
+    "ja": "『みんな雪を書くとき　白い絵の具しか使わないけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 23,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／北海道庁",
+   "voice": "a3287.wav",
+   "chars": 25,
+   "text": {
+    "ja": "雪は光の加減で　青く見えることも黄色く見えることも",
+    "ko": ""
+   }
+  },
+  {
+   "window": 23,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／北海道庁",
+   "voice": "a3287.wav",
+   "chars": 24,
+   "text": {
+    "ja": "あるよ。目に見えた通りに描いてごらん。』って・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 24,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／北海道庁",
+   "voice": "a3288.wav",
+   "chars": 24,
+   "text": {
+    "ja": "だから私　緑色の雪を描いたんだ。そしたらみんなに",
+    "ko": ""
+   }
+  },
+  {
+   "window": 24,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／北海道庁",
+   "voice": "a3288.wav",
+   "chars": 21,
+   "text": {
+    "ja": "笑われちゃった。そんな色の雪はないって・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 24,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／北海道庁",
+   "voice": "a3288.wav",
+   "chars": 18,
+   "text": {
+    "ja": "でもその先生はすごく誉めてくれたの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 25,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／北海道庁",
+   "voice": "a3289.wav",
+   "chars": 25,
+   "text": {
+    "ja": "『里中さん　すごい才能だよ。その感性をずっと大事に",
+    "ko": ""
+   }
+  },
+  {
+   "window": 25,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／北海道庁",
+   "voice": "a3289.wav",
+   "chars": 23,
+   "text": {
+    "ja": "するといいよ。』って・・・うれしかったなぁ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 25,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／北海道庁",
+   "voice": "a3289.wav",
+   "chars": 23,
+   "text": {
+    "ja": "それから私　絵を描くことが大好きになったんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 26,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／北海道庁",
+   "voice": "a3290.wav",
+   "chars": 16,
+   "text": {
+    "ja": "もうその先生の顔も忘れちゃったし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 26,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／北海道庁",
+   "voice": "a3290.wav",
+   "chars": 24,
+   "text": {
+    "ja": "その時に描いた絵もきっとどこかにいっちゃったけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 26,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／北海道庁",
+   "voice": "a3290.wav",
+   "chars": 19,
+   "text": {
+    "ja": "その時の気持ちって　今でも覚えてる・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 27,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／北海道庁",
+   "voice": "a3291.wav",
+   "chars": 24,
+   "text": {
+    "ja": "考えたら今まで　大きな家だねとか綺麗な服だねとか",
+    "ko": ""
+   }
+  },
+  {
+   "window": 27,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／北海道庁",
+   "voice": "a3291.wav",
+   "chars": 22,
+   "text": {
+    "ja": "そんなことばっかり誉められて　自分自身のこと",
+    "ko": ""
+   }
+  },
+  {
+   "window": 27,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／北海道庁",
+   "voice": "a3291.wav",
+   "chars": 24,
+   "text": {
+    "ja": "誉められたのって　あの時が初めてかもしれない・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 28,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／北海道庁",
+   "voice": "a3292.wav",
+   "chars": 16,
+   "text": {
+    "ja": "だから私　今でも絵を描いてるよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 28,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／北海道庁",
+   "voice": "a3292.wav",
+   "chars": 23,
+   "text": {
+    "ja": "コンピューターを使えば　油絵風にも水彩画風にも",
+    "ko": ""
+   }
+  },
+  {
+   "window": 28,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／北海道庁",
+   "voice": "a3292.wav",
+   "chars": 21,
+   "text": {
+    "ja": "描けるソフトがあるから　すごく楽しいんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 29,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "本当にいい先生と巡り会えたね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 29,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "小学校なら美術じゃなくて図工じゃない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 29,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "コンピューターで絵を描くなんて邪道だよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 30,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／北海道庁",
+   "voice": "a3293.wav",
+   "chars": 22,
+   "text": {
+    "ja": "うん。私が将来　絵を描く仕事に就けたとしたら",
+    "ko": ""
+   }
+  },
+  {
+   "window": 30,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／北海道庁",
+   "voice": "a3293.wav",
+   "chars": 13,
+   "text": {
+    "ja": "その先生って　恩人だよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 31,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／北海道庁",
+   "voice": "a3294.wav",
+   "chars": 25,
+   "text": {
+    "ja": "@S@・・・@P@そういう細かい突っ込みって好きじゃないな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 32,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／北海道庁",
+   "voice": "a3295.wav",
+   "chars": 9,
+   "text": {
+    "ja": "そんなことないよ@0062@！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 32,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／北海道庁",
+   "voice": "a3295.wav",
+   "chars": 24,
+   "text": {
+    "ja": "コンピューターでしか出来ない表現だってあるんだし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 32,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／北海道庁",
+   "voice": "a3295.wav",
+   "chars": 13,
+   "text": {
+    "ja": "表現に王道も邪道もないよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 33,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／北海道庁",
+   "voice": "a3296.wav",
+   "chars": 23,
+   "text": {
+    "ja": "でもさぁ・・今考えたら　雪の中の写生大会なんて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 33,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／北海道庁",
+   "voice": "a3296.wav",
+   "chars": 20,
+   "text": {
+    "ja": "ちょっと普通じゃないよね。外は寒いし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 34,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／北海道庁",
+   "voice": "a3297.wav",
+   "chars": 17,
+   "text": {
+    "ja": "何であんなこと　やったんだろう・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 34,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／北海道庁",
+   "voice": "a3297.wav",
+   "chars": 18,
+   "text": {
+    "ja": "熱心・・って言うか　ちょっと変わった",
+    "ko": ""
+   }
+  },
+  {
+   "window": 34,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／北海道庁",
+   "voice": "a3297.wav",
+   "chars": 10,
+   "text": {
+    "ja": "先生だったのかもね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 35,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／北海道庁",
+   "voice": "a3298.wav",
+   "chars": 19,
+   "text": {
+    "ja": "@S@・・・@P@そろそろ　他のとこ　行こっか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 36,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／時計台",
+   "voice": "a3299.wav",
+   "chars": 25,
+   "text": {
+    "ja": "時計台って　きっとみんなが腕時計を持ってなかった頃",
+    "ko": ""
+   }
+  },
+  {
+   "window": 36,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／時計台",
+   "voice": "a3299.wav",
+   "chars": 22,
+   "text": {
+    "ja": "誰にでも時間がわかるように　高い建物を作って",
+    "ko": ""
+   }
+  },
+  {
+   "window": 36,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／時計台",
+   "voice": "a3299.wav",
+   "chars": 15,
+   "text": {
+    "ja": "鐘を鳴らしたりしたんだろうね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 37,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／時計台",
+   "voice": "a3300.wav",
+   "chars": 21,
+   "text": {
+    "ja": "だから今は　あんまりその役目を果たしてない",
+    "ko": ""
+   }
+  },
+  {
+   "window": 37,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／時計台",
+   "voice": "a3300.wav",
+   "chars": 25,
+   "text": {
+    "ja": "気がするな・・周りには　もっと高いビルが建ってるし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 37,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／時計台",
+   "voice": "a3300.wav",
+   "chars": 22,
+   "text": {
+    "ja": "街の雑音が多くて　鐘の音も聞こえにくいし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 38,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／時計台",
+   "voice": "a3301.wav",
+   "chars": 21,
+   "text": {
+    "ja": "昔　時計台を移転しようって話があったんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 38,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／時計台",
+   "voice": "a3301.wav",
+   "chars": 17,
+   "text": {
+    "ja": "もっと緑の多い場所に移そうって・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 38,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／時計台",
+   "voice": "a3301.wav",
+   "chars": 17,
+   "text": {
+    "ja": "あの話って　どうなったんだろうね？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 39,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／時計台",
+   "voice": "a3302.wav",
+   "chars": 20,
+   "text": {
+    "ja": "時計台が時計台として役目を果たすためには",
+    "ko": ""
+   }
+  },
+  {
+   "window": 39,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／時計台",
+   "voice": "a3302.wav",
+   "chars": 22,
+   "text": {
+    "ja": "もっと文字盤が見えて　もっと鐘の音が遠くまで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 39,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／時計台",
+   "voice": "a3302.wav",
+   "chars": 23,
+   "text": {
+    "ja": "聞こえる場所に移した方が　いいと思うけどな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 40,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "そうかもしれないね",
+    "ko": ""
+   }
+  },
+  {
+   "window": 40,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "でも歴史的な建造物だし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 41,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／時計台",
+   "voice": "a3303.wav",
+   "chars": 22,
+   "text": {
+    "ja": "うん。今のままだと　なんか寂しそうだもんね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 42,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／時計台",
+   "voice": "a3304.wav",
+   "chars": 18,
+   "text": {
+    "ja": "そういう意味では　時計台ってもともと",
+    "ko": ""
+   }
+  },
+  {
+   "window": 42,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／時計台",
+   "voice": "a3304.wav",
+   "chars": 24,
+   "text": {
+    "ja": "別の場所にあって　移転して今の場所に来たんだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 43,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／時計台",
+   "voice": "a3305.wav",
+   "chars": 22,
+   "text": {
+    "ja": "いろんな人の　いろんな思い出のある場所だから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 43,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／時計台",
+   "voice": "a3305.wav",
+   "chars": 17,
+   "text": {
+    "ja": "簡単に移しちゃえなんて言えないけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 43,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／時計台",
+   "voice": "a3305.wav",
+   "chars": 19,
+   "text": {
+    "ja": "個人的には　移した方が良いと思うんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 44,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／時計台",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 45,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／時計台",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 46,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／時計台",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 47,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／時計台",
+   "voice": "A3048.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "@S@・・・・・@P@ねぇ・・何で黙ってるの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 47,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／時計台",
+   "voice": "A3048.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "ひょっとして私　興味ない話題ふっちゃった？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 48,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／時計台",
+   "voice": "a3306.wav",
+   "chars": 15,
+   "text": {
+    "ja": "それじゃ　そろそろ行こっか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 49,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／須貝ビル／外観",
+   "voice": "a3307.wav",
+   "chars": 14,
+   "text": {
+    "ja": "ゲーセンとカラオケがあるね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 49,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／須貝ビル／外観",
+   "voice": "a3307.wav",
+   "chars": 9,
+   "text": {
+    "ja": "どっちに行きたい？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 50,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "それじゃゲーセンに行こうか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 50,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "それじゃカラオケに行こうか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 51,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／須貝ビル／外観",
+   "voice": "a3308.wav",
+   "chars": 12,
+   "text": {
+    "ja": "うん。私ゲーセン大好き！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 52,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／須貝ビル／外観",
+   "voice": "a3309.wav",
+   "chars": 13,
+   "text": {
+    "ja": "今　練習中の歌があるんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 52,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／須貝ビル／外観",
+   "voice": "a3309.wav",
+   "chars": 11,
+   "text": {
+    "ja": "笑わないで聞いてよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 53,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／須貝ビル／外観",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 54,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／須貝ビル／外観",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 55,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 5,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／須貝ビル／外観",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "梢ちゃんは　どっちが好きなんだろう？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 56,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "ゲーセン",
+    "ko": ""
+   }
+  },
+  {
+   "window": 56,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "カラオケ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 57,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／須貝ビル／外観",
+   "voice": "A3308.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "うん。私ゲーセン大好き！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 58,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／須貝ビル／外観",
+   "voice": "A3309.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "今　練習中の歌があるんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 58,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／須貝ビル／外観",
+   "voice": "A3309.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "笑わないで聞いてよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 59,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 6,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／須貝ビル／ゲームセンター",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "須貝ビル１階のゲームセンターだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 59,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 6,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／須貝ビル／ゲームセンター",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "ＵＦＯキャッチャー　クイズ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 59,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 6,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／須貝ビル／ゲームセンター",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "シューティングゲームなどの筐体がある。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 60,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 6,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／須貝ビル／ゲームセンター",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "さて　何から遊ぼうか・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 61,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "선택지",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "ＵＦＯキャッチャー",
+    "ko": ""
+   }
+  },
+  {
+   "window": 61,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "선택지",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "クイズ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 61,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "선택지",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "シューティングゲーム",
+    "ko": ""
+   }
+  },
+  {
+   "window": 61,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "선택지",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "外に出る",
+    "ko": ""
+   }
+  },
+  {
+   "window": 62,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 7,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A3322.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "いいよ。行こ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 63,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 7,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A3322.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "いいよ。行こ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 64,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 7,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a3322.wav",
+   "chars": 7,
+   "text": {
+    "ja": "いいよ。行こ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 65,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 7,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "そろそろ　ここ出ようか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 66,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 7,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a3323.wav",
+   "chars": 9,
+   "text": {
+    "ja": "うん。出よっか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 67,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 7,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A3322.WAV",
+   "chars": 7,
+   "text": {
+    "ja": "いいよ。行こ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 68,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 9,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／ビートルバム／店内",
+   "voice": "a3310.wav",
+   "chars": 17,
+   "text": {
+    "ja": "あっ！　ＵＦＯキャッチャーやるの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 68,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 9,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／ビートルバム／店内",
+   "voice": "a3310.wav",
+   "chars": 19,
+   "text": {
+    "ja": "じゃぁ　でぶジェルのヌイグルミ取って！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 68,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 9,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／ビートルバム／店内",
+   "voice": "a3310.wav",
+   "chars": 13,
+   "text": {
+    "ja": "黄色くて太ってる方のヤツ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 69,
+   "line": 0,
+   "speaker": "説明",
+   "kind": "나레이션",
+   "scene": 9,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／ビートルバム／店内",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "ＵＦＯキャッチャーの操作説明を見ますか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 70,
+   "line": 0,
+   "speaker": "説明",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "はい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 70,
+   "line": 1,
+   "speaker": "説明",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "いいえ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 71,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 9,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／ビートルバム／店内",
+   "voice": "a3311.wav",
+   "chars": 12,
+   "text": {
+    "ja": "取った！　すごいね&主人公&さん！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 72,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "scene": 9,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／ビートルバム／店内",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "ぱんだジェルをあげますか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 73,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "はい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 73,
+   "line": 1,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "いいえ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 74,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "scene": 9,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／ビートルバム／店内",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "えんジェルをあげますか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 75,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "はい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 75,
+   "line": 1,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "いいえ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 76,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "scene": 9,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／ビートルバム／店内",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "みみジェルをあげますか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 77,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "はい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 77,
+   "line": 1,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "いいえ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 78,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "scene": 9,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／ビートルバム／店内",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "もちジェルをあげますか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 79,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "はい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 79,
+   "line": 1,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "いいえ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 80,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "scene": 9,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／ビートルバム／店内",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "うるふジェルをあげますか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 81,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "はい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 81,
+   "line": 1,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "いいえ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 82,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "scene": 9,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／ビートルバム／店内",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "でぶジェルをあげますか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 83,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "はい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 83,
+   "line": 1,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "いいえ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 84,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 9,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／ビートルバム／店内",
+   "voice": "a3312.wav",
+   "chars": 21,
+   "text": {
+    "ja": "え？　くれるの？　うれしい！　ありがとう！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 85,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 9,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／ビートルバム／店内",
+   "voice": "a3313.wav",
+   "chars": 18,
+   "text": {
+    "ja": "残念・・アームのバネが弱いのかもね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 86,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 9,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／ビートルバム／店内",
+   "voice": "a3321.wav",
+   "chars": 10,
+   "text": {
+    "ja": "ねぇ！　次は何やる？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 87,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 9,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／ビートルバム／店内",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "さて　どうしようか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 88,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 10,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド",
+   "voice": "a3314.wav",
+   "chars": 14,
+   "text": {
+    "ja": "クイズゲーム？　私得意だよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 88,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 10,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド",
+   "voice": "a3314.wav",
+   "chars": 9,
+   "text": {
+    "ja": "ねぇ！　対決しよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 89,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 10,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド",
+   "voice": "a3315.wav",
+   "chars": 10,
+   "text": {
+    "ja": "やったぁ！　勝った！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 90,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 10,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド",
+   "voice": "a3316.wav",
+   "chars": 17,
+   "text": {
+    "ja": "@S@・・・@P@本気出すことないじゃない・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 91,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 10,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド",
+   "voice": "A3321.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "ねぇ！　次は何やる？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 92,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 10,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "さて　どうしようか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 93,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／プール入口",
+   "voice": "a3317.wav",
+   "chars": 11,
+   "text": {
+    "ja": "シューティングやるの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 93,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／プール入口",
+   "voice": "a3317.wav",
+   "chars": 12,
+   "text": {
+    "ja": "まっ　お手並み拝見かな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 94,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／プール入口",
+   "voice": "a3318.wav",
+   "chars": 16,
+   "text": {
+    "ja": "ハイスコアー！　結構　上手だね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 95,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／プール入口",
+   "voice": "a3319.wav",
+   "chars": 10,
+   "text": {
+    "ja": "うん。まぁまぁだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 96,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／プール入口",
+   "voice": "a3320.wav",
+   "chars": 16,
+   "text": {
+    "ja": "ちょっとダメダメな感じ・・かな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 97,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／プール入口",
+   "voice": "A3321.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "ねぇ！　次は何やる？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 98,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 11,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／プール入口",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "さて　どうしようか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 99,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／室内プール",
+   "voice": "a3324.wav",
+   "chars": 14,
+   "text": {
+    "ja": "それじゃ　里中梢　歌います！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 99,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／室内プール",
+   "voice": "a3324.wav",
+   "chars": 9,
+   "text": {
+    "ja": "曲は『ＲＧ』です！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 100,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／室内プール",
+   "voice": "a3328.wav",
+   "chars": 11,
+   "text": {
+    "ja": "やった！　いい点出た！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 100,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／室内プール",
+   "voice": "a3328.wav",
+   "chars": 21,
+   "text": {
+    "ja": "・・ここの判定ルーチン結構かしこいかも・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 101,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／室内プール",
+   "voice": "a3329.wav",
+   "chars": 10,
+   "text": {
+    "ja": "何よ！　この点数・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 101,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／室内プール",
+   "voice": "a3329.wav",
+   "chars": 19,
+   "text": {
+    "ja": "・・判定ルーチン　おかしいんじゃない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 102,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 12,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／室内プール",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "さて　何を歌おうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 103,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "scene": 12,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／室内プール",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "歌う曲目を選んで下さい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 104,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "ＭＯＶＥ　ＯＮ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 104,
+   "line": 1,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "ひこうき雲",
+    "ko": ""
+   }
+  },
+  {
+   "window": 104,
+   "line": 2,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "したっけ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 104,
+   "line": 3,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "わたしまけましたわ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 105,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "scene": 12,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／室内プール",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "歌う曲目を選んで下さい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 106,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "ＭＯＶＥ　ＯＮ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 106,
+   "line": 1,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "ひこうき雲",
+    "ko": ""
+   }
+  },
+  {
+   "window": 106,
+   "line": 2,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "したっけ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 107,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／室内プール",
+   "voice": "a3325.wav",
+   "chars": 16,
+   "text": {
+    "ja": "すごいすごい！　うまいじゃない！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 107,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／室内プール",
+   "voice": "a3325.wav",
+   "chars": 14,
+   "text": {
+    "ja": "点数も結構　いい感じだよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 108,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／室内プール",
+   "voice": "a3326.wav",
+   "chars": 15,
+   "text": {
+    "ja": "歌は良かったけど・・点数がね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 109,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／室内プール",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "そろそろ　ここ出ようか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 110,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／室内プール",
+   "voice": "a3330.wav",
+   "chars": 11,
+   "text": {
+    "ja": "そうだね。出よっか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 111,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 13,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／屋外プール",
+   "voice": "a3331.wav",
+   "chars": 23,
+   "text": {
+    "ja": "ここって喫茶店？　ちょっと歩き疲れた感じだから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 111,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 13,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／屋外プール",
+   "voice": "a3331.wav",
+   "chars": 13,
+   "text": {
+    "ja": "ちょうどいいね。中に入ろ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 112,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／サウナ",
+   "voice": "a3332.wav",
+   "chars": 6,
+   "text": {
+    "ja": "ねぇ。&主人公&さん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 112,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／サウナ",
+   "voice": "a3332.wav",
+   "chars": 15,
+   "text": {
+    "ja": "遠距離恋愛って　難しいのかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 113,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "その人次第じゃない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 113,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "簡単だよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 113,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "やっぱり難しいかもね",
+    "ko": ""
+   }
+  },
+  {
+   "window": 114,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／サウナ",
+   "voice": "a3333.wav",
+   "chars": 11,
+   "text": {
+    "ja": "@S@・・・@P@その人次第か・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 114,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／サウナ",
+   "voice": "a3333.wav",
+   "chars": 11,
+   "text": {
+    "ja": "結構　他人事なんだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 115,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／サウナ",
+   "voice": "a3334.wav",
+   "chars": 9,
+   "text": {
+    "ja": "うん。簡単だよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 115,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／サウナ",
+   "voice": "a3334.wav",
+   "chars": 22,
+   "text": {
+    "ja": "電話だってメールだってファックスだってあるし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 115,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／サウナ",
+   "voice": "a3334.wav",
+   "chars": 19,
+   "text": {
+    "ja": "心が繋がってれば　絶対に大丈夫だよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 116,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／サウナ",
+   "voice": "a3335.wav",
+   "chars": 18,
+   "text": {
+    "ja": "楽しい話題だって　きっと二倍になるし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 116,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／サウナ",
+   "voice": "a3335.wav",
+   "chars": 22,
+   "text": {
+    "ja": "会ったときの気持ちだって　凝縮されるもんね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 117,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／サウナ",
+   "voice": "a3336.wav",
+   "chars": 13,
+   "text": {
+    "ja": "うーん・・・そうかなぁ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 118,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／サウナ",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 119,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／サウナ",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 120,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 14,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／サウナ",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 121,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／サウナ",
+   "voice": "A3049.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "@S@・・・@P@なんか黙っちゃったね・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 121,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／サウナ",
+   "voice": "A3049.WAV",
+   "chars": 10,
+   "text": {
+    "ja": "私　変なこと言った？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 122,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／サウナ",
+   "voice": "a3337.wav",
+   "chars": 23,
+   "text": {
+    "ja": "恋愛って心でするものだから　心の距離が近ければ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 122,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 14,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／サウナ",
+   "voice": "a3337.wav",
+   "chars": 21,
+   "text": {
+    "ja": "物理的な距離は関係ないって　私は思うんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 123,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／プール入口２",
+   "voice": "a7457.wav",
+   "chars": 22,
+   "text": {
+    "ja": "サッポロＳＰＡランドか・・どうしよっかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 124,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／プール入口２",
+   "voice": "a3339.wav",
+   "chars": 15,
+   "text": {
+    "ja": "梢ちゃんの水着姿が見たーいって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 124,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／プール入口２",
+   "voice": "a3339.wav",
+   "chars": 22,
+   "text": {
+    "ja": "ノートに５０回書いたら　つきあってもいいよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 125,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／プール入口２",
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "え？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 126,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／プール入口２",
+   "voice": "a3341.wav",
+   "chars": 6,
+   "text": {
+    "ja": "冗談。行こ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 127,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 16,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／プール受付",
+   "voice": "a3344.wav",
+   "chars": 9,
+   "text": {
+    "ja": "ごめんね。待った？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 128,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 16,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／プール受付",
+   "voice": "a3345.wav",
+   "chars": 17,
+   "text": {
+    "ja": "@S@・・・@P@あんまりじろじろ見ないでよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 128,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 16,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／プール受付",
+   "voice": "a3345.wav",
+   "chars": 9,
+   "text": {
+    "ja": "さっ！　早く行こ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 129,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 16,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／プール受付",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "まず　どこに行こうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 130,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "室内プール",
+    "ko": ""
+   }
+  },
+  {
+   "window": 130,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "屋外プール",
+    "ko": ""
+   }
+  },
+  {
+   "window": 130,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "サウナ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 131,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 16,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／プール受付",
+   "voice": "a3347.wav",
+   "chars": 17,
+   "text": {
+    "ja": "私　最近バタフライを覚えたんだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 131,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 16,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／プール受付",
+   "voice": "a3347.wav",
+   "chars": 8,
+   "text": {
+    "ja": "見せてあげるね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 132,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 16,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／プール受付",
+   "voice": "a3348.wav",
+   "chars": 24,
+   "text": {
+    "ja": "ここの野外プールって　ピラミッド型のあれでしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 132,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 16,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／プール受付",
+   "voice": "a3348.wav",
+   "chars": 13,
+   "text": {
+    "ja": "一度入ってみたかったんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 133,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 16,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／プール受付",
+   "voice": "a3349.wav",
+   "chars": 14,
+   "text": {
+    "ja": "うん。私サウナって好きだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 134,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "선택지",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "室内プール",
+    "ko": ""
+   }
+  },
+  {
+   "window": 134,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "선택지",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "屋外プール",
+    "ko": ""
+   }
+  },
+  {
+   "window": 134,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "선택지",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "サウナ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 135,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／ママ・サブロッソ／外観",
+   "voice": "a3355.wav",
+   "chars": 16,
+   "text": {
+    "ja": "なんか身体　ふやけてきちゃった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 135,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／ママ・サブロッソ／外観",
+   "voice": "a3355.wav",
+   "chars": 11,
+   "text": {
+    "ja": "そろそろ　出ようか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 136,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／ママ・サブロッソ／内部",
+   "voice": "a3350.wav",
+   "chars": 19,
+   "text": {
+    "ja": "バタフライの基本は　水中のキックよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 136,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／ママ・サブロッソ／内部",
+   "voice": "a3350.wav",
+   "chars": 11,
+   "text": {
+    "ja": "・・・こんな感じに・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 137,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／ママ・サブロッソ／内部",
+   "voice": "a3351.wav",
+   "chars": 8,
+   "text": {
+    "ja": "ちゃんと見てた？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 138,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "うん。見てたよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 138,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "・・そんなこと言われても・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 139,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／ママ・サブロッソ／内部",
+   "voice": "a3352.wav",
+   "chars": 7,
+   "text": {
+    "ja": "本当かなぁ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 139,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／ママ・サブロッソ／内部",
+   "voice": "a3352.wav",
+   "chars": 8,
+   "text": {
+    "ja": "まぁいいけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 140,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／ママ・サブロッソ／内部",
+   "voice": "a3353.wav",
+   "chars": 23,
+   "text": {
+    "ja": "実はまだ覚えたてだから　あんまり自信ないんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 140,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／ママ・サブロッソ／内部",
+   "voice": "a3353.wav",
+   "chars": 23,
+   "text": {
+    "ja": "もう少し上手になったら　ちゃんと見せてあげる。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 141,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／ママ・サブロッソ／内部",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 142,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／ママ・サブロッソ／内部",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 143,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 18,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／ママ・サブロッソ／内部",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 144,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／ママ・サブロッソ／内部",
+   "voice": "A3353.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "実はまだ覚えたてだから　あんまり自信ないんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 144,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／ママ・サブロッソ／内部",
+   "voice": "A3353.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "もう少し上手になったら　ちゃんと見せてあげる。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 145,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／ママ・サブロッソ／内部",
+   "voice": "a3354.wav",
+   "chars": 15,
+   "text": {
+    "ja": "そろそろ　別のとこ行こうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 146,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 18,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／ママ・サブロッソ／内部",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "さて　どこに行こうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 147,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "선택지",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "室内プール",
+    "ko": ""
+   }
+  },
+  {
+   "window": 147,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "선택지",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "屋外プール",
+    "ko": ""
+   }
+  },
+  {
+   "window": 147,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "선택지",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "サウナ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 148,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／ママ・サブロッソ／内部",
+   "voice": "a3371.wav",
+   "chars": 16,
+   "text": {
+    "ja": "なんか身体　ふやけてきちゃった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 148,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／ママ・サブロッソ／内部",
+   "voice": "a3371.wav",
+   "chars": 11,
+   "text": {
+    "ja": "そろそろ　出ようか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 149,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／インターミッション１",
+   "voice": "a3356.wav",
+   "chars": 14,
+   "text": {
+    "ja": "あ・・なんかいいな　ここ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 149,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／インターミッション１",
+   "voice": "a3356.wav",
+   "chars": 8,
+   "text": {
+    "ja": "ラブラブな感じ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 150,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "うん。ラブラブ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 150,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "ラブラブって言われても・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 150,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 151,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／インターミッション１",
+   "voice": "a3357.wav",
+   "chars": 8,
+   "text": {
+    "ja": "誰も見てないよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 151,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／インターミッション１",
+   "voice": "a3357.wav",
+   "chars": 11,
+   "text": {
+    "ja": "・・・キス　しようか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 152,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／インターミッション１",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "・・・え？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 153,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／インターミッション１",
+   "voice": "a3359.wav",
+   "chars": 13,
+   "text": {
+    "ja": "@S@・・・・・@P@やっぱりやめた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 154,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／インターミッション１",
+   "voice": "a3360.wav",
+   "chars": 13,
+   "text": {
+    "ja": "なんか改めてそう言われると",
+    "ko": ""
+   }
+  },
+  {
+   "window": 154,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／インターミッション１",
+   "voice": "a3360.wav",
+   "chars": 20,
+   "text": {
+    "ja": "ちょっと照れちゃうな・・ラブラブかぁ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 155,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／インターミッション１",
+   "voice": "a3361.wav",
+   "chars": 20,
+   "text": {
+    "ja": "自分で言ってて　恥ずかしくなっちゃった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 155,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／インターミッション１",
+   "voice": "a3361.wav",
+   "chars": 15,
+   "text": {
+    "ja": "やっぱりちょっと　照れるよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 156,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／インターミッション１",
+   "voice": "a3362.wav",
+   "chars": 12,
+   "text": {
+    "ja": "急に黙り込むのって反則！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 156,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／インターミッション１",
+   "voice": "a3362.wav",
+   "chars": 17,
+   "text": {
+    "ja": "なんか　恥ずかしくなるじゃない・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 157,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／インターミッション１",
+   "voice": "a3363.wav",
+   "chars": 18,
+   "text": {
+    "ja": "そろそろ　別のとこ行こ。どこにする？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 158,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 19,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／インターミッション１",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "さて　どこに行こうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 159,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "선택지",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "室内プール",
+    "ko": ""
+   }
+  },
+  {
+   "window": 159,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "선택지",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "屋外プール",
+    "ko": ""
+   }
+  },
+  {
+   "window": 159,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "선택지",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "サウナ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 160,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／インターミッション１",
+   "voice": "A3355.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "なんか身体　ふやけてきちゃった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 160,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／インターミッション１",
+   "voice": "A3355.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "そろそろ　出ようか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 161,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a3364.wav",
+   "chars": 19,
+   "text": {
+    "ja": "@S@・・・@P@やっぱり外のサウナっていいよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 162,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "うん。そうだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 162,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "外のサウナ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 163,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a3365.wav",
+   "chars": 18,
+   "text": {
+    "ja": "汗かくと　その分痩せたって気がするし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 163,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a3365.wav",
+   "chars": 20,
+   "text": {
+    "ja": "・・・でも後でアイスとか食べたくなるから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 163,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a3365.wav",
+   "chars": 16,
+   "text": {
+    "ja": "差し引きゼロかもしれないけどね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 164,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a3366.wav",
+   "chars": 18,
+   "text": {
+    "ja": "あ・・私また変なこと言っちゃったね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 164,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a3366.wav",
+   "chars": 18,
+   "text": {
+    "ja": "あのね。家にも小さなサウナがあるの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 165,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a3367.wav",
+   "chars": 20,
+   "text": {
+    "ja": "昔は家族で入ったりしたんだけど　今はほら",
+    "ko": ""
+   }
+  },
+  {
+   "window": 165,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a3367.wav",
+   "chars": 18,
+   "text": {
+    "ja": "そういうのって　恥ずかしいじゃない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 165,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a3367.wav",
+   "chars": 16,
+   "text": {
+    "ja": "だからいつも一人で入ってるんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 166,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a3368.wav",
+   "chars": 19,
+   "text": {
+    "ja": "でも　一人だとすごくつまんないんだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 166,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a3368.wav",
+   "chars": 22,
+   "text": {
+    "ja": "やっぱりサウナは　中でお喋りとかしたいよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 167,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a3369.wav",
+   "chars": 8,
+   "text": {
+    "ja": "ふぅ・・暑い・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 167,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a3369.wav",
+   "chars": 12,
+   "text": {
+    "ja": "・・そろそろ出ようか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 168,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／ステップ１",
+   "voice": "a3370.wav",
+   "chars": 7,
+   "text": {
+    "ja": "次はどこ行く？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 169,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 21,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／ステップ１",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "さて　どこに行こうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 170,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "선택지",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "室内プール",
+    "ko": ""
+   }
+  },
+  {
+   "window": 170,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "선택지",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "屋外プール",
+    "ko": ""
+   }
+  },
+  {
+   "window": 170,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "선택지",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "サウナ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 171,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／ステップ１",
+   "voice": "A3355.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "なんか身体　ふやけてきちゃった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 171,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／ステップ１",
+   "voice": "A3355.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "そろそろ　出ようか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 172,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 22,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／ステップ２",
+   "voice": "a3372.wav",
+   "chars": 17,
+   "text": {
+    "ja": "頭乾かしてたら　遅くなっちゃった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 172,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 22,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／ステップ２",
+   "voice": "a3372.wav",
+   "chars": 17,
+   "text": {
+    "ja": "ごめんね。それじゃ　そろそろ行こ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 173,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 23,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／ステップ３",
+   "voice": "a3382.wav",
+   "chars": 13,
+   "text": {
+    "ja": "ここイタリアンレストラン？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 173,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 23,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／ステップ３",
+   "voice": "a3382.wav",
+   "chars": 19,
+   "text": {
+    "ja": "私がお腹空いてること　よくわかったね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 173,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 23,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／ステップ３",
+   "voice": "a3382.wav",
+   "chars": 8,
+   "text": {
+    "ja": "それじゃ　行こ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 174,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-31",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a3383.wav",
+   "chars": 17,
+   "text": {
+    "ja": "イタリア人って　麺類が好きだよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 174,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-31",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a3383.wav",
+   "chars": 21,
+   "text": {
+    "ja": "私も長いもの大好き！　一番好きなのは・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 174,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-31",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a3383.wav",
+   "chars": 14,
+   "text": {
+    "ja": "カップラーメン！　・・かな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 175,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-31",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a3384.wav",
+   "chars": 25,
+   "text": {
+    "ja": "あのね。カップラーメンってウチで禁止されてるんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 175,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-31",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a3384.wav",
+   "chars": 22,
+   "text": {
+    "ja": "身体に悪いとか言って・・だから部屋でこっそり",
+    "ko": ""
+   }
+  },
+  {
+   "window": 175,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-31",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a3384.wav",
+   "chars": 21,
+   "text": {
+    "ja": "食べてるんだけど　それがすごくおいしいの！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 176,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-31",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a3385.wav",
+   "chars": 20,
+   "text": {
+    "ja": "見つからないように食べた後　香水かけたり",
+    "ko": ""
+   }
+  },
+  {
+   "window": 176,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-31",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a3385.wav",
+   "chars": 18,
+   "text": {
+    "ja": "カップもハサミでバラバラにしたりして",
+    "ko": ""
+   }
+  },
+  {
+   "window": 176,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-31",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a3385.wav",
+   "chars": 16,
+   "text": {
+    "ja": "そういうスリルが楽しいのかもね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 177,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 25,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場",
+   "voice": "a3386.wav",
+   "chars": 21,
+   "text": {
+    "ja": "雪道は滑りやすいから　気を付けて歩いてね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 177,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 25,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場",
+   "voice": "a3386.wav",
+   "chars": 6,
+   "text": {
+    "ja": "・・・あっ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 178,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 25,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場",
+   "voice": "a3387.wav",
+   "chars": 9,
+   "text": {
+    "ja": "今　笑ったでしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 179,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "ちょっと・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 179,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "誤解だよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 179,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "大丈夫？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 180,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 25,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場",
+   "voice": "a3388.wav",
+   "chars": 14,
+   "text": {
+    "ja": "笑う前に　まず心配してよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 181,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 25,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場",
+   "voice": "a3389.wav",
+   "chars": 17,
+   "text": {
+    "ja": "何かそんな気がしたんだけどなぁ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 181,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 25,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場",
+   "voice": "a3389.wav",
+   "chars": 7,
+   "text": {
+    "ja": "まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 182,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 25,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場",
+   "voice": "a3390.wav",
+   "chars": 7,
+   "text": {
+    "ja": "うん。大丈夫。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 182,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 25,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場",
+   "voice": "a3390.wav",
+   "chars": 13,
+   "text": {
+    "ja": "心配してくれて　ありがと。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 183,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 25,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 184,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 25,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 185,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 25,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 186,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 25,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場",
+   "voice": "A3388.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "笑う前に　まず心配してよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 187,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 25,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場",
+   "voice": "a3391.wav",
+   "chars": 10,
+   "text": {
+    "ja": "ねぇ。腕組んで歩こ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 187,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 25,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場",
+   "voice": "a3391.wav",
+   "chars": 21,
+   "text": {
+    "ja": "今度　転んだ時　道連れにしてあげるからさ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 188,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 26,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a3392.wav",
+   "chars": 14,
+   "text": {
+    "ja": "ねぇ・・今　腕時計持ってる？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 189,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "うん",
+    "ko": ""
+   }
+  },
+  {
+   "window": 189,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "持ってないよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 190,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 26,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a3393.wav",
+   "chars": 12,
+   "text": {
+    "ja": "だったらそれ　外して・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 190,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 26,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a3393.wav",
+   "chars": 20,
+   "text": {
+    "ja": "会ってる時は　時間を気にしたくないの・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 191,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 26,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a3394.wav",
+   "chars": 18,
+   "text": {
+    "ja": "よかった。デート中に腕時計見られると",
+    "ko": ""
+   }
+  },
+  {
+   "window": 191,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 26,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a3394.wav",
+   "chars": 12,
+   "text": {
+    "ja": "私ドキッとしちゃうんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 192,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 26,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 193,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 26,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 194,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 26,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 195,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 26,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A3050.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "もしもし？　もしもーし！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 196,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 26,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "A3392.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "ねぇ・・今　腕時計持ってる？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 197,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "うん",
+    "ko": ""
+   }
+  },
+  {
+   "window": 197,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "持ってないよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 198,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 26,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a3395.wav",
+   "chars": 22,
+   "text": {
+    "ja": "@S@・・・@P@このまま　ずっとこうしていたいなぁ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 199,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 26,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a3396.wav",
+   "chars": 19,
+   "text": {
+    "ja": "@S@・・・@P@でも　このままずっとここにいたら",
+    "ko": ""
+   }
+  },
+  {
+   "window": 199,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 26,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a3396.wav",
+   "chars": 16,
+   "text": {
+    "ja": "寒くて凍え死んじゃうよね。行こ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 200,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／自室",
+   "voice": "a3397.wav",
+   "chars": 23,
+   "text": {
+    "ja": "@S@・・@P@あのね。蒼き月の夜さんのことなんだけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 200,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／自室",
+   "voice": "a3397.wav",
+   "chars": 23,
+   "text": {
+    "ja": "あの人　パソ通で問題発言しちゃって　みんなから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 200,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／自室",
+   "voice": "a3397.wav",
+   "chars": 24,
+   "text": {
+    "ja": "袋叩きにされちゃったんだ。パソ通も怖い世界よね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 201,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／自室",
+   "voice": "a3398.wav",
+   "chars": 20,
+   "text": {
+    "ja": "大部分の人は　親切ないい人たちなんだけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 201,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／自室",
+   "voice": "a3398.wav",
+   "chars": 19,
+   "text": {
+    "ja": "時々　乱暴な書き込みをする人がいて・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 201,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／自室",
+   "voice": "a3398.wav",
+   "chars": 25,
+   "text": {
+    "ja": "それがきっかけで　大論争になっちゃったりするの・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 202,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／自室",
+   "voice": "a3399.wav",
+   "chars": 21,
+   "text": {
+    "ja": "面と向かって話してたら絶対に言わないような",
+    "ko": ""
+   }
+  },
+  {
+   "window": 202,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／自室",
+   "voice": "a3399.wav",
+   "chars": 25,
+   "text": {
+    "ja": "厳しい言葉・・例えば『あなたの全存在を否定します』",
+    "ko": ""
+   }
+  },
+  {
+   "window": 202,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／自室",
+   "voice": "a3399.wav",
+   "chars": 21,
+   "text": {
+    "ja": "とか　そんなこと平気で言われちゃうんだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 203,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／自室",
+   "voice": "a3400.wav",
+   "chars": 23,
+   "text": {
+    "ja": "その他にもメール爆弾とか　いろんなイヤガラセを",
+    "ko": ""
+   }
+  },
+  {
+   "window": 203,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／自室",
+   "voice": "a3400.wav",
+   "chars": 24,
+   "text": {
+    "ja": "されちゃって・・それで蒼き月の夜さん　ノイローゼ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 203,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／自室",
+   "voice": "a3400.wav",
+   "chars": 13,
+   "text": {
+    "ja": "みたいになっちゃったんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 204,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／自室",
+   "voice": "a3401.wav",
+   "chars": 20,
+   "text": {
+    "ja": "学校も辞めて　家に閉じこもっちゃって・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 204,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／自室",
+   "voice": "a3401.wav",
+   "chars": 22,
+   "text": {
+    "ja": "私とけあふりぃさんとで　彼の家に行ったりして",
+    "ko": ""
+   }
+  },
+  {
+   "window": 204,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／自室",
+   "voice": "a3401.wav",
+   "chars": 17,
+   "text": {
+    "ja": "それで少し元気になったんだけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 205,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／自室",
+   "voice": "a3402.wav",
+   "chars": 20,
+   "text": {
+    "ja": "いつも自信満々の顔してた蒼き月の夜さんが",
+    "ko": ""
+   }
+  },
+  {
+   "window": 205,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／自室",
+   "voice": "a3402.wav",
+   "chars": 25,
+   "text": {
+    "ja": "すっかりやつれちゃって　なんか見てて辛かったな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 206,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "そんなことがあったんだ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 206,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "自業自得じゃない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 207,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／自室",
+   "voice": "a3403.wav",
+   "chars": 24,
+   "text": {
+    "ja": "うん。あんまりいい話じゃないから黙ってたんだけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 207,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／自室",
+   "voice": "a3403.wav",
+   "chars": 16,
+   "text": {
+    "ja": "・・・そういうことがあったんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 208,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／自室",
+   "voice": "a3404.wav",
+   "chars": 17,
+   "text": {
+    "ja": "そんなこと言ったら　可愛そうだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 208,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／自室",
+   "voice": "a3404.wav",
+   "chars": 15,
+   "text": {
+    "ja": "・・彼ってちょっとアクが強いし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 208,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／自室",
+   "voice": "a3404.wav",
+   "chars": 20,
+   "text": {
+    "ja": "最初は私も　悪口言って楽しんでたけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 209,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／自室",
+   "voice": "a3405.wav",
+   "chars": 23,
+   "text": {
+    "ja": "でも　そう言う立場に追い込まれちゃった彼を見て",
+    "ko": ""
+   }
+  },
+  {
+   "window": 209,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／自室",
+   "voice": "a3405.wav",
+   "chars": 22,
+   "text": {
+    "ja": "私　思ったんだ。本当に嫌なヤツなんていないし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 209,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／自室",
+   "voice": "a3405.wav",
+   "chars": 23,
+   "text": {
+    "ja": "本当に強い人だって　いないんじゃないかって・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 210,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／自室",
+   "voice": "a3406.wav",
+   "chars": 14,
+   "text": {
+    "ja": "彼の強がりは弱気の裏返しだし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 210,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／自室",
+   "voice": "a3406.wav",
+   "chars": 23,
+   "text": {
+    "ja": "口の悪いのだって　ある意味　愛情表現じゃない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 210,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／自室",
+   "voice": "a3406.wav",
+   "chars": 22,
+   "text": {
+    "ja": "誰かが誰かを否定するのなんて　間違ってるよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 211,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／自室",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "そうかもしれないね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 212,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／自室",
+   "voice": "a3408.wav",
+   "chars": 23,
+   "text": {
+    "ja": "それで彼に　学校やめてどうするのかって聞いたら",
+    "ko": ""
+   }
+  },
+  {
+   "window": 212,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／自室",
+   "voice": "a3408.wav",
+   "chars": 21,
+   "text": {
+    "ja": "けあふりぃさんの会社に　就職したんだって。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 213,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／自室",
+   "voice": "a3409.wav",
+   "chars": 14,
+   "text": {
+    "ja": "私　全然知らなかったんだけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 213,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／自室",
+   "voice": "a3409.wav",
+   "chars": 20,
+   "text": {
+    "ja": "あの人　会社の社長さんだったんだって・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 213,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／自室",
+   "voice": "a3409.wav",
+   "chars": 10,
+   "text": {
+    "ja": "なんか　意外でしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 214,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／自室",
+   "voice": "a3410.wav",
+   "chars": 13,
+   "text": {
+    "ja": "お給料はいいらしいんだけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 214,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／自室",
+   "voice": "a3410.wav",
+   "chars": 17,
+   "text": {
+    "ja": "すごく上下関係に厳しい会社らしくて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 214,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／自室",
+   "voice": "a3410.wav",
+   "chars": 17,
+   "text": {
+    "ja": "蒼き月の夜さん　毎日大変みたい・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 215,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／自室",
+   "voice": "a3411.wav",
+   "chars": 19,
+   "text": {
+    "ja": "でも　やりがいがあってすごく楽しいって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 215,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／自室",
+   "voice": "a3411.wav",
+   "chars": 12,
+   "text": {
+    "ja": "こないだメールくれたよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 216,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／自室",
+   "voice": "a3412.wav",
+   "chars": 21,
+   "text": {
+    "ja": "@S@・・@P@そんな事件があって　私も最近はちょっと",
+    "ko": ""
+   }
+  },
+  {
+   "window": 216,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／自室",
+   "voice": "a3412.wav",
+   "chars": 14,
+   "text": {
+    "ja": "パソ通から遠ざかってるんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 217,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／自室",
+   "voice": "a3413.wav",
+   "chars": 22,
+   "text": {
+    "ja": "蒼き月の夜さんを弁護するような書き込みしたら",
+    "ko": ""
+   }
+  },
+  {
+   "window": 217,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／自室",
+   "voice": "a3413.wav",
+   "chars": 17,
+   "text": {
+    "ja": "私まで非難されちゃったりしたし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 218,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／自室",
+   "voice": "a3414.wav",
+   "chars": 17,
+   "text": {
+    "ja": "パソ通って年齢や職業や性別を超えて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 218,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／自室",
+   "voice": "a3414.wav",
+   "chars": 20,
+   "text": {
+    "ja": "いろんな人と知り合えるから　すごく素敵な",
+    "ko": ""
+   }
+  },
+  {
+   "window": 218,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／自室",
+   "voice": "a3414.wav",
+   "chars": 14,
+   "text": {
+    "ja": "メディアだと思うんだけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 219,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／自室",
+   "voice": "a3415.wav",
+   "chars": 22,
+   "text": {
+    "ja": "一部の乱暴な人たちのために　全体のイメージが",
+    "ko": ""
+   }
+  },
+  {
+   "window": 219,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／自室",
+   "voice": "a3415.wav",
+   "chars": 19,
+   "text": {
+    "ja": "悪くなってて　それがちょっと残念よね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 219,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／自室",
+   "voice": "a3415.wav",
+   "chars": 14,
+   "text": {
+    "ja": "・・・そろそろ　ここ出よう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 220,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／ベランダ",
+   "voice": "a3416.wav",
+   "chars": 25,
+   "text": {
+    "ja": "コンピューターで絵を描いてるって話　もうしたっけ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 221,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "うん聞いたよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 221,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "聞いてないよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 222,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／ベランダ",
+   "voice": "a3417.wav",
+   "chars": 23,
+   "text": {
+    "ja": "絵を描いたら　今度はそれを動かしたくなって・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 222,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／ベランダ",
+   "voice": "a3417.wav",
+   "chars": 22,
+   "text": {
+    "ja": "動かしたら　今度はそれを　ちゃんとした物語に",
+    "ko": ""
+   }
+  },
+  {
+   "window": 222,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／ベランダ",
+   "voice": "a3417.wav",
+   "chars": 19,
+   "text": {
+    "ja": "したいなって思うようになってきたんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 223,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／ベランダ",
+   "voice": "a3418.wav",
+   "chars": 21,
+   "text": {
+    "ja": "だから私　将来はゲーム会社に就職したいの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 224,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／ベランダ",
+   "voice": "a3419.wav",
+   "chars": 15,
+   "text": {
+    "ja": "最近　私　ＣＧに凝ってるの・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 224,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／ベランダ",
+   "voice": "a3419.wav",
+   "chars": 14,
+   "text": {
+    "ja": "私　絵を描くのって大好きだし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 224,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／ベランダ",
+   "voice": "a3419.wav",
+   "chars": 14,
+   "text": {
+    "ja": "自信もちょっとだけあるんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 225,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／ベランダ",
+   "voice": "a3420.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "それでね。絵を描いたら今度はそれを動かしたくなって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 225,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／ベランダ",
+   "voice": "a3420.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "動かしたら　今度はそれを　ちゃんとした物語に",
+    "ko": ""
+   }
+  },
+  {
+   "window": 225,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／ベランダ",
+   "voice": "a3420.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "したいなって思うようになってきたんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 226,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／ベランダ",
+   "voice": "a3421.wav",
+   "chars": 21,
+   "text": {
+    "ja": "だから私　将来はゲーム会社に就職したいの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 227,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／ベランダ",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 228,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／ベランダ",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 229,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／ベランダ",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 230,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／ベランダ",
+   "voice": "a3422.wav",
+   "chars": 19,
+   "text": {
+    "ja": "まだ漠然とした夢みたいな感じなんだけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 230,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／ベランダ",
+   "voice": "a3422.wav",
+   "chars": 22,
+   "text": {
+    "ja": "自分の作ったゲームを　みんなが遊んでくれたら",
+    "ko": ""
+   }
+  },
+  {
+   "window": 230,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／ベランダ",
+   "voice": "a3422.wav",
+   "chars": 12,
+   "text": {
+    "ja": "なんか素敵だと思わない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 231,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／ベランダ",
+   "voice": "a3423.wav",
+   "chars": 19,
+   "text": {
+    "ja": "出版社に入ったって自分の本は出せないし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 231,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／ベランダ",
+   "voice": "a3423.wav",
+   "chars": 25,
+   "text": {
+    "ja": "レコード会社に就職したって自分のＣＤは出せないわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 231,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／ベランダ",
+   "voice": "a3423.wav",
+   "chars": 23,
+   "text": {
+    "ja": "でもゲーム会社なら自分のゲームが出せるでしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 232,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／ベランダ",
+   "voice": "a3424.wav",
+   "chars": 22,
+   "text": {
+    "ja": "だから今　ＣＧの勉強したり　小説読んでみたり",
+    "ko": ""
+   }
+  },
+  {
+   "window": 232,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／ベランダ",
+   "voice": "a3424.wav",
+   "chars": 23,
+   "text": {
+    "ja": "映画もたくさん見てるんだ。ゲームだけ知ってても",
+    "ko": ""
+   }
+  },
+  {
+   "window": 232,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／ベランダ",
+   "voice": "a3424.wav",
+   "chars": 22,
+   "text": {
+    "ja": "いい作品は作れないって　誰かが言ってたし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 233,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／ベランダ",
+   "voice": "a3425.wav",
+   "chars": 25,
+   "text": {
+    "ja": "ゲーム業界の有名人って　まだ男の人ばっかりでしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 233,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／ベランダ",
+   "voice": "a3425.wav",
+   "chars": 22,
+   "text": {
+    "ja": "だから私にも　頑張れる余地はあるかなって・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 233,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／ベランダ",
+   "voice": "a3425.wav",
+   "chars": 12,
+   "text": {
+    "ja": "そんな風に思ってるんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 234,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "応援するよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 234,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "そんなに甘くないんじゃない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 234,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "仕事大変らしいよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 235,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／ベランダ",
+   "voice": "a3426.wav",
+   "chars": 8,
+   "text": {
+    "ja": "うん。ありがと。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 235,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／ベランダ",
+   "voice": "a3426.wav",
+   "chars": 21,
+   "text": {
+    "ja": "私　虹をテーマにしたゲームを作りたいな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 236,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／ベランダ",
+   "voice": "a3427.wav",
+   "chars": 22,
+   "text": {
+    "ja": "イザナギとイザナミの神話に出てくる天の浮橋も",
+    "ko": ""
+   }
+  },
+  {
+   "window": 236,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／ベランダ",
+   "voice": "a3427.wav",
+   "chars": 21,
+   "text": {
+    "ja": "虹のことだって言われてるし　ヨーロッパでは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 236,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／ベランダ",
+   "voice": "a3427.wav",
+   "chars": 24,
+   "text": {
+    "ja": "虹の両端には　宝物が埋まってるって伝説があるわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 237,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／ベランダ",
+   "voice": "a3428.wav",
+   "chars": 24,
+   "text": {
+    "ja": "そういう神話をベースにしたゲームが作りたいんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 237,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／ベランダ",
+   "voice": "a3428.wav",
+   "chars": 22,
+   "text": {
+    "ja": "リアルな虹って　ＣＧの得意分野だと思うしね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 238,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／ベランダ",
+   "voice": "a3429.wav",
+   "chars": 19,
+   "text": {
+    "ja": "うん。そうかもね。就職も難しいだろうし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 238,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／ベランダ",
+   "voice": "a3429.wav",
+   "chars": 24,
+   "text": {
+    "ja": "出来たとしても　１００パーセント自分の思い通りの",
+    "ko": ""
+   }
+  },
+  {
+   "window": 238,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／ベランダ",
+   "voice": "a3429.wav",
+   "chars": 12,
+   "text": {
+    "ja": "ゲームは出来ないかもね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 239,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／ベランダ",
+   "voice": "a3430.wav",
+   "chars": 24,
+   "text": {
+    "ja": "でも　自分がいたから描ける絵とか　自分がいたから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 239,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／ベランダ",
+   "voice": "a3430.wav",
+   "chars": 25,
+   "text": {
+    "ja": "出てきたアイディアとか　そういうのをひとつでも多く",
+    "ko": ""
+   }
+  },
+  {
+   "window": 239,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／ベランダ",
+   "voice": "a3430.wav",
+   "chars": 22,
+   "text": {
+    "ja": "ゲームの中に入れたいって　そう思ってるんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 240,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／ベランダ",
+   "voice": "a3431.wav",
+   "chars": 15,
+   "text": {
+    "ja": "でも　好きなことで苦労するなら",
+    "ko": ""
+   }
+  },
+  {
+   "window": 240,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／ベランダ",
+   "voice": "a3431.wav",
+   "chars": 8,
+   "text": {
+    "ja": "きっと幸せだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 241,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "梢／自宅／ベランダ",
+   "voice": "a3432.wav",
+   "chars": 13,
+   "text": {
+    "ja": "そろそろここ　出よっか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 242,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3433.wav",
+   "chars": 23,
+   "text": {
+    "ja": "パソ通にハマってた頃の私って　周りの評価ばかり",
+    "ko": ""
+   }
+  },
+  {
+   "window": 242,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3433.wav",
+   "chars": 23,
+   "text": {
+    "ja": "気にしていたかもしれない・・だから毎晩遅くまで",
+    "ko": ""
+   }
+  },
+  {
+   "window": 242,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3433.wav",
+   "chars": 19,
+   "text": {
+    "ja": "メールや書き込みをチェックしてたし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 243,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3434.wav",
+   "chars": 23,
+   "text": {
+    "ja": "そこで自分がどう思われてるかとか　自分の周りの",
+    "ko": ""
+   }
+  },
+  {
+   "window": 243,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3434.wav",
+   "chars": 20,
+   "text": {
+    "ja": "物や出来事が　どう評価されてるかとか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 243,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3434.wav",
+   "chars": 17,
+   "text": {
+    "ja": "そう言うのが　すごく大事だったの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 244,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3435.wav",
+   "chars": 24,
+   "text": {
+    "ja": "たとえばネットでむちゃくちゃけなされてるアニメを",
+    "ko": ""
+   }
+  },
+  {
+   "window": 244,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3435.wav",
+   "chars": 25,
+   "text": {
+    "ja": "『それでも私は好き』ってことが　言えなかったし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 245,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3436.wav",
+   "chars": 21,
+   "text": {
+    "ja": "でもね。そういうのって　結局他人の意見だし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 245,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3436.wav",
+   "chars": 24,
+   "text": {
+    "ja": "あんまり周囲のこと気にしてたら　自分自身の意見を",
+    "ko": ""
+   }
+  },
+  {
+   "window": 245,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3436.wav",
+   "chars": 24,
+   "text": {
+    "ja": "見失っちゃうかもしれないなって　そう思ったんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 246,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3437.wav",
+   "chars": 22,
+   "text": {
+    "ja": "みんながああ言ってる　こう言ってるじゃなくて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 246,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3437.wav",
+   "chars": 20,
+   "text": {
+    "ja": "私はこう思うって　そういう部分が私の中に",
+    "ko": ""
+   }
+  },
+  {
+   "window": 246,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3437.wav",
+   "chars": 14,
+   "text": {
+    "ja": "欠けていたのかもしれない・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 247,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3438.wav",
+   "chars": 20,
+   "text": {
+    "ja": "だからネットの中で　自分のキャラクターを",
+    "ko": ""
+   }
+  },
+  {
+   "window": 247,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3438.wav",
+   "chars": 23,
+   "text": {
+    "ja": "どんどん変えて　みんなにそういうウソを付いても",
+    "ko": ""
+   }
+  },
+  {
+   "window": 247,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3438.wav",
+   "chars": 11,
+   "text": {
+    "ja": "平気だったんだろうね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 248,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3439.wav",
+   "chars": 19,
+   "text": {
+    "ja": "もちろんパソ通は　これからも続けるよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 248,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3439.wav",
+   "chars": 22,
+   "text": {
+    "ja": "大事なお友達と知り合ったのも　パソ通だし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 249,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3440.wav",
+   "chars": 22,
+   "text": {
+    "ja": "でもこれからは　ちゃんと等身大の自分を出して",
+    "ko": ""
+   }
+  },
+  {
+   "window": 249,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3440.wav",
+   "chars": 22,
+   "text": {
+    "ja": "情報に振り回されない　大人のネットワーカーに",
+    "ko": ""
+   }
+  },
+  {
+   "window": 249,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3440.wav",
+   "chars": 9,
+   "text": {
+    "ja": "なろうと思うんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 250,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3441.wav",
+   "chars": 16,
+   "text": {
+    "ja": "&主人公&さんに会って　教わったことだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 251,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A3441.WAV",
+   "chars": 16,
+   "text": {
+    "ja": "&主人公&さんに会って　教わったことだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 252,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "僕は梢ちゃんが好きだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 252,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "梢ちゃん僕のことどう思ってる？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 252,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "そろそろ帰ろうか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 253,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3442.wav",
+   "chars": 11,
+   "text": {
+    "ja": "夏休み　羊ヶ丘で　&主人公&さん",
+    "ko": ""
+   }
+  },
+  {
+   "window": 253,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3442.wav",
+   "chars": 11,
+   "text": {
+    "ja": "私のことぶったでしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 254,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3443.wav",
+   "chars": 12,
+   "text": {
+    "ja": "私あの時　すごい頭に来て",
+    "ko": ""
+   }
+  },
+  {
+   "window": 254,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3443.wav",
+   "chars": 19,
+   "text": {
+    "ja": "絶対に許さないぞって　心に誓ったの・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 255,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3444.wav",
+   "chars": 22,
+   "text": {
+    "ja": "大嫌い！　死んじゃえ！　って　毎晩思いながら",
+    "ko": ""
+   }
+  },
+  {
+   "window": 255,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3444.wav",
+   "chars": 17,
+   "text": {
+    "ja": "でも気が付いたら　怒ってないときも",
+    "ko": ""
+   }
+  },
+  {
+   "window": 255,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3444.wav",
+   "chars": 13,
+   "text": {
+    "ja": "あなたのこと考えてたの・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 256,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3445.wav",
+   "chars": 20,
+   "text": {
+    "ja": "笑った顔とか・・真面目なときの顔とか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 256,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3445.wav",
+   "chars": 19,
+   "text": {
+    "ja": "そういうのばっかり思い出しちゃって・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 256,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3445.wav",
+   "chars": 22,
+   "text": {
+    "ja": "憎んでるはずなのに　会いたくなっちゃったの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 257,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3446.wav",
+   "chars": 18,
+   "text": {
+    "ja": "あの時　何でこんな気持ちになったのか",
+    "ko": ""
+   }
+  },
+  {
+   "window": 257,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3446.wav",
+   "chars": 14,
+   "text": {
+    "ja": "自分でもよくわからなかった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 257,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3446.wav",
+   "chars": 17,
+   "text": {
+    "ja": "・・でもね。あれから私　考えたの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 258,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3447.wav",
+   "chars": 25,
+   "text": {
+    "ja": "私　わがままだから　みんなが私に気を使ってくれるし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 258,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3447.wav",
+   "chars": 17,
+   "text": {
+    "ja": "そういう風に　チヤホヤされるのって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 258,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3447.wav",
+   "chars": 23,
+   "text": {
+    "ja": "結構気持ちよかったの@4995@・・でもあなたは違ってた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 259,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3448.wav",
+   "chars": 25,
+   "text": {
+    "ja": "あなたはちゃんと　自分の意見を私にぶつけてくれた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 259,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3448.wav",
+   "chars": 17,
+   "text": {
+    "ja": "そういう人って　初めてだったの・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 260,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3449.wav",
+   "chars": 21,
+   "text": {
+    "ja": "それまで　気に入ってる男の子は何人もいたし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 260,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3449.wav",
+   "chars": 17,
+   "text": {
+    "ja": "デートだって　したことあるんだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 261,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3450.wav",
+   "chars": 15,
+   "text": {
+    "ja": "でも　こんなに好きになったのは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 261,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3450.wav",
+   "chars": 9,
+   "text": {
+    "ja": "あなたが初めて・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 262,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3451.wav",
+   "chars": 5,
+   "text": {
+    "ja": "@S@&主人公&さん・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 262,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3451.wav",
+   "chars": 13,
+   "text": {
+    "ja": "@P@私　あなたのこと　大好き！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 263,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3452.wav",
+   "chars": 5,
+   "text": {
+    "ja": "@S@・・・@P@え？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 264,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3453.wav",
+   "chars": 17,
+   "text": {
+    "ja": "@S@・・・@P@ちょっとびっくりしちゃった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 264,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3453.wav",
+   "chars": 20,
+   "text": {
+    "ja": "だって急に　口説きモードになるんだもん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 265,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3454.wav",
+   "chars": 21,
+   "text": {
+    "ja": "もちろん！　私の返事は・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 265,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3454.wav",
+   "chars": 21,
+   "text": {
+    "ja": "・・・・・・・・・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 266,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3455.wav",
+   "chars": 19,
+   "text": {
+    "ja": "ごめんね。返事はもうちょっと待ってね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 266,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3455.wav",
+   "chars": 19,
+   "text": {
+    "ja": "だって　今返事したら　ムードにおされて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 266,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3455.wav",
+   "chars": 15,
+   "text": {
+    "ja": "つい　ＯＫしちゃいそうだもん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 267,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3456.wav",
+   "chars": 18,
+   "text": {
+    "ja": "もうちょっと　じっくり考えたいんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 267,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3456.wav",
+   "chars": 17,
+   "text": {
+    "ja": "私　あなたのこと大切に思ってるから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 267,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3456.wav",
+   "chars": 17,
+   "text": {
+    "ja": "だからこそ　ちゃんと考えたいんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 268,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A3442.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "夏休み　羊ヶ丘で　&主人公&さん",
+    "ko": ""
+   }
+  },
+  {
+   "window": 268,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A3442.WAV",
+   "chars": 11,
+   "text": {
+    "ja": "私のことぶったでしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 269,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A3443.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "私あの時　すごい頭に来て",
+    "ko": ""
+   }
+  },
+  {
+   "window": 269,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A3443.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "絶対に許さないぞって　心に誓ったの・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 270,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A3444.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "大嫌い！　死んじゃえ！　って　毎晩思いながら",
+    "ko": ""
+   }
+  },
+  {
+   "window": 270,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A3444.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "でも気が付いたら　怒ってないときも",
+    "ko": ""
+   }
+  },
+  {
+   "window": 270,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A3444.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "あなたのこと考えてたの・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 271,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A3445.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "笑った顔とか・・真面目なときの顔とか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 271,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A3445.WAV",
+   "chars": 19,
+   "text": {
+    "ja": "そういうのばっかり思い出しちゃって・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 271,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A3445.WAV",
+   "chars": 22,
+   "text": {
+    "ja": "憎んでるはずなのに　会いたくなっちゃったの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 272,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A3446.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "あの時　何でこんな気持ちになったのか",
+    "ko": ""
+   }
+  },
+  {
+   "window": 272,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A3446.WAV",
+   "chars": 14,
+   "text": {
+    "ja": "自分でもよくわからなかった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 272,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A3446.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "・・でもね。あれから私　考えたの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 273,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A3447.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "私　わがままだから　みんなが私に気を使ってくれるし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 273,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A3447.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "そういう風に　チヤホヤされるのって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 273,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A3447.WAV",
+   "chars": 23,
+   "text": {
+    "ja": "結構気持ちよかったの@4996@・・でもあなたは違ってた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 274,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A3448.WAV",
+   "chars": 25,
+   "text": {
+    "ja": "あなたはちゃんと　自分の意見を私にぶつけてくれた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 274,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A3448.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "そういう人って　初めてだったの・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 275,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A3449.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "それまで　気に入ってる男の子は何人もいたし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 275,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A3449.WAV",
+   "chars": 17,
+   "text": {
+    "ja": "デートだって　したことあるんだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 276,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A3450.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "でも　こんなに好きになったのは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 276,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A3450.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "あなたが初めて・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 277,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A3451.WAV",
+   "chars": 5,
+   "text": {
+    "ja": "&主人公&さん・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 277,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A3451.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "私　あなたのこと　大好き！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 278,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3467.wav",
+   "chars": 5,
+   "text": {
+    "ja": "@S@・・・@P@え？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 279,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3468.wav",
+   "chars": 14,
+   "text": {
+    "ja": "夏の終わりに　私　&主人公&さんのこと",
+    "ko": ""
+   }
+  },
+  {
+   "window": 279,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3468.wav",
+   "chars": 12,
+   "text": {
+    "ja": "好きだって言ったでしょ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 279,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3468.wav",
+   "chars": 17,
+   "text": {
+    "ja": "今でもあの気持ち　変わってないよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 280,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3469.wav",
+   "chars": 18,
+   "text": {
+    "ja": "だからこうして　会ってるわけだし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 280,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3469.wav",
+   "chars": 25,
+   "text": {
+    "ja": "でも　ちゃんとお付き合いするためには　お互いのこと",
+    "ko": ""
+   }
+  },
+  {
+   "window": 280,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3469.wav",
+   "chars": 22,
+   "text": {
+    "ja": "もっともっと　分かり合わなくちゃダメかもね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 281,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3470.wav",
+   "chars": 10,
+   "text": {
+    "ja": "そろそろ帰ろうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 282,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3471.wav",
+   "chars": 16,
+   "text": {
+    "ja": "そうだね。もう帰らなくっちゃね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 283,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a3472.wav",
+   "chars": 10,
+   "text": {
+    "ja": "そろそろ帰ろうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 284,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ＵＦＯキャッチャー前",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "気が付くと外はすっかり暗くなっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 284,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ＵＦＯキャッチャー前",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "・・楽しい時間は　あっという間に過ぎてゆく・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 285,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ＵＦＯキャッチャー前",
+   "voice": "A3260.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "なんか寒くなってきたね？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 285,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ＵＦＯキャッチャー前",
+   "voice": "A3260.WAV",
+   "chars": 9,
+   "text": {
+    "ja": "そろそろ帰ろうか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 286,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ＵＦＯキャッチャー前",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "・・うん。そうだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 287,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 31,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "よし！　まずは電話してみよう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 287,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 31,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "結果はどうあれ　ここで勇気を出さなくちゃ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 287,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 31,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "僕はずっと　『旅行者』のままなんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 288,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 31,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "a3474.wav",
+   "chars": 8,
+   "text": {
+    "ja": "はい。里中です。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 289,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 31,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "もしもし。&主人公名前&です。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 290,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 31,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "僕は梢ちゃんを　イルミネーション・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 290,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 31,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "カウントダウンに誘った。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 291,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 31,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "a3477.wav",
+   "chars": 6,
+   "text": {
+    "ja": "・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 292,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 31,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "結論はすぐに出さなくていいよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 292,
+   "line": 1,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 31,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "今晩１１時半に　テレビ塔の前にいるから・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 292,
+   "line": 2,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 31,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "よかったら　来て欲しいんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 293,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 31,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "a3479.wav",
+   "chars": 11,
+   "text": {
+    "ja": "@S@・・・@P@うん。わかった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 293,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 31,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "a3479.wav",
+   "chars": 13,
+   "text": {
+    "ja": "考えてみるよ。それじゃ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 294,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 31,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "梢ちゃん・・来てくれるかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 295,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "午後１１時１５分・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 295,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "待ち合わせの時間まで　あと１５分ある。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 295,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "僕は一人で　会場を回ってみることにした。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 296,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "・・・この街に来て・・僕は　いろんな人と出会った。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 296,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "日常から離れ　いろんなことを経験した。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 297,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "でも考えたら　札幌に住んでいる人にとっては",
+    "ko": ""
+   }
+  },
+  {
+   "window": 297,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "こっちの生活こそが日常なんだ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 298,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "日常と非日常・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 298,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "本当は　そんな境目なんて　ないのかもしれない。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 299,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "僕は梢ちゃんが好きだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 299,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "その気持ちだけで　僕は退屈な日常の壁を超えられる。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 300,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "午後１１時３０分・・待ち合わせの時間だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 300,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "梢ちゃん・・来てくれるかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 301,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "午後１１時４０分・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 301,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "梢ちゃん・・・遅いな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 302,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "午後１１時５０分・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 302,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "梢ちゃん・・・どうしたんだろう？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 303,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "午後１１時５５分・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 303,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "やっぱり梢ちゃん・・・来ないのかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 304,
+   "line": 0,
+   "speaker": "アナウンサー",
+   "kind": "대사",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "a7338.wav",
+   "chars": 19,
+   "text": {
+    "ja": "さぁ！　いよいよ今年最後の大イベント！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 304,
+   "line": 1,
+   "speaker": "アナウンサー",
+   "kind": "대사",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "a7338.wav",
+   "chars": 23,
+   "text": {
+    "ja": "イルミネーション・カウントダウンが始まります。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 304,
+   "line": 2,
+   "speaker": "アナウンサー",
+   "kind": "대사",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "a7338.wav",
+   "chars": 15,
+   "text": {
+    "ja": "みなさん！　準備はいいですか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 305,
+   "line": 0,
+   "speaker": "アナウンサー",
+   "kind": "대사",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "a7339.wav",
+   "chars": 21,
+   "text": {
+    "ja": "画面正面にあるディスプレイにご注目下さい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 306,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "・・・梢ちゃん・・やっぱり来ないのか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 307,
+   "line": 0,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "A7356.WAV",
+   "chars": 3,
+   "text": {
+    "ja": "１０@4539@！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 307,
+   "line": 1,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "A7356.WAV",
+   "chars": 2,
+   "text": {
+    "ja": "９@4538@！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 307,
+   "line": 2,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "A7356.WAV",
+   "chars": 2,
+   "text": {
+    "ja": "８！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 308,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "まだ間に合うよ！　・・・梢ちゃん・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 309,
+   "line": 0,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "A7357.WAV",
+   "chars": 2,
+   "text": {
+    "ja": "７@4536@！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 309,
+   "line": 1,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "A7357.WAV",
+   "chars": 2,
+   "text": {
+    "ja": "６@4535@！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 309,
+   "line": 2,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "A7357.WAV",
+   "chars": 2,
+   "text": {
+    "ja": "５！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 310,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "ああ！　ダメだ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 311,
+   "line": 0,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "A7358.WAV",
+   "chars": 2,
+   "text": {
+    "ja": "４@4533@！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 311,
+   "line": 1,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "A7358.WAV",
+   "chars": 2,
+   "text": {
+    "ja": "３@4532@！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 311,
+   "line": 2,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "A7358.WAV",
+   "chars": 2,
+   "text": {
+    "ja": "２！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 312,
+   "line": 0,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "A7359.WAV",
+   "chars": 2,
+   "text": {
+    "ja": "１@4530@！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 312,
+   "line": 1,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "A7359.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "ハッピー・ニューイヤー！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 313,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "梢ちゃん・・・やっぱり来なかったんだな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 313,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "でもいいさ・・僕はこの街で　たくさんの思い出を",
+    "ko": ""
+   }
+  },
+  {
+   "window": 313,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "作ることが出来た。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 314,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "いつかまた・・訪ねてみよう・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 315,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "・・・北へ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 316,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "午後１１時４０分・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 316,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "梢ちゃん・・・遅いな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 317,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 33,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "・・・・！！　あっ！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 318,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 33,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "a3504.wav",
+   "chars": 16,
+   "text": {
+    "ja": "・・・良かった！　間に合ったね！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 319,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 33,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "・・・梢ちゃん・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 320,
+   "line": 0,
+   "speaker": "アナウンサー",
+   "kind": "대사",
+   "scene": 33,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "a7354.wav",
+   "chars": 19,
+   "text": {
+    "ja": "さぁ！　いよいよ今年最後の大イベント！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 320,
+   "line": 1,
+   "speaker": "アナウンサー",
+   "kind": "대사",
+   "scene": 33,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "a7354.wav",
+   "chars": 23,
+   "text": {
+    "ja": "イルミネーション・カウントダウンが始まります。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 320,
+   "line": 2,
+   "speaker": "アナウンサー",
+   "kind": "대사",
+   "scene": 33,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "a7354.wav",
+   "chars": 15,
+   "text": {
+    "ja": "みなさん！　準備はいいですか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 321,
+   "line": 0,
+   "speaker": "アナウンサー",
+   "kind": "대사",
+   "scene": 33,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "a7355.wav",
+   "chars": 21,
+   "text": {
+    "ja": "画面正面にあるディスプレイにご注目下さい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 322,
+   "line": 0,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 33,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "a7356.wav",
+   "chars": 3,
+   "text": {
+    "ja": "１０@4639@！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 322,
+   "line": 1,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 33,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "a7356.wav",
+   "chars": 2,
+   "text": {
+    "ja": "９@4638@！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 322,
+   "line": 2,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 33,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "a7356.wav",
+   "chars": 2,
+   "text": {
+    "ja": "８！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 323,
+   "line": 0,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 33,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "a7357.wav",
+   "chars": 2,
+   "text": {
+    "ja": "７！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 323,
+   "line": 1,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 33,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "a7357.wav",
+   "chars": 2,
+   "text": {
+    "ja": "６！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 323,
+   "line": 2,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 33,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "a7357.wav",
+   "chars": 2,
+   "text": {
+    "ja": "５！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 324,
+   "line": 0,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 33,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "a7358.wav",
+   "chars": 2,
+   "text": {
+    "ja": "４！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 324,
+   "line": 1,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 33,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "a7358.wav",
+   "chars": 2,
+   "text": {
+    "ja": "３！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 324,
+   "line": 2,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 33,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "a7358.wav",
+   "chars": 2,
+   "text": {
+    "ja": "２！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 325,
+   "line": 0,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 33,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "a7359.wav",
+   "chars": 2,
+   "text": {
+    "ja": "１@4630@！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 325,
+   "line": 1,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 33,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "a7359.wav",
+   "chars": 13,
+   "text": {
+    "ja": "ハッピー・ニューイヤー！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 326,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 33,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "・・・新しい年が始まる・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 326,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 33,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "そして　僕ら二人の　新しい人生が始まる・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 327,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 33,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "ハッピー・ニューイヤー！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 328,
+   "line": 0,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 33,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "a7362.wav",
+   "chars": 2,
+   "text": {
+    "ja": "１@4730@！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 328,
+   "line": 1,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 33,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "a7362.wav",
+   "chars": 16,
+   "text": {
+    "ja": "ハッピー・ニューセンチュリー！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 329,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 33,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "・・・２１世紀が始まる・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 329,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 33,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "そして　僕ら二人の　新しい人生が始まる・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 330,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 33,
+   "date": "12-30",
+   "slot": null,
+   "place": "梢と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "ハッピー・ニューセンチュリー！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 331,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 35,
+   "date": null,
+   "slot": null,
+   "place": "インターミッション１",
+   "voice": "a3517.wav",
+   "chars": 13,
+   "text": {
+    "ja": "あれ・・おっかしいなぁ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 331,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 35,
+   "date": null,
+   "slot": null,
+   "place": "インターミッション１",
+   "voice": "a3517.wav",
+   "chars": 13,
+   "text": {
+    "ja": "設定　間違えちゃったかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 331,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 35,
+   "date": null,
+   "slot": null,
+   "place": "インターミッション１",
+   "voice": "a3517.wav",
+   "chars": 12,
+   "text": {
+    "ja": "・・ちょっと待っててね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 332,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 35,
+   "date": null,
+   "slot": null,
+   "place": "インターミッション１",
+   "voice": "a3518.wav",
+   "chars": 6,
+   "text": {
+    "ja": "あ・・出た！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 333,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 35,
+   "date": null,
+   "slot": null,
+   "place": "インターミッション１",
+   "voice": "a3519.wav",
+   "chars": 16,
+   "text": {
+    "ja": "３Ｄでレンダリングしてみたんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 333,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 35,
+   "date": null,
+   "slot": null,
+   "place": "インターミッション１",
+   "voice": "a3519.wav",
+   "chars": 13,
+   "text": {
+    "ja": "結構　良くできてるでしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 333,
+   "line": 2,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 35,
+   "date": null,
+   "slot": null,
+   "place": "インターミッション１",
+   "voice": "a3519.wav",
+   "chars": 14,
+   "text": {
+    "ja": "・・これが私の　第一歩だよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 334,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 36,
+   "date": null,
+   "slot": null,
+   "place": "インターミッション２",
+   "voice": "a3520.wav",
+   "chars": 11,
+   "text": {
+    "ja": "ほら見て！　綺麗な虹！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 334,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 36,
+   "date": null,
+   "slot": null,
+   "place": "インターミッション２",
+   "voice": "a3520.wav",
+   "chars": 19,
+   "text": {
+    "ja": "きっと私たちのこと　祝福してるんだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 335,
+   "line": 0,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 36,
+   "date": null,
+   "slot": null,
+   "place": "インターミッション２",
+   "voice": "a3521.wav",
+   "chars": 8,
+   "text": {
+    "ja": "私たちの夢を・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 335,
+   "line": 1,
+   "speaker": "梢",
+   "kind": "대사",
+   "scene": 36,
+   "date": null,
+   "slot": null,
+   "place": "インターミッション２",
+   "voice": "a3521.wav",
+   "chars": 9,
+   "text": {
+    "ja": "私たちの未来を・・",
+    "ko": ""
+   }
+  }
+ ]
+}

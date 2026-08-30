@@ -1,0 +1,9958 @@
+{
+ "script": "鮎冬2",
+ "source": "ja",
+ "entries": [
+  {
+   "window": 0,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-30",
+   "slot": "朝",
+   "place": "鮎と札幌デートの場合",
+   "voice": "a1661.wav",
+   "chars": 17,
+   "text": {
+    "ja": "おっはよー！　今日もいい天気だね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 0,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 0,
+   "date": "12-30",
+   "slot": "朝",
+   "place": "鮎と札幌デートの場合",
+   "voice": "a1661.wav",
+   "chars": 12,
+   "text": {
+    "ja": "それじゃ　そろそろ行こ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／紅茶の店アッサム／外観",
+   "voice": "a1796.wav",
+   "chars": 19,
+   "text": {
+    "ja": "あ・・このお店　琴梨と来たことあるよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 1,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／紅茶の店アッサム／外観",
+   "voice": "a1796.wav",
+   "chars": 14,
+   "text": {
+    "ja": "&主人公&さんもここの紅茶　好きなの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 2,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "うん",
+    "ko": ""
+   }
+  },
+  {
+   "window": 2,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "それほどでも・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 3,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／紅茶の店アッサム／外観",
+   "voice": "a1797.wav",
+   "chars": 14,
+   "text": {
+    "ja": "私も好き。紅茶だけじゃなくて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 3,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／紅茶の店アッサム／外観",
+   "voice": "a1797.wav",
+   "chars": 20,
+   "text": {
+    "ja": "カレーもおいしいんだよ。それじゃ　行こ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 4,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／紅茶の店アッサム／外観",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 5,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／紅茶の店アッサム／外観",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 6,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 1,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／紅茶の店アッサム／外観",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 7,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／紅茶の店アッサム／外観",
+   "voice": "a1798.wav",
+   "chars": 12,
+   "text": {
+    "ja": "それじゃ　別のとこ行こ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 7,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／紅茶の店アッサム／外観",
+   "voice": "a1798.wav",
+   "chars": 18,
+   "text": {
+    "ja": "せっかく札幌に来てくれてるんだもん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 7,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 1,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／紅茶の店アッサム／外観",
+   "voice": "a1798.wav",
+   "chars": 16,
+   "text": {
+    "ja": "&主人公&さんの行きたいとこ行かなきゃね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 8,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／紅茶の店アッサム／店内",
+   "voice": "a1799.wav",
+   "chars": 15,
+   "text": {
+    "ja": "紅茶のお店にカレーがあるなんて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 8,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／紅茶の店アッサム／店内",
+   "voice": "a1799.wav",
+   "chars": 17,
+   "text": {
+    "ja": "最初は私　意外な感じがしたんだけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 8,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／紅茶の店アッサム／店内",
+   "voice": "a1799.wav",
+   "chars": 24,
+   "text": {
+    "ja": "よく考えたら紅茶もカレーもインドが名産だもんね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 9,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／紅茶の店アッサム／店内",
+   "voice": "a1800.wav",
+   "chars": 22,
+   "text": {
+    "ja": "イギリスが作った東インド会社が紅茶を世界中に",
+    "ko": ""
+   }
+  },
+  {
+   "window": 9,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／紅茶の店アッサム／店内",
+   "voice": "a1800.wav",
+   "chars": 20,
+   "text": {
+    "ja": "広めたんだって　世界史の授業で習ったの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 10,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／紅茶の店アッサム／店内",
+   "voice": "a1801.wav",
+   "chars": 22,
+   "text": {
+    "ja": "そう言う風にいろんな国の文化が融合するのって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 10,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／紅茶の店アッサム／店内",
+   "voice": "a1801.wav",
+   "chars": 20,
+   "text": {
+    "ja": "すごくいいことだと思うけ@7044@ど　その背景には",
+    "ko": ""
+   }
+  },
+  {
+   "window": 10,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 2,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／紅茶の店アッサム／店内",
+   "voice": "a1801.wav",
+   "chars": 17,
+   "text": {
+    "ja": "悲しい歴史があったりするんだよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 11,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／北海道庁",
+   "voice": "a1802.wav",
+   "chars": 10,
+   "text": {
+    "ja": "ここが北海道庁だよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 11,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／北海道庁",
+   "voice": "a1802.wav",
+   "chars": 15,
+   "text": {
+    "ja": "&主人公&さんって　ここに来るの初めて？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 12,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "夏に一回来たよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 12,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "うん。実は初めて・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 12,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "どうだったっけな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 13,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／北海道庁",
+   "voice": "a1803.wav",
+   "chars": 23,
+   "text": {
+    "ja": "そっか・・きっと琴梨に案内してもらったんだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 13,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／北海道庁",
+   "voice": "a1803.wav",
+   "chars": 17,
+   "text": {
+    "ja": "・・・夏休みに私　&主人公&さんと琴梨のこと",
+    "ko": ""
+   }
+  },
+  {
+   "window": 13,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／北海道庁",
+   "voice": "a1803.wav",
+   "chars": 19,
+   "text": {
+    "ja": "ちょっとだけ　ヤキモチやいてたけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 14,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／北海道庁",
+   "voice": "a1811.wav",
+   "chars": 23,
+   "text": {
+    "ja": "でも私　そう言うこと考えるの　もうやめたんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 14,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／北海道庁",
+   "voice": "a1811.wav",
+   "chars": 21,
+   "text": {
+    "ja": "だって一番大切なのは　私の気持ちだもんね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 15,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／北海道庁",
+   "voice": "a1805.wav",
+   "chars": 13,
+   "text": {
+    "ja": "琴梨は私の　大切な友達だし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 15,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／北海道庁",
+   "voice": "a1805.wav",
+   "chars": 15,
+   "text": {
+    "ja": "&主人公&さんだって　私の大切な人だよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 15,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／北海道庁",
+   "voice": "a1805.wav",
+   "chars": 23,
+   "text": {
+    "ja": "そう言う人と巡り会えたことが　私の一番の幸せ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 16,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／北海道庁",
+   "voice": "a1806.wav",
+   "chars": 23,
+   "text": {
+    "ja": "よけいなこと考えたら　私　そんな大切な人たちを",
+    "ko": ""
+   }
+  },
+  {
+   "window": 16,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／北海道庁",
+   "voice": "a1806.wav",
+   "chars": 14,
+   "text": {
+    "ja": "憎んでしまうかもしれない・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 16,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／北海道庁",
+   "voice": "a1806.wav",
+   "chars": 18,
+   "text": {
+    "ja": "だから私　ヤキモチやくのやめたんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 17,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／北海道庁",
+   "voice": "a1807.wav",
+   "chars": 15,
+   "text": {
+    "ja": "ホントに？　・・・まぁいいや。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 17,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／北海道庁",
+   "voice": "a1807.wav",
+   "chars": 12,
+   "text": {
+    "ja": "夏の道庁も素敵なんだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 17,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／北海道庁",
+   "voice": "a1807.wav",
+   "chars": 17,
+   "text": {
+    "ja": "この辺に　たくさん花が咲いて・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 18,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／北海道庁",
+   "voice": "a1808.wav",
+   "chars": 23,
+   "text": {
+    "ja": "あんまり人がいないから　ギターの練習するのにも",
+    "ko": ""
+   }
+  },
+  {
+   "window": 18,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／北海道庁",
+   "voice": "a1808.wav",
+   "chars": 12,
+   "text": {
+    "ja": "ちょうどいい感じなんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 19,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／北海道庁",
+   "voice": "a1809.wav",
+   "chars": 22,
+   "text": {
+    "ja": "何か気になる反応・・ねぇ私に何か隠してない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 19,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／北海道庁",
+   "voice": "a1809.wav",
+   "chars": 23,
+   "text": {
+    "ja": "あっ！　わかった！　きっと琴梨と来たんでしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 20,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "うん・・実は・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 20,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "違うって・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 21,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／北海道庁",
+   "voice": "a1810.wav",
+   "chars": 10,
+   "text": {
+    "ja": "私　気にしてないよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 21,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／北海道庁",
+   "voice": "a1810.wav",
+   "chars": 16,
+   "text": {
+    "ja": "そりゃ　以前は　&主人公&さんと琴梨のこと",
+    "ko": ""
+   }
+  },
+  {
+   "window": 21,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／北海道庁",
+   "voice": "a1810.wav",
+   "chars": 19,
+   "text": {
+    "ja": "ちょっとだけ　ヤキモチやいてたけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 22,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／北海道庁",
+   "voice": "a1814.wav",
+   "chars": 25,
+   "text": {
+    "ja": "そう？　でも琴梨のことなら　私気にしてないからね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 22,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／北海道庁",
+   "voice": "a1814.wav",
+   "chars": 16,
+   "text": {
+    "ja": "そりゃ　以前は　&主人公&さんと琴梨のこと",
+    "ko": ""
+   }
+  },
+  {
+   "window": 22,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／北海道庁",
+   "voice": "a1814.wav",
+   "chars": 19,
+   "text": {
+    "ja": "ちょっとだけ　ヤキモチやいてたけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 23,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／北海道庁",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 24,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／北海道庁",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 25,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／北海道庁",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 26,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／北海道庁",
+   "voice": "a1810.wav",
+   "chars": 10,
+   "text": {
+    "ja": "私　気にしてないよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 26,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／北海道庁",
+   "voice": "a1810.wav",
+   "chars": 16,
+   "text": {
+    "ja": "そりゃ　以前は　&主人公&さんと琴梨のこと",
+    "ko": ""
+   }
+  },
+  {
+   "window": 26,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／北海道庁",
+   "voice": "a1810.wav",
+   "chars": 19,
+   "text": {
+    "ja": "ちょっとだけ　ヤキモチやいてたけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 27,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／北海道庁",
+   "voice": "a1804.wav",
+   "chars": 23,
+   "text": {
+    "ja": "でも私　そう言うこと考えるの　もうやめたんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 27,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／北海道庁",
+   "voice": "a1804.wav",
+   "chars": 21,
+   "text": {
+    "ja": "だって一番大切なのは　私の気持ちだもんね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 28,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／北海道庁",
+   "voice": "a1812.wav",
+   "chars": 13,
+   "text": {
+    "ja": "琴梨は私の　大切な友達だし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 28,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／北海道庁",
+   "voice": "a1812.wav",
+   "chars": 15,
+   "text": {
+    "ja": "&主人公&さんだって　私の大切な人だよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 28,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／北海道庁",
+   "voice": "a1812.wav",
+   "chars": 23,
+   "text": {
+    "ja": "そう言う人と巡り会えたことが　私の一番の幸せ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 29,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／北海道庁",
+   "voice": "a1813.wav",
+   "chars": 23,
+   "text": {
+    "ja": "よけいなこと考えたら　私　そんな大切な人たちを",
+    "ko": ""
+   }
+  },
+  {
+   "window": 29,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／北海道庁",
+   "voice": "a1813.wav",
+   "chars": 14,
+   "text": {
+    "ja": "憎んでしまうかもしれない・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 29,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／北海道庁",
+   "voice": "a1813.wav",
+   "chars": 18,
+   "text": {
+    "ja": "だから私　ヤキモチやくのやめたんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 30,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／北海道庁",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 31,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／北海道庁",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 32,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／北海道庁",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 33,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／北海道庁",
+   "voice": "a1629.wav",
+   "chars": 16,
+   "text": {
+    "ja": "@S@・・・・・・・・・・・・・・・@P@・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 33,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／北海道庁",
+   "voice": "a1629.wav",
+   "chars": 19,
+   "text": {
+    "ja": "ねぇ？　どうしちゃったの？　聞いてる？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 34,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／北海道庁",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 35,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 3,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／北海道庁",
+   "voice": "a1818.wav",
+   "chars": 19,
+   "text": {
+    "ja": "@S@・・・@P@そろそろ　他のとこ　行こっか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 36,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／時計台",
+   "voice": "a1819.wav",
+   "chars": 16,
+   "text": {
+    "ja": "鐘の音だって　立派な音楽だよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 36,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／時計台",
+   "voice": "a1819.wav",
+   "chars": 15,
+   "text": {
+    "ja": "音符なんて　ひとつしかないのに",
+    "ko": ""
+   }
+  },
+  {
+   "window": 36,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／時計台",
+   "voice": "a1819.wav",
+   "chars": 16,
+   "text": {
+    "ja": "聞いてると　すごく心が和むんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 37,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／時計台",
+   "voice": "a1820.wav",
+   "chars": 24,
+   "text": {
+    "ja": "ギター　一本でライブやってると　ドラムやベースや",
+    "ko": ""
+   }
+  },
+  {
+   "window": 37,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／時計台",
+   "voice": "a1820.wav",
+   "chars": 25,
+   "text": {
+    "ja": "キーボードはいらないのかって　よく言われるんだけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 37,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／時計台",
+   "voice": "a1820.wav",
+   "chars": 20,
+   "text": {
+    "ja": "私　まだそういうのって考えたくないんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 38,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／時計台",
+   "voice": "a1821.wav",
+   "chars": 21,
+   "text": {
+    "ja": "よけいな音を入れない　シンプルな演奏をして",
+    "ko": ""
+   }
+  },
+  {
+   "window": 38,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／時計台",
+   "voice": "a1821.wav",
+   "chars": 19,
+   "text": {
+    "ja": "それで感動を伝えられたら　素敵でしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 38,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／時計台",
+   "voice": "a1821.wav",
+   "chars": 18,
+   "text": {
+    "ja": "・・・この時計台の鐘の音みたいに・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 39,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "賛成だよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 39,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "それは・・どうかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 40,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／時計台",
+   "voice": "a1822.wav",
+   "chars": 24,
+   "text": {
+    "ja": "他の人に協力してもらうと　その人に頼っちゃうから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 40,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／時計台",
+   "voice": "a1822.wav",
+   "chars": 20,
+   "text": {
+    "ja": "ちゃんと自分の実力が付かない気がするの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 41,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／時計台",
+   "voice": "a1823.wav",
+   "chars": 24,
+   "text": {
+    "ja": "歌とギターだけで　１００パーセント伝えたいことを",
+    "ko": ""
+   }
+  },
+  {
+   "window": 41,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／時計台",
+   "voice": "a1823.wav",
+   "chars": 24,
+   "text": {
+    "ja": "伝えられるようになって・・・バンドを組むこととか",
+    "ko": ""
+   }
+  },
+  {
+   "window": 41,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／時計台",
+   "voice": "a1823.wav",
+   "chars": 22,
+   "text": {
+    "ja": "考えるのは　それからでも遅くないと思うんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 42,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／時計台",
+   "voice": "a1824.wav",
+   "chars": 23,
+   "text": {
+    "ja": "もちろん。他の音を入れることを否定するつもりは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 42,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／時計台",
+   "voice": "a1824.wav",
+   "chars": 25,
+   "text": {
+    "ja": "ないんだよ。@7045@でも他の人に協力してもらうと　その人に",
+    "ko": ""
+   }
+  },
+  {
+   "window": 42,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／時計台",
+   "voice": "a1824.wav",
+   "chars": 24,
+   "text": {
+    "ja": "頼っちゃうから　自分の実力が付かない気がするの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 43,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／時計台",
+   "voice": "a1825.wav",
+   "chars": 24,
+   "text": {
+    "ja": "歌とギターだけで　１００パーセント伝えたいことを",
+    "ko": ""
+   }
+  },
+  {
+   "window": 43,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／時計台",
+   "voice": "a1825.wav",
+   "chars": 24,
+   "text": {
+    "ja": "伝えられるようになって・・・バンドを組むこととか",
+    "ko": ""
+   }
+  },
+  {
+   "window": 43,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／時計台",
+   "voice": "a1825.wav",
+   "chars": 22,
+   "text": {
+    "ja": "考えるのは　それからでも遅くないと思うんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 44,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／時計台",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 45,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／時計台",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 46,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／時計台",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 47,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／時計台",
+   "voice": "a1627.wav",
+   "chars": 14,
+   "text": {
+    "ja": "あ・・そういう話ってきらい？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 48,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／時計台",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 49,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 4,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／時計台",
+   "voice": "a1826.wav",
+   "chars": 15,
+   "text": {
+    "ja": "それじゃ　そろそろ行こっか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 50,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／須貝ビル／外観",
+   "voice": "a1827.wav",
+   "chars": 10,
+   "text": {
+    "ja": "あっ！　須貝ビルだ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 50,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／須貝ビル／外観",
+   "voice": "a1827.wav",
+   "chars": 14,
+   "text": {
+    "ja": "ひさしぶりに　カラオケする？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 50,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／須貝ビル／外観",
+   "voice": "a1827.wav",
+   "chars": 12,
+   "text": {
+    "ja": "それともゲームセンター？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 51,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "もちろんゲーセンだよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 51,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "もちろんカラオケだよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 52,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／須貝ビル／外観",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 53,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／須貝ビル／外観",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 54,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 5,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／須貝ビル／外観",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "鮎ちゃんは　どっちが好きなんだろう？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 55,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "ゲーセン",
+    "ko": ""
+   }
+  },
+  {
+   "window": 55,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "カラオケ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 56,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／須貝ビル／外観",
+   "voice": "a1828.wav",
+   "chars": 20,
+   "text": {
+    "ja": "ＯＫ！　それじゃまたヌイグルミ取ってね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 57,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／須貝ビル／外観",
+   "voice": "a1829.wav",
+   "chars": 18,
+   "text": {
+    "ja": "デビュー前の川原鮎の歌　聞けるなんて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 57,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／須貝ビル／外観",
+   "voice": "a1829.wav",
+   "chars": 9,
+   "text": {
+    "ja": "&主人公&さん　幸せ者だよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 57,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 5,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／須貝ビル／外観",
+   "voice": "a1829.wav",
+   "chars": 9,
+   "text": {
+    "ja": "・・それじゃ行こ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 58,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 6,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／須貝ビル／ゲームセンター",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "須貝ビル１階のゲームセンターだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 58,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 6,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／須貝ビル／ゲームセンター",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "ＵＦＯキャッチャー　クイズ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 58,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 6,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／須貝ビル／ゲームセンター",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "シューティングゲームなどの筐体がある。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 59,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 6,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／須貝ビル／ゲームセンター",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "さて　何から遊ぼうか・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 60,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "선택지",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "ＵＦＯキャッチャー",
+    "ko": ""
+   }
+  },
+  {
+   "window": 60,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "선택지",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "クイズ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 60,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "선택지",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "シューティングゲーム",
+    "ko": ""
+   }
+  },
+  {
+   "window": 60,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "선택지",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "外に出る",
+    "ko": ""
+   }
+  },
+  {
+   "window": 61,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 7,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／須貝ビル／カラオケ",
+   "voice": "a1842.wav",
+   "chars": 10,
+   "text": {
+    "ja": "うん。いいよ。行こ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 62,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 7,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／須貝ビル／カラオケ",
+   "voice": "a1842.wav",
+   "chars": 10,
+   "text": {
+    "ja": "うん。いいよ。行こ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 63,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 7,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／須貝ビル／カラオケ",
+   "voice": "a1842.wav",
+   "chars": 10,
+   "text": {
+    "ja": "うん。いいよ。行こ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 64,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 7,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／須貝ビル／カラオケ",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "そろそろ　ここ出ようか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 65,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 7,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／須貝ビル／カラオケ",
+   "voice": "a1843.wav",
+   "chars": 8,
+   "text": {
+    "ja": "うん。出よっか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 66,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 7,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／須貝ビル／カラオケ",
+   "voice": "a1842.wav",
+   "chars": 10,
+   "text": {
+    "ja": "うん。いいよ。行こ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 67,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 9,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ビートルバム／店内",
+   "voice": "a1830.wav",
+   "chars": 18,
+   "text": {
+    "ja": "ＵＦＯキャッチャー！　ねぇ！　&主人公&さん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 67,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 9,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ビートルバム／店内",
+   "voice": "a1830.wav",
+   "chars": 14,
+   "text": {
+    "ja": "あの天使のヌイグルミ取って！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 68,
+   "line": 0,
+   "speaker": "説明",
+   "kind": "나레이션",
+   "scene": 9,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ビートルバム／店内",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "ＵＦＯキャッチャーの操作説明を見ますか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 69,
+   "line": 0,
+   "speaker": "説明",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "はい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 69,
+   "line": 1,
+   "speaker": "説明",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "いいえ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 70,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 9,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ビートルバム／店内",
+   "voice": "a1831.wav",
+   "chars": 13,
+   "text": {
+    "ja": "すごい！　うまいじゃない！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 71,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "scene": 9,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ビートルバム／店内",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "ぱんだジェルをあげますか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 72,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "はい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 72,
+   "line": 1,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "いいえ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 73,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "scene": 9,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ビートルバム／店内",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "えんジェルをあげますか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 74,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "はい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 74,
+   "line": 1,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "いいえ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 75,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "scene": 9,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ビートルバム／店内",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "みみジェルをあげますか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 76,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "はい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 76,
+   "line": 1,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "いいえ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 77,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "scene": 9,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ビートルバム／店内",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "もちジェルをあげますか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 78,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "はい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 78,
+   "line": 1,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "いいえ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 79,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "scene": 9,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ビートルバム／店内",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "うるふジェルをあげますか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 80,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "はい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 80,
+   "line": 1,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "いいえ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 81,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "scene": 9,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ビートルバム／店内",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "でぶジェルをあげますか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 82,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "はい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 82,
+   "line": 1,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "いいえ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 83,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 9,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ビートルバム／店内",
+   "voice": "a1832.wav",
+   "chars": 20,
+   "text": {
+    "ja": "もらっていいの？　嬉しい！　ありがとう！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 84,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 9,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ビートルバム／店内",
+   "voice": "a1833.wav",
+   "chars": 12,
+   "text": {
+    "ja": "うーん・・残念だったね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 85,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 9,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ビートルバム／店内",
+   "voice": "a1841.wav",
+   "chars": 20,
+   "text": {
+    "ja": "ねぇねぇ！　次は何のゲームで遊ぼっか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 86,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 9,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ビートルバム／店内",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "さて　どうしようか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 87,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 10,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド",
+   "voice": "a1834.wav",
+   "chars": 18,
+   "text": {
+    "ja": "クイズ対決！　ねぇ！　私と勝負しよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 88,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 10,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド",
+   "voice": "a1835.wav",
+   "chars": 12,
+   "text": {
+    "ja": "嬉しい！　勝っちゃった！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 89,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 10,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド",
+   "voice": "a1836.wav",
+   "chars": 14,
+   "text": {
+    "ja": "悔しい！　負けちゃった・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 90,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 10,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド",
+   "voice": "a1841.wav",
+   "chars": 20,
+   "text": {
+    "ja": "ねぇねぇ！　次は何のゲームで遊ぼっか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 91,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 10,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "さて　どうしようか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 92,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／プール入口",
+   "voice": "a1837.wav",
+   "chars": 8,
+   "text": {
+    "ja": "シューティング？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 92,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／プール入口",
+   "voice": "a1837.wav",
+   "chars": 13,
+   "text": {
+    "ja": "やってみて！　やってみて！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 93,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／プール入口",
+   "voice": "a1838.wav",
+   "chars": 14,
+   "text": {
+    "ja": "すごい！　ハイスコアーだよ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 94,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／プール入口",
+   "voice": "a1839.wav",
+   "chars": 16,
+   "text": {
+    "ja": "うまい！　結構　うまいじゃない！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 95,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／プール入口",
+   "voice": "a1840.wav",
+   "chars": 22,
+   "text": {
+    "ja": "あーん！　ちょっと失敗しちゃったみたいだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 96,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 11,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／プール入口",
+   "voice": "a1841.wav",
+   "chars": 20,
+   "text": {
+    "ja": "ねぇねぇ！　次は何のゲームで遊ぼっか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 97,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 11,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／プール入口",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "さて　どうしようか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 98,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／室内プール",
+   "voice": "a1844.wav",
+   "chars": 16,
+   "text": {
+    "ja": "それじゃ！　川原鮎　歌いまーす！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 99,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／室内プール",
+   "voice": "a1848.wav",
+   "chars": 9,
+   "text": {
+    "ja": "嬉しい！　高得点！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 100,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／室内プール",
+   "voice": "a1849.wav",
+   "chars": 23,
+   "text": {
+    "ja": "悔しい！　なんであんな点しか出ないんだろう・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 101,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／室内プール",
+   "voice": "a1847.wav",
+   "chars": 12,
+   "text": {
+    "ja": "はい。次は&主人公&さんの番だよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 102,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 12,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／室内プール",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "さて　何を歌おうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 103,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "scene": 12,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／室内プール",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "歌う曲目を選んで下さい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 104,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "ＭＯＶＥ　ＯＮ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 104,
+   "line": 1,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "ひこうき雲",
+    "ko": ""
+   }
+  },
+  {
+   "window": 104,
+   "line": 2,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "したっけ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 104,
+   "line": 3,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "わたしまけましたわ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 105,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "나레이션",
+   "scene": 12,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／室内プール",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "歌う曲目を選んで下さい",
+    "ko": ""
+   }
+  },
+  {
+   "window": 106,
+   "line": 0,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "ＭＯＶＥ　ＯＮ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 106,
+   "line": 1,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "ひこうき雲",
+    "ko": ""
+   }
+  },
+  {
+   "window": 106,
+   "line": 2,
+   "speaker": "システム",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "したっけ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 107,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／室内プール",
+   "voice": "a1845.wav",
+   "chars": 11,
+   "text": {
+    "ja": "すごい！！　高得点！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 107,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／室内プール",
+   "voice": "a1845.wav",
+   "chars": 12,
+   "text": {
+    "ja": "&主人公&さんも　歌うまいんだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 108,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／室内プール",
+   "voice": "a1846.wav",
+   "chars": 17,
+   "text": {
+    "ja": "残念・・ちょっと失敗しちゃったね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 109,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／室内プール",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "そろそろ　ここ出ようか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 110,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 12,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／室内プール",
+   "voice": "a1850.wav",
+   "chars": 10,
+   "text": {
+    "ja": "そうだね。出よっか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 111,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 13,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／屋外プール",
+   "voice": "a1851.wav",
+   "chars": 18,
+   "text": {
+    "ja": "ビートルバムかぁ・・ここって喫茶店？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 111,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 13,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／屋外プール",
+   "voice": "a1851.wav",
+   "chars": 18,
+   "text": {
+    "ja": "私ちょうど　のど乾いてたんだ。入ろ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 112,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 14,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a1852.wav",
+   "chars": 25,
+   "text": {
+    "ja": "私　高校を卒業したら　東京に行こうと思ってるんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 112,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 14,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a1852.wav",
+   "chars": 16,
+   "text": {
+    "ja": "そしたら&主人公&さんと　毎日会えるよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 113,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "うん。待ってるよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 113,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "え・・でも",
+    "ko": ""
+   }
+  },
+  {
+   "window": 113,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "もう少しじっくり考えた方がいいよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 114,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 14,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a1853.wav",
+   "chars": 23,
+   "text": {
+    "ja": "@S@・・・@P@えへへ・・その言葉が聞きたかっただけ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 114,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 14,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a1853.wav",
+   "chars": 25,
+   "text": {
+    "ja": "本当はまだそんなに真剣に考えてるわけじゃないんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 115,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 14,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a1854.wav",
+   "chars": 18,
+   "text": {
+    "ja": "でも東京の方がチャンスはあると思うし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 115,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 14,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a1854.wav",
+   "chars": 19,
+   "text": {
+    "ja": "アルバイトしながら　音楽やっていければ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 115,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 14,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a1854.wav",
+   "chars": 14,
+   "text": {
+    "ja": "なんとかなるかなぁって・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 116,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 14,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a1857.wav",
+   "chars": 24,
+   "text": {
+    "ja": "えへへ・・心配してくれてるの？　でも安心してね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 116,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 14,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a1857.wav",
+   "chars": 23,
+   "text": {
+    "ja": "まだそんなに真剣に考えてるわけじゃないから・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 117,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 14,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a1856.wav",
+   "chars": 18,
+   "text": {
+    "ja": "でも東京の方がチャンスはあると思うし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 117,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 14,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a1856.wav",
+   "chars": 19,
+   "text": {
+    "ja": "アルバイトしながら　音楽やっていければ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 117,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 14,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a1856.wav",
+   "chars": 14,
+   "text": {
+    "ja": "なんとかなるかなぁって・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 118,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 14,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 119,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 14,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 120,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 14,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 121,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 14,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a1855.wav",
+   "chars": 21,
+   "text": {
+    "ja": "あれ？　ちょっと焦った？　でも安心してね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 121,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 14,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a1855.wav",
+   "chars": 23,
+   "text": {
+    "ja": "まだそんなに真剣に考えてるわけじゃないから・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 122,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 14,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a1858.wav",
+   "chars": 18,
+   "text": {
+    "ja": "でも東京の方がチャンスはあると思うし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 122,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 14,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a1858.wav",
+   "chars": 19,
+   "text": {
+    "ja": "アルバイトしながら　音楽やっていければ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 122,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 14,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a1858.wav",
+   "chars": 14,
+   "text": {
+    "ja": "なんとかなるかなぁって・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 123,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 14,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a1859.wav",
+   "chars": 23,
+   "text": {
+    "ja": "お父さんは猛反対してるし　札幌を拠点にしたって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 123,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 14,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a1859.wav",
+   "chars": 19,
+   "text": {
+    "ja": "プロになれないわけじゃないだろうし・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 123,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 14,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a1859.wav",
+   "chars": 13,
+   "text": {
+    "ja": "@7047@でも・・・行きたいなぁ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 124,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／プール入口２",
+   "voice": "a7398.wav",
+   "chars": 19,
+   "text": {
+    "ja": "私　サッポロＳＰＡランドって好きだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 124,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／プール入口２",
+   "voice": "a7398.wav",
+   "chars": 14,
+   "text": {
+    "ja": "なんか東京の匂いがするんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 125,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／プール入口２",
+   "voice": "a7399.wav",
+   "chars": 13,
+   "text": {
+    "ja": "@S@・・・@P@こんなこと言うのって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 125,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／プール入口２",
+   "voice": "a7399.wav",
+   "chars": 12,
+   "text": {
+    "ja": "私が田舎ものだからかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 125,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／プール入口２",
+   "voice": "a7399.wav",
+   "chars": 7,
+   "text": {
+    "ja": "まぁいいや・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 126,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／プール入口２",
+   "voice": "a1862.wav",
+   "chars": 21,
+   "text": {
+    "ja": "私　名前は『鮎』のクセに泳ぐの苦手なんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 126,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／プール入口２",
+   "voice": "a1862.wav",
+   "chars": 19,
+   "text": {
+    "ja": "溺れないように　ちゃんと見張っててね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 126,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 15,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／プール入口２",
+   "voice": "a1862.wav",
+   "chars": 7,
+   "text": {
+    "ja": "それじゃ行こ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 127,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 16,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／プール受付",
+   "voice": "a1865.wav",
+   "chars": 5,
+   "text": {
+    "ja": "お待たせ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 128,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 16,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／プール受付",
+   "voice": "a1866.wav",
+   "chars": 15,
+   "text": {
+    "ja": "@S@・・・@P@夏休みに海に行ったときも",
+    "ko": ""
+   }
+  },
+  {
+   "window": 128,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 16,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／プール受付",
+   "voice": "a1866.wav",
+   "chars": 19,
+   "text": {
+    "ja": "&主人公&さん　そんな目で　私の水着姿見てたよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 129,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 16,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／プール受付",
+   "voice": "a1867.wav",
+   "chars": 20,
+   "text": {
+    "ja": "@S@・・・@P@そういうのって　嫌じゃないけどね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 129,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 16,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／プール受付",
+   "voice": "a1867.wav",
+   "chars": 9,
+   "text": {
+    "ja": "さっ！　早く行こ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 130,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 16,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／プール受付",
+   "voice": "A1434.WAV",
+   "chars": 15,
+   "text": {
+    "ja": "やだ。・・あんまり見ないでね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 131,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 16,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／プール受付",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "まず　どこに行こうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 132,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "室内プール",
+    "ko": ""
+   }
+  },
+  {
+   "window": 132,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "屋外プール",
+    "ko": ""
+   }
+  },
+  {
+   "window": 132,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "サウナ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 133,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 16,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／プール受付",
+   "voice": "a1869.wav",
+   "chars": 15,
+   "text": {
+    "ja": "うん。それじゃ私　泳いでみる。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 134,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 16,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／プール受付",
+   "voice": "a1870.wav",
+   "chars": 12,
+   "text": {
+    "ja": "外はちょっと寒そうだけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 134,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 16,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／プール受付",
+   "voice": "a1870.wav",
+   "chars": 15,
+   "text": {
+    "ja": "温水プールだから大丈夫だよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 135,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 16,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／プール受付",
+   "voice": "a1871.wav",
+   "chars": 18,
+   "text": {
+    "ja": "@7047@サウナってなんかおじさんくさくない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 135,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 16,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／プール受付",
+   "voice": "a1871.wav",
+   "chars": 22,
+   "text": {
+    "ja": "@7048@『それじゃ　サウナにでも行きましょうや・・』",
+    "ko": ""
+   }
+  },
+  {
+   "window": 135,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 16,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／プール受付",
+   "voice": "a1871.wav",
+   "chars": 15,
+   "text": {
+    "ja": "って感じ・・@7049@私は好きだけどね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 136,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "선택지",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "室内プール",
+    "ko": ""
+   }
+  },
+  {
+   "window": 136,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "선택지",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "屋外プール",
+    "ko": ""
+   }
+  },
+  {
+   "window": 136,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "선택지",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "サウナ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 137,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 17,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ママ・サブロッソ／外観",
+   "voice": "a1887.wav",
+   "chars": 18,
+   "text": {
+    "ja": "楽しかったね。そろそろ　出ようか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 138,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ママ・サブロッソ／内部",
+   "voice": "a1872.wav",
+   "chars": 14,
+   "text": {
+    "ja": "名前が鮎なのに泳げないのって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 138,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ママ・サブロッソ／内部",
+   "voice": "a1872.wav",
+   "chars": 15,
+   "text": {
+    "ja": "結構　コンプレックスなんだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 139,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ママ・サブロッソ／内部",
+   "voice": "a1873.wav",
+   "chars": 23,
+   "text": {
+    "ja": "だから太（ふとし）って名前なのに痩せてる人とか",
+    "ko": ""
+   }
+  },
+  {
+   "window": 139,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ママ・サブロッソ／内部",
+   "voice": "a1873.wav",
+   "chars": 20,
+   "text": {
+    "ja": "茂って名前なのに髪の毛が薄い人とか見ると",
+    "ko": ""
+   }
+  },
+  {
+   "window": 139,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ママ・サブロッソ／内部",
+   "voice": "a1873.wav",
+   "chars": 16,
+   "text": {
+    "ja": "なんか変な共感　持っちゃうんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 140,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "わかる気がするよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 140,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "気にしなくてもいいんじゃない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 141,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ママ・サブロッソ／内部",
+   "voice": "a1874.wav",
+   "chars": 24,
+   "text": {
+    "ja": "だからってさ・・あんまり本人とぴったりの名前だと",
+    "ko": ""
+   }
+  },
+  {
+   "window": 141,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ママ・サブロッソ／内部",
+   "voice": "a1874.wav",
+   "chars": 21,
+   "text": {
+    "ja": "逆に笑っちゃうような時あるし　難しいよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 142,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ママ・サブロッソ／内部",
+   "voice": "a1875.wav",
+   "chars": 19,
+   "text": {
+    "ja": "自分では気にしてるつもり　ないんだけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 142,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ママ・サブロッソ／内部",
+   "voice": "a1875.wav",
+   "chars": 23,
+   "text": {
+    "ja": "そう言うのって　いっつも言われちゃうからね・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 143,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ママ・サブロッソ／内部",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 144,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ママ・サブロッソ／内部",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 145,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 18,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ママ・サブロッソ／内部",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 146,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ママ・サブロッソ／内部",
+   "voice": "a1629.wav",
+   "chars": 16,
+   "text": {
+    "ja": "@S@・・・・・・・・・・・・・・・@P@・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 146,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ママ・サブロッソ／内部",
+   "voice": "a1629.wav",
+   "chars": 19,
+   "text": {
+    "ja": "ねぇ？　どうしちゃったの？　聞いてる？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 147,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ママ・サブロッソ／内部",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 148,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ママ・サブロッソ／内部",
+   "voice": "a1876.wav",
+   "chars": 16,
+   "text": {
+    "ja": "それじゃまず　泳げる鮎を目指して",
+    "ko": ""
+   }
+  },
+  {
+   "window": 148,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ママ・サブロッソ／内部",
+   "voice": "a1876.wav",
+   "chars": 11,
+   "text": {
+    "ja": "水中で目を開ける練習！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 148,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ママ・サブロッソ／内部",
+   "voice": "a1876.wav",
+   "chars": 15,
+   "text": {
+    "ja": "&主人公&さんも　付き合ってね。せーの！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 149,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 18,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ママ・サブロッソ／内部",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "鮎ちゃんが目をつぶっている。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 149,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 18,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ママ・サブロッソ／内部",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "僕は・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 150,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "鮎ちゃんにキスをしようとした",
+    "ko": ""
+   }
+  },
+  {
+   "window": 150,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "黙って鮎ちゃんの顔を見ていた",
+    "ko": ""
+   }
+  },
+  {
+   "window": 150,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "目を開けなきゃダメだよと言おうとした。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 151,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ママ・サブロッソ／内部",
+   "voice": "a1878.wav",
+   "chars": 10,
+   "text": {
+    "ja": "あー！　苦しかった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 151,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ママ・サブロッソ／内部",
+   "voice": "a1878.wav",
+   "chars": 13,
+   "text": {
+    "ja": "・・・あれ？　&主人公&さんは・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 151,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ママ・サブロッソ／内部",
+   "voice": "a1878.wav",
+   "chars": 10,
+   "text": {
+    "ja": "まだ潜ってるのかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 152,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 18,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ママ・サブロッソ／内部",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "・・・・・空振り・・だった・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 153,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ママ・サブロッソ／内部",
+   "voice": "a1880.wav",
+   "chars": 7,
+   "text": {
+    "ja": "すごいね&主人公&さん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 153,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ママ・サブロッソ／内部",
+   "voice": "a1880.wav",
+   "chars": 9,
+   "text": {
+    "ja": "ずっと潜ってたよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 154,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ママ・サブロッソ／内部",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・うん。・・まぁ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 155,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 18,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ママ・サブロッソ／内部",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "・・鮎ちゃん・・可愛いな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 156,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ママ・サブロッソ／内部",
+   "voice": "a1883.wav",
+   "chars": 10,
+   "text": {
+    "ja": "あー！　苦しかった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 156,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ママ・サブロッソ／内部",
+   "voice": "a1883.wav",
+   "chars": 17,
+   "text": {
+    "ja": "やっぱり　なかなか開けられないね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 156,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ママ・サブロッソ／内部",
+   "voice": "a1883.wav",
+   "chars": 12,
+   "text": {
+    "ja": "もっと練習しなくちゃ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 157,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 18,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ママ・サブロッソ／内部",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "・・うぐっ！　げぼげぼげぼっ・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 157,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 18,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ママ・サブロッソ／内部",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "水を飲んでしまった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 158,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ママ・サブロッソ／内部",
+   "voice": "a1885.wav",
+   "chars": 8,
+   "text": {
+    "ja": "だ・・大丈夫！？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 158,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ママ・サブロッソ／内部",
+   "voice": "a1885.wav",
+   "chars": 18,
+   "text": {
+    "ja": "&主人公&さんも　実は泳ぐの苦手だったんだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 159,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ママ・サブロッソ／内部",
+   "voice": "a1886.wav",
+   "chars": 15,
+   "text": {
+    "ja": "そろそろ行こうか・・どこ行く？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 160,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 18,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ママ・サブロッソ／内部",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "次は　どこに行こうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 161,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "선택지",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "室内プール",
+    "ko": ""
+   }
+  },
+  {
+   "window": 161,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "선택지",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "屋外プール",
+    "ko": ""
+   }
+  },
+  {
+   "window": 161,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "선택지",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "サウナ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 162,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 18,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ママ・サブロッソ／内部",
+   "voice": "A1887.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "楽しかったね。そろそろ　出ようか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 163,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／インターミッション１",
+   "voice": "a1888.wav",
+   "chars": 13,
+   "text": {
+    "ja": "わー！　中はあったかいね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 163,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／インターミッション１",
+   "voice": "a1888.wav",
+   "chars": 17,
+   "text": {
+    "ja": "ほら見て！　毛穴が開いてく感じ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 163,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／インターミッション１",
+   "voice": "a1888.wav",
+   "chars": 17,
+   "text": {
+    "ja": "・・・でもここ　ちょっと狭くない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 164,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "本当だね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 164,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "狭いからいいんだよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 165,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／インターミッション１",
+   "voice": "a1889.wav",
+   "chars": 24,
+   "text": {
+    "ja": "知らない人と入ったら　ちょっと恥ずかしいかも・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 166,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "そんな人いないって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 166,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "知ってる人と入ったら恥ずかしくない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 167,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／インターミッション１",
+   "voice": "a1890.wav",
+   "chars": 8,
+   "text": {
+    "ja": "それもそうだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 168,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／インターミッション１",
+   "voice": "a1891.wav",
+   "chars": 20,
+   "text": {
+    "ja": "@S@・・・・@P@ちょっとだけ　恥ずかしいかも・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 169,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／インターミッション１",
+   "voice": "a1892.wav",
+   "chars": 11,
+   "text": {
+    "ja": "えへへ・・そうかもね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 170,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／インターミッション１",
+   "voice": "a1893.wav",
+   "chars": 19,
+   "text": {
+    "ja": "@S@・・・@P@でもちょっと・・照れちゃうな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 171,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／インターミッション１",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 172,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／インターミッション１",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 173,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 19,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／インターミッション１",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 174,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／インターミッション１",
+   "voice": "a1894.wav",
+   "chars": 18,
+   "text": {
+    "ja": "そろそろ　別のとこ行こ。どこにする？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 175,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 19,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／インターミッション１",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "次は　どこに行こうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 176,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "선택지",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "室内プール",
+    "ko": ""
+   }
+  },
+  {
+   "window": 176,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "선택지",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "屋外プール",
+    "ko": ""
+   }
+  },
+  {
+   "window": 176,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "선택지",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "サウナ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 177,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 19,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／インターミッション１",
+   "voice": "A1895.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "楽しかったね。そろそろ　出ようか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 178,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a1896.wav",
+   "chars": 19,
+   "text": {
+    "ja": "@S@・・・@P@前にちょっと　悲しいことがあって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 178,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a1896.wav",
+   "chars": 25,
+   "text": {
+    "ja": "でも泣いてたまるかって思って　サウナに入ったんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 178,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a1896.wav",
+   "chars": 17,
+   "text": {
+    "ja": "ほら　汗と涙って　同じ成分でしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 179,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a1897.wav",
+   "chars": 14,
+   "text": {
+    "ja": "でも　やっぱり泣いちゃった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 179,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a1897.wav",
+   "chars": 22,
+   "text": {
+    "ja": "そういうのって　なかなかうまくいかないよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 180,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "そうだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 180,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "どうして泣いちゃったの？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 180,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "汗と涙は同じ成分じゃないよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 181,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a1898.wav",
+   "chars": 23,
+   "text": {
+    "ja": "一人で泣いてたら　近くにいた知らないおばさんが",
+    "ko": ""
+   }
+  },
+  {
+   "window": 181,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a1898.wav",
+   "chars": 17,
+   "text": {
+    "ja": "『どうしたの？』って聞いてきて・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 182,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a1899.wav",
+   "chars": 21,
+   "text": {
+    "ja": "そういう優しい気持ちに触れるとダメだよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 182,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a1899.wav",
+   "chars": 18,
+   "text": {
+    "ja": "私　それでよけいに泣いちゃったんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 183,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a1900.wav",
+   "chars": 15,
+   "text": {
+    "ja": "うん・・言ったかもしれないけど",
+    "ko": ""
+   }
+  },
+  {
+   "window": 183,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a1900.wav",
+   "chars": 20,
+   "text": {
+    "ja": "前に私のライブのこと　地元のミニコミ誌に",
+    "ko": ""
+   }
+  },
+  {
+   "window": 183,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a1900.wav",
+   "chars": 18,
+   "text": {
+    "ja": "悪く書かれちゃったことがあって・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 184,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a1901.wav",
+   "chars": 18,
+   "text": {
+    "ja": "でも　今はもう　全然気にしてないよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 185,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "・・・・・・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 186,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "・・・・・・・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 187,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 188,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a1902.wav",
+   "chars": 12,
+   "text": {
+    "ja": "・・ちょっと・・暑いね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 188,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 20,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a1902.wav",
+   "chars": 11,
+   "text": {
+    "ja": "そろそろ　出ようか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 189,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ステップ１",
+   "voice": "a1903.wav",
+   "chars": 7,
+   "text": {
+    "ja": "次はどこ行く？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 190,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 21,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ステップ１",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "さて　どうしようか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 191,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "선택지",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "室内プール",
+    "ko": ""
+   }
+  },
+  {
+   "window": 191,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "선택지",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "屋外プール",
+    "ko": ""
+   }
+  },
+  {
+   "window": 191,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "선택지",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "サウナ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 192,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ステップ１",
+   "voice": "a1904.wav",
+   "chars": 16,
+   "text": {
+    "ja": "なんか身体　ふやけてきちゃった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 192,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 21,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ステップ１",
+   "voice": "a1904.wav",
+   "chars": 11,
+   "text": {
+    "ja": "そろそろ　出ようか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 193,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 22,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ステップ２",
+   "voice": "a1905.wav",
+   "chars": 14,
+   "text": {
+    "ja": "やっぱりプールっていいよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 193,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 22,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ステップ２",
+   "voice": "a1905.wav",
+   "chars": 24,
+   "text": {
+    "ja": "泳げるようになったら　もっと楽しいんだろうな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 193,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 22,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ステップ２",
+   "voice": "a1905.wav",
+   "chars": 12,
+   "text": {
+    "ja": "それじゃ　そろそろ行こ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 194,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 23,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ステップ３",
+   "voice": "a1918.wav",
+   "chars": 22,
+   "text": {
+    "ja": "ママ・サブロッソ・・イタリア料理のお店だね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 194,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 23,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／ステップ３",
+   "voice": "a1918.wav",
+   "chars": 23,
+   "text": {
+    "ja": "ちょうどお腹も減ってきたし・・いいよ。入ろう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 195,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-31",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a1919.wav",
+   "chars": 25,
+   "text": {
+    "ja": "ねぇ？　マンジャーレ・カンターレ・アモーレって言葉",
+    "ko": ""
+   }
+  },
+  {
+   "window": 195,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-31",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a1919.wav",
+   "chars": 8,
+   "text": {
+    "ja": "聞いたことある？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 196,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "初めて聞くよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 196,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "『食べて歌って愛する』だっけ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 197,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-31",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a1920.wav",
+   "chars": 11,
+   "text": {
+    "ja": "マンジャーレは食べる。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 197,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-31",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a1920.wav",
+   "chars": 9,
+   "text": {
+    "ja": "カンターレは歌う。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 197,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-31",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a1920.wav",
+   "chars": 15,
+   "text": {
+    "ja": "アモーレは愛するっていう意味。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 198,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-31",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a1921.wav",
+   "chars": 15,
+   "text": {
+    "ja": "イタリア人にとって　この三つが",
+    "ko": ""
+   }
+  },
+  {
+   "window": 198,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-31",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a1921.wav",
+   "chars": 16,
+   "text": {
+    "ja": "何よりも大切なものなんだって・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 198,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-31",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a1921.wav",
+   "chars": 13,
+   "text": {
+    "ja": "私　この言葉　好きだな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 199,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-31",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a1923.wav",
+   "chars": 10,
+   "text": {
+    "ja": "うん。でもすごいね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 199,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-31",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a1923.wav",
+   "chars": 19,
+   "text": {
+    "ja": "&主人公&さんって　イタリア語にも詳しいんだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 199,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-31",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a1923.wav",
+   "chars": 16,
+   "text": {
+    "ja": "・・私　この言葉　大好きなんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 200,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-31",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 201,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-31",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 202,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 24,
+   "date": "12-31",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 203,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-31",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a1920.wav",
+   "chars": 11,
+   "text": {
+    "ja": "マンジャーレは食べる。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 203,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-31",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a1920.wav",
+   "chars": 9,
+   "text": {
+    "ja": "カンターレは歌う。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 203,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-31",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a1920.wav",
+   "chars": 15,
+   "text": {
+    "ja": "アモーレは愛するっていう意味。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 204,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-31",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a1921.wav",
+   "chars": 15,
+   "text": {
+    "ja": "イタリア人にとって　この三つが",
+    "ko": ""
+   }
+  },
+  {
+   "window": 204,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-31",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a1921.wav",
+   "chars": 16,
+   "text": {
+    "ja": "何よりも大切なものなんだって・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 204,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-31",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a1921.wav",
+   "chars": 13,
+   "text": {
+    "ja": "私　この言葉　好きだな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 205,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-31",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a1922.wav",
+   "chars": 21,
+   "text": {
+    "ja": "食べないと死んじゃうし　好きな人がいないと",
+    "ko": ""
+   }
+  },
+  {
+   "window": 205,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-31",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a1922.wav",
+   "chars": 22,
+   "text": {
+    "ja": "寂しいでしょ？　後はやっぱり　歌がないとね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 205,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 24,
+   "date": "12-31",
+   "slot": "朝",
+   "place": "ローズヒル南平岸／春野家／書斎",
+   "voice": "a1922.wav",
+   "chars": 23,
+   "text": {
+    "ja": "歌がなかったら　きっと生きててつまんないよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 206,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 25,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場",
+   "voice": "a1925.wav",
+   "chars": 12,
+   "text": {
+    "ja": "ねぇ？　&主人公&さん。寒くない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 207,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "そんなでもないよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 207,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "ちょっと寒いかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 208,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 25,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場",
+   "voice": "a1926.wav",
+   "chars": 15,
+   "text": {
+    "ja": "ホントに？　ホントに寒くない？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 209,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "寒くないって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 209,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "ちょっと寒いかな・・%2%",
+    "ko": ""
+   }
+  },
+  {
+   "window": 210,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 25,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場",
+   "voice": "a1927.wav",
+   "chars": 13,
+   "text": {
+    "ja": "そっか・・じゃぁいいんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 211,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 25,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場",
+   "voice": "a1928.wav",
+   "chars": 11,
+   "text": {
+    "ja": "そんなに寒いなら・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 212,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 25,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場",
+   "voice": "a1929.wav",
+   "chars": 22,
+   "text": {
+    "ja": "ほら・・・こうしてると・・あったかいでしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 213,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 25,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場",
+   "voice": "a1930.wav",
+   "chars": 11,
+   "text": {
+    "ja": "そんなに寒いなら・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 214,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 25,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場",
+   "voice": "a1931.wav",
+   "chars": 22,
+   "text": {
+    "ja": "ほら・・・こうしてると・・あったかいでしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 215,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 25,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 216,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 25,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 217,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 25,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 218,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 25,
+   "date": "12-31",
+   "slot": "夜",
+   "place": "大通公園／イルミネーション会場",
+   "voice": "a1927.wav",
+   "chars": 13,
+   "text": {
+    "ja": "そっか・・じゃぁいいんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 219,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 26,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a1932.wav",
+   "chars": 13,
+   "text": {
+    "ja": "もうすぐ今年も終わりだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 219,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 26,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a1932.wav",
+   "chars": 13,
+   "text": {
+    "ja": "新しい年が　私たちにとって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 219,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 26,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a1932.wav",
+   "chars": 15,
+   "text": {
+    "ja": "新しいステップになるといいね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 220,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 2,
+   "text": {
+    "ja": "うん",
+    "ko": ""
+   }
+  },
+  {
+   "window": 220,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "新しいステップって具体的に何？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 221,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 26,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a1933.wav",
+   "chars": 16,
+   "text": {
+    "ja": "音楽のことも・・恋愛のことも・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 222,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 26,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a1934.wav",
+   "chars": 21,
+   "text": {
+    "ja": "@S@・・@P@具体的にどうって聞かれると困るけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 222,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 26,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "a1934.wav",
+   "chars": 25,
+   "text": {
+    "ja": "今年よりももっとハッピーな　来年になるといいよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 223,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 26,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 224,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 26,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "・・・・・・・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 225,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 26,
+   "date": null,
+   "slot": null,
+   "place": "",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "気まずい沈黙が訪れた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 226,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "鮎／五稜郭公園",
+   "voice": "a1935.wav",
+   "chars": 20,
+   "text": {
+    "ja": "私　冬が好き。冬になると雪が降るでしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 226,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "鮎／五稜郭公園",
+   "voice": "a1935.wav",
+   "chars": 14,
+   "text": {
+    "ja": "雪って周りの音を吸収するの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 226,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "鮎／五稜郭公園",
+   "voice": "a1935.wav",
+   "chars": 16,
+   "text": {
+    "ja": "それで雪の降る日は静かなんだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 227,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "鮎／五稜郭公園",
+   "voice": "a1936.wav",
+   "chars": 24,
+   "text": {
+    "ja": "最近は　黙っててもいろんな音が耳に入ってくるから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 227,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "鮎／五稜郭公園",
+   "voice": "a1936.wav",
+   "chars": 11,
+   "text": {
+    "ja": "静寂って　貴重だよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 228,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "鮎／五稜郭公園",
+   "voice": "a1937.wav",
+   "chars": 20,
+   "text": {
+    "ja": "真っ白な画用紙に　絵を描いていくみたいに",
+    "ko": ""
+   }
+  },
+  {
+   "window": 228,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "鮎／五稜郭公園",
+   "voice": "a1937.wav",
+   "chars": 23,
+   "text": {
+    "ja": "静寂の中にこそ　新しい音が埋まっているから・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 229,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "鮎／五稜郭公園",
+   "voice": "a1938.wav",
+   "chars": 17,
+   "text": {
+    "ja": "あのね。作曲って発掘に似てるんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 229,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "鮎／五稜郭公園",
+   "voice": "a1938.wav",
+   "chars": 17,
+   "text": {
+    "ja": "土の中に埋まっている綺麗な壺とかを",
+    "ko": ""
+   }
+  },
+  {
+   "window": 229,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "鮎／五稜郭公園",
+   "voice": "a1938.wav",
+   "chars": 17,
+   "text": {
+    "ja": "自分の手で　掘り出してゆく感じ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 230,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "鮎／五稜郭公園",
+   "voice": "a1939.wav",
+   "chars": 22,
+   "text": {
+    "ja": "自分で音符の組み合わせを考えてるんじゃなくて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 230,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "鮎／五稜郭公園",
+   "voice": "a1939.wav",
+   "chars": 24,
+   "text": {
+    "ja": "最初からあったメロディを　探してゆく感じなの・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 231,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "鮎／五稜郭公園",
+   "voice": "a1940.wav",
+   "chars": 16,
+   "text": {
+    "ja": "そのメロディを誰が作ったのかとか",
+    "ko": ""
+   }
+  },
+  {
+   "window": 231,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "鮎／五稜郭公園",
+   "voice": "a1940.wav",
+   "chars": 17,
+   "text": {
+    "ja": "どこにあるのかとか　そういうのって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 231,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "鮎／五稜郭公園",
+   "voice": "a1940.wav",
+   "chars": 13,
+   "text": {
+    "ja": "よくわからないんだけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 232,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "鮎／五稜郭公園",
+   "voice": "a1941.wav",
+   "chars": 20,
+   "text": {
+    "ja": "気が付くと　そこにメロディが埋まっていて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 232,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "鮎／五稜郭公園",
+   "voice": "a1941.wav",
+   "chars": 20,
+   "text": {
+    "ja": "それを見つけた私が　原型を壊さないように",
+    "ko": ""
+   }
+  },
+  {
+   "window": 232,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "鮎／五稜郭公園",
+   "voice": "a1941.wav",
+   "chars": 10,
+   "text": {
+    "ja": "発掘している感じ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 233,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "鮎／五稜郭公園",
+   "voice": "a1942.wav",
+   "chars": 23,
+   "text": {
+    "ja": "うまくいけば　自分でも感動しちゃうような作品を",
+    "ko": ""
+   }
+  },
+  {
+   "window": 233,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "鮎／五稜郭公園",
+   "voice": "a1942.wav",
+   "chars": 20,
+   "text": {
+    "ja": "掘り出すことが出来る・・その時の感覚って",
+    "ko": ""
+   }
+  },
+  {
+   "window": 233,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "鮎／五稜郭公園",
+   "voice": "a1942.wav",
+   "chars": 14,
+   "text": {
+    "ja": "ものすごく気持ちいいんだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 234,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "鮎／五稜郭公園",
+   "voice": "a1943.wav",
+   "chars": 22,
+   "text": {
+    "ja": "うまく言えないんだけど　柔らかい光に包まれて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 234,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "鮎／五稜郭公園",
+   "voice": "a1943.wav",
+   "chars": 23,
+   "text": {
+    "ja": "細胞のひとつひとつが喜んでいるような感覚・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 235,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "鮎／五稜郭公園",
+   "voice": "a1944.wav",
+   "chars": 19,
+   "text": {
+    "ja": "思い通りに発掘できないと　破片だけしか",
+    "ko": ""
+   }
+  },
+  {
+   "window": 235,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "鮎／五稜郭公園",
+   "voice": "a1944.wav",
+   "chars": 24,
+   "text": {
+    "ja": "手に入らなくて　そんな時はすごく辛いんだけど・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 236,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "鮎／五稜郭公園",
+   "voice": "a1945.wav",
+   "chars": 24,
+   "text": {
+    "ja": "一度　あのうまくいったときの感動を知ってしまうと",
+    "ko": ""
+   }
+  },
+  {
+   "window": 236,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "鮎／五稜郭公園",
+   "voice": "a1945.wav",
+   "chars": 24,
+   "text": {
+    "ja": "もう　書かずにはいられないような気分になるんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 237,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 6,
+   "text": {
+    "ja": "楽しそうだね",
+    "ko": ""
+   }
+  },
+  {
+   "window": 237,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "それって中毒？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 238,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "鮎／五稜郭公園",
+   "voice": "a1946.wav",
+   "chars": 19,
+   "text": {
+    "ja": "うん。楽しい。だって学校の時間割の中で",
+    "ko": ""
+   }
+  },
+  {
+   "window": 238,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "鮎／五稜郭公園",
+   "voice": "a1946.wav",
+   "chars": 23,
+   "text": {
+    "ja": "『楽しい』って文字使ってるの　音楽だけでしょ？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 238,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "鮎／五稜郭公園",
+   "voice": "a1946.wav",
+   "chars": 14,
+   "text": {
+    "ja": "だから楽しくないわけないよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 239,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "鮎／五稜郭公園",
+   "voice": "a1947.wav",
+   "chars": 15,
+   "text": {
+    "ja": "うーん。中毒・・なのかなぁ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 239,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "鮎／五稜郭公園",
+   "voice": "a1947.wav",
+   "chars": 15,
+   "text": {
+    "ja": "@9999@でもそれに近い感覚なのかもね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 240,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 27,
+   "date": null,
+   "slot": null,
+   "place": "鮎／五稜郭公園",
+   "voice": "a1948.wav",
+   "chars": 13,
+   "text": {
+    "ja": "そろそろここ　出よっか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 241,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "鮎／コンサート会場",
+   "voice": "a1949.wav",
+   "chars": 21,
+   "text": {
+    "ja": "作曲が発掘だとしたら　ライブは発散かな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 241,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "鮎／コンサート会場",
+   "voice": "a1949.wav",
+   "chars": 20,
+   "text": {
+    "ja": "自分自身のテンションがぐーんっと上がって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 241,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "鮎／コンサート会場",
+   "voice": "a1949.wav",
+   "chars": 22,
+   "text": {
+    "ja": "会場全体にエネルギーを発散するような感じ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 242,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "鮎／コンサート会場",
+   "voice": "a1950.wav",
+   "chars": 18,
+   "text": {
+    "ja": "だからライブが終わった後は　いっつも",
+    "ko": ""
+   }
+  },
+  {
+   "window": 242,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "鮎／コンサート会場",
+   "voice": "a1950.wav",
+   "chars": 25,
+   "text": {
+    "ja": "へとへとになっちゃうんだ。そんなに激しい音楽ばかり",
+    "ko": ""
+   }
+  },
+  {
+   "window": 242,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "鮎／コンサート会場",
+   "voice": "a1950.wav",
+   "chars": 16,
+   "text": {
+    "ja": "やってるわけじゃないんだけどね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 243,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "鮎／コンサート会場",
+   "voice": "a1951.wav",
+   "chars": 20,
+   "text": {
+    "ja": "お客さんのテンションが高いと　その感覚も",
+    "ko": ""
+   }
+  },
+  {
+   "window": 243,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "鮎／コンサート会場",
+   "voice": "a1951.wav",
+   "chars": 21,
+   "text": {
+    "ja": "こっちに伝わってきて　私の中のリミッターが",
+    "ko": ""
+   }
+  },
+  {
+   "window": 243,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "鮎／コンサート会場",
+   "voice": "a1951.wav",
+   "chars": 12,
+   "text": {
+    "ja": "どんどん外れていくの・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 244,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "鮎／コンサート会場",
+   "voice": "a1952.wav",
+   "chars": 18,
+   "text": {
+    "ja": "この感覚も　結構　気持ちいいんだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 245,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "そういうもんなんだ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 245,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "それって中毒だよ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 246,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "鮎／コンサート会場",
+   "voice": "a1953.wav",
+   "chars": 8,
+   "text": {
+    "ja": "うん。&主人公&さんも一度",
+    "ko": ""
+   }
+  },
+  {
+   "window": 246,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "鮎／コンサート会場",
+   "voice": "a1953.wav",
+   "chars": 14,
+   "text": {
+    "ja": "ライブやってみるとわかるよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 247,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "鮎／コンサート会場",
+   "voice": "a1954.wav",
+   "chars": 19,
+   "text": {
+    "ja": "脳内麻薬とか　出てるのかもしれないね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 247,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "鮎／コンサート会場",
+   "voice": "a1954.wav",
+   "chars": 8,
+   "text": {
+    "ja": "でも　&主人公&さんも一度",
+    "ko": ""
+   }
+  },
+  {
+   "window": 247,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "鮎／コンサート会場",
+   "voice": "a1954.wav",
+   "chars": 14,
+   "text": {
+    "ja": "ライブやってみるとわかるよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 248,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 28,
+   "date": null,
+   "slot": null,
+   "place": "鮎／コンサート会場",
+   "voice": "a1955.wav",
+   "chars": 13,
+   "text": {
+    "ja": "そろそろここ　出よっか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 249,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a1956.wav",
+   "chars": 23,
+   "text": {
+    "ja": "子供の頃は　ただ歌ってるだけで幸せだったんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 249,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a1956.wav",
+   "chars": 24,
+   "text": {
+    "ja": "お店が常連さんばっかりになると　近所のおじさんに",
+    "ko": ""
+   }
+  },
+  {
+   "window": 249,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a1956.wav",
+   "chars": 22,
+   "text": {
+    "ja": "『鮎ちゃん　歌ってくれよ！』とか言われて・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 250,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a1957.wav",
+   "chars": 20,
+   "text": {
+    "ja": "たいていはリクエストに応えて歌ってたわ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 250,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a1957.wav",
+   "chars": 23,
+   "text": {
+    "ja": "だから私　年の割には結構古い歌も知ってるんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 251,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a1958.wav",
+   "chars": 18,
+   "text": {
+    "ja": "私が歌うと　みんなが喜んでくれて・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 251,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a1958.wav",
+   "chars": 19,
+   "text": {
+    "ja": "近所のお婆さんなんか私が『岸壁の母』を",
+    "ko": ""
+   }
+  },
+  {
+   "window": 251,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a1958.wav",
+   "chars": 15,
+   "text": {
+    "ja": "歌うたんびに　涙流してたの・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 252,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a1959.wav",
+   "chars": 21,
+   "text": {
+    "ja": "今考えると　あの涙は私の歌のせいじゃなくて",
+    "ko": ""
+   }
+  },
+  {
+   "window": 252,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a1959.wav",
+   "chars": 19,
+   "text": {
+    "ja": "歌の背景にある時代とか　歌詞の内容とか",
+    "ko": ""
+   }
+  },
+  {
+   "window": 252,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a1959.wav",
+   "chars": 22,
+   "text": {
+    "ja": "そう言うのを思い出して　泣いてたんだろうね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 253,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a1960.wav",
+   "chars": 20,
+   "text": {
+    "ja": "前も言ったけど　私　引っ込み思案だったし",
+    "ko": ""
+   }
+  },
+  {
+   "window": 253,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a1960.wav",
+   "chars": 23,
+   "text": {
+    "ja": "いじめられっ子だったから　子供時代の私にとって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 253,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a1960.wav",
+   "chars": 21,
+   "text": {
+    "ja": "あの時間が　一番　華やかな瞬間だったんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 254,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a1961.wav",
+   "chars": 17,
+   "text": {
+    "ja": "私のために喜んでくれる人がいて・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 254,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a1961.wav",
+   "chars": 17,
+   "text": {
+    "ja": "私のために泣いてくれる人がいて・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 255,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A1962.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "こんな私だって　誰かから必要とされてる・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 255,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A1962.WAV",
+   "chars": 21,
+   "text": {
+    "ja": "そういう風に思える瞬間が　一番嬉しかった@4965@。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 255,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A1962.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "・・・ごめん。暗い話　しちゃったね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 256,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a1962.wav",
+   "chars": 21,
+   "text": {
+    "ja": "こんな私だって　誰かから必要とされてる・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 256,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a1962.wav",
+   "chars": 21,
+   "text": {
+    "ja": "そういう風に思える瞬間が　一番嬉しかった@4966@。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 256,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a1962.wav",
+   "chars": 18,
+   "text": {
+    "ja": "・・・ごめん。暗い話　しちゃったね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 257,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "僕は鮎ちゃんが好きだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 257,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "鮎ちゃん僕のことどう思ってる？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 257,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "そろそろ帰ろうか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 258,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a1963.wav",
+   "chars": 5,
+   "text": {
+    "ja": "@S@・・・@P@え？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 259,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a1964.wav",
+   "chars": 19,
+   "text": {
+    "ja": "@S@・・・@P@返事は　もうちょっと待っててね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 259,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a1964.wav",
+   "chars": 22,
+   "text": {
+    "ja": "私　自分の心の整理が　まだついてないから・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 260,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a1965.wav",
+   "chars": 5,
+   "text": {
+    "ja": "@S@・・・@P@え？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 261,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a1966.wav",
+   "chars": 11,
+   "text": {
+    "ja": "私が好きだって言ったら",
+    "ko": ""
+   }
+  },
+  {
+   "window": 261,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a1966.wav",
+   "chars": 17,
+   "text": {
+    "ja": "&主人公&さん　私のこと好きになってくれる？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 262,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A1967.WAV",
+   "chars": 20,
+   "text": {
+    "ja": "私　時々&主人公&さんのこと　わからなくなるんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 262,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A1967.WAV",
+   "chars": 18,
+   "text": {
+    "ja": "・・ひょっとしたら　自分のことだって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 262,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "A1967.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "わかっていないのかもね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 263,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a1968.wav",
+   "chars": 18,
+   "text": {
+    "ja": "私　もっとよく&主人公&さんのこと知りたいの。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 263,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a1968.wav",
+   "chars": 21,
+   "text": {
+    "ja": "だから返事は・・・もう少し・・待っててね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 264,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a1969.wav",
+   "chars": 10,
+   "text": {
+    "ja": "そろそろ帰ろうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 265,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a1970.wav",
+   "chars": 8,
+   "text": {
+    "ja": "うん。そうだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 266,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a1971.wav",
+   "chars": 14,
+   "text": {
+    "ja": "&主人公&さんって　不思議な人だよね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 266,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a1971.wav",
+   "chars": 18,
+   "text": {
+    "ja": "一緒にいると　いつも綺麗なメロディが",
+    "ko": ""
+   }
+  },
+  {
+   "window": 266,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a1971.wav",
+   "chars": 9,
+   "text": {
+    "ja": "聞こえてくるの・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 267,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a1972.wav",
+   "chars": 15,
+   "text": {
+    "ja": "家に帰って　ひとりで&主人公&さんのこと",
+    "ko": ""
+   }
+  },
+  {
+   "window": 267,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a1972.wav",
+   "chars": 18,
+   "text": {
+    "ja": "考えてると　素敵な歌詞のフレーズとか",
+    "ko": ""
+   }
+  },
+  {
+   "window": 267,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a1972.wav",
+   "chars": 14,
+   "text": {
+    "ja": "たくさん思いついちゃうの・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 268,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a1973.wav",
+   "chars": 16,
+   "text": {
+    "ja": "作曲なんて　自分には出来ないって",
+    "ko": ""
+   }
+  },
+  {
+   "window": 268,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a1973.wav",
+   "chars": 19,
+   "text": {
+    "ja": "そう思いこんでたのに　&主人公&さんに会ってから",
+    "ko": ""
+   }
+  },
+  {
+   "window": 268,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a1973.wav",
+   "chars": 15,
+   "text": {
+    "ja": "私　自分の歌を歌いたくなった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 269,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a1974.wav",
+   "chars": 18,
+   "text": {
+    "ja": "&主人公&さんって　そういう触媒みたいな能力が",
+    "ko": ""
+   }
+  },
+  {
+   "window": 269,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a1974.wav",
+   "chars": 23,
+   "text": {
+    "ja": "あるのかな？　それとも　私の心の問題なのかな？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 270,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a1975.wav",
+   "chars": 24,
+   "text": {
+    "ja": "オーディションの時に歌った　『大好き』っていう歌",
+    "ko": ""
+   }
+  },
+  {
+   "window": 270,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a1975.wav",
+   "chars": 21,
+   "text": {
+    "ja": "・・あれって&主人公&さんのこと思って作ったんだ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 271,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a1976.wav",
+   "chars": 17,
+   "text": {
+    "ja": "今でもその気持ち　変わってないよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 271,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a1976.wav",
+   "chars": 10,
+   "text": {
+    "ja": "私　あなたが大好き！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 272,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 29,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ゲーム選択",
+   "voice": "a1977.wav",
+   "chars": 10,
+   "text": {
+    "ja": "そろそろ帰ろうか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 273,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ＵＦＯキャッチャー前",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "気が付くと外はすっかり暗くなっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 273,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ＵＦＯキャッチャー前",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "・・楽しい時間は　あっという間に過ぎてゆく・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 274,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ＵＦＯキャッチャー前",
+   "voice": "A1784.WAV",
+   "chars": 12,
+   "text": {
+    "ja": "@S@・・・@P@寒くなってきたね？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 274,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ＵＦＯキャッチャー前",
+   "voice": "A1784.WAV",
+   "chars": 5,
+   "text": {
+    "ja": "帰ろっか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 275,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 30,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／ＵＦＯキャッチャー前",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "・・うん。そうだね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 276,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 31,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "１２月３１日　朝・・・今年最後の一日・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 276,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 31,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "",
+   "chars": 24,
+   "text": {
+    "ja": "そして　イルミネーション・カウントダウンの日・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 277,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 31,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "新しい年を迎える瞬間を誰と過ごすのか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 277,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 31,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "・・・僕の心は　もう決まっていた。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 277,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 31,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "僕が好きな女の子の名前は・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 278,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "春野琴梨",
+    "ko": ""
+   }
+  },
+  {
+   "window": 278,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "川原鮎",
+    "ko": ""
+   }
+  },
+  {
+   "window": 278,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "ターニャ・リピンスキー",
+    "ko": ""
+   }
+  },
+  {
+   "window": 278,
+   "line": 3,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 4,
+   "text": {
+    "ja": "桜町由子",
+    "ko": ""
+   }
+  },
+  {
+   "window": 278,
+   "line": 4,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "愛田めぐみ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 278,
+   "line": 5,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "里中梢",
+    "ko": ""
+   }
+  },
+  {
+   "window": 278,
+   "line": 6,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "左京葉野香",
+    "ko": ""
+   }
+  },
+  {
+   "window": 278,
+   "line": 7,
+   "speaker": "独白",
+   "kind": "대기",
+   "scene": null,
+   "date": null,
+   "slot": null,
+   "place": null,
+   "voice": "",
+   "chars": 3,
+   "text": {
+    "ja": "椎名薫",
+    "ko": ""
+   }
+  },
+  {
+   "window": 279,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 31,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "よし！　さそってみよう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 279,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 31,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "結果はどうあれ　ここで勇気を出さなくちゃ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 279,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 31,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "僕はずっと　『お兄ちゃん』のままなんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 280,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 31,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "よし！　まずは電話してみよう。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 280,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 31,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "結果はどうあれ　ここで勇気を出さなくちゃ",
+    "ko": ""
+   }
+  },
+  {
+   "window": 280,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 31,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "僕はずっと　『旅行者』のままなんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 281,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 31,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "a1992.wav",
+   "chars": 8,
+   "text": {
+    "ja": "はい。川原です。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 282,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 31,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "もしもし。&主人公名前&です。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 283,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 31,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "",
+   "chars": 17,
+   "text": {
+    "ja": "僕は鮎ちゃんを　イルミネーション・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 283,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 31,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "カウントダウンに誘った。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 284,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 31,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "a1995.wav",
+   "chars": 6,
+   "text": {
+    "ja": "・・・・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 285,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 31,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "結論はすぐに出さなくていいよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 285,
+   "line": 1,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 31,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "今晩１１時半に　テレビ塔の前にいるから・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 285,
+   "line": 2,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 31,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "よかったら　来て欲しいんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 286,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 31,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "a1997.wav",
+   "chars": 11,
+   "text": {
+    "ja": "@S@・・・@P@うん。わかった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 286,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 31,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "a1997.wav",
+   "chars": 13,
+   "text": {
+    "ja": "考えてみるよ。それじゃ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 287,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 31,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／クイズの筐体前",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "鮎ちゃん・・来てくれるかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 288,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "午後１１時１５分・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 288,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "待ち合わせの時間まで　あと１５分ある。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 288,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "僕は一人で　会場を回ってみることにした。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 289,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "・・・この街に来て・・僕は　いろんな人と出会った。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 289,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "日常から離れ　いろんなことを経験した。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 290,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "でも考えたら　札幌に住んでいる人にとっては",
+    "ko": ""
+   }
+  },
+  {
+   "window": 290,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "こっちの生活こそが日常なんだ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 291,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "日常と非日常・・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 291,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "本当は　そんな境目なんて　ないのかもしれない。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 292,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "僕は鮎ちゃんが好きだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 292,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 25,
+   "text": {
+    "ja": "その気持ちだけで　僕は退屈な日常の壁を超えられる。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 293,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "午後１１時３０分・・待ち合わせの時間だ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 293,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "鮎ちゃん・・来てくれるかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 294,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "午後１１時４０分・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 294,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "鮎ちゃん・・・遅いな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 295,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "午後１１時５０分・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 295,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "鮎ちゃん・・・どうしたんだろう？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 296,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "午後１１時５５分・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 296,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 19,
+   "text": {
+    "ja": "やっぱり鮎ちゃん・・・来ないのかな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 297,
+   "line": 0,
+   "speaker": "アナウンサー",
+   "kind": "대사",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "a7338.wav",
+   "chars": 19,
+   "text": {
+    "ja": "さぁ！　いよいよ今年最後の大イベント！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 297,
+   "line": 1,
+   "speaker": "アナウンサー",
+   "kind": "대사",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "a7338.wav",
+   "chars": 23,
+   "text": {
+    "ja": "イルミネーション・カウントダウンが始まります。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 297,
+   "line": 2,
+   "speaker": "アナウンサー",
+   "kind": "대사",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "a7338.wav",
+   "chars": 15,
+   "text": {
+    "ja": "みなさん！　準備はいいですか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 298,
+   "line": 0,
+   "speaker": "アナウンサー",
+   "kind": "대사",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "a7339.wav",
+   "chars": 21,
+   "text": {
+    "ja": "画面正面にあるディスプレイにご注目下さい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 299,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 20,
+   "text": {
+    "ja": "・・・鮎ちゃん・・やっぱり来ないのか・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 300,
+   "line": 0,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "A7356.WAV",
+   "chars": 3,
+   "text": {
+    "ja": "１０@4519@！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 300,
+   "line": 1,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "A7356.WAV",
+   "chars": 2,
+   "text": {
+    "ja": "９@4518@！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 300,
+   "line": 2,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "A7356.WAV",
+   "chars": 2,
+   "text": {
+    "ja": "８！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 301,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 18,
+   "text": {
+    "ja": "まだ間に合うよ！　・・・鮎ちゃん・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 302,
+   "line": 0,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "A7357.WAV",
+   "chars": 2,
+   "text": {
+    "ja": "７@4516@！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 302,
+   "line": 1,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "A7357.WAV",
+   "chars": 2,
+   "text": {
+    "ja": "６@4515@！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 302,
+   "line": 2,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "A7357.WAV",
+   "chars": 2,
+   "text": {
+    "ja": "５！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 303,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 8,
+   "text": {
+    "ja": "ああ！　ダメだ！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 304,
+   "line": 0,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "A7358.WAV",
+   "chars": 2,
+   "text": {
+    "ja": "４@4513@！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 304,
+   "line": 1,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "A7358.WAV",
+   "chars": 2,
+   "text": {
+    "ja": "３@4512@！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 304,
+   "line": 2,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "A7358.WAV",
+   "chars": 2,
+   "text": {
+    "ja": "２！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 305,
+   "line": 0,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "A7359.WAV",
+   "chars": 2,
+   "text": {
+    "ja": "１@4510@！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 305,
+   "line": 1,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "A7359.WAV",
+   "chars": 13,
+   "text": {
+    "ja": "ハッピー・ニューイヤー！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 306,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "鮎ちゃん・・・やっぱり来なかったんだな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 306,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 23,
+   "text": {
+    "ja": "でもいいさ・・僕はこの街で　たくさんの思い出を",
+    "ko": ""
+   }
+  },
+  {
+   "window": 306,
+   "line": 2,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "作ることが出来た。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 307,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 15,
+   "text": {
+    "ja": "いつかまた・・訪ねてみよう・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 308,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 7,
+   "text": {
+    "ja": "・・・北へ・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 309,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 10,
+   "text": {
+    "ja": "午後１１時４０分・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 309,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 32,
+   "date": "12-30",
+   "slot": "午後",
+   "place": "須貝ビル／ゲームセンター／シューティングゲーム",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "鮎ちゃん・・・遅いな・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 310,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 33,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "",
+   "chars": 11,
+   "text": {
+    "ja": "・・・・！！　あっ！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 311,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 33,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "a2022.wav",
+   "chars": 18,
+   "text": {
+    "ja": "・・・・・・えへへ・・・来ちゃった。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 312,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 33,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "",
+   "chars": 9,
+   "text": {
+    "ja": "・・・鮎ちゃん・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 313,
+   "line": 0,
+   "speaker": "アナウンサー",
+   "kind": "대사",
+   "scene": 33,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "a7354.wav",
+   "chars": 19,
+   "text": {
+    "ja": "さぁ！　いよいよ今年最後の大イベント！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 313,
+   "line": 1,
+   "speaker": "アナウンサー",
+   "kind": "대사",
+   "scene": 33,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "a7354.wav",
+   "chars": 23,
+   "text": {
+    "ja": "イルミネーション・カウントダウンが始まります。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 313,
+   "line": 2,
+   "speaker": "アナウンサー",
+   "kind": "대사",
+   "scene": 33,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "a7354.wav",
+   "chars": 15,
+   "text": {
+    "ja": "みなさん！　準備はいいですか？",
+    "ko": ""
+   }
+  },
+  {
+   "window": 314,
+   "line": 0,
+   "speaker": "アナウンサー",
+   "kind": "대사",
+   "scene": 33,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "a7355.wav",
+   "chars": 21,
+   "text": {
+    "ja": "画面正面にあるディスプレイにご注目下さい。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 315,
+   "line": 0,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 33,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "a7356.wav",
+   "chars": 3,
+   "text": {
+    "ja": "１０@4619@！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 315,
+   "line": 1,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 33,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "a7356.wav",
+   "chars": 2,
+   "text": {
+    "ja": "９@4618@！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 315,
+   "line": 2,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 33,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "a7356.wav",
+   "chars": 2,
+   "text": {
+    "ja": "８！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 316,
+   "line": 0,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 33,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "a7357.wav",
+   "chars": 2,
+   "text": {
+    "ja": "７！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 316,
+   "line": 1,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 33,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "a7357.wav",
+   "chars": 2,
+   "text": {
+    "ja": "６！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 316,
+   "line": 2,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 33,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "a7357.wav",
+   "chars": 2,
+   "text": {
+    "ja": "５！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 317,
+   "line": 0,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 33,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "a7358.wav",
+   "chars": 2,
+   "text": {
+    "ja": "４！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 317,
+   "line": 1,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 33,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "a7358.wav",
+   "chars": 2,
+   "text": {
+    "ja": "３！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 317,
+   "line": 2,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 33,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "a7358.wav",
+   "chars": 2,
+   "text": {
+    "ja": "２！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 318,
+   "line": 0,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 33,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "a7359.wav",
+   "chars": 2,
+   "text": {
+    "ja": "１@4610@！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 318,
+   "line": 1,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 33,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "a7359.wav",
+   "chars": 13,
+   "text": {
+    "ja": "ハッピー・ニューイヤー！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 319,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 33,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "・・・新しい年が始まる・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 319,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 33,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "そして　僕ら二人の　新しい人生が始まる・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 320,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 33,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "",
+   "chars": 12,
+   "text": {
+    "ja": "ハッピー・ニューイヤー！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 321,
+   "line": 0,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 33,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "a7362.wav",
+   "chars": 2,
+   "text": {
+    "ja": "１@4710@！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 321,
+   "line": 1,
+   "speaker": "全員",
+   "kind": "대사",
+   "scene": 33,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "a7362.wav",
+   "chars": 16,
+   "text": {
+    "ja": "ハッピー・ニューセンチュリー！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 322,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 33,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "",
+   "chars": 13,
+   "text": {
+    "ja": "・・・２１世紀が始まる・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 322,
+   "line": 1,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 33,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "",
+   "chars": 21,
+   "text": {
+    "ja": "そして　僕ら二人の　新しい人生が始まる・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 323,
+   "line": 0,
+   "speaker": "独白",
+   "kind": "독백",
+   "scene": 33,
+   "date": "12-30",
+   "slot": null,
+   "place": "鮎と札幌デート／サッポロＳＰＡランド／プール選択",
+   "voice": "",
+   "chars": 16,
+   "text": {
+    "ja": "ハッピー・ニューセンチュリー！！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 324,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 35,
+   "date": null,
+   "slot": null,
+   "place": "インターミッション１",
+   "voice": "a2035.wav",
+   "chars": 18,
+   "text": {
+    "ja": "あのね。私　デビューが決まったんだ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 324,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 35,
+   "date": null,
+   "slot": null,
+   "place": "インターミッション１",
+   "voice": "a2035.wav",
+   "chars": 18,
+   "text": {
+    "ja": "&主人公&さんに　真っ先に言いたかったから・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 325,
+   "line": 0,
+   "speaker": "主人公",
+   "kind": "대사",
+   "scene": 35,
+   "date": null,
+   "slot": null,
+   "place": "インターミッション１",
+   "voice": "",
+   "chars": 14,
+   "text": {
+    "ja": "おめでとう！　夢が叶ったね。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 326,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 35,
+   "date": null,
+   "slot": null,
+   "place": "インターミッション１",
+   "voice": "a2037.wav",
+   "chars": 15,
+   "text": {
+    "ja": "うん。・・でも　これからだよ。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 326,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 35,
+   "date": null,
+   "slot": null,
+   "place": "インターミッション１",
+   "voice": "a2037.wav",
+   "chars": 21,
+   "text": {
+    "ja": "一生　見続けて行くから　夢は夢なんだもん。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 327,
+   "line": 0,
+   "speaker": "文字",
+   "kind": "나레이션",
+   "scene": 36,
+   "date": null,
+   "slot": null,
+   "place": "インターミッション２",
+   "voice": "a2038.wav",
+   "chars": 13,
+   "text": {
+    "ja": "アンコール！　アンコール！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 328,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 36,
+   "date": null,
+   "slot": null,
+   "place": "インターミッション２",
+   "voice": "a2039.wav",
+   "chars": 9,
+   "text": {
+    "ja": "みんなありがとう！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 328,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 36,
+   "date": null,
+   "slot": null,
+   "place": "インターミッション２",
+   "voice": "a2039.wav",
+   "chars": 13,
+   "text": {
+    "ja": "・・こんなに広い場所で・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 328,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 36,
+   "date": null,
+   "slot": null,
+   "place": "インターミッション２",
+   "voice": "a2039.wav",
+   "chars": 22,
+   "text": {
+    "ja": "・・こんなにたくさんのお客さんに囲まれて・・",
+    "ko": ""
+   }
+  },
+  {
+   "window": 329,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 36,
+   "date": null,
+   "slot": null,
+   "place": "インターミッション２",
+   "voice": "a2040.wav",
+   "chars": 15,
+   "text": {
+    "ja": "川原は・・川原は　幸せ者です！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 330,
+   "line": 0,
+   "speaker": "文字",
+   "kind": "나레이션",
+   "scene": 36,
+   "date": null,
+   "slot": null,
+   "place": "インターミッション２",
+   "voice": "",
+   "chars": 5,
+   "text": {
+    "ja": "わーーー！",
+    "ko": ""
+   }
+  },
+  {
+   "window": 331,
+   "line": 0,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 36,
+   "date": null,
+   "slot": null,
+   "place": "インターミッション２",
+   "voice": "a2042.wav",
+   "chars": 14,
+   "text": {
+    "ja": "最後に・・最後に演奏するのは",
+    "ko": ""
+   }
+  },
+  {
+   "window": 331,
+   "line": 1,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 36,
+   "date": null,
+   "slot": null,
+   "place": "インターミッション２",
+   "voice": "a2042.wav",
+   "chars": 24,
+   "text": {
+    "ja": "私が・・私の大好きな人と一緒に・・作った曲です。",
+    "ko": ""
+   }
+  },
+  {
+   "window": 331,
+   "line": 2,
+   "speaker": "鮎",
+   "kind": "대사",
+   "scene": 36,
+   "date": null,
+   "slot": null,
+   "place": "インターミッション２",
+   "voice": "a2042.wav",
+   "chars": 12,
+   "text": {
+    "ja": "聞いて下さい。『大好き』",
+    "ko": ""
+   }
+  }
+ ]
+}
