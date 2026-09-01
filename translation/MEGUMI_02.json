@@ -1,4646 +1,4646 @@
 {
- "script": "MEGUMI_02",
- "source": "ja",
- "entries": [
-  {
-   "window": 0,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 0,
-   "date": "08-07",
-   "slot": "朝",
-   "place": "愛田牧場／客間",
-   "voice": "A5674.WAV",
-   "chars": 6,
-   "text": {
-    "ja": "お早う&主人公&さん！",
-    "ko": ""
-   }
-  },
-  {
-   "window": 0,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 0,
-   "date": "08-07",
-   "slot": "朝",
-   "place": "愛田牧場／客間",
-   "voice": "A5674.WAV",
-   "chars": 9,
-   "text": {
-    "ja": "夕べはよく眠れた？",
-    "ko": ""
-   }
-  },
-  {
-   "window": 1,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대기",
-   "scene": null,
-   "date": null,
-   "slot": null,
-   "place": null,
-   "voice": "",
-   "chars": 5,
-   "text": {
-    "ja": "・・・・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 1,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대기",
-   "scene": null,
-   "date": null,
-   "slot": null,
-   "place": null,
-   "voice": "",
-   "chars": 3,
-   "text": {
-    "ja": "うん。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 2,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 0,
-   "date": "08-07",
-   "slot": "朝",
-   "place": "愛田牧場／客間",
-   "voice": "A5676.WAV",
-   "chars": 10,
-   "text": {
-    "ja": "今日もいい天気だよ。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 2,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 0,
-   "date": "08-07",
-   "slot": "朝",
-   "place": "愛田牧場／客間",
-   "voice": "A5676.WAV",
-   "chars": 13,
-   "text": {
-    "ja": "それじゃ牛舎に行きましょ。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 3,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 0,
-   "date": "08-07",
-   "slot": "朝",
-   "place": "愛田牧場／客間",
-   "voice": "A5675.WAV",
-   "chars": 11,
-   "text": {
-    "ja": "あれ？　まだ寝てるの？",
-    "ko": ""
-   }
-  },
-  {
-   "window": 3,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 0,
-   "date": "08-07",
-   "slot": "朝",
-   "place": "愛田牧場／客間",
-   "voice": "A5675.WAV",
-   "chars": 10,
-   "text": {
-    "ja": "おはよー！　朝だよ！",
-    "ko": ""
-   }
-  },
-  {
-   "window": 3,
-   "line": 2,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 0,
-   "date": "08-07",
-   "slot": "朝",
-   "place": "愛田牧場／客間",
-   "voice": "A5675.WAV",
-   "chars": 14,
-   "text": {
-    "ja": "早く起きて牛舎に行きましょ。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 4,
-   "line": 0,
-   "speaker": "説明",
-   "kind": "나레이션",
-   "scene": 1,
-   "date": "08-07",
-   "slot": "朝",
-   "place": "愛田牧場／牛舎",
-   "voice": "",
-   "chars": 12,
-   "text": {
-    "ja": "搾乳の説明を聞きますか？",
-    "ko": ""
-   }
-  },
-  {
-   "window": 5,
-   "line": 0,
-   "speaker": "説明",
-   "kind": "대기",
-   "scene": null,
-   "date": null,
-   "slot": null,
-   "place": null,
-   "voice": "",
-   "chars": 2,
-   "text": {
-    "ja": "はい",
-    "ko": ""
-   }
-  },
-  {
-   "window": 5,
-   "line": 1,
-   "speaker": "説明",
-   "kind": "대기",
-   "scene": null,
-   "date": null,
-   "slot": null,
-   "place": null,
-   "voice": "",
-   "chars": 3,
-   "text": {
-    "ja": "いいえ",
-    "ko": ""
-   }
-  },
-  {
-   "window": 6,
-   "line": 0,
-   "speaker": "耕作",
-   "kind": "대사",
-   "scene": 1,
-   "date": "08-07",
-   "slot": "朝",
-   "place": "愛田牧場／牛舎",
-   "voice": "A5679.WAV",
-   "chars": 16,
-   "text": {
-    "ja": "素晴らしい！　すごい才能だよ&主人公&君。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 6,
-   "line": 1,
-   "speaker": "耕作",
-   "kind": "대사",
-   "scene": 1,
-   "date": "08-07",
-   "slot": "朝",
-   "place": "愛田牧場／牛舎",
-   "voice": "A5679.WAV",
-   "chars": 15,
-   "text": {
-    "ja": "めぐみのサポートも完璧だった！",
-    "ko": ""
-   }
-  },
-  {
-   "window": 6,
-   "line": 2,
-   "speaker": "耕作",
-   "kind": "대사",
-   "scene": 1,
-   "date": "08-07",
-   "slot": "朝",
-   "place": "愛田牧場／牛舎",
-   "voice": "A5679.WAV",
-   "chars": 18,
-   "text": {
-    "ja": "これからも　この調子で頑張ってくれ！",
-    "ko": ""
-   }
-  },
-  {
-   "window": 7,
-   "line": 0,
-   "speaker": "耕作",
-   "kind": "대사",
-   "scene": 1,
-   "date": "08-07",
-   "slot": "朝",
-   "place": "愛田牧場／牛舎",
-   "voice": "A5680.WAV",
-   "chars": 10,
-   "text": {
-    "ja": "うん。上出来だよ&主人公&君。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 7,
-   "line": 1,
-   "speaker": "耕作",
-   "kind": "대사",
-   "scene": 1,
-   "date": "08-07",
-   "slot": "朝",
-   "place": "愛田牧場／牛舎",
-   "voice": "A5680.WAV",
-   "chars": 14,
-   "text": {
-    "ja": "めぐみもよく頑張ってくれた。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 7,
-   "line": 2,
-   "speaker": "耕作",
-   "kind": "대사",
-   "scene": 1,
-   "date": "08-07",
-   "slot": "朝",
-   "place": "愛田牧場／牛舎",
-   "voice": "A5680.WAV",
-   "chars": 12,
-   "text": {
-    "ja": "また次もよろしく頼むよ。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 8,
-   "line": 0,
-   "speaker": "耕作",
-   "kind": "대사",
-   "scene": 1,
-   "date": "08-07",
-   "slot": "朝",
-   "place": "愛田牧場／牛舎",
-   "voice": "A5681.WAV",
-   "chars": 18,
-   "text": {
-    "ja": "まぁ・・慣れていないから仕方ないね。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 8,
-   "line": 1,
-   "speaker": "耕作",
-   "kind": "대사",
-   "scene": 1,
-   "date": "08-07",
-   "slot": "朝",
-   "place": "愛田牧場／牛舎",
-   "voice": "A5681.WAV",
-   "chars": 11,
-   "text": {
-    "ja": "次からは頑張ってくれ。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 9,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 1,
-   "date": "08-07",
-   "slot": "朝",
-   "place": "愛田牧場／牛舎",
-   "voice": "A5682.WAV",
-   "chars": 9,
-   "text": {
-    "ja": "お疲れさま。&主人公&さん！",
-    "ko": ""
-   }
-  },
-  {
-   "window": 9,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 1,
-   "date": "08-07",
-   "slot": "朝",
-   "place": "愛田牧場／牛舎",
-   "voice": "A5682.WAV",
-   "chars": 17,
-   "text": {
-    "ja": "一階にお風呂があるから　入ってね。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 10,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 3,
-   "date": "08-07",
-   "slot": "午前",
-   "place": "愛田牧場／リビング",
-   "voice": "A5782.WAV",
-   "chars": 18,
-   "text": {
-    "ja": "ねぇ&主人公&さん。これから富良野に行かない？",
-    "ko": ""
-   }
-  },
-  {
-   "window": 10,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 3,
-   "date": "08-07",
-   "slot": "午前",
-   "place": "愛田牧場／リビング",
-   "voice": "A5782.WAV",
-   "chars": 24,
-   "text": {
-    "ja": "新富良野プリンスホテルで熱気球に乗れるんだって。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 10,
-   "line": 2,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 3,
-   "date": "08-07",
-   "slot": "午前",
-   "place": "愛田牧場／リビング",
-   "voice": "A5782.WAV",
-   "chars": 7,
-   "text": {
-    "ja": "行ってみない？",
-    "ko": ""
-   }
-  },
-  {
-   "window": 11,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대기",
-   "scene": null,
-   "date": null,
-   "slot": null,
-   "place": null,
-   "voice": "",
-   "chars": 2,
-   "text": {
-    "ja": "行く",
-    "ko": ""
-   }
-  },
-  {
-   "window": 11,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대기",
-   "scene": null,
-   "date": null,
-   "slot": null,
-   "place": null,
-   "voice": "",
-   "chars": 4,
-   "text": {
-    "ja": "行かない",
-    "ko": ""
-   }
-  },
-  {
-   "window": 12,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 3,
-   "date": "08-07",
-   "slot": "午前",
-   "place": "愛田牧場／リビング",
-   "voice": "A5685.WAV",
-   "chars": 21,
-   "text": {
-    "ja": "そっか・・それじゃ私　部屋で勉強してるね。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 12,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 3,
-   "date": "08-07",
-   "slot": "午前",
-   "place": "愛田牧場／リビング",
-   "voice": "A5685.WAV",
-   "chars": 14,
-   "text": {
-    "ja": "これでも一応　受験生だし・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 13,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 3,
-   "date": "08-07",
-   "slot": "午前",
-   "place": "愛田牧場／リビング",
-   "voice": "A5783.WAV",
-   "chars": 15,
-   "text": {
-    "ja": "富良野はバスに乗ればすぐだよ。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 13,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 3,
-   "date": "08-07",
-   "slot": "午前",
-   "place": "愛田牧場／リビング",
-   "voice": "A5783.WAV",
-   "chars": 11,
-   "text": {
-    "ja": "それじゃ行こう。&主人公&さん。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 14,
-   "line": 0,
-   "speaker": "主人公",
-   "kind": "대사",
-   "scene": 3,
-   "date": "08-07",
-   "slot": "午前",
-   "place": "愛田牧場／リビング",
-   "voice": "",
-   "chars": 12,
-   "text": {
-    "ja": "・・・・・・・・・・・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 15,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 3,
-   "date": "08-07",
-   "slot": "午前",
-   "place": "愛田牧場／リビング",
-   "voice": "",
-   "chars": 12,
-   "text": {
-    "ja": "・・・・・・・・・・・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 16,
-   "line": 0,
-   "speaker": "独白",
-   "kind": "독백",
-   "scene": 3,
-   "date": "08-07",
-   "slot": "午前",
-   "place": "愛田牧場／リビング",
-   "voice": "",
-   "chars": 11,
-   "text": {
-    "ja": "気まずい沈黙が訪れた。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 17,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 3,
-   "date": "08-07",
-   "slot": "午前",
-   "place": "愛田牧場／リビング",
-   "voice": "A5685.WAV",
-   "chars": 21,
-   "text": {
-    "ja": "そっか・・それじゃ私　部屋で勉強してるね。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 17,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 3,
-   "date": "08-07",
-   "slot": "午前",
-   "place": "愛田牧場／リビング",
-   "voice": "A5685.WAV",
-   "chars": 14,
-   "text": {
-    "ja": "これでも一応　受験生だし・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 18,
-   "line": 0,
-   "speaker": "独白",
-   "kind": "독백",
-   "scene": 5,
-   "date": "08-07",
-   "slot": "午後",
-   "place": "富良野／新富良野プリンスホテル／外観",
-   "voice": "",
-   "chars": 16,
-   "text": {
-    "ja": "新富良野プリンスホテルに着いた。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 18,
-   "line": 1,
-   "speaker": "独白",
-   "kind": "독백",
-   "scene": 5,
-   "date": "08-07",
-   "slot": "午後",
-   "place": "富良野／新富良野プリンスホテル／外観",
-   "voice": "",
-   "chars": 16,
-   "text": {
-    "ja": "ここから気球に乗ることが出来る。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 19,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 5,
-   "date": "08-07",
-   "slot": "午後",
-   "place": "富良野／新富良野プリンスホテル／外観",
-   "voice": "A5785.WAV",
-   "chars": 17,
-   "text": {
-    "ja": "なんか　ドキドキして来ちゃった・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 19,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 5,
-   "date": "08-07",
-   "slot": "午後",
-   "place": "富良野／新富良野プリンスホテル／外観",
-   "voice": "A5785.WAV",
-   "chars": 16,
-   "text": {
-    "ja": "私　気球に乗るの初めてなんだよ。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 19,
-   "line": 2,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 5,
-   "date": "08-07",
-   "slot": "午後",
-   "place": "富良野／新富良野プリンスホテル／外観",
-   "voice": "A5785.WAV",
-   "chars": 4,
-   "text": {
-    "ja": "&主人公&さんは？",
-    "ko": ""
-   }
-  },
-  {
-   "window": 20,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대기",
-   "scene": null,
-   "date": null,
-   "slot": null,
-   "place": null,
-   "voice": "",
-   "chars": 6,
-   "text": {
-    "ja": "初めてだよ。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 20,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대기",
-   "scene": null,
-   "date": null,
-   "slot": null,
-   "place": null,
-   "voice": "",
-   "chars": 7,
-   "text": {
-    "ja": "経験済みだよ。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 21,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 5,
-   "date": "08-07",
-   "slot": "午後",
-   "place": "富良野／新富良野プリンスホテル／外観",
-   "voice": "A5786.WAV",
-   "chars": 12,
-   "text": {
-    "ja": "それじゃ　私と一緒だね。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 21,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 5,
-   "date": "08-07",
-   "slot": "午後",
-   "place": "富良野／新富良野プリンスホテル／外観",
-   "voice": "A5786.WAV",
-   "chars": 18,
-   "text": {
-    "ja": "それ聞いて　ちょっと安心しちゃった。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 22,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 5,
-   "date": "08-07",
-   "slot": "午後",
-   "place": "富良野／新富良野プリンスホテル／外観",
-   "voice": "A5787.WAV",
-   "chars": 9,
-   "text": {
-    "ja": "すごい！　&主人公&さんって",
-    "ko": ""
-   }
-  },
-  {
-   "window": 22,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 5,
-   "date": "08-07",
-   "slot": "午後",
-   "place": "富良野／新富良野プリンスホテル／外観",
-   "voice": "A5787.WAV",
-   "chars": 16,
-   "text": {
-    "ja": "いろんなこと　経験済みなんだね。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 23,
-   "line": 0,
-   "speaker": "主人公",
-   "kind": "대사",
-   "scene": 5,
-   "date": "08-07",
-   "slot": "午後",
-   "place": "富良野／新富良野プリンスホテル／外観",
-   "voice": "",
-   "chars": 12,
-   "text": {
-    "ja": "・・・・・・・・・・・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 24,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 5,
-   "date": "08-07",
-   "slot": "午後",
-   "place": "富良野／新富良野プリンスホテル／外観",
-   "voice": "",
-   "chars": 12,
-   "text": {
-    "ja": "・・・・・・・・・・・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 25,
-   "line": 0,
-   "speaker": "独白",
-   "kind": "독백",
-   "scene": 5,
-   "date": "08-07",
-   "slot": "午後",
-   "place": "富良野／新富良野プリンスホテル／外観",
-   "voice": "",
-   "chars": 11,
-   "text": {
-    "ja": "気まずい沈黙が訪れた。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 26,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 5,
-   "date": "08-07",
-   "slot": "午後",
-   "place": "富良野／新富良野プリンスホテル／外観",
-   "voice": "A5788.WAV",
-   "chars": 16,
-   "text": {
-    "ja": "あっ！　準備が出来たみたいだよ。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 26,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 5,
-   "date": "08-07",
-   "slot": "午後",
-   "place": "富良野／新富良野プリンスホテル／外観",
-   "voice": "A5788.WAV",
-   "chars": 6,
-   "text": {
-    "ja": "行ってみよ！",
-    "ko": ""
-   }
-  },
-  {
-   "window": 27,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 6,
-   "date": "08-07",
-   "slot": "午後",
-   "place": "富良野／新富良野プリンスホテル／気球乗り場",
-   "voice": "A5789.WAV",
-   "chars": 18,
-   "text": {
-    "ja": "ヒモがつながってるから　安心だよね。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 28,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대기",
-   "scene": null,
-   "date": null,
-   "slot": null,
-   "place": null,
-   "voice": "",
-   "chars": 6,
-   "text": {
-    "ja": "大丈夫大丈夫",
-    "ko": ""
-   }
-  },
-  {
-   "window": 28,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대기",
-   "scene": null,
-   "date": null,
-   "slot": null,
-   "place": null,
-   "voice": "",
-   "chars": 11,
-   "text": {
-    "ja": "でも落ちたら意味ないよ",
-    "ko": ""
-   }
-  },
-  {
-   "window": 29,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 6,
-   "date": "08-07",
-   "slot": "午後",
-   "place": "富良野／新富良野プリンスホテル／気球乗り場",
-   "voice": "A5790.WAV",
-   "chars": 17,
-   "text": {
-    "ja": "そうだよね。安心だし　安全だよね。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 30,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 6,
-   "date": "08-07",
-   "slot": "午後",
-   "place": "富良野／新富良野プリンスホテル／気球乗り場",
-   "voice": "A5791.WAV",
-   "chars": 15,
-   "text": {
-    "ja": "そ・・そんなこと言わないでよ！",
-    "ko": ""
-   }
-  },
-  {
-   "window": 31,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 6,
-   "date": "08-07",
-   "slot": "午後",
-   "place": "富良野／新富良野プリンスホテル／気球乗り場",
-   "voice": "A5792.WAV",
-   "chars": 20,
-   "text": {
-    "ja": "ほら・・こんなにドキドキしてるんだから。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 32,
-   "line": 0,
-   "speaker": "主人公",
-   "kind": "대사",
-   "scene": 6,
-   "date": "08-07",
-   "slot": "午後",
-   "place": "富良野／新富良野プリンスホテル／気球乗り場",
-   "voice": "",
-   "chars": 12,
-   "text": {
-    "ja": "・・・・・・・・・・・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 33,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 6,
-   "date": "08-07",
-   "slot": "午後",
-   "place": "富良野／新富良野プリンスホテル／気球乗り場",
-   "voice": "",
-   "chars": 12,
-   "text": {
-    "ja": "・・・・・・・・・・・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 34,
-   "line": 0,
-   "speaker": "独白",
-   "kind": "독백",
-   "scene": 6,
-   "date": "08-07",
-   "slot": "午後",
-   "place": "富良野／新富良野プリンスホテル／気球乗り場",
-   "voice": "",
-   "chars": 11,
-   "text": {
-    "ja": "気まずい沈黙が訪れた。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 35,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 7,
-   "date": "08-07",
-   "slot": "午後",
-   "place": "富良野／気球／ゴンドラ",
-   "voice": "A5793.WAV",
-   "chars": 14,
-   "text": {
-    "ja": "すごい！！　本当に飛んでる！",
-    "ko": ""
-   }
-  },
-  {
-   "window": 35,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 7,
-   "date": "08-07",
-   "slot": "午後",
-   "place": "富良野／気球／ゴンドラ",
-   "voice": "A5793.WAV",
-   "chars": 11,
-   "text": {
-    "ja": "あっちはファーム富田！",
-    "ko": ""
-   }
-  },
-  {
-   "window": 36,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 7,
-   "date": "08-07",
-   "slot": "午後",
-   "place": "富良野／気球／ゴンドラ",
-   "voice": "A5795.WAV",
-   "chars": 13,
-   "text": {
-    "ja": "うん。本当に・・綺麗だね。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 36,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 7,
-   "date": "08-07",
-   "slot": "午後",
-   "place": "富良野／気球／ゴンドラ",
-   "voice": "A5795.WAV",
-   "chars": 15,
-   "text": {
-    "ja": "私・・なんか感動しちゃった・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 37,
-   "line": 0,
-   "speaker": "独白",
-   "kind": "독백",
-   "scene": 8,
-   "date": "08-07",
-   "slot": "午後",
-   "place": "富良野／新富良野プリンスホテル／コーヒーショップ・ラベンダー",
-   "voice": "",
-   "chars": 19,
-   "text": {
-    "ja": "約５分間の熱気球フライトを終えた僕らは",
-    "ko": ""
-   }
-  },
-  {
-   "window": 37,
-   "line": 1,
-   "speaker": "独白",
-   "kind": "독백",
-   "scene": 8,
-   "date": "08-07",
-   "slot": "午後",
-   "place": "富良野／新富良野プリンスホテル／コーヒーショップ・ラベンダー",
-   "voice": "",
-   "chars": 20,
-   "text": {
-    "ja": "新富良野プリンスホテルのコーヒーショップ",
-    "ko": ""
-   }
-  },
-  {
-   "window": 37,
-   "line": 2,
-   "speaker": "独白",
-   "kind": "독백",
-   "scene": 8,
-   "date": "08-07",
-   "slot": "午後",
-   "place": "富良野／新富良野プリンスホテル／コーヒーショップ・ラベンダー",
-   "voice": "",
-   "chars": 19,
-   "text": {
-    "ja": "『ラベンダー』でお茶を飲むことにした。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 38,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 8,
-   "date": "08-07",
-   "slot": "午後",
-   "place": "富良野／新富良野プリンスホテル／コーヒーショップ・ラベンダー",
-   "voice": "A5798.WAV",
-   "chars": 19,
-   "text": {
-    "ja": "あっという間に終わっちゃった気もするし",
-    "ko": ""
-   }
-  },
-  {
-   "window": 38,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 8,
-   "date": "08-07",
-   "slot": "午後",
-   "place": "富良野／新富良野プリンスホテル／コーヒーショップ・ラベンダー",
-   "voice": "A5798.WAV",
-   "chars": 17,
-   "text": {
-    "ja": "すごく長かったような気もするし・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 38,
-   "line": 2,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 8,
-   "date": "08-07",
-   "slot": "午後",
-   "place": "富良野／新富良野プリンスホテル／コーヒーショップ・ラベンダー",
-   "voice": "A5798.WAV",
-   "chars": 23,
-   "text": {
-    "ja": "でもすごかったよね。私きっと　一生忘れないよ。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 39,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 8,
-   "date": "08-07",
-   "slot": "午後",
-   "place": "富良野／新富良野プリンスホテル／コーヒーショップ・ラベンダー",
-   "voice": "A5799.WAV",
-   "chars": 22,
-   "text": {
-    "ja": "ふわって身体が浮いて　風がびゅんびゅん吹いて",
-    "ko": ""
-   }
-  },
-  {
-   "window": 39,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 8,
-   "date": "08-07",
-   "slot": "午後",
-   "place": "富良野／新富良野プリンスホテル／コーヒーショップ・ラベンダー",
-   "voice": "A5799.WAV",
-   "chars": 23,
-   "text": {
-    "ja": "今まで歩いていた地面が　どんどん遠くなって・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 40,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 8,
-   "date": "08-07",
-   "slot": "午後",
-   "place": "富良野／新富良野プリンスホテル／コーヒーショップ・ラベンダー",
-   "voice": "A5800.WAV",
-   "chars": 21,
-   "text": {
-    "ja": "乗る前は怖くてドキドキしてたけど　今は何か",
-    "ko": ""
-   }
-  },
-  {
-   "window": 40,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 8,
-   "date": "08-07",
-   "slot": "午後",
-   "place": "富良野／新富良野プリンスホテル／コーヒーショップ・ラベンダー",
-   "voice": "A5800.WAV",
-   "chars": 14,
-   "text": {
-    "ja": "嬉しくてドキドキしてる感じ。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 41,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 8,
-   "date": "08-07",
-   "slot": "午後",
-   "place": "富良野／新富良野プリンスホテル／コーヒーショップ・ラベンダー",
-   "voice": "A5801.WAV",
-   "chars": 23,
-   "text": {
-    "ja": "こういう風に　素敵なことをたくさん経験するのが",
-    "ko": ""
-   }
-  },
-  {
-   "window": 41,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 8,
-   "date": "08-07",
-   "slot": "午後",
-   "place": "富良野／新富良野プリンスホテル／コーヒーショップ・ラベンダー",
-   "voice": "A5801.WAV",
-   "chars": 25,
-   "text": {
-    "ja": "大人になるってことなら　私　早く大人になりたいな。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 42,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 8,
-   "date": "08-07",
-   "slot": "午後",
-   "place": "富良野／新富良野プリンスホテル／コーヒーショップ・ラベンダー",
-   "voice": "A5802.WAV",
-   "chars": 19,
-   "text": {
-    "ja": "&主人公&さん。明日　札幌に帰っちゃうんでしょ？",
-    "ko": ""
-   }
-  },
-  {
-   "window": 42,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 8,
-   "date": "08-07",
-   "slot": "午後",
-   "place": "富良野／新富良野プリンスホテル／コーヒーショップ・ラベンダー",
-   "voice": "A5802.WAV",
-   "chars": 19,
-   "text": {
-    "ja": "・・残念だなぁ。一緒にもっといろんな所",
-    "ko": ""
-   }
-  },
-  {
-   "window": 42,
-   "line": 2,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 8,
-   "date": "08-07",
-   "slot": "午後",
-   "place": "富良野／新富良野プリンスホテル／コーヒーショップ・ラベンダー",
-   "voice": "A5802.WAV",
-   "chars": 8,
-   "text": {
-    "ja": "行きたかったね。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 43,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대기",
-   "scene": null,
-   "date": null,
-   "slot": null,
-   "place": null,
-   "voice": "",
-   "chars": 7,
-   "text": {
-    "ja": "うん。残念だね",
-    "ko": ""
-   }
-  },
-  {
-   "window": 43,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대기",
-   "scene": null,
-   "date": null,
-   "slot": null,
-   "place": null,
-   "voice": "",
-   "chars": 6,
-   "text": {
-    "ja": "また会えるよ",
-    "ko": ""
-   }
-  },
-  {
-   "window": 44,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 8,
-   "date": "08-07",
-   "slot": "午後",
-   "place": "富良野／新富良野プリンスホテル／コーヒーショップ・ラベンダー",
-   "voice": "A5803.WAV",
-   "chars": 19,
-   "text": {
-    "ja": "@S@・・・@P@なんか・・寂しくなっちゃうな・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 44,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 8,
-   "date": "08-07",
-   "slot": "午後",
-   "place": "富良野／新富良野プリンスホテル／コーヒーショップ・ラベンダー",
-   "voice": "A5803.WAV",
-   "chars": 21,
-   "text": {
-    "ja": "クロちゃんも荒井さんも　きっと寂しいよ・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 45,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 8,
-   "date": "08-07",
-   "slot": "午後",
-   "place": "富良野／新富良野プリンスホテル／コーヒーショップ・ラベンダー",
-   "voice": "A5804.WAV",
-   "chars": 10,
-   "text": {
-    "ja": "約束！！　絶対だよ！",
-    "ko": ""
-   }
-  },
-  {
-   "window": 46,
-   "line": 0,
-   "speaker": "主人公",
-   "kind": "대사",
-   "scene": 8,
-   "date": "08-07",
-   "slot": "午後",
-   "place": "富良野／新富良野プリンスホテル／コーヒーショップ・ラベンダー",
-   "voice": "",
-   "chars": 12,
-   "text": {
-    "ja": "・・・・・・・・・・・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 47,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 8,
-   "date": "08-07",
-   "slot": "午後",
-   "place": "富良野／新富良野プリンスホテル／コーヒーショップ・ラベンダー",
-   "voice": "",
-   "chars": 12,
-   "text": {
-    "ja": "・・・・・・・・・・・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 48,
-   "line": 0,
-   "speaker": "独白",
-   "kind": "독백",
-   "scene": 8,
-   "date": "08-07",
-   "slot": "午後",
-   "place": "富良野／新富良野プリンスホテル／コーヒーショップ・ラベンダー",
-   "voice": "",
-   "chars": 11,
-   "text": {
-    "ja": "気まずい沈黙が訪れた。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 49,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 8,
-   "date": "08-07",
-   "slot": "午後",
-   "place": "富良野／新富良野プリンスホテル／コーヒーショップ・ラベンダー",
-   "voice": "A5805.WAV",
-   "chars": 11,
-   "text": {
-    "ja": "あっ！　もう時間だ・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 49,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 8,
-   "date": "08-07",
-   "slot": "午後",
-   "place": "富良野／新富良野プリンスホテル／コーヒーショップ・ラベンダー",
-   "voice": "A5805.WAV",
-   "chars": 16,
-   "text": {
-    "ja": "・・・夕方の搾乳　しなくちゃね。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 50,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 10,
-   "date": "08-07",
-   "slot": "夕方",
-   "place": "愛田牧場／牛舎",
-   "voice": "A5806.WAV",
-   "chars": 10,
-   "text": {
-    "ja": "気球　すごかったね。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 50,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 10,
-   "date": "08-07",
-   "slot": "夕方",
-   "place": "愛田牧場／牛舎",
-   "voice": "A5806.WAV",
-   "chars": 12,
-   "text": {
-    "ja": "@0048@あっ！　もうこんな時間！",
-    "ko": ""
-   }
-  },
-  {
-   "window": 50,
-   "line": 2,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 10,
-   "date": "08-07",
-   "slot": "夕方",
-   "place": "愛田牧場／牛舎",
-   "voice": "A5806.WAV",
-   "chars": 18,
-   "text": {
-    "ja": "そろそろ夕方の搾乳　始めなくっちゃ。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 51,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 10,
-   "date": "08-07",
-   "slot": "夕方",
-   "place": "愛田牧場／牛舎",
-   "voice": "A5807.WAV",
-   "chars": 13,
-   "text": {
-    "ja": "あっ！　おかえりなさーい！",
-    "ko": ""
-   }
-  },
-  {
-   "window": 51,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 10,
-   "date": "08-07",
-   "slot": "夕方",
-   "place": "愛田牧場／牛舎",
-   "voice": "A5807.WAV",
-   "chars": 18,
-   "text": {
-    "ja": "そろそろ夕方の搾乳　始める時間だよ。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 52,
-   "line": 0,
-   "speaker": "説明",
-   "kind": "나레이션",
-   "scene": 10,
-   "date": "08-07",
-   "slot": "夕方",
-   "place": "愛田牧場／牛舎",
-   "voice": "",
-   "chars": 12,
-   "text": {
-    "ja": "搾乳の説明を聞きますか？",
-    "ko": ""
-   }
-  },
-  {
-   "window": 53,
-   "line": 0,
-   "speaker": "説明",
-   "kind": "대기",
-   "scene": null,
-   "date": null,
-   "slot": null,
-   "place": null,
-   "voice": "",
-   "chars": 2,
-   "text": {
-    "ja": "はい",
-    "ko": ""
-   }
-  },
-  {
-   "window": 53,
-   "line": 1,
-   "speaker": "説明",
-   "kind": "대기",
-   "scene": null,
-   "date": null,
-   "slot": null,
-   "place": null,
-   "voice": "",
-   "chars": 3,
-   "text": {
-    "ja": "いいえ",
-    "ko": ""
-   }
-  },
-  {
-   "window": 54,
-   "line": 0,
-   "speaker": "耕作",
-   "kind": "대사",
-   "scene": 10,
-   "date": "08-07",
-   "slot": "夕方",
-   "place": "愛田牧場／牛舎",
-   "voice": "A5679.WAV",
-   "chars": 16,
-   "text": {
-    "ja": "素晴らしい！　すごい才能だよ&主人公&君。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 54,
-   "line": 1,
-   "speaker": "耕作",
-   "kind": "대사",
-   "scene": 10,
-   "date": "08-07",
-   "slot": "夕方",
-   "place": "愛田牧場／牛舎",
-   "voice": "A5679.WAV",
-   "chars": 15,
-   "text": {
-    "ja": "めぐみのサポートも完璧だった！",
-    "ko": ""
-   }
-  },
-  {
-   "window": 54,
-   "line": 2,
-   "speaker": "耕作",
-   "kind": "대사",
-   "scene": 10,
-   "date": "08-07",
-   "slot": "夕方",
-   "place": "愛田牧場／牛舎",
-   "voice": "A5679.WAV",
-   "chars": 18,
-   "text": {
-    "ja": "これからも　この調子で頑張ってくれ！",
-    "ko": ""
-   }
-  },
-  {
-   "window": 55,
-   "line": 0,
-   "speaker": "耕作",
-   "kind": "대사",
-   "scene": 10,
-   "date": "08-07",
-   "slot": "夕方",
-   "place": "愛田牧場／牛舎",
-   "voice": "A5680.WAV",
-   "chars": 10,
-   "text": {
-    "ja": "うん。上出来だよ&主人公&君。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 55,
-   "line": 1,
-   "speaker": "耕作",
-   "kind": "대사",
-   "scene": 10,
-   "date": "08-07",
-   "slot": "夕方",
-   "place": "愛田牧場／牛舎",
-   "voice": "A5680.WAV",
-   "chars": 14,
-   "text": {
-    "ja": "めぐみもよく頑張ってくれた。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 55,
-   "line": 2,
-   "speaker": "耕作",
-   "kind": "대사",
-   "scene": 10,
-   "date": "08-07",
-   "slot": "夕方",
-   "place": "愛田牧場／牛舎",
-   "voice": "A5680.WAV",
-   "chars": 12,
-   "text": {
-    "ja": "また次もよろしく頼むよ。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 56,
-   "line": 0,
-   "speaker": "耕作",
-   "kind": "대사",
-   "scene": 10,
-   "date": "08-07",
-   "slot": "夕方",
-   "place": "愛田牧場／牛舎",
-   "voice": "A5681.WAV",
-   "chars": 18,
-   "text": {
-    "ja": "まぁ・・慣れていないから仕方ないね。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 56,
-   "line": 1,
-   "speaker": "耕作",
-   "kind": "대사",
-   "scene": 10,
-   "date": "08-07",
-   "slot": "夕方",
-   "place": "愛田牧場／牛舎",
-   "voice": "A5681.WAV",
-   "chars": 11,
-   "text": {
-    "ja": "次からは頑張ってくれ。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 57,
-   "line": 0,
-   "speaker": "独白",
-   "kind": "독백",
-   "scene": 11,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／客間",
-   "voice": "",
-   "chars": 16,
-   "text": {
-    "ja": "さてこれから　どうしようかな・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 58,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 11,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／客間",
-   "voice": "A5809.WAV",
-   "chars": 9,
-   "text": {
-    "ja": "&主人公&さん。入っていい？",
-    "ko": ""
-   }
-  },
-  {
-   "window": 59,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대기",
-   "scene": null,
-   "date": null,
-   "slot": null,
-   "place": null,
-   "voice": "",
-   "chars": 7,
-   "text": {
-    "ja": "うん。いいよ。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 59,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대기",
-   "scene": null,
-   "date": null,
-   "slot": null,
-   "place": null,
-   "voice": "",
-   "chars": 8,
-   "text": {
-    "ja": "今はちょっと・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 60,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 11,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／客間",
-   "voice": "A5812.WAV",
-   "chars": 14,
-   "text": {
-    "ja": "そっか・・じゃ　また明日ね。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 61,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 11,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／客間",
-   "voice": "A5811.WAV",
-   "chars": 18,
-   "text": {
-    "ja": "あのね。今日　すごく星が綺麗なんだ。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 61,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 11,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／客間",
-   "voice": "A5811.WAV",
-   "chars": 15,
-   "text": {
-    "ja": "だから一緒に見ようと思って・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 61,
-   "line": 2,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 11,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／客間",
-   "voice": "A5811.WAV",
-   "chars": 9,
-   "text": {
-    "ja": "私の部屋に来ない？",
-    "ko": ""
-   }
-  },
-  {
-   "window": 62,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대기",
-   "scene": null,
-   "date": null,
-   "slot": null,
-   "place": null,
-   "voice": "",
-   "chars": 7,
-   "text": {
-    "ja": "うん。いいよ。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 62,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대기",
-   "scene": null,
-   "date": null,
-   "slot": null,
-   "place": null,
-   "voice": "",
-   "chars": 8,
-   "text": {
-    "ja": "今はちょっと・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 63,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 11,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／客間",
-   "voice": "A5812.WAV",
-   "chars": 14,
-   "text": {
-    "ja": "そっか・・じゃ　また明日ね。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 64,
-   "line": 0,
-   "speaker": "主人公",
-   "kind": "대사",
-   "scene": 11,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／客間",
-   "voice": "",
-   "chars": 12,
-   "text": {
-    "ja": "・・・・・・・・・・・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 65,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 11,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／客間",
-   "voice": "A5810.WAV",
-   "chars": 14,
-   "text": {
-    "ja": "そっか・・じゃ　また明日ね。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 66,
-   "line": 0,
-   "speaker": "主人公",
-   "kind": "대사",
-   "scene": 11,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／客間",
-   "voice": "",
-   "chars": 12,
-   "text": {
-    "ja": "・・・・・・・・・・・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 67,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 11,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／客間",
-   "voice": "A5810.WAV",
-   "chars": 14,
-   "text": {
-    "ja": "そっか・・じゃ　また明日ね。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 68,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 12,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／めぐみの部屋",
-   "voice": "A5813.WAV",
-   "chars": 19,
-   "text": {
-    "ja": "ここから見える星が　すごく綺麗なんだ。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 68,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 12,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／めぐみの部屋",
-   "voice": "A5813.WAV",
-   "chars": 7,
-   "text": {
-    "ja": "ほら！　見て！",
-    "ko": ""
-   }
-  },
-  {
-   "window": 69,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 12,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／めぐみの部屋",
-   "voice": "A5814.WAV",
-   "chars": 22,
-   "text": {
-    "ja": "東京から引っ越してきて　一番びっくりしたのが",
-    "ko": ""
-   }
-  },
-  {
-   "window": 69,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 12,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／めぐみの部屋",
-   "voice": "A5814.WAV",
-   "chars": 13,
-   "text": {
-    "ja": "この星の綺麗さだったんだ。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 70,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 12,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／めぐみの部屋",
-   "voice": "A5815.WAV",
-   "chars": 15,
-   "text": {
-    "ja": "そして思ったの・・東京の空って",
-    "ko": ""
-   }
-  },
-  {
-   "window": 70,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 12,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／めぐみの部屋",
-   "voice": "A5815.WAV",
-   "chars": 16,
-   "text": {
-    "ja": "やっぱり汚れてるんだなぁって・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 71,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 12,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／めぐみの部屋",
-   "voice": "A5816.WAV",
-   "chars": 25,
-   "text": {
-    "ja": "こんな風に星を見てると　昔の人たちが　星を見ながら",
-    "ko": ""
-   }
-  },
-  {
-   "window": 71,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 12,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／めぐみの部屋",
-   "voice": "A5816.WAV",
-   "chars": 23,
-   "text": {
-    "ja": "ひとつひとつに名前を付けたり　その星にまつわる",
-    "ko": ""
-   }
-  },
-  {
-   "window": 71,
-   "line": 2,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 12,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／めぐみの部屋",
-   "voice": "A5816.WAV",
-   "chars": 24,
-   "text": {
-    "ja": "たくさんの物語を作ったのも　わかる気がするんだ。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 72,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 12,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／めぐみの部屋",
-   "voice": "A5817.WAV",
-   "chars": 8,
-   "text": {
-    "ja": "@S@・・・@P@あのね・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 72,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 12,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／めぐみの部屋",
-   "voice": "A5817.WAV",
-   "chars": 11,
-   "text": {
-    "ja": "えへへ・・何でもない。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 73,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대기",
-   "scene": null,
-   "date": null,
-   "slot": null,
-   "place": null,
-   "voice": "",
-   "chars": 12,
-   "text": {
-    "ja": "今なんて言おうとしたの？",
-    "ko": ""
-   }
-  },
-  {
-   "window": 73,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대기",
-   "scene": null,
-   "date": null,
-   "slot": null,
-   "place": null,
-   "voice": "",
-   "chars": 10,
-   "text": {
-    "ja": "本当に星が綺麗だね。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 74,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 12,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／めぐみの部屋",
-   "voice": "A5824.WAV",
-   "chars": 9,
-   "text": {
-    "ja": "うん。綺麗だよね。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 75,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 12,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／めぐみの部屋",
-   "voice": "A5818.WAV",
-   "chars": 17,
-   "text": {
-    "ja": "え？　うーん。どうしようかなぁ・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 76,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 12,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／めぐみの部屋",
-   "voice": "A5819.WAV",
-   "chars": 24,
-   "text": {
-    "ja": "あのね。・・・こうしてると　思い出しちゃうんだ。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 77,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 12,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／めぐみの部屋",
-   "voice": "A5820.WAV",
-   "chars": 18,
-   "text": {
-    "ja": "小学校の頃にね・・好きな人がいたの。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 77,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 12,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／めぐみの部屋",
-   "voice": "A5820.WAV",
-   "chars": 21,
-   "text": {
-    "ja": "私　空で一番明るい星に　その人の名前付けて",
-    "ko": ""
-   }
-  },
-  {
-   "window": 77,
-   "line": 2,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 12,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／めぐみの部屋",
-   "voice": "A5820.WAV",
-   "chars": 24,
-   "text": {
-    "ja": "明日もまた　会えますようにってお祈りしてたの・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 78,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 12,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／めぐみの部屋",
-   "voice": "A5821.WAV",
-   "chars": 18,
-   "text": {
-    "ja": "同じクラスだったから会えて当然なのに",
-    "ko": ""
-   }
-  },
-  {
-   "window": 78,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 12,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／めぐみの部屋",
-   "voice": "A5821.WAV",
-   "chars": 15,
-   "text": {
-    "ja": "毎晩毎晩　お祈りしてたの・・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 78,
-   "line": 2,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 12,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／めぐみの部屋",
-   "voice": "A5821.WAV",
-   "chars": 9,
-   "text": {
-    "ja": "バカみたいでしょ？",
-    "ko": ""
-   }
-  },
-  {
-   "window": 79,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 12,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／めぐみの部屋",
-   "voice": "A5822.WAV",
-   "chars": 9,
-   "text": {
-    "ja": "でも中学生になって",
-    "ko": ""
-   }
-  },
-  {
-   "window": 79,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 12,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／めぐみの部屋",
-   "voice": "A5822.WAV",
-   "chars": 21,
-   "text": {
-    "ja": "授業でその星の本当の名前を教わった頃・・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 80,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 12,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／めぐみの部屋",
-   "voice": "A5823.WAV",
-   "chars": 17,
-   "text": {
-    "ja": "その人　外国に転校しちゃったんだ。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 80,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 12,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／めぐみの部屋",
-   "voice": "A5823.WAV",
-   "chars": 7,
-   "text": {
-    "ja": "・・・&主人公&さんって",
-    "ko": ""
-   }
-  },
-  {
-   "window": 80,
-   "line": 2,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 12,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／めぐみの部屋",
-   "voice": "A5823.WAV",
-   "chars": 16,
-   "text": {
-    "ja": "その人に　ちょっとだけ似てるよ。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 81,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 12,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／めぐみの部屋",
-   "voice": "A5825.WAV",
-   "chars": 20,
-   "text": {
-    "ja": "もうこんな時間だ。そろそろ寝なくっちゃ。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 81,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 12,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／めぐみの部屋",
-   "voice": "A5825.WAV",
-   "chars": 23,
-   "text": {
-    "ja": "@8100@明日は最後のお仕事だね。・・一緒に頑張ろうね。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 82,
-   "line": 0,
-   "speaker": "独白",
-   "kind": "독백",
-   "scene": 13,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／客間２",
-   "voice": "",
-   "chars": 21,
-   "text": {
-    "ja": "あれ？　クロちゃん・・どこから入ったんだ？",
-    "ko": ""
-   }
-  },
-  {
-   "window": 83,
-   "line": 0,
-   "speaker": "クロちゃん",
-   "kind": "대사",
-   "scene": 13,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／客間２",
-   "voice": "A5827.WAV",
-   "chars": 10,
-   "text": {
-    "ja": "にゃぁ・・にゃぁ！！",
-    "ko": ""
-   }
-  },
-  {
-   "window": 84,
-   "line": 0,
-   "speaker": "独白",
-   "kind": "독백",
-   "scene": 13,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／客間２",
-   "voice": "",
-   "chars": 19,
-   "text": {
-    "ja": "クロちゃんは何を言いたかったんだろう？",
-    "ko": ""
-   }
-  },
-  {
-   "window": 85,
-   "line": 0,
-   "speaker": "独白",
-   "kind": "대기",
-   "scene": null,
-   "date": null,
-   "slot": null,
-   "place": null,
-   "voice": "",
-   "chars": 21,
-   "text": {
-    "ja": "きっと「お休みなさい」を言いたかったんだ。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 85,
-   "line": 1,
-   "speaker": "独白",
-   "kind": "대기",
-   "scene": null,
-   "date": null,
-   "slot": null,
-   "place": null,
-   "voice": "",
-   "chars": 25,
-   "text": {
-    "ja": "きっと明日帰る僕に「さよなら」を言いたかったんだ。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 85,
-   "line": 2,
-   "speaker": "独白",
-   "kind": "대기",
-   "scene": null,
-   "date": null,
-   "slot": null,
-   "place": null,
-   "voice": "",
-   "chars": 21,
-   "text": {
-    "ja": "きっと「付いて来い」って言いたかったんだ。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 86,
-   "line": 0,
-   "speaker": "独白",
-   "kind": "독백",
-   "scene": 13,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／客間２",
-   "voice": "",
-   "chars": 14,
-   "text": {
-    "ja": "うん。きっとそう言うことだ。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 86,
-   "line": 1,
-   "speaker": "独白",
-   "kind": "독백",
-   "scene": 13,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／客間２",
-   "voice": "",
-   "chars": 18,
-   "text": {
-    "ja": "明日も早いし　気にせずに早く寝よう。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 87,
-   "line": 0,
-   "speaker": "独白",
-   "kind": "독백",
-   "scene": 13,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／客間２",
-   "voice": "",
-   "chars": 11,
-   "text": {
-    "ja": "・・・なんか心配だな。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 87,
-   "line": 1,
-   "speaker": "独白",
-   "kind": "독백",
-   "scene": 13,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／客間２",
-   "voice": "",
-   "chars": 13,
-   "text": {
-    "ja": "とりあえず外に出てみよう。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 88,
-   "line": 0,
-   "speaker": "クロちゃん",
-   "kind": "대사",
-   "scene": 14,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／リビング",
-   "voice": "A5831.WAV",
-   "chars": 10,
-   "text": {
-    "ja": "にゃぁ・・にゃぁ！！",
-    "ko": ""
-   }
-  },
-  {
-   "window": 89,
-   "line": 0,
-   "speaker": "独白",
-   "kind": "독백",
-   "scene": 14,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／リビング",
-   "voice": "",
-   "chars": 14,
-   "text": {
-    "ja": "クロちゃんは外に出ていった。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 89,
-   "line": 1,
-   "speaker": "独白",
-   "kind": "독백",
-   "scene": 14,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／リビング",
-   "voice": "",
-   "chars": 4,
-   "text": {
-    "ja": "僕は・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 90,
-   "line": 0,
-   "speaker": "独白",
-   "kind": "대기",
-   "scene": null,
-   "date": null,
-   "slot": null,
-   "place": null,
-   "voice": "",
-   "chars": 7,
-   "text": {
-    "ja": "後を追いかける",
-    "ko": ""
-   }
-  },
-  {
-   "window": 90,
-   "line": 1,
-   "speaker": "独白",
-   "kind": "대기",
-   "scene": null,
-   "date": null,
-   "slot": null,
-   "place": null,
-   "voice": "",
-   "chars": 7,
-   "text": {
-    "ja": "やっぱりやめる",
-    "ko": ""
-   }
-  },
-  {
-   "window": 91,
-   "line": 0,
-   "speaker": "独白",
-   "kind": "독백",
-   "scene": 14,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／リビング",
-   "voice": "",
-   "chars": 25,
-   "text": {
-    "ja": "夜中に黒猫と追いかけっこするのもなんか悪趣味だな。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 91,
-   "line": 1,
-   "speaker": "独白",
-   "kind": "독백",
-   "scene": 14,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／リビング",
-   "voice": "",
-   "chars": 14,
-   "text": {
-    "ja": "やっぱり部屋に帰って寝よう。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 92,
-   "line": 0,
-   "speaker": "独白",
-   "kind": "독백",
-   "scene": 14,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／リビング",
-   "voice": "",
-   "chars": 16,
-   "text": {
-    "ja": "やっぱり気になる。追いかけよう。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 93,
-   "line": 0,
-   "speaker": "クロちゃん",
-   "kind": "대사",
-   "scene": 15,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／外観",
-   "voice": "A5835.WAV",
-   "chars": 10,
-   "text": {
-    "ja": "にゃぁ・・にゃぁ！！",
-    "ko": ""
-   }
-  },
-  {
-   "window": 94,
-   "line": 0,
-   "speaker": "独白",
-   "kind": "독백",
-   "scene": 15,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／外観",
-   "voice": "",
-   "chars": 16,
-   "text": {
-    "ja": "クロちゃんは牛舎に入っていった。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 94,
-   "line": 1,
-   "speaker": "独白",
-   "kind": "독백",
-   "scene": 15,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／外観",
-   "voice": "",
-   "chars": 4,
-   "text": {
-    "ja": "僕は・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 95,
-   "line": 0,
-   "speaker": "独白",
-   "kind": "대기",
-   "scene": null,
-   "date": null,
-   "slot": null,
-   "place": null,
-   "voice": "",
-   "chars": 7,
-   "text": {
-    "ja": "後を追いかける",
-    "ko": ""
-   }
-  },
-  {
-   "window": 95,
-   "line": 1,
-   "speaker": "独白",
-   "kind": "대기",
-   "scene": null,
-   "date": null,
-   "slot": null,
-   "place": null,
-   "voice": "",
-   "chars": 7,
-   "text": {
-    "ja": "やっぱりやめる",
-    "ko": ""
-   }
-  },
-  {
-   "window": 96,
-   "line": 0,
-   "speaker": "独白",
-   "kind": "독백",
-   "scene": 15,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／外観",
-   "voice": "",
-   "chars": 23,
-   "text": {
-    "ja": "夜中に黒猫を追いかけるのも　なんか悪趣味だな。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 96,
-   "line": 1,
-   "speaker": "独白",
-   "kind": "독백",
-   "scene": 15,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／外観",
-   "voice": "",
-   "chars": 14,
-   "text": {
-    "ja": "やっぱり部屋に帰って寝よう。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 97,
-   "line": 0,
-   "speaker": "独白",
-   "kind": "독백",
-   "scene": 15,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／外観",
-   "voice": "",
-   "chars": 16,
-   "text": {
-    "ja": "やっぱり気になる。追いかけよう。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 98,
-   "line": 0,
-   "speaker": "独白",
-   "kind": "독백",
-   "scene": 16,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／牛舎",
-   "voice": "",
-   "chars": 23,
-   "text": {
-    "ja": "クロちゃん・・・あれ？　どこに行ったんだろう？",
-    "ko": ""
-   }
-  },
-  {
-   "window": 98,
-   "line": 1,
-   "speaker": "独白",
-   "kind": "독백",
-   "scene": 16,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／牛舎",
-   "voice": "",
-   "chars": 18,
-   "text": {
-    "ja": "確か　ここに入ったはずなんだけど・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 99,
-   "line": 0,
-   "speaker": "独白",
-   "kind": "독백",
-   "scene": 16,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／牛舎",
-   "voice": "",
-   "chars": 9,
-   "text": {
-    "ja": "あれ？　今の声・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 100,
-   "line": 0,
-   "speaker": "独白",
-   "kind": "독백",
-   "scene": 16,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／牛舎",
-   "voice": "",
-   "chars": 18,
-   "text": {
-    "ja": "牛が苦しんでる声だ！　行ってみよう。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 101,
-   "line": 0,
-   "speaker": "独白",
-   "kind": "독백",
-   "scene": 16,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／牛舎",
-   "voice": "",
-   "chars": 19,
-   "text": {
-    "ja": "大変だ！　早く耕作さんを呼ばなくちゃ！",
-    "ko": ""
-   }
-  },
-  {
-   "window": 102,
-   "line": 0,
-   "speaker": "耕作",
-   "kind": "대사",
-   "scene": 16,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／牛舎",
-   "voice": "A5843.WAV",
-   "chars": 14,
-   "text": {
-    "ja": "@S@・・@P@大変だ！　生まれるぞ！！",
-    "ko": ""
-   }
-  },
-  {
-   "window": 102,
-   "line": 1,
-   "speaker": "耕作",
-   "kind": "대사",
-   "scene": 16,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／牛舎",
-   "voice": "A5843.WAV",
-   "chars": 19,
-   "text": {
-    "ja": "予定日は　ずっと先だったはずなのに・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 103,
-   "line": 0,
-   "speaker": "独白",
-   "kind": "독백",
-   "scene": 16,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／牛舎",
-   "voice": "",
-   "chars": 11,
-   "text": {
-    "ja": "それからが大変だった。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 103,
-   "line": 1,
-   "speaker": "独白",
-   "kind": "독백",
-   "scene": 16,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／牛舎",
-   "voice": "",
-   "chars": 17,
-   "text": {
-    "ja": "手に負えないような難産だったらしく",
-    "ko": ""
-   }
-  },
-  {
-   "window": 103,
-   "line": 2,
-   "speaker": "独白",
-   "kind": "독백",
-   "scene": 16,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／牛舎",
-   "voice": "",
-   "chars": 15,
-   "text": {
-    "ja": "耕作さんは慌てて獣医を呼んだ。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 104,
-   "line": 0,
-   "speaker": "独白",
-   "kind": "독백",
-   "scene": 17,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／牛舎２",
-   "voice": "",
-   "chars": 20,
-   "text": {
-    "ja": "やがて里子さんやめぐみちゃんも起きて来て",
-    "ko": ""
-   }
-  },
-  {
-   "window": 104,
-   "line": 1,
-   "speaker": "独白",
-   "kind": "독백",
-   "scene": 17,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／牛舎２",
-   "voice": "",
-   "chars": 12,
-   "text": {
-    "ja": "みんなで母牛を応援した。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 104,
-   "line": 2,
-   "speaker": "独白",
-   "kind": "독백",
-   "scene": 17,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／牛舎２",
-   "voice": "",
-   "chars": 6,
-   "text": {
-    "ja": "そして・・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 105,
-   "line": 0,
-   "speaker": "独白",
-   "kind": "독백",
-   "scene": 17,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／牛舎２",
-   "voice": "",
-   "chars": 17,
-   "text": {
-    "ja": "発見が早かったのが幸いしたらしい。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 105,
-   "line": 1,
-   "speaker": "独白",
-   "kind": "독백",
-   "scene": 17,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／牛舎２",
-   "voice": "",
-   "chars": 19,
-   "text": {
-    "ja": "母牛は　無事にメスの赤ちゃんを産んだ。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 106,
-   "line": 0,
-   "speaker": "耕作",
-   "kind": "대사",
-   "scene": 17,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／牛舎２",
-   "voice": "A5847.WAV",
-   "chars": 10,
-   "text": {
-    "ja": "やったぞ！　メスだ！",
-    "ko": ""
-   }
-  },
-  {
-   "window": 107,
-   "line": 0,
-   "speaker": "里子",
-   "kind": "대사",
-   "scene": 17,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／牛舎２",
-   "voice": "A5848.WAV",
-   "chars": 22,
-   "text": {
-    "ja": "本当に良かった！　鼻黒２号も頑張ったわよね。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 108,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 17,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／牛舎２",
-   "voice": "A5849.WAV",
-   "chars": 15,
-   "text": {
-    "ja": "あっ！　見て！　もう立ってる！",
-    "ko": ""
-   }
-  },
-  {
-   "window": 109,
-   "line": 0,
-   "speaker": "独白",
-   "kind": "독백",
-   "scene": 17,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／牛舎２",
-   "voice": "",
-   "chars": 21,
-   "text": {
-    "ja": "こうして愛田牧場に　ひとつの命が生まれた。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 110,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 18,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／客間３",
-   "voice": "A5851.WAV",
-   "chars": 14,
-   "text": {
-    "ja": "&主人公&さん！　起きて！　大変なの！",
-    "ko": ""
-   }
-  },
-  {
-   "window": 111,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 18,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／客間３",
-   "voice": "A5852.WAV",
-   "chars": 22,
-   "text": {
-    "ja": "あのね。鼻黒２号の赤ちゃんが産まれそうなの！",
-    "ko": ""
-   }
-  },
-  {
-   "window": 111,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 18,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／客間３",
-   "voice": "A5852.WAV",
-   "chars": 9,
-   "text": {
-    "ja": "&主人公&さん！　手伝って！",
-    "ko": ""
-   }
-  },
-  {
-   "window": 112,
-   "line": 0,
-   "speaker": "独白",
-   "kind": "독백",
-   "scene": 18,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／客間３",
-   "voice": "",
-   "chars": 11,
-   "text": {
-    "ja": "それからが大変だった。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 112,
-   "line": 1,
-   "speaker": "独白",
-   "kind": "독백",
-   "scene": 18,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／客間３",
-   "voice": "",
-   "chars": 17,
-   "text": {
-    "ja": "手に負えないような難産だったらしく",
-    "ko": ""
-   }
-  },
-  {
-   "window": 112,
-   "line": 2,
-   "speaker": "独白",
-   "kind": "독백",
-   "scene": 18,
-   "date": "08-07",
-   "slot": "夜",
-   "place": "愛田牧場／客間３",
-   "voice": "",
-   "chars": 15,
-   "text": {
-    "ja": "耕作さんは慌てて獣医を呼んだ。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 113,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 19,
-   "date": "08-08",
-   "slot": "朝",
-   "place": "愛田牧場／客間",
-   "voice": "A5854.WAV",
-   "chars": 8,
-   "text": {
-    "ja": "お早う！　&主人公&さん。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 113,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 19,
-   "date": "08-08",
-   "slot": "朝",
-   "place": "愛田牧場／客間",
-   "voice": "A5854.WAV",
-   "chars": 12,
-   "text": {
-    "ja": "夕べは大活躍だったよね。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 114,
-   "line": 0,
-   "speaker": "主人公",
-   "kind": "대사",
-   "scene": 19,
-   "date": "08-08",
-   "slot": "朝",
-   "place": "愛田牧場／客間",
-   "voice": "",
-   "chars": 15,
-   "text": {
-    "ja": "いや・・あれはクロちゃんが・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 115,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 19,
-   "date": "08-08",
-   "slot": "朝",
-   "place": "愛田牧場／客間",
-   "voice": "A5856.WAV",
-   "chars": 16,
-   "text": {
-    "ja": "でもさ・・夕べ&主人公&さんが　お父さんを",
-    "ko": ""
-   }
-  },
-  {
-   "window": 115,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 19,
-   "date": "08-08",
-   "slot": "朝",
-   "place": "愛田牧場／客間",
-   "voice": "A5856.WAV",
-   "chars": 23,
-   "text": {
-    "ja": "呼んでくれなきゃ　鼻黒３号　危なかったんだよ。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 116,
-   "line": 0,
-   "speaker": "主人公",
-   "kind": "대사",
-   "scene": 19,
-   "date": "08-08",
-   "slot": "朝",
-   "place": "愛田牧場／客間",
-   "voice": "",
-   "chars": 5,
-   "text": {
-    "ja": "鼻黒３号？",
-    "ko": ""
-   }
-  },
-  {
-   "window": 117,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 19,
-   "date": "08-08",
-   "slot": "朝",
-   "place": "愛田牧場／客間",
-   "voice": "A5862.WAV",
-   "chars": 15,
-   "text": {
-    "ja": "昨日　生まれた赤ちゃんの名前。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 117,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 19,
-   "date": "08-08",
-   "slot": "朝",
-   "place": "愛田牧場／客間",
-   "voice": "A5862.WAV",
-   "chars": 7,
-   "text": {
-    "ja": "さぁ！　&主人公&さん。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 117,
-   "line": 2,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 19,
-   "date": "08-08",
-   "slot": "朝",
-   "place": "愛田牧場／客間",
-   "voice": "A5862.WAV",
-   "chars": 11,
-   "text": {
-    "ja": "最後のお仕事　頑張ろ！",
-    "ko": ""
-   }
-  },
-  {
-   "window": 118,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 19,
-   "date": "08-08",
-   "slot": "朝",
-   "place": "愛田牧場／客間",
-   "voice": "A5859.WAV",
-   "chars": 8,
-   "text": {
-    "ja": "お早う！　&主人公&さん。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 118,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 19,
-   "date": "08-08",
-   "slot": "朝",
-   "place": "愛田牧場／客間",
-   "voice": "A5859.WAV",
-   "chars": 11,
-   "text": {
-    "ja": "夕べは大変だったよね。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 119,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 19,
-   "date": "08-08",
-   "slot": "朝",
-   "place": "愛田牧場／客間",
-   "voice": "A5860.WAV",
-   "chars": 20,
-   "text": {
-    "ja": "夕べ　お父さんが　お産に気づかなかったら",
-    "ko": ""
-   }
-  },
-  {
-   "window": 119,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 19,
-   "date": "08-08",
-   "slot": "朝",
-   "place": "愛田牧場／客間",
-   "voice": "A5860.WAV",
-   "chars": 14,
-   "text": {
-    "ja": "鼻黒３号　危なかったんだよ。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 120,
-   "line": 0,
-   "speaker": "主人公",
-   "kind": "대사",
-   "scene": 19,
-   "date": "08-08",
-   "slot": "朝",
-   "place": "愛田牧場／客間",
-   "voice": "",
-   "chars": 5,
-   "text": {
-    "ja": "鼻黒３号？",
-    "ko": ""
-   }
-  },
-  {
-   "window": 121,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 19,
-   "date": "08-08",
-   "slot": "朝",
-   "place": "愛田牧場／客間",
-   "voice": "A5858.WAV",
-   "chars": 15,
-   "text": {
-    "ja": "昨日　生まれた赤ちゃんの名前。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 121,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 19,
-   "date": "08-08",
-   "slot": "朝",
-   "place": "愛田牧場／客間",
-   "voice": "A5858.WAV",
-   "chars": 7,
-   "text": {
-    "ja": "さぁ！　&主人公&さん。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 121,
-   "line": 2,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 19,
-   "date": "08-08",
-   "slot": "朝",
-   "place": "愛田牧場／客間",
-   "voice": "A5858.WAV",
-   "chars": 11,
-   "text": {
-    "ja": "最後のお仕事　頑張ろ！",
-    "ko": ""
-   }
-  },
-  {
-   "window": 122,
-   "line": 0,
-   "speaker": "説明",
-   "kind": "나레이션",
-   "scene": 20,
-   "date": "08-08",
-   "slot": "朝",
-   "place": "愛田牧場／牛舎",
-   "voice": "",
-   "chars": 12,
-   "text": {
-    "ja": "搾乳の説明を聞きますか？",
-    "ko": ""
-   }
-  },
-  {
-   "window": 123,
-   "line": 0,
-   "speaker": "説明",
-   "kind": "대기",
-   "scene": null,
-   "date": null,
-   "slot": null,
-   "place": null,
-   "voice": "",
-   "chars": 2,
-   "text": {
-    "ja": "はい",
-    "ko": ""
-   }
-  },
-  {
-   "window": 123,
-   "line": 1,
-   "speaker": "説明",
-   "kind": "대기",
-   "scene": null,
-   "date": null,
-   "slot": null,
-   "place": null,
-   "voice": "",
-   "chars": 3,
-   "text": {
-    "ja": "いいえ",
-    "ko": ""
-   }
-  },
-  {
-   "window": 124,
-   "line": 0,
-   "speaker": "耕作",
-   "kind": "대사",
-   "scene": 20,
-   "date": "08-08",
-   "slot": "朝",
-   "place": "愛田牧場／牛舎",
-   "voice": "A5679.WAV",
-   "chars": 16,
-   "text": {
-    "ja": "素晴らしい！　すごい才能だよ&主人公&君。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 124,
-   "line": 1,
-   "speaker": "耕作",
-   "kind": "대사",
-   "scene": 20,
-   "date": "08-08",
-   "slot": "朝",
-   "place": "愛田牧場／牛舎",
-   "voice": "A5679.WAV",
-   "chars": 15,
-   "text": {
-    "ja": "めぐみのサポートも完璧だった！",
-    "ko": ""
-   }
-  },
-  {
-   "window": 124,
-   "line": 2,
-   "speaker": "耕作",
-   "kind": "대사",
-   "scene": 20,
-   "date": "08-08",
-   "slot": "朝",
-   "place": "愛田牧場／牛舎",
-   "voice": "A5679.WAV",
-   "chars": 18,
-   "text": {
-    "ja": "これからも　この調子で頑張ってくれ！",
-    "ko": ""
-   }
-  },
-  {
-   "window": 125,
-   "line": 0,
-   "speaker": "耕作",
-   "kind": "대사",
-   "scene": 20,
-   "date": "08-08",
-   "slot": "朝",
-   "place": "愛田牧場／牛舎",
-   "voice": "A5680.WAV",
-   "chars": 10,
-   "text": {
-    "ja": "うん。上出来だよ&主人公&君。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 125,
-   "line": 1,
-   "speaker": "耕作",
-   "kind": "대사",
-   "scene": 20,
-   "date": "08-08",
-   "slot": "朝",
-   "place": "愛田牧場／牛舎",
-   "voice": "A5680.WAV",
-   "chars": 14,
-   "text": {
-    "ja": "めぐみもよく頑張ってくれた。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 125,
-   "line": 2,
-   "speaker": "耕作",
-   "kind": "대사",
-   "scene": 20,
-   "date": "08-08",
-   "slot": "朝",
-   "place": "愛田牧場／牛舎",
-   "voice": "A5680.WAV",
-   "chars": 12,
-   "text": {
-    "ja": "また次もよろしく頼むよ。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 126,
-   "line": 0,
-   "speaker": "耕作",
-   "kind": "대사",
-   "scene": 20,
-   "date": "08-08",
-   "slot": "朝",
-   "place": "愛田牧場／牛舎",
-   "voice": "A5681.WAV",
-   "chars": 18,
-   "text": {
-    "ja": "まぁ・・慣れていないから仕方ないね。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 126,
-   "line": 1,
-   "speaker": "耕作",
-   "kind": "대사",
-   "scene": 20,
-   "date": "08-08",
-   "slot": "朝",
-   "place": "愛田牧場／牛舎",
-   "voice": "A5681.WAV",
-   "chars": 11,
-   "text": {
-    "ja": "次からは頑張ってくれ。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 127,
-   "line": 0,
-   "speaker": "耕作",
-   "kind": "대사",
-   "scene": 22,
-   "date": "08-08",
-   "slot": "午前",
-   "place": "愛田牧場／リビング",
-   "voice": "A5863.WAV",
-   "chars": 15,
-   "text": {
-    "ja": "&主人公&君。４日間　本当にお疲れさま。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 127,
-   "line": 1,
-   "speaker": "耕作",
-   "kind": "대사",
-   "scene": 22,
-   "date": "08-08",
-   "slot": "午前",
-   "place": "愛田牧場／リビング",
-   "voice": "A5863.WAV",
-   "chars": 17,
-   "text": {
-    "ja": "君がいてくれたお陰で　助かったよ。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 128,
-   "line": 0,
-   "speaker": "里子",
-   "kind": "대사",
-   "scene": 22,
-   "date": "08-08",
-   "slot": "午前",
-   "place": "愛田牧場／リビング",
-   "voice": "A5864.WAV",
-   "chars": 19,
-   "text": {
-    "ja": "本当ね。鼻黒３号の命の恩人ですものね。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 129,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 22,
-   "date": "08-08",
-   "slot": "午前",
-   "place": "愛田牧場／リビング",
-   "voice": "A5865.WAV",
-   "chars": 19,
-   "text": {
-    "ja": "クロちゃんにも上等の鰹節　あげたんだ。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 129,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 22,
-   "date": "08-08",
-   "slot": "午前",
-   "place": "愛田牧場／リビング",
-   "voice": "A5865.WAV",
-   "chars": 8,
-   "text": {
-    "ja": "私たちは　これ。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 130,
-   "line": 0,
-   "speaker": "里子",
-   "kind": "대사",
-   "scene": 22,
-   "date": "08-08",
-   "slot": "午前",
-   "place": "愛田牧場／リビング",
-   "voice": "A5866.WAV",
-   "chars": 18,
-   "text": {
-    "ja": "本当ね。慣れない仕事で疲れたでしょ？",
-    "ko": ""
-   }
-  },
-  {
-   "window": 131,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 22,
-   "date": "08-08",
-   "slot": "午前",
-   "place": "愛田牧場／リビング",
-   "voice": "A5867.WAV",
-   "chars": 21,
-   "text": {
-    "ja": "あのね。今日は特別なごちそうがあるんだよ。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 132,
-   "line": 0,
-   "speaker": "里子",
-   "kind": "대사",
-   "scene": 22,
-   "date": "08-08",
-   "slot": "午前",
-   "place": "愛田牧場／リビング",
-   "voice": "A5868.WAV",
-   "chars": 20,
-   "text": {
-    "ja": "牛乳豆腐って言って　お産をした後の初乳を",
-    "ko": ""
-   }
-  },
-  {
-   "window": 132,
-   "line": 1,
-   "speaker": "里子",
-   "kind": "대사",
-   "scene": 22,
-   "date": "08-08",
-   "slot": "午前",
-   "place": "愛田牧場／リビング",
-   "voice": "A5868.WAV",
-   "chars": 15,
-   "text": {
-    "ja": "固めたものなのよ。食べてみて。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 133,
-   "line": 0,
-   "speaker": "独白",
-   "kind": "독백",
-   "scene": 22,
-   "date": "08-08",
-   "slot": "午前",
-   "place": "愛田牧場／リビング",
-   "voice": "",
-   "chars": 13,
-   "text": {
-    "ja": "僕は牛乳豆腐を食べてみた。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 133,
-   "line": 1,
-   "speaker": "独白",
-   "kind": "독백",
-   "scene": 22,
-   "date": "08-08",
-   "slot": "午前",
-   "place": "愛田牧場／リビング",
-   "voice": "",
-   "chars": 9,
-   "text": {
-    "ja": "・・・・うまい！！",
-    "ko": ""
-   }
-  },
-  {
-   "window": 134,
-   "line": 0,
-   "speaker": "独白",
-   "kind": "독백",
-   "scene": 22,
-   "date": "08-08",
-   "slot": "午前",
-   "place": "愛田牧場／リビング",
-   "voice": "",
-   "chars": 15,
-   "text": {
-    "ja": "味はカッテージチーズに近い・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 134,
-   "line": 1,
-   "speaker": "独白",
-   "kind": "독백",
-   "scene": 22,
-   "date": "08-08",
-   "slot": "午前",
-   "place": "愛田牧場／リビング",
-   "voice": "",
-   "chars": 20,
-   "text": {
-    "ja": "いや・・それとは比べものにならないくらい",
-    "ko": ""
-   }
-  },
-  {
-   "window": 134,
-   "line": 2,
-   "speaker": "独白",
-   "kind": "독백",
-   "scene": 22,
-   "date": "08-08",
-   "slot": "午前",
-   "place": "愛田牧場／リビング",
-   "voice": "",
-   "chars": 17,
-   "text": {
-    "ja": "深いコクとまろやかな味わいがある。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 135,
-   "line": 0,
-   "speaker": "独白",
-   "kind": "독백",
-   "scene": 22,
-   "date": "08-08",
-   "slot": "午前",
-   "place": "愛田牧場／リビング",
-   "voice": "",
-   "chars": 24,
-   "text": {
-    "ja": "そして口に含んだ瞬間　牛乳の甘い香りが広がる・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 135,
-   "line": 1,
-   "speaker": "独白",
-   "kind": "독백",
-   "scene": 22,
-   "date": "08-08",
-   "slot": "午前",
-   "place": "愛田牧場／リビング",
-   "voice": "",
-   "chars": 25,
-   "text": {
-    "ja": "この感覚は　快感と言っても言い過ぎではないだろう。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 136,
-   "line": 0,
-   "speaker": "里子",
-   "kind": "대사",
-   "scene": 22,
-   "date": "08-08",
-   "slot": "午前",
-   "place": "愛田牧場／リビング",
-   "voice": "A5871.WAV",
-   "chars": 10,
-   "text": {
-    "ja": "ね。おいしいでしょ？",
-    "ko": ""
-   }
-  },
-  {
-   "window": 136,
-   "line": 1,
-   "speaker": "里子",
-   "kind": "대사",
-   "scene": 22,
-   "date": "08-08",
-   "slot": "午前",
-   "place": "愛田牧場／リビング",
-   "voice": "A5871.WAV",
-   "chars": 22,
-   "text": {
-    "ja": "牧場で働いていても　滅多に食べられないのよ。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 137,
-   "line": 0,
-   "speaker": "耕作",
-   "kind": "대사",
-   "scene": 22,
-   "date": "08-08",
-   "slot": "午前",
-   "place": "愛田牧場／リビング",
-   "voice": "A5872.WAV",
-   "chars": 8,
-   "text": {
-    "ja": "そうだ。めぐみ。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 137,
-   "line": 1,
-   "speaker": "耕作",
-   "kind": "대사",
-   "scene": 22,
-   "date": "08-08",
-   "slot": "午前",
-   "place": "愛田牧場／リビング",
-   "voice": "A5872.WAV",
-   "chars": 19,
-   "text": {
-    "ja": "夕方の搾乳は父さんたちで何とかするから",
-    "ko": ""
-   }
-  },
-  {
-   "window": 137,
-   "line": 2,
-   "speaker": "耕作",
-   "kind": "대사",
-   "scene": 22,
-   "date": "08-08",
-   "slot": "午前",
-   "place": "愛田牧場／リビング",
-   "voice": "A5872.WAV",
-   "chars": 14,
-   "text": {
-    "ja": "お前は&主人公&君を送っていくといい。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 138,
-   "line": 0,
-   "speaker": "耕作",
-   "kind": "대사",
-   "scene": 22,
-   "date": "08-08",
-   "slot": "午前",
-   "place": "愛田牧場／リビング",
-   "voice": "A5873.WAV",
-   "chars": 21,
-   "text": {
-    "ja": "夜までに帰って来れば　途中　多少の寄り道は",
-    "ko": ""
-   }
-  },
-  {
-   "window": 138,
-   "line": 1,
-   "speaker": "耕作",
-   "kind": "대사",
-   "scene": 22,
-   "date": "08-08",
-   "slot": "午前",
-   "place": "愛田牧場／リビング",
-   "voice": "A5873.WAV",
-   "chars": 10,
-   "text": {
-    "ja": "してもかまわないよ。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 139,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 22,
-   "date": "08-08",
-   "slot": "午前",
-   "place": "愛田牧場／リビング",
-   "voice": "A5874.WAV",
-   "chars": 17,
-   "text": {
-    "ja": "本当？　それじゃ私　海に行きたい！",
-    "ko": ""
-   }
-  },
-  {
-   "window": 139,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 22,
-   "date": "08-08",
-   "slot": "午前",
-   "place": "愛田牧場／リビング",
-   "voice": "A5874.WAV",
-   "chars": 10,
-   "text": {
-    "ja": "ねぇ&主人公&さん。知ってる？",
-    "ko": ""
-   }
-  },
-  {
-   "window": 139,
-   "line": 2,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 22,
-   "date": "08-08",
-   "slot": "午前",
-   "place": "愛田牧場／リビング",
-   "voice": "A5874.WAV",
-   "chars": 19,
-   "text": {
-    "ja": "留萌には黄金岬ってところがあるんだよ。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 140,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 22,
-   "date": "08-08",
-   "slot": "午前",
-   "place": "愛田牧場／リビング",
-   "voice": "A5875.WAV",
-   "chars": 18,
-   "text": {
-    "ja": "真っ赤な夕日で　海が黄金みたいに輝く",
-    "ko": ""
-   }
-  },
-  {
-   "window": 140,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 22,
-   "date": "08-08",
-   "slot": "午前",
-   "place": "愛田牧場／リビング",
-   "voice": "A5875.WAV",
-   "chars": 20,
-   "text": {
-    "ja": "すごく素敵な場所なんだって。行ってみよ！",
-    "ko": ""
-   }
-  },
-  {
-   "window": 141,
-   "line": 0,
-   "speaker": "耕作",
-   "kind": "대사",
-   "scene": 22,
-   "date": "08-08",
-   "slot": "午前",
-   "place": "愛田牧場／リビング",
-   "voice": "A5876.WAV",
-   "chars": 6,
-   "text": {
-    "ja": "それじゃ&主人公&君。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 141,
-   "line": 1,
-   "speaker": "耕作",
-   "kind": "대사",
-   "scene": 22,
-   "date": "08-08",
-   "slot": "午前",
-   "place": "愛田牧場／リビング",
-   "voice": "A5876.WAV",
-   "chars": 16,
-   "text": {
-    "ja": "めぐみのこと　よろしく頼んだよ。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 142,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 23,
-   "date": "08-08",
-   "slot": "夕方",
-   "place": "浜中海水浴場",
-   "voice": "A5877.WAV",
-   "chars": 18,
-   "text": {
-    "ja": "東京の小学校にいて　一番良かったのは",
-    "ko": ""
-   }
-  },
-  {
-   "window": 142,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 23,
-   "date": "08-08",
-   "slot": "夕方",
-   "place": "浜中海水浴場",
-   "voice": "A5877.WAV",
-   "chars": 14,
-   "text": {
-    "ja": "温水プールがあったことかな？",
-    "ko": ""
-   }
-  },
-  {
-   "window": 142,
-   "line": 2,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 23,
-   "date": "08-08",
-   "slot": "夕方",
-   "place": "浜中海水浴場",
-   "voice": "A5877.WAV",
-   "chars": 22,
-   "text": {
-    "ja": "だから私　クラスで一番　泳ぐのうまいんだよ。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 143,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 23,
-   "date": "08-08",
-   "slot": "夕方",
-   "place": "浜中海水浴場",
-   "voice": "A5878.WAV",
-   "chars": 11,
-   "text": {
-    "ja": "ねぇ！　競争しようか？",
-    "ko": ""
-   }
-  },
-  {
-   "window": 144,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 23,
-   "date": "08-08",
-   "slot": "夕方",
-   "place": "浜中海水浴場",
-   "voice": "A5879.WAV",
-   "chars": 15,
-   "text": {
-    "ja": "けほっ・・けほっ・・けほっ・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 145,
-   "line": 0,
-   "speaker": "主人公",
-   "kind": "대사",
-   "scene": 23,
-   "date": "08-08",
-   "slot": "夕方",
-   "place": "浜中海水浴場",
-   "voice": "",
-   "chars": 4,
-   "text": {
-    "ja": "大丈夫？",
-    "ko": ""
-   }
-  },
-  {
-   "window": 146,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 23,
-   "date": "08-08",
-   "slot": "夕方",
-   "place": "浜中海水浴場",
-   "voice": "A5881.WAV",
-   "chars": 10,
-   "text": {
-    "ja": "@S@・・・@P@うっ・・うん。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 147,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 24,
-   "date": "08-08",
-   "slot": "夕方",
-   "place": "浜中海水浴場／夕焼け",
-   "voice": "A5882.WAV",
-   "chars": 20,
-   "text": {
-    "ja": "夕べ荒井さんのこと　お母さんに話したよ。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 147,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 24,
-   "date": "08-08",
-   "slot": "夕方",
-   "place": "浜中海水浴場／夕焼け",
-   "voice": "A5882.WAV",
-   "chars": 24,
-   "text": {
-    "ja": "責任もって育てるなら　ウチで飼ってもいいって・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 147,
-   "line": 2,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 24,
-   "date": "08-08",
-   "slot": "夕方",
-   "place": "浜中海水浴場／夕焼け",
-   "voice": "A5882.WAV",
-   "chars": 17,
-   "text": {
-    "ja": "うふふ・・また家族が増えちゃった。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 148,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 24,
-   "date": "08-08",
-   "slot": "夕方",
-   "place": "浜中海水浴場／夕焼け",
-   "voice": "A5883.WAV",
-   "chars": 15,
-   "text": {
-    "ja": "@S@・・・@P@いろんなことがあって・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 148,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 24,
-   "date": "08-08",
-   "slot": "夕方",
-   "place": "浜中海水浴場／夕焼け",
-   "voice": "A5883.WAV",
-   "chars": 13,
-   "text": {
-    "ja": "すっごく　楽しかったよね。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 148,
-   "line": 2,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 24,
-   "date": "08-08",
-   "slot": "夕方",
-   "place": "浜中海水浴場／夕焼け",
-   "voice": "A5883.WAV",
-   "chars": 19,
-   "text": {
-    "ja": "&主人公&さんのおかげで　最高の夏休みだったよ。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 149,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 24,
-   "date": "08-08",
-   "slot": "夕方",
-   "place": "浜中海水浴場／夕焼け",
-   "voice": "A5884.WAV",
-   "chars": 11,
-   "text": {
-    "ja": "海の向こうは外国だよ。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 149,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 24,
-   "date": "08-08",
-   "slot": "夕方",
-   "place": "浜中海水浴場／夕焼け",
-   "voice": "A5884.WAV",
-   "chars": 23,
-   "text": {
-    "ja": "生きてるうちに　いくつぐらいの国に行けるかな？",
-    "ko": ""
-   }
-  },
-  {
-   "window": 150,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 24,
-   "date": "08-08",
-   "slot": "夕方",
-   "place": "浜中海水浴場／夕焼け",
-   "voice": "A5885.WAV",
-   "chars": 13,
-   "text": {
-    "ja": "だってさ。不思議じゃない？",
-    "ko": ""
-   }
-  },
-  {
-   "window": 150,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 24,
-   "date": "08-08",
-   "slot": "夕方",
-   "place": "浜中海水浴場／夕焼け",
-   "voice": "A5885.WAV",
-   "chars": 21,
-   "text": {
-    "ja": "ちょっと飛行機に乗ったら言葉も顔も食べ物も",
-    "ko": ""
-   }
-  },
-  {
-   "window": 150,
-   "line": 2,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 24,
-   "date": "08-08",
-   "slot": "夕方",
-   "place": "浜中海水浴場／夕焼け",
-   "voice": "A5885.WAV",
-   "chars": 15,
-   "text": {
-    "ja": "違う人たちが生活してるんだよ。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 151,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 24,
-   "date": "08-08",
-   "slot": "夕方",
-   "place": "浜中海水浴場／夕焼け",
-   "voice": "A5886.WAV",
-   "chars": 18,
-   "text": {
-    "ja": "私が今まで行ったことのある国は・・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 151,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 24,
-   "date": "08-08",
-   "slot": "夕方",
-   "place": "浜中海水浴場／夕焼け",
-   "voice": "A5886.WAV",
-   "chars": 13,
-   "text": {
-    "ja": "グリュック王国ぐらいかな？",
-    "ko": ""
-   }
-  },
-  {
-   "window": 151,
-   "line": 2,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 24,
-   "date": "08-08",
-   "slot": "夕方",
-   "place": "浜中海水浴場／夕焼け",
-   "voice": "A5886.WAV",
-   "chars": 21,
-   "text": {
-    "ja": "・・・知ってる？　帯広にあるテーマパーク。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 152,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 25,
-   "date": "08-08",
-   "slot": "夕方",
-   "place": "浜中海水浴場／留萌駅",
-   "voice": "A5887.WAV",
-   "chars": 13,
-   "text": {
-    "ja": "雨・・降ってきたみたい・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 152,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 25,
-   "date": "08-08",
-   "slot": "夕方",
-   "place": "浜中海水浴場／留萌駅",
-   "voice": "A5887.WAV",
-   "chars": 15,
-   "text": {
-    "ja": "・・・・お別れの雨なのかな・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 153,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 25,
-   "date": "08-08",
-   "slot": "夕方",
-   "place": "浜中海水浴場／留萌駅",
-   "voice": "A5888.WAV",
-   "chars": 17,
-   "text": {
-    "ja": "４日間・・すごく・・楽しかったよ。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 153,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 25,
-   "date": "08-08",
-   "slot": "夕方",
-   "place": "浜中海水浴場／留萌駅",
-   "voice": "A5888.WAV",
-   "chars": 5,
-   "text": {
-    "ja": "さよなら。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 154,
-   "line": 0,
-   "speaker": "主人公",
-   "kind": "대사",
-   "scene": 25,
-   "date": "08-08",
-   "slot": "夕方",
-   "place": "浜中海水浴場／留萌駅",
-   "voice": "",
-   "chars": 5,
-   "text": {
-    "ja": "さよなら。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 155,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 25,
-   "date": "08-08",
-   "slot": "夕方",
-   "place": "浜中海水浴場／留萌駅",
-   "voice": "A5890.WAV",
-   "chars": 13,
-   "text": {
-    "ja": "『さよなら』って言葉は・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 155,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 25,
-   "date": "08-08",
-   "slot": "夕方",
-   "place": "浜中海水浴場／留萌駅",
-   "voice": "A5890.WAV",
-   "chars": 13,
-   "text": {
-    "ja": "『またね』って意味だよね。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 156,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 25,
-   "date": "08-08",
-   "slot": "夕方",
-   "place": "浜中海水浴場／留萌駅",
-   "voice": "A5891.WAV",
-   "chars": 14,
-   "text": {
-    "ja": "@S@・・・@P@また・・美瑛に来てね。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 156,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 25,
-   "date": "08-08",
-   "slot": "夕方",
-   "place": "浜中海水浴場／留萌駅",
-   "voice": "A5891.WAV",
-   "chars": 8,
-   "text": {
-    "ja": "私　待ってるよ。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 157,
-   "line": 0,
-   "speaker": "主人公",
-   "kind": "대사",
-   "scene": 25,
-   "date": "08-08",
-   "slot": "夕方",
-   "place": "浜中海水浴場／留萌駅",
-   "voice": "",
-   "chars": 3,
-   "text": {
-    "ja": "うん。",
-    "ko": ""
-   }
-  }
- ]
+  "script": "MEGUMI_02",
+  "source": "ja",
+  "entries": [
+    {
+      "window": 0,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 0,
+      "date": "08-07",
+      "slot": "朝",
+      "place": "愛田牧場／客間",
+      "voice": "A5674.WAV",
+      "chars": 6,
+      "text": {
+        "ja": "お早う&主人公&さん！",
+        "ko": "좋은　아침　&主人公&씨！"
+      }
+    },
+    {
+      "window": 0,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 0,
+      "date": "08-07",
+      "slot": "朝",
+      "place": "愛田牧場／客間",
+      "voice": "A5674.WAV",
+      "chars": 9,
+      "text": {
+        "ja": "夕べはよく眠れた？",
+        "ko": "어젯밤엔　잘　잤어？"
+      }
+    },
+    {
+      "window": 1,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대기",
+      "scene": null,
+      "date": null,
+      "slot": null,
+      "place": null,
+      "voice": "",
+      "chars": 5,
+      "text": {
+        "ja": "・・・・・",
+        "ko": "・・・・・"
+      }
+    },
+    {
+      "window": 1,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대기",
+      "scene": null,
+      "date": null,
+      "slot": null,
+      "place": null,
+      "voice": "",
+      "chars": 3,
+      "text": {
+        "ja": "うん。",
+        "ko": "응。"
+      }
+    },
+    {
+      "window": 2,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 0,
+      "date": "08-07",
+      "slot": "朝",
+      "place": "愛田牧場／客間",
+      "voice": "A5676.WAV",
+      "chars": 10,
+      "text": {
+        "ja": "今日もいい天気だよ。",
+        "ko": "오늘도　날씨　좋아。"
+      }
+    },
+    {
+      "window": 2,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 0,
+      "date": "08-07",
+      "slot": "朝",
+      "place": "愛田牧場／客間",
+      "voice": "A5676.WAV",
+      "chars": 13,
+      "text": {
+        "ja": "それじゃ牛舎に行きましょ。",
+        "ko": "그럼　외양간에　가자。"
+      }
+    },
+    {
+      "window": 3,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 0,
+      "date": "08-07",
+      "slot": "朝",
+      "place": "愛田牧場／客間",
+      "voice": "A5675.WAV",
+      "chars": 11,
+      "text": {
+        "ja": "あれ？　まだ寝てるの？",
+        "ko": "어라？　아직　자고　있어？"
+      }
+    },
+    {
+      "window": 3,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 0,
+      "date": "08-07",
+      "slot": "朝",
+      "place": "愛田牧場／客間",
+      "voice": "A5675.WAV",
+      "chars": 10,
+      "text": {
+        "ja": "おはよー！　朝だよ！",
+        "ko": "안녕！　아침이야！"
+      }
+    },
+    {
+      "window": 3,
+      "line": 2,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 0,
+      "date": "08-07",
+      "slot": "朝",
+      "place": "愛田牧場／客間",
+      "voice": "A5675.WAV",
+      "chars": 14,
+      "text": {
+        "ja": "早く起きて牛舎に行きましょ。",
+        "ko": "얼른　일어나　외양간　가자。"
+      }
+    },
+    {
+      "window": 4,
+      "line": 0,
+      "speaker": "説明",
+      "kind": "나레이션",
+      "scene": 1,
+      "date": "08-07",
+      "slot": "朝",
+      "place": "愛田牧場／牛舎",
+      "voice": "",
+      "chars": 12,
+      "text": {
+        "ja": "搾乳の説明を聞きますか？",
+        "ko": "젖　짜기　설명을　들을래？"
+      }
+    },
+    {
+      "window": 5,
+      "line": 0,
+      "speaker": "説明",
+      "kind": "대기",
+      "scene": null,
+      "date": null,
+      "slot": null,
+      "place": null,
+      "voice": "",
+      "chars": 2,
+      "text": {
+        "ja": "はい",
+        "ko": "예"
+      }
+    },
+    {
+      "window": 5,
+      "line": 1,
+      "speaker": "説明",
+      "kind": "대기",
+      "scene": null,
+      "date": null,
+      "slot": null,
+      "place": null,
+      "voice": "",
+      "chars": 3,
+      "text": {
+        "ja": "いいえ",
+        "ko": "아니오"
+      }
+    },
+    {
+      "window": 6,
+      "line": 0,
+      "speaker": "耕作",
+      "kind": "대사",
+      "scene": 1,
+      "date": "08-07",
+      "slot": "朝",
+      "place": "愛田牧場／牛舎",
+      "voice": "A5679.WAV",
+      "chars": 16,
+      "text": {
+        "ja": "素晴らしい！　すごい才能だよ&主人公&君。",
+        "ko": "훌륭해！　대단한　재능이야　&主人公&군。"
+      }
+    },
+    {
+      "window": 6,
+      "line": 1,
+      "speaker": "耕作",
+      "kind": "대사",
+      "scene": 1,
+      "date": "08-07",
+      "slot": "朝",
+      "place": "愛田牧場／牛舎",
+      "voice": "A5679.WAV",
+      "chars": 15,
+      "text": {
+        "ja": "めぐみのサポートも完璧だった！",
+        "ko": "메구미　도움도　완벽했어！"
+      }
+    },
+    {
+      "window": 6,
+      "line": 2,
+      "speaker": "耕作",
+      "kind": "대사",
+      "scene": 1,
+      "date": "08-07",
+      "slot": "朝",
+      "place": "愛田牧場／牛舎",
+      "voice": "A5679.WAV",
+      "chars": 18,
+      "text": {
+        "ja": "これからも　この調子で頑張ってくれ！",
+        "ko": "앞으로도　이대로　힘내　줘！"
+      }
+    },
+    {
+      "window": 7,
+      "line": 0,
+      "speaker": "耕作",
+      "kind": "대사",
+      "scene": 1,
+      "date": "08-07",
+      "slot": "朝",
+      "place": "愛田牧場／牛舎",
+      "voice": "A5680.WAV",
+      "chars": 10,
+      "text": {
+        "ja": "うん。上出来だよ&主人公&君。",
+        "ko": "응。　잘했어　&主人公&군。"
+      }
+    },
+    {
+      "window": 7,
+      "line": 1,
+      "speaker": "耕作",
+      "kind": "대사",
+      "scene": 1,
+      "date": "08-07",
+      "slot": "朝",
+      "place": "愛田牧場／牛舎",
+      "voice": "A5680.WAV",
+      "chars": 14,
+      "text": {
+        "ja": "めぐみもよく頑張ってくれた。",
+        "ko": "메구미도　잘　해　줬어。"
+      }
+    },
+    {
+      "window": 7,
+      "line": 2,
+      "speaker": "耕作",
+      "kind": "대사",
+      "scene": 1,
+      "date": "08-07",
+      "slot": "朝",
+      "place": "愛田牧場／牛舎",
+      "voice": "A5680.WAV",
+      "chars": 12,
+      "text": {
+        "ja": "また次もよろしく頼むよ。",
+        "ko": "다음에도　잘　부탁해。"
+      }
+    },
+    {
+      "window": 8,
+      "line": 0,
+      "speaker": "耕作",
+      "kind": "대사",
+      "scene": 1,
+      "date": "08-07",
+      "slot": "朝",
+      "place": "愛田牧場／牛舎",
+      "voice": "A5681.WAV",
+      "chars": 18,
+      "text": {
+        "ja": "まぁ・・慣れていないから仕方ないね。",
+        "ko": "뭐・・익숙하지　않으니　어쩔　수　없지。"
+      }
+    },
+    {
+      "window": 8,
+      "line": 1,
+      "speaker": "耕作",
+      "kind": "대사",
+      "scene": 1,
+      "date": "08-07",
+      "slot": "朝",
+      "place": "愛田牧場／牛舎",
+      "voice": "A5681.WAV",
+      "chars": 11,
+      "text": {
+        "ja": "次からは頑張ってくれ。",
+        "ko": "다음부턴　힘내　줘。"
+      }
+    },
+    {
+      "window": 9,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 1,
+      "date": "08-07",
+      "slot": "朝",
+      "place": "愛田牧場／牛舎",
+      "voice": "A5682.WAV",
+      "chars": 9,
+      "text": {
+        "ja": "お疲れさま。&主人公&さん！",
+        "ko": "수고했어。　&主人公&씨！"
+      }
+    },
+    {
+      "window": 9,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 1,
+      "date": "08-07",
+      "slot": "朝",
+      "place": "愛田牧場／牛舎",
+      "voice": "A5682.WAV",
+      "chars": 17,
+      "text": {
+        "ja": "一階にお風呂があるから　入ってね。",
+        "ko": "일층에　욕실　있으니까　씻어。"
+      }
+    },
+    {
+      "window": 10,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 3,
+      "date": "08-07",
+      "slot": "午前",
+      "place": "愛田牧場／リビング",
+      "voice": "A5782.WAV",
+      "chars": 18,
+      "text": {
+        "ja": "ねぇ&主人公&さん。これから富良野に行かない？",
+        "ko": "저기　&主人公&씨。　후라노에　가지　않을래？"
+      }
+    },
+    {
+      "window": 10,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 3,
+      "date": "08-07",
+      "slot": "午前",
+      "place": "愛田牧場／リビング",
+      "voice": "A5782.WAV",
+      "chars": 24,
+      "text": {
+        "ja": "新富良野プリンスホテルで熱気球に乗れるんだって。",
+        "ko": "신후라노　프린스호텔에서　열기구　탈　수　있대。"
+      }
+    },
+    {
+      "window": 10,
+      "line": 2,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 3,
+      "date": "08-07",
+      "slot": "午前",
+      "place": "愛田牧場／リビング",
+      "voice": "A5782.WAV",
+      "chars": 7,
+      "text": {
+        "ja": "行ってみない？",
+        "ko": "가　보지　않을래？"
+      }
+    },
+    {
+      "window": 11,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대기",
+      "scene": null,
+      "date": null,
+      "slot": null,
+      "place": null,
+      "voice": "",
+      "chars": 2,
+      "text": {
+        "ja": "行く",
+        "ko": "갈래"
+      }
+    },
+    {
+      "window": 11,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대기",
+      "scene": null,
+      "date": null,
+      "slot": null,
+      "place": null,
+      "voice": "",
+      "chars": 4,
+      "text": {
+        "ja": "行かない",
+        "ko": "안　갈래"
+      }
+    },
+    {
+      "window": 12,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 3,
+      "date": "08-07",
+      "slot": "午前",
+      "place": "愛田牧場／リビング",
+      "voice": "A5685.WAV",
+      "chars": 21,
+      "text": {
+        "ja": "そっか・・それじゃ私　部屋で勉強してるね。",
+        "ko": "그렇구나・・그럼　방에서　공부할게。"
+      }
+    },
+    {
+      "window": 12,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 3,
+      "date": "08-07",
+      "slot": "午前",
+      "place": "愛田牧場／リビング",
+      "voice": "A5685.WAV",
+      "chars": 14,
+      "text": {
+        "ja": "これでも一応　受験生だし・・",
+        "ko": "이래봬도　수험생이라서・・"
+      }
+    },
+    {
+      "window": 13,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 3,
+      "date": "08-07",
+      "slot": "午前",
+      "place": "愛田牧場／リビング",
+      "voice": "A5783.WAV",
+      "chars": 15,
+      "text": {
+        "ja": "富良野はバスに乗ればすぐだよ。",
+        "ko": "후라노는　버스　타면　금방이야。"
+      }
+    },
+    {
+      "window": 13,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 3,
+      "date": "08-07",
+      "slot": "午前",
+      "place": "愛田牧場／リビング",
+      "voice": "A5783.WAV",
+      "chars": 11,
+      "text": {
+        "ja": "それじゃ行こう。&主人公&さん。",
+        "ko": "그럼　가자。　&主人公&씨。"
+      }
+    },
+    {
+      "window": 14,
+      "line": 0,
+      "speaker": "主人公",
+      "kind": "대사",
+      "scene": 3,
+      "date": "08-07",
+      "slot": "午前",
+      "place": "愛田牧場／リビング",
+      "voice": "",
+      "chars": 12,
+      "text": {
+        "ja": "・・・・・・・・・・・・",
+        "ko": "・・・・・・・・・・・・"
+      }
+    },
+    {
+      "window": 15,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 3,
+      "date": "08-07",
+      "slot": "午前",
+      "place": "愛田牧場／リビング",
+      "voice": "",
+      "chars": 12,
+      "text": {
+        "ja": "・・・・・・・・・・・・",
+        "ko": "・・・・・・・・・・・・"
+      }
+    },
+    {
+      "window": 16,
+      "line": 0,
+      "speaker": "独白",
+      "kind": "독백",
+      "scene": 3,
+      "date": "08-07",
+      "slot": "午前",
+      "place": "愛田牧場／リビング",
+      "voice": "",
+      "chars": 11,
+      "text": {
+        "ja": "気まずい沈黙が訪れた。",
+        "ko": "어색한　침묵이　흘렀다。"
+      }
+    },
+    {
+      "window": 17,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 3,
+      "date": "08-07",
+      "slot": "午前",
+      "place": "愛田牧場／リビング",
+      "voice": "A5685.WAV",
+      "chars": 21,
+      "text": {
+        "ja": "そっか・・それじゃ私　部屋で勉強してるね。",
+        "ko": "그렇구나・・그럼　방에서　공부할게。"
+      }
+    },
+    {
+      "window": 17,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 3,
+      "date": "08-07",
+      "slot": "午前",
+      "place": "愛田牧場／リビング",
+      "voice": "A5685.WAV",
+      "chars": 14,
+      "text": {
+        "ja": "これでも一応　受験生だし・・",
+        "ko": "이래봬도　수험생이라서・・"
+      }
+    },
+    {
+      "window": 18,
+      "line": 0,
+      "speaker": "独白",
+      "kind": "독백",
+      "scene": 5,
+      "date": "08-07",
+      "slot": "午後",
+      "place": "富良野／新富良野プリンスホテル／外観",
+      "voice": "",
+      "chars": 16,
+      "text": {
+        "ja": "新富良野プリンスホテルに着いた。",
+        "ko": "신후라노　프린스호텔에　도착했다。"
+      }
+    },
+    {
+      "window": 18,
+      "line": 1,
+      "speaker": "独白",
+      "kind": "독백",
+      "scene": 5,
+      "date": "08-07",
+      "slot": "午後",
+      "place": "富良野／新富良野プリンスホテル／外観",
+      "voice": "",
+      "chars": 16,
+      "text": {
+        "ja": "ここから気球に乗ることが出来る。",
+        "ko": "여기서　기구를　탈　수　있다。"
+      }
+    },
+    {
+      "window": 19,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 5,
+      "date": "08-07",
+      "slot": "午後",
+      "place": "富良野／新富良野プリンスホテル／外観",
+      "voice": "A5785.WAV",
+      "chars": 17,
+      "text": {
+        "ja": "なんか　ドキドキして来ちゃった・・",
+        "ko": "왠지　두근두근해졌어・・"
+      }
+    },
+    {
+      "window": 19,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 5,
+      "date": "08-07",
+      "slot": "午後",
+      "place": "富良野／新富良野プリンスホテル／外観",
+      "voice": "A5785.WAV",
+      "chars": 16,
+      "text": {
+        "ja": "私　気球に乗るの初めてなんだよ。",
+        "ko": "기구　타는　거　처음이야。"
+      }
+    },
+    {
+      "window": 19,
+      "line": 2,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 5,
+      "date": "08-07",
+      "slot": "午後",
+      "place": "富良野／新富良野プリンスホテル／外観",
+      "voice": "A5785.WAV",
+      "chars": 4,
+      "text": {
+        "ja": "&主人公&さんは？",
+        "ko": "&主人公&씨는？"
+      }
+    },
+    {
+      "window": 20,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대기",
+      "scene": null,
+      "date": null,
+      "slot": null,
+      "place": null,
+      "voice": "",
+      "chars": 6,
+      "text": {
+        "ja": "初めてだよ。",
+        "ko": "처음이야。"
+      }
+    },
+    {
+      "window": 20,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대기",
+      "scene": null,
+      "date": null,
+      "slot": null,
+      "place": null,
+      "voice": "",
+      "chars": 7,
+      "text": {
+        "ja": "経験済みだよ。",
+        "ko": "해　본　적　있어。"
+      }
+    },
+    {
+      "window": 21,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 5,
+      "date": "08-07",
+      "slot": "午後",
+      "place": "富良野／新富良野プリンスホテル／外観",
+      "voice": "A5786.WAV",
+      "chars": 12,
+      "text": {
+        "ja": "それじゃ　私と一緒だね。",
+        "ko": "그럼　나랑　똑같네。"
+      }
+    },
+    {
+      "window": 21,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 5,
+      "date": "08-07",
+      "slot": "午後",
+      "place": "富良野／新富良野プリンスホテル／外観",
+      "voice": "A5786.WAV",
+      "chars": 18,
+      "text": {
+        "ja": "それ聞いて　ちょっと安心しちゃった。",
+        "ko": "그　말　들으니　좀　안심돼。"
+      }
+    },
+    {
+      "window": 22,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 5,
+      "date": "08-07",
+      "slot": "午後",
+      "place": "富良野／新富良野プリンスホテル／外観",
+      "voice": "A5787.WAV",
+      "chars": 9,
+      "text": {
+        "ja": "すごい！　&主人公&さんって",
+        "ko": "대단해！　&主人公&씨는"
+      }
+    },
+    {
+      "window": 22,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 5,
+      "date": "08-07",
+      "slot": "午後",
+      "place": "富良野／新富良野プリンスホテル／外観",
+      "voice": "A5787.WAV",
+      "chars": 16,
+      "text": {
+        "ja": "いろんなこと　経験済みなんだね。",
+        "ko": "여러　가지　경험해　봤구나。"
+      }
+    },
+    {
+      "window": 23,
+      "line": 0,
+      "speaker": "主人公",
+      "kind": "대사",
+      "scene": 5,
+      "date": "08-07",
+      "slot": "午後",
+      "place": "富良野／新富良野プリンスホテル／外観",
+      "voice": "",
+      "chars": 12,
+      "text": {
+        "ja": "・・・・・・・・・・・・",
+        "ko": "・・・・・・・・・・・・"
+      }
+    },
+    {
+      "window": 24,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 5,
+      "date": "08-07",
+      "slot": "午後",
+      "place": "富良野／新富良野プリンスホテル／外観",
+      "voice": "",
+      "chars": 12,
+      "text": {
+        "ja": "・・・・・・・・・・・・",
+        "ko": "・・・・・・・・・・・・"
+      }
+    },
+    {
+      "window": 25,
+      "line": 0,
+      "speaker": "独白",
+      "kind": "독백",
+      "scene": 5,
+      "date": "08-07",
+      "slot": "午後",
+      "place": "富良野／新富良野プリンスホテル／外観",
+      "voice": "",
+      "chars": 11,
+      "text": {
+        "ja": "気まずい沈黙が訪れた。",
+        "ko": "어색한　침묵이　흘렀다。"
+      }
+    },
+    {
+      "window": 26,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 5,
+      "date": "08-07",
+      "slot": "午後",
+      "place": "富良野／新富良野プリンスホテル／外観",
+      "voice": "A5788.WAV",
+      "chars": 16,
+      "text": {
+        "ja": "あっ！　準備が出来たみたいだよ。",
+        "ko": "앗！　준비　다　된　것　같아。"
+      }
+    },
+    {
+      "window": 26,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 5,
+      "date": "08-07",
+      "slot": "午後",
+      "place": "富良野／新富良野プリンスホテル／外観",
+      "voice": "A5788.WAV",
+      "chars": 6,
+      "text": {
+        "ja": "行ってみよ！",
+        "ko": "가　보자！"
+      }
+    },
+    {
+      "window": 27,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 6,
+      "date": "08-07",
+      "slot": "午後",
+      "place": "富良野／新富良野プリンスホテル／気球乗り場",
+      "voice": "A5789.WAV",
+      "chars": 18,
+      "text": {
+        "ja": "ヒモがつながってるから　安心だよね。",
+        "ko": "줄이　이어져　있으니　안심이지。"
+      }
+    },
+    {
+      "window": 28,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대기",
+      "scene": null,
+      "date": null,
+      "slot": null,
+      "place": null,
+      "voice": "",
+      "chars": 6,
+      "text": {
+        "ja": "大丈夫大丈夫",
+        "ko": "괜찮아　괜찮아"
+      }
+    },
+    {
+      "window": 28,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대기",
+      "scene": null,
+      "date": null,
+      "slot": null,
+      "place": null,
+      "voice": "",
+      "chars": 11,
+      "text": {
+        "ja": "でも落ちたら意味ないよ",
+        "ko": "근데　떨어지면　소용없어"
+      }
+    },
+    {
+      "window": 29,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 6,
+      "date": "08-07",
+      "slot": "午後",
+      "place": "富良野／新富良野プリンスホテル／気球乗り場",
+      "voice": "A5790.WAV",
+      "chars": 17,
+      "text": {
+        "ja": "そうだよね。安心だし　安全だよね。",
+        "ko": "그렇지。　안심되고　안전하지。"
+      }
+    },
+    {
+      "window": 30,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 6,
+      "date": "08-07",
+      "slot": "午後",
+      "place": "富良野／新富良野プリンスホテル／気球乗り場",
+      "voice": "A5791.WAV",
+      "chars": 15,
+      "text": {
+        "ja": "そ・・そんなこと言わないでよ！",
+        "ko": "그・・그런　말　하지　마！"
+      }
+    },
+    {
+      "window": 31,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 6,
+      "date": "08-07",
+      "slot": "午後",
+      "place": "富良野／新富良野プリンスホテル／気球乗り場",
+      "voice": "A5792.WAV",
+      "chars": 20,
+      "text": {
+        "ja": "ほら・・こんなにドキドキしてるんだから。",
+        "ko": "봐・・이렇게　두근거리잖아。"
+      }
+    },
+    {
+      "window": 32,
+      "line": 0,
+      "speaker": "主人公",
+      "kind": "대사",
+      "scene": 6,
+      "date": "08-07",
+      "slot": "午後",
+      "place": "富良野／新富良野プリンスホテル／気球乗り場",
+      "voice": "",
+      "chars": 12,
+      "text": {
+        "ja": "・・・・・・・・・・・・",
+        "ko": "・・・・・・・・・・・・"
+      }
+    },
+    {
+      "window": 33,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 6,
+      "date": "08-07",
+      "slot": "午後",
+      "place": "富良野／新富良野プリンスホテル／気球乗り場",
+      "voice": "",
+      "chars": 12,
+      "text": {
+        "ja": "・・・・・・・・・・・・",
+        "ko": "・・・・・・・・・・・・"
+      }
+    },
+    {
+      "window": 34,
+      "line": 0,
+      "speaker": "独白",
+      "kind": "독백",
+      "scene": 6,
+      "date": "08-07",
+      "slot": "午後",
+      "place": "富良野／新富良野プリンスホテル／気球乗り場",
+      "voice": "",
+      "chars": 11,
+      "text": {
+        "ja": "気まずい沈黙が訪れた。",
+        "ko": "어색한　침묵이　흘렀다。"
+      }
+    },
+    {
+      "window": 35,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 7,
+      "date": "08-07",
+      "slot": "午後",
+      "place": "富良野／気球／ゴンドラ",
+      "voice": "A5793.WAV",
+      "chars": 14,
+      "text": {
+        "ja": "すごい！！　本当に飛んでる！",
+        "ko": "대단해！！　진짜　날고　있어！"
+      }
+    },
+    {
+      "window": 35,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 7,
+      "date": "08-07",
+      "slot": "午後",
+      "place": "富良野／気球／ゴンドラ",
+      "voice": "A5793.WAV",
+      "chars": 11,
+      "text": {
+        "ja": "あっちはファーム富田！",
+        "ko": "저쪽은　팜　토미타！"
+      }
+    },
+    {
+      "window": 36,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 7,
+      "date": "08-07",
+      "slot": "午後",
+      "place": "富良野／気球／ゴンドラ",
+      "voice": "A5795.WAV",
+      "chars": 13,
+      "text": {
+        "ja": "うん。本当に・・綺麗だね。",
+        "ko": "응。　정말・・예쁘다。"
+      }
+    },
+    {
+      "window": 36,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 7,
+      "date": "08-07",
+      "slot": "午後",
+      "place": "富良野／気球／ゴンドラ",
+      "voice": "A5795.WAV",
+      "chars": 15,
+      "text": {
+        "ja": "私・・なんか感動しちゃった・・",
+        "ko": "나・・왠지　감동했어・・"
+      }
+    },
+    {
+      "window": 37,
+      "line": 0,
+      "speaker": "独白",
+      "kind": "독백",
+      "scene": 8,
+      "date": "08-07",
+      "slot": "午後",
+      "place": "富良野／新富良野プリンスホテル／コーヒーショップ・ラベンダー",
+      "voice": "",
+      "chars": 19,
+      "text": {
+        "ja": "約５分間の熱気球フライトを終えた僕らは",
+        "ko": "약　５분간의　열기구　비행을　마친　우리는"
+      }
+    },
+    {
+      "window": 37,
+      "line": 1,
+      "speaker": "独白",
+      "kind": "독백",
+      "scene": 8,
+      "date": "08-07",
+      "slot": "午後",
+      "place": "富良野／新富良野プリンスホテル／コーヒーショップ・ラベンダー",
+      "voice": "",
+      "chars": 20,
+      "text": {
+        "ja": "新富良野プリンスホテルのコーヒーショップ",
+        "ko": "신후라노　프린스호텔의　커피숍"
+      }
+    },
+    {
+      "window": 37,
+      "line": 2,
+      "speaker": "独白",
+      "kind": "독백",
+      "scene": 8,
+      "date": "08-07",
+      "slot": "午後",
+      "place": "富良野／新富良野プリンスホテル／コーヒーショップ・ラベンダー",
+      "voice": "",
+      "chars": 19,
+      "text": {
+        "ja": "『ラベンダー』でお茶を飲むことにした。",
+        "ko": "『라벤더』에서　차를　마시기로　했다。"
+      }
+    },
+    {
+      "window": 38,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 8,
+      "date": "08-07",
+      "slot": "午後",
+      "place": "富良野／新富良野プリンスホテル／コーヒーショップ・ラベンダー",
+      "voice": "A5798.WAV",
+      "chars": 19,
+      "text": {
+        "ja": "あっという間に終わっちゃった気もするし",
+        "ko": "눈　깜짝할　새　끝난　것　같기도　하고"
+      }
+    },
+    {
+      "window": 38,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 8,
+      "date": "08-07",
+      "slot": "午後",
+      "place": "富良野／新富良野プリンスホテル／コーヒーショップ・ラベンダー",
+      "voice": "A5798.WAV",
+      "chars": 17,
+      "text": {
+        "ja": "すごく長かったような気もするし・・",
+        "ko": "엄청　길었던　것　같기도　하고・・"
+      }
+    },
+    {
+      "window": 38,
+      "line": 2,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 8,
+      "date": "08-07",
+      "slot": "午後",
+      "place": "富良野／新富良野プリンスホテル／コーヒーショップ・ラベンダー",
+      "voice": "A5798.WAV",
+      "chars": 23,
+      "text": {
+        "ja": "でもすごかったよね。私きっと　一生忘れないよ。",
+        "ko": "근데　정말　멋졌어。　분명　평생　못　잊어。"
+      }
+    },
+    {
+      "window": 39,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 8,
+      "date": "08-07",
+      "slot": "午後",
+      "place": "富良野／新富良野プリンスホテル／コーヒーショップ・ラベンダー",
+      "voice": "A5799.WAV",
+      "chars": 22,
+      "text": {
+        "ja": "ふわって身体が浮いて　風がびゅんびゅん吹いて",
+        "ko": "몸이　붕　떠오르고　바람이　쌩쌩　불고"
+      }
+    },
+    {
+      "window": 39,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 8,
+      "date": "08-07",
+      "slot": "午後",
+      "place": "富良野／新富良野プリンスホテル／コーヒーショップ・ラベンダー",
+      "voice": "A5799.WAV",
+      "chars": 23,
+      "text": {
+        "ja": "今まで歩いていた地面が　どんどん遠くなって・・",
+        "ko": "걷고　있던　땅이　점점　멀어지고・・"
+      }
+    },
+    {
+      "window": 40,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 8,
+      "date": "08-07",
+      "slot": "午後",
+      "place": "富良野／新富良野プリンスホテル／コーヒーショップ・ラベンダー",
+      "voice": "A5800.WAV",
+      "chars": 21,
+      "text": {
+        "ja": "乗る前は怖くてドキドキしてたけど　今は何か",
+        "ko": "타기　전엔　무서워　두근댔는데　지금은　왠지"
+      }
+    },
+    {
+      "window": 40,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 8,
+      "date": "08-07",
+      "slot": "午後",
+      "place": "富良野／新富良野プリンスホテル／コーヒーショップ・ラベンダー",
+      "voice": "A5800.WAV",
+      "chars": 14,
+      "text": {
+        "ja": "嬉しくてドキドキしてる感じ。",
+        "ko": "기뻐서　두근거리는　느낌。"
+      }
+    },
+    {
+      "window": 41,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 8,
+      "date": "08-07",
+      "slot": "午後",
+      "place": "富良野／新富良野プリンスホテル／コーヒーショップ・ラベンダー",
+      "voice": "A5801.WAV",
+      "chars": 23,
+      "text": {
+        "ja": "こういう風に　素敵なことをたくさん経験するのが",
+        "ko": "이렇게　멋진　일을　많이　경험하는　게"
+      }
+    },
+    {
+      "window": 41,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 8,
+      "date": "08-07",
+      "slot": "午後",
+      "place": "富良野／新富良野プリンスホテル／コーヒーショップ・ラベンダー",
+      "voice": "A5801.WAV",
+      "chars": 25,
+      "text": {
+        "ja": "大人になるってことなら　私　早く大人になりたいな。",
+        "ko": "어른이　되는　거라면　빨리　어른이　되고　싶어。"
+      }
+    },
+    {
+      "window": 42,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 8,
+      "date": "08-07",
+      "slot": "午後",
+      "place": "富良野／新富良野プリンスホテル／コーヒーショップ・ラベンダー",
+      "voice": "A5802.WAV",
+      "chars": 19,
+      "text": {
+        "ja": "&主人公&さん。明日　札幌に帰っちゃうんでしょ？",
+        "ko": "&主人公&씨。　내일　삿포로로　돌아가지？"
+      }
+    },
+    {
+      "window": 42,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 8,
+      "date": "08-07",
+      "slot": "午後",
+      "place": "富良野／新富良野プリンスホテル／コーヒーショップ・ラベンダー",
+      "voice": "A5802.WAV",
+      "chars": 19,
+      "text": {
+        "ja": "・・残念だなぁ。一緒にもっといろんな所",
+        "ko": "・・아쉽다。　같이　더　여러　곳"
+      }
+    },
+    {
+      "window": 42,
+      "line": 2,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 8,
+      "date": "08-07",
+      "slot": "午後",
+      "place": "富良野／新富良野プリンスホテル／コーヒーショップ・ラベンダー",
+      "voice": "A5802.WAV",
+      "chars": 8,
+      "text": {
+        "ja": "行きたかったね。",
+        "ko": "가고　싶었는데。"
+      }
+    },
+    {
+      "window": 43,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대기",
+      "scene": null,
+      "date": null,
+      "slot": null,
+      "place": null,
+      "voice": "",
+      "chars": 7,
+      "text": {
+        "ja": "うん。残念だね",
+        "ko": "응。　아쉽다"
+      }
+    },
+    {
+      "window": 43,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대기",
+      "scene": null,
+      "date": null,
+      "slot": null,
+      "place": null,
+      "voice": "",
+      "chars": 6,
+      "text": {
+        "ja": "また会えるよ",
+        "ko": "또　만날　수　있어"
+      }
+    },
+    {
+      "window": 44,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 8,
+      "date": "08-07",
+      "slot": "午後",
+      "place": "富良野／新富良野プリンスホテル／コーヒーショップ・ラベンダー",
+      "voice": "A5803.WAV",
+      "chars": 19,
+      "text": {
+        "ja": "@S@・・・@P@なんか・・寂しくなっちゃうな・・",
+        "ko": "@S@・・・@P@왠지・・쓸쓸해질　것　같아・・"
+      }
+    },
+    {
+      "window": 44,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 8,
+      "date": "08-07",
+      "slot": "午後",
+      "place": "富良野／新富良野プリンスホテル／コーヒーショップ・ラベンダー",
+      "voice": "A5803.WAV",
+      "chars": 21,
+      "text": {
+        "ja": "クロちゃんも荒井さんも　きっと寂しいよ・・",
+        "ko": "쿠로도　아라이　씨도　분명　쓸쓸할　거야・・"
+      }
+    },
+    {
+      "window": 45,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 8,
+      "date": "08-07",
+      "slot": "午後",
+      "place": "富良野／新富良野プリンスホテル／コーヒーショップ・ラベンダー",
+      "voice": "A5804.WAV",
+      "chars": 10,
+      "text": {
+        "ja": "約束！！　絶対だよ！",
+        "ko": "약속！！　절대야！"
+      }
+    },
+    {
+      "window": 46,
+      "line": 0,
+      "speaker": "主人公",
+      "kind": "대사",
+      "scene": 8,
+      "date": "08-07",
+      "slot": "午後",
+      "place": "富良野／新富良野プリンスホテル／コーヒーショップ・ラベンダー",
+      "voice": "",
+      "chars": 12,
+      "text": {
+        "ja": "・・・・・・・・・・・・",
+        "ko": "・・・・・・・・・・・・"
+      }
+    },
+    {
+      "window": 47,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 8,
+      "date": "08-07",
+      "slot": "午後",
+      "place": "富良野／新富良野プリンスホテル／コーヒーショップ・ラベンダー",
+      "voice": "",
+      "chars": 12,
+      "text": {
+        "ja": "・・・・・・・・・・・・",
+        "ko": "・・・・・・・・・・・・"
+      }
+    },
+    {
+      "window": 48,
+      "line": 0,
+      "speaker": "独白",
+      "kind": "독백",
+      "scene": 8,
+      "date": "08-07",
+      "slot": "午後",
+      "place": "富良野／新富良野プリンスホテル／コーヒーショップ・ラベンダー",
+      "voice": "",
+      "chars": 11,
+      "text": {
+        "ja": "気まずい沈黙が訪れた。",
+        "ko": "어색한　침묵이　흘렀다。"
+      }
+    },
+    {
+      "window": 49,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 8,
+      "date": "08-07",
+      "slot": "午後",
+      "place": "富良野／新富良野プリンスホテル／コーヒーショップ・ラベンダー",
+      "voice": "A5805.WAV",
+      "chars": 11,
+      "text": {
+        "ja": "あっ！　もう時間だ・・",
+        "ko": "앗！　벌써　시간이・・"
+      }
+    },
+    {
+      "window": 49,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 8,
+      "date": "08-07",
+      "slot": "午後",
+      "place": "富良野／新富良野プリンスホテル／コーヒーショップ・ラベンダー",
+      "voice": "A5805.WAV",
+      "chars": 16,
+      "text": {
+        "ja": "・・・夕方の搾乳　しなくちゃね。",
+        "ko": "・・・저녁　젖　짜기　해야지。"
+      }
+    },
+    {
+      "window": 50,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 10,
+      "date": "08-07",
+      "slot": "夕方",
+      "place": "愛田牧場／牛舎",
+      "voice": "A5806.WAV",
+      "chars": 10,
+      "text": {
+        "ja": "気球　すごかったね。",
+        "ko": "기구　정말　멋졌어。"
+      }
+    },
+    {
+      "window": 50,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 10,
+      "date": "08-07",
+      "slot": "夕方",
+      "place": "愛田牧場／牛舎",
+      "voice": "A5806.WAV",
+      "chars": 12,
+      "text": {
+        "ja": "@0048@あっ！　もうこんな時間！",
+        "ko": "@0048@앗！　벌써　이런　시간！"
+      }
+    },
+    {
+      "window": 50,
+      "line": 2,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 10,
+      "date": "08-07",
+      "slot": "夕方",
+      "place": "愛田牧場／牛舎",
+      "voice": "A5806.WAV",
+      "chars": 18,
+      "text": {
+        "ja": "そろそろ夕方の搾乳　始めなくっちゃ。",
+        "ko": "슬슬　저녁　젖　짜기　시작해야지。"
+      }
+    },
+    {
+      "window": 51,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 10,
+      "date": "08-07",
+      "slot": "夕方",
+      "place": "愛田牧場／牛舎",
+      "voice": "A5807.WAV",
+      "chars": 13,
+      "text": {
+        "ja": "あっ！　おかえりなさーい！",
+        "ko": "앗！　어서　와！"
+      }
+    },
+    {
+      "window": 51,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 10,
+      "date": "08-07",
+      "slot": "夕方",
+      "place": "愛田牧場／牛舎",
+      "voice": "A5807.WAV",
+      "chars": 18,
+      "text": {
+        "ja": "そろそろ夕方の搾乳　始める時間だよ。",
+        "ko": "슬슬　저녁　젖　짜기　시작할　시간이야。"
+      }
+    },
+    {
+      "window": 52,
+      "line": 0,
+      "speaker": "説明",
+      "kind": "나레이션",
+      "scene": 10,
+      "date": "08-07",
+      "slot": "夕方",
+      "place": "愛田牧場／牛舎",
+      "voice": "",
+      "chars": 12,
+      "text": {
+        "ja": "搾乳の説明を聞きますか？",
+        "ko": "젖　짜기　설명을　들을래？"
+      }
+    },
+    {
+      "window": 53,
+      "line": 0,
+      "speaker": "説明",
+      "kind": "대기",
+      "scene": null,
+      "date": null,
+      "slot": null,
+      "place": null,
+      "voice": "",
+      "chars": 2,
+      "text": {
+        "ja": "はい",
+        "ko": "예"
+      }
+    },
+    {
+      "window": 53,
+      "line": 1,
+      "speaker": "説明",
+      "kind": "대기",
+      "scene": null,
+      "date": null,
+      "slot": null,
+      "place": null,
+      "voice": "",
+      "chars": 3,
+      "text": {
+        "ja": "いいえ",
+        "ko": "아니오"
+      }
+    },
+    {
+      "window": 54,
+      "line": 0,
+      "speaker": "耕作",
+      "kind": "대사",
+      "scene": 10,
+      "date": "08-07",
+      "slot": "夕方",
+      "place": "愛田牧場／牛舎",
+      "voice": "A5679.WAV",
+      "chars": 16,
+      "text": {
+        "ja": "素晴らしい！　すごい才能だよ&主人公&君。",
+        "ko": "훌륭해！　대단한　재능이야　&主人公&군。"
+      }
+    },
+    {
+      "window": 54,
+      "line": 1,
+      "speaker": "耕作",
+      "kind": "대사",
+      "scene": 10,
+      "date": "08-07",
+      "slot": "夕方",
+      "place": "愛田牧場／牛舎",
+      "voice": "A5679.WAV",
+      "chars": 15,
+      "text": {
+        "ja": "めぐみのサポートも完璧だった！",
+        "ko": "메구미　도움도　완벽했어！"
+      }
+    },
+    {
+      "window": 54,
+      "line": 2,
+      "speaker": "耕作",
+      "kind": "대사",
+      "scene": 10,
+      "date": "08-07",
+      "slot": "夕方",
+      "place": "愛田牧場／牛舎",
+      "voice": "A5679.WAV",
+      "chars": 18,
+      "text": {
+        "ja": "これからも　この調子で頑張ってくれ！",
+        "ko": "앞으로도　이대로　힘내　줘！"
+      }
+    },
+    {
+      "window": 55,
+      "line": 0,
+      "speaker": "耕作",
+      "kind": "대사",
+      "scene": 10,
+      "date": "08-07",
+      "slot": "夕方",
+      "place": "愛田牧場／牛舎",
+      "voice": "A5680.WAV",
+      "chars": 10,
+      "text": {
+        "ja": "うん。上出来だよ&主人公&君。",
+        "ko": "응。　잘했어　&主人公&군。"
+      }
+    },
+    {
+      "window": 55,
+      "line": 1,
+      "speaker": "耕作",
+      "kind": "대사",
+      "scene": 10,
+      "date": "08-07",
+      "slot": "夕方",
+      "place": "愛田牧場／牛舎",
+      "voice": "A5680.WAV",
+      "chars": 14,
+      "text": {
+        "ja": "めぐみもよく頑張ってくれた。",
+        "ko": "메구미도　잘　해　줬어。"
+      }
+    },
+    {
+      "window": 55,
+      "line": 2,
+      "speaker": "耕作",
+      "kind": "대사",
+      "scene": 10,
+      "date": "08-07",
+      "slot": "夕方",
+      "place": "愛田牧場／牛舎",
+      "voice": "A5680.WAV",
+      "chars": 12,
+      "text": {
+        "ja": "また次もよろしく頼むよ。",
+        "ko": "다음에도　잘　부탁해。"
+      }
+    },
+    {
+      "window": 56,
+      "line": 0,
+      "speaker": "耕作",
+      "kind": "대사",
+      "scene": 10,
+      "date": "08-07",
+      "slot": "夕方",
+      "place": "愛田牧場／牛舎",
+      "voice": "A5681.WAV",
+      "chars": 18,
+      "text": {
+        "ja": "まぁ・・慣れていないから仕方ないね。",
+        "ko": "뭐・・익숙하지　않으니　어쩔　수　없지。"
+      }
+    },
+    {
+      "window": 56,
+      "line": 1,
+      "speaker": "耕作",
+      "kind": "대사",
+      "scene": 10,
+      "date": "08-07",
+      "slot": "夕方",
+      "place": "愛田牧場／牛舎",
+      "voice": "A5681.WAV",
+      "chars": 11,
+      "text": {
+        "ja": "次からは頑張ってくれ。",
+        "ko": "다음부턴　힘내　줘。"
+      }
+    },
+    {
+      "window": 57,
+      "line": 0,
+      "speaker": "独白",
+      "kind": "독백",
+      "scene": 11,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／客間",
+      "voice": "",
+      "chars": 16,
+      "text": {
+        "ja": "さてこれから　どうしようかな・・",
+        "ko": "자　이제　뭘　할까・・"
+      }
+    },
+    {
+      "window": 58,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 11,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／客間",
+      "voice": "A5809.WAV",
+      "chars": 9,
+      "text": {
+        "ja": "&主人公&さん。入っていい？",
+        "ko": "&主人公&씨。　들어가도　돼？"
+      }
+    },
+    {
+      "window": 59,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대기",
+      "scene": null,
+      "date": null,
+      "slot": null,
+      "place": null,
+      "voice": "",
+      "chars": 7,
+      "text": {
+        "ja": "うん。いいよ。",
+        "ko": "응。　좋아。"
+      }
+    },
+    {
+      "window": 59,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대기",
+      "scene": null,
+      "date": null,
+      "slot": null,
+      "place": null,
+      "voice": "",
+      "chars": 8,
+      "text": {
+        "ja": "今はちょっと・・",
+        "ko": "지금은　좀・・"
+      }
+    },
+    {
+      "window": 60,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 11,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／客間",
+      "voice": "A5812.WAV",
+      "chars": 14,
+      "text": {
+        "ja": "そっか・・じゃ　また明日ね。",
+        "ko": "그렇구나・・그럼　내일　봐。"
+      }
+    },
+    {
+      "window": 61,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 11,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／客間",
+      "voice": "A5811.WAV",
+      "chars": 18,
+      "text": {
+        "ja": "あのね。今日　すごく星が綺麗なんだ。",
+        "ko": "있잖아。　오늘　별이　정말　예뻐。"
+      }
+    },
+    {
+      "window": 61,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 11,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／客間",
+      "voice": "A5811.WAV",
+      "chars": 15,
+      "text": {
+        "ja": "だから一緒に見ようと思って・・",
+        "ko": "그래서　같이　보려고・・"
+      }
+    },
+    {
+      "window": 61,
+      "line": 2,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 11,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／客間",
+      "voice": "A5811.WAV",
+      "chars": 9,
+      "text": {
+        "ja": "私の部屋に来ない？",
+        "ko": "내　방에　올래？"
+      }
+    },
+    {
+      "window": 62,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대기",
+      "scene": null,
+      "date": null,
+      "slot": null,
+      "place": null,
+      "voice": "",
+      "chars": 7,
+      "text": {
+        "ja": "うん。いいよ。",
+        "ko": "응。　좋아。"
+      }
+    },
+    {
+      "window": 62,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대기",
+      "scene": null,
+      "date": null,
+      "slot": null,
+      "place": null,
+      "voice": "",
+      "chars": 8,
+      "text": {
+        "ja": "今はちょっと・・",
+        "ko": "지금은　좀・・"
+      }
+    },
+    {
+      "window": 63,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 11,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／客間",
+      "voice": "A5812.WAV",
+      "chars": 14,
+      "text": {
+        "ja": "そっか・・じゃ　また明日ね。",
+        "ko": "그렇구나・・그럼　내일　봐。"
+      }
+    },
+    {
+      "window": 64,
+      "line": 0,
+      "speaker": "主人公",
+      "kind": "대사",
+      "scene": 11,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／客間",
+      "voice": "",
+      "chars": 12,
+      "text": {
+        "ja": "・・・・・・・・・・・・",
+        "ko": "・・・・・・・・・・・・"
+      }
+    },
+    {
+      "window": 65,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 11,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／客間",
+      "voice": "A5810.WAV",
+      "chars": 14,
+      "text": {
+        "ja": "そっか・・じゃ　また明日ね。",
+        "ko": "그렇구나・・그럼　내일　봐。"
+      }
+    },
+    {
+      "window": 66,
+      "line": 0,
+      "speaker": "主人公",
+      "kind": "대사",
+      "scene": 11,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／客間",
+      "voice": "",
+      "chars": 12,
+      "text": {
+        "ja": "・・・・・・・・・・・・",
+        "ko": "・・・・・・・・・・・・"
+      }
+    },
+    {
+      "window": 67,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 11,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／客間",
+      "voice": "A5810.WAV",
+      "chars": 14,
+      "text": {
+        "ja": "そっか・・じゃ　また明日ね。",
+        "ko": "그렇구나・・그럼　내일　봐。"
+      }
+    },
+    {
+      "window": 68,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 12,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／めぐみの部屋",
+      "voice": "A5813.WAV",
+      "chars": 19,
+      "text": {
+        "ja": "ここから見える星が　すごく綺麗なんだ。",
+        "ko": "여기서　보이는　별이　정말　예뻐。"
+      }
+    },
+    {
+      "window": 68,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 12,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／めぐみの部屋",
+      "voice": "A5813.WAV",
+      "chars": 7,
+      "text": {
+        "ja": "ほら！　見て！",
+        "ko": "자！　봐！"
+      }
+    },
+    {
+      "window": 69,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 12,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／めぐみの部屋",
+      "voice": "A5814.WAV",
+      "chars": 22,
+      "text": {
+        "ja": "東京から引っ越してきて　一番びっくりしたのが",
+        "ko": "도쿄에서　이사　와서　제일　놀란　게"
+      }
+    },
+    {
+      "window": 69,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 12,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／めぐみの部屋",
+      "voice": "A5814.WAV",
+      "chars": 13,
+      "text": {
+        "ja": "この星の綺麗さだったんだ。",
+        "ko": "이　별의　아름다움이었어。"
+      }
+    },
+    {
+      "window": 70,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 12,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／めぐみの部屋",
+      "voice": "A5815.WAV",
+      "chars": 15,
+      "text": {
+        "ja": "そして思ったの・・東京の空って",
+        "ko": "그리고　생각했어・・도쿄　하늘은"
+      }
+    },
+    {
+      "window": 70,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 12,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／めぐみの部屋",
+      "voice": "A5815.WAV",
+      "chars": 16,
+      "text": {
+        "ja": "やっぱり汚れてるんだなぁって・・",
+        "ko": "역시　더러운　거구나　하고・・"
+      }
+    },
+    {
+      "window": 71,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 12,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／めぐみの部屋",
+      "voice": "A5816.WAV",
+      "chars": 25,
+      "text": {
+        "ja": "こんな風に星を見てると　昔の人たちが　星を見ながら",
+        "ko": "이렇게　별을　보면　옛날　사람들이　별을　보며"
+      }
+    },
+    {
+      "window": 71,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 12,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／めぐみの部屋",
+      "voice": "A5816.WAV",
+      "chars": 23,
+      "text": {
+        "ja": "ひとつひとつに名前を付けたり　その星にまつわる",
+        "ko": "하나하나　이름을　붙이고　그　별에　얽힌"
+      }
+    },
+    {
+      "window": 71,
+      "line": 2,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 12,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／めぐみの部屋",
+      "voice": "A5816.WAV",
+      "chars": 24,
+      "text": {
+        "ja": "たくさんの物語を作ったのも　わかる気がするんだ。",
+        "ko": "많은　이야기를　지은　것도　알　것　같아。"
+      }
+    },
+    {
+      "window": 72,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 12,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／めぐみの部屋",
+      "voice": "A5817.WAV",
+      "chars": 8,
+      "text": {
+        "ja": "@S@・・・@P@あのね・・",
+        "ko": "@S@・・・@P@있잖아・・"
+      }
+    },
+    {
+      "window": 72,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 12,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／めぐみの部屋",
+      "voice": "A5817.WAV",
+      "chars": 11,
+      "text": {
+        "ja": "えへへ・・何でもない。",
+        "ko": "에헤헤・・아무것도　아냐。"
+      }
+    },
+    {
+      "window": 73,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대기",
+      "scene": null,
+      "date": null,
+      "slot": null,
+      "place": null,
+      "voice": "",
+      "chars": 12,
+      "text": {
+        "ja": "今なんて言おうとしたの？",
+        "ko": "방금　뭐라고　하려던　거야？"
+      }
+    },
+    {
+      "window": 73,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대기",
+      "scene": null,
+      "date": null,
+      "slot": null,
+      "place": null,
+      "voice": "",
+      "chars": 10,
+      "text": {
+        "ja": "本当に星が綺麗だね。",
+        "ko": "정말　별이　예쁘다。"
+      }
+    },
+    {
+      "window": 74,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 12,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／めぐみの部屋",
+      "voice": "A5824.WAV",
+      "chars": 9,
+      "text": {
+        "ja": "うん。綺麗だよね。",
+        "ko": "응。　예쁘지。"
+      }
+    },
+    {
+      "window": 75,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 12,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／めぐみの部屋",
+      "voice": "A5818.WAV",
+      "chars": 17,
+      "text": {
+        "ja": "え？　うーん。どうしようかなぁ・・",
+        "ko": "어？　음。　어떡하지・・"
+      }
+    },
+    {
+      "window": 76,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 12,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／めぐみの部屋",
+      "voice": "A5819.WAV",
+      "chars": 24,
+      "text": {
+        "ja": "あのね。・・・こうしてると　思い出しちゃうんだ。",
+        "ko": "있잖아。・・・이러고　있으면　떠올라。"
+      }
+    },
+    {
+      "window": 77,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 12,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／めぐみの部屋",
+      "voice": "A5820.WAV",
+      "chars": 18,
+      "text": {
+        "ja": "小学校の頃にね・・好きな人がいたの。",
+        "ko": "초등학교　때・・좋아하는　사람이　있었어。"
+      }
+    },
+    {
+      "window": 77,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 12,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／めぐみの部屋",
+      "voice": "A5820.WAV",
+      "chars": 21,
+      "text": {
+        "ja": "私　空で一番明るい星に　その人の名前付けて",
+        "ko": "하늘에서　가장　밝은　별에　그　사람　이름을　붙여"
+      }
+    },
+    {
+      "window": 77,
+      "line": 2,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 12,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／めぐみの部屋",
+      "voice": "A5820.WAV",
+      "chars": 24,
+      "text": {
+        "ja": "明日もまた　会えますようにってお祈りしてたの・・",
+        "ko": "내일도　또　만나게　해　달라고　빌었어・・"
+      }
+    },
+    {
+      "window": 78,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 12,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／めぐみの部屋",
+      "voice": "A5821.WAV",
+      "chars": 18,
+      "text": {
+        "ja": "同じクラスだったから会えて当然なのに",
+        "ko": "같은　반이라　만나는　게　당연한데"
+      }
+    },
+    {
+      "window": 78,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 12,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／めぐみの部屋",
+      "voice": "A5821.WAV",
+      "chars": 15,
+      "text": {
+        "ja": "毎晩毎晩　お祈りしてたの・・・",
+        "ko": "매일　밤마다　빌었어・・・"
+      }
+    },
+    {
+      "window": 78,
+      "line": 2,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 12,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／めぐみの部屋",
+      "voice": "A5821.WAV",
+      "chars": 9,
+      "text": {
+        "ja": "バカみたいでしょ？",
+        "ko": "바보　같지？"
+      }
+    },
+    {
+      "window": 79,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 12,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／めぐみの部屋",
+      "voice": "A5822.WAV",
+      "chars": 9,
+      "text": {
+        "ja": "でも中学生になって",
+        "ko": "근데　중학생이　되고"
+      }
+    },
+    {
+      "window": 79,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 12,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／めぐみの部屋",
+      "voice": "A5822.WAV",
+      "chars": 21,
+      "text": {
+        "ja": "授業でその星の本当の名前を教わった頃・・・",
+        "ko": "수업에서　그　별의　진짜　이름을　배울　무렵・・・"
+      }
+    },
+    {
+      "window": 80,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 12,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／めぐみの部屋",
+      "voice": "A5823.WAV",
+      "chars": 17,
+      "text": {
+        "ja": "その人　外国に転校しちゃったんだ。",
+        "ko": "그　사람　외국으로　전학　갔어。"
+      }
+    },
+    {
+      "window": 80,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 12,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／めぐみの部屋",
+      "voice": "A5823.WAV",
+      "chars": 7,
+      "text": {
+        "ja": "・・・&主人公&さんって",
+        "ko": "・・・&主人公&씨는"
+      }
+    },
+    {
+      "window": 80,
+      "line": 2,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 12,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／めぐみの部屋",
+      "voice": "A5823.WAV",
+      "chars": 16,
+      "text": {
+        "ja": "その人に　ちょっとだけ似てるよ。",
+        "ko": "그　사람이랑　조금　닮았어。"
+      }
+    },
+    {
+      "window": 81,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 12,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／めぐみの部屋",
+      "voice": "A5825.WAV",
+      "chars": 20,
+      "text": {
+        "ja": "もうこんな時間だ。そろそろ寝なくっちゃ。",
+        "ko": "벌써　이런　시간이네。　슬슬　자야지。"
+      }
+    },
+    {
+      "window": 81,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 12,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／めぐみの部屋",
+      "voice": "A5825.WAV",
+      "chars": 23,
+      "text": {
+        "ja": "@8100@明日は最後のお仕事だね。・・一緒に頑張ろうね。",
+        "ko": "@8100@내일이　마지막　일이네。・・같이　힘내자。"
+      }
+    },
+    {
+      "window": 82,
+      "line": 0,
+      "speaker": "独白",
+      "kind": "독백",
+      "scene": 13,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／客間２",
+      "voice": "",
+      "chars": 21,
+      "text": {
+        "ja": "あれ？　クロちゃん・・どこから入ったんだ？",
+        "ko": "어라？　쿠로・・어디로　들어왔지？"
+      }
+    },
+    {
+      "window": 83,
+      "line": 0,
+      "speaker": "クロちゃん",
+      "kind": "대사",
+      "scene": 13,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／客間２",
+      "voice": "A5827.WAV",
+      "chars": 10,
+      "text": {
+        "ja": "にゃぁ・・にゃぁ！！",
+        "ko": "야옹・・야옹！！"
+      }
+    },
+    {
+      "window": 84,
+      "line": 0,
+      "speaker": "独白",
+      "kind": "독백",
+      "scene": 13,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／客間２",
+      "voice": "",
+      "chars": 19,
+      "text": {
+        "ja": "クロちゃんは何を言いたかったんだろう？",
+        "ko": "쿠로는　뭘　말하고　싶었을까？"
+      }
+    },
+    {
+      "window": 85,
+      "line": 0,
+      "speaker": "独白",
+      "kind": "대기",
+      "scene": null,
+      "date": null,
+      "slot": null,
+      "place": null,
+      "voice": "",
+      "chars": 21,
+      "text": {
+        "ja": "きっと「お休みなさい」を言いたかったんだ。",
+        "ko": "분명　「잘　자」라고　하고　싶었나　봐。"
+      }
+    },
+    {
+      "window": 85,
+      "line": 1,
+      "speaker": "独白",
+      "kind": "대기",
+      "scene": null,
+      "date": null,
+      "slot": null,
+      "place": null,
+      "voice": "",
+      "chars": 25,
+      "text": {
+        "ja": "きっと明日帰る僕に「さよなら」を言いたかったんだ。",
+        "ko": "분명　내일　가는　내게　「안녕」　하려던　거야。"
+      }
+    },
+    {
+      "window": 85,
+      "line": 2,
+      "speaker": "独白",
+      "kind": "대기",
+      "scene": null,
+      "date": null,
+      "slot": null,
+      "place": null,
+      "voice": "",
+      "chars": 21,
+      "text": {
+        "ja": "きっと「付いて来い」って言いたかったんだ。",
+        "ko": "분명　「따라와」라고　하고　싶었나　봐。"
+      }
+    },
+    {
+      "window": 86,
+      "line": 0,
+      "speaker": "独白",
+      "kind": "독백",
+      "scene": 13,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／客間２",
+      "voice": "",
+      "chars": 14,
+      "text": {
+        "ja": "うん。きっとそう言うことだ。",
+        "ko": "응。　분명　그런　거겠지。"
+      }
+    },
+    {
+      "window": 86,
+      "line": 1,
+      "speaker": "独白",
+      "kind": "독백",
+      "scene": 13,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／客間２",
+      "voice": "",
+      "chars": 18,
+      "text": {
+        "ja": "明日も早いし　気にせずに早く寝よう。",
+        "ko": "내일도　이르니　신경　쓰지　말고　자자。"
+      }
+    },
+    {
+      "window": 87,
+      "line": 0,
+      "speaker": "独白",
+      "kind": "독백",
+      "scene": 13,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／客間２",
+      "voice": "",
+      "chars": 11,
+      "text": {
+        "ja": "・・・なんか心配だな。",
+        "ko": "・・・왠지　걱정되네。"
+      }
+    },
+    {
+      "window": 87,
+      "line": 1,
+      "speaker": "独白",
+      "kind": "독백",
+      "scene": 13,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／客間２",
+      "voice": "",
+      "chars": 13,
+      "text": {
+        "ja": "とりあえず外に出てみよう。",
+        "ko": "일단　밖에　나가　보자。"
+      }
+    },
+    {
+      "window": 88,
+      "line": 0,
+      "speaker": "クロちゃん",
+      "kind": "대사",
+      "scene": 14,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／リビング",
+      "voice": "A5831.WAV",
+      "chars": 10,
+      "text": {
+        "ja": "にゃぁ・・にゃぁ！！",
+        "ko": "야옹・・야옹！！"
+      }
+    },
+    {
+      "window": 89,
+      "line": 0,
+      "speaker": "独白",
+      "kind": "독백",
+      "scene": 14,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／リビング",
+      "voice": "",
+      "chars": 14,
+      "text": {
+        "ja": "クロちゃんは外に出ていった。",
+        "ko": "쿠로는　밖으로　나갔다。"
+      }
+    },
+    {
+      "window": 89,
+      "line": 1,
+      "speaker": "独白",
+      "kind": "독백",
+      "scene": 14,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／リビング",
+      "voice": "",
+      "chars": 4,
+      "text": {
+        "ja": "僕は・・",
+        "ko": "나는・・"
+      }
+    },
+    {
+      "window": 90,
+      "line": 0,
+      "speaker": "独白",
+      "kind": "대기",
+      "scene": null,
+      "date": null,
+      "slot": null,
+      "place": null,
+      "voice": "",
+      "chars": 7,
+      "text": {
+        "ja": "後を追いかける",
+        "ko": "뒤를　쫓는다"
+      }
+    },
+    {
+      "window": 90,
+      "line": 1,
+      "speaker": "独白",
+      "kind": "대기",
+      "scene": null,
+      "date": null,
+      "slot": null,
+      "place": null,
+      "voice": "",
+      "chars": 7,
+      "text": {
+        "ja": "やっぱりやめる",
+        "ko": "역시　그만둔다"
+      }
+    },
+    {
+      "window": 91,
+      "line": 0,
+      "speaker": "独白",
+      "kind": "독백",
+      "scene": 14,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／リビング",
+      "voice": "",
+      "chars": 25,
+      "text": {
+        "ja": "夜中に黒猫と追いかけっこするのもなんか悪趣味だな。",
+        "ko": "한밤에　검은　고양이랑　술래잡기라니　좀　그렇네。"
+      }
+    },
+    {
+      "window": 91,
+      "line": 1,
+      "speaker": "独白",
+      "kind": "독백",
+      "scene": 14,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／リビング",
+      "voice": "",
+      "chars": 14,
+      "text": {
+        "ja": "やっぱり部屋に帰って寝よう。",
+        "ko": "역시　방으로　돌아가　자자。"
+      }
+    },
+    {
+      "window": 92,
+      "line": 0,
+      "speaker": "独白",
+      "kind": "독백",
+      "scene": 14,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／リビング",
+      "voice": "",
+      "chars": 16,
+      "text": {
+        "ja": "やっぱり気になる。追いかけよう。",
+        "ko": "역시　신경　쓰이네。　쫓아가자。"
+      }
+    },
+    {
+      "window": 93,
+      "line": 0,
+      "speaker": "クロちゃん",
+      "kind": "대사",
+      "scene": 15,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／外観",
+      "voice": "A5835.WAV",
+      "chars": 10,
+      "text": {
+        "ja": "にゃぁ・・にゃぁ！！",
+        "ko": "야옹・・야옹！！"
+      }
+    },
+    {
+      "window": 94,
+      "line": 0,
+      "speaker": "独白",
+      "kind": "독백",
+      "scene": 15,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／外観",
+      "voice": "",
+      "chars": 16,
+      "text": {
+        "ja": "クロちゃんは牛舎に入っていった。",
+        "ko": "쿠로는　외양간으로　들어갔다。"
+      }
+    },
+    {
+      "window": 94,
+      "line": 1,
+      "speaker": "独白",
+      "kind": "독백",
+      "scene": 15,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／外観",
+      "voice": "",
+      "chars": 4,
+      "text": {
+        "ja": "僕は・・",
+        "ko": "나는・・"
+      }
+    },
+    {
+      "window": 95,
+      "line": 0,
+      "speaker": "独白",
+      "kind": "대기",
+      "scene": null,
+      "date": null,
+      "slot": null,
+      "place": null,
+      "voice": "",
+      "chars": 7,
+      "text": {
+        "ja": "後を追いかける",
+        "ko": "뒤를　쫓는다"
+      }
+    },
+    {
+      "window": 95,
+      "line": 1,
+      "speaker": "独白",
+      "kind": "대기",
+      "scene": null,
+      "date": null,
+      "slot": null,
+      "place": null,
+      "voice": "",
+      "chars": 7,
+      "text": {
+        "ja": "やっぱりやめる",
+        "ko": "역시　그만둔다"
+      }
+    },
+    {
+      "window": 96,
+      "line": 0,
+      "speaker": "独白",
+      "kind": "독백",
+      "scene": 15,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／外観",
+      "voice": "",
+      "chars": 23,
+      "text": {
+        "ja": "夜中に黒猫を追いかけるのも　なんか悪趣味だな。",
+        "ko": "한밤에　검은　고양이를　쫓는　것도　좀　그렇네。"
+      }
+    },
+    {
+      "window": 96,
+      "line": 1,
+      "speaker": "独白",
+      "kind": "독백",
+      "scene": 15,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／外観",
+      "voice": "",
+      "chars": 14,
+      "text": {
+        "ja": "やっぱり部屋に帰って寝よう。",
+        "ko": "역시　방으로　돌아가　자자。"
+      }
+    },
+    {
+      "window": 97,
+      "line": 0,
+      "speaker": "独白",
+      "kind": "독백",
+      "scene": 15,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／外観",
+      "voice": "",
+      "chars": 16,
+      "text": {
+        "ja": "やっぱり気になる。追いかけよう。",
+        "ko": "역시　신경　쓰이네。　쫓아가자。"
+      }
+    },
+    {
+      "window": 98,
+      "line": 0,
+      "speaker": "独白",
+      "kind": "독백",
+      "scene": 16,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／牛舎",
+      "voice": "",
+      "chars": 23,
+      "text": {
+        "ja": "クロちゃん・・・あれ？　どこに行ったんだろう？",
+        "ko": "쿠로・・・어라？　어디로　갔지？"
+      }
+    },
+    {
+      "window": 98,
+      "line": 1,
+      "speaker": "独白",
+      "kind": "독백",
+      "scene": 16,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／牛舎",
+      "voice": "",
+      "chars": 18,
+      "text": {
+        "ja": "確か　ここに入ったはずなんだけど・・",
+        "ko": "분명　여기로　들어왔을　텐데・・"
+      }
+    },
+    {
+      "window": 99,
+      "line": 0,
+      "speaker": "独白",
+      "kind": "독백",
+      "scene": 16,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／牛舎",
+      "voice": "",
+      "chars": 9,
+      "text": {
+        "ja": "あれ？　今の声・・",
+        "ko": "어라？　방금　그　소리・・"
+      }
+    },
+    {
+      "window": 100,
+      "line": 0,
+      "speaker": "独白",
+      "kind": "독백",
+      "scene": 16,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／牛舎",
+      "voice": "",
+      "chars": 18,
+      "text": {
+        "ja": "牛が苦しんでる声だ！　行ってみよう。",
+        "ko": "소가　괴로워하는　소리다！　가　보자。"
+      }
+    },
+    {
+      "window": 101,
+      "line": 0,
+      "speaker": "独白",
+      "kind": "독백",
+      "scene": 16,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／牛舎",
+      "voice": "",
+      "chars": 19,
+      "text": {
+        "ja": "大変だ！　早く耕作さんを呼ばなくちゃ！",
+        "ko": "큰일이야！　얼른　코사쿠　씨를　불러야　해！"
+      }
+    },
+    {
+      "window": 102,
+      "line": 0,
+      "speaker": "耕作",
+      "kind": "대사",
+      "scene": 16,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／牛舎",
+      "voice": "A5843.WAV",
+      "chars": 14,
+      "text": {
+        "ja": "@S@・・@P@大変だ！　生まれるぞ！！",
+        "ko": "@S@・・@P@큰일이야！　나온다！！"
+      }
+    },
+    {
+      "window": 102,
+      "line": 1,
+      "speaker": "耕作",
+      "kind": "대사",
+      "scene": 16,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／牛舎",
+      "voice": "A5843.WAV",
+      "chars": 19,
+      "text": {
+        "ja": "予定日は　ずっと先だったはずなのに・・",
+        "ko": "예정일은　한참　뒤였을　텐데・・"
+      }
+    },
+    {
+      "window": 103,
+      "line": 0,
+      "speaker": "独白",
+      "kind": "독백",
+      "scene": 16,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／牛舎",
+      "voice": "",
+      "chars": 11,
+      "text": {
+        "ja": "それからが大変だった。",
+        "ko": "그　다음이　큰일이었다。"
+      }
+    },
+    {
+      "window": 103,
+      "line": 1,
+      "speaker": "独白",
+      "kind": "독백",
+      "scene": 16,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／牛舎",
+      "voice": "",
+      "chars": 17,
+      "text": {
+        "ja": "手に負えないような難産だったらしく",
+        "ko": "손　쓸　수　없는　난산이었던　듯"
+      }
+    },
+    {
+      "window": 103,
+      "line": 2,
+      "speaker": "独白",
+      "kind": "독백",
+      "scene": 16,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／牛舎",
+      "voice": "",
+      "chars": 15,
+      "text": {
+        "ja": "耕作さんは慌てて獣医を呼んだ。",
+        "ko": "코사쿠　씨는　서둘러　수의사를　불렀다。"
+      }
+    },
+    {
+      "window": 104,
+      "line": 0,
+      "speaker": "独白",
+      "kind": "독백",
+      "scene": 17,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／牛舎２",
+      "voice": "",
+      "chars": 20,
+      "text": {
+        "ja": "やがて里子さんやめぐみちゃんも起きて来て",
+        "ko": "이윽고　사토코　씨랑　메구미도　일어나서"
+      }
+    },
+    {
+      "window": 104,
+      "line": 1,
+      "speaker": "独白",
+      "kind": "독백",
+      "scene": 17,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／牛舎２",
+      "voice": "",
+      "chars": 12,
+      "text": {
+        "ja": "みんなで母牛を応援した。",
+        "ko": "다　같이　어미소를　응원했다。"
+      }
+    },
+    {
+      "window": 104,
+      "line": 2,
+      "speaker": "独白",
+      "kind": "독백",
+      "scene": 17,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／牛舎２",
+      "voice": "",
+      "chars": 6,
+      "text": {
+        "ja": "そして・・・",
+        "ko": "그리고・・・"
+      }
+    },
+    {
+      "window": 105,
+      "line": 0,
+      "speaker": "独白",
+      "kind": "독백",
+      "scene": 17,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／牛舎２",
+      "voice": "",
+      "chars": 17,
+      "text": {
+        "ja": "発見が早かったのが幸いしたらしい。",
+        "ko": "발견이　빨랐던　게　다행이었던　듯。"
+      }
+    },
+    {
+      "window": 105,
+      "line": 1,
+      "speaker": "独白",
+      "kind": "독백",
+      "scene": 17,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／牛舎２",
+      "voice": "",
+      "chars": 19,
+      "text": {
+        "ja": "母牛は　無事にメスの赤ちゃんを産んだ。",
+        "ko": "어미소는　무사히　암컷　새끼를　낳았다。"
+      }
+    },
+    {
+      "window": 106,
+      "line": 0,
+      "speaker": "耕作",
+      "kind": "대사",
+      "scene": 17,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／牛舎２",
+      "voice": "A5847.WAV",
+      "chars": 10,
+      "text": {
+        "ja": "やったぞ！　メスだ！",
+        "ko": "해냈다！　암컷이야！"
+      }
+    },
+    {
+      "window": 107,
+      "line": 0,
+      "speaker": "里子",
+      "kind": "대사",
+      "scene": 17,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／牛舎２",
+      "voice": "A5848.WAV",
+      "chars": 22,
+      "text": {
+        "ja": "本当に良かった！　鼻黒２号も頑張ったわよね。",
+        "ko": "정말　다행이야！　코검둥이　２호도　애썼지。"
+      }
+    },
+    {
+      "window": 108,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 17,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／牛舎２",
+      "voice": "A5849.WAV",
+      "chars": 15,
+      "text": {
+        "ja": "あっ！　見て！　もう立ってる！",
+        "ko": "앗！　봐！　벌써　일어섰어！"
+      }
+    },
+    {
+      "window": 109,
+      "line": 0,
+      "speaker": "独白",
+      "kind": "독백",
+      "scene": 17,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／牛舎２",
+      "voice": "",
+      "chars": 21,
+      "text": {
+        "ja": "こうして愛田牧場に　ひとつの命が生まれた。",
+        "ko": "이렇게　아이다　목장에　하나의　생명이　태어났다。"
+      }
+    },
+    {
+      "window": 110,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 18,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／客間３",
+      "voice": "A5851.WAV",
+      "chars": 14,
+      "text": {
+        "ja": "&主人公&さん！　起きて！　大変なの！",
+        "ko": "&主人公&씨！　일어나！　큰일이야！"
+      }
+    },
+    {
+      "window": 111,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 18,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／客間３",
+      "voice": "A5852.WAV",
+      "chars": 22,
+      "text": {
+        "ja": "あのね。鼻黒２号の赤ちゃんが産まれそうなの！",
+        "ko": "있잖아。　코검둥이　２호가　새끼를　낳으려　해！"
+      }
+    },
+    {
+      "window": 111,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 18,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／客間３",
+      "voice": "A5852.WAV",
+      "chars": 9,
+      "text": {
+        "ja": "&主人公&さん！　手伝って！",
+        "ko": "&主人公&씨！　도와줘！"
+      }
+    },
+    {
+      "window": 112,
+      "line": 0,
+      "speaker": "独白",
+      "kind": "독백",
+      "scene": 18,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／客間３",
+      "voice": "",
+      "chars": 11,
+      "text": {
+        "ja": "それからが大変だった。",
+        "ko": "그　다음이　큰일이었다。"
+      }
+    },
+    {
+      "window": 112,
+      "line": 1,
+      "speaker": "独白",
+      "kind": "독백",
+      "scene": 18,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／客間３",
+      "voice": "",
+      "chars": 17,
+      "text": {
+        "ja": "手に負えないような難産だったらしく",
+        "ko": "손　쓸　수　없는　난산이었던　듯"
+      }
+    },
+    {
+      "window": 112,
+      "line": 2,
+      "speaker": "独白",
+      "kind": "독백",
+      "scene": 18,
+      "date": "08-07",
+      "slot": "夜",
+      "place": "愛田牧場／客間３",
+      "voice": "",
+      "chars": 15,
+      "text": {
+        "ja": "耕作さんは慌てて獣医を呼んだ。",
+        "ko": "코사쿠　씨는　서둘러　수의사를　불렀다。"
+      }
+    },
+    {
+      "window": 113,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 19,
+      "date": "08-08",
+      "slot": "朝",
+      "place": "愛田牧場／客間",
+      "voice": "A5854.WAV",
+      "chars": 8,
+      "text": {
+        "ja": "お早う！　&主人公&さん。",
+        "ko": "좋은　아침！　&主人公&씨。"
+      }
+    },
+    {
+      "window": 113,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 19,
+      "date": "08-08",
+      "slot": "朝",
+      "place": "愛田牧場／客間",
+      "voice": "A5854.WAV",
+      "chars": 12,
+      "text": {
+        "ja": "夕べは大活躍だったよね。",
+        "ko": "어젯밤　정말　대활약이었지。"
+      }
+    },
+    {
+      "window": 114,
+      "line": 0,
+      "speaker": "主人公",
+      "kind": "대사",
+      "scene": 19,
+      "date": "08-08",
+      "slot": "朝",
+      "place": "愛田牧場／客間",
+      "voice": "",
+      "chars": 15,
+      "text": {
+        "ja": "いや・・あれはクロちゃんが・・",
+        "ko": "아니・・그건　쿠로가・・"
+      }
+    },
+    {
+      "window": 115,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 19,
+      "date": "08-08",
+      "slot": "朝",
+      "place": "愛田牧場／客間",
+      "voice": "A5856.WAV",
+      "chars": 16,
+      "text": {
+        "ja": "でもさ・・夕べ&主人公&さんが　お父さんを",
+        "ko": "근데・・어젯밤　&主人公&씨가　아빠를"
+      }
+    },
+    {
+      "window": 115,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 19,
+      "date": "08-08",
+      "slot": "朝",
+      "place": "愛田牧場／客間",
+      "voice": "A5856.WAV",
+      "chars": 23,
+      "text": {
+        "ja": "呼んでくれなきゃ　鼻黒３号　危なかったんだよ。",
+        "ko": "불러　주지　않았으면　코검둥이　３호　위험했어。"
+      }
+    },
+    {
+      "window": 116,
+      "line": 0,
+      "speaker": "主人公",
+      "kind": "대사",
+      "scene": 19,
+      "date": "08-08",
+      "slot": "朝",
+      "place": "愛田牧場／客間",
+      "voice": "",
+      "chars": 5,
+      "text": {
+        "ja": "鼻黒３号？",
+        "ko": "코검둥이　３호？"
+      }
+    },
+    {
+      "window": 117,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 19,
+      "date": "08-08",
+      "slot": "朝",
+      "place": "愛田牧場／客間",
+      "voice": "A5862.WAV",
+      "chars": 15,
+      "text": {
+        "ja": "昨日　生まれた赤ちゃんの名前。",
+        "ko": "어제　태어난　새끼　이름이야。"
+      }
+    },
+    {
+      "window": 117,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 19,
+      "date": "08-08",
+      "slot": "朝",
+      "place": "愛田牧場／客間",
+      "voice": "A5862.WAV",
+      "chars": 7,
+      "text": {
+        "ja": "さぁ！　&主人公&さん。",
+        "ko": "자！　&主人公&씨。"
+      }
+    },
+    {
+      "window": 117,
+      "line": 2,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 19,
+      "date": "08-08",
+      "slot": "朝",
+      "place": "愛田牧場／客間",
+      "voice": "A5862.WAV",
+      "chars": 11,
+      "text": {
+        "ja": "最後のお仕事　頑張ろ！",
+        "ko": "마지막　일　힘내자！"
+      }
+    },
+    {
+      "window": 118,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 19,
+      "date": "08-08",
+      "slot": "朝",
+      "place": "愛田牧場／客間",
+      "voice": "A5859.WAV",
+      "chars": 8,
+      "text": {
+        "ja": "お早う！　&主人公&さん。",
+        "ko": "좋은　아침！　&主人公&씨。"
+      }
+    },
+    {
+      "window": 118,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 19,
+      "date": "08-08",
+      "slot": "朝",
+      "place": "愛田牧場／客間",
+      "voice": "A5859.WAV",
+      "chars": 11,
+      "text": {
+        "ja": "夕べは大変だったよね。",
+        "ko": "어젯밤　정말　힘들었지。"
+      }
+    },
+    {
+      "window": 119,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 19,
+      "date": "08-08",
+      "slot": "朝",
+      "place": "愛田牧場／客間",
+      "voice": "A5860.WAV",
+      "chars": 20,
+      "text": {
+        "ja": "夕べ　お父さんが　お産に気づかなかったら",
+        "ko": "어젯밤　아빠가　출산을　몰랐다면"
+      }
+    },
+    {
+      "window": 119,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 19,
+      "date": "08-08",
+      "slot": "朝",
+      "place": "愛田牧場／客間",
+      "voice": "A5860.WAV",
+      "chars": 14,
+      "text": {
+        "ja": "鼻黒３号　危なかったんだよ。",
+        "ko": "코검둥이　３호　위험했어。"
+      }
+    },
+    {
+      "window": 120,
+      "line": 0,
+      "speaker": "主人公",
+      "kind": "대사",
+      "scene": 19,
+      "date": "08-08",
+      "slot": "朝",
+      "place": "愛田牧場／客間",
+      "voice": "",
+      "chars": 5,
+      "text": {
+        "ja": "鼻黒３号？",
+        "ko": "코검둥이　３호？"
+      }
+    },
+    {
+      "window": 121,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 19,
+      "date": "08-08",
+      "slot": "朝",
+      "place": "愛田牧場／客間",
+      "voice": "A5858.WAV",
+      "chars": 15,
+      "text": {
+        "ja": "昨日　生まれた赤ちゃんの名前。",
+        "ko": "어제　태어난　새끼　이름이야。"
+      }
+    },
+    {
+      "window": 121,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 19,
+      "date": "08-08",
+      "slot": "朝",
+      "place": "愛田牧場／客間",
+      "voice": "A5858.WAV",
+      "chars": 7,
+      "text": {
+        "ja": "さぁ！　&主人公&さん。",
+        "ko": "자！　&主人公&씨。"
+      }
+    },
+    {
+      "window": 121,
+      "line": 2,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 19,
+      "date": "08-08",
+      "slot": "朝",
+      "place": "愛田牧場／客間",
+      "voice": "A5858.WAV",
+      "chars": 11,
+      "text": {
+        "ja": "最後のお仕事　頑張ろ！",
+        "ko": "마지막　일　힘내자！"
+      }
+    },
+    {
+      "window": 122,
+      "line": 0,
+      "speaker": "説明",
+      "kind": "나레이션",
+      "scene": 20,
+      "date": "08-08",
+      "slot": "朝",
+      "place": "愛田牧場／牛舎",
+      "voice": "",
+      "chars": 12,
+      "text": {
+        "ja": "搾乳の説明を聞きますか？",
+        "ko": "젖　짜기　설명을　들을래？"
+      }
+    },
+    {
+      "window": 123,
+      "line": 0,
+      "speaker": "説明",
+      "kind": "대기",
+      "scene": null,
+      "date": null,
+      "slot": null,
+      "place": null,
+      "voice": "",
+      "chars": 2,
+      "text": {
+        "ja": "はい",
+        "ko": "예"
+      }
+    },
+    {
+      "window": 123,
+      "line": 1,
+      "speaker": "説明",
+      "kind": "대기",
+      "scene": null,
+      "date": null,
+      "slot": null,
+      "place": null,
+      "voice": "",
+      "chars": 3,
+      "text": {
+        "ja": "いいえ",
+        "ko": "아니오"
+      }
+    },
+    {
+      "window": 124,
+      "line": 0,
+      "speaker": "耕作",
+      "kind": "대사",
+      "scene": 20,
+      "date": "08-08",
+      "slot": "朝",
+      "place": "愛田牧場／牛舎",
+      "voice": "A5679.WAV",
+      "chars": 16,
+      "text": {
+        "ja": "素晴らしい！　すごい才能だよ&主人公&君。",
+        "ko": "훌륭해！　대단한　재능이야　&主人公&군。"
+      }
+    },
+    {
+      "window": 124,
+      "line": 1,
+      "speaker": "耕作",
+      "kind": "대사",
+      "scene": 20,
+      "date": "08-08",
+      "slot": "朝",
+      "place": "愛田牧場／牛舎",
+      "voice": "A5679.WAV",
+      "chars": 15,
+      "text": {
+        "ja": "めぐみのサポートも完璧だった！",
+        "ko": "메구미　도움도　완벽했어！"
+      }
+    },
+    {
+      "window": 124,
+      "line": 2,
+      "speaker": "耕作",
+      "kind": "대사",
+      "scene": 20,
+      "date": "08-08",
+      "slot": "朝",
+      "place": "愛田牧場／牛舎",
+      "voice": "A5679.WAV",
+      "chars": 18,
+      "text": {
+        "ja": "これからも　この調子で頑張ってくれ！",
+        "ko": "앞으로도　이대로　힘내　줘！"
+      }
+    },
+    {
+      "window": 125,
+      "line": 0,
+      "speaker": "耕作",
+      "kind": "대사",
+      "scene": 20,
+      "date": "08-08",
+      "slot": "朝",
+      "place": "愛田牧場／牛舎",
+      "voice": "A5680.WAV",
+      "chars": 10,
+      "text": {
+        "ja": "うん。上出来だよ&主人公&君。",
+        "ko": "응。　잘했어　&主人公&군。"
+      }
+    },
+    {
+      "window": 125,
+      "line": 1,
+      "speaker": "耕作",
+      "kind": "대사",
+      "scene": 20,
+      "date": "08-08",
+      "slot": "朝",
+      "place": "愛田牧場／牛舎",
+      "voice": "A5680.WAV",
+      "chars": 14,
+      "text": {
+        "ja": "めぐみもよく頑張ってくれた。",
+        "ko": "메구미도　잘　해　줬어。"
+      }
+    },
+    {
+      "window": 125,
+      "line": 2,
+      "speaker": "耕作",
+      "kind": "대사",
+      "scene": 20,
+      "date": "08-08",
+      "slot": "朝",
+      "place": "愛田牧場／牛舎",
+      "voice": "A5680.WAV",
+      "chars": 12,
+      "text": {
+        "ja": "また次もよろしく頼むよ。",
+        "ko": "다음에도　잘　부탁해。"
+      }
+    },
+    {
+      "window": 126,
+      "line": 0,
+      "speaker": "耕作",
+      "kind": "대사",
+      "scene": 20,
+      "date": "08-08",
+      "slot": "朝",
+      "place": "愛田牧場／牛舎",
+      "voice": "A5681.WAV",
+      "chars": 18,
+      "text": {
+        "ja": "まぁ・・慣れていないから仕方ないね。",
+        "ko": "뭐・・익숙하지　않으니　어쩔　수　없지。"
+      }
+    },
+    {
+      "window": 126,
+      "line": 1,
+      "speaker": "耕作",
+      "kind": "대사",
+      "scene": 20,
+      "date": "08-08",
+      "slot": "朝",
+      "place": "愛田牧場／牛舎",
+      "voice": "A5681.WAV",
+      "chars": 11,
+      "text": {
+        "ja": "次からは頑張ってくれ。",
+        "ko": "다음부턴　힘내　줘。"
+      }
+    },
+    {
+      "window": 127,
+      "line": 0,
+      "speaker": "耕作",
+      "kind": "대사",
+      "scene": 22,
+      "date": "08-08",
+      "slot": "午前",
+      "place": "愛田牧場／リビング",
+      "voice": "A5863.WAV",
+      "chars": 15,
+      "text": {
+        "ja": "&主人公&君。４日間　本当にお疲れさま。",
+        "ko": "&主人公&군。　４일간　정말　수고했어。"
+      }
+    },
+    {
+      "window": 127,
+      "line": 1,
+      "speaker": "耕作",
+      "kind": "대사",
+      "scene": 22,
+      "date": "08-08",
+      "slot": "午前",
+      "place": "愛田牧場／リビング",
+      "voice": "A5863.WAV",
+      "chars": 17,
+      "text": {
+        "ja": "君がいてくれたお陰で　助かったよ。",
+        "ko": "자네　덕분에　정말　도움이　됐어。"
+      }
+    },
+    {
+      "window": 128,
+      "line": 0,
+      "speaker": "里子",
+      "kind": "대사",
+      "scene": 22,
+      "date": "08-08",
+      "slot": "午前",
+      "place": "愛田牧場／リビング",
+      "voice": "A5864.WAV",
+      "chars": 19,
+      "text": {
+        "ja": "本当ね。鼻黒３号の命の恩人ですものね。",
+        "ko": "정말이야。　코검둥이　３호의　생명의　은인인걸。"
+      }
+    },
+    {
+      "window": 129,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 22,
+      "date": "08-08",
+      "slot": "午前",
+      "place": "愛田牧場／リビング",
+      "voice": "A5865.WAV",
+      "chars": 19,
+      "text": {
+        "ja": "クロちゃんにも上等の鰹節　あげたんだ。",
+        "ko": "쿠로한테도　고급　가다랑어포　줬어。"
+      }
+    },
+    {
+      "window": 129,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 22,
+      "date": "08-08",
+      "slot": "午前",
+      "place": "愛田牧場／リビング",
+      "voice": "A5865.WAV",
+      "chars": 8,
+      "text": {
+        "ja": "私たちは　これ。",
+        "ko": "우린　이거。"
+      }
+    },
+    {
+      "window": 130,
+      "line": 0,
+      "speaker": "里子",
+      "kind": "대사",
+      "scene": 22,
+      "date": "08-08",
+      "slot": "午前",
+      "place": "愛田牧場／リビング",
+      "voice": "A5866.WAV",
+      "chars": 18,
+      "text": {
+        "ja": "本当ね。慣れない仕事で疲れたでしょ？",
+        "ko": "그러게。　익숙지　않은　일이라　힘들었지？"
+      }
+    },
+    {
+      "window": 131,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 22,
+      "date": "08-08",
+      "slot": "午前",
+      "place": "愛田牧場／リビング",
+      "voice": "A5867.WAV",
+      "chars": 21,
+      "text": {
+        "ja": "あのね。今日は特別なごちそうがあるんだよ。",
+        "ko": "있잖아。　오늘은　특별한　음식이　있어。"
+      }
+    },
+    {
+      "window": 132,
+      "line": 0,
+      "speaker": "里子",
+      "kind": "대사",
+      "scene": 22,
+      "date": "08-08",
+      "slot": "午前",
+      "place": "愛田牧場／リビング",
+      "voice": "A5868.WAV",
+      "chars": 20,
+      "text": {
+        "ja": "牛乳豆腐って言って　お産をした後の初乳を",
+        "ko": "우유　두부라고　하는데　출산　후의　초유를"
+      }
+    },
+    {
+      "window": 132,
+      "line": 1,
+      "speaker": "里子",
+      "kind": "대사",
+      "scene": 22,
+      "date": "08-08",
+      "slot": "午前",
+      "place": "愛田牧場／リビング",
+      "voice": "A5868.WAV",
+      "chars": 15,
+      "text": {
+        "ja": "固めたものなのよ。食べてみて。",
+        "ko": "굳힌　거야。　먹어　봐。"
+      }
+    },
+    {
+      "window": 133,
+      "line": 0,
+      "speaker": "独白",
+      "kind": "독백",
+      "scene": 22,
+      "date": "08-08",
+      "slot": "午前",
+      "place": "愛田牧場／リビング",
+      "voice": "",
+      "chars": 13,
+      "text": {
+        "ja": "僕は牛乳豆腐を食べてみた。",
+        "ko": "우유　두부를　먹어　봤다。"
+      }
+    },
+    {
+      "window": 133,
+      "line": 1,
+      "speaker": "独白",
+      "kind": "독백",
+      "scene": 22,
+      "date": "08-08",
+      "slot": "午前",
+      "place": "愛田牧場／リビング",
+      "voice": "",
+      "chars": 9,
+      "text": {
+        "ja": "・・・・うまい！！",
+        "ko": "・・・・맛있다！！"
+      }
+    },
+    {
+      "window": 134,
+      "line": 0,
+      "speaker": "独白",
+      "kind": "독백",
+      "scene": 22,
+      "date": "08-08",
+      "slot": "午前",
+      "place": "愛田牧場／リビング",
+      "voice": "",
+      "chars": 15,
+      "text": {
+        "ja": "味はカッテージチーズに近い・・",
+        "ko": "맛은　코티지　치즈에　가까워・・"
+      }
+    },
+    {
+      "window": 134,
+      "line": 1,
+      "speaker": "独白",
+      "kind": "독백",
+      "scene": 22,
+      "date": "08-08",
+      "slot": "午前",
+      "place": "愛田牧場／リビング",
+      "voice": "",
+      "chars": 20,
+      "text": {
+        "ja": "いや・・それとは比べものにならないくらい",
+        "ko": "아니・・그것과는　비교도　안　될　만큼"
+      }
+    },
+    {
+      "window": 134,
+      "line": 2,
+      "speaker": "独白",
+      "kind": "독백",
+      "scene": 22,
+      "date": "08-08",
+      "slot": "午前",
+      "place": "愛田牧場／リビング",
+      "voice": "",
+      "chars": 17,
+      "text": {
+        "ja": "深いコクとまろやかな味わいがある。",
+        "ko": "깊은　풍미와　부드러운　맛이　있다。"
+      }
+    },
+    {
+      "window": 135,
+      "line": 0,
+      "speaker": "独白",
+      "kind": "독백",
+      "scene": 22,
+      "date": "08-08",
+      "slot": "午前",
+      "place": "愛田牧場／リビング",
+      "voice": "",
+      "chars": 24,
+      "text": {
+        "ja": "そして口に含んだ瞬間　牛乳の甘い香りが広がる・・",
+        "ko": "입에　머금은　순간　우유의　단　향이　퍼진다・・"
+      }
+    },
+    {
+      "window": 135,
+      "line": 1,
+      "speaker": "独白",
+      "kind": "독백",
+      "scene": 22,
+      "date": "08-08",
+      "slot": "午前",
+      "place": "愛田牧場／リビング",
+      "voice": "",
+      "chars": 25,
+      "text": {
+        "ja": "この感覚は　快感と言っても言い過ぎではないだろう。",
+        "ko": "이　감각은　쾌감이라　해도　지나치지　않으리라。"
+      }
+    },
+    {
+      "window": 136,
+      "line": 0,
+      "speaker": "里子",
+      "kind": "대사",
+      "scene": 22,
+      "date": "08-08",
+      "slot": "午前",
+      "place": "愛田牧場／リビング",
+      "voice": "A5871.WAV",
+      "chars": 10,
+      "text": {
+        "ja": "ね。おいしいでしょ？",
+        "ko": "그치。　맛있지？"
+      }
+    },
+    {
+      "window": 136,
+      "line": 1,
+      "speaker": "里子",
+      "kind": "대사",
+      "scene": 22,
+      "date": "08-08",
+      "slot": "午前",
+      "place": "愛田牧場／リビング",
+      "voice": "A5871.WAV",
+      "chars": 22,
+      "text": {
+        "ja": "牧場で働いていても　滅多に食べられないのよ。",
+        "ko": "목장에서　일해도　좀처럼　못　먹는　거야。"
+      }
+    },
+    {
+      "window": 137,
+      "line": 0,
+      "speaker": "耕作",
+      "kind": "대사",
+      "scene": 22,
+      "date": "08-08",
+      "slot": "午前",
+      "place": "愛田牧場／リビング",
+      "voice": "A5872.WAV",
+      "chars": 8,
+      "text": {
+        "ja": "そうだ。めぐみ。",
+        "ko": "그래。　메구미。"
+      }
+    },
+    {
+      "window": 137,
+      "line": 1,
+      "speaker": "耕作",
+      "kind": "대사",
+      "scene": 22,
+      "date": "08-08",
+      "slot": "午前",
+      "place": "愛田牧場／リビング",
+      "voice": "A5872.WAV",
+      "chars": 19,
+      "text": {
+        "ja": "夕方の搾乳は父さんたちで何とかするから",
+        "ko": "저녁　젖　짜기는　우리가　어떻게든　할　테니"
+      }
+    },
+    {
+      "window": 137,
+      "line": 2,
+      "speaker": "耕作",
+      "kind": "대사",
+      "scene": 22,
+      "date": "08-08",
+      "slot": "午前",
+      "place": "愛田牧場／リビング",
+      "voice": "A5872.WAV",
+      "chars": 14,
+      "text": {
+        "ja": "お前は&主人公&君を送っていくといい。",
+        "ko": "넌　&主人公&군을　바래다주렴。"
+      }
+    },
+    {
+      "window": 138,
+      "line": 0,
+      "speaker": "耕作",
+      "kind": "대사",
+      "scene": 22,
+      "date": "08-08",
+      "slot": "午前",
+      "place": "愛田牧場／リビング",
+      "voice": "A5873.WAV",
+      "chars": 21,
+      "text": {
+        "ja": "夜までに帰って来れば　途中　多少の寄り道は",
+        "ko": "밤까지　돌아오면　도중에　조금　돌아가는　건"
+      }
+    },
+    {
+      "window": 138,
+      "line": 1,
+      "speaker": "耕作",
+      "kind": "대사",
+      "scene": 22,
+      "date": "08-08",
+      "slot": "午前",
+      "place": "愛田牧場／リビング",
+      "voice": "A5873.WAV",
+      "chars": 10,
+      "text": {
+        "ja": "してもかまわないよ。",
+        "ko": "해도　돼。"
+      }
+    },
+    {
+      "window": 139,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 22,
+      "date": "08-08",
+      "slot": "午前",
+      "place": "愛田牧場／リビング",
+      "voice": "A5874.WAV",
+      "chars": 17,
+      "text": {
+        "ja": "本当？　それじゃ私　海に行きたい！",
+        "ko": "정말？　그럼　바다에　가고　싶어！"
+      }
+    },
+    {
+      "window": 139,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 22,
+      "date": "08-08",
+      "slot": "午前",
+      "place": "愛田牧場／リビング",
+      "voice": "A5874.WAV",
+      "chars": 10,
+      "text": {
+        "ja": "ねぇ&主人公&さん。知ってる？",
+        "ko": "저기　&主人公&씨。　알아？"
+      }
+    },
+    {
+      "window": 139,
+      "line": 2,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 22,
+      "date": "08-08",
+      "slot": "午前",
+      "place": "愛田牧場／リビング",
+      "voice": "A5874.WAV",
+      "chars": 19,
+      "text": {
+        "ja": "留萌には黄金岬ってところがあるんだよ。",
+        "ko": "루모이에　황금곶이라는　곳이　있어。"
+      }
+    },
+    {
+      "window": 140,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 22,
+      "date": "08-08",
+      "slot": "午前",
+      "place": "愛田牧場／リビング",
+      "voice": "A5875.WAV",
+      "chars": 18,
+      "text": {
+        "ja": "真っ赤な夕日で　海が黄金みたいに輝く",
+        "ko": "새빨간　석양에　바다가　황금처럼　빛나는"
+      }
+    },
+    {
+      "window": 140,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 22,
+      "date": "08-08",
+      "slot": "午前",
+      "place": "愛田牧場／リビング",
+      "voice": "A5875.WAV",
+      "chars": 20,
+      "text": {
+        "ja": "すごく素敵な場所なんだって。行ってみよ！",
+        "ko": "정말　멋진　곳이래。　가　보자！"
+      }
+    },
+    {
+      "window": 141,
+      "line": 0,
+      "speaker": "耕作",
+      "kind": "대사",
+      "scene": 22,
+      "date": "08-08",
+      "slot": "午前",
+      "place": "愛田牧場／リビング",
+      "voice": "A5876.WAV",
+      "chars": 6,
+      "text": {
+        "ja": "それじゃ&主人公&君。",
+        "ko": "그럼　&主人公&군。"
+      }
+    },
+    {
+      "window": 141,
+      "line": 1,
+      "speaker": "耕作",
+      "kind": "대사",
+      "scene": 22,
+      "date": "08-08",
+      "slot": "午前",
+      "place": "愛田牧場／リビング",
+      "voice": "A5876.WAV",
+      "chars": 16,
+      "text": {
+        "ja": "めぐみのこと　よろしく頼んだよ。",
+        "ko": "메구미　잘　부탁하네。"
+      }
+    },
+    {
+      "window": 142,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 23,
+      "date": "08-08",
+      "slot": "夕方",
+      "place": "浜中海水浴場",
+      "voice": "A5877.WAV",
+      "chars": 18,
+      "text": {
+        "ja": "東京の小学校にいて　一番良かったのは",
+        "ko": "도쿄　초등학교에서　제일　좋았던　건"
+      }
+    },
+    {
+      "window": 142,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 23,
+      "date": "08-08",
+      "slot": "夕方",
+      "place": "浜中海水浴場",
+      "voice": "A5877.WAV",
+      "chars": 14,
+      "text": {
+        "ja": "温水プールがあったことかな？",
+        "ko": "온수　수영장이　있던　거려나？"
+      }
+    },
+    {
+      "window": 142,
+      "line": 2,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 23,
+      "date": "08-08",
+      "slot": "夕方",
+      "place": "浜中海水浴場",
+      "voice": "A5877.WAV",
+      "chars": 22,
+      "text": {
+        "ja": "だから私　クラスで一番　泳ぐのうまいんだよ。",
+        "ko": "그래서　반에서　수영　제일　잘해。"
+      }
+    },
+    {
+      "window": 143,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 23,
+      "date": "08-08",
+      "slot": "夕方",
+      "place": "浜中海水浴場",
+      "voice": "A5878.WAV",
+      "chars": 11,
+      "text": {
+        "ja": "ねぇ！　競争しようか？",
+        "ko": "저기！　경주할까？"
+      }
+    },
+    {
+      "window": 144,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 23,
+      "date": "08-08",
+      "slot": "夕方",
+      "place": "浜中海水浴場",
+      "voice": "A5879.WAV",
+      "chars": 15,
+      "text": {
+        "ja": "けほっ・・けほっ・・けほっ・・",
+        "ko": "콜록・・콜록・・콜록・・"
+      }
+    },
+    {
+      "window": 145,
+      "line": 0,
+      "speaker": "主人公",
+      "kind": "대사",
+      "scene": 23,
+      "date": "08-08",
+      "slot": "夕方",
+      "place": "浜中海水浴場",
+      "voice": "",
+      "chars": 4,
+      "text": {
+        "ja": "大丈夫？",
+        "ko": "괜찮아？"
+      }
+    },
+    {
+      "window": 146,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 23,
+      "date": "08-08",
+      "slot": "夕方",
+      "place": "浜中海水浴場",
+      "voice": "A5881.WAV",
+      "chars": 10,
+      "text": {
+        "ja": "@S@・・・@P@うっ・・うん。",
+        "ko": "@S@・・・@P@으・・응。"
+      }
+    },
+    {
+      "window": 147,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 24,
+      "date": "08-08",
+      "slot": "夕方",
+      "place": "浜中海水浴場／夕焼け",
+      "voice": "A5882.WAV",
+      "chars": 20,
+      "text": {
+        "ja": "夕べ荒井さんのこと　お母さんに話したよ。",
+        "ko": "어젯밤　아라이　씨　얘기　엄마한테　했어。"
+      }
+    },
+    {
+      "window": 147,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 24,
+      "date": "08-08",
+      "slot": "夕方",
+      "place": "浜中海水浴場／夕焼け",
+      "voice": "A5882.WAV",
+      "chars": 24,
+      "text": {
+        "ja": "責任もって育てるなら　ウチで飼ってもいいって・・",
+        "ko": "책임지고　키운다면　집에서　길러도　된대・・"
+      }
+    },
+    {
+      "window": 147,
+      "line": 2,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 24,
+      "date": "08-08",
+      "slot": "夕方",
+      "place": "浜中海水浴場／夕焼け",
+      "voice": "A5882.WAV",
+      "chars": 17,
+      "text": {
+        "ja": "うふふ・・また家族が増えちゃった。",
+        "ko": "우후후・・또　가족이　늘었네。"
+      }
+    },
+    {
+      "window": 148,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 24,
+      "date": "08-08",
+      "slot": "夕方",
+      "place": "浜中海水浴場／夕焼け",
+      "voice": "A5883.WAV",
+      "chars": 15,
+      "text": {
+        "ja": "@S@・・・@P@いろんなことがあって・・",
+        "ko": "@S@・・・@P@여러　일이　있어서・・"
+      }
+    },
+    {
+      "window": 148,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 24,
+      "date": "08-08",
+      "slot": "夕方",
+      "place": "浜中海水浴場／夕焼け",
+      "voice": "A5883.WAV",
+      "chars": 13,
+      "text": {
+        "ja": "すっごく　楽しかったよね。",
+        "ko": "정말　즐거웠지。"
+      }
+    },
+    {
+      "window": 148,
+      "line": 2,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 24,
+      "date": "08-08",
+      "slot": "夕方",
+      "place": "浜中海水浴場／夕焼け",
+      "voice": "A5883.WAV",
+      "chars": 19,
+      "text": {
+        "ja": "&主人公&さんのおかげで　最高の夏休みだったよ。",
+        "ko": "&主人公&씨　덕분에　최고의　여름방학이었어。"
+      }
+    },
+    {
+      "window": 149,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 24,
+      "date": "08-08",
+      "slot": "夕方",
+      "place": "浜中海水浴場／夕焼け",
+      "voice": "A5884.WAV",
+      "chars": 11,
+      "text": {
+        "ja": "海の向こうは外国だよ。",
+        "ko": "바다　건너는　외국이야。"
+      }
+    },
+    {
+      "window": 149,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 24,
+      "date": "08-08",
+      "slot": "夕方",
+      "place": "浜中海水浴場／夕焼け",
+      "voice": "A5884.WAV",
+      "chars": 23,
+      "text": {
+        "ja": "生きてるうちに　いくつぐらいの国に行けるかな？",
+        "ko": "살면서　몇　나라나　가　볼　수　있으려나？"
+      }
+    },
+    {
+      "window": 150,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 24,
+      "date": "08-08",
+      "slot": "夕方",
+      "place": "浜中海水浴場／夕焼け",
+      "voice": "A5885.WAV",
+      "chars": 13,
+      "text": {
+        "ja": "だってさ。不思議じゃない？",
+        "ko": "그치。　신기하지　않아？"
+      }
+    },
+    {
+      "window": 150,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 24,
+      "date": "08-08",
+      "slot": "夕方",
+      "place": "浜中海水浴場／夕焼け",
+      "voice": "A5885.WAV",
+      "chars": 21,
+      "text": {
+        "ja": "ちょっと飛行機に乗ったら言葉も顔も食べ物も",
+        "ko": "비행기　조금만　타면　말도　얼굴도　음식도"
+      }
+    },
+    {
+      "window": 150,
+      "line": 2,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 24,
+      "date": "08-08",
+      "slot": "夕方",
+      "place": "浜中海水浴場／夕焼け",
+      "voice": "A5885.WAV",
+      "chars": 15,
+      "text": {
+        "ja": "違う人たちが生活してるんだよ。",
+        "ko": "다른　사람들이　살고　있잖아。"
+      }
+    },
+    {
+      "window": 151,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 24,
+      "date": "08-08",
+      "slot": "夕方",
+      "place": "浜中海水浴場／夕焼け",
+      "voice": "A5886.WAV",
+      "chars": 18,
+      "text": {
+        "ja": "私が今まで行ったことのある国は・・・",
+        "ko": "지금까지　가　본　나라는・・・"
+      }
+    },
+    {
+      "window": 151,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 24,
+      "date": "08-08",
+      "slot": "夕方",
+      "place": "浜中海水浴場／夕焼け",
+      "voice": "A5886.WAV",
+      "chars": 13,
+      "text": {
+        "ja": "グリュック王国ぐらいかな？",
+        "ko": "글뤼크　왕국　정도려나？"
+      }
+    },
+    {
+      "window": 151,
+      "line": 2,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 24,
+      "date": "08-08",
+      "slot": "夕方",
+      "place": "浜中海水浴場／夕焼け",
+      "voice": "A5886.WAV",
+      "chars": 21,
+      "text": {
+        "ja": "・・・知ってる？　帯広にあるテーマパーク。",
+        "ko": "・・・알아？　오비히로에　있는　테마파크。"
+      }
+    },
+    {
+      "window": 152,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 25,
+      "date": "08-08",
+      "slot": "夕方",
+      "place": "浜中海水浴場／留萌駅",
+      "voice": "A5887.WAV",
+      "chars": 13,
+      "text": {
+        "ja": "雨・・降ってきたみたい・・",
+        "ko": "비・・내리기　시작했나　봐・・"
+      }
+    },
+    {
+      "window": 152,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 25,
+      "date": "08-08",
+      "slot": "夕方",
+      "place": "浜中海水浴場／留萌駅",
+      "voice": "A5887.WAV",
+      "chars": 15,
+      "text": {
+        "ja": "・・・・お別れの雨なのかな・・",
+        "ko": "・・・・이별의　비인　걸까・・"
+      }
+    },
+    {
+      "window": 153,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 25,
+      "date": "08-08",
+      "slot": "夕方",
+      "place": "浜中海水浴場／留萌駅",
+      "voice": "A5888.WAV",
+      "chars": 17,
+      "text": {
+        "ja": "４日間・・すごく・・楽しかったよ。",
+        "ko": "４일간・・정말・・즐거웠어。"
+      }
+    },
+    {
+      "window": 153,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 25,
+      "date": "08-08",
+      "slot": "夕方",
+      "place": "浜中海水浴場／留萌駅",
+      "voice": "A5888.WAV",
+      "chars": 5,
+      "text": {
+        "ja": "さよなら。",
+        "ko": "잘　가。"
+      }
+    },
+    {
+      "window": 154,
+      "line": 0,
+      "speaker": "主人公",
+      "kind": "대사",
+      "scene": 25,
+      "date": "08-08",
+      "slot": "夕方",
+      "place": "浜中海水浴場／留萌駅",
+      "voice": "",
+      "chars": 5,
+      "text": {
+        "ja": "さよなら。",
+        "ko": "잘　가。"
+      }
+    },
+    {
+      "window": 155,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 25,
+      "date": "08-08",
+      "slot": "夕方",
+      "place": "浜中海水浴場／留萌駅",
+      "voice": "A5890.WAV",
+      "chars": 13,
+      "text": {
+        "ja": "『さよなら』って言葉は・・",
+        "ko": "『잘　가』라는　말은・・"
+      }
+    },
+    {
+      "window": 155,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 25,
+      "date": "08-08",
+      "slot": "夕方",
+      "place": "浜中海水浴場／留萌駅",
+      "voice": "A5890.WAV",
+      "chars": 13,
+      "text": {
+        "ja": "『またね』って意味だよね。",
+        "ko": "『또　봐』라는　뜻이지。"
+      }
+    },
+    {
+      "window": 156,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 25,
+      "date": "08-08",
+      "slot": "夕方",
+      "place": "浜中海水浴場／留萌駅",
+      "voice": "A5891.WAV",
+      "chars": 14,
+      "text": {
+        "ja": "@S@・・・@P@また・・美瑛に来てね。",
+        "ko": "@S@・・・@P@또・・비에이에　와。"
+      }
+    },
+    {
+      "window": 156,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 25,
+      "date": "08-08",
+      "slot": "夕方",
+      "place": "浜中海水浴場／留萌駅",
+      "voice": "A5891.WAV",
+      "chars": 8,
+      "text": {
+        "ja": "私　待ってるよ。",
+        "ko": "기다리고　있을게。"
+      }
+    },
+    {
+      "window": 157,
+      "line": 0,
+      "speaker": "主人公",
+      "kind": "대사",
+      "scene": 25,
+      "date": "08-08",
+      "slot": "夕方",
+      "place": "浜中海水浴場／留萌駅",
+      "voice": "",
+      "chars": 3,
+      "text": {
+        "ja": "うん。",
+        "ko": "응。"
+      }
+    }
+  ]
 }
