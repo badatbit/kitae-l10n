@@ -34,7 +34,7 @@ from kitae.core.enc2 import compress, decompress
 
 
 # ───────────────────────────── typelet 렌더 ─────────────────────────────
-def load_composer(jaguk_json, use_cache=True):
+def load_composer(jaguk_json, use_cache=True, typelet_root=None):
     """typelet 프로젝트를 열고 `compose(member_relative) -> PIL.Image|None` 반환.
 
     compose 는 그 멤버의 번역 행들을 모아 compose_file 로 최종 이미지를 만든다
@@ -43,11 +43,21 @@ def load_composer(jaguk_json, use_cache=True):
     렌더는 멤버당 ~1s 로 느리므로, 결과를 typelet 산출 위치(images/injected/)에
     write-through 캐시한다. use_cache 면 이미 있는 PNG 를 로드(빠름) — 재개 가능.
     번역이 바뀌면 injected/ 를 지우고 다시 굽는다(또는 use_cache=False).
+
+    typelet_root: type-lettering 코드 패키지 경로. 설치본이면 None(=cfg.typelet_root
+    가 None 을 준다). 절대경로를 코드에 박지 않고 호출측(cfg)에서 넘긴다.
     """
     import sys
-    sys.path.insert(0, 'F:/dev-furaiki3/type-lettering')
-    from typelet import config as tconfig, render as R, ledger as ledgermod
-    from typelet.render import safe_path
+    if typelet_root and typelet_root not in sys.path:
+        sys.path.insert(0, typelet_root)
+    try:
+        from typelet import config as tconfig, render as R, ledger as ledgermod
+        from typelet.render import safe_path
+    except ImportError as e:
+        raise RuntimeError(
+            "type-lettering(jaguk) 를 찾을 수 없습니다. `pip install -e` 로 설치하거나 "
+            "kitae.config.json 의 paths.typelet 에 체크아웃 경로를 지정하세요."
+        ) from e
 
     project = tconfig.load_path(Path(jaguk_json))
     data = ledgermod.load(project)
@@ -56,6 +66,7 @@ def load_composer(jaguk_json, use_cache=True):
     terms = ledgermod.load_terms(project, data)
     if terms:
         ledgermod.apply_terms(all_rows, terms)
+    rules_map = ledgermod.rules(data)
 
     by_file = defaultdict(list)
     for row in all_rows:
@@ -68,10 +79,20 @@ def load_composer(jaguk_json, use_cache=True):
         by_file[rs.file].append(rs)
 
     inj_root = project.output_root
+    base_root = project.base_root       # = images/erased (일본어만 지운 베이스)
 
     def compose(relative):
         specs = by_file.get(relative)
         if not specs:
+            # 한글 레이블이 없는 멤버 — 원장의 규칙(rules) mode 로 판정한다.
+            # 이 판단은 전부 jaguk 쪽 데이터로 끝난다(runner 는 몰라도 된다):
+            #   no-text → GUI 와 똑같이 injected = erased(일본어만 지운 판)를 준다.
+            #   그 밖(ignore·auto·번역대기) → None(원본 유지, 안 건드림).
+            _, rule = ledgermod.match_rule(rules_map, relative)
+            if ledgermod.rule_mode(rule) == 'no-text':
+                bp = safe_path(base_root, relative)
+                if bp.exists():
+                    return Image.open(bp).convert('RGBA')
             return None
         p = safe_path(inj_root, relative)
         if use_cache and p.exists():
@@ -468,6 +489,53 @@ def build_replacements(cab, compose, verbose=False, set_prefix='soz_', container
         repl[sn] = newset; repl.update(new_dds)
         report.append((mp, kind, len(new_dds)))
     return repl, report
+
+
+def quantized_compose(compose, k):
+    """compose 결과를 K색으로 중앙값절단 감축(dither 없음)한 compose 를 돌려준다.
+
+    erased 가 원본 텍스처보다 색이 많으면(부드러운 그라데이션) RGB555 로 패킹해도
+    LZSS 런이 짧아 dds 가 커진다. 색을 줄이면 평탄한 런이 생겨 압축이 회복된다.
+    슬롯을 넘는 컨테이너에만 쓴다. 알파는 보존(오버레이 대비, 무텍스트는 불투명).
+    """
+    cache = {}
+    def c(rel):
+        img = compose(rel)
+        if img is None:
+            return None
+        if rel not in cache:
+            rgb = img.convert('RGB').quantize(
+                colors=k, method=Image.MEDIANCUT, dither=Image.NONE).convert('RGB')
+            a = img.convert('RGBA').split()[3]
+            cache[rel] = Image.merge('RGBA', (*rgb.split(), a))
+        return cache[rel]
+    return c
+
+
+def build_to_fit(cab_path, compose, container, cap, out_path,
+                 steps=(None, 128, 96, 64, 48, 40, 32)):
+    """CB 를 슬롯(cap 바이트)에 맞게 만든다 — 원화질 우선, 넘치면 색을 낮춰 재시도.
+
+    제자리 패치는 슬롯을 못 넘으니(다음 파일 침범), erased 가 무거워 넘칠 때
+    가장 높은 화질(가장 큰 K)로 맞춘다. 반환 (report, k_used):
+      k_used=None  원화질로 맞음
+      k_used=<int> 그 색수로 감축해 맞음
+      report=None  최저 감축(steps 끝)으로도 못 맞춤 → 호출측이 건너뛴다
+    """
+    from kitae.build.smf import repack_cab
+    last = None
+    for k in steps:
+        comp = compose if k is None else quantized_compose(compose, k)
+        repl, rep = build_replacements(Cab(cab_path), comp,
+                                       set_prefix="", container=container,
+                                       raster_only=True)
+        if not repl:
+            return [], None                 # 주입할 것이 없음(정상)
+        repack_cab(cab_path, repl, out_path)
+        if os.path.getsize(out_path) <= cap:
+            return rep, k
+        last = (rep, k)
+    return None, (last[1] if last else None)
 
 
 # ─────────────────────────── 디스크 재배치/적용 ───────────────────────────

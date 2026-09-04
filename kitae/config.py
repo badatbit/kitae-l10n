@@ -33,6 +33,9 @@ DEFAULTS = {
     "paths": {
         # 폰트 소스 DLL. 비면 dump/build|assets/TRF/TRFSTRINGS.DLL 를 찾는다.
         "trfstrings_dll": "",
+        # type-lettering(jaguk) 코드 패키지. 비면 import(설치본) → 이웃 폴더
+        # 순으로 찾는다. 설치도 이웃도 아니면 여기에 체크아웃 경로를 적는다.
+        "typelet": "",
     },
 }
 
@@ -117,6 +120,35 @@ class Config(dict):
         for sub in ("build", "assets"):
             p = self.path("dump", sub, "TRF", "TRFSTRINGS.DLL")
             if os.path.exists(p):
+                return p
+        return None
+
+    def typelet_root(self):
+        """type-lettering(jaguk) 코드 패키지 경로. 하드코딩 대신 이 한 곳에서 푼다.
+
+        import 되면(pip -e 설치) None — 경로 삽입이 필요 없다. 아니면
+        env TYPELET_ROOT > config paths.typelet > 관례적 이웃 위치 순. 다 실패하면
+        None(그땐 load_composer 가 설치/설정 안내와 함께 실패한다).
+        """
+        try:
+            import typelet  # noqa: F401
+            return None
+        except ImportError:
+            pass
+        def _ok(p):
+            return p and os.path.isdir(os.path.join(p, "typelet"))
+        env = os.environ.get("TYPELET_ROOT")
+        if _ok(env):
+            return env
+        override = (self.get("paths") or {}).get("typelet")
+        if override:
+            p = self.path(override)
+            if _ok(p):
+                return p
+        for cand in ("../type-lettering", "../../type-lettering",
+                     "../furaiki3/type-lettering"):
+            p = os.path.normpath(os.path.join(self.root, cand))
+            if _ok(p):
                 return p
         return None
 

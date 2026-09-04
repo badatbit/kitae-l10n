@@ -15,4 +15,7 @@ tmp/
 *.egg-info/
 *.bak
 *.bak[0-9]
+*.bak_*
 _textbak/
+# 합성 이미지 캐시 — erased+원장에서 compose 로 재생성된다
+images/injected/

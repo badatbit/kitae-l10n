@@ -310,31 +310,14 @@ def _build(cfg, scripts, lang, want_font=True):
         from kitae.build import soz as soz_mod
         soz_base = out_soz or uipatch.original(cfg, "/RESOURCE/SOZ.CB")
         srepl, srep = soz_mod.build_replacements(
-            Cab(soz_base), soz_mod.load_composer(_jaguk))
+            Cab(soz_base),
+            soz_mod.load_composer(_jaguk, typelet_root=cfg.typelet_root()))
         if srepl:
             out_soz = _work(cfg, "build", "SOZ_final.CB")
             smf_mod.repack_cab(soz_base, srepl, out_soz)
             sng = sum(1 for _, k, _ in srep if k in ("glyph", "glyph+base"))
             print(f"  지도 라벨: 글리프 {sng}, 래스터 {len(srep) - sng} 맵  "
                   f"→ SOZ.CB {os.path.getsize(out_soz):,}")
-
-    # 3b''. M08.CB 이름판(BGHut) 이미지 ------------------------------------
-    # SOZ 와 같은 SET+DDS 아틀라스 구조. 합성 한글 이미지(images/injected/M08)를
-    # BGHut.set 에 주입한다. soz 모듈을 컨테이너 인자로 재사용.
-    out_m08 = None
-    if os.path.exists(_jaguk):
-        from kitae.build import soz as soz_mod
-        m08_cb = uipatch.original(cfg, "/RESOURCE/M08.CB")
-        # raster(제자리 덮어쓰기) — 글리프 패킹은 텍스처를 키워 슬롯을 넘는다.
-        mrepl, mrep = soz_mod.build_replacements(
-            Cab(m08_cb), soz_mod.load_composer(_jaguk),
-            set_prefix="bghut", container="M08", raster_only=True)
-        if mrepl:
-            out_m08 = _work(cfg, "build", "M08.CB")
-            smf_mod.repack_cab(m08_cb, mrepl, out_m08)
-            nd = sum(n for _, _, n in mrep)
-            print(f"  M08 이름판: 텍스처 {nd} 맵 → M08.CB "
-                  f"{os.path.getsize(out_m08):,} / 원본 {os.path.getsize(m08_cb):,}")
 
     # 3c. 퀴즈 문제 ----------------------------------------------------------
     # M05.CB 안의 Quiz.mhd. 문제 292개가 CLSS 객체로 들어 있다.
@@ -368,6 +351,45 @@ def _build(cfg, scripts, lang, want_font=True):
             print(f"M05.CB  {os.path.getsize(out_m05):,} / 원본 "
                   f"{os.path.getsize(m05_cb):,}")
 
+    # 3d. SOZ 외 컨테이너 이미지 주입 ---------------------------------------
+    # runner 는 어떤 컨테이너·멤버가 있는지 일일이 적지 않는다. `images/erased/`
+    # 하위 폴더 하나가 곧 한 컨테이너(= RESOURCE/<C>.CB)다. 무엇을 넣을지(한글
+    # overlay / 지우기 no-text / 안 건드림)는 전부 jaguk 원장의 규칙이 정하고,
+    # compose 가 최종 이미지를 돌려준다. 여기선 그걸 각 CB 의 모든 SET 에
+    # 래스터(제자리)로 주입만 한다 — 새 이미지·새 컨테이너가 늘어도 코드는 그대로.
+    #   · SOZ 는 글리프 패킹 + 슬롯 재배치가 필요해 위(3b')에서 따로 처리한다.
+    #   · M05 처럼 이미 다른 것(퀴즈)으로 패치된 CB 는 그 산출물 위에 이어 넣는다.
+    image_cbs = {}                       # "RESOURCE/<C>.CB" -> 빌드 경로
+    if os.path.exists(_jaguk):
+        from kitae.build import soz as soz_mod
+        from kitae.core.gdfs import GdFs
+        compose = soz_mod.load_composer(_jaguk, typelet_root=cfg.typelet_root())
+        prebuilt = {"M05": out_m05}      # 앞 단계가 이미 만든 베이스가 있으면 그 위에
+        erased_root = cfg.path("images", "erased")
+        _ofs = GdFs(track=glob.glob(
+            os.path.join(cfg.dir("orig_dir"), "*track03.bin"))[0])
+        for cont in sorted(os.listdir(erased_root)):
+            if cont == "SOZ" or not os.path.isdir(os.path.join(erased_root, cont)):
+                continue
+            base = prebuilt.get(cont) or uipatch.original(cfg, f"/RESOURCE/{cont}.CB")
+            # 앞 단계(퀴즈)의 <C>.CB 를 덮어쓰지 않도록 별도 파일로 낸다 —
+            # 슬롯 초과로 건너뛰면 앞 산출물이 그대로 최종본으로 남아야 한다.
+            outp = _work(cfg, "build", f"{cont}.img.CB")
+            cap = ((_ofs.find(f"RESOURCE/{cont}.CB")[1] + 2047) // 2048) * 2048
+            # 제자리 패치는 슬롯을 못 넘으니(다음 파일 침범) 원화질로 먼저,
+            # erased 가 무거워 넘치면 색을 낮춰 가장 높은 화질로 슬롯에 맞춘다.
+            rep, kused = soz_mod.build_to_fit(base, compose, cont, cap, outp)
+            if rep is None:
+                print(f"  ⚠ {cont} 이미지: 최저 색수로도 슬롯 초과 — 이번 빌드는 건너뜀")
+                continue
+            done = ", ".join(f"{mp}×{n}" for mp, k, n in rep if n)
+            if not done:
+                continue                    # 주입할 멤버 없음(정상)
+            image_cbs[f"RESOURCE/{cont}.CB"] = outp
+            qnote = "원화질" if kused is None else f"{kused}색 감축"
+            print(f"  {cont} 이미지({qnote}): {done} → "
+                  f"{os.path.getsize(outp):,} / 슬롯 {cap:,}")
+
     # 4~5. 디스크 -----------------------------------------------------------
     # `dist/` 가 아니라 `work/stage` 에서 만든다. 중간에 죽어도 직전 이미지가
     # 살아 있어야 한다 — 위 도크스트링의 `★` 참고.
@@ -385,11 +407,14 @@ def _build(cfg, scripts, lang, want_font=True):
             shutil.copyfile(p, os.path.join(stage, name))
     track = glob.glob(os.path.join(stage, "*track03.bin"))[0]
 
-    for disc_path, built in (("RESOURCE/PLOT.CB", out_plot),
-                             ("RESOURCE/MTG.CB", out_mtg),
-                             ("RESOURCE/SOZ.CB", out_soz),
-                             ("RESOURCE/M05.CB", out_m05),
-                             ("RESOURCE/M08.CB", out_m08)):
+    # 대사·타이밍·SOZ·퀴즈 산출물에, 이미지 주입본(image_cbs)을 덮어쓴다.
+    # image_cbs 의 M05 는 퀴즈 산출물 위에 이미지를 얹은 것이라 그게 최종본이다.
+    disc_builds = {"RESOURCE/PLOT.CB": out_plot,
+                   "RESOURCE/MTG.CB": out_mtg,
+                   "RESOURCE/SOZ.CB": out_soz,
+                   "RESOURCE/M05.CB": out_m05}
+    disc_builds.update(image_cbs)
+    for disc_path, built in disc_builds.items():
         if not built:
             continue
         tmp = track + ".tmp"

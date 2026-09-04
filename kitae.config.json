@@ -54,7 +54,8 @@
     "YUKO_02"
   ],
   "paths": {
-    "trfstrings_dll": ""
+    "trfstrings_dll": "",
+    "typelet": "F:/dev-furaiki3/type-lettering"
   },
   "emulator_fixes": {
     "choice_gate": true
