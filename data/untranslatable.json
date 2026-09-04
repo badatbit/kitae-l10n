@@ -1,6 +1,6 @@
 {
  "note": "조회 키라서 번역하지 않은 문자열. docs/UI-TEXT.md 참고",
- "count": 100,
+ "count": 104,
  "entries": [
   {
    "module": "COMMONSAVE",
@@ -289,11 +289,6 @@
   },
   {
    "module": "TRFQUIZ",
-   "offset": "0x0201bc",
-   "ja": "ターニャ"
-  },
-  {
-   "module": "TRFQUIZ",
    "offset": "0x0201c8",
    "ja": "由子"
   },
@@ -316,11 +311,6 @@
    "module": "TRFQUIZ",
    "offset": "0x0201e0",
    "ja": "めぐみ"
-  },
-  {
-   "module": "TRFQUIZ",
-   "offset": "0x02025c",
-   "ja": "ターニャ"
   },
   {
    "module": "TRFQUIZ",
@@ -370,6 +360,36 @@
   {
    "module": "TRFSHOTING",
    "offset": "0x038810",
+   "ja": "オプション"
+  },
+  {
+   "module": "TRFSUNFLOWERMAZE",
+   "offset": "0x023854",
+   "ja": "操作説明聞く"
+  },
+  {
+   "module": "TRFSUNFLOWERMAZE",
+   "offset": "0x023890",
+   "ja": "対戦相手１"
+  },
+  {
+   "module": "TRFSUNFLOWERMAZE",
+   "offset": "0x0238d0",
+   "ja": "オプション"
+  },
+  {
+   "module": "TRFSUNFLOWERMAZE",
+   "offset": "0x023940",
+   "ja": "時間帯"
+  },
+  {
+   "module": "TRFSUNFLOWERMAZE",
+   "offset": "0x023988",
+   "ja": "迷路タイム"
+  },
+  {
+   "module": "TRFSUNFLOWERMAZE",
+   "offset": "0x0239c0",
    "ja": "オプション"
   },
   {
