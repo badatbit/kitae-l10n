@@ -15,7 +15,8 @@
   "fonts": {
     "IBM Plex Sans KR/400": "IBMPlexSansKR-Text.otf",
     "IBM Plex Sans KR/500": "IBMPlexSansKR-Medium.otf",
-    "IBM Plex Sans KR/600": "IBMPlexSansKR-SemiBold.otf"
+    "IBM Plex Sans KR/600": "IBMPlexSansKR-SemiBold.otf",
+    "IBM Plex Sans KR/300": "IBMPlexSansKR-Light.otf"
   },
   "supersample": 4
 }

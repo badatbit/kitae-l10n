@@ -1,886 +1,886 @@
 {
- "script": "KOZUE_CBS",
- "source": "ja",
- "entries": [
-  {
-   "window": 0,
-   "line": 0,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 0,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a3032.wav",
-   "chars": 8,
-   "text": {
-    "ja": "あ・・ごめーん。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 0,
-   "line": 1,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 0,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a3032.wav",
-   "chars": 11,
-   "text": {
-    "ja": "同時に喋っちゃったね。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 0,
-   "line": 2,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 0,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a3032.wav",
-   "chars": 8,
-   "text": {
-    "ja": "お先にどうぞ・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 1,
-   "line": 0,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 0,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a3033.wav",
-   "chars": 7,
-   "text": {
-    "ja": "あのさぁ・・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 1,
-   "line": 1,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 0,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a3033.wav",
-   "chars": 19,
-   "text": {
-    "ja": "・・・ごめん・・一緒に言っちゃったね。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 1,
-   "line": 2,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 0,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a3033.wav",
-   "chars": 19,
-   "text": {
-    "ja": "しょうがないなぁ・・先に喋っていいよ。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 2,
-   "line": 0,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 0,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a3034.wav",
-   "chars": 17,
-   "text": {
-    "ja": "でさぁ！　・・・あ・・ごめーん・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 2,
-   "line": 1,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 0,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a3034.wav",
-   "chars": 8,
-   "text": {
-    "ja": "お先にどうぞ・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 3,
-   "line": 0,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a3035.wav",
-   "chars": 7,
-   "text": {
-    "ja": "え？　何よ・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 4,
-   "line": 0,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a3036.wav",
-   "chars": 9,
-   "text": {
-    "ja": "え？　なんですか？",
-    "ko": ""
-   }
-  },
-  {
-   "window": 5,
-   "line": 0,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a3037.wav",
-   "chars": 3,
-   "text": {
-    "ja": "はい？",
-    "ko": ""
-   }
-  },
-  {
-   "window": 6,
-   "line": 0,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a3038.wav",
-   "chars": 23,
-   "text": {
-    "ja": "ねぇ！　今　私喋ってるでしょ？　・・何なのよ？",
-    "ko": ""
-   }
-  },
-  {
-   "window": 7,
-   "line": 0,
-   "speaker": "梢",
-   "kind": "대기",
-   "scene": null,
-   "date": null,
-   "slot": null,
-   "place": null,
-   "voice": "",
-   "chars": 11,
-   "text": {
-    "ja": "もう一回最初から話して",
-    "ko": ""
-   }
-  },
-  {
-   "window": 7,
-   "line": 1,
-   "speaker": "梢",
-   "kind": "대기",
-   "scene": null,
-   "date": null,
-   "slot": null,
-   "place": null,
-   "voice": "",
-   "chars": 11,
-   "text": {
-    "ja": "その話題・・もういいよ",
-    "ko": ""
-   }
-  },
-  {
-   "window": 7,
-   "line": 2,
-   "speaker": "梢",
-   "kind": "대기",
-   "scene": null,
-   "date": null,
-   "slot": null,
-   "place": null,
-   "voice": "",
-   "chars": 11,
-   "text": {
-    "ja": "いや・・何でもない・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 7,
-   "line": 3,
-   "speaker": "梢",
-   "kind": "대기",
-   "scene": null,
-   "date": null,
-   "slot": null,
-   "place": null,
-   "voice": "",
-   "chars": 9,
-   "text": {
-    "ja": "プレゼントをあげる",
-    "ko": ""
-   }
-  },
-  {
-   "window": 8,
-   "line": 0,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a3039.wav",
-   "chars": 9,
-   "text": {
-    "ja": "うん。いいけど・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 9,
-   "line": 0,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a3040.wav",
-   "chars": 3,
-   "text": {
-    "ja": "うん。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 10,
-   "line": 0,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a3041.wav",
-   "chars": 6,
-   "text": {
-    "ja": "いいけど・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 11,
-   "line": 0,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a3042.wav",
-   "chars": 23,
-   "text": {
-    "ja": "@S@・・・@P@そういう言い方って　ないと思うけどな・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 11,
-   "line": 1,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a3042.wav",
-   "chars": 15,
-   "text": {
-    "ja": "まぁいいや・・何話そうかな・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 11,
-   "line": 2,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a3042.wav",
-   "chars": 11,
-   "text": {
-    "ja": "・・あ・・そうそう・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 12,
-   "line": 0,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a3043.wav",
-   "chars": 11,
-   "text": {
-    "ja": "@S@・・・・・・@P@かちーん！",
-    "ko": ""
-   }
-  },
-  {
-   "window": 12,
-   "line": 1,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a3043.wav",
-   "chars": 14,
-   "text": {
-    "ja": "じゃぁ・・どうしようかな・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 12,
-   "line": 2,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a3043.wav",
-   "chars": 15,
-   "text": {
-    "ja": "・・あ・・そうだ。・・あのね。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 13,
-   "line": 0,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a3044.wav",
-   "chars": 9,
-   "text": {
-    "ja": "もう！　何なのよ！",
-    "ko": ""
-   }
-  },
-  {
-   "window": 13,
-   "line": 1,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a3044.wav",
-   "chars": 15,
-   "text": {
-    "ja": "・・・なんか　頭きちゃうな・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 13,
-   "line": 2,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a3044.wav",
-   "chars": 16,
-   "text": {
-    "ja": "・・それじゃ　こういう話はどう？",
-    "ko": ""
-   }
-  },
-  {
-   "window": 14,
-   "line": 0,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a3045.WAV",
-   "chars": 8,
-   "text": {
-    "ja": "@S@・・@P@変なひと・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 14,
-   "line": 1,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a3045.WAV",
-   "chars": 21,
-   "text": {
-    "ja": "どこまで話したか　忘れちゃったじゃない・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 14,
-   "line": 2,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a3045.WAV",
-   "chars": 18,
-   "text": {
-    "ja": "・・・何だっけ？　あ・・そうそう・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 15,
-   "line": 0,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a3046.wav",
-   "chars": 17,
-   "text": {
-    "ja": "何でもないなら最初から黙っててよ。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 15,
-   "line": 1,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a3046.wav",
-   "chars": 21,
-   "text": {
-    "ja": "どこまで話したか　忘れちゃったじゃない・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 15,
-   "line": 2,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a3046.wav",
-   "chars": 18,
-   "text": {
-    "ja": "・・・何だっけ？　あ・・そうそう・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 16,
-   "line": 0,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a3047.wav",
-   "chars": 17,
-   "text": {
-    "ja": "@S@・・・@P@なぁんか・・頭きちゃうな・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 16,
-   "line": 1,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a3047.wav",
-   "chars": 21,
-   "text": {
-    "ja": "どこまで話したか　忘れちゃったじゃない・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 16,
-   "line": 2,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a3047.wav",
-   "chars": 18,
-   "text": {
-    "ja": "・・・何だっけ？　あ・・そうそう・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 17,
-   "line": 0,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a3045.WAV",
-   "chars": 8,
-   "text": {
-    "ja": "@S@・・@P@変なひと・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 17,
-   "line": 1,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a3045.WAV",
-   "chars": 21,
-   "text": {
-    "ja": "どこまで話したか　忘れちゃったじゃない・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 17,
-   "line": 2,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a3045.WAV",
-   "chars": 18,
-   "text": {
-    "ja": "・・・何だっけ？　あ・・そうそう・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 18,
-   "line": 0,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a7426.wav",
-   "chars": 14,
-   "text": {
-    "ja": "え？　それ・・私にくれるの？",
-    "ko": ""
-   }
-  },
-  {
-   "window": 18,
-   "line": 1,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a7426.wav",
-   "chars": 21,
-   "text": {
-    "ja": "うわぁ！　ありがとう！　私　大切にするよ。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 19,
-   "line": 0,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a7427.wav",
-   "chars": 14,
-   "text": {
-    "ja": "え？　それ・・私にくれるの？",
-    "ko": ""
-   }
-  },
-  {
-   "window": 19,
-   "line": 1,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a7427.wav",
-   "chars": 19,
-   "text": {
-    "ja": "まぁ　もらっておこうかな・・ありがと。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 20,
-   "line": 0,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a7428.wav",
-   "chars": 14,
-   "text": {
-    "ja": "え？　それって　プレゼント？",
-    "ko": ""
-   }
-  },
-  {
-   "window": 20,
-   "line": 1,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a7428.wav",
-   "chars": 14,
-   "text": {
-    "ja": "悪いけど　私それ持ってるよ。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 20,
-   "line": 2,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a7428.wav",
-   "chars": 20,
-   "text": {
-    "ja": "２個もらってもしょうがないから　いいよ。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 21,
-   "line": 0,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a7429.wav",
-   "chars": 14,
-   "text": {
-    "ja": "え？　それ・・私にくれるの？",
-    "ko": ""
-   }
-  },
-  {
-   "window": 21,
-   "line": 1,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a7429.wav",
-   "chars": 16,
-   "text": {
-    "ja": "悪いけど　それ趣味じゃないな・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 21,
-   "line": 2,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a7429.wav",
-   "chars": 14,
-   "text": {
-    "ja": "せっかくだけど・・・いいよ。",
-    "ko": ""
-   }
-  },
-  {
-   "window": 22,
-   "line": 0,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 2,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a3048.wav",
-   "chars": 17,
-   "text": {
-    "ja": "@S@・・・・・@P@ねぇ・・何で黙ってるの？",
-    "ko": ""
-   }
-  },
-  {
-   "window": 22,
-   "line": 1,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 2,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a3048.wav",
-   "chars": 21,
-   "text": {
-    "ja": "ひょっとして私　興味ない話題ふっちゃった？",
-    "ko": ""
-   }
-  },
-  {
-   "window": 23,
-   "line": 0,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 2,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a3049.wav",
-   "chars": 15,
-   "text": {
-    "ja": "@S@・・・@P@なんか黙っちゃったね・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 23,
-   "line": 1,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 2,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a3049.wav",
-   "chars": 10,
-   "text": {
-    "ja": "私　変なこと言った？",
-    "ko": ""
-   }
-  },
-  {
-   "window": 24,
-   "line": 0,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 2,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a3050.wav",
-   "chars": 12,
-   "text": {
-    "ja": "もしもし？　もしもーし！",
-    "ko": ""
-   }
-  }
- ]
+  "script": "KOZUE_CBS",
+  "source": "ja",
+  "entries": [
+    {
+      "window": 0,
+      "line": 0,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 0,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a3032.wav",
+      "chars": 8,
+      "text": {
+        "ja": "あ・・ごめーん。",
+        "ko": "아・・미안해。"
+      }
+    },
+    {
+      "window": 0,
+      "line": 1,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 0,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a3032.wav",
+      "chars": 11,
+      "text": {
+        "ja": "同時に喋っちゃったね。",
+        "ko": "동시에　말해버렸네。"
+      }
+    },
+    {
+      "window": 0,
+      "line": 2,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 0,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a3032.wav",
+      "chars": 8,
+      "text": {
+        "ja": "お先にどうぞ・・",
+        "ko": "먼저　말해・・"
+      }
+    },
+    {
+      "window": 1,
+      "line": 0,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 0,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a3033.wav",
+      "chars": 7,
+      "text": {
+        "ja": "あのさぁ・・・",
+        "ko": "있잖아・・・"
+      }
+    },
+    {
+      "window": 1,
+      "line": 1,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 0,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a3033.wav",
+      "chars": 19,
+      "text": {
+        "ja": "・・・ごめん・・一緒に言っちゃったね。",
+        "ko": "・・・미안・・같이　말해버렸네。"
+      }
+    },
+    {
+      "window": 1,
+      "line": 2,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 0,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a3033.wav",
+      "chars": 19,
+      "text": {
+        "ja": "しょうがないなぁ・・先に喋っていいよ。",
+        "ko": "어쩔　수　없네・・먼저　말해도　돼。"
+      }
+    },
+    {
+      "window": 2,
+      "line": 0,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 0,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a3034.wav",
+      "chars": 17,
+      "text": {
+        "ja": "でさぁ！　・・・あ・・ごめーん・・",
+        "ko": "그래서！　・・・아・・미안・・"
+      }
+    },
+    {
+      "window": 2,
+      "line": 1,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 0,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a3034.wav",
+      "chars": 8,
+      "text": {
+        "ja": "お先にどうぞ・・",
+        "ko": "먼저　말해・・"
+      }
+    },
+    {
+      "window": 3,
+      "line": 0,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a3035.wav",
+      "chars": 7,
+      "text": {
+        "ja": "え？　何よ・・",
+        "ko": "응？　뭔데・・"
+      }
+    },
+    {
+      "window": 4,
+      "line": 0,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a3036.wav",
+      "chars": 9,
+      "text": {
+        "ja": "え？　なんですか？",
+        "ko": "응？　뭐라고요？"
+      }
+    },
+    {
+      "window": 5,
+      "line": 0,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a3037.wav",
+      "chars": 3,
+      "text": {
+        "ja": "はい？",
+        "ko": "네？"
+      }
+    },
+    {
+      "window": 6,
+      "line": 0,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a3038.wav",
+      "chars": 23,
+      "text": {
+        "ja": "ねぇ！　今　私喋ってるでしょ？　・・何なのよ？",
+        "ko": "야！　지금　나　말하고　있잖아？　・・뭔데？"
+      }
+    },
+    {
+      "window": 7,
+      "line": 0,
+      "speaker": "梢",
+      "kind": "대기",
+      "scene": null,
+      "date": null,
+      "slot": null,
+      "place": null,
+      "voice": "",
+      "chars": 11,
+      "text": {
+        "ja": "もう一回最初から話して",
+        "ko": "다시　처음부터　말해줘"
+      }
+    },
+    {
+      "window": 7,
+      "line": 1,
+      "speaker": "梢",
+      "kind": "대기",
+      "scene": null,
+      "date": null,
+      "slot": null,
+      "place": null,
+      "voice": "",
+      "chars": 11,
+      "text": {
+        "ja": "その話題・・もういいよ",
+        "ko": "그　얘긴・・이제　됐어"
+      }
+    },
+    {
+      "window": 7,
+      "line": 2,
+      "speaker": "梢",
+      "kind": "대기",
+      "scene": null,
+      "date": null,
+      "slot": null,
+      "place": null,
+      "voice": "",
+      "chars": 11,
+      "text": {
+        "ja": "いや・・何でもない・・",
+        "ko": "아니・・아무것도　아냐・・"
+      }
+    },
+    {
+      "window": 7,
+      "line": 3,
+      "speaker": "梢",
+      "kind": "대기",
+      "scene": null,
+      "date": null,
+      "slot": null,
+      "place": null,
+      "voice": "",
+      "chars": 9,
+      "text": {
+        "ja": "プレゼントをあげる",
+        "ko": "선물을　줄게"
+      }
+    },
+    {
+      "window": 8,
+      "line": 0,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a3039.wav",
+      "chars": 9,
+      "text": {
+        "ja": "うん。いいけど・・",
+        "ko": "응。　괜찮은데・・"
+      }
+    },
+    {
+      "window": 9,
+      "line": 0,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a3040.wav",
+      "chars": 3,
+      "text": {
+        "ja": "うん。",
+        "ko": "응。"
+      }
+    },
+    {
+      "window": 10,
+      "line": 0,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a3041.wav",
+      "chars": 6,
+      "text": {
+        "ja": "いいけど・・",
+        "ko": "괜찮은데・・"
+      }
+    },
+    {
+      "window": 11,
+      "line": 0,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a3042.wav",
+      "chars": 23,
+      "text": {
+        "ja": "@S@・・・@P@そういう言い方って　ないと思うけどな・・",
+        "ko": "@S@・・・@P@그런　말투는　아니라고　생각하는데・・"
+      }
+    },
+    {
+      "window": 11,
+      "line": 1,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a3042.wav",
+      "chars": 15,
+      "text": {
+        "ja": "まぁいいや・・何話そうかな・・",
+        "ko": "뭐　됐어・・무슨　얘기할까・・"
+      }
+    },
+    {
+      "window": 11,
+      "line": 2,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a3042.wav",
+      "chars": 11,
+      "text": {
+        "ja": "・・あ・・そうそう・・",
+        "ko": "・・아・・맞다・・"
+      }
+    },
+    {
+      "window": 12,
+      "line": 0,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a3043.wav",
+      "chars": 11,
+      "text": {
+        "ja": "@S@・・・・・・@P@かちーん！",
+        "ko": "@S@・・・・・・@P@욱！"
+      }
+    },
+    {
+      "window": 12,
+      "line": 1,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a3043.wav",
+      "chars": 14,
+      "text": {
+        "ja": "じゃぁ・・どうしようかな・・",
+        "ko": "그럼・・어떡하지・・"
+      }
+    },
+    {
+      "window": 12,
+      "line": 2,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a3043.wav",
+      "chars": 15,
+      "text": {
+        "ja": "・・あ・・そうだ。・・あのね。",
+        "ko": "・・아・・맞다。　・・있잖아。"
+      }
+    },
+    {
+      "window": 13,
+      "line": 0,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a3044.wav",
+      "chars": 9,
+      "text": {
+        "ja": "もう！　何なのよ！",
+        "ko": "정말！　뭔데！"
+      }
+    },
+    {
+      "window": 13,
+      "line": 1,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a3044.wav",
+      "chars": 15,
+      "text": {
+        "ja": "・・・なんか　頭きちゃうな・・",
+        "ko": "・・・왠지　열받네・・"
+      }
+    },
+    {
+      "window": 13,
+      "line": 2,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a3044.wav",
+      "chars": 16,
+      "text": {
+        "ja": "・・それじゃ　こういう話はどう？",
+        "ko": "・・그럼　이런　얘긴　어때？"
+      }
+    },
+    {
+      "window": 14,
+      "line": 0,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a3045.WAV",
+      "chars": 8,
+      "text": {
+        "ja": "@S@・・@P@変なひと・・",
+        "ko": "@S@・・@P@이상한　사람・・"
+      }
+    },
+    {
+      "window": 14,
+      "line": 1,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a3045.WAV",
+      "chars": 21,
+      "text": {
+        "ja": "どこまで話したか　忘れちゃったじゃない・・",
+        "ko": "어디까지　말했는지　잊어버렸잖아・・"
+      }
+    },
+    {
+      "window": 14,
+      "line": 2,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a3045.WAV",
+      "chars": 18,
+      "text": {
+        "ja": "・・・何だっけ？　あ・・そうそう・・",
+        "ko": "・・・뭐였더라？　아・・맞다・・"
+      }
+    },
+    {
+      "window": 15,
+      "line": 0,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a3046.wav",
+      "chars": 17,
+      "text": {
+        "ja": "何でもないなら最初から黙っててよ。",
+        "ko": "아무것도　아니면　처음부터　가만있어。"
+      }
+    },
+    {
+      "window": 15,
+      "line": 1,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a3046.wav",
+      "chars": 21,
+      "text": {
+        "ja": "どこまで話したか　忘れちゃったじゃない・・",
+        "ko": "어디까지　말했는지　잊어버렸잖아・・"
+      }
+    },
+    {
+      "window": 15,
+      "line": 2,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a3046.wav",
+      "chars": 18,
+      "text": {
+        "ja": "・・・何だっけ？　あ・・そうそう・・",
+        "ko": "・・・뭐였더라？　아・・맞다・・"
+      }
+    },
+    {
+      "window": 16,
+      "line": 0,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a3047.wav",
+      "chars": 17,
+      "text": {
+        "ja": "@S@・・・@P@なぁんか・・頭きちゃうな・・",
+        "ko": "@S@・・・@P@뭔가・・열받네・・"
+      }
+    },
+    {
+      "window": 16,
+      "line": 1,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a3047.wav",
+      "chars": 21,
+      "text": {
+        "ja": "どこまで話したか　忘れちゃったじゃない・・",
+        "ko": "어디까지　말했는지　잊어버렸잖아・・"
+      }
+    },
+    {
+      "window": 16,
+      "line": 2,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a3047.wav",
+      "chars": 18,
+      "text": {
+        "ja": "・・・何だっけ？　あ・・そうそう・・",
+        "ko": "・・・뭐였더라？　아・・맞다・・"
+      }
+    },
+    {
+      "window": 17,
+      "line": 0,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a3045.WAV",
+      "chars": 8,
+      "text": {
+        "ja": "@S@・・@P@変なひと・・",
+        "ko": "@S@・・@P@이상한　사람・・"
+      }
+    },
+    {
+      "window": 17,
+      "line": 1,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a3045.WAV",
+      "chars": 21,
+      "text": {
+        "ja": "どこまで話したか　忘れちゃったじゃない・・",
+        "ko": "어디까지　말했는지　잊어버렸잖아・・"
+      }
+    },
+    {
+      "window": 17,
+      "line": 2,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a3045.WAV",
+      "chars": 18,
+      "text": {
+        "ja": "・・・何だっけ？　あ・・そうそう・・",
+        "ko": "・・・뭐였더라？　아・・맞다・・"
+      }
+    },
+    {
+      "window": 18,
+      "line": 0,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a7426.wav",
+      "chars": 14,
+      "text": {
+        "ja": "え？　それ・・私にくれるの？",
+        "ko": "응？　그거・・나　주는　거야？"
+      }
+    },
+    {
+      "window": 18,
+      "line": 1,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a7426.wav",
+      "chars": 21,
+      "text": {
+        "ja": "うわぁ！　ありがとう！　私　大切にするよ。",
+        "ko": "우와！　고마워！　나　소중히　할게。"
+      }
+    },
+    {
+      "window": 19,
+      "line": 0,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a7427.wav",
+      "chars": 14,
+      "text": {
+        "ja": "え？　それ・・私にくれるの？",
+        "ko": "응？　그거・・나　주는　거야？"
+      }
+    },
+    {
+      "window": 19,
+      "line": 1,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a7427.wav",
+      "chars": 19,
+      "text": {
+        "ja": "まぁ　もらっておこうかな・・ありがと。",
+        "ko": "뭐　받아둘까・・고마워。"
+      }
+    },
+    {
+      "window": 20,
+      "line": 0,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a7428.wav",
+      "chars": 14,
+      "text": {
+        "ja": "え？　それって　プレゼント？",
+        "ko": "응？　그거　선물이야？"
+      }
+    },
+    {
+      "window": 20,
+      "line": 1,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a7428.wav",
+      "chars": 14,
+      "text": {
+        "ja": "悪いけど　私それ持ってるよ。",
+        "ko": "미안하지만　나　그거　갖고　있어。"
+      }
+    },
+    {
+      "window": 20,
+      "line": 2,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a7428.wav",
+      "chars": 20,
+      "text": {
+        "ja": "２個もらってもしょうがないから　いいよ。",
+        "ko": "２개　받아도　소용없으니까　됐어。"
+      }
+    },
+    {
+      "window": 21,
+      "line": 0,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a7429.wav",
+      "chars": 14,
+      "text": {
+        "ja": "え？　それ・・私にくれるの？",
+        "ko": "응？　그거・・나　주는　거야？"
+      }
+    },
+    {
+      "window": 21,
+      "line": 1,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a7429.wav",
+      "chars": 16,
+      "text": {
+        "ja": "悪いけど　それ趣味じゃないな・・",
+        "ko": "미안하지만　그거　취향　아니야・・"
+      }
+    },
+    {
+      "window": 21,
+      "line": 2,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a7429.wav",
+      "chars": 14,
+      "text": {
+        "ja": "せっかくだけど・・・いいよ。",
+        "ko": "모처럼인데・・・됐어。"
+      }
+    },
+    {
+      "window": 22,
+      "line": 0,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 2,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a3048.wav",
+      "chars": 17,
+      "text": {
+        "ja": "@S@・・・・・@P@ねぇ・・何で黙ってるの？",
+        "ko": "@S@・・・・・@P@저기・・왜　조용해？"
+      }
+    },
+    {
+      "window": 22,
+      "line": 1,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 2,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a3048.wav",
+      "chars": 21,
+      "text": {
+        "ja": "ひょっとして私　興味ない話題ふっちゃった？",
+        "ko": "혹시　내가　관심　없는　얘길　꺼냈나？"
+      }
+    },
+    {
+      "window": 23,
+      "line": 0,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 2,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a3049.wav",
+      "chars": 15,
+      "text": {
+        "ja": "@S@・・・@P@なんか黙っちゃったね・・",
+        "ko": "@S@・・・@P@왠지　조용해졌네・・"
+      }
+    },
+    {
+      "window": 23,
+      "line": 1,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 2,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a3049.wav",
+      "chars": 10,
+      "text": {
+        "ja": "私　変なこと言った？",
+        "ko": "나　이상한　말　했어？"
+      }
+    },
+    {
+      "window": 24,
+      "line": 0,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 2,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a3050.wav",
+      "chars": 12,
+      "text": {
+        "ja": "もしもし？　もしもーし！",
+        "ko": "여보세요？　여보세요！"
+      }
+    }
+  ]
 }

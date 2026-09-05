@@ -1,6 +1,6 @@
 {
  "note": "조회 키라서 번역하지 않은 문자열. docs/UI-TEXT.md 참고",
- "count": 104,
+ "count": 144,
  "entries": [
   {
    "module": "COMMONSAVE",
@@ -153,6 +153,26 @@
    "ja": "ターニャ"
   },
   {
+   "module": "KITAE",
+   "offset": "0x010d6c",
+   "ja": "主人公"
+  },
+  {
+   "module": "KITAE",
+   "offset": "0x010dd8",
+   "ja": "移動表示"
+  },
+  {
+   "module": "KITAE",
+   "offset": "0x010de4",
+   "ja": "セーブ場所"
+  },
+  {
+   "module": "KITAE",
+   "offset": "0x010df0",
+   "ja": "セーブカット"
+  },
+  {
    "module": "KITATITLE",
    "offset": "0x010a34",
    "ja": "ナレスキップ"
@@ -169,6 +189,11 @@
   },
   {
    "module": "TRFMILKING",
+   "offset": "0x01ee68",
+   "ja": "時間帯"
+  },
+  {
+   "module": "TRFMILKING",
    "offset": "0x01ee9c",
    "ja": "オプション"
   },
@@ -176,6 +201,31 @@
    "module": "TRFMILKING",
    "offset": "0x01eee0",
    "ja": "操作説明聞く"
+  },
+  {
+   "module": "TRFMILKING",
+   "offset": "0x01ef20",
+   "ja": "糞牛"
+  },
+  {
+   "module": "TRFMILKING",
+   "offset": "0x01ef54",
+   "ja": "ストレス牛"
+  },
+  {
+   "module": "TRFMILKING",
+   "offset": "0x01efbc",
+   "ja": "糞牛"
+  },
+  {
+   "module": "TRFMILKING",
+   "offset": "0x01eff4",
+   "ja": "ストレス牛"
+  },
+  {
+   "module": "TRFMILKING",
+   "offset": "0x01f000",
+   "ja": "乳絞り成果"
   },
   {
    "module": "TRFOPTIONGAME",
@@ -289,6 +339,11 @@
   },
   {
    "module": "TRFQUIZ",
+   "offset": "0x0201bc",
+   "ja": "ターニャ"
+  },
+  {
+   "module": "TRFQUIZ",
    "offset": "0x0201c8",
    "ja": "由子"
   },
@@ -363,6 +418,11 @@
    "ja": "オプション"
   },
   {
+   "module": "TRFSHOTING",
+   "offset": "0x03881c",
+   "ja": "スコア"
+  },
+  {
    "module": "TRFSUNFLOWERMAZE",
    "offset": "0x023854",
    "ja": "操作説明聞く"
@@ -408,6 +468,41 @@
    "ja": "メッセージボーダー"
   },
   {
+   "module": "TRFTECHNOMAZE",
+   "offset": "0x0274b8",
+   "ja": "操作説明聞く"
+  },
+  {
+   "module": "TRFTECHNOMAZE",
+   "offset": "0x0274f4",
+   "ja": "対戦相手１"
+  },
+  {
+   "module": "TRFTECHNOMAZE",
+   "offset": "0x027534",
+   "ja": "オプション"
+  },
+  {
+   "module": "TRFTECHNOMAZE",
+   "offset": "0x027574",
+   "ja": "時間帯"
+  },
+  {
+   "module": "TRFTECHNOMAZE",
+   "offset": "0x0275bc",
+   "ja": "迷路タイム"
+  },
+  {
+   "module": "TRFTECHNOMAZE",
+   "offset": "0x0275f4",
+   "ja": "オプション"
+  },
+  {
+   "module": "TRFTENNIS",
+   "offset": "0x020ae8",
+   "ja": "琴梨"
+  },
+  {
    "module": "TRFTENNIS",
    "offset": "0x021030",
    "ja": "オプション"
@@ -418,6 +513,11 @@
    "ja": "操作説明聞く"
   },
   {
+   "module": "TRFTENNIS",
+   "offset": "0x02104c",
+   "ja": "ラリーの回数"
+  },
+  {
    "module": "TRFUFO",
    "offset": "0x02e3a0",
    "ja": "オプション"
@@ -426,6 +526,106 @@
    "module": "TRFUFO",
    "offset": "0x02e3d4",
    "ja": "操作説明聞く"
+  },
+  {
+   "module": "TRFUFO",
+   "offset": "0x02e40c",
+   "ja": "ぱんだジェル取れた"
+  },
+  {
+   "module": "TRFUFO",
+   "offset": "0x02e420",
+   "ja": "ぱんだジェル取れた"
+  },
+  {
+   "module": "TRFUFO",
+   "offset": "0x02e434",
+   "ja": "ぱんだジェル取れた"
+  },
+  {
+   "module": "TRFUFO",
+   "offset": "0x02e448",
+   "ja": "えんジェル取れた"
+  },
+  {
+   "module": "TRFUFO",
+   "offset": "0x02e45c",
+   "ja": "えんジェル取れた"
+  },
+  {
+   "module": "TRFUFO",
+   "offset": "0x02e470",
+   "ja": "えんジェル取れた"
+  },
+  {
+   "module": "TRFUFO",
+   "offset": "0x02e484",
+   "ja": "みみジェル取れた"
+  },
+  {
+   "module": "TRFUFO",
+   "offset": "0x02e498",
+   "ja": "みみジェル取れた"
+  },
+  {
+   "module": "TRFUFO",
+   "offset": "0x02e4ac",
+   "ja": "みみジェル取れた"
+  },
+  {
+   "module": "TRFUFO",
+   "offset": "0x02e4c0",
+   "ja": "でぶジェル取れた"
+  },
+  {
+   "module": "TRFUFO",
+   "offset": "0x02e4d4",
+   "ja": "でぶジェル取れた"
+  },
+  {
+   "module": "TRFUFO",
+   "offset": "0x02e4e8",
+   "ja": "でぶジェル取れた"
+  },
+  {
+   "module": "TRFUFO",
+   "offset": "0x02e4fc",
+   "ja": "うるふジェル取れた"
+  },
+  {
+   "module": "TRFUFO",
+   "offset": "0x02e510",
+   "ja": "うるふジェル取れた"
+  },
+  {
+   "module": "TRFUFO",
+   "offset": "0x02e524",
+   "ja": "うるふジェル取れた"
+  },
+  {
+   "module": "TRFUFO",
+   "offset": "0x02e538",
+   "ja": "もちジェル取れた"
+  },
+  {
+   "module": "TRFUFO",
+   "offset": "0x02e54c",
+   "ja": "もちジェル取れた"
+  },
+  {
+   "module": "TRFUFO",
+   "offset": "0x02e560",
+   "ja": "もちジェル取れた"
+  },
+  {
+   "module": "TRFUFO",
+   "offset": "0x02e574",
+   "ja": "ヌイグルミ取れた"
+  },
+  {
+   "module": "TRFUFO",
+   "offset": "0x02e588",
+   "ja": "ヌイグルミ取れた"
   },
   {
    "module": "TRFVMSVIEW",

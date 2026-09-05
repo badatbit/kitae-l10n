@@ -51,7 +51,17 @@
     "HAYAKA",
     "AYU_02",
     "MEGUMI_02",
-    "YUKO_02"
+    "YUKO_02",
+    "GAME",
+    "KAORU_2",
+    "KOTORI_CBS",
+    "KAORU_CBS",
+    "AYU_CBS",
+    "MEGUMI_CBS",
+    "YUKO_CBS",
+    "KOZUE_CBS",
+    "TANYA_CBS",
+    "HAYAKA_CBS"
   ],
   "paths": {
     "trfstrings_dll": "",
