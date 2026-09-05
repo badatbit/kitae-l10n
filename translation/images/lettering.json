@@ -99,19 +99,20 @@
    "name": "narr-under",
    "font_family_ko": "IBM Plex Sans KR",
    "font_weight": 300,
-   "font_size_px": 34,
+   "font_size_px": 32,
    "text_align": "lm",
    "fill_rgb": "#0d1cff",
-   "outline_weight_px": 3,
+   "outline_weight_px": 2,
    "outline_rgb": "#0d1cff",
    "matte_rgb": "#FFFFFF",
-   "matte_th": 200
+   "matte_th": 128,
+   "effect": "drop_shadow(dx=1,dy=1,blur=0,color=#0d1cff)"
   },
   {
    "name": "narr-over",
    "font_family_ko": "IBM Plex Sans KR",
    "font_weight": 300,
-   "font_size_px": 34,
+   "font_size_px": 32,
    "text_align": "lm",
    "fill_rgb": "#FFFFFF"
   }
@@ -10935,7 +10936,7 @@
     39
    ],
    "jp": "大晦日の夜・・",
-   "ko": "섣달그믐 밤..",
+   "ko": "섣달그믐  밤..",
    "style": "narr-under",
    "status": "render_ready"
   },
@@ -10949,7 +10950,7 @@
     39
    ],
    "jp": "大晦日の夜・・",
-   "ko": "섣달그믐 밤..",
+   "ko": "섣달그믐  밤..",
    "style": "narr-over",
    "status": "render_ready"
   },
@@ -10963,7 +10964,7 @@
     39
    ],
    "jp": "イルミネーション・カウントダウンで",
-   "ko": "일루미네이션 카운트다운에서",
+   "ko": "일루미네이션  카운트다운에서",
    "style": "narr-under",
    "status": "render_ready"
   },
@@ -10977,7 +10978,7 @@
     39
    ],
    "jp": "イルミネーション・カウントダウンで",
-   "ko": "일루미네이션 카운트다운에서",
+   "ko": "일루미네이션  카운트다운에서",
    "style": "narr-over",
    "status": "render_ready"
   },
@@ -10991,7 +10992,7 @@
     39
    ],
    "jp": "年越しのｋｉｓｓをした恋人たちは",
-   "ko": "새해맞이 키스를 한 연인들은",
+   "ko": "새해맞이  키스를  한  연인들은",
    "style": "narr-under",
    "status": "render_ready"
   },
@@ -11005,7 +11006,7 @@
     39
    ],
    "jp": "年越しのｋｉｓｓをした恋人たちは",
-   "ko": "새해맞이 키스를 한 연인들은",
+   "ko": "새해맞이  키스를  한  연인들은",
    "style": "narr-over",
    "status": "render_ready"
   },
@@ -11019,7 +11020,7 @@
     39
    ],
    "jp": "永遠の幸せが約束されるという...",
-   "ko": "영원한 행복이 약속된다고 한다...",
+   "ko": "영원한  행복이  약속된다고  한다...",
    "style": "narr-under",
    "status": "render_ready"
   },
@@ -11033,7 +11034,7 @@
     39
    ],
    "jp": "永遠の幸せが約束されるという...",
-   "ko": "영원한 행복이 약속된다고 한다...",
+   "ko": "영원한  행복이  약속된다고  한다...",
    "style": "narr-over",
    "status": "render_ready"
   }
