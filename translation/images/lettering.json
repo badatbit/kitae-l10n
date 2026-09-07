@@ -97,24 +97,44 @@
   },
   {
    "name": "narr-under",
-   "font_family_ko": "IBM Plex Sans KR",
-   "font_weight": 300,
-   "font_size_px": 32,
-   "text_align": "lm",
    "fill_rgb": "#0d1cff",
    "outline_weight_px": 2,
    "outline_rgb": "#0d1cff",
    "matte_rgb": "#FFFFFF",
    "matte_th": 128,
-   "effect": "drop_shadow(dx=1,dy=1,blur=0,color=#0d1cff)"
+   "effect": "drop_shadow(dx=1,dy=1,blur=0,color=#0d1cff)",
+   "base": "narr-over"
   },
   {
    "name": "narr-over",
    "font_family_ko": "IBM Plex Sans KR",
    "font_weight": 300,
-   "font_size_px": 32,
+   "font_size_px": 30,
    "text_align": "lm",
    "fill_rgb": "#FFFFFF"
+  },
+  {
+   "name": "date-card",
+   "font_family_ko": "IBM Plex Sans KR",
+   "font_weight": 400,
+   "font_size_px": 30,
+   "text_align": "lm",
+   "fill_rgb": "#FFFFFF"
+  },
+  {
+   "name": "date-card-005",
+   "base": "date-card",
+   "shadow": "2 2 0 #0000FF80"
+  },
+  {
+   "name": "date-card-006",
+   "base": "date-card",
+   "shadow": "2 2 0 #FF000080"
+  },
+  {
+   "name": "date-card-007",
+   "base": "date-card",
+   "shadow": "2 2 0 #9326ff80"
   }
  ],
  "rows": [
@@ -11623,5 +11643,40 @@
    ],
    "cat": "삿포로"
   }
- }
+ },
+ "text_only": [
+  {
+   "name": "날짜카드",
+   "dir": "SOZ",
+   "base": "file",
+   "style": "date-card",
+   "text": [
+    214,
+    217,
+    242,
+    57
+   ],
+   "overflow": "squeeze",
+   "entries": {
+    "soz_005.png": {
+     "jp": "７月３１日　札幌",
+     "ko": "７월 ３１일　삿포로",
+     "status": "render_ready",
+     "style": "date-card-005"
+    },
+    "soz_006.png": {
+     "jp": "８月３１日　東京",
+     "ko": "８월 ３１일　도쿄",
+     "status": "render_ready",
+     "style": "date-card-006"
+    },
+    "soz_007.png": {
+     "jp": "１２月２４日　東京",
+     "ko": "１２월 ２４일　도쿄",
+     "status": "render_ready",
+     "style": "date-card-007"
+    }
+   }
+  }
+ ]
 }
