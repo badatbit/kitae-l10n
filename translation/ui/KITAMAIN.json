@@ -1,0 +1,46 @@
+{
+  "module": "KITAMAIN",
+  "path": "/TRF/KITAMAIN.EXE",
+  "entries": [
+    {
+      "offset": 69104,
+      "size": 8,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "好きな色",
+        "ko": "좋아하는색"
+      }
+    },
+    {
+      "offset": 69116,
+      "size": 6,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "寝場所",
+        "ko": "잠자리"
+      }
+    },
+    {
+      "offset": 69124,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "セーブカット",
+        "ko": "세이브　컷"
+      }
+    },
+    {
+      "offset": 69140,
+      "size": 10,
+      "avail": 17,
+      "section": ".data",
+      "text": {
+        "ja": "マップ位置",
+        "ko": "맵　위치"
+      }
+    }
+  ]
+}

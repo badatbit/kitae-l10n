@@ -1,0 +1,106 @@
+{
+  "module": "KITASOUNDTEST",
+  "path": "/TRF/KITASOUNDTEST.DLL",
+  "entries": [
+    {
+      "offset": 53116,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "憚",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 53120,
+      "size": 2,
+      "avail": 9,
+      "section": ".rdata",
+      "text": {
+        "ja": "胃",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 53888,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "憚",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 53892,
+      "size": 2,
+      "avail": 9,
+      "section": ".data",
+      "text": {
+        "ja": "胃",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 53936,
+      "size": 130,
+      "avail": 131,
+      "section": ".data",
+      "text": {
+        "ja": "ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚ０１２３４５６７８９＿．－",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 54068,
+      "size": 130,
+      "avail": 131,
+      "section": ".data",
+      "text": {
+        "ja": "ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚ０１２３４５６７８９＿．－",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 54296,
+      "size": 31,
+      "avail": 31,
+      "section": ".data",
+      "text": {
+        "ja": "イントロループ時間秒0123456789.",
+        "ko": "인트로루프시간초0123456789."
+      }
+    },
+    {
+      "offset": 54356,
+      "size": 13,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "イントロ時間 ",
+        "ko": "인트로　시간 "
+      }
+    },
+    {
+      "offset": 54380,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "秒",
+        "ko": "초"
+      }
+    },
+    {
+      "offset": 54384,
+      "size": 13,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "ループ時間   ",
+        "ko": "루프　시간   "
+      }
+    }
+  ]
+}

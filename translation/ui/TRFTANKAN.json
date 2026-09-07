@@ -1,0 +1,646 @@
+{
+  "module": "TRFTANKAN",
+  "path": "/TRF/TRFTANKAN.DLL",
+  "entries": [
+    {
+      "offset": 9948,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "轡",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 9960,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "織",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 9972,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "妊",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 9984,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "魯",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 9996,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "廛",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 10052,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "窟",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 10064,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "植",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 10076,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "尿",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 10088,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "連",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 10100,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "廣",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 10200,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "潺",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 10212,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "腑",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 10224,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "錺",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 10260,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "鮱",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 10268,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "漓",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 10280,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "腆",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 10300,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "あ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 10304,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "い",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 10308,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "う",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 10312,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "え",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 10316,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "お",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 10320,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "か",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 10324,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "き",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 10328,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "く",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 10332,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "け",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 10336,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "こ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 10340,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "さ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 10344,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "し",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 10348,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "す",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 10352,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "せ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 10356,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "そ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 10360,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "た",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 10364,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "ち",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 10368,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "つ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 10372,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "て",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 10376,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "と",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 10380,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "な",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 10384,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "に",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 10388,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "ぬ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 10392,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "ね",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 10396,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "の",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 10400,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "は",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 10404,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "ひ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 10408,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "ふ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 10412,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "へ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 10416,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "ほ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 10420,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "ま",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 10424,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "み",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 10428,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "む",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 10432,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "め",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 10436,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "も",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 10440,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "や",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 10444,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "ゆ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 10448,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "よ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 10452,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "ら",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 10456,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "り",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 10460,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "る",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 10464,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "れ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 10468,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "ろ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 10472,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "わ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 10476,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "英数",
+        "ko": "영숫자"
+      }
+    },
+    {
+      "offset": 10484,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "かな",
+        "ko": "히라"
+      }
+    },
+    {
+      "offset": 10492,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "カナ",
+        "ko": "카타"
+      }
+    },
+    {
+      "offset": 10500,
+      "size": 4,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "記号",
+        "ko": "기호"
+      }
+    }
+  ]
+}

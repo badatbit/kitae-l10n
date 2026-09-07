@@ -273,16 +273,6 @@
       }
     },
     {
-      "offset": 76640,
-      "size": 24,
-      "avail": 27,
-      "section": ".data",
-      "text": {
-        "ja": "       北海道地図       ",
-        "ko": "     홋카이도　지도     "
-      }
-    },
-    {
       "offset": 76668,
       "size": 24,
       "avail": 27,

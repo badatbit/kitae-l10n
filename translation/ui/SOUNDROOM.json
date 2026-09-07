@@ -1,0 +1,5106 @@
+{
+ "module": "SOUNDROOM",
+ "path": "/TRF/SOUNDROOM.DLL",
+ "entries": [
+  {
+   "offset": 14336,
+   "size": 2,
+   "avail": 2,
+   "section": ".rdata",
+   "text": {
+    "ja": "彝",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 77980,
+   "size": 10,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "    歌    ",
+    "ko": "   노래   "
+   }
+  },
+  {
+   "offset": 77992,
+   "size": 10,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "  ＢＧＭ  ",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 78004,
+   "size": 10,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "  環境音  ",
+    "ko": "  환경음  "
+   }
+  },
+  {
+   "offset": 78016,
+   "size": 10,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "   ＳＥ   ",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 78088,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "　１*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 78096,
+   "size": 15,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " 恋のダンシング",
+    "ko": " 사랑의　댄싱"
+   }
+  },
+  {
+   "offset": 78132,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "　２*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 78140,
+   "size": 17,
+   "avail": 19,
+   "section": ".data",
+   "text": {
+    "ja": " 魔法にかける魔法",
+    "ko": " 마법에　거는　마법"
+   }
+  },
+  {
+   "offset": 78176,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "　３*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 78184,
+   "size": 19,
+   "avail": 19,
+   "section": ".data",
+   "text": {
+    "ja": " タイクツとユウウツ",
+    "ko": " 권태와　우울"
+   }
+  },
+  {
+   "offset": 78224,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "　４*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 78232,
+   "size": 23,
+   "avail": 23,
+   "section": ".data",
+   "text": {
+    "ja": " ダイナマイトが５万トン",
+    "ko": " 다이너마이트가　５만톤"
+   }
+  },
+  {
+   "offset": 78276,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "　５*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 78284,
+   "size": 23,
+   "avail": 23,
+   "section": ".data",
+   "text": {
+    "ja": " Ｓｗｅｅｔ　Ｄｒｅａｍ",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 78324,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "　６*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 78332,
+   "size": 23,
+   "avail": 23,
+   "section": ".data",
+   "text": {
+    "ja": " 札幌ススキノ雨の２５時",
+    "ko": " 스스키노　비의２５시"
+   }
+  },
+  {
+   "offset": 78376,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "　７*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 78384,
+   "size": 5,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": " ＲＧ",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 78404,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "　８*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 78412,
+   "size": 11,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 夏の思い出",
+    "ko": " 여름의추억"
+   }
+  },
+  {
+   "offset": 78440,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "　９*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 78448,
+   "size": 21,
+   "avail": 23,
+   "section": ".data",
+   "text": {
+    "ja": " 北へ。親友バージョン",
+    "ko": " 북으로。단짝　버전"
+   }
+  },
+  {
+   "offset": 78496,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "１０*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 78504,
+   "size": 19,
+   "avail": 19,
+   "section": ".data",
+   "text": {
+    "ja": " わたしまけましたわ",
+    "ko": " 제가　졌습니다"
+   }
+  },
+  {
+   "offset": 78544,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "１１*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 78552,
+   "size": 17,
+   "avail": 19,
+   "section": ".data",
+   "text": {
+    "ja": " 大好き － 素材Ａ",
+    "ko": " 좋아해 － 소재Ａ"
+   }
+  },
+  {
+   "offset": 78588,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "１２*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 78596,
+   "size": 19,
+   "avail": 19,
+   "section": ".data",
+   "text": {
+    "ja": " 大好き － 素材Ｂ１",
+    "ko": " 좋아해 － 소재Ｂ１"
+   }
+  },
+  {
+   "offset": 78632,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "１３*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 78640,
+   "size": 19,
+   "avail": 19,
+   "section": ".data",
+   "text": {
+    "ja": " 大好き － 素材Ｂ２",
+    "ko": " 좋아해 － 소재Ｂ２"
+   }
+  },
+  {
+   "offset": 78676,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "１４*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 78684,
+   "size": 19,
+   "avail": 19,
+   "section": ".data",
+   "text": {
+    "ja": " 大好き － 素材Ｃ１",
+    "ko": " 좋아해 － 소재Ｃ１"
+   }
+  },
+  {
+   "offset": 78720,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "１５*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 78728,
+   "size": 19,
+   "avail": 19,
+   "section": ".data",
+   "text": {
+    "ja": " 大好き － 素材Ｃ２",
+    "ko": " 좋아해 － 소재Ｃ２"
+   }
+  },
+  {
+   "offset": 78764,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "１６*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 78772,
+   "size": 25,
+   "avail": 27,
+   "section": ".data",
+   "text": {
+    "ja": " 大好き － 作曲中Ｂ１Ｃ１",
+    "ko": " 좋아해 － 작곡중Ｂ１Ｃ１"
+   }
+  },
+  {
+   "offset": 78820,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "１７*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 78828,
+   "size": 25,
+   "avail": 27,
+   "section": ".data",
+   "text": {
+    "ja": " 大好き － 作曲中Ｂ１Ｃ２",
+    "ko": " 좋아해 － 작곡중Ｂ１Ｃ２"
+   }
+  },
+  {
+   "offset": 78876,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "１８*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 78884,
+   "size": 25,
+   "avail": 27,
+   "section": ".data",
+   "text": {
+    "ja": " 大好き － 作曲中Ｂ２Ｃ１",
+    "ko": " 좋아해 － 작곡중Ｂ２Ｃ１"
+   }
+  },
+  {
+   "offset": 78932,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "１９*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 78940,
+   "size": 25,
+   "avail": 27,
+   "section": ".data",
+   "text": {
+    "ja": " 大好き － 作曲中Ｂ２Ｃ２",
+    "ko": " 좋아해 － 작곡중Ｂ２Ｃ２"
+   }
+  },
+  {
+   "offset": 78988,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "２０*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 78996,
+   "size": 33,
+   "avail": 35,
+   "section": ".data",
+   "text": {
+    "ja": " 大好き － オーディションＢ１Ｃ１",
+    "ko": " 좋아해 － 오디션Ｂ１Ｃ１"
+   }
+  },
+  {
+   "offset": 79052,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "２１*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 79060,
+   "size": 33,
+   "avail": 35,
+   "section": ".data",
+   "text": {
+    "ja": " 大好き － オーディションＢ１Ｃ２",
+    "ko": " 좋아해 － 오디션Ｂ１Ｃ２"
+   }
+  },
+  {
+   "offset": 79116,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "２２*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 79124,
+   "size": 33,
+   "avail": 35,
+   "section": ".data",
+   "text": {
+    "ja": " 大好き － オーディションＢ２Ｃ１",
+    "ko": " 좋아해 － 오디션Ｂ２Ｃ１"
+   }
+  },
+  {
+   "offset": 79180,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "２３*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 79188,
+   "size": 33,
+   "avail": 35,
+   "section": ".data",
+   "text": {
+    "ja": " 大好き － オーディションＢ２Ｃ２",
+    "ko": " 좋아해 － 오디션Ｂ２Ｃ２"
+   }
+  },
+  {
+   "offset": 79244,
+   "size": 7,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": " 安らぎ",
+    "ko": " 평온"
+   }
+  },
+  {
+   "offset": 79264,
+   "size": 9,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 悪い予感",
+    "ko": " 나쁜　예감"
+   }
+  },
+  {
+   "offset": 79288,
+   "size": 9,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 遠い記憶",
+    "ko": " 먼　기억"
+   }
+  },
+  {
+   "offset": 79312,
+   "size": 11,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 無限の一瞬",
+    "ko": " 무한의순간"
+   }
+  },
+  {
+   "offset": 79336,
+   "size": 11,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 平和な食卓",
+    "ko": " 평화의식탁"
+   }
+  },
+  {
+   "offset": 79360,
+   "size": 9,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 愛の食卓",
+    "ko": " 사랑의식탁"
+   }
+  },
+  {
+   "offset": 79384,
+   "size": 7,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": " 語らい",
+    "ko": " 담소"
+   }
+  },
+  {
+   "offset": 79404,
+   "size": 9,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 同じ時間",
+    "ko": " 같은　시간"
+   }
+  },
+  {
+   "offset": 79428,
+   "size": 15,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " 魔法のスパイス",
+    "ko": " 마법의스파이스"
+   }
+  },
+  {
+   "offset": 79456,
+   "size": 17,
+   "avail": 19,
+   "section": ".data",
+   "text": {
+    "ja": " おいしいコーヒー",
+    "ko": " 맛있는　커피"
+   }
+  },
+  {
+   "offset": 79488,
+   "size": 11,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " せつない夢",
+    "ko": " 애달픈　꿈"
+   }
+  },
+  {
+   "offset": 79512,
+   "size": 13,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " すみれ色の瞳",
+    "ko": " 보랏빛　눈동자"
+   }
+  },
+  {
+   "offset": 79540,
+   "size": 9,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 美瑛の丘",
+    "ko": " 비에이언덕"
+   }
+  },
+  {
+   "offset": 79564,
+   "size": 13,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " 琴梨のテーマ",
+    "ko": " 코토리의　테마"
+   }
+  },
+  {
+   "offset": 79592,
+   "size": 11,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 鮎のテーマ",
+    "ko": " 아유의테마"
+   }
+  },
+  {
+   "offset": 79616,
+   "size": 17,
+   "avail": 19,
+   "section": ".data",
+   "text": {
+    "ja": " ターニャのテーマ",
+    "ko": " 타냐의　테마"
+   }
+  },
+  {
+   "offset": 79648,
+   "size": 13,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " 由子のテーマ",
+    "ko": " 유코의　테마"
+   }
+  },
+  {
+   "offset": 79676,
+   "size": 11,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 薫のテーマ",
+    "ko": " 카오루테마"
+   }
+  },
+  {
+   "offset": 79700,
+   "size": 15,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " 葉野香のテーマ",
+    "ko": " 하노카의　테마"
+   }
+  },
+  {
+   "offset": 79728,
+   "size": 11,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 梢のテーマ",
+    "ko": " 코즈에테마"
+   }
+  },
+  {
+   "offset": 79752,
+   "size": 15,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " めぐみのテーマ",
+    "ko": " 메구미의　테마"
+   }
+  },
+  {
+   "offset": 79804,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "２４*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 79824,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "２５*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 79844,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "２６*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 79852,
+   "size": 22,
+   "avail": 23,
+   "section": ".data",
+   "text": {
+    "ja": " Ｓｗｅｅｔ Ｄｒｅａｍ",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 79888,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "２７*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 79908,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "２８*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 79928,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "２９*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 79948,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "３０*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 79956,
+   "size": 21,
+   "avail": 23,
+   "section": ".data",
+   "text": {
+    "ja": " 大好き・オルゴール版",
+    "ko": " 좋아해・오르골판"
+   }
+  },
+  {
+   "offset": 79992,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "３１*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 80000,
+   "size": 7,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": " 北へ。",
+    "ko": " 북으로。"
+   }
+  },
+  {
+   "offset": 80020,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "３２*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 80028,
+   "size": 25,
+   "avail": 27,
+   "section": ".data",
+   "text": {
+    "ja": " バイト先がサンタクロース",
+    "ko": " 알바하는　곳이　산타클로스"
+   }
+  },
+  {
+   "offset": 80068,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "３３*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 80076,
+   "size": 21,
+   "avail": 23,
+   "section": ".data",
+   "text": {
+    "ja": " 鮎のクリスマスソング",
+    "ko": " 아유의　크리스마스송"
+   }
+  },
+  {
+   "offset": 80112,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "３４*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 80120,
+   "size": 25,
+   "avail": 27,
+   "section": ".data",
+   "text": {
+    "ja": " サンタのいないクリスマス",
+    "ko": " 산타　없는　크리스마스"
+   }
+  },
+  {
+   "offset": 80160,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "３５*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 80168,
+   "size": 13,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " 僕だけの笑顔",
+    "ko": " 나만의　미소"
+   }
+  },
+  {
+   "offset": 80196,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "３６*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 80204,
+   "size": 11,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 秘密の宝箱",
+    "ko": " 비밀보물함"
+   }
+  },
+  {
+   "offset": 80228,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "３７*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 80236,
+   "size": 17,
+   "avail": 19,
+   "section": ".data",
+   "text": {
+    "ja": " 輝け希望の七つ星",
+    "ko": " 빛나라희망의일곱별"
+   }
+  },
+  {
+   "offset": 80268,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "３８*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 80276,
+   "size": 25,
+   "avail": 27,
+   "section": ".data",
+   "text": {
+    "ja": " ホワイトイルミネーション",
+    "ko": " 화이트　일루미네이션"
+   }
+  },
+  {
+   "offset": 80316,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "３９*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 80324,
+   "size": 9,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 涙の理由",
+    "ko": " 눈물의이유"
+   }
+  },
+  {
+   "offset": 80348,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "４０*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 80356,
+   "size": 11,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 不安な食卓",
+    "ko": " 불안한식탁"
+   }
+  },
+  {
+   "offset": 80380,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "４１*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 80388,
+   "size": 9,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 素直な心",
+    "ko": " 솔직한마음"
+   }
+  },
+  {
+   "offset": 80412,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "４２*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 80420,
+   "size": 11,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 北へ・・・",
+    "ko": " 북으로・・"
+   }
+  },
+  {
+   "offset": 80444,
+   "size": 9,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 札幌の夏",
+    "ko": " 삿포로여름"
+   }
+  },
+  {
+   "offset": 80468,
+   "size": 9,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 東京の朝",
+    "ko": " 도쿄　아침"
+   }
+  },
+  {
+   "offset": 80492,
+   "size": 15,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " 時計のチクタク",
+    "ko": " 시계　똑딱똑딱"
+   }
+  },
+  {
+   "offset": 80520,
+   "size": 9,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 羽田空港",
+    "ko": " 하네다공항"
+   }
+  },
+  {
+   "offset": 80544,
+   "size": 15,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " 機内エンジン音",
+    "ko": " 기내　엔진음"
+   }
+  },
+  {
+   "offset": 80572,
+   "size": 11,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 新千歳空港",
+    "ko": " 치토세공항"
+   }
+  },
+  {
+   "offset": 80596,
+   "size": 11,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 列車走行音",
+    "ko": " 열차주행음"
+   }
+  },
+  {
+   "offset": 80620,
+   "size": 13,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " 地下鉄走行音",
+    "ko": " 지하철　주행음"
+   }
+  },
+  {
+   "offset": 80648,
+   "size": 9,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 平岸駅前",
+    "ko": " 히라기시앞"
+   }
+  },
+  {
+   "offset": 80672,
+   "size": 13,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " 春野家の風呂",
+    "ko": " 하루노가　욕실"
+   }
+  },
+  {
+   "offset": 80700,
+   "size": 9,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 旧道庁前",
+    "ko": " 옛도청　앞"
+   }
+  },
+  {
+   "offset": 80724,
+   "size": 9,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 時計台前",
+    "ko": " 시계탑　앞"
+   }
+  },
+  {
+   "offset": 80748,
+   "size": 9,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 大通公園",
+    "ko": " 오도리공원"
+   }
+  },
+  {
+   "offset": 80772,
+   "size": 13,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " 須貝ゲーセン",
+    "ko": " 스가이　오락실"
+   }
+  },
+  {
+   "offset": 80800,
+   "size": 19,
+   "avail": 19,
+   "section": ".data",
+   "text": {
+    "ja": " ＵＦＯキャッチャー",
+    "ko": " ＵＦＯ　캐처"
+   }
+  },
+  {
+   "offset": 80832,
+   "size": 13,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " ジンギスカン",
+    "ko": " 징기스칸"
+   }
+  },
+  {
+   "offset": 80860,
+   "size": 11,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " ガラス売場",
+    "ko": " 유리　매장"
+   }
+  },
+  {
+   "offset": 80884,
+   "size": 11,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " ガラス工房",
+    "ko": " 유리　공방"
+   }
+  },
+  {
+   "offset": 80908,
+   "size": 15,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " チェロキー車内",
+    "ko": " 체로키　차내"
+   }
+  },
+  {
+   "offset": 80936,
+   "size": 5,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": " 新橋",
+    "ko": " 신바시"
+   }
+  },
+  {
+   "offset": 80956,
+   "size": 9,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 三香温泉",
+    "ko": " 산카　온천"
+   }
+  },
+  {
+   "offset": 80980,
+   "size": 15,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " ドリームビーチ",
+    "ko": " 드림　비치"
+   }
+  },
+  {
+   "offset": 81008,
+   "size": 9,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 札幌駅前",
+    "ko": " 삿포로역앞"
+   }
+  },
+  {
+   "offset": 81032,
+   "size": 11,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " お化け屋敷",
+    "ko": " 귀신의　집"
+   }
+  },
+  {
+   "offset": 81056,
+   "size": 15,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " イベント広場１",
+    "ko": " 이벤트　광장１"
+   }
+  },
+  {
+   "offset": 81084,
+   "size": 15,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " イベント広場２",
+    "ko": " 이벤트　광장２"
+   }
+  },
+  {
+   "offset": 81112,
+   "size": 13,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " オルゴール堂",
+    "ko": " 오르골당"
+   }
+  },
+  {
+   "offset": 81140,
+   "size": 11,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 夕日の公園",
+    "ko": " 석양의공원"
+   }
+  },
+  {
+   "offset": 81164,
+   "size": 11,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 工藝館坩堝",
+    "ko": " 공예도가니"
+   }
+  },
+  {
+   "offset": 81188,
+   "size": 19,
+   "avail": 19,
+   "section": ".data",
+   "text": {
+    "ja": " 銭函・動き出す列車",
+    "ko": " 제니바코・열차출발"
+   }
+  },
+  {
+   "offset": 81220,
+   "size": 15,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " 銭函・走る列車",
+    "ko": " 제니바코・주행"
+   }
+  },
+  {
+   "offset": 81248,
+   "size": 7,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": " 野次馬",
+    "ko": " 구경꾼"
+   }
+  },
+  {
+   "offset": 81268,
+   "size": 9,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 丸駒温泉",
+    "ko": " 마루코마탕"
+   }
+  },
+  {
+   "offset": 81292,
+   "size": 15,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " Ｆ１５ハンガー",
+    "ko": " Ｆ１５　격납고"
+   }
+  },
+  {
+   "offset": 81320,
+   "size": 13,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " 千歳基地食堂",
+    "ko": " 치토세기지식당"
+   }
+  },
+  {
+   "offset": 81348,
+   "size": 15,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " ススキノの喧噪",
+    "ko": " 스스키노　소란"
+   }
+  },
+  {
+   "offset": 81376,
+   "size": 11,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 雪山の吹雪",
+    "ko": " 설산눈보라"
+   }
+  },
+  {
+   "offset": 81400,
+   "size": 11,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " Ｆ１５離陸",
+    "ko": " Ｆ１５이륙"
+   }
+  },
+  {
+   "offset": 81424,
+   "size": 17,
+   "avail": 19,
+   "section": ".data",
+   "text": {
+    "ja": " バルケッタ運転中",
+    "ko": " 바르케타　운전중"
+   }
+  },
+  {
+   "offset": 81456,
+   "size": 25,
+   "avail": 27,
+   "section": ".data",
+   "text": {
+    "ja": " バルケッタのアイドリング",
+    "ko": " 바르케타　공회전"
+   }
+  },
+  {
+   "offset": 81496,
+   "size": 7,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": " 地獄谷",
+    "ko": " 지옥계곡"
+   }
+  },
+  {
+   "offset": 81516,
+   "size": 5,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": " 花火",
+    "ko": " 불꽃놀이"
+   }
+  },
+  {
+   "offset": 81536,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "４３*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 81544,
+   "size": 11,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " ベンツ車内",
+    "ko": " 벤츠　차내"
+   }
+  },
+  {
+   "offset": 81568,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "４４*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 81576,
+   "size": 15,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " テイセンホール",
+    "ko": " 테이센　홀"
+   }
+  },
+  {
+   "offset": 81604,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "４５*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 81612,
+   "size": 7,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": " 美瑛駅",
+    "ko": " 비에이역"
+   }
+  },
+  {
+   "offset": 81632,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "４６*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 81640,
+   "size": 11,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " ボルボ車内",
+    "ko": " 볼보　차내"
+   }
+  },
+  {
+   "offset": 81664,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "４７*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 81672,
+   "size": 5,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": " 牛舎",
+    "ko": " 축사"
+   }
+  },
+  {
+   "offset": 81692,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "４８*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 81700,
+   "size": 11,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 美瑛の早朝",
+    "ko": " 비에이새벽"
+   }
+  },
+  {
+   "offset": 81724,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "４９*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 81732,
+   "size": 13,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " 愛田家の風呂",
+    "ko": " 아이다가　욕실"
+   }
+  },
+  {
+   "offset": 81760,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "５０*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 81768,
+   "size": 21,
+   "avail": 23,
+   "section": ".data",
+   "text": {
+    "ja": " ソリを引いたお母さん",
+    "ko": " 썰매　끄는　어머니"
+   }
+  },
+  {
+   "offset": 81804,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "５１*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 81812,
+   "size": 11,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 雪の平岸駅",
+    "ko": " 눈히라기시"
+   }
+  },
+  {
+   "offset": 81836,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "５２*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 81844,
+   "size": 7,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": " 冬の朝",
+    "ko": " 겨울　아침"
+   }
+  },
+  {
+   "offset": 81864,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "５３*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 81872,
+   "size": 9,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 函館朝市",
+    "ko": " 아침시장"
+   }
+  },
+  {
+   "offset": 81896,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "５４*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 81904,
+   "size": 15,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " ガンガン寺の鐘",
+    "ko": " 간간데라의　종"
+   }
+  },
+  {
+   "offset": 81932,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "５５*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 81940,
+   "size": 13,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " 路面電車車内",
+    "ko": " 노면전차　차내"
+   }
+  },
+  {
+   "offset": 81968,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "５６*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 81976,
+   "size": 13,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " 平成館内風呂",
+    "ko": " 헤이세이칸내탕"
+   }
+  },
+  {
+   "offset": 82004,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "５７*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 82012,
+   "size": 15,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " 平成館露天風呂",
+    "ko": " 헤이세이칸노천"
+   }
+  },
+  {
+   "offset": 82040,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "５８*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 82048,
+   "size": 17,
+   "avail": 19,
+   "section": ".data",
+   "text": {
+    "ja": " ＳＰＡランド水音",
+    "ko": " ＳＰＡ랜드　물소리"
+   }
+  },
+  {
+   "offset": 82080,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "５９*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 82088,
+   "size": 23,
+   "avail": 23,
+   "section": ".data",
+   "text": {
+    "ja": " ＳＰＡランドジャグジー",
+    "ko": " ＳＰＡ랜드　자쿠지"
+   }
+  },
+  {
+   "offset": 82124,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "６０*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 82132,
+   "size": 19,
+   "avail": 19,
+   "section": ".data",
+   "text": {
+    "ja": " ＳＰＡランドサウナ",
+    "ko": " ＳＰＡ랜드　사우나"
+   }
+  },
+  {
+   "offset": 82164,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "６１*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 82172,
+   "size": 19,
+   "avail": 19,
+   "section": ".data",
+   "text": {
+    "ja": " カウントダウン直前",
+    "ko": " 카운트다운　직전"
+   }
+  },
+  {
+   "offset": 82204,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "６２*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 82212,
+   "size": 21,
+   "avail": 23,
+   "section": ".data",
+   "text": {
+    "ja": " グレートバリアリーフ",
+    "ko": " 그레이트　배리어　리프"
+   }
+  },
+  {
+   "offset": 82248,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "６３*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 82256,
+   "size": 11,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 雪の札幌駅",
+    "ko": " 눈삿포로역"
+   }
+  },
+  {
+   "offset": 82280,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "６４*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 82288,
+   "size": 15,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " カウントダウン",
+    "ko": " 카운트다운"
+   }
+  },
+  {
+   "offset": 82316,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "６５*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 82324,
+   "size": 19,
+   "avail": 19,
+   "section": ".data",
+   "text": {
+    "ja": " デビューコンサート",
+    "ko": " 데뷔　콘서트"
+   }
+  },
+  {
+   "offset": 82356,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "６６*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 82364,
+   "size": 7,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": " 大好き",
+    "ko": " 좋아해"
+   }
+  },
+  {
+   "offset": 82384,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "６７*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 82392,
+   "size": 13,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " ナホトカの街",
+    "ko": " 나홋카의　거리"
+   }
+  },
+  {
+   "offset": 82420,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "６８*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 82428,
+   "size": 13,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " ナホトカの海",
+    "ko": " 나홋카의　바다"
+   }
+  },
+  {
+   "offset": 82456,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "６９*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 82464,
+   "size": 17,
+   "avail": 19,
+   "section": ".data",
+   "text": {
+    "ja": " ふれあいイカ広場",
+    "ko": " 만남의오징어광장"
+   }
+  },
+  {
+   "offset": 82496,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "７０*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 82504,
+   "size": 19,
+   "avail": 19,
+   "section": ".data",
+   "text": {
+    "ja": " バルケッタ雪道走行",
+    "ko": " 바르케타눈길주행"
+   }
+  },
+  {
+   "offset": 82536,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "７１*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 82544,
+   "size": 19,
+   "avail": 19,
+   "section": ".data",
+   "text": {
+    "ja": " ナースステーション",
+    "ko": " 간호사실"
+   }
+  },
+  {
+   "offset": 82576,
+   "size": 6,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "７２*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 82584,
+   "size": 25,
+   "avail": 27,
+   "section": ".data",
+   "text": {
+    "ja": " バーチャルホラーサウンド",
+    "ko": " 버추얼　호러　사운드"
+   }
+  },
+  {
+   "offset": 82624,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　　１*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 82636,
+   "size": 11,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 歓迎パネル",
+    "ko": " 환영　패널"
+   }
+  },
+  {
+   "offset": 82664,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　　２*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 82676,
+   "size": 19,
+   "avail": 19,
+   "section": ".data",
+   "text": {
+    "ja": " 春野家玄関扉閉まる",
+    "ko": " 하루노가현관닫힘"
+   }
+  },
+  {
+   "offset": 82712,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　　３*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 82724,
+   "size": 15,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " 目覚ましが鳴る",
+    "ko": " 자명종이　울림"
+   }
+  },
+  {
+   "offset": 82756,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　　４*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 82768,
+   "size": 17,
+   "avail": 19,
+   "section": ".data",
+   "text": {
+    "ja": " シートベルト金具",
+    "ko": " 안전벨트　버클"
+   }
+  },
+  {
+   "offset": 82804,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　　５*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 82816,
+   "size": 11,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 飛行機離陸",
+    "ko": " 비행기이륙"
+   }
+  },
+  {
+   "offset": 82844,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　　６*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 82856,
+   "size": 11,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " お帰りネコ",
+    "ko": " 귀가고양이"
+   }
+  },
+  {
+   "offset": 82884,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　　７*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 82896,
+   "size": 21,
+   "avail": 23,
+   "section": ".data",
+   "text": {
+    "ja": " 行ってらっしゃいネコ",
+    "ko": " 다녀와　고양이"
+   }
+  },
+  {
+   "offset": 82936,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　　８*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 82948,
+   "size": 13,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " おはようネコ",
+    "ko": " 아침고양이"
+   }
+  },
+  {
+   "offset": 82980,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　　９*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 82992,
+   "size": 11,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " お休みネコ",
+    "ko": " 잘자고양이"
+   }
+  },
+  {
+   "offset": 83020,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　１０*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 83032,
+   "size": 13,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " 春野家窓開く",
+    "ko": " 하루노가창열림"
+   }
+  },
+  {
+   "offset": 83064,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　１１*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 83076,
+   "size": 13,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " ラルズのレジ",
+    "ko": " 랄즈　계산대"
+   }
+  },
+  {
+   "offset": 83108,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　１２*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 83120,
+   "size": 11,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 書斎扉開く",
+    "ko": " 서재문열림"
+   }
+  },
+  {
+   "offset": 83148,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　１３*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 83160,
+   "size": 13,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " 書斎扉閉まる",
+    "ko": " 서재문　닫힘"
+   }
+  },
+  {
+   "offset": 83192,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　１４*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 83204,
+   "size": 19,
+   "avail": 19,
+   "section": ".data",
+   "text": {
+    "ja": " 須貝のレースゲーム",
+    "ko": " 스가이　레이스게임"
+   }
+  },
+  {
+   "offset": 83240,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　１５*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 83252,
+   "size": 17,
+   "avail": 19,
+   "section": ".data",
+   "text": {
+    "ja": " ジュースをこぼす",
+    "ko": " 주스를　쏟음"
+   }
+  },
+  {
+   "offset": 83288,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　１６*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 83300,
+   "size": 13,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " コーラで乾杯",
+    "ko": " 콜라로　건배"
+   }
+  },
+  {
+   "offset": 83332,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　１７*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 83344,
+   "size": 11,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 水洗トイレ",
+    "ko": " 수세화장실"
+   }
+  },
+  {
+   "offset": 83372,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　１８*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 83384,
+   "size": 17,
+   "avail": 19,
+   "section": ".data",
+   "text": {
+    "ja": " イルカのジャンプ",
+    "ko": " 돌고래　점프"
+   }
+  },
+  {
+   "offset": 83420,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　１９*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 83432,
+   "size": 11,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 犬の吠え声",
+    "ko": " 개짖는소리"
+   }
+  },
+  {
+   "offset": 83460,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　２０*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 83472,
+   "size": 19,
+   "avail": 19,
+   "section": ".data",
+   "text": {
+    "ja": " 書斎・琴梨のノック",
+    "ko": " 서재・코토리노크"
+   }
+  },
+  {
+   "offset": 83508,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　２１*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 83520,
+   "size": 11,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 冷蔵庫開く",
+    "ko": " 냉장고열림"
+   }
+  },
+  {
+   "offset": 83548,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　２２*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 83560,
+   "size": 11,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 野菜を切る",
+    "ko": " 채소　썰기"
+   }
+  },
+  {
+   "offset": 83588,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　２３*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 83600,
+   "size": 13,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " 野菜を炒める",
+    "ko": " 채소　볶기"
+   }
+  },
+  {
+   "offset": 83632,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　２４*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 83644,
+   "size": 13,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " 冷蔵庫閉める",
+    "ko": " 냉장고　닫힘"
+   }
+  },
+  {
+   "offset": 83676,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　２５*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 83688,
+   "size": 15,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " チェロキー始動",
+    "ko": " 체로키　시동"
+   }
+  },
+  {
+   "offset": 83720,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　２６*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 83732,
+   "size": 15,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " ホテル扉閉まる",
+    "ko": " 호텔문　닫힘"
+   }
+  },
+  {
+   "offset": 83764,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　２７*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 83776,
+   "size": 13,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " ホテル扉開く",
+    "ko": " 호텔문　열림"
+   }
+  },
+  {
+   "offset": 83808,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　２８*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 83820,
+   "size": 13,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " 琴梨つまずく",
+    "ko": " 코토리　헛디딤"
+   }
+  },
+  {
+   "offset": 83852,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　２９*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 83864,
+   "size": 15,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " つばを飲み込む",
+    "ko": " 침을　삼킴"
+   }
+  },
+  {
+   "offset": 83896,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　３０*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 83908,
+   "size": 19,
+   "avail": 19,
+   "section": ".data",
+   "text": {
+    "ja": " ホテル琴梨のノック",
+    "ko": " 호텔코토리노크"
+   }
+  },
+  {
+   "offset": 83944,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　３１*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 83956,
+   "size": 9,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 列車出発",
+    "ko": " 열차　출발"
+   }
+  },
+  {
+   "offset": 83984,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　３２*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 83996,
+   "size": 9,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " バス出発",
+    "ko": " 버스　출발"
+   }
+  },
+  {
+   "offset": 84024,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　３３*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 84036,
+   "size": 21,
+   "avail": 23,
+   "section": ".data",
+   "text": {
+    "ja": " お化け屋敷・戸板返し",
+    "ko": " 귀신의　집・문짝뒤집기"
+   }
+  },
+  {
+   "offset": 84076,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　３４*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 84088,
+   "size": 15,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " お化け屋敷・雷",
+    "ko": " 귀신의집・천둥"
+   }
+  },
+  {
+   "offset": 84120,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　３５*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 84132,
+   "size": 17,
+   "avail": 19,
+   "section": ".data",
+   "text": {
+    "ja": " お化け屋敷・生首",
+    "ko": " 귀신의집・잘린목"
+   }
+  },
+  {
+   "offset": 84168,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　３６*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 84180,
+   "size": 17,
+   "avail": 19,
+   "section": ".data",
+   "text": {
+    "ja": " お化け屋敷・出口",
+    "ko": " 귀신의　집・출구"
+   }
+  },
+  {
+   "offset": 84216,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　３７*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 84228,
+   "size": 15,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " テイネ呼び出し",
+    "ko": " 테이네　호출"
+   }
+  },
+  {
+   "offset": 84260,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　３８*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 84272,
+   "size": 15,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " 怪人突き飛ばす",
+    "ko": " 괴인　밀치기"
+   }
+  },
+  {
+   "offset": 84304,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　３９*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 84316,
+   "size": 11,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 司会者転ぶ",
+    "ko": " 사회자꽈당"
+   }
+  },
+  {
+   "offset": 84344,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　４０*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 84356,
+   "size": 11,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 怪人必殺技",
+    "ko": " 괴인필살기"
+   }
+  },
+  {
+   "offset": 84384,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　４１*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 84396,
+   "size": 9,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 怪人爆発",
+    "ko": " 괴인　폭발"
+   }
+  },
+  {
+   "offset": 84424,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　４２*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 84436,
+   "size": 15,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " ＰＨＳプッシュ",
+    "ko": " ＰＨＳ　버튼"
+   }
+  },
+  {
+   "offset": 84468,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　４３*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 84480,
+   "size": 15,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " ＰＨＳ呼び出し",
+    "ko": " ＰＨＳ　호출"
+   }
+  },
+  {
+   "offset": 84512,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　４４*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 84524,
+   "size": 13,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " ＰＨＳ無通話",
+    "ko": " ＰＨＳ　무응답"
+   }
+  },
+  {
+   "offset": 84556,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　４５*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 84568,
+   "size": 11,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 鮎走り寄る",
+    "ko": " 아유달려옴"
+   }
+  },
+  {
+   "offset": 84596,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　４６*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 84608,
+   "size": 17,
+   "avail": 19,
+   "section": ".data",
+   "text": {
+    "ja": " ロープウェイ始動",
+    "ko": " 로프웨이　시동"
+   }
+  },
+  {
+   "offset": 84644,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　４７*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 84656,
+   "size": 17,
+   "avail": 19,
+   "section": ".data",
+   "text": {
+    "ja": " いじめっ子がぶつ",
+    "ko": " 못된　아이가　때림"
+   }
+  },
+  {
+   "offset": 84692,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　４８*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 84704,
+   "size": 19,
+   "avail": 19,
+   "section": ".data",
+   "text": {
+    "ja": " いじめっ子が逃げる",
+    "ko": " 못된아이도망감"
+   }
+  },
+  {
+   "offset": 84740,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　４９*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 84752,
+   "size": 19,
+   "avail": 19,
+   "section": ".data",
+   "text": {
+    "ja": " いじめられっ子走る",
+    "ko": " 시달린아이뜀"
+   }
+  },
+  {
+   "offset": 84788,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　５０*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 84800,
+   "size": 17,
+   "avail": 19,
+   "section": ".data",
+   "text": {
+    "ja": " メッセ開演ブザー",
+    "ko": " 메세　개연　부저"
+   }
+  },
+  {
+   "offset": 84836,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　５１*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 84848,
+   "size": 11,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " メッセ拍手",
+    "ko": " 메세　박수"
+   }
+  },
+  {
+   "offset": 84876,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　５２*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 84888,
+   "size": 19,
+   "avail": 19,
+   "section": ".data",
+   "text": {
+    "ja": " メッセドラムロール",
+    "ko": " 메세　드럼롤"
+   }
+  },
+  {
+   "offset": 84924,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　５３*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 84936,
+   "size": 13,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " 花瓶が落ちる",
+    "ko": " 꽃병이　떨어짐"
+   }
+  },
+  {
+   "offset": 84968,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　５４*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 84980,
+   "size": 13,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " 花瓶が割れる",
+    "ko": " 꽃병이　깨짐"
+   }
+  },
+  {
+   "offset": 85012,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　５５*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 85024,
+   "size": 11,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 割れた花瓶",
+    "ko": " 깨진　꽃병"
+   }
+  },
+  {
+   "offset": 85052,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　５６*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 85064,
+   "size": 15,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " 花瓶をキャッチ",
+    "ko": " 꽃병을　캐치"
+   }
+  },
+  {
+   "offset": 85096,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　５７*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 85108,
+   "size": 15,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " ターニャが去る",
+    "ko": " 타냐가　떠남"
+   }
+  },
+  {
+   "offset": 85140,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　５８*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 85152,
+   "size": 15,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " 作業台をずらす",
+    "ko": " 작업대　밀기"
+   }
+  },
+  {
+   "offset": 85184,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　５９*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 85196,
+   "size": 17,
+   "avail": 19,
+   "section": ".data",
+   "text": {
+    "ja": " ペンダント割れる",
+    "ko": " 펜던트　깨짐"
+   }
+  },
+  {
+   "offset": 85232,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　６０*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 85244,
+   "size": 13,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " 強烈なビンタ",
+    "ko": " 강렬한　따귀"
+   }
+  },
+  {
+   "offset": 85276,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　６１*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 85288,
+   "size": 17,
+   "avail": 19,
+   "section": ".data",
+   "text": {
+    "ja": " リーマン立ち去る",
+    "ko": " 회사원　떠남"
+   }
+  },
+  {
+   "offset": 85324,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　６２*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 85336,
+   "size": 15,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " バーナーワーク",
+    "ko": " 버너워크"
+   }
+  },
+  {
+   "offset": 85368,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　６３*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 85380,
+   "size": 11,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 鞄を開ける",
+    "ko": " 가방　열기"
+   }
+  },
+  {
+   "offset": 85408,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　６４*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 85420,
+   "size": 25,
+   "avail": 27,
+   "section": ".data",
+   "text": {
+    "ja": " バルケッタのクラクション",
+    "ko": " 바르케타　경적"
+   }
+  },
+  {
+   "offset": 85464,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　６５*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 85476,
+   "size": 19,
+   "avail": 19,
+   "section": ".data",
+   "text": {
+    "ja": " バルケッタ走り去る",
+    "ko": " 바르케타　떠나감"
+   }
+  },
+  {
+   "offset": 85512,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　６６*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 85524,
+   "size": 15,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " 屋台椅子に座る",
+    "ko": " 포장마차앉음"
+   }
+  },
+  {
+   "offset": 85556,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　６７*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 85568,
+   "size": 19,
+   "avail": 19,
+   "section": ".data",
+   "text": {
+    "ja": " 冷やし中華をかける",
+    "ko": " 히야시추카를　쏟음"
+   }
+  },
+  {
+   "offset": 85604,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　６８*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 85616,
+   "size": 11,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " バイク始動",
+    "ko": " 바이크시동"
+   }
+  },
+  {
+   "offset": 85644,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　６９*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 85656,
+   "size": 11,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " ＰＨＳベル",
+    "ko": " ＰＨＳ　벨"
+   }
+  },
+  {
+   "offset": 85684,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　７０*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 85696,
+   "size": 15,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " Ｇ１シャッター",
+    "ko": " Ｇ１　셔터"
+   }
+  },
+  {
+   "offset": 85728,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　７１*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 85740,
+   "size": 17,
+   "avail": 19,
+   "section": ".data",
+   "text": {
+    "ja": " 雪山クラクション",
+    "ko": " 설산　경적"
+   }
+  },
+  {
+   "offset": 85776,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　７２*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 85788,
+   "size": 23,
+   "avail": 23,
+   "section": ".data",
+   "text": {
+    "ja": " てくてくＤｕｅタイマー",
+    "ko": " 테쿠테쿠Ｄｕｅ　타이머"
+   }
+  },
+  {
+   "offset": 85828,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　７３*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 85840,
+   "size": 15,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " スクーター走行",
+    "ko": " 스쿠터　주행"
+   }
+  },
+  {
+   "offset": 85872,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　７４*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 85884,
+   "size": 15,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " スクーター激突",
+    "ko": " 스쿠터　충돌"
+   }
+  },
+  {
+   "offset": 85916,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　７５*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 85928,
+   "size": 13,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " 交通事故叫び",
+    "ko": " 교통사고　비명"
+   }
+  },
+  {
+   "offset": 85960,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　７６*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 85972,
+   "size": 9,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 胸の感触",
+    "ko": " 가슴의감촉"
+   }
+  },
+  {
+   "offset": 86000,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　７７*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 86012,
+   "size": 11,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 薫のビンタ",
+    "ko": " 카오루따귀"
+   }
+  },
+  {
+   "offset": 86040,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　７８*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 86052,
+   "size": 17,
+   "avail": 19,
+   "section": ".data",
+   "text": {
+    "ja": " 見舞い客立ち去る",
+    "ko": " 병문안　손님　떠남"
+   }
+  },
+  {
+   "offset": 86088,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　７９*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 86100,
+   "size": 21,
+   "avail": 23,
+   "section": ".data",
+   "text": {
+    "ja": " バルケッタのブレーキ",
+    "ko": " 바르케타　브레이크"
+   }
+  },
+  {
+   "offset": 86140,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　８０*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 86152,
+   "size": 15,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " ドライブサーブ",
+    "ko": " 드라이브　서브"
+   }
+  },
+  {
+   "offset": 86184,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　８１*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 86196,
+   "size": 13,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " 葉野香の一撃",
+    "ko": " 하노카의　일격"
+   }
+  },
+  {
+   "offset": 86228,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　８２*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 86240,
+   "size": 11,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 鈴本の一撃",
+    "ko": " 스즈모토격"
+   }
+  },
+  {
+   "offset": 86268,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　８３*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 86280,
+   "size": 11,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 傷がしみる",
+    "ko": " 상처쓰라림"
+   }
+  },
+  {
+   "offset": 86308,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　８４*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 86320,
+   "size": 11,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 試着室開く",
+    "ko": " 탈의실열림"
+   }
+  },
+  {
+   "offset": 86348,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　８５*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 86360,
+   "size": 13,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " 試着室閉まる",
+    "ko": " 탈의실　닫힘"
+   }
+  },
+  {
+   "offset": 86392,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　８６*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 86404,
+   "size": 11,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " ベンツ走行",
+    "ko": " 벤츠　주행"
+   }
+  },
+  {
+   "offset": 86432,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　８７*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 86444,
+   "size": 15,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " ベンツ扉閉まる",
+    "ko": " 벤츠문　닫힘"
+   }
+  },
+  {
+   "offset": 86476,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　８８*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 86488,
+   "size": 15,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " リブレット打鍵",
+    "ko": " 리브레토입력"
+   }
+  },
+  {
+   "offset": 86520,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　８９*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 86532,
+   "size": 15,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " ベンツ走り去る",
+    "ko": " 벤츠　떠나감"
+   }
+  },
+  {
+   "offset": 86564,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　９０*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 86576,
+   "size": 11,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 梢走り去る",
+    "ko": " 코즈에떠남"
+   }
+  },
+  {
+   "offset": 86604,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　９１*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 86616,
+   "size": 13,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " 梢の手を掴む",
+    "ko": " 코즈에손잡음"
+   }
+  },
+  {
+   "offset": 86648,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　９２*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 86660,
+   "size": 15,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " めぐみ走り去る",
+    "ko": " 메구미　떠나감"
+   }
+  },
+  {
+   "offset": 86692,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　９３*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 86704,
+   "size": 15,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " めぐみ引き返す",
+    "ko": " 메구미되돌아옴"
+   }
+  },
+  {
+   "offset": 86736,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　９４*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 86748,
+   "size": 17,
+   "avail": 19,
+   "section": ".data",
+   "text": {
+    "ja": " 愛田家リビング扉",
+    "ko": " 아이다가　거실문"
+   }
+  },
+  {
+   "offset": 86784,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　９５*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 86796,
+   "size": 15,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " 愛田家客間開く",
+    "ko": " 아이다객실열림"
+   }
+  },
+  {
+   "offset": 86828,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　９６*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 86840,
+   "size": 17,
+   "avail": 19,
+   "section": ".data",
+   "text": {
+    "ja": " 愛田家客間閉める",
+    "ko": " 아이다　객실　닫힘"
+   }
+  },
+  {
+   "offset": 86876,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　９７*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 86888,
+   "size": 15,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " めぐみのノック",
+    "ko": " 메구미의　노크"
+   }
+  },
+  {
+   "offset": 86920,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　９８*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 86932,
+   "size": 17,
+   "avail": 19,
+   "section": ".data",
+   "text": {
+    "ja": " めぐみヅラずらす",
+    "ko": " 메구미　가발　밀기"
+   }
+  },
+  {
+   "offset": 86968,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "　９９*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 86980,
+   "size": 13,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " めぐみ逃げる",
+    "ko": " 메구미　도망감"
+   }
+  },
+  {
+   "offset": 87012,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "１００*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 87024,
+   "size": 13,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " 里子のノック",
+    "ko": " 사토코의　노크"
+   }
+  },
+  {
+   "offset": 87056,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "１０１*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 87068,
+   "size": 13,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " 枯れ枝を踏む",
+    "ko": " 마른가지　밟음"
+   }
+  },
+  {
+   "offset": 87100,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "１０２*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 87112,
+   "size": 9,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 母牛の声",
+    "ko": " 어미소울음"
+   }
+  },
+  {
+   "offset": 87140,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "１０３*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 87152,
+   "size": 11,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 耕作が走る",
+    "ko": " 코사쿠달림"
+   }
+  },
+  {
+   "offset": 87180,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "１０４*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 87192,
+   "size": 15,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " めぐみが起こす",
+    "ko": " 메구미가　깨움"
+   }
+  },
+  {
+   "offset": 87224,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "１０５*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 87236,
+   "size": 17,
+   "avail": 19,
+   "section": ".data",
+   "text": {
+    "ja": " めぐみのクロール",
+    "ko": " 메구미의　크롤"
+   }
+  },
+  {
+   "offset": 87272,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "１０６*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 87284,
+   "size": 11,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " プール大波",
+    "ko": " 수영장파도"
+   }
+  },
+  {
+   "offset": 87312,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "１０７*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 87324,
+   "size": 13,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " 列車扉閉まる",
+    "ko": " 열차문　닫힘"
+   }
+  },
+  {
+   "offset": 87356,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "１０８*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 87368,
+   "size": 13,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " めぐみ近寄る",
+    "ko": " 메구미　다가옴"
+   }
+  },
+  {
+   "offset": 87400,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "１０９*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 87412,
+   "size": 15,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " 春野家チャイム",
+    "ko": " 하루노가초인종"
+   }
+  },
+  {
+   "offset": 87444,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "１１０*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 87456,
+   "size": 11,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 地下鉄発車",
+    "ko": " 지하철출발"
+   }
+  },
+  {
+   "offset": 87484,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "１１１*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 87496,
+   "size": 13,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " 激突急カーブ",
+    "ko": " 격돌　급커브"
+   }
+  },
+  {
+   "offset": 87528,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "１１２*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 87540,
+   "size": 15,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " 激突急ブレーキ",
+    "ko": " 격돌급브레이크"
+   }
+  },
+  {
+   "offset": 87572,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "１１３*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 87584,
+   "size": 11,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 激突の激突",
+    "ko": " 격돌의격돌"
+   }
+  },
+  {
+   "offset": 87612,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "１１４*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 87624,
+   "size": 17,
+   "avail": 19,
+   "section": ".data",
+   "text": {
+    "ja": " 激突クラクション",
+    "ko": " 격돌　경적"
+   }
+  },
+  {
+   "offset": 87660,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "１１５*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 87672,
+   "size": 17,
+   "avail": 19,
+   "section": ".data",
+   "text": {
+    "ja": " サウナでのぼせる",
+    "ko": " 사우나　현기증"
+   }
+  },
+  {
+   "offset": 87708,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "１１６*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 87720,
+   "size": 17,
+   "avail": 19,
+   "section": ".data",
+   "text": {
+    "ja": " 雪道クラクション",
+    "ko": " 눈길　경적"
+   }
+  },
+  {
+   "offset": 87756,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "１１７*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 87768,
+   "size": 11,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 雪道走行音",
+    "ko": " 눈길주행음"
+   }
+  },
+  {
+   "offset": 87796,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "１１８*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 87808,
+   "size": 11,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 北風が吹く",
+    "ko": " 북풍　소리"
+   }
+  },
+  {
+   "offset": 87836,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "１１９*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 87848,
+   "size": 7,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": " 海へ。",
+    "ko": " 바다로。"
+   }
+  },
+  {
+   "offset": 87872,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "１２０*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 87884,
+   "size": 7,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": " 海の泡",
+    "ko": " 바다거품"
+   }
+  },
+  {
+   "offset": 87908,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "１２１*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 87920,
+   "size": 13,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " 路面電車出発",
+    "ko": " 노면전차　출발"
+   }
+  },
+  {
+   "offset": 87952,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "１２２*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 87964,
+   "size": 15,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " ＭＤ再生ボタン",
+    "ko": " ＭＤ　재생버튼"
+   }
+  },
+  {
+   "offset": 87996,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "１２３*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 88008,
+   "size": 13,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " プールに潜る",
+    "ko": " 수영장　잠수"
+   }
+  },
+  {
+   "offset": 88040,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "１２４*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 88052,
+   "size": 11,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " プール水中",
+    "ko": " 수영장수중"
+   }
+  },
+  {
+   "offset": 88080,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "１２５*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 88092,
+   "size": 17,
+   "avail": 19,
+   "section": ".data",
+   "text": {
+    "ja": " プールから上がる",
+    "ko": " 수영장에서　나옴"
+   }
+  },
+  {
+   "offset": 88128,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "１２６*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 88140,
+   "size": 15,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " プールでもがく",
+    "ko": " 수영장　허우적"
+   }
+  },
+  {
+   "offset": 88172,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "１２７*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 88184,
+   "size": 15,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " 路面電車揺れる",
+    "ko": " 노면전차흔들림"
+   }
+  },
+  {
+   "offset": 88216,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "１２８*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 88228,
+   "size": 21,
+   "avail": 23,
+   "section": ".data",
+   "text": {
+    "ja": " ビートルコップ割れる",
+    "ko": " 비틀컵　깨짐"
+   }
+  },
+  {
+   "offset": 88268,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "１２９*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 88280,
+   "size": 15,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " ジャグジー座る",
+    "ko": " 자쿠지에　앉음"
+   }
+  },
+  {
+   "offset": 88312,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "１３０*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 88324,
+   "size": 19,
+   "avail": 19,
+   "section": ".data",
+   "text": {
+    "ja": " ナホトカのアパート",
+    "ko": " 나홋카의　아파트"
+   }
+  },
+  {
+   "offset": 88360,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "１３１*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 88372,
+   "size": 13,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " 平成館水攻め",
+    "ko": " 온천물벼락"
+   }
+  },
+  {
+   "offset": 88404,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "１３２*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 88416,
+   "size": 9,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 雪道尻餅",
+    "ko": " 눈엉덩방아"
+   }
+  },
+  {
+   "offset": 88444,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "１３３*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 88456,
+   "size": 13,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " 写真をめくる",
+    "ko": " 사진을　넘김"
+   }
+  },
+  {
+   "offset": 88488,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "１３４*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 88500,
+   "size": 15,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " バルケッタ始動",
+    "ko": " 바르케타　시동"
+   }
+  },
+  {
+   "offset": 88532,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "１３５*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 88544,
+   "size": 21,
+   "avail": 23,
+   "section": ".data",
+   "text": {
+    "ja": " 生意気なクラクション",
+    "ko": " 건방진　경적"
+   }
+  },
+  {
+   "offset": 88584,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "１３６*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 88596,
+   "size": 15,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " バルケッタ停止",
+    "ko": " 바르케타　정지"
+   }
+  },
+  {
+   "offset": 88628,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "１３７*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 88640,
+   "size": 11,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 薫足をつる",
+    "ko": " 다리에쥐"
+   }
+  },
+  {
+   "offset": 88668,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "１３８*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 88680,
+   "size": 15,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " 葉野香押しのけ",
+    "ko": " 하노카　밀치기"
+   }
+  },
+  {
+   "offset": 88712,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "１３９*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 88724,
+   "size": 13,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " 生タコ刺し身",
+    "ko": " 생문어　회"
+   }
+  },
+  {
+   "offset": 88756,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "１４０*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 88768,
+   "size": 11,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 新雪を踏む",
+    "ko": " 눈밟는소리"
+   }
+  },
+  {
+   "offset": 88796,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "１４１*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 88808,
+   "size": 13,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": " 雪道転んだ後",
+    "ko": " 눈길넘어진후"
+   }
+  },
+  {
+   "offset": 88840,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "１４２*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 88852,
+   "size": 17,
+   "avail": 19,
+   "section": ".data",
+   "text": {
+    "ja": " デスクトップ打鍵",
+    "ko": " 데스크톱　타이핑"
+   }
+  },
+  {
+   "offset": 88888,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "１４３*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 88900,
+   "size": 11,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 恐竜の叫び",
+    "ko": " 공룡　포효"
+   }
+  },
+  {
+   "offset": 88928,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "１４４*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 88940,
+   "size": 17,
+   "avail": 19,
+   "section": ".data",
+   "text": {
+    "ja": " 平成館めぐみ転ぶ",
+    "ko": " 메구미　넘어짐"
+   }
+  },
+  {
+   "offset": 88976,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "１４５*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 88988,
+   "size": 17,
+   "avail": 19,
+   "section": ".data",
+   "text": {
+    "ja": " 平成館風呂桶戻す",
+    "ko": " 목욕통　되돌려놓음"
+   }
+  },
+  {
+   "offset": 89024,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "１４６*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 89036,
+   "size": 17,
+   "avail": 19,
+   "section": ".data",
+   "text": {
+    "ja": " 平成館立ち上がる",
+    "ko": " 욕탕에서　일어남"
+   }
+  },
+  {
+   "offset": 89072,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "１４７*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 89084,
+   "size": 17,
+   "avail": 19,
+   "section": ".data",
+   "text": {
+    "ja": " プール水をかける",
+    "ko": " 수영장　물뿌리기"
+   }
+  },
+  {
+   "offset": 89120,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "１４８*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 89132,
+   "size": 11,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " めぐみ激突",
+    "ko": " 메구미충돌"
+   }
+  },
+  {
+   "offset": 89160,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "１４９*3",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 89172,
+   "size": 11,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": " 雪が落ちる",
+    "ko": " 눈　떨어짐"
+   }
+  },
+  {
+   "offset": 89200,
+   "size": 88,
+   "avail": 91,
+   "section": ".data",
+   "text": {
+    "ja": "方向ボタン上下でモードを選択し\nＡボタンで決定します。\nＢボタンでタイトル画面に戻ります。",
+    "ko": "방향　버튼　위아래로　모드를　선택\nＡ로　결정합니다。\nＢ로　타이틀　화면으로　돌아갑니다。"
+   }
+  },
+  {
+   "offset": 89292,
+   "size": 110,
+   "avail": 111,
+   "section": ".data",
+   "text": {
+    "ja": "方向ボタン上下で曲を選択し\nＡボタンで再生開始　Ｘボタンで再生停止します。\nＢボタンでモード選択画面に戻ります。",
+    "ko": "방향　버튼　위아래로　곡을　선택\nＡ로　재생　시작　Ｘ로　재생을　멈춥니다。\nＢ로　모드　선택으로　돌아갑니다。"
+   }
+  },
+  {
+   "offset": 89404,
+   "size": 114,
+   "avail": 115,
+   "section": ".data",
+   "text": {
+    "ja": "方向ボタン上下で環境音を選択し\nＡボタンで再生開始　Ｘボタンで再生停止します。\nＢボタンでモード選択画面に戻ります。",
+    "ko": "방향　버튼　위아래로　환경음을　선택\nＡ로　재생　시작　Ｘ로　재생을　멈춥니다。\nＢ로　모드　선택으로　돌아갑니다。"
+   }
+  },
+  {
+   "offset": 89572,
+   "size": 2,
+   "avail": 3,
+   "section": ".data",
+   "text": {
+    "ja": "　",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 89576,
+   "size": 14,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": "サウンドルーム",
+    "ko": "사운드룸"
+   }
+  }
+ ]
+}

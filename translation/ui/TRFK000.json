@@ -1,0 +1,176 @@
+{
+  "module": "TRFK000",
+  "path": "/TRF/TRFK000.DLL",
+  "entries": [
+    {
+      "offset": 77416,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "納",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 77508,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "鐚",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 77620,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "弸",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 77628,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "膸",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 77752,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "申",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 77756,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "彌",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 77804,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "猫",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 77808,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "鍖",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 77880,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "臀",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 77904,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "腟",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 77912,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "鰀",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 78028,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "連",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 78144,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "珪",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 78148,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "肋",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 78248,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "濔",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 78316,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "寝",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 79892,
+      "size": 13,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "由子の写真(0)",
+        "ko": "유코　사진(0)"
+      }
+    }
+  ]
+}

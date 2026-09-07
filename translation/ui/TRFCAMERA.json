@@ -1,0 +1,136 @@
+{
+  "module": "TRFCAMERA",
+  "path": "/TRF/TRFCAMERA.DLL",
+  "entries": [
+    {
+      "offset": 76784,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "廝",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 76840,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "廝",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 76972,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "触",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 77136,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "廝",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 77172,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "寧",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 77316,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "桑",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 77328,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "廝",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 77968,
+      "size": 16,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "ファインダー.set",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 78092,
+      "size": 8,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "会話場所",
+        "ko": "대화　장소"
+      }
+    },
+    {
+      "offset": 78104,
+      "size": 8,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "得点表示",
+        "ko": "득점표시"
+      }
+    },
+    {
+      "offset": 78116,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "由子の写真",
+        "ko": "유코　사진"
+      }
+    },
+    {
+      "offset": 78368,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "滷",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 78376,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "炉",
+        "ko": ""
+      }
+    }
+  ]
+}

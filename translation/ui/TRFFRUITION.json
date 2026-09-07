@@ -1,0 +1,116 @@
+{
+  "module": "TRFFRUITION",
+  "path": "/TRF/TRFFRUITION.DLL",
+  "entries": [
+    {
+      "offset": 72660,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "春野　琴梨",
+        "ko": "코토리"
+      }
+    },
+    {
+      "offset": 72672,
+      "size": 8,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "川原　鮎",
+        "ko": "아유"
+      }
+    },
+    {
+      "offset": 72684,
+      "size": 8,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "ターニャ",
+        "ko": "타냐"
+      }
+    },
+    {
+      "offset": 72696,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "桜町　由子",
+        "ko": "유코"
+      }
+    },
+    {
+      "offset": 72708,
+      "size": 8,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "椎名　薫",
+        "ko": "카오루"
+      }
+    },
+    {
+      "offset": 72720,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "左京葉野香",
+        "ko": "하노카"
+      }
+    },
+    {
+      "offset": 72732,
+      "size": 8,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "里中　梢",
+        "ko": "코즈에"
+      }
+    },
+    {
+      "offset": 72744,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "愛田めぐみ",
+        "ko": "메구미"
+      }
+    },
+    {
+      "offset": 72756,
+      "size": 6,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "その他",
+        "ko": "기타"
+      }
+    },
+    {
+      "offset": 72780,
+      "size": 14,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "シナリオ達成度",
+        "ko": "시나리오　달성도"
+      }
+    },
+    {
+      "offset": 72796,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "％",
+        "ko": ""
+      }
+    }
+  ]
+}

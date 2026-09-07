@@ -1,0 +1,936 @@
+{
+  "module": "KITAVMS",
+  "path": "/TRF/KITAVMS.DLL",
+  "entries": [
+    {
+      "offset": 12892,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "碑",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 12940,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "沖",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 13020,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "｛",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 13036,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "沖",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 13052,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "沖",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 13084,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "沖",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 13100,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "｛",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 13116,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "｛",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 13132,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "沖",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 13148,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "｛",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 13164,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "｛",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 13180,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "沖",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 13420,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "嬶",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 13436,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "嬶",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 13452,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "嬶",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 13468,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "嬶",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 13484,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "嬶",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 13500,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "嬶",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 13516,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "嬶",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 13548,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "嬶",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 13580,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "嬶",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 13612,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "嬶",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 13644,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "楪",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 13660,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "嬶",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 13724,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "嬶",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 13932,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "嬶",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 14108,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "嬶",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 14124,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "嬶",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 14140,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "嬶",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 14188,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "嬶",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 14204,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "嬶",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 14220,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "嬶",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 14252,
+      "size": 6,
+      "avail": 7,
+      "section": ".rdata",
+      "text": {
+        "ja": "鴇DEST",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 14540,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "墟",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 14780,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "墟",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 14796,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "墟",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 14812,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "墟",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 14828,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "墟",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 14844,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "墟",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 14860,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "墟",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 14876,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "墟",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 14892,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "墟",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 14908,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "墟",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 14924,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "墟",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 14940,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "墟",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 14956,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "墟",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 14972,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "戔",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 14988,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "廾",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 15020,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "廸",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 15036,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "廸",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 15090,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "刕",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 15116,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "擡",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 15132,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "廸",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 15164,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "廸",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 15180,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "愧",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 15196,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "廾",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 15212,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "廾",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 15228,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "廸",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 15244,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "愧",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 15260,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "廸",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 15388,
+      "size": 2,
+      "avail": 9,
+      "section": ".rdata",
+      "text": {
+        "ja": "娠",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 15701,
+      "size": 3,
+      "avail": 6,
+      "section": ".rdata",
+      "text": {
+        "ja": "蝦6",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 15732,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "露",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 15764,
+      "size": 2,
+      "avail": 5,
+      "section": ".rdata",
+      "text": {
+        "ja": "飆",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 16379,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "隯",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 16395,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "鈿",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 16427,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "荢",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 16443,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "鑅",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 16458,
+      "size": 3,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "黑p",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 16537,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "劔",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 16587,
+      "size": 3,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "蕙z",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 16872,
+      "size": 4,
+      "avail": 4,
+      "section": ".data",
+      "text": {
+        "ja": "鉋魵",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 16907,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "鈔",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 16939,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "黑",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 16955,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "鑅",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 16970,
+      "size": 3,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "黑p",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 17049,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "劔",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 17099,
+      "size": 3,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "蕙z",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 17386,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "魵",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 17416,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "鈞",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 17432,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "髙",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 17451,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "荢",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 17467,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "鑅",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 17482,
+      "size": 3,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "黑p",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 17561,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "劔",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 17611,
+      "size": 3,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "蕙z",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 18242,
+      "size": 26,
+      "avail": 32,
+      "section": ".data",
+      "text": {
+        "ja": "北へ。  White Illumination",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 18296,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "澑",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 18346,
+      "size": 32,
+      "avail": 32,
+      "section": ".data",
+      "text": {
+        "ja": "Ｄｒｅａｍ　Ｐａｓｓｐｏｒｔ    ",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 18416,
+      "size": 20,
+      "avail": 27,
+      "section": ".data",
+      "text": {
+        "ja": "ハドソンホームページ",
+        "ko": "허드슨　홈페이지"
+      }
+    },
+    {
+      "offset": 18468,
+      "size": 19,
+      "avail": 26,
+      "section": ".data",
+      "text": {
+        "ja": "ＴＲＦ ホームページ",
+        "ko": "ＴＲＦ　홈페이지"
+      }
+    },
+    {
+      "offset": 18582,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "鴟",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 18879,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "溟",
+        "ko": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "module": "TRFMAIN",
+  "path": "/TRF/TRFMAIN.EXE",
+  "entries": [
+    {
+      "offset": 57856,
+      "size": 2,
+      "avail": 9,
+      "section": ".rdata",
+      "text": {
+        "ja": "琵",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 57868,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "洄",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 58004,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "顫",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 58456,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "顫",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 58660,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "データ転送中",
+        "ko": "데이터　전송중"
+      }
+    },
+    {
+      "offset": 58676,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "データ解凍中",
+        "ko": "압축　해제중"
+      }
+    }
+  ]
+}

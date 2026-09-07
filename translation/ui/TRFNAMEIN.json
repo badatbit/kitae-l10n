@@ -1,1026 +1,1026 @@
 {
-  "module": "TRFNAMEIN",
-  "path": "/TRF/TRFNAMEIN.DLL",
-  "entries": [
-    {
-      "offset": 80580,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "鏘",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 80704,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "膂",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 80820,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "膂",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 80960,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "狼",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 80976,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "膂",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 80980,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "鏃",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 83532,
-      "size": 377,
-      "avail": 379,
-      "section": ".data",
-      "text": {
-        "ja": "方向ボタン上下でアイコン選択　Ａボタンで決定\nＸボタンで文字を削除し入力部分を前に戻します。\nスタートボタンで名字または名前の入力を終了します。カーソルで読みの先頭を選択、\nＡボタンで漢字選択に移動します。左右で入力部分を選択、\nＡまたはＢで一文字消去します。カーソルで文字を選択、\nＡボタンで決定します。い音ん下さり画面１つ場合先頭の複数ページ時はＬＲトリガーで切り替えられます／",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 83912,
-      "size": 92,
-      "avail": 95,
-      "section": ".data",
-      "text": {
-        "ja": "あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 84008,
-      "size": 30,
-      "avail": 31,
-      "section": ".data",
-      "text": {
-        "ja": "名字名前０１２３４５６７８９／",
-        "ko": "성　이름０１２３４５６７８９／"
-      }
-    },
-    {
-      "offset": 84040,
-      "size": 8,
-      "avail": 11,
-      "section": ".data",
-      "text": {
-        "ja": "竹下　　",
-        "ko": "타케시타"
-      }
-    },
-    {
-      "offset": 84052,
-      "size": 12,
-      "avail": 15,
-      "section": ".data",
-      "text": {
-        "ja": "デブ？　　　",
-        "ko": "데부？"
-      }
-    },
-    {
-      "offset": 84068,
-      "size": 142,
-      "avail": 143,
-      "section": ".data",
-      "text": {
-        "ja": "方向ボタン上下でアイコン選択　Ａボタンで決定\nＸボタンで文字を削除し入力部分を前に戻します。\nスタートボタンで名字または名前の入力を終了します。",
-        "ko": "방향　버튼으로　아이콘　선택　Ａ로　결정\nＸ로　지우고　앞으로　스타트로　입력　끝"
-      }
-    },
-    {
-      "offset": 84212,
-      "size": 148,
-      "avail": 151,
-      "section": ".data",
-      "text": {
-        "ja": "入力したい漢字の　読みの先頭の文字を選んで下さい。\nＡボタンで決定　Ｂボタンで前の画面に戻ります。\nスタートボタンで名字または名前の入力を終了します。",
-        "ko": "입력할　한자의　읽기　첫　글자를　고르세요。\nＡ　결정　Ｂ　앞　화면　스타트로　입력　끝"
-      }
-    },
-    {
-      "offset": 84364,
-      "size": 73,
-      "avail": 75,
-      "section": ".data",
-      "text": {
-        "ja": "方向ボタン左右で入力部分を移動します\nＡまたはＢボタンで文字を削除します。",
-        "ko": "방향　버튼　좌우로　입력　위치　이동\nＡ　또는　Ｂ로　글자를　지웁니다。"
-      }
-    },
-    {
-      "offset": 84440,
-      "size": 146,
-      "avail": 147,
-      "section": ".data",
-      "text": {
-        "ja": "Ａボタンで文字を入力　Ｂボタンで１つ前に戻ります。\nＸボタンで文字を削除し入力部分を前に戻します。\n複数ページの場合はＬ／Ｒトリガーで切り替えます。",
-        "ko": "Ａ로　글자　입력　Ｂ로　하나　앞으로\nＸ로　지우고　앞으로　여러　쪽은　Ｌ／Ｒ로　넘김"
-      }
-    },
-    {
-      "offset": 84588,
-      "size": 148,
-      "avail": 151,
-      "section": ".data",
-      "text": {
-        "ja": "Ａボタンで文字を入力　Ｂボタンで１つ前に戻ります。\nＸボタンで文字を削除し入力部分を前に戻します。\nスタートボタンで名字または名前の入力を終了します。",
-        "ko": "Ａ로　글자　입력　Ｂ로　하나　앞으로\nＸ로　지우고　앞으로　스타트로　입력　끝"
-      }
-    },
-    {
-      "offset": 84740,
-      "size": 136,
-      "avail": 139,
-      "section": ".data",
-      "text": {
-        "ja": "Ａボタンで文字を入力　Ｂボタンで１つ前に戻ります。\nＸボタンで文字を削除し入力部分を前に戻します。\nＬ／Ｒトリガーでページを切り替えます。",
-        "ko": "Ａ로　글자　입력　Ｂ로　하나　앞으로\nＸ로　지우고　앞으로　Ｌ／Ｒ로　쪽　넘김"
-      }
-    },
-    {
-      "offset": 84880,
-      "size": 24,
-      "avail": 27,
-      "section": ".data",
-      "text": {
-        "ja": "名字の入力を終了します。",
-        "ko": "성　입력을　끝냅니다。"
-      }
-    },
-    {
-      "offset": 84908,
-      "size": 24,
-      "avail": 27,
-      "section": ".data",
-      "text": {
-        "ja": "名前の入力を終了します。",
-        "ko": "이름　입력을　끝냅니다。"
-      }
-    },
-    {
-      "offset": 84936,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "名字",
-        "ko": "성"
-      }
-    },
-    {
-      "offset": 84944,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "名前",
-        "ko": "이름"
-      }
-    },
-    {
-      "offset": 84952,
-      "size": 32,
-      "avail": 35,
-      "section": ".data",
-      "text": {
-        "ja": "あいうえお\nかきくけこ\nさしすせそ",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 84988,
-      "size": 32,
-      "avail": 35,
-      "section": ".data",
-      "text": {
-        "ja": "たちつてと\nなにぬねの\nはひふへほ",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 85024,
-      "size": 32,
-      "avail": 35,
-      "section": ".data",
-      "text": {
-        "ja": "まみむめも\nやゆよ　わ\nらりるれろ",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 85404,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "隆司",
-        "ko": "류지"
-      }
-    },
-    {
-      "offset": 85412,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "高野",
-        "ko": "타카노"
-      }
-    },
-    {
-      "offset": 85420,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "裕太",
-        "ko": "유타"
-      }
-    },
-    {
-      "offset": 85428,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "中嶋",
-        "ko": "나카지마"
-      }
-    },
-    {
-      "offset": 85436,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "知彦",
-        "ko": "토모히코"
-      }
-    },
-    {
-      "offset": 85444,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "武藤",
-        "ko": "무토"
-      }
-    },
-    {
-      "offset": 85452,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "重雄",
-        "ko": "시게오"
-      }
-    },
-    {
-      "offset": 85460,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "長山",
-        "ko": "나가야마"
-      }
-    },
-    {
-      "offset": 85468,
-      "size": 2,
-      "avail": 3,
-      "section": ".data",
-      "text": {
-        "ja": "豊",
-        "ko": "유타카"
-      }
-    },
-    {
-      "offset": 85472,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "三枝",
-        "ko": "사에구사"
-      }
-    },
-    {
-      "offset": 85480,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "博器",
-        "ko": "히로키"
-      }
-    },
-    {
-      "offset": 85488,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "田坂",
-        "ko": "타사카"
-      }
-    },
-    {
-      "offset": 85496,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "拓哉",
-        "ko": "타쿠야"
-      }
-    },
-    {
-      "offset": 85504,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "安部",
-        "ko": "아베"
-      }
-    },
-    {
-      "offset": 85512,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "知也",
-        "ko": "토모야"
-      }
-    },
-    {
-      "offset": 85520,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "桝谷",
-        "ko": "마스야"
-      }
-    },
-    {
-      "offset": 85528,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "裕一",
-        "ko": "유이치"
-      }
-    },
-    {
-      "offset": 85536,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "日野",
-        "ko": "히노"
-      }
-    },
-    {
-      "offset": 85544,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "清治",
-        "ko": "세이지"
-      }
-    },
-    {
-      "offset": 85552,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "斉藤",
-        "ko": "사이토"
-      }
-    },
-    {
-      "offset": 85560,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "智之",
-        "ko": "토모유키"
-      }
-    },
-    {
-      "offset": 85568,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "中村",
-        "ko": "나카무라"
-      }
-    },
-    {
-      "offset": 85576,
-      "size": 2,
-      "avail": 3,
-      "section": ".data",
-      "text": {
-        "ja": "充",
-        "ko": "미츠루"
-      }
-    },
-    {
-      "offset": 85580,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "千葉",
-        "ko": "치바"
-      }
-    },
-    {
-      "offset": 85588,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "慎二",
-        "ko": "신지"
-      }
-    },
-    {
-      "offset": 85596,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "竹下",
-        "ko": "타케시타"
-      }
-    },
-    {
-      "offset": 85604,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "功一",
-        "ko": "코이치"
-      }
-    },
-    {
-      "offset": 85612,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "角谷",
-        "ko": "카도야"
-      }
-    },
-    {
-      "offset": 85620,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "篤志",
-        "ko": "아츠시"
-      }
-    },
-    {
-      "offset": 85628,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "米川",
-        "ko": "요네카와"
-      }
-    },
-    {
-      "offset": 85636,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "正樹",
-        "ko": "마사키"
-      }
-    },
-    {
-      "offset": 85644,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "山口",
-        "ko": "야마구치"
-      }
-    },
-    {
-      "offset": 85652,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "英樹",
-        "ko": "히데키"
-      }
-    },
-    {
-      "offset": 85660,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "蟹江",
-        "ko": "카니에"
-      }
-    },
-    {
-      "offset": 85668,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "則宏",
-        "ko": "노리히로"
-      }
-    },
-    {
-      "offset": 85676,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "柳澤",
-        "ko": "야나가와"
-      }
-    },
-    {
-      "offset": 85684,
-      "size": 2,
-      "avail": 3,
-      "section": ".data",
-      "text": {
-        "ja": "学",
-        "ko": "마나부"
-      }
-    },
-    {
-      "offset": 85688,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "矢野",
-        "ko": "야노"
-      }
-    },
-    {
-      "offset": 85696,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "祐治",
-        "ko": "유지"
-      }
-    },
-    {
-      "offset": 85704,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "高橋",
-        "ko": "타카하시"
-      }
-    },
-    {
-      "offset": 85712,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "抄太",
-        "ko": "쇼타"
-      }
-    },
-    {
-      "offset": 85720,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "滝本",
-        "ko": "타키모토"
-      }
-    },
-    {
-      "offset": 85728,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "利昭",
-        "ko": "토시아키"
-      }
-    },
-    {
-      "offset": 85736,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "三谷",
-        "ko": "미타니"
-      }
-    },
-    {
-      "offset": 85744,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "晴基",
-        "ko": "하루키"
-      }
-    },
-    {
-      "offset": 85752,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "佐藤",
-        "ko": "사토"
-      }
-    },
-    {
-      "offset": 85760,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "太郎",
-        "ko": "타로"
-      }
-    },
-    {
-      "offset": 85768,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "次郎",
-        "ko": "지로"
-      }
-    },
-    {
-      "offset": 85776,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "三郎",
-        "ko": "사부로"
-      }
-    },
-    {
-      "offset": 85784,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "鈴木",
-        "ko": "스즈키"
-      }
-    },
-    {
-      "offset": 85792,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "信一",
-        "ko": "신이치"
-      }
-    },
-    {
-      "offset": 85800,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "信次",
-        "ko": "신지"
-      }
-    },
-    {
-      "offset": 85808,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "洋一",
-        "ko": "요이치"
-      }
-    },
-    {
-      "offset": 85816,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "田中",
-        "ko": "타나카"
-      }
-    },
-    {
-      "offset": 85824,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "洋二",
-        "ko": "요지"
-      }
-    },
-    {
-      "offset": 85832,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "健一",
-        "ko": "켄이치"
-      }
-    },
-    {
-      "offset": 85840,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "健二",
-        "ko": "켄지"
-      }
-    },
-    {
-      "offset": 85848,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "吉田",
-        "ko": "요시다"
-      }
-    },
-    {
-      "offset": 85856,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "純一",
-        "ko": "준이치"
-      }
-    },
-    {
-      "offset": 85864,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "淳次",
-        "ko": "준지"
-      }
-    },
-    {
-      "offset": 85872,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "井上",
-        "ko": "이노우에"
-      }
-    },
-    {
-      "offset": 85880,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "博史",
-        "ko": "히로시"
-      }
-    },
-    {
-      "offset": 85888,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "青山",
-        "ko": "아오야마"
-      }
-    },
-    {
-      "offset": 85896,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "昭次",
-        "ko": "쇼지"
-      }
-    },
-    {
-      "offset": 85904,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "遠藤",
-        "ko": "엔도"
-      }
-    },
-    {
-      "offset": 85912,
-      "size": 2,
-      "avail": 3,
-      "section": ".data",
-      "text": {
-        "ja": "剛",
-        "ko": "츠요시"
-      }
-    },
-    {
-      "offset": 85916,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "岡田",
-        "ko": "오카다"
-      }
-    },
-    {
-      "offset": 85924,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "正道",
-        "ko": "마사미치"
-      }
-    },
-    {
-      "offset": 85932,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "小林",
-        "ko": "코바야시"
-      }
-    },
-    {
-      "offset": 85940,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "悦司",
-        "ko": "에츠지"
-      }
-    },
-    {
-      "offset": 85948,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "木村",
-        "ko": "키무라"
-      }
-    },
-    {
-      "offset": 85956,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "吾郎",
-        "ko": "고로"
-      }
-    },
-    {
-      "offset": 85964,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "正弘",
-        "ko": "마사히로"
-      }
-    },
-    {
-      "offset": 85972,
-      "size": 4,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "克則",
-        "ko": "카츠노리"
-      }
-    },
-    {
-      "offset": 85980,
-      "size": 2,
-      "avail": 3,
-      "section": ".data",
-      "text": {
-        "ja": "　",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 85984,
-      "size": 22,
-      "avail": 23,
-      "section": ".data",
-      "text": {
-        "ja": "　さんでいいですか？　",
-        "ko": "　님으로　하시겠습니까？　"
-      }
-    },
-    {
-      "offset": 86008,
-      "size": 5,
-      "avail": 7,
-      "section": ".data",
-      "text": {
-        "ja": "　*1\n",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 86016,
-      "size": 37,
-      "avail": 44,
-      "section": ".data",
-      "text": {
-        "ja": "\n　\n 　　　　　はい　　　　　　いいえ",
-        "ko": "\n　\n 　　　　　 예 　　　　　　아니오"
-      }
-    }
-  ]
+ "module": "TRFNAMEIN",
+ "path": "/TRF/TRFNAMEIN.DLL",
+ "entries": [
+  {
+   "offset": 80580,
+   "size": 2,
+   "avail": 2,
+   "section": ".rdata",
+   "text": {
+    "ja": "鏘",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 80704,
+   "size": 2,
+   "avail": 2,
+   "section": ".rdata",
+   "text": {
+    "ja": "膂",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 80820,
+   "size": 2,
+   "avail": 2,
+   "section": ".rdata",
+   "text": {
+    "ja": "膂",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 80960,
+   "size": 2,
+   "avail": 2,
+   "section": ".rdata",
+   "text": {
+    "ja": "狼",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 80976,
+   "size": 2,
+   "avail": 2,
+   "section": ".rdata",
+   "text": {
+    "ja": "膂",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 80980,
+   "size": 2,
+   "avail": 2,
+   "section": ".rdata",
+   "text": {
+    "ja": "鏃",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 83532,
+   "size": 377,
+   "avail": 379,
+   "section": ".data",
+   "text": {
+    "ja": "方向ボタン上下でアイコン選択　Ａボタンで決定\nＸボタンで文字を削除し入力部分を前に戻します。\nスタートボタンで名字または名前の入力を終了します。カーソルで読みの先頭を選択、\nＡボタンで漢字選択に移動します。左右で入力部分を選択、\nＡまたはＢで一文字消去します。カーソルで文字を選択、\nＡボタンで決定します。い音ん下さり画面１つ場合先頭の複数ページ時はＬＲトリガーで切り替えられます／",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 83912,
+   "size": 92,
+   "avail": 95,
+   "section": ".data",
+   "text": {
+    "ja": "あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 84008,
+   "size": 30,
+   "avail": 31,
+   "section": ".data",
+   "text": {
+    "ja": "名字名前０１２３４５６７８９／",
+    "ko": "성　이름０１２３４５６７８９／"
+   }
+  },
+  {
+   "offset": 84040,
+   "size": 8,
+   "avail": 11,
+   "section": ".data",
+   "text": {
+    "ja": "竹下　　",
+    "ko": "타케시타"
+   }
+  },
+  {
+   "offset": 84052,
+   "size": 12,
+   "avail": 15,
+   "section": ".data",
+   "text": {
+    "ja": "デブ？　　　",
+    "ko": "데부？"
+   }
+  },
+  {
+   "offset": 84068,
+   "size": 142,
+   "avail": 143,
+   "section": ".data",
+   "text": {
+    "ja": "方向ボタン上下でアイコン選択　Ａボタンで決定\nＸボタンで文字を削除し入力部分を前に戻します。\nスタートボタンで名字または名前の入力を終了します。",
+    "ko": "방향　버튼으로　아이콘　선택　Ａ로　결정\nＸ로　지우고　앞으로　스타트로　입력　끝"
+   }
+  },
+  {
+   "offset": 84212,
+   "size": 148,
+   "avail": 151,
+   "section": ".data",
+   "text": {
+    "ja": "入力したい漢字の　読みの先頭の文字を選んで下さい。\nＡボタンで決定　Ｂボタンで前の画面に戻ります。\nスタートボタンで名字または名前の入力を終了します。",
+    "ko": "입력할　한자의　읽기　첫　글자를　고르세요。\nＡ　결정　Ｂ　앞　화면　스타트로　입력　끝"
+   }
+  },
+  {
+   "offset": 84364,
+   "size": 73,
+   "avail": 75,
+   "section": ".data",
+   "text": {
+    "ja": "方向ボタン左右で入力部分を移動します\nＡまたはＢボタンで文字を削除します。",
+    "ko": "방향　버튼　좌우로　입력　위치　이동\nＡ　또는　Ｂ로　글자를　지웁니다。"
+   }
+  },
+  {
+   "offset": 84440,
+   "size": 146,
+   "avail": 147,
+   "section": ".data",
+   "text": {
+    "ja": "Ａボタンで文字を入力　Ｂボタンで１つ前に戻ります。\nＸボタンで文字を削除し入力部分を前に戻します。\n複数ページの場合はＬ／Ｒトリガーで切り替えます。",
+    "ko": "Ａ로　글자　입력　Ｂ로　하나　앞으로\nＸ로　지우고　앞으로　여러　쪽은　Ｌ／Ｒ로　넘김"
+   }
+  },
+  {
+   "offset": 84588,
+   "size": 148,
+   "avail": 151,
+   "section": ".data",
+   "text": {
+    "ja": "Ａボタンで文字を入力　Ｂボタンで１つ前に戻ります。\nＸボタンで文字を削除し入力部分を前に戻します。\nスタートボタンで名字または名前の入力を終了します。",
+    "ko": "Ａ로　글자　입력　Ｂ로　하나　앞으로\nＸ로　지우고　앞으로　스타트로　입력　끝"
+   }
+  },
+  {
+   "offset": 84740,
+   "size": 136,
+   "avail": 139,
+   "section": ".data",
+   "text": {
+    "ja": "Ａボタンで文字を入力　Ｂボタンで１つ前に戻ります。\nＸボタンで文字を削除し入力部分を前に戻します。\nＬ／Ｒトリガーでページを切り替えます。",
+    "ko": "Ａ로　글자　입력　Ｂ로　하나　앞으로\nＸ로　지우고　앞으로　Ｌ／Ｒ로　쪽　넘김"
+   }
+  },
+  {
+   "offset": 84880,
+   "size": 24,
+   "avail": 27,
+   "section": ".data",
+   "text": {
+    "ja": "名字の入力を終了します。",
+    "ko": "성　입력을　끝냅니다。"
+   }
+  },
+  {
+   "offset": 84908,
+   "size": 24,
+   "avail": 27,
+   "section": ".data",
+   "text": {
+    "ja": "名前の入力を終了します。",
+    "ko": "이름　입력을　끝냅니다。"
+   }
+  },
+  {
+   "offset": 84936,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "名字",
+    "ko": "성"
+   }
+  },
+  {
+   "offset": 84944,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "名前",
+    "ko": "이름"
+   }
+  },
+  {
+   "offset": 84952,
+   "size": 32,
+   "avail": 35,
+   "section": ".data",
+   "text": {
+    "ja": "あいうえお\nかきくけこ\nさしすせそ",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 84988,
+   "size": 32,
+   "avail": 35,
+   "section": ".data",
+   "text": {
+    "ja": "たちつてと\nなにぬねの\nはひふへほ",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 85024,
+   "size": 32,
+   "avail": 35,
+   "section": ".data",
+   "text": {
+    "ja": "まみむめも\nやゆよ　わ\nらりるれろ",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 85404,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "隆司",
+    "ko": "류지"
+   }
+  },
+  {
+   "offset": 85412,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "高野",
+    "ko": "타카노"
+   }
+  },
+  {
+   "offset": 85420,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "裕太",
+    "ko": "유타"
+   }
+  },
+  {
+   "offset": 85428,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "中嶋",
+    "ko": "나카지마"
+   }
+  },
+  {
+   "offset": 85436,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "知彦",
+    "ko": "토모히코"
+   }
+  },
+  {
+   "offset": 85444,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "武藤",
+    "ko": "무토"
+   }
+  },
+  {
+   "offset": 85452,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "重雄",
+    "ko": "시게오"
+   }
+  },
+  {
+   "offset": 85460,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "長山",
+    "ko": "나가야마"
+   }
+  },
+  {
+   "offset": 85468,
+   "size": 2,
+   "avail": 3,
+   "section": ".data",
+   "text": {
+    "ja": "豊",
+    "ko": "유타카"
+   }
+  },
+  {
+   "offset": 85472,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "三枝",
+    "ko": "사에구사"
+   }
+  },
+  {
+   "offset": 85480,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "博器",
+    "ko": "히로키"
+   }
+  },
+  {
+   "offset": 85488,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "田坂",
+    "ko": "타사카"
+   }
+  },
+  {
+   "offset": 85496,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "拓哉",
+    "ko": "타쿠야"
+   }
+  },
+  {
+   "offset": 85504,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "安部",
+    "ko": "아베"
+   }
+  },
+  {
+   "offset": 85512,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "知也",
+    "ko": "토모야"
+   }
+  },
+  {
+   "offset": 85520,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "桝谷",
+    "ko": "마스야"
+   }
+  },
+  {
+   "offset": 85528,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "裕一",
+    "ko": "유이치"
+   }
+  },
+  {
+   "offset": 85536,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "日野",
+    "ko": "히노"
+   }
+  },
+  {
+   "offset": 85544,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "清治",
+    "ko": "세이지"
+   }
+  },
+  {
+   "offset": 85552,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "斉藤",
+    "ko": "사이토"
+   }
+  },
+  {
+   "offset": 85560,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "智之",
+    "ko": "토모유키"
+   }
+  },
+  {
+   "offset": 85568,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "中村",
+    "ko": "나카무라"
+   }
+  },
+  {
+   "offset": 85576,
+   "size": 2,
+   "avail": 3,
+   "section": ".data",
+   "text": {
+    "ja": "充",
+    "ko": "미츠루"
+   }
+  },
+  {
+   "offset": 85580,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "千葉",
+    "ko": "치바"
+   }
+  },
+  {
+   "offset": 85588,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "慎二",
+    "ko": "신지"
+   }
+  },
+  {
+   "offset": 85596,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "竹下",
+    "ko": "타케시타"
+   }
+  },
+  {
+   "offset": 85604,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "功一",
+    "ko": "코이치"
+   }
+  },
+  {
+   "offset": 85612,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "角谷",
+    "ko": "카도야"
+   }
+  },
+  {
+   "offset": 85620,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "篤志",
+    "ko": "아츠시"
+   }
+  },
+  {
+   "offset": 85628,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "米川",
+    "ko": "요네카와"
+   }
+  },
+  {
+   "offset": 85636,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "正樹",
+    "ko": "마사키"
+   }
+  },
+  {
+   "offset": 85644,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "山口",
+    "ko": "야마구치"
+   }
+  },
+  {
+   "offset": 85652,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "英樹",
+    "ko": "히데키"
+   }
+  },
+  {
+   "offset": 85660,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "蟹江",
+    "ko": "카니에"
+   }
+  },
+  {
+   "offset": 85668,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "則宏",
+    "ko": "노리히로"
+   }
+  },
+  {
+   "offset": 85676,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "柳澤",
+    "ko": "야나가와"
+   }
+  },
+  {
+   "offset": 85684,
+   "size": 2,
+   "avail": 3,
+   "section": ".data",
+   "text": {
+    "ja": "学",
+    "ko": "마나부"
+   }
+  },
+  {
+   "offset": 85688,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "矢野",
+    "ko": "야노"
+   }
+  },
+  {
+   "offset": 85696,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "祐治",
+    "ko": "유지"
+   }
+  },
+  {
+   "offset": 85704,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "高橋",
+    "ko": "타카하시"
+   }
+  },
+  {
+   "offset": 85712,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "抄太",
+    "ko": "쇼타"
+   }
+  },
+  {
+   "offset": 85720,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "滝本",
+    "ko": "타키모토"
+   }
+  },
+  {
+   "offset": 85728,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "利昭",
+    "ko": "토시아키"
+   }
+  },
+  {
+   "offset": 85736,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "三谷",
+    "ko": "미타니"
+   }
+  },
+  {
+   "offset": 85744,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "晴基",
+    "ko": "하루키"
+   }
+  },
+  {
+   "offset": 85752,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "佐藤",
+    "ko": "사토"
+   }
+  },
+  {
+   "offset": 85760,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "太郎",
+    "ko": "타로"
+   }
+  },
+  {
+   "offset": 85768,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "次郎",
+    "ko": "지로"
+   }
+  },
+  {
+   "offset": 85776,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "三郎",
+    "ko": "사부로"
+   }
+  },
+  {
+   "offset": 85784,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "鈴木",
+    "ko": "스즈키"
+   }
+  },
+  {
+   "offset": 85792,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "信一",
+    "ko": "신이치"
+   }
+  },
+  {
+   "offset": 85800,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "信次",
+    "ko": "신지"
+   }
+  },
+  {
+   "offset": 85808,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "洋一",
+    "ko": "요이치"
+   }
+  },
+  {
+   "offset": 85816,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "田中",
+    "ko": "타나카"
+   }
+  },
+  {
+   "offset": 85824,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "洋二",
+    "ko": "요지"
+   }
+  },
+  {
+   "offset": 85832,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "健一",
+    "ko": "켄이치"
+   }
+  },
+  {
+   "offset": 85840,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "健二",
+    "ko": "켄지"
+   }
+  },
+  {
+   "offset": 85848,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "吉田",
+    "ko": "요시다"
+   }
+  },
+  {
+   "offset": 85856,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "純一",
+    "ko": "준이치"
+   }
+  },
+  {
+   "offset": 85864,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "淳次",
+    "ko": "준지"
+   }
+  },
+  {
+   "offset": 85872,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "井上",
+    "ko": "이노우에"
+   }
+  },
+  {
+   "offset": 85880,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "博史",
+    "ko": "히로시"
+   }
+  },
+  {
+   "offset": 85888,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "青山",
+    "ko": "아오야마"
+   }
+  },
+  {
+   "offset": 85896,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "昭次",
+    "ko": "쇼지"
+   }
+  },
+  {
+   "offset": 85904,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "遠藤",
+    "ko": "엔도"
+   }
+  },
+  {
+   "offset": 85912,
+   "size": 2,
+   "avail": 3,
+   "section": ".data",
+   "text": {
+    "ja": "剛",
+    "ko": "츠요시"
+   }
+  },
+  {
+   "offset": 85916,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "岡田",
+    "ko": "오카다"
+   }
+  },
+  {
+   "offset": 85924,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "正道",
+    "ko": "마사미치"
+   }
+  },
+  {
+   "offset": 85932,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "小林",
+    "ko": "코바야시"
+   }
+  },
+  {
+   "offset": 85940,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "悦司",
+    "ko": "에츠지"
+   }
+  },
+  {
+   "offset": 85948,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "木村",
+    "ko": "키무라"
+   }
+  },
+  {
+   "offset": 85956,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "吾郎",
+    "ko": "고로"
+   }
+  },
+  {
+   "offset": 85964,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "正弘",
+    "ko": "마사히로"
+   }
+  },
+  {
+   "offset": 85972,
+   "size": 4,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "克則",
+    "ko": "카츠노리"
+   }
+  },
+  {
+   "offset": 85980,
+   "size": 2,
+   "avail": 3,
+   "section": ".data",
+   "text": {
+    "ja": "　",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 85984,
+   "size": 22,
+   "avail": 23,
+   "section": ".data",
+   "text": {
+    "ja": "　さんでいいですか？　",
+    "ko": "　님으로　하시겠습니까？　"
+   }
+  },
+  {
+   "offset": 86008,
+   "size": 5,
+   "avail": 7,
+   "section": ".data",
+   "text": {
+    "ja": "　*1\n",
+    "ko": ""
+   }
+  },
+  {
+   "offset": 86016,
+   "size": 37,
+   "avail": 44,
+   "section": ".data",
+   "text": {
+    "ja": "\n　\n 　　　　　はい　　　　　　いいえ",
+    "ko": "\n　\n 　　　　　예　　　　　　　아니오"
+   }
+  }
+ ]
 }
