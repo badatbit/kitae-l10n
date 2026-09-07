@@ -19,3 +19,6 @@ tmp/
 _textbak/
 # 합성 이미지 캐시 — erased+원장에서 compose 로 재생성된다
 images/injected/
+
+# 조사용 스크래치 덤프
+/scratch_targets.txt
