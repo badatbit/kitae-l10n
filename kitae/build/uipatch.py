@@ -72,7 +72,7 @@ def disc_slack(cfg, disc_path):
     return tail + gap
 
 
-def _grow(cfg, name, disc_path, base_blob, rows, encode, nbytes=512):
+def _grow(cfg, name, disc_path, base_blob, rows, encode, nbytes=768):
     """PE 에 데이터 섹션을 붙이고 그 공간까지 써서 다시 배치한다.
 
     파일이 커지므로 **디스크 여유가 있어야 한다.** 없으면 시도하지 않는다 —
@@ -81,8 +81,14 @@ def _grow(cfg, name, disc_path, base_blob, rows, encode, nbytes=512):
     from kitae.build import pesection, relocate
     slack = disc_slack(cfg, disc_path)
     if slack < nbytes:
-        print(f"  {name}: 디스크 여유 {slack}B — 섹션을 붙일 수 없다")
-        return None
+        # 요청보다 여유가 작으면 여유에 맞춰 줄여서라도 붙인다 (512 정렬).
+        # 768 로 올렸을 때 여유가 딱 512 이던 모듈(TRFGUIDEMAP 등)이 통째로
+        # 실패하던 회귀의 재발 방지 — 크게 안 되면 예전 크기로라도.
+        nbytes = (slack // 512) * 512
+        if nbytes <= 0:
+            print(f"  {name}: 디스크 여유 {slack}B — 섹션을 붙일 수 없다")
+            return None
+        print(f"  {name}: 디스크 여유 {slack}B — 섹션을 {nbytes}B 로 줄여 붙인다")
     try:
         blob, off, size = pesection.add(base_blob, ".ktr", nbytes)
     except Exception as e:
@@ -95,7 +101,65 @@ def _grow(cfg, name, disc_path, base_blob, rows, encode, nbytes=512):
     return got, rep, []
 
 
-def patch_all(cfg, lang, encode, base=None):
+def _section_vsizes(blob):
+    """섹션명 → VirtualSize. 파일 꼬리(FileAlignment 패딩)는 VirtualSize
+    밖이면 **메모리에 로드되지 않는다** — 그 주소를 가리키게 하면 미매핑
+    접근으로 게임이 리셋된다 (SOUNDROOM 무한 리붓 사고의 원인)."""
+    import struct
+    pe = struct.unpack_from("<I", blob, 0x3c)[0]
+    nsec = struct.unpack_from("<H", blob, pe + 6)[0]
+    opt = struct.unpack_from("<H", blob, pe + 20)[0]
+    off = pe + 24 + opt
+    out = {}
+    for i in range(nsec):
+        b = blob[off + i * 40:off + i * 40 + 40]
+        name = b[:8].rstrip(b"\0").decode("ascii", "replace")
+        vsize = struct.unpack_from("<I", b, 8)[0]
+        out[name] = vsize
+    return out
+
+
+def _spare_tails(blob):
+    """섹션 안 널 패딩 중 어디서도 참조하지 않는 영역 — 문자열 이사 공간.
+
+    반드시 **VirtualSize 안쪽**이어야 한다 — 그 밖의 파일 꼬리는 메모리에
+    안 올라간다. .data 꼬리는 0 초기화 런타임 변수일 수 있고(SOUNDROOM 에서
+    실제 참조 4곳 확인), .reloc/.pdata 는 로더 소유라 제외한다.
+    .text/.rdata 의 매핑 안쪽 꼬리만, 인바운드 참조 0 일 때만.
+    """
+    import struct
+    from kitae.core import pestr
+    from kitae.build import relocate
+    out = []
+    secs = pestr.sections(blob)
+    vsizes = _section_vsizes(blob)
+    vm = relocate._va_map(secs)
+    for name, _va, ro, rs in secs:
+        if name not in (".text", ".rdata"):
+            continue
+        hi = ro + min(rs, vsizes.get(name, rs))   # ★ 매핑되는 범위까지만
+        i = hi
+        while i > ro and blob[i - 1] == 0:
+            i -= 1
+        n = hi - i - 4                     # 끝 4B 는 여유로 남긴다
+        if n < 48:
+            continue
+        lo_va = relocate.off_to_va(vm, i)
+        hi_va = relocate.off_to_va(vm, hi - 1)
+        if lo_va is None or hi_va is None:
+            continue
+        used = False
+        for j in range(0, len(blob) - 3):
+            v = struct.unpack_from("<I", blob, j)[0]
+            if lo_va <= v <= hi_va:
+                used = True
+                break
+        if not used:
+            out.append((i, n))
+    return out
+
+
+def patch_all(cfg, lang, encode, base=None, verbose=False):
     """{디스크 경로: 패치된 바이트}. base 는 {이름: 이미 손댄 바이트}.
 
     자리에 들어가는 것은 제자리에, 넘치는 것은 남은 빈칸으로 옮기고 포인터를
@@ -148,17 +212,22 @@ def patch_all(cfg, lang, encode, base=None):
         # 화면에 엉뚱한 문장이 나온다(TRFNAMEIN 에서 실제로 겪었다).
         # 그래서 못 넣는 것을 빼고 원본에서 다시 시도한다.
         base_blob, attempt, dropped = blob, list(rows), []
+        spare = _spare_tails(base_blob)     # 섹션 꼬리 패딩 — 이사 공간에 포함
         # 한 바퀴에 하나씩만 빠질 수 있으므로 항목 수만큼 돌 수 있어야 한다.
         # 6번으로 끊었더니 ITEMMENU 가 통째로 안 들어갔다.
         for _round in range(len(rows) + 1):
-            got, rep = relocate.apply(base_blob, attempt, encode)
+            got, rep = relocate.apply(base_blob, attempt, encode,
+                                      extra_free=spare)
             if rep["failed"]:
                 got2, rep2 = relocate.compact(base_blob, attempt, encode)
                 if not rep2["failed"]:
                     got, rep = got2, rep2
                     print(f"  {name}: 빈칸이 조각나 전체 재배치로 전환")
-                else:
-                    rep = rep2 if len(rep2["failed"]) < len(rep["failed"]) else rep
+                # compact 의 실패는 "참조를 못 찾음"/"풀이 모자람" 같은 **전체
+                # 중단 표지**라 개별 항목 실패 목록이 아니다 — 이걸 apply 실패와
+                # 개수로 비교해 고르면, 매 라운드 애먼 항목 하나가 지목·탈락해
+                # SOUNDROOM 에서 252/282 가 떨어졌다. compact 가 실패하면 항상
+                # apply 의 실제 실패 목록으로 떨군다.
             if not rep["failed"]:
                 blob = got
                 break
@@ -177,16 +246,18 @@ def patch_all(cfg, lang, encode, base=None):
             warn.append(f"{name} {e['offset']:#x}: 자리 없음 — 원문 유지  "
                         f"{e['text']!r}")
         out[disc_path] = blob
-        msg = f"  {name}: 제자리 {rep['kept']}개"
-        if rep["moved"]:
-            msg += f", 이사 {len(rep['moved'])}개"
-        msg += f"  (남은 빈칸 {rep['free_left']}B)"
-        print(msg)
-        for old, new, nref, text in rep["moved"][:4]:
-            print(f"      {old:#08x} → {new:#08x}  포인터 {nref}곳  {text}")
-    if blocked:
-        print(f"  심볼 이름이라 손대지 않음: {len(blocked)}개 "
+        if verbose:
+            msg = f"    {name}: 제자리 {rep['kept']}개"
+            if rep["moved"]:
+                msg += f", 이사 {len(rep['moved'])}개"
+            msg += f"  (남은 빈칸 {rep['free_left']}B)"
+            print(msg)
+            for old, new, nref, text in rep["moved"][:4]:
+                print(f"        {old:#08x} → {new:#08x}  포인터 {nref}곳  {text}")
+    if blocked and verbose:
+        print(f"    심볼 이름이라 손대지 않음: {len(blocked)}개 "
               f"({', '.join(sorted({b[2] for b in blocked})[:5])} …)")
+    if blocked:
         # 무엇이 왜 막혔는지 남긴다 — 번역이 안 나오는 이유를 찾을 때 본다
         p = os.path.join(cfg.data_dir, "untranslatable.json")
         doc = {"note": "조회 키라서 번역하지 않은 문자열. docs/UI-TEXT.md 참고",

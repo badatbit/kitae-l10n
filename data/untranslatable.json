@@ -1,6 +1,6 @@
 {
  "note": "조회 키라서 번역하지 않은 문자열. docs/UI-TEXT.md 참고",
- "count": 144,
+ "count": 167,
  "entries": [
   {
    "module": "COMMONSAVE",
@@ -173,6 +173,26 @@
    "ja": "セーブカット"
   },
   {
+   "module": "KITAMAIN",
+   "offset": "0x010df0",
+   "ja": "好きな色"
+  },
+  {
+   "module": "KITAMAIN",
+   "offset": "0x010dfc",
+   "ja": "寝場所"
+  },
+  {
+   "module": "KITAMAIN",
+   "offset": "0x010e04",
+   "ja": "セーブカット"
+  },
+  {
+   "module": "KITAMAIN",
+   "offset": "0x010e14",
+   "ja": "マップ位置"
+  },
+  {
    "module": "KITATITLE",
    "offset": "0x010a34",
    "ja": "ナレスキップ"
@@ -186,6 +206,86 @@
    "module": "KITATITLE",
    "offset": "0x010a54",
    "ja": "メッセージボーダー"
+  },
+  {
+   "module": "TRFCAMERA",
+   "offset": "0x01310c",
+   "ja": "会話場所"
+  },
+  {
+   "module": "TRFCAMERA",
+   "offset": "0x013118",
+   "ja": "得点表示"
+  },
+  {
+   "module": "TRFCAMERA",
+   "offset": "0x013124",
+   "ja": "由子の写真"
+  },
+  {
+   "module": "TRFFRUITION",
+   "offset": "0x011bec",
+   "ja": "ターニャ"
+  },
+  {
+   "module": "TRFKARAOKE",
+   "offset": "0x0207a0",
+   "ja": "鮎に勝てる"
+  },
+  {
+   "module": "TRFKARAOKE",
+   "offset": "0x0207bc",
+   "ja": "カラオケ番号"
+  },
+  {
+   "module": "TRFKARAOKE",
+   "offset": "0x0207cc",
+   "ja": "主人公の得点"
+  },
+  {
+   "module": "TRFKARAOKE",
+   "offset": "0x0207dc",
+   "ja": "琴梨の得点"
+  },
+  {
+   "module": "TRFKARAOKE",
+   "offset": "0x0207e8",
+   "ja": "鮎の得点"
+  },
+  {
+   "module": "TRFKARAOKE",
+   "offset": "0x0207f4",
+   "ja": "葉野香の得点"
+  },
+  {
+   "module": "TRFKARAOKE",
+   "offset": "0x020804",
+   "ja": "梢の得点"
+  },
+  {
+   "module": "TRFKARAOKE",
+   "offset": "0x020810",
+   "ja": "由子の得点"
+  },
+  {
+   "module": "TRFKARAOKE",
+   "offset": "0x02081c",
+   "ja": "薫の得点"
+  },
+  {
+   "module": "TRFKARAOKE",
+   "offset": "0x020828",
+   "ja": "ターニャの得点"
+  },
+  {
+   "module": "TRFKARAOKE",
+   "offset": "0x020838",
+   "ja": "めぐみの得点"
+  },
+  {
+   "module": "TRFKARAOKE",
+   "offset": "0x020848",
+   "ja": "カラオケ最高得点"
   },
   {
    "module": "TRFMILKING",
@@ -369,6 +469,11 @@
   },
   {
    "module": "TRFQUIZ",
+   "offset": "0x02025c",
+   "ja": "ターニャ"
+  },
+  {
+   "module": "TRFQUIZ",
    "offset": "0x020a4c",
    "ja": "主人公"
   },
@@ -411,6 +516,16 @@
    "module": "TRFQUIZ",
    "offset": "0x020c44",
    "ja": "オプション"
+  },
+  {
+   "module": "TRFROLL",
+   "offset": "0x013dcc",
+   "ja": "夏ハッピー"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": "0x04cf48",
+   "ja": "得点表示"
   },
   {
    "module": "TRFSHOTING",

@@ -141,10 +141,10 @@ def _errlog(cfg, exc):
     return path
 
 
-def build(cfg, scripts, lang, want_font=True):
+def build(cfg, scripts, lang, want_font=True, verbose=False):
     """`_build` 를 감싸 실패를 반드시 남긴다."""
     try:
-        return _build(cfg, scripts, lang, want_font)
+        return _build(cfg, scripts, lang, want_font, verbose)
     except OSError as e:
         # 로그를 `head`·`less` 로 자르면 여기로 온다. stdout 은 이미 못 쓴다.
         # 윈도우는 BrokenPipeError 가 아니라 EINVAL(22) 로 온다 — 둘 다 잡는다
@@ -164,7 +164,7 @@ def build(cfg, scripts, lang, want_font=True):
         raise
 
 
-def _build(cfg, scripts, lang, want_font=True):
+def _build(cfg, scripts, lang, want_font=True, verbose=False):
     from kitae.build import smf as smf_mod, mtg as mtg_mod, disc as disc_mod
     from kitae.build import hangul, uipatch
 
@@ -204,8 +204,8 @@ def _build(cfg, scripts, lang, want_font=True):
                   for c in v["target"] if hangul.is_hangul(c)}
         chars |= {c for c in quiz_chars(cfg, lang) if hangul.is_hangul(c)}
         if chars:
-            font_dll = hangul.inject(cfg, chars)
-            print(f"폰트: {len(chars)}자 주입 → {os.path.relpath(font_dll, cfg.root)}")
+            print(f"폰트: {len(chars)}자 주입 → TRF/TRFSTRINGS.DLL")
+            font_dll = hangul.inject(cfg, chars, verbose=verbose)
             # 전진폭 실험 — 2바이트 패치. 근거는 kitae/build/advance.py
             # 가변폭이 켜져 있으면 그쪽이 전진 계산을 통째로 가져간다
             if cfg.get("font_variable"):
@@ -234,6 +234,9 @@ def _build(cfg, scripts, lang, want_font=True):
     plot = Cab(plot_cb)
     mtg = Cab(mtg_cb)
     new_smf, new_set = {}, {}
+    t_scripts = t_wins = 0            # 타이밍 재생성 집계 (기본 로그는 총계만)
+    if verbose:
+        print("대사·타이밍 재작성:")
     for s in scripts:
         original = plot.read(s + ".SMF")
         blob, warns, bad = smf_mod.rebuild_smf(s, rows[s], original,
@@ -249,10 +252,13 @@ def _build(cfg, scripts, lang, want_font=True):
             name = s.lower() + ".SET"
             new_set[name], n, warn = mtg_mod.rebuild_set(s, mtg.read(name),
                                                          changed)
-            for w, (o, t) in sorted(changed.items())[:8]:
-                print(f"  · {s} 창{w}: 줄 {o} → {[len(x) for x in t]}"
-                      + (f"  ⚠ {warn[w]}ms 넘침" if w in warn else ""))
-            print(f"  {s}: 타이밍 {n}창 재생성 (줄별 시각·쉼 위치 보존)")
+            t_scripts += 1
+            t_wins += n
+            if verbose:
+                print(f"    {s}: {n}창 재생성")
+                for w, (o, t) in sorted(changed.items())[:8]:
+                    print(f"        창{w}: 줄 {o} → {[len(x) for x in t]}"
+                          + (f"  ⚠ {warn[w]}ms 넘침" if w in warn else ""))
 
     # 2b. 에뮬레이터 버그 우회 ---------------------------------------------------
     # 번역이 아니라 에뮬레이터가 못 그리는 자리를 피해 가는 패치다.
@@ -268,14 +274,14 @@ def _build(cfg, scripts, lang, want_font=True):
 
     out_plot = _work(cfg, "build", "PLOT.CB")
     smf_mod.repack_cab(plot_cb, new_smf, out_plot)
-    print(f"PLOT.CB {os.path.getsize(out_plot):,} / 원본 "
-          f"{os.path.getsize(plot_cb):,}")
+    print(f"대사: {len(scripts)}대본 재작성 → RESOURCE/PLOT.CB "
+          f"({os.path.getsize(out_plot):,} / {os.path.getsize(plot_cb):,})")
     out_mtg = None
     if new_set:
         out_mtg = _work(cfg, "build", "MTG.CB")
         smf_mod.repack_cab(mtg_cb, new_set, out_mtg)
-        print(f"MTG.CB  {os.path.getsize(out_mtg):,} / 원본 "
-              f"{os.path.getsize(mtg_cb):,}")
+        print(f"타이밍: {t_wins}창 재생성 ({t_scripts}대본) → RESOURCE/MTG.CB "
+              f"({os.path.getsize(out_mtg):,} / {os.path.getsize(mtg_cb):,})")
 
     # 3b. 가이드북 본문 ------------------------------------------------------
     # SOZ.CB 안의 guide*.msl. 창 표가 있으므로 줄 수를 지켜야 하는 것은
@@ -286,20 +292,24 @@ def _build(cfg, scripts, lang, want_font=True):
         soz_cb = uipatch.original(cfg, "/RESOURCE/SOZ.CB")
         soz = Cab(soz_cb)
         new_msl = {}
+        g_done = g_total = 0
         for name, r in sorted(guides.items()):
             blob, warns, bad = msl_mod.rebuild(soz.read(name), r,
                                                encode=hangul.encoder(cfg))
             new_msl[name] = blob
             done = sum(1 for v in r.values() if v["target"].strip())
-            print(f"  가이드 {name}: {done}/{len(r)}줄")
+            g_done += done
+            g_total += len(r)
+            if verbose:
+                print(f"    {name}: {done}/{len(r)}줄")
             for w in warns[:3]:
-                print(f"    주의 {w}")
+                print(f"    주의 {name}: {w}")
             if bad:
-                print(f"    인코딩 불가 {len(bad)}건")
+                print(f"    {name}: 인코딩 불가 {len(bad)}건")
         out_soz = _work(cfg, "build", "SOZ.CB")
         smf_mod.repack_cab(soz_cb, new_msl, out_soz)
-        print(f"SOZ.CB  {os.path.getsize(out_soz):,} / 원본 "
-              f"{os.path.getsize(soz_cb):,}")
+        print(f"가이드: {g_done}/{g_total}줄 ({len(new_msl)}건) → RESOURCE/SOZ.CB "
+              f"({os.path.getsize(out_soz):,} / {os.path.getsize(soz_cb):,})")
 
     # 3b'. SOZ.CB 지도 라벨 -------------------------------------------------
     # 가이드 본문(위)과 별개로, 지도 위 한글 라벨을 dds 텍스처에 주입한다.
@@ -311,13 +321,14 @@ def _build(cfg, scripts, lang, want_font=True):
         soz_base = out_soz or uipatch.original(cfg, "/RESOURCE/SOZ.CB")
         srepl, srep = soz_mod.build_replacements(
             Cab(soz_base),
-            soz_mod.load_composer(_jaguk, typelet_root=cfg.typelet_root()))
+            soz_mod.load_composer(_jaguk, typelet_root=cfg.typelet_root()),
+            cache_dir=cfg.path(cfg["work_dir"], "imgcache"))
         if srepl:
             out_soz = _work(cfg, "build", "SOZ_final.CB")
             smf_mod.repack_cab(soz_base, srepl, out_soz)
             sng = sum(1 for _, k, _ in srep if k in ("glyph", "glyph+base"))
-            print(f"  지도 라벨: 글리프 {sng}, 래스터 {len(srep) - sng} 맵  "
-                  f"→ SOZ.CB {os.path.getsize(out_soz):,}")
+            print(f"지도 라벨: 글리프 {sng} · 래스터 {len(srep) - sng} 맵 "
+                  f"→ RESOURCE/SOZ.CB ({os.path.getsize(out_soz):,})")
 
     # 3c. 퀴즈 문제 ----------------------------------------------------------
     # M05.CB 안의 Quiz.mhd. 문제 292개가 CLSS 객체로 들어 있다.
@@ -343,13 +354,12 @@ def _build(cfg, scripts, lang, want_font=True):
             m05 = Cab(m05_cb)
             blob, qbad = quiz_mod.rebuild(m05.read("Quiz.mhd"),
                                           qrows, encode=hangul.encoder(cfg))
-            print(f"  퀴즈 Quiz.mhd: {len(qrows)}문제")
-            if qbad:
-                print(f"    인코딩 불가 {len(qbad)}건")
             out_m05 = _work(cfg, "build", "M05.CB")
             smf_mod.repack_cab(m05_cb, {"Quiz.mhd": blob}, out_m05)
-            print(f"M05.CB  {os.path.getsize(out_m05):,} / 원본 "
-                  f"{os.path.getsize(m05_cb):,}")
+            print(f"퀴즈: {len(qrows)}문제 → RESOURCE/M05.CB "
+                  f"({os.path.getsize(out_m05):,} / {os.path.getsize(m05_cb):,})")
+            if qbad:
+                print(f"    인코딩 불가 {len(qbad)}건")
 
     # 3d. SOZ 외 컨테이너 이미지 주입 ---------------------------------------
     # runner 는 어떤 컨테이너·멤버가 있는지 일일이 적지 않는다. `images/erased/`
@@ -362,50 +372,11 @@ def _build(cfg, scripts, lang, want_font=True):
     image_cbs = {}                       # "RESOURCE/<C>.CB" -> 빌드 경로
     if os.path.exists(_jaguk):
         from kitae.build import soz as soz_mod
-        from kitae.core.gdfs import GdFs
         compose = soz_mod.load_composer(_jaguk, typelet_root=cfg.typelet_root())
-        prebuilt = {"M05": out_m05}      # 앞 단계가 이미 만든 베이스가 있으면 그 위에
-        erased_root = cfg.path("images", "erased")
-        _ofs = GdFs(track=glob.glob(
-            os.path.join(cfg.dir("orig_dir"), "*track03.bin"))[0])
-        for cont in sorted(os.listdir(erased_root)):
-            if cont == "SOZ" or not os.path.isdir(os.path.join(erased_root, cont)):
-                continue
-            base = prebuilt.get(cont) or uipatch.original(cfg, f"/RESOURCE/{cont}.CB")
-            # 앞 단계(퀴즈)의 <C>.CB 를 덮어쓰지 않도록 별도 파일로 낸다 —
-            # 슬롯 초과로 건너뛰면 앞 산출물이 그대로 최종본으로 남아야 한다.
-            outp = _work(cfg, "build", f"{cont}.img.CB")
-            cap = ((_ofs.find(f"RESOURCE/{cont}.CB")[1] + 2047) // 2048) * 2048
-            # 제자리 패치는 슬롯을 못 넘으니(다음 파일 침범) 원화질로 먼저,
-            # erased 가 무거워 넘치면 색을 낮춰 가장 높은 화질로 슬롯에 맞춘다.
-            rep, kused = soz_mod.build_to_fit(base, compose, cont, cap, outp)
-            if rep is None:
-                print(f"  ⚠ {cont} 이미지: 최저 색수로도 슬롯 초과 — 이번 빌드는 건너뜀")
-                continue
-            done = ", ".join(f"{mp}×{n}" for mp, k, n in rep if n)
-            if not done:
-                continue                    # 주입할 멤버 없음(정상)
-            image_cbs[f"RESOURCE/{cont}.CB"] = outp
-            qnote = "원화질" if kused is None else f"{kused}색 감축"
-            print(f"  {cont} 이미지({qnote}): {done} → "
-                  f"{os.path.getsize(outp):,} / 슬롯 {cap:,}")
+        image_cbs = _inject_container_images(cfg, compose, {"M05": out_m05})
 
     # 4~5. 디스크 -----------------------------------------------------------
-    # `dist/` 가 아니라 `work/stage` 에서 만든다. 중간에 죽어도 직전 이미지가
-    # 살아 있어야 한다 — 위 도크스트링의 `★` 참고.
-    dist = cfg.dir("out_dir")
-    os.makedirs(dist, exist_ok=True)
-    if os.path.exists(os.path.join(dist, MARKER)):
-        print(f"  지난 빌드가 {MARKER} 를 남겼습니다 — dist/ 가 반쪽일 수 있습니다")
-    stage = cfg.path(cfg["work_dir"], "stage")
-    shutil.rmtree(stage, ignore_errors=True)
-    os.makedirs(stage, exist_ok=True)
-    orig_dir = cfg.dir("orig_dir")
-    for name in sorted(os.listdir(orig_dir)):
-        p = os.path.join(orig_dir, name)
-        if os.path.isfile(p):
-            shutil.copyfile(p, os.path.join(stage, name))
-    track = glob.glob(os.path.join(stage, "*track03.bin"))[0]
+    dist, stage, track = _stage_disc(cfg)
 
     # 대사·타이밍·SOZ·퀴즈 산출물에, 이미지 주입본(image_cbs)을 덮어쓴다.
     # image_cbs 의 M05 는 퀴즈 산출물 위에 이미지를 얹은 것이라 그게 최종본이다.
@@ -414,27 +385,17 @@ def _build(cfg, scripts, lang, want_font=True):
                    "RESOURCE/SOZ.CB": out_soz,
                    "RESOURCE/M05.CB": out_m05}
     disc_builds.update(image_cbs)
-    for disc_path, built in disc_builds.items():
-        if not built:
-            continue
-        tmp = track + ".tmp"
-        if disc_path == "RESOURCE/SOZ.CB":
-            # 라벨 포함 SOZ.CB 는 원 슬롯을 넘을 수 있다 → apply_to_disc 가 슬롯에
-            # 맞으면 제자리 패치, 넘치면 뒤 DEBUG.CB(테스트 잔재)를 축소·이동해
-            # 공간을 만든다(다른 파일 LBA 불변).
-            from kitae.build import soz as soz_mod
-            soz_mod.apply_to_disc(track, tmp, open(built, "rb").read(),
-                                  cfg.path(cfg["work_dir"], "stage"))
-        else:
-            disc_mod.patch(disc_path, open(built, "rb").read(), tmp, track)
-        os.replace(tmp, track)
+    _patch_cbs(cfg, track, disc_builds)
 
     # 6. 시스템 UI ----------------------------------------------------------
     # 폰트를 넣은 TRFSTRINGS 위에 UI 패치를 얹어야 한다 — 같은 파일이다.
     base = {}
     if font_dll:
         base["TRFSTRINGS"] = open(font_dll, "rb").read()
-    ui, _warn = uipatch.patch_all(cfg, lang, hangul.encoder(cfg), base)
+    if verbose:
+        print("UI 패치:")
+    ui, _warn = uipatch.patch_all(cfg, lang, hangul.encoder(cfg), base,
+                                  verbose=verbose)
     if font_dll and "/TRF/TRFSTRINGS.DLL" not in ui:
         ui["/TRF/TRFSTRINGS.DLL"] = base["TRFSTRINGS"]
     # 이름화면 힌트 한글 — 폰트 텍스처 베이크 소스에 번역 글자를 주입 (근거: nameinfont.py)
@@ -476,7 +437,7 @@ def _build(cfg, scripts, lang, want_font=True):
     inis, n = scenes.rebuild(cfg, lang, hangul.encoder(cfg))
     if inis:
         orig_inis = os.path.getsize(uipatch.original(cfg, scenes.INIS))
-        print(f"INIS.CB {len(inis):,} / 원본 {orig_inis:,}  (씬 제목 {n}곳)")
+        print(f"씬 제목: {n}곳 → RESOURCE/INIS.CB ({len(inis):,} / {orig_inis:,})")
         tmp = track + ".tmp"
         disc_mod.patch(scenes.INIS.lstrip("/"), inis, tmp, track)
         os.replace(tmp, track)
@@ -484,10 +445,57 @@ def _build(cfg, scripts, lang, want_font=True):
     diff = disc_mod.diff_against(track, cfg.track(3))
     print(f"\n원본과 다른 파일: {diff}")
 
-    # 8. 내보내기 -----------------------------------------------------------
-    # 여기까지 왔으면 이미지는 완성이다. 이제야 dist/ 를 갈아 끼운다.
-    # 트랙을 마지막에 옮긴다 — 중간에 죽어도 .gdi 가 옛 트랙을 가리키느니
-    # 아예 없는 편이 낫다. 옮기는 동안만 MARKER 가 놓인다.
+    return _export_dist(cfg, dist, stage)
+
+
+# ── 디스크 단계 헬퍼 — 전체 빌드(_build)와 이미지 전용 빌드(build_images)가
+#    같은 코드를 쓴다 (스테이징·CB 적용·내보내기).
+
+def _stage_disc(cfg):
+    """work/stage 에 원본 트랙을 깔고 (dist, stage, track) 을 돌려준다.
+
+    `dist/` 가 아니라 `work/stage` 에서 만든다. 중간에 죽어도 직전 이미지가
+    살아 있어야 한다 — _build 도크스트링의 `★` 참고."""
+    dist = cfg.dir("out_dir")
+    os.makedirs(dist, exist_ok=True)
+    if os.path.exists(os.path.join(dist, MARKER)):
+        print(f"  지난 빌드가 {MARKER} 를 남겼습니다 — dist/ 가 반쪽일 수 있습니다")
+    stage = cfg.path(cfg["work_dir"], "stage")
+    shutil.rmtree(stage, ignore_errors=True)
+    os.makedirs(stage, exist_ok=True)
+    orig_dir = cfg.dir("orig_dir")
+    for name in sorted(os.listdir(orig_dir)):
+        p = os.path.join(orig_dir, name)
+        if os.path.isfile(p):
+            shutil.copyfile(p, os.path.join(stage, name))
+    track = glob.glob(os.path.join(stage, "*track03.bin"))[0]
+    return dist, stage, track
+
+
+def _patch_cbs(cfg, track, disc_builds):
+    """빌드된 CB 들을 트랙에 적용한다. 값이 None 인 항목은 건너뛴다."""
+    from kitae.build import disc as disc_mod
+    for disc_path, built in disc_builds.items():
+        if not built:
+            continue
+        tmp = track + ".tmp"
+        if disc_path == "RESOURCE/SOZ.CB":
+            # 라벨 포함 SOZ.CB 는 원 슬롯을 넘을 수 있다 → apply_to_disc 가 슬롯에
+            # 맞으면 제자리 패치, 넘치면 뒤 DEBUG.CB(테스트 잔재)를 축소·이동해
+            # 공간을 만든다(다른 파일 LBA 불변).
+            from kitae.build import soz as soz_mod
+            soz_mod.apply_to_disc(track, tmp, open(built, "rb").read(),
+                                  cfg.path(cfg["work_dir"], "stage"))
+        else:
+            disc_mod.patch(disc_path, open(built, "rb").read(), tmp, track)
+        os.replace(tmp, track)
+
+
+def _export_dist(cfg, dist, stage):
+    """스테이지를 dist/ 로 옮긴다 — 트랙을 마지막에, MARKER 로 반쪽을 표시.
+
+    트랙을 마지막에 옮긴다 — 중간에 죽어도 .gdi 가 옛 트랙을 가리키느니
+    아예 없는 편이 낫다. 옮기는 동안만 MARKER 가 놓인다."""
     marker = os.path.join(dist, MARKER)
     open(marker, "w", encoding="utf-8").write("옮기는 중입니다\n")
     names = sorted(os.listdir(stage),
@@ -509,3 +517,137 @@ def _build(cfg, scripts, lang, want_font=True):
     if gdi:
         print(f'실행:  redream.exe "{os.path.abspath(gdi[0])}"')
     return 0
+
+
+def _inject_container_images(cfg, compose, prebuilt):
+    """`images/erased/` 의 SOZ 외 컨테이너에 이미지 주입 → {"RESOURCE/<C>.CB": 경로}.
+
+    runner 는 어떤 컨테이너·멤버가 있는지 일일이 적지 않는다. `images/erased/`
+    하위 폴더 하나가 곧 한 컨테이너(= RESOURCE/<C>.CB)다. 무엇을 넣을지(한글
+    overlay / 지우기 no-text / 안 건드림)는 전부 jaguk 원장의 규칙이 정하고,
+    compose 가 최종 이미지를 돌려준다. 여기선 그걸 각 CB 의 모든 SET 에
+    래스터(제자리)로 주입만 한다 — 새 이미지·새 컨테이너가 늘어도 코드는 그대로.
+      · SOZ 는 글리프 패킹 + 슬롯 재배치가 필요해 호출자(3b')가 따로 처리한다.
+      · prebuilt: 앞 단계가 이미 만든 베이스 (예: 퀴즈 패치된 M05) — 그 위에 잇는다.
+    """
+    from kitae.build import soz as soz_mod
+    from kitae.build import uipatch
+    from kitae.core.gdfs import GdFs
+    image_cbs = {}
+    erased_root = cfg.path("images", "erased")
+    if not os.path.isdir(erased_root):
+        return image_cbs
+    _ofs = GdFs(track=glob.glob(
+        os.path.join(cfg.dir("orig_dir"), "*track03.bin"))[0])
+    for cont in sorted(os.listdir(erased_root)):
+        if cont == "SOZ" or not os.path.isdir(os.path.join(erased_root, cont)):
+            continue
+        base = prebuilt.get(cont) or uipatch.original(cfg, f"/RESOURCE/{cont}.CB")
+        # 앞 단계(퀴즈)의 <C>.CB 를 덮어쓰지 않도록 별도 파일로 낸다 —
+        # 슬롯 초과로 건너뛰면 앞 산출물이 그대로 최종본으로 남아야 한다.
+        outp = _work(cfg, "build", f"{cont}.img.CB")
+        cap = ((_ofs.find(f"RESOURCE/{cont}.CB")[1] + 2047) // 2048) * 2048
+        # 제자리 패치는 슬롯을 못 넘으니(다음 파일 침범) 원화질로 먼저,
+        # erased 가 무거워 넘치면 색을 낮춰 가장 높은 화질로 슬롯에 맞춘다.
+        rep, kused = soz_mod.build_to_fit(base, compose, cont, cap, outp,
+                                          cache_dir=cfg.path(cfg["work_dir"],
+                                                             "imgcache"))
+        if rep is None:
+            print(f"  ⚠ {cont} 이미지: 최저 색수로도 슬롯 초과 — 이번 빌드는 건너뜀")
+            continue
+        done = ", ".join(f"{mp}×{n}" for mp, k, n in rep if n)
+        if not done:
+            continue                    # 주입할 멤버 없음(정상)
+        image_cbs[f"RESOURCE/{cont}.CB"] = outp
+        qnote = "원화질" if kused is None else f"{kused}색 감축"
+        print(f"이미지: {cont} {done} ({qnote}) → RESOURCE/{cont}.CB "
+              f"({os.path.getsize(outp):,} / 슬롯 {cap:,})")
+    return image_cbs
+
+
+def build_images(cfg, rerender=False, lang=None):
+    """이미지만 빌드 — jaguk compose 로 이미지 CB 를 만들어 디스크에 반영한다.
+
+    `kitae build image` 의 본체. jaguk 은 이미지 생성(compose)으로만 쓰인다 —
+    다른 jaguk 서브커맨드를 부르지 않는다 (raiki build image 와 같은 관계).
+
+    대사·폰트·UI 는 재계산하지 않는다: 직전 `kitae build` 가 work/build 에
+    남긴 산출물(PLOT/MTG/M05 CB · TRF DLL)을 그대로 다시 얹는다. 산출물이
+    없으면 그 파일은 원본 그대로 둔다(= 이미지 단독 패치). 씬 제목(INIS)은
+    캐시 파일이 없어 재계산한다(빠르다).
+
+    rerender=True 면 images/injected/ 캐시를 비워 jaguk 렌더부터 다시 한다
+    (raiki build image --inject 에 대응).
+    """
+    from kitae.build import smf as smf_mod, disc as disc_mod
+    from kitae.build import hangul, uipatch, soz as soz_mod
+
+    lang = cfg.check_lang(lang or cfg["target"])
+    _jaguk = cfg.path("images", "jaguk.json")
+    if not os.path.exists(_jaguk):
+        print("images/jaguk.json 이 없습니다 — 이미지 원장이 없는 프로젝트")
+        return 1
+    if rerender:
+        shutil.rmtree(cfg.path("images", "injected"), ignore_errors=True)
+        print("  injected 캐시 비움 — jaguk 렌더부터 다시")
+
+    wb = cfg.path(cfg["work_dir"], "build")
+
+    def cached(*parts):
+        p = os.path.join(wb, *parts)
+        return p if os.path.exists(p) else None
+
+    compose = soz_mod.load_composer(_jaguk, typelet_root=cfg.typelet_root())
+
+    # SOZ 라벨·카드 — 직전 빌드의 가이드 포함 SOZ.CB 위에 (없으면 원본)
+    out_soz = None
+    soz_base = cached("SOZ.CB") or uipatch.original(cfg, "/RESOURCE/SOZ.CB")
+    srepl, srep = soz_mod.build_replacements(
+        Cab(soz_base), compose,
+        cache_dir=cfg.path(cfg["work_dir"], "imgcache"))
+    if srepl:
+        out_soz = _work(cfg, "build", "SOZ_final.CB")
+        smf_mod.repack_cab(soz_base, srepl, out_soz)
+        sng = sum(1 for _, k, _ in srep if k in ("glyph", "glyph+base"))
+        print(f"지도 라벨: 글리프 {sng} · 래스터 {len(srep) - sng} 맵 "
+              f"→ RESOURCE/SOZ.CB ({os.path.getsize(out_soz):,})")
+
+    image_cbs = _inject_container_images(cfg, compose, {"M05": cached("M05.CB")})
+
+    dist, stage, track = _stage_disc(cfg)
+    disc_builds = {"RESOURCE/PLOT.CB": cached("PLOT.CB"),
+                   "RESOURCE/MTG.CB": cached("MTG.CB"),
+                   "RESOURCE/SOZ.CB": out_soz or cached("SOZ_final.CB"),
+                   "RESOURCE/M05.CB": cached("M05.CB")}
+    disc_builds.update(image_cbs)
+    _patch_cbs(cfg, track, disc_builds)
+
+    # 직전 빌드의 UI·폰트 DLL — work/build/TRF/*.DLL 을 그대로 다시 얹는다
+    trf_dir = os.path.join(wb, "TRF")
+    if os.path.isdir(trf_dir):
+        dlls = [n for n in sorted(os.listdir(trf_dir))
+                if n.upper().endswith(".DLL")]
+        for name in dlls:
+            disc_path = f"/TRF/{name}"
+            blob = open(os.path.join(trf_dir, name), "rb").read()
+            orig_size = os.path.getsize(uipatch.original(cfg, disc_path))
+            if len(blob) == orig_size:
+                disc_mod.replace_same_size(track, disc_path.lstrip("/"), blob)
+            else:
+                tmp = track + ".tmp"
+                disc_mod.patch(disc_path.lstrip("/"), blob, tmp, track)
+                os.replace(tmp, track)
+        print(f"  UI/폰트 DLL 재적용: {len(dlls)}개 (work/build/TRF)")
+
+    # 씬 제목(INIS) — 캐시 파일이 없어 재계산
+    from kitae.build import scenes
+    inis, n = scenes.rebuild(cfg, lang, hangul.encoder(cfg))
+    if inis:
+        tmp = track + ".tmp"
+        disc_mod.patch(scenes.INIS.lstrip("/"), inis, tmp, track)
+        os.replace(tmp, track)
+        print(f"  씬 제목 {n}곳 재적용")
+
+    diff = disc_mod.diff_against(track, cfg.track(3))
+    print(f"\n원본과 다른 파일: {diff}")
+    return _export_dist(cfg, dist, stage)

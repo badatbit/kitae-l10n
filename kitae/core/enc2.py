@@ -102,7 +102,9 @@ def decompress(data: bytes, out_size: int) -> bytes:
     return bytes(out[:out_size])
 
 
-_CAND_CAP = 4096   # 후보 리스트 상한 (96→4096: 게임 원본 압축기 수준 도달, ~1s/청크)
+_CAND_CAP = 4096   # 2바이트 쌍 후보 상한. 4096 이면 구판(1바이트 버킷 4096)과
+                   # 원시 텍스처에서 **바이트 수까지 동일한 압축률**, 속도 ~7.6배
+                   # (512 는 +0.17% — M05 가 40→32색으로 떨어질 만큼의 차이였다)
 
 
 def compress(data: bytes) -> bytes:
@@ -110,61 +112,66 @@ def compress(data: bytes) -> bytes:
 
     Not bit-identical to Hudson's encoder (match choices differ), but it decodes
     back to exactly the input, which is what archive rebuilding needs.
+
+    구현 메모 — 창(4096B 링)은 언제나 "직전 4095바이트의 출력"이고 인코더의
+    출력은 입력 그대로이므로, 매치 탐색은 입력 버퍼의 자기 참조(절대 위치)로
+    한다. 길이 2 이상의 매치는 반드시 첫 2바이트가 같으므로 2바이트 쌍 해시
+    체인이 후보 공간을 빠짐없이 덮는다. src 필드는 절대 위치 p 의 창 좌표
+    (p+1)&0xFFF (쓰기 커서가 1에서 시작) — 0 은 EOS 마커라 그 좌표는 건너뛴다.
+    겹침 매치(dist < len)는 data[p+k] == data[i+k] 비교가 그대로 성립한다
+    (디코더가 창을 쓰면서 읽는 동작과 동치).
     """
-    win = bytearray(WINDOW_SIZE)
-    wpos = START_POS
-    # positions in the window holding each byte value, most recent last
-    buckets = [[] for _ in range(256)]
+    n = len(data)
     bits = bytearray()
+    append = bits.append
 
-    def put_val(v, n):
-        for i in range(n - 1, -1, -1):
-            bits.append((v >> i) & 1)
+    def put_val(v, nb):
+        for j in range(nb - 1, -1, -1):
+            append((v >> j) & 1)
 
-    def push(byte):
-        nonlocal wpos
-        win[wpos] = byte
-        buckets[byte].append(wpos)
-        if len(buckets[byte]) > _CAND_CAP:   # cap the candidate list
-            del buckets[byte][:-_CAND_CAP]
-        wpos = (wpos + 1) & WINDOW_MASK
-
-    i, n = 0, len(data)
+    heads = {}          # (b0<<8 | b1) -> [절대 위치 …] (최신이 뒤)
+    i = 0
     while i < n:
-        best_len, best_src = 0, 0
-        maxlen = min(MAX_MATCH, n - i)
+        best_len = 0
+        best_src = 0
+        maxlen = MAX_MATCH if n - i >= MAX_MATCH else n - i
         if maxlen >= MIN_MATCH:
-            for p in reversed(buckets[data[i]]):
-                # A copy reads through the window it is writing, so once k
-                # reaches the source-to-cursor distance the decoder starts
-                # seeing bytes emitted by this very match.
-                dist = (wpos - p) & WINDOW_MASK
-                if dist == 0 or p == 0:
-                    # src == 0 is the end-of-stream marker, never a match source
-                    continue
-                ln = 0
-                while ln < maxlen:
-                    src = (data[i + ln - dist] if ln >= dist
-                           else win[(p + ln) & WINDOW_MASK])
-                    if src != data[i + ln]:
-                        break
-                    ln += 1
-                if ln > best_len:
-                    best_len, best_src = ln, p
-                    if ln == maxlen:
-                        break
+            chain = heads.get((data[i] << 8) | data[i + 1])
+            if chain:
+                lo = i - WINDOW_MASK           # 창 밖(거리 ≥ 4096)은 무효
+                for p in reversed(chain):      # 최신(가까운) 후보부터
+                    if p < lo:
+                        break                  # 이 뒤는 전부 더 오래된 위치
+                    if (p + 1) & WINDOW_MASK == 0:
+                        continue               # src == 0 은 EOS 마커
+                    ln = 2
+                    while ln < maxlen and data[p + ln] == data[i + ln]:
+                        ln += 1
+                    if ln > best_len:
+                        best_len = ln
+                        best_src = (p + 1) & WINDOW_MASK
+                        if ln == maxlen:
+                            break
         # a match costs 17 bits, literals cost 9 each -> worth it from length 2
         if best_len >= MIN_MATCH:
-            bits.append(0)
+            append(0)
             put_val(best_src, WINDOW_BITS)
             put_val(best_len - MIN_MATCH, LENGTH_BITS)
-            for k in range(best_len):
-                push(data[i + k])
-            i += best_len
+            end = i + best_len
         else:
-            bits.append(1)
+            append(1)
             put_val(data[i], 8)
-            push(data[i])
+            end = i + 1
+        while i < end:                         # 지나간 위치를 체인에 등록
+            if i + 1 < n:
+                key = (data[i] << 8) | data[i + 1]
+                c = heads.get(key)
+                if c is None:
+                    heads[key] = [i]
+                else:
+                    c.append(i)
+                    if len(c) > _CAND_CAP:
+                        del c[:-_CAND_CAP]
             i += 1
 
     # end-of-stream marker: match flag + src == 0. The engine's decode loop has

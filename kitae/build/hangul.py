@@ -248,7 +248,7 @@ def encode(text, cp):
     return bytes(out)
 
 
-def inject(cfg, chars):
+def inject(cfg, chars, verbose=False):
     """설정을 받아 필요한 글자만 폰트에 넣고, 패치된 DLL 경로를 돌려준다."""
     from kitae.core import font as fontmod
 
@@ -261,8 +261,8 @@ def inject(cfg, chars):
     pages = [int(p) for p in cfg["font"].get("pages") or PAGES]
     allowed = {(l, c) for l in pages for c in CELLS}
     reserved = used_cells(cfg) & allowed
-    if reserved:
-        print(f"  폰트: 게임이 쓰는 {len(reserved)}칸은 비켜 간다")
+    if reserved and verbose:
+        print(f"    게임이 쓰는 {len(reserved)}칸은 비켜 간다")
 
     cp_path = os.path.join(cfg.data_dir, "codepage.json")
     cp = _read_codepage(cp_path)
@@ -303,7 +303,8 @@ def inject(cfg, chars):
             except KeyError:
                 continue
             n += 1
-        print(f"  폰트: 전각 {n}칸을 반각 모양으로 다시 그림")
+        if verbose:
+            print(f"    전각 {n}칸을 반각 모양으로 다시 그림")
 
     f.save(dst)
     return dst

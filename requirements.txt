@@ -1,0 +1,6 @@
+# kitae 빌드 파이프라인 의존성 (python -m pip install -r requirements.txt)
+Pillow>=10        # 이미지 합성·텍스처 변환 (필수)
+numpy>=1.26       # SOZ 텍스처 패킹·이미지 배열 처리 (필수)
+
+# 선택 — 필요할 때만
+# capstone         # 역어셈블 (kitae check 의 선택 항목)

@@ -18,7 +18,10 @@ pic#0(베이스 맵 위 라벨=철도명 등)은 항상 래스터로 처리한�
 청크는 원본 바이트 그대로 둔다(encode_dds_mc). 그래도 원본 슬롯을 넘으면
 `relocate.py` 가 아니라 `disc` 재배치로 슬롯을 넓힌다(soz_relayout 참조).
 """
+import hashlib
+import json
 import os
+import pickle
 import struct
 from collections import defaultdict
 from io import BytesIO
@@ -109,9 +112,33 @@ def load_composer(jaguk_json, use_cache=True, typelet_root=None):
     return compose
 
 
+_ASSEMBLED = None
+
+
+def _assembled(container):
+    """data/assembled_sets.json — 조립본으로 추출·기록된 SET 이름 집합.
+
+    dump 가 blit 을 합쳐 `<이름>.png` 하나로 저장한 SET 목록이다. jaguk 은 그
+    조립본을 수정하고, build 는 여기 기록된 SET 이면 injected 조립본을 가져와
+    blit 으로 되쪼개 주입한다. 목록에 없으면 pic 별 타일 이름으로 찾는다."""
+    global _ASSEMBLED
+    if _ASSEMBLED is None:
+        import json
+        p = Path(__file__).resolve().parents[2] / 'data' / 'assembled_sets.json'
+        try:
+            _ASSEMBLED = {k: set(v) for k, v in json.loads(
+                p.read_text('utf-8')).items() if isinstance(v, list)}
+        except FileNotFoundError:
+            _ASSEMBLED = {}
+    return _ASSEMBLED.get(container, set())
+
+
 def composed_rgba(compose, mp, pi, container='SOZ'):
     """멤버(pic)의 합성 이미지를 numpy RGBA 로. 라벨 없으면 None."""
-    img = compose(f'{container}/{mp}_{pi:02d}.png')
+    if mp in _assembled(container):
+        img = compose(f'{container}/{mp}.png')       # 조립본(jaguk 산출)
+    else:
+        img = compose(f'{container}/{mp}_{pi:02d}.png')
     return None if img is None else np.array(img)
 
 
@@ -468,16 +495,72 @@ def inject_set(cab, set_name, compose, verbose=False, container='SOZ'):
     return (setb, new_dds), 'glyph'
 
 
-def build_replacements(cab, compose, verbose=False, set_prefix='soz_', container='SOZ', raster_only=False):
+_CACHE_SALT = b"imgcache-v2"    # 인코딩 알고리즘이 바뀌면 올린다 (캐시 무효화)
+
+
+def _inject_digest(cab, set_name, compose, container):
+    """SET 주입 입력의 지문 — SET 바이트 · 참조 dds 바이트 · pic 별 합성 이미지."""
+    mp = set_name[:-4]
+    setb = cab.read(set_name)
+    h = hashlib.sha256(_CACHE_SALT)
+    h.update(setb)
+    root, objs = parse(setb)
+    names = [s.decode('cp932', 'replace')
+             for s in IM._find(objs, 'CTRFTexture').payload[4:].split(b'\0')
+             if s and s.lower().endswith(b'.dds')]
+    for nm in names:
+        h.update(cab.read(nm))
+    pics, _ = parse_pics(IM._find(objs, 'CTRFPictures').payload)
+    for pi in range(len(pics)):
+        arr = composed_rgba(compose, mp, pi, container)
+        h.update(b'-' if arr is None else arr.tobytes())
+    return h.hexdigest()
+
+
+def _inject_cached(cab, set_name, compose, verbose, container, raster_only,
+                   cache_dir):
+    """digest 가 같으면 지난 인코딩 결과(pkl)를 재사용한다.
+
+    주입 비용의 대부분은 LZSS 재압축이라, 입력(SET·dds·합성 이미지)이 안 바뀐
+    SET 은 인코딩을 통째로 건너뛰는 것이 가장 큰 절약이다. 캐시는
+    work/imgcache/<컨테이너>/<SET>.pkl — work/build 와 달리 빌드가 비우지
+    않는다. 인코딩 알고리즘이 바뀌면 _CACHE_SALT 를 올려 무효화한다.
+    """
+    mp = set_name[:-4]
+    digest = _inject_digest(cab, set_name, compose, container)
+    p = os.path.join(cache_dir, container, mp + '.pkl')
+    if os.path.exists(p):
+        try:
+            with open(p, 'rb') as fh:
+                c = pickle.load(fh)
+            if c.get('digest') == digest:
+                return c['res'], c['kind']
+        except Exception:        # noqa: BLE001 — 캐시 손상은 다시 만들면 된다
+            pass
+    if raster_only:
+        res, kind = inject_raster(cab, set_name, compose, container=container), 'raster'
+    else:
+        res, kind = inject_set(cab, set_name, compose, verbose, container)
+    os.makedirs(os.path.dirname(p), exist_ok=True)
+    with open(p, 'wb') as fh:
+        pickle.dump({'digest': digest, 'res': res, 'kind': kind}, fh)
+    return res, kind
+
+
+def build_replacements(cab, compose, verbose=False, set_prefix='soz_', container='SOZ', raster_only=False, cache_dir=None):
     """CB 안 `set_prefix`* .SET 을 주입 → {entry_name: bytes} + 리포트.
-    SOZ 는 기본(soz_/SOZ). M08 이름판은 set_prefix='bghut', container='M08'."""
+    SOZ 는 기본(soz_/SOZ). M08 이름판은 set_prefix='bghut', container='M08'.
+    cache_dir 를 주면 입력이 안 바뀐 SET 의 인코딩을 건너뛴다(_inject_cached)."""
     maps = sorted({n[:-4] for n in cab.names
                    if n.lower().endswith('.set') and n.lower().startswith(set_prefix.lower())})
     repl, report = {}, []
     for mp in maps:
         sn = [x for x in cab.names if x[:-4] == mp and x.lower().endswith('.set')][0]
         try:
-            if raster_only:
+            if cache_dir:
+                res, kind = _inject_cached(cab, sn, compose, verbose, container,
+                                           raster_only, cache_dir)
+            elif raster_only:
                 res, kind = inject_raster(cab, sn, compose, container=container), 'raster'
             else:
                 res, kind = inject_set(cab, sn, compose, verbose, container)
@@ -513,7 +596,7 @@ def quantized_compose(compose, k):
 
 
 def build_to_fit(cab_path, compose, container, cap, out_path,
-                 steps=(None, 128, 96, 64, 48, 40, 32)):
+                 steps=(None, 128, 96, 64, 48, 40, 32), cache_dir=None):
     """CB 를 슬롯(cap 바이트)에 맞게 만든다 — 원화질 우선, 넘치면 색을 낮춰 재시도.
 
     제자리 패치는 슬롯을 못 넘으니(다음 파일 침범), erased 가 무거워 넘칠 때
@@ -521,18 +604,33 @@ def build_to_fit(cab_path, compose, container, cap, out_path,
       k_used=None  원화질로 맞음
       k_used=<int> 그 색수로 감축해 맞음
       report=None  최저 감축(steps 끝)으로도 못 맞춤 → 호출측이 건너뛴다
+
+    cache_dir 를 주면 ① 인코딩 캐시(build_replacements) ② 지난 빌드에서 맞았던
+    색수 기록(fit_<컨테이너>.json)으로 사다리를 건너뛴다. 화질 재탐색(erased 를
+    가볍게 고친 뒤)은 그 기록 파일을 지우고 빌드하면 된다.
     """
     from kitae.build.smf import repack_cab
+    fit_rec = os.path.join(cache_dir, f'fit_{container}.json') if cache_dir else None
+    if fit_rec and os.path.exists(fit_rec):
+        try:
+            k0 = json.load(open(fit_rec, encoding='utf-8')).get('k')
+        except Exception:        # noqa: BLE001
+            k0 = None
+        if k0 is not None:
+            steps = tuple([k0] + [s for s in steps
+                                  if s is not None and s < k0])
     last = None
     for k in steps:
         comp = compose if k is None else quantized_compose(compose, k)
         repl, rep = build_replacements(Cab(cab_path), comp,
                                        set_prefix="", container=container,
-                                       raster_only=True)
+                                       raster_only=True, cache_dir=cache_dir)
         if not repl:
             return [], None                 # 주입할 것이 없음(정상)
         repack_cab(cab_path, repl, out_path)
         if os.path.getsize(out_path) <= cap:
+            if fit_rec:
+                json.dump({'k': k}, open(fit_rec, 'w', encoding='utf-8'))
             return rep, k
         last = (rep, k)
     return None, (last[1] if last else None)

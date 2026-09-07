@@ -1,0 +1,4 @@
+{
+ "_comment": "조립본으로 추출한 SET 목록. dump 가 blit 을 합쳐 <이름>.png 하나로 저장한 SET — jaguk 은 그 조립본을 수정하고, build 는 injected 조립본을 blit 으로 되쪼개 주입한다. 여기 없는 SET 은 pic 별 타일(<이름>_NN.png)로 다룬다.",
+ "SOZ": ["soz_005", "soz_006", "soz_007"]
+}
