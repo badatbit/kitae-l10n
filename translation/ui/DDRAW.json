@@ -1,0 +1,146 @@
+{
+  "module": "DDRAW",
+  "path": "/WINCE/DDRAW.DLL",
+  "entries": [
+    {
+      "offset": 50048,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "瀲",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 50172,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "隹",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 50176,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "怡",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 50316,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "隹",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 50320,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "怡",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 50472,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "隹",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 50476,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "怡",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 50620,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "汎",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 50632,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "隹",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 50636,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "怡",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 50904,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "隹",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 50924,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "隹",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 50944,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "潭",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 50952,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "信",
+        "ko": ""
+      }
+    }
+  ]
+}

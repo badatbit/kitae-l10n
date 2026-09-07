@@ -1,0 +1,86 @@
+{
+  "module": "DPLAYX",
+  "path": "/WINCE/DPLAYX.DLL",
+  "entries": [
+    {
+      "offset": 121628,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "鎭",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 121632,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "寝",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 121648,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "蕨",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 121672,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "灑",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 121812,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "鎭",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 121816,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "寝",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 121832,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "蕨",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 121856,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "灑",
+        "ko": ""
+      }
+    }
+  ]
+}

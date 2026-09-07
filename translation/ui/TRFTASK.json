@@ -1,0 +1,46 @@
+{
+  "module": "TRFTASK",
+  "path": "/TRF/TRFTASK.DLL",
+  "entries": [
+    {
+      "offset": 41824,
+      "size": 2,
+      "avail": 9,
+      "section": ".rdata",
+      "text": {
+        "ja": "惘",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 42096,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "芦",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 42100,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "于",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 42132,
+      "size": 2,
+      "avail": 5,
+      "section": ".rdata",
+      "text": {
+        "ja": "魏",
+        "ko": ""
+      }
+    }
+  ]
+}

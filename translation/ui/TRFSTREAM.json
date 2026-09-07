@@ -1,0 +1,26 @@
+{
+  "module": "TRFSTREAM",
+  "path": "/TRF/TRFSTREAM.DLL",
+  "entries": [
+    {
+      "offset": 11404,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "魯",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 11436,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "瓮",
+        "ko": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,1916 @@
+{
+  "module": "TRFDRAW",
+  "path": "/TRF/TRFDRAW.DLL",
+  "entries": [
+    {
+      "offset": 82924,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "慫",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 82964,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "獎",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 82968,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "菻",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 82972,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "靤",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 82988,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "靦",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 83204,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "慫",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 83244,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "獎",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 83248,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "菻",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 83252,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "靤",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 83268,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "靦",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 83612,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "燬",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 83632,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "燧",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 83644,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "陜",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 83668,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "燬",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 83688,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "燧",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 83700,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "陜",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 83772,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "猴",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 83896,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "寸",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 83900,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "腑",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 84012,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "寸",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 84016,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "腑",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 84072,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "腑",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 84144,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "燬",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 84164,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "燧",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 84176,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "陜",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 84292,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "寸",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 84296,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "腑",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 84388,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "鞜",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 84404,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "鞨",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 84484,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "腑",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 84540,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "腑",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 84564,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "猴",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 84600,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "鞜",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 84616,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "鞨",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 84696,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "腑",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 84720,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "猴",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 84768,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "鞜",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 84784,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "鞨",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 84864,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "腑",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 112264,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "腑",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 112280,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "澆",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 112320,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "腑",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 112376,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "腑",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 112396,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "雇",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 112428,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "鼓",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 112432,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "摂",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 112492,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "維",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 112528,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "雇",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 112560,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "鼓",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 112564,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "摂",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 112624,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "維",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 112720,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "忿",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 112728,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "伯",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 112736,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "芻",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 112756,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "熾",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 112772,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "芍",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 112776,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "穴",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 112788,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "形",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 112792,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "倭",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 112848,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "濮",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 112864,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "腑",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 113216,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "腑",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 113240,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "脆",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 113252,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "霹",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 113288,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "澆",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 113328,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "腑",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 113444,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "忿",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 113452,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "伯",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 113460,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "芻",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 113480,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "熾",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 113496,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "芍",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 113500,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "穴",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 113588,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "腑",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 113596,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "臉",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 113608,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "雇",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 113640,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "鼓",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 113644,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "摂",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 113704,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "維",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 113748,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "慶",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 113828,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "馬",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 113836,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "経",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 113860,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "湾",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 113912,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "潘",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 113928,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "脆",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 113940,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "霹",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 113976,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "澆",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 114016,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "腑",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 114076,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "蚤",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 114128,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "鐶",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 114140,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "腑",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 114152,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "麓",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 114244,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "腑",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 114256,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "食",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 114288,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "慶",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 114368,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "馬",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 114376,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "経",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 114400,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "湾",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 114480,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "脆",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 114492,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "霹",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 114504,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "臣",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 114508,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "彙",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 114528,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "澆",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 114556,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "臙",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 114568,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "腑",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 114676,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "忿",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 114684,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "伯",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 114692,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "芻",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 114712,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "熾",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 114728,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "芍",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 114732,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "穴",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 114820,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "腑",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 115144,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "蒻",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 115316,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "蒻",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 115774,
+      "size": 2,
+      "avail": 6,
+      "section": ".rdata",
+      "text": {
+        "ja": "湿",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 115813,
+      "size": 3,
+      "avail": 7,
+      "section": ".rdata",
+      "text": {
+        "ja": "炳<",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 115942,
+      "size": 2,
+      "avail": 6,
+      "section": ".rdata",
+      "text": {
+        "ja": "隋",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 116424,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "碑",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 116472,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "沖",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 116552,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "｛",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 116568,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "沖",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 116584,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "沖",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 116616,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "沖",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 116632,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "｛",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 116648,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "｛",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 116664,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "沖",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 116680,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "｛",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 116696,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "｛",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 116712,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "沖",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 116952,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "嬶",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 116968,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "嬶",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 116984,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "嬶",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 117000,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "嬶",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 117016,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "嬶",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 117032,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "嬶",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 117048,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "嬶",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 117080,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "嬶",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 117112,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "嬶",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 117144,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "嬶",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 117176,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "楪",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 117192,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "嬶",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 117256,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "嬶",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 117464,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "嬶",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 117640,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "嬶",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 117656,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "嬶",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 117672,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "嬶",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 117720,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "嬶",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 117736,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "嬶",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 117752,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "嬶",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 117784,
+      "size": 6,
+      "avail": 7,
+      "section": ".rdata",
+      "text": {
+        "ja": "鴇DEST",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 118072,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "墟",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 118312,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "墟",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 118328,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "墟",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 118344,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "墟",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 118360,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "墟",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 118376,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "墟",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 118392,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "墟",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 118408,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "墟",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 118424,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "墟",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 118440,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "墟",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 118456,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "墟",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 118472,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "墟",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 118488,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "墟",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 118504,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "戔",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 118520,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "廾",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 118552,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "廸",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 118568,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "廸",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 118622,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "刕",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 118648,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "擡",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 118664,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "廸",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 118696,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "廸",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 118712,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "愧",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 118728,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "廾",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 118744,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "廾",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 118760,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "廸",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 118776,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "愧",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 118792,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "廸",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 118872,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "杖",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 118888,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "鉦",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 118904,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "鉦",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 118920,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "鉦",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 119000,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "杖",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 119032,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "鉦",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 119048,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "鉦",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 119064,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "鉦",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 119080,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "鉦",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 119096,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "鉦",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 119176,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "鍾",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 119192,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "鍾",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 119816,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "如",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 120532,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "伍",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 128048,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "蝕",
+        "ko": ""
+      }
+    }
+  ]
+}

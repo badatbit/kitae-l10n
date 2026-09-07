@@ -1,0 +1,16 @@
+{
+  "module": "DXAVFWDK3B",
+  "path": "/WINCE/DXAVFWDK3B.DLL",
+  "entries": [
+    {
+      "offset": 16464,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "燭",
+        "ko": ""
+      }
+    }
+  ]
+}

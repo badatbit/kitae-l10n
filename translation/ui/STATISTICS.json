@@ -1,0 +1,26 @@
+{
+  "module": "STATISTICS",
+  "path": "/TRF/STATISTICS.DLL",
+  "entries": [
+    {
+      "offset": 18316,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "麓",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 18348,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "禺",
+        "ko": ""
+      }
+    }
+  ]
+}

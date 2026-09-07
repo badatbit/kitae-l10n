@@ -1,0 +1,36 @@
+{
+  "module": "DPWSOCKX",
+  "path": "/WINCE/DPWSOCKX.DLL",
+  "entries": [
+    {
+      "offset": 16492,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "鶇",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 16552,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "蝕",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 16556,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "唔",
+        "ko": ""
+      }
+    }
+  ]
+}

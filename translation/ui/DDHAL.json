@@ -1,0 +1,46 @@
+{
+  "module": "DDHAL",
+  "path": "/WINCE/DDHAL.DLL",
+  "entries": [
+    {
+      "offset": 104308,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "郎",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 104392,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "丼",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 104452,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "愕",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 104492,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "博",
+        "ko": ""
+      }
+    }
+  ]
+}

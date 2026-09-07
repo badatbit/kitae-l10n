@@ -1,0 +1,26 @@
+{
+  "module": "QUARTZ",
+  "path": "/WINCE/QUARTZ.DLL",
+  "entries": [
+    {
+      "offset": 512088,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "蔡",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 512104,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "蓿",
+        "ko": ""
+      }
+    }
+  ]
+}

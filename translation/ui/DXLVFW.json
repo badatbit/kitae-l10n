@@ -1,0 +1,66 @@
+{
+  "module": "DXLVFW",
+  "path": "/WINCE/DXLVFW.DLL",
+  "entries": [
+    {
+      "offset": 29246,
+      "size": 2,
+      "avail": 5,
+      "section": ".data",
+      "text": {
+        "ja": "崖",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 29398,
+      "size": 2,
+      "avail": 5,
+      "section": ".data",
+      "text": {
+        "ja": "崖",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 29414,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "崖",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 29464,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "崖",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 30352,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "崖",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 30446,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "崖",
+        "ko": ""
+      }
+    }
+  ]
+}

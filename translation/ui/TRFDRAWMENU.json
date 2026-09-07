@@ -1,0 +1,16 @@
+{
+  "module": "TRFDRAWMENU",
+  "path": "/TRF/TRFDRAWMENU.DLL",
+  "entries": [
+    {
+      "offset": 38840,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "牆",
+        "ko": ""
+      }
+    }
+  ]
+}

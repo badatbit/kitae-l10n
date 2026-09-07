@@ -1,0 +1,36 @@
+{
+  "module": "WSEGACD",
+  "path": "/WINCE/WSEGACD.DLL",
+  "entries": [
+    {
+      "offset": 20728,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "算",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 20732,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "杙",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 20752,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "禹",
+        "ko": ""
+      }
+    }
+  ]
+}

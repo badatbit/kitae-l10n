@@ -1,0 +1,36 @@
+{
+  "module": "TRFDRAWGAGE",
+  "path": "/TRF/TRFDRAWGAGE.DLL",
+  "entries": [
+    {
+      "offset": 51312,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "慰",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 51316,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "儘",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 51348,
+      "size": 2,
+      "avail": 5,
+      "section": ".rdata",
+      "text": {
+        "ja": "橳",
+        "ko": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "module": "SCENE0",
+  "path": "/TRF/SCENE0.EXE",
+  "entries": [
+    {
+      "offset": 47884,
+      "size": 2,
+      "avail": 4,
+      "section": ".rdata",
+      "text": {
+        "ja": "慱",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 47892,
+      "size": 2,
+      "avail": 9,
+      "section": ".rdata",
+      "text": {
+        "ja": "胡",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 47904,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "贊",
+        "ko": ""
+      }
+    }
+  ]
+}

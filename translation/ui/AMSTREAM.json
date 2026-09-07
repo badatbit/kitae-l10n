@@ -1,0 +1,36 @@
+{
+  "module": "AMSTREAM",
+  "path": "/WINCE/AMSTREAM.DLL",
+  "entries": [
+    {
+      "offset": 74976,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "潦",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 75072,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "亘",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 75132,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "寝",
+        "ko": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "module": "TRFDRAWBLOCK",
+  "path": "/TRF/TRFDRAWBLOCK.DLL",
+  "entries": [
+    {
+      "offset": 39676,
+      "size": 2,
+      "avail": 9,
+      "section": ".rdata",
+      "text": {
+        "ja": "政",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 39824,
+      "size": 2,
+      "avail": 9,
+      "section": ".rdata",
+      "text": {
+        "ja": "亊",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 40536,
+      "size": 2,
+      "avail": 9,
+      "section": ".data",
+      "text": {
+        "ja": "亊",
+        "ko": ""
+      }
+    }
+  ]
+}

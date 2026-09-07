@@ -1,0 +1,36 @@
+{
+  "module": "TRFVISUALPADSTATUS",
+  "path": "/TRF/TRFVISUALPADSTATUS.DLL",
+  "entries": [
+    {
+      "offset": 39936,
+      "size": 2,
+      "avail": 9,
+      "section": ".rdata",
+      "text": {
+        "ja": "顕",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 40076,
+      "size": 2,
+      "avail": 9,
+      "section": ".rdata",
+      "text": {
+        "ja": "伐",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 40528,
+      "size": 2,
+      "avail": 9,
+      "section": ".data",
+      "text": {
+        "ja": "伐",
+        "ko": ""
+      }
+    }
+  ]
+}

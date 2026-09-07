@@ -1,0 +1,16 @@
+{
+  "module": "SNDCORE",
+  "path": "/WINCE/SNDCORE.DLL",
+  "entries": [
+    {
+      "offset": 16008,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "如",
+        "ko": ""
+      }
+    }
+  ]
+}

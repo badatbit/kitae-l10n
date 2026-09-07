@@ -1,0 +1,36 @@
+{
+  "module": "MENUSELECT",
+  "path": "/TRF/MENUSELECT.DLL",
+  "entries": [
+    {
+      "offset": 37056,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "髜",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 37224,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "髜",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 90192,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "靴",
+        "ko": ""
+      }
+    }
+  ]
+}

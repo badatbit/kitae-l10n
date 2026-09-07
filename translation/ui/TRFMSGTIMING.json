@@ -1,0 +1,26 @@
+{
+  "module": "TRFMSGTIMING",
+  "path": "/TRF/TRFMSGTIMING.DLL",
+  "entries": [
+    {
+      "offset": 17444,
+      "size": 2,
+      "avail": 4,
+      "section": ".rdata",
+      "text": {
+        "ja": "彌",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 17616,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "鐔",
+        "ko": ""
+      }
+    }
+  ]
+}

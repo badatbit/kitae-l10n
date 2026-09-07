@@ -1,0 +1,16 @@
+{
+  "module": "TRFDRAWKARAOKE",
+  "path": "/TRF/TRFDRAWKARAOKE.DLL",
+  "entries": [
+    {
+      "offset": 39732,
+      "size": 2,
+      "avail": 5,
+      "section": ".rdata",
+      "text": {
+        "ja": "星",
+        "ko": ""
+      }
+    }
+  ]
+}

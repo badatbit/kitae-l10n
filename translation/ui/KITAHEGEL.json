@@ -1,0 +1,186 @@
+{
+  "module": "KITAHEGEL",
+  "path": "/TRF/KITAHEGEL.DLL",
+  "entries": [
+    {
+      "offset": 25420,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "祢",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 25700,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "祢",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 26112,
+      "size": 2,
+      "avail": 2,
+      "section": ".rdata",
+      "text": {
+        "ja": "祢",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 74200,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "鸙",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 74228,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "熱",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 74240,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "潼",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 74268,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "侵",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 74284,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "唇",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 74304,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "榔",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 74400,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "篭",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 74420,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "新",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 74440,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "晋",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 74468,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "郎",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 74472,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "鏈",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 74516,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "麓",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 74556,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "能",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 74732,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "澆",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 74780,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "炉",
+        "ko": ""
+      }
+    }
+  ]
+}

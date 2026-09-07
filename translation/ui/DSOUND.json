@@ -1,0 +1,46 @@
+{
+  "module": "DSOUND",
+  "path": "/WINCE/DSOUND.DLL",
+  "entries": [
+    {
+      "offset": 30764,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "蕙",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 30824,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "逗",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 30828,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "梳",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 30844,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "烙",
+        "ko": ""
+      }
+    }
+  ]
+}

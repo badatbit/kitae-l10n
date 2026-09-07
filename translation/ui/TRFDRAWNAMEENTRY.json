@@ -1,0 +1,36 @@
+{
+  "module": "TRFDRAWNAMEENTRY",
+  "path": "/TRF/TRFDRAWNAMEENTRY.DLL",
+  "entries": [
+    {
+      "offset": 42172,
+      "size": 2,
+      "avail": 9,
+      "section": ".rdata",
+      "text": {
+        "ja": "莢",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 42380,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "亞",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 42412,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "雎",
+        "ko": ""
+      }
+    }
+  ]
+}

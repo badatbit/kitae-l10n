@@ -1,0 +1,16 @@
+{
+  "module": "TRFPLOTMANAGER",
+  "path": "/TRF/TRFPLOTMANAGER.DLL",
+  "entries": [
+    {
+      "offset": 21352,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "継",
+        "ko": ""
+      }
+    }
+  ]
+}

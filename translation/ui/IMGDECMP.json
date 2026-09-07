@@ -1,0 +1,306 @@
+{
+  "module": "IMGDECMP",
+  "path": "/WINCE/IMGDECMP.DLL",
+  "entries": [
+    {
+      "offset": 24749,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "釉",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 24808,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "冉",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 24832,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "劔",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 24856,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "厠",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 24940,
+      "size": 3,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "冉3",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 24964,
+      "size": 3,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "劔3",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 24988,
+      "size": 3,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "厠3",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 25080,
+      "size": 3,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "冉f",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 25089,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "冉",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 25092,
+      "size": 3,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "3冉",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 25096,
+      "size": 3,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "f冉",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 25100,
+      "size": 3,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "劔f",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 25105,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "冉",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 25109,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "冉",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 25120,
+      "size": 3,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "厠f",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 25157,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "劔",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 25216,
+      "size": 3,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "3劔",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 25220,
+      "size": 3,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "f劔",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 25225,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "劔",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 25229,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "劔",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 25233,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "劔",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 25353,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "厠",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 25356,
+      "size": 3,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "3厠",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 25360,
+      "size": 3,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "f厠",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 25365,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "厠",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 25369,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "厠",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 25373,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "厠",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 25589,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "末",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 25609,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "聽",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 25625,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "靍",
+        "ko": ""
+      }
+    }
+  ]
+}

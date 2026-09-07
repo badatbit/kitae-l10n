@@ -1,0 +1,26 @@
+{
+  "module": "TRFWAVENAME",
+  "path": "/TRF/TRFWAVENAME.DLL",
+  "entries": [
+    {
+      "offset": 17428,
+      "size": 2,
+      "avail": 4,
+      "section": ".rdata",
+      "text": {
+        "ja": "申",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 17604,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "鐔",
+        "ko": ""
+      }
+    }
+  ]
+}

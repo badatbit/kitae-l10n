@@ -1,0 +1,46 @@
+{
+  "module": "SYMBOL",
+  "path": "/TRF/SYMBOL.DLL",
+  "entries": [
+    {
+      "offset": 17248,
+      "size": 2,
+      "avail": 9,
+      "section": ".rdata",
+      "text": {
+        "ja": "彈",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 17484,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "申",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 17528,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "媾",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 18224,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "形",
+        "ko": ""
+      }
+    }
+  ]
+}

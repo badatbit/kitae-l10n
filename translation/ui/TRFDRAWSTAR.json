@@ -1,0 +1,46 @@
+{
+  "module": "TRFDRAWSTAR",
+  "path": "/TRF/TRFDRAWSTAR.DLL",
+  "entries": [
+    {
+      "offset": 40180,
+      "size": 2,
+      "avail": 9,
+      "section": ".rdata",
+      "text": {
+        "ja": "渥",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 40328,
+      "size": 2,
+      "avail": 9,
+      "section": ".rdata",
+      "text": {
+        "ja": "政",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 40412,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "隴",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 41048,
+      "size": 2,
+      "avail": 9,
+      "section": ".data",
+      "text": {
+        "ja": "政",
+        "ko": ""
+      }
+    }
+  ]
+}

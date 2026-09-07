@@ -1,0 +1,26 @@
+{
+  "module": "DDI",
+  "path": "/WINCE/DDI.DLL",
+  "entries": [
+    {
+      "offset": 21588,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "禰",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 21596,
+      "size": 2,
+      "avail": 2,
+      "section": ".data",
+      "text": {
+        "ja": "鍠",
+        "ko": ""
+      }
+    }
+  ]
+}

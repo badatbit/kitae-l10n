@@ -1,0 +1,36 @@
+{
+  "module": "TRFDRAWNUM",
+  "path": "/TRF/TRFDRAWNUM.DLL",
+  "entries": [
+    {
+      "offset": 44420,
+      "size": 2,
+      "avail": 9,
+      "section": ".rdata",
+      "text": {
+        "ja": "古",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 44508,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "霤",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 45136,
+      "size": 2,
+      "avail": 9,
+      "section": ".data",
+      "text": {
+        "ja": "古",
+        "ko": ""
+      }
+    }
+  ]
+}

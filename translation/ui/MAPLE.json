@@ -1,0 +1,16 @@
+{
+  "module": "MAPLE",
+  "path": "/WINCE/MAPLE.DLL",
+  "entries": [
+    {
+      "offset": 21140,
+      "size": 2,
+      "avail": 3,
+      "section": ".data",
+      "text": {
+        "ja": "深",
+        "ko": ""
+      }
+    }
+  ]
+}

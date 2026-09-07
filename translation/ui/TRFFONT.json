@@ -1,0 +1,36 @@
+{
+  "module": "TRFFONT",
+  "path": "/TRF/TRFFONT.DLL",
+  "entries": [
+    {
+      "offset": 19797,
+      "size": 3,
+      "avail": 6,
+      "section": ".rdata",
+      "text": {
+        "ja": "榿6",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 19828,
+      "size": 2,
+      "avail": 3,
+      "section": ".rdata",
+      "text": {
+        "ja": "和",
+        "ko": ""
+      }
+    },
+    {
+      "offset": 19860,
+      "size": 2,
+      "avail": 5,
+      "section": ".rdata",
+      "text": {
+        "ja": "饌",
+        "ko": ""
+      }
+    }
+  ]
+}

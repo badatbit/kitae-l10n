@@ -1,0 +1,16 @@
+{
+  "module": "TRFDRAWDIGITALNUM",
+  "path": "/TRF/TRFDRAWDIGITALNUM.DLL",
+  "entries": [
+    {
+      "offset": 39696,
+      "size": 2,
+      "avail": 9,
+      "section": ".rdata",
+      "text": {
+        "ja": "惆",
+        "ko": ""
+      }
+    }
+  ]
+}
