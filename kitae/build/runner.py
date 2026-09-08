@@ -408,14 +408,16 @@ def _build(cfg, scripts, lang, want_font=True, verbose=False):
             print(f"  이름화면 힌트 폰트: 굽기 소스에 한글 {nchar}자 주입")
     # 주인공 성/이름 사이 전각공백 — &主人公名前& 이 「성이름」으로 붙는 것.
     # UI 패치된 KITAE 위에 조립부 스텁을 얹는다(파일 크기 불변, 제자리 교체).
+    # config 의 name_separator 가 켜져 있을 때만 적용 (기본 off).
     kkey = "/TRF/KITAE.DLL"
-    from kitae.build import namesep
-    kbase = ui.get(kkey) or open(uipatch.original(cfg, kkey), "rb").read()
-    try:
-        ui[kkey], nnote = namesep.apply(kbase)
-        print(f"  {nnote}")
-    except Exception as e:                     # 조립부가 다르면 건너뛴다
-        print(f"  이름 공백 패치 건너뜀: {e}")
+    if cfg.get("name_separator"):
+        from kitae.build import namesep
+        kbase = ui.get(kkey) or open(uipatch.original(cfg, kkey), "rb").read()
+        try:
+            ui[kkey], nnote = namesep.apply(kbase)
+            print(f"  {nnote}")
+        except Exception as e:                 # 조립부가 다르면 건너뛴다
+            print(f"  이름 공백 패치 건너뜀: {e}")
 
     for disc_path, blob in sorted(ui.items()):
         out = _work(cfg, "build", *disc_path.strip("/").split("/"))
