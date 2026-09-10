@@ -1,0 +1,7 @@
+{
+ "note": "u16 글리프-코드 와이드 문자열 (CTRF 서술자의 텍스트). 각 글자가 폰트 셀 코드 (lead<<8|trail) 로 u16 LE 저장된다. cp932 바이트 문자열 추출기가 못 잡는 형식이라 여기 수동 등록한다. offset 은 DLL 파일 오프셋, ko 를 encoder 로 셀코드화해 제자리(원본 길이 이하) 교체한다.",
+ "entries": [
+  {"module": "TRFK000", "offset": "0x013688", "ja": "歓迎様", "ko": "환영님",
+   "why": "환영 패널 (KitaEvent Display, 폰트 Fuseda). 歓迎=환영, 様=님"}
+ ]
+}

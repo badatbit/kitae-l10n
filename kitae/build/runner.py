@@ -419,6 +419,12 @@ def _build(cfg, scripts, lang, want_font=True, verbose=False):
         except Exception as e:                 # 조립부가 다르면 건너뛴다
             print(f"  이름 공백 패치 건너뜀: {e}")
 
+    # u16 글리프-코드 와이드 문자열(환영 패널 등) — cp932 추출기가 못 잡는 형식
+    from kitae.build import wstr
+    nw = wstr.apply(cfg, ui, hangul.encoder(cfg))
+    if nw:
+        print(f"  와이드 문자열(글리프코드) 패치: {nw}곳")
+
     for disc_path, blob in sorted(ui.items()):
         out = _work(cfg, "build", *disc_path.strip("/").split("/"))
         with open(out, "wb") as fh:
