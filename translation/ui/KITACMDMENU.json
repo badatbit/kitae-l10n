@@ -367,6 +367,7 @@
       "size": 10,
       "avail": 11,
       "section": ".data",
+      "force": true,
       "text": {
         "ja": "ベイエリア",
         "ko": "베이에리어"
