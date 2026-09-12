@@ -1,6 +1,6 @@
 {
  "note": "조회 키라서 번역하지 않은 문자열. docs/UI-TEXT.md 참고",
- "count": 167,
+ "count": 166,
  "entries": [
   {
    "module": "COMMONSAVE",
@@ -126,11 +126,6 @@
    "module": "ITEMMENU",
    "offset": "0x00e8a0",
    "ja": "何を"
-  },
-  {
-   "module": "KITACMDMENU",
-   "offset": "0x01a8e0",
-   "ja": "ベイエリア"
   },
   {
    "module": "KITACMDMENU",
