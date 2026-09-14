@@ -79,6 +79,47 @@ def find_refs(blob, va, slots=None):
     return out
 
 
+def _ref_target_offsets(blob, secs):
+    """재배치 슬롯이 **가리키는** 대상 파일 오프셋들 (정렬).
+
+    문자열 뒤 0 패딩 안에 이런 대상이 있으면(정렬 패딩과 구별되지 않는 0 정수
+    테이블 필드 등) 그 자리는 비어 보여도 **실제로 참조되는 데이터**다. 거기까지
+    avail 로 잡아 덮어쓰면 테이블이 깨진다 — TRFGUIDEMAP 큐빅 설명 인덱스가
+    0 에서 쓰레기값으로 바뀌어 선택 즉시 리셋된 사고의 원인이었다.
+    """
+    slots = reloc_slots(blob, secs)
+    if not slots:
+        return []
+    vm = _va_map(secs)
+    out = set()
+    for s in slots:
+        va = struct.unpack_from("<I", blob, s)[0]
+        for lo, hi, delta in vm:
+            if lo + delta <= va < hi + delta:
+                out.add(va - delta)
+                break
+    return sorted(out)
+
+
+def _clamp_avails(entries, ref_offs):
+    """각 항목의 avail 을 **문자열 뒤 첫 참조 대상 직전**까지로 줄인다.
+
+    자유 목록은 [offset, offset+avail] 까지를 쓸 수 있는 것으로 보므로
+    (apply 의 꼬리/옛자리, compact 의 풀), 참조 대상 바이트가 그 범위에
+    들어오면 못 쓰게 avail = 대상오프셋 − offset − 1 로 막는다.
+    """
+    import bisect
+    out = {}
+    for e in entries:
+        off, av, sz = e["offset"], e["avail"], e.get("size", 0)
+        i = bisect.bisect_right(ref_offs, off)      # 문자열 시작 뒤 첫 참조
+        nxt = ref_offs[i] if i < len(ref_offs) else None
+        if nxt is not None and nxt > off + sz and off + av >= nxt:
+            av = nxt - off - 1
+        out[id(e)] = av
+    return out
+
+
 def _merge(spans):
     """[(off, len)] 을 정렬·병합."""
     out = []
@@ -103,10 +144,13 @@ def apply(blob, entries, encode, extra_free=()):
     slots = reloc_slots(blob, secs)
     out = bytearray(blob)
 
+    # avail 은 참조되는 데이터 직전까지로 줄여 쓴다 (테이블 침범 방지).
+    avs = _clamp_avails(entries, _ref_target_offsets(blob, secs))
+
     keep, move, fail = [], [], []
     for e in entries:
         raw = encode(e["text"])
-        (keep if len(raw) <= e["avail"] else move).append((e, raw))
+        (keep if len(raw) <= avs[id(e)] else move).append((e, raw))
 
     # 참조는 **손대기 전 원본**에서 찾는다. 패치한 바이트가 우연히 VA 와 같아지면
     # 없던 참조가 생긴 것처럼 보인다.
@@ -118,17 +162,17 @@ def apply(blob, entries, encode, extra_free=()):
     # 자유 목록 — 제자리 문자열이 남긴 꼬리 + 이사 가는 문자열의 옛 자리
     free = list(extra_free)
     for e, raw in keep:
-        left = e["avail"] - len(raw)
+        left = avs[id(e)] - len(raw)
         if left > 0:
             free.append((e["offset"] + len(raw) + 1, left))
     for e, _raw in move:
-        free.append((e["offset"], e["avail"] + 1))
+        free.append((e["offset"], avs[id(e)] + 1))
     free = _merge(free)
 
     # 제자리 것부터 쓴다
     for e, raw in keep:
-        out[e["offset"]:e["offset"] + e["avail"]] = \
-            raw + b"\x00" * (e["avail"] - len(raw))
+        out[e["offset"]:e["offset"] + avs[id(e)]] = \
+            raw + b"\x00" * (avs[id(e)] - len(raw))
 
     # 이사 — 큰 것부터, 가장 작은 빈칸에 (조각남을 줄인다)
     for e, raw in sorted(move, key=lambda x: -len(x[1])):
@@ -184,6 +228,9 @@ def compact(blob, entries, encode):
     slots = reloc_slots(blob, secs)
     out = bytearray(blob)
 
+    # avail 은 참조되는 데이터 직전까지로 줄여 쓴다 (테이블 침범 방지).
+    avs = _clamp_avails(entries, _ref_target_offsets(blob, secs))
+
     items, fail = [], []
     for e in entries:
         va = off_to_va(vm, e["offset"])
@@ -195,7 +242,7 @@ def compact(blob, entries, encode):
     if fail:
         return blob, {"kept": 0, "moved": [], "failed": fail, "free_left": 0}
 
-    pool = _merge([(e["offset"], e["avail"] + 1) for e, _r, _f in items])
+    pool = _merge([(e["offset"], avs[id(e)] + 1) for e, _r, _f in items])
     for off, n in pool:                       # 옛 내용을 지운다
         out[off:off + n] = b"\x00" * n
 
