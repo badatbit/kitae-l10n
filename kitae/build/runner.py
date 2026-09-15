@@ -425,6 +425,12 @@ def _build(cfg, scripts, lang, want_font=True, verbose=False):
     if nw:
         print(f"  와이드 문자열(글리프코드) 패치: {nw}곳")
 
+    # 코드 상수(레이아웃 좌표 등) 직접 패치 — data/dllpatch.json
+    from kitae.build import binpatch
+    nbp = binpatch.apply(cfg, ui)
+    if nbp:
+        print(f"  DLL 코드 상수 패치: {nbp}곳")
+
     for disc_path, blob in sorted(ui.items()):
         out = _work(cfg, "build", *disc_path.strip("/").split("/"))
         with open(out, "wb") as fh:

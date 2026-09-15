@@ -91,5 +91,6 @@
   },
   "font_variable": false,
   "vw_extension": false,
-  "name_separator": true
+  "name_separator": true,
+  "layout_patch": true
 }
