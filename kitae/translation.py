@@ -74,9 +74,12 @@ def merge(doc, fresh, languages):
             for lang, v in (prev.get("text") or {}).items():
                 if lang in e["text"] and v and v.strip():
                     e["text"][lang] = v
-            # 봐 달라고 남긴 것은 다시 뽑아도 살아남아야 한다
-            if prev.get("ask"):
-                e["ask"] = prev["ask"]
+            # 사람이 붙인 메타(ask·why·state·force …)는 다시 뽑아도 살아남아야 한다.
+            # 게임에서 온 필드(speaker·kind·voice·chars …)는 fresh 가 권위이므로
+            # fresh 에 없는 키만 옮긴다.
+            for k, v in prev.items():
+                if k != "text" and k not in e:
+                    e[k] = v
     return fresh
 
 

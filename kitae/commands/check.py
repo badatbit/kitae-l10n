@@ -5,6 +5,7 @@ import importlib
 import io
 import json
 import os
+import re
 
 from kitae.config import CONFIG_NAME, Config
 
@@ -55,6 +56,78 @@ def glossary(cfg, lang):
                                     e.get("window"), e.get("line"),
                                     ja, ko, t["ko"]))
                         break
+    return bad
+
+
+MARKUP = re.compile(r"@[^@]{0,8}@|&[^&]{0,16}&|%[0-9０-９]{1,2}%")
+
+
+def _docs(cfg):
+    """translation/**/*.json 중 entries 를 가진 문서. [(상대경로, doc)]"""
+    root = cfg.path("translation")
+    out = []
+    for f in sorted(glob.glob(os.path.join(root, "**", "*.json"), recursive=True)):
+        if os.path.basename(f) in ("glossary.json", "wordbook.json"):
+            continue
+        with io.open(f, encoding="utf-8") as fh:
+            try:
+                doc = json.load(fh)
+            except ValueError:
+                out.append((os.path.relpath(f, cfg.root), None))
+                continue
+        if isinstance(doc, dict) and isinstance(doc.get("entries"), list):
+            out.append((os.path.relpath(f, cfg.root), doc))
+    return out
+
+
+def markup_parity(cfg, src, lang):
+    """마크업 토큰(`@..@` `&..&` `%N%`)이 원문과 번역에서 같은 개수·종류인지.
+
+    `@S@`·`&主人公名前&`·`%2%` 는 제어 코드라 번역이 그대로 옮겨야 한다. 하나라도
+    빠지면 재생 속도·이름 치환·선택지 번호가 어긋난다. [(파일, 창, 줄, 원문토큰, 번역토큰)]
+    """
+    bad = []
+    for rel, doc in _docs(cfg):
+        if doc is None:
+            continue
+        for e in doc["entries"]:
+            t = e.get("text") or {}
+            ja, ko = t.get(src) or "", t.get(lang) or ""
+            if not ko.strip():
+                continue
+            a, b = sorted(MARKUP.findall(ja)), sorted(MARKUP.findall(ko))
+            if a != b:
+                bad.append((rel, e.get("window", e.get("offset")), e.get("line"), a, b))
+    return bad
+
+
+def schema(cfg, langs):
+    """번역 파일 형식. 대사·가이드·퀴즈는 (window,line) 열쇠, ui 는 offset 열쇠.
+    text 는 dict 이고 언어 키는 문자열이어야 하며 열쇠는 파일 안에서 유일해야 한다.
+    [(파일, 문제)]"""
+    bad = []
+    for rel, doc in _docs(cfg):
+        if doc is None:
+            bad.append((rel, "JSON 파싱 실패"))
+            continue
+        seen = set()
+        for i, e in enumerate(doc["entries"]):
+            if not isinstance(e, dict):
+                bad.append((rel, f"entries[{i}] 가 dict 가 아님")); continue
+            key = (e.get("window"), e.get("line")) if "window" in e else ("off", e.get("offset"))
+            if key[1] is None and key[0] is None:
+                bad.append((rel, f"entries[{i}] 열쇠(window/line 또는 offset) 없음"))
+            elif key in seen:
+                bad.append((rel, f"열쇠 중복 {key}"))
+            seen.add(key)
+            t = e.get("text")
+            if not isinstance(t, dict):
+                bad.append((rel, f"entries[{i}] text 가 dict 가 아님")); continue
+            for lang in langs:
+                if lang in t and not isinstance(t[lang], str):
+                    bad.append((rel, f"entries[{i}] text.{lang} 가 문자열이 아님"))
+            if not isinstance(t.get(langs[0]), str):
+                bad.append((rel, f"entries[{i}] 원문 text.{langs[0]} 없음"))
     return bad
 
 
@@ -113,6 +186,20 @@ def run(args):
             print(f"            번역 {ko}")
         if len(bad) > 10:
             print(f"          … {len(bad) - 10}곳 더")
+
+    bad = markup_parity(cfg, cfg["source"], cfg["target"])
+    ok &= _row(not bad, "마크업 정합",
+               "원문·번역 토큰 일치" if not bad else f"어긋난 곳 {len(bad)}곳")
+    for f, w, ln, a, b in bad[:12]:
+        print(f"          {f} [{w}.{ln}]  원문 {a} ≠ 번역 {b}")
+    if len(bad) > 12:
+        print(f"          … {len(bad) - 12}곳 더")
+
+    bad = schema(cfg, [cfg["source"], cfg["target"]])
+    ok &= _row(not bad, "번역 파일 형식",
+               "정상" if not bad else f"문제 {len(bad)}건")
+    for f, msg in bad[:10]:
+        print(f"          {f}: {msg}")
 
     print("\n준비됨" if ok else "\n미비 항목이 있습니다")
     return 0 if ok else 1
