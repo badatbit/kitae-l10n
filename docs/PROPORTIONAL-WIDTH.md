@@ -19,7 +19,7 @@ iiii mmmm WWWW ....  0123        ← ２５글자에서 잘림
   * 두 줄 다 정확히 **２５글자**에서 잘렸다 → 상한은 픽셀이 아니라 **글자 수**다
     (레코드 배열 `obj+0x84`~`0x213` = ２５×１６B, [MTG-TIMING.md](MTG-TIMING.md))
 
-실험 스크립트는 `translation/src/_exp_propwidth.py` 에 남겨 두었다
+실험 스크립트는 `tools/legacy-src/_exp_propwidth.py.txt`(퇴역 보관) 에 남겨 두었다
 (`--revert` 로 되돌린다).
 
 ## ★ 그래서 우리는 **미관만** 얻는다
@@ -653,3 +653,39 @@ len≠0 노드만 `code→폭표→rec.x2` 로 쓴다(`@(36,gbr)` 개수만큼).
 
 **남은 참고.** `．` 의 폭은 3(잉크 5)이라 뒤에 글자가 바로 오면 겹쳐 보일 수 있다 —
 폭표(`Widths`) 값 문제로 별건.
+
+### ★ 가이드북: 안내문은 가변폭인데 도시 설명은 고정폭인 이유 — 텍스트 클래스가 다르다 (2026-09-17)
+
+**관찰.** 지도 화면 하단 안내문(`方向ボタン…`)은 프로포셔널로 그려지고, 같은 화면의 도시
+설명(`guide3.msl`: 인구·면적 줄)은 전각 24px 고정 피치로 그려진다.
+
+**구조.** 텍스트 클래스는 전부 TRFSTRINGS 가 구현하고(등록 테이블 `.data`), 각 화면 DLL 은
+클래스 팩토리(TRFGUIDEMAP 에선 `0x100050dc`)에 **클래스명 문자열**로 객체를 만든다.
+TRFGUIDEMAP 이 만드는 것: `CTRFMessage`/`ITRFMessage` ×5, `CTRFMsgput`/`ICustomMsgput` ×1,
+`CTRFTXOut`/`ITRFTXOut` ×2, `CTRFContainer`·`CTRFMenuCursor`·`CTRFClipper`·`CTetran`·`CKitaVMS`.
+
+  * **안내문 → `CTRFMessage`.** `0x10002ea4` 에서 create("CTRFMessage","ITRFMessage") 한 객체에
+    `0x10002eac` 가 문자열을 `vt[20]` 으로 넘긴다. ITRFMessage vtable `0x1000d3c4`(270슬롯)의
+    `[5]`(오프셋 20) = **`0x100038D0` = 레코드 빌드(SetText 후반, HOOK2 copy 루프 포함)**,
+    `[30]` = **`0x100034FC` = 그리기 루프(HOOK 전진폭·HOOK3 DrawChar 래퍼)**. 즉 가변폭 훅
+    세 개는 정확히 이 클래스의 SetText/draw 에 걸려 있다. (`0x1000d000`(193슬롯)에도 같은
+    함수가 [114]/[139] 로 실려 있다 — 같은 객체의 다른 인터페이스 vtable.)
+  * **도시 설명 → `CTRFMessageList` + `CTRFMsgput`/`CTRFTXOut`.** 가이드 페이지 함수는
+    `CTRFContainer.vt[32]("SOZ")` 로 리소스를 열고 `vt[48]("guide3.msl","ITRFMessageList")` 로
+    메시지 목록을 받는다(`0x10002e68`). 스폿 설명은 `guides.msl` 을 가리키는 16B 레코드 표
+    (`0x144e4~`, 큐빅 사고의 그 표)로 같은 경로. 이 목록의 표시는 `ICustomMsgput`
+    (`CTRFMsgput`, `0x1000142c`)·`CTRFTXOut` 이 맡는다.
+  * **고정폭의 정체 = `CTRFTXOut` 의 그리기.** vtable `0x1001c980`(27슬롯, 이름 문자열
+    `CTRFTXOut`@`0x1001c868` 바로 뒤)의 `[12]=0x1000970c` `[13]=0x10009b88` `[14]=0x10009bec` 가
+    폰트 `vt[52]` DrawChar 를 부르면서 **폭을 r6=24(전각)/12(반각) 로 명시**한다
+    (`0x10009bc6~`: 플래그 비트로 24/12 선택, r7=24). 폭표를 보지 않으니 글자마다 같은
+    칸이다. 이 vtable 엔 훅 함수가 하나도 없다.
+
+TRFSTRINGS 안의 DrawChar(vt[52]) 호출은 8곳이고 훅이 감싸는 건 CTRFMessage 의 2곳
+(`0x10003584`·`0x100035ae`)뿐이다. 나머지: `CTRFSquareStr`(`0x10002854`·`0x1000970c`),
+폰트 내부 아틀라스 빌드(`0x10007c64`·`0x10007df0`, vt `0x1000dbb4`), `CTRFTXOut`(위 둘).
+
+**따라서** 도시 설명(및 TXOut/Msgput 을 쓰는 다른 UI 텍스트)에 가변폭을 주려면
+`0x1001c980[13]/[14]` 가 넘기는 폭 인자(24/12)를 폭표 조회로 바꾸는 **별도 훅**이 필요하다 —
+CTRFMessage 훅과 독립이고, 그 클래스는 `rec.x2` 파이프라인을 쓰지 않는다.
+
