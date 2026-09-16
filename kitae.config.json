@@ -89,7 +89,7 @@
   "emulator_fixes": {
     "choice_gate": true
   },
-  "font_variable": false,
+  "font_variable": true,
   "vw_extension": false,
   "name_separator": true,
   "layout_patch": true
