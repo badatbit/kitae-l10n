@@ -3,16 +3,6 @@
   "path": "/TRF/TRFUFO.DLL",
   "entries": [
     {
-      "offset": 187344,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "烙",
-        "ko": ""
-      }
-    },
-    {
       "offset": 187834,
       "size": 2,
       "avail": 6,

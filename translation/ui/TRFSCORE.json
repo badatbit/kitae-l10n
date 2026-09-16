@@ -13,72 +13,12 @@
       }
     },
     {
-      "offset": 218312,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "勲",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 218444,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "膤",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 218484,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "聾",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 218504,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "蝋",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 218588,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "忸",
-        "ko": ""
-      }
-    },
-    {
       "offset": 218612,
       "size": 2,
       "avail": 2,
       "section": ".rdata",
       "text": {
         "ja": "迎",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 218620,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "烋",
         "ko": ""
       }
     },
@@ -93,102 +33,12 @@
       }
     },
     {
-      "offset": 218804,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "怏",
-        "ko": ""
-      }
-    },
-    {
       "offset": 218808,
       "size": 2,
       "avail": 2,
       "section": ".rdata",
       "text": {
         "ja": "結",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 219040,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "苹",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 219044,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "陌",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 219052,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "椙",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 219076,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "茆",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 219128,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "雀",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 219144,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "陜",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 219328,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "儘",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 219332,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "狐",
         "ko": ""
       }
     },
@@ -213,92 +63,12 @@
       }
     },
     {
-      "offset": 219528,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "狐",
-        "ko": ""
-      }
-    },
-    {
       "offset": 219532,
       "size": 2,
       "avail": 2,
       "section": ".rdata",
       "text": {
         "ja": "積",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 219704,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "醐",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 219716,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "誹",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 219720,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "偃",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 219724,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "蔘",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 219732,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "懽",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 219740,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "做",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 219764,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "頡",
         "ko": ""
       }
     },
@@ -313,282 +83,12 @@
       }
     },
     {
-      "offset": 219852,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "醐",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 219864,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "誹",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 219868,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "偃",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 219880,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "蒡",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 220000,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "醐",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 220012,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "誹",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 220016,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "偃",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 220028,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "蒡",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 220160,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "醐",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 220172,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "誹",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 220176,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "偃",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 220188,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "蒡",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 220308,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "醐",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 220320,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "誹",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 220324,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "偃",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 220328,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "蔘",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 220336,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "懽",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 220344,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "做",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 220368,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "頡",
-        "ko": ""
-      }
-    },
-    {
       "offset": 220380,
       "size": 2,
       "avail": 2,
       "section": ".rdata",
       "text": {
         "ja": "染",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 220420,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "憔",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 220456,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "醐",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 220468,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "誹",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 220472,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "偃",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 220476,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "蔘",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 220484,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "懽",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 220492,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "做",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 220516,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "頡",
         "ko": ""
       }
     },
@@ -603,66 +103,6 @@
       }
     },
     {
-      "offset": 220564,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "俤",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 220672,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "鞴",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 220680,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "倅",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 220708,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "瑚",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 220732,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "鞴",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 220740,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "倅",
-        "ko": ""
-      }
-    },
-    {
       "offset": 220744,
       "size": 2,
       "avail": 2,
@@ -673,172 +113,12 @@
       }
     },
     {
-      "offset": 220792,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "鞴",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 220800,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "倅",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 220992,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "醐",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 221004,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "誹",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 221008,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "偃",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 221020,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "蒡",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 221140,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "醐",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 221152,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "誹",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 221156,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "偃",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 221160,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "蔘",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 221168,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "懽",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 221176,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "做",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 221200,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "頡",
-        "ko": ""
-      }
-    },
-    {
       "offset": 221212,
       "size": 2,
       "avail": 2,
       "section": ".rdata",
       "text": {
         "ja": "染",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 293032,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "爐",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 293140,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "爐",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 294136,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "忸",
         "ko": ""
       }
     },
@@ -863,32 +143,12 @@
       }
     },
     {
-      "offset": 295600,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "慊",
-        "ko": ""
-      }
-    },
-    {
       "offset": 297000,
       "size": 2,
       "avail": 2,
       "section": ".rdata",
       "text": {
         "ja": "梅",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 297040,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "怏",
         "ko": ""
       }
     },
@@ -903,32 +163,12 @@
       }
     },
     {
-      "offset": 297088,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "弸",
-        "ko": ""
-      }
-    },
-    {
       "offset": 297104,
       "size": 2,
       "avail": 2,
       "section": ".rdata",
       "text": {
         "ja": "納",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 297132,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "鐚",
         "ko": ""
       }
     },
@@ -953,202 +193,12 @@
       }
     },
     {
-      "offset": 298368,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "偬",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 299244,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "雀",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 299260,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "陜",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 299328,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "蕃",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 299332,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "靹",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 299364,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "獵",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 299380,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "匪",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 299488,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "隋",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 299492,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "髜",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 299508,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "脾",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 300204,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "蕃",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 300208,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "靹",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 300240,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "獵",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 300256,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "匪",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 300384,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "隋",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 300388,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "髜",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 300404,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "脾",
-        "ko": ""
-      }
-    },
-    {
       "offset": 301116,
       "size": 2,
       "avail": 2,
       "section": ".rdata",
       "text": {
         "ja": "娠",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 301120,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "勲",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 301476,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "弸",
         "ko": ""
       }
     },
@@ -1163,42 +213,12 @@
       }
     },
     {
-      "offset": 301520,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "鐚",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 302548,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "弸",
-        "ko": ""
-      }
-    },
-    {
       "offset": 302564,
       "size": 2,
       "avail": 2,
       "section": ".rdata",
       "text": {
         "ja": "納",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 302592,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "鐚",
         "ko": ""
       }
     },
@@ -1213,202 +233,12 @@
       }
     },
     {
-      "offset": 302752,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "勲",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 302892,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "爐",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 303644,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "蕃",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 303648,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "靹",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 303680,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "獵",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 303696,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "匪",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 304372,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "苹",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 304376,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "陌",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 304384,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "椙",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 304408,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "茆",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 304676,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "藩",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 304680,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "萢",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 304700,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "倏",
-        "ko": ""
-      }
-    },
-    {
       "offset": 304792,
       "size": 2,
       "avail": 2,
       "section": ".rdata",
       "text": {
         "ja": "星",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 305216,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "苹",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 305220,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "陌",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 305228,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "椙",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 305252,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "茆",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 305308,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "雀",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 305324,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "陜",
         "ko": ""
       }
     },
@@ -1423,56 +253,6 @@
       }
     },
     {
-      "offset": 305480,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "藩",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 305484,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "萢",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 305504,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "倏",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 305840,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "慊",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 305968,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "忸",
-        "ko": ""
-      }
-    },
-    {
       "offset": 305992,
       "size": 2,
       "avail": 2,
@@ -1483,112 +263,12 @@
       }
     },
     {
-      "offset": 306236,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "雀",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 306252,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "陜",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 306520,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "慊",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 306624,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "忸",
-        "ko": ""
-      }
-    },
-    {
       "offset": 306648,
       "size": 2,
       "avail": 2,
       "section": ".rdata",
       "text": {
         "ja": "迎",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 307640,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "膤",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 307680,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "聾",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 307700,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "蝋",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 307740,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "膤",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 307780,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "聾",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 307800,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "蝋",
         "ko": ""
       }
     },
@@ -1633,16 +313,6 @@
       }
     },
     {
-      "offset": 308716,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "偬",
-        "ko": ""
-      }
-    },
-    {
       "offset": 309188,
       "size": 2,
       "avail": 2,
@@ -1663,46 +333,6 @@
       }
     },
     {
-      "offset": 309204,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "偬",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 309600,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "隋",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 309604,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "髜",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 309620,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "脾",
-        "ko": ""
-      }
-    },
-    {
       "offset": 309724,
       "size": 2,
       "avail": 2,
@@ -1719,16 +349,6 @@
       "section": ".rdata",
       "text": {
         "ja": "梅",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 310064,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "怏",
         "ko": ""
       }
     },
@@ -1773,132 +393,12 @@
       }
     },
     {
-      "offset": 310780,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "怏",
-        "ko": ""
-      }
-    },
-    {
       "offset": 310784,
       "size": 2,
       "avail": 2,
       "section": ".rdata",
       "text": {
         "ja": "結",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 311384,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "藩",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 311388,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "萢",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 311408,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "倏",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 311788,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "隋",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 311792,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "髜",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 311808,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "脾",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 312372,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "苹",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 312376,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "陌",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 312384,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "椙",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 312408,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "茆",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 312805,
-      "size": 3,
-      "avail": 6,
-      "section": ".rdata",
-      "text": {
-        "ja": "還6",
         "ko": ""
       }
     },

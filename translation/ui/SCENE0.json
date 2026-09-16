@@ -21,16 +21,6 @@
         "ja": "胡",
         "ko": ""
       }
-    },
-    {
-      "offset": 47904,
-      "size": 2,
-      "avail": 3,
-      "section": ".rdata",
-      "text": {
-        "ja": "贊",
-        "ko": ""
-      }
     }
   ]
 }

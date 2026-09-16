@@ -3,16 +3,6 @@
   "path": "/TRF/KITASOUNDTEST.DLL",
   "entries": [
     {
-      "offset": 53116,
-      "size": 2,
-      "avail": 3,
-      "section": ".rdata",
-      "text": {
-        "ja": "憚",
-        "ko": ""
-      }
-    },
-    {
       "offset": 53120,
       "size": 2,
       "avail": 9,

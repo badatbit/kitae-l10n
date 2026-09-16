@@ -1,0 +1,6741 @@
+{
+ "note": "UI 추출에서 텍스트로 오인식된 조각 — ko 비어 있고, .rdata 단글자이면서 전체 원문 말뭉치에 없는 글자, 또는 ≤5자 영숫자+말뭉치 밖 한자 혼합. 2026-09-17 ui/*.json 에서 지웠다. (지금은 UI 를 다시 추출하는 명령이 없다 — 나중에 만들면 이 목록을 건너뛴다.)",
+ "count": 1347,
+ "entries": [
+  {
+   "module": "COMMONSAVE",
+   "offset": 66036,
+   "ja": "/腿6"
+  },
+  {
+   "module": "ICCVID",
+   "offset": 73572,
+   "ja": "M朞"
+  },
+  {
+   "module": "ICCVID",
+   "offset": 73632,
+   "ja": "窕M"
+  },
+  {
+   "module": "ICCVID",
+   "offset": 73808,
+   "ja": "慴5"
+  },
+  {
+   "module": "ICCVID",
+   "offset": 73812,
+   "ja": "惶n"
+  },
+  {
+   "module": "ICCVID",
+   "offset": 73936,
+   "ja": "Y骭"
+  },
+  {
+   "module": "ICCVID",
+   "offset": 73948,
+   "ja": "勾S"
+  },
+  {
+   "module": "ICCVID",
+   "offset": 73980,
+   "ja": "鞣S"
+  },
+  {
+   "module": "ICCVID",
+   "offset": 73996,
+   "ja": "0鏸"
+  },
+  {
+   "module": "ICCVID",
+   "offset": 74008,
+   "ja": "g猜"
+  },
+  {
+   "module": "ICCVID",
+   "offset": 74064,
+   "ja": "t橾"
+  },
+  {
+   "module": "IMGDECMP",
+   "offset": 24940,
+   "ja": "冉3"
+  },
+  {
+   "module": "IMGDECMP",
+   "offset": 24964,
+   "ja": "劔3"
+  },
+  {
+   "module": "IMGDECMP",
+   "offset": 24988,
+   "ja": "厠3"
+  },
+  {
+   "module": "IMGDECMP",
+   "offset": 25080,
+   "ja": "冉f"
+  },
+  {
+   "module": "IMGDECMP",
+   "offset": 25092,
+   "ja": "3冉"
+  },
+  {
+   "module": "IMGDECMP",
+   "offset": 25096,
+   "ja": "f冉"
+  },
+  {
+   "module": "IMGDECMP",
+   "offset": 25100,
+   "ja": "劔f"
+  },
+  {
+   "module": "IMGDECMP",
+   "offset": 25120,
+   "ja": "厠f"
+  },
+  {
+   "module": "IMGDECMP",
+   "offset": 25216,
+   "ja": "3劔"
+  },
+  {
+   "module": "IMGDECMP",
+   "offset": 25220,
+   "ja": "f劔"
+  },
+  {
+   "module": "IMGDECMP",
+   "offset": 25356,
+   "ja": "3厠"
+  },
+  {
+   "module": "IMGDECMP",
+   "offset": 25360,
+   "ja": "f厠"
+  },
+  {
+   "module": "KITACMDMENU",
+   "offset": 106464,
+   "ja": "默"
+  },
+  {
+   "module": "KITAHEGEL",
+   "offset": 25420,
+   "ja": "祢"
+  },
+  {
+   "module": "KITAHEGEL",
+   "offset": 25700,
+   "ja": "祢"
+  },
+  {
+   "module": "KITAHEGEL",
+   "offset": 26112,
+   "ja": "祢"
+  },
+  {
+   "module": "KITASOUNDTEST",
+   "offset": 53116,
+   "ja": "憚"
+  },
+  {
+   "module": "KITAVMS",
+   "offset": 13020,
+   "ja": "｛"
+  },
+  {
+   "module": "KITAVMS",
+   "offset": 13100,
+   "ja": "｛"
+  },
+  {
+   "module": "KITAVMS",
+   "offset": 13116,
+   "ja": "｛"
+  },
+  {
+   "module": "KITAVMS",
+   "offset": 13148,
+   "ja": "｛"
+  },
+  {
+   "module": "KITAVMS",
+   "offset": 13164,
+   "ja": "｛"
+  },
+  {
+   "module": "KITAVMS",
+   "offset": 13420,
+   "ja": "嬶"
+  },
+  {
+   "module": "KITAVMS",
+   "offset": 13436,
+   "ja": "嬶"
+  },
+  {
+   "module": "KITAVMS",
+   "offset": 13452,
+   "ja": "嬶"
+  },
+  {
+   "module": "KITAVMS",
+   "offset": 13468,
+   "ja": "嬶"
+  },
+  {
+   "module": "KITAVMS",
+   "offset": 13484,
+   "ja": "嬶"
+  },
+  {
+   "module": "KITAVMS",
+   "offset": 13500,
+   "ja": "嬶"
+  },
+  {
+   "module": "KITAVMS",
+   "offset": 13516,
+   "ja": "嬶"
+  },
+  {
+   "module": "KITAVMS",
+   "offset": 13548,
+   "ja": "嬶"
+  },
+  {
+   "module": "KITAVMS",
+   "offset": 13580,
+   "ja": "嬶"
+  },
+  {
+   "module": "KITAVMS",
+   "offset": 13612,
+   "ja": "嬶"
+  },
+  {
+   "module": "KITAVMS",
+   "offset": 13644,
+   "ja": "楪"
+  },
+  {
+   "module": "KITAVMS",
+   "offset": 13660,
+   "ja": "嬶"
+  },
+  {
+   "module": "KITAVMS",
+   "offset": 13724,
+   "ja": "嬶"
+  },
+  {
+   "module": "KITAVMS",
+   "offset": 13932,
+   "ja": "嬶"
+  },
+  {
+   "module": "KITAVMS",
+   "offset": 14108,
+   "ja": "嬶"
+  },
+  {
+   "module": "KITAVMS",
+   "offset": 14124,
+   "ja": "嬶"
+  },
+  {
+   "module": "KITAVMS",
+   "offset": 14140,
+   "ja": "嬶"
+  },
+  {
+   "module": "KITAVMS",
+   "offset": 14188,
+   "ja": "嬶"
+  },
+  {
+   "module": "KITAVMS",
+   "offset": 14204,
+   "ja": "嬶"
+  },
+  {
+   "module": "KITAVMS",
+   "offset": 14220,
+   "ja": "嬶"
+  },
+  {
+   "module": "KITAVMS",
+   "offset": 14252,
+   "ja": "鴇DEST"
+  },
+  {
+   "module": "KITAVMS",
+   "offset": 14540,
+   "ja": "墟"
+  },
+  {
+   "module": "KITAVMS",
+   "offset": 14780,
+   "ja": "墟"
+  },
+  {
+   "module": "KITAVMS",
+   "offset": 14796,
+   "ja": "墟"
+  },
+  {
+   "module": "KITAVMS",
+   "offset": 14812,
+   "ja": "墟"
+  },
+  {
+   "module": "KITAVMS",
+   "offset": 14828,
+   "ja": "墟"
+  },
+  {
+   "module": "KITAVMS",
+   "offset": 14844,
+   "ja": "墟"
+  },
+  {
+   "module": "KITAVMS",
+   "offset": 14860,
+   "ja": "墟"
+  },
+  {
+   "module": "KITAVMS",
+   "offset": 14876,
+   "ja": "墟"
+  },
+  {
+   "module": "KITAVMS",
+   "offset": 14892,
+   "ja": "墟"
+  },
+  {
+   "module": "KITAVMS",
+   "offset": 14908,
+   "ja": "墟"
+  },
+  {
+   "module": "KITAVMS",
+   "offset": 14924,
+   "ja": "墟"
+  },
+  {
+   "module": "KITAVMS",
+   "offset": 14940,
+   "ja": "墟"
+  },
+  {
+   "module": "KITAVMS",
+   "offset": 14956,
+   "ja": "墟"
+  },
+  {
+   "module": "KITAVMS",
+   "offset": 14972,
+   "ja": "戔"
+  },
+  {
+   "module": "KITAVMS",
+   "offset": 14988,
+   "ja": "廾"
+  },
+  {
+   "module": "KITAVMS",
+   "offset": 15020,
+   "ja": "廸"
+  },
+  {
+   "module": "KITAVMS",
+   "offset": 15036,
+   "ja": "廸"
+  },
+  {
+   "module": "KITAVMS",
+   "offset": 15090,
+   "ja": "刕"
+  },
+  {
+   "module": "KITAVMS",
+   "offset": 15116,
+   "ja": "擡"
+  },
+  {
+   "module": "KITAVMS",
+   "offset": 15132,
+   "ja": "廸"
+  },
+  {
+   "module": "KITAVMS",
+   "offset": 15164,
+   "ja": "廸"
+  },
+  {
+   "module": "KITAVMS",
+   "offset": 15180,
+   "ja": "愧"
+  },
+  {
+   "module": "KITAVMS",
+   "offset": 15196,
+   "ja": "廾"
+  },
+  {
+   "module": "KITAVMS",
+   "offset": 15212,
+   "ja": "廾"
+  },
+  {
+   "module": "KITAVMS",
+   "offset": 15228,
+   "ja": "廸"
+  },
+  {
+   "module": "KITAVMS",
+   "offset": 15244,
+   "ja": "愧"
+  },
+  {
+   "module": "KITAVMS",
+   "offset": 15260,
+   "ja": "廸"
+  },
+  {
+   "module": "KITAVMS",
+   "offset": 16458,
+   "ja": "黑p"
+  },
+  {
+   "module": "KITAVMS",
+   "offset": 16587,
+   "ja": "蕙z"
+  },
+  {
+   "module": "KITAVMS",
+   "offset": 16970,
+   "ja": "黑p"
+  },
+  {
+   "module": "KITAVMS",
+   "offset": 17099,
+   "ja": "蕙z"
+  },
+  {
+   "module": "KITAVMS",
+   "offset": 17482,
+   "ja": "黑p"
+  },
+  {
+   "module": "KITAVMS",
+   "offset": 17611,
+   "ja": "蕙z"
+  },
+  {
+   "module": "MENUSELECT",
+   "offset": 37056,
+   "ja": "髜"
+  },
+  {
+   "module": "MENUSELECT",
+   "offset": 37224,
+   "ja": "髜"
+  },
+  {
+   "module": "MESSAGEOUT",
+   "offset": 8728,
+   "ja": "鐃"
+  },
+  {
+   "module": "MESSAGEOUT",
+   "offset": 8740,
+   "ja": "錚"
+  },
+  {
+   "module": "SCENE0",
+   "offset": 47904,
+   "ja": "贊"
+  },
+  {
+   "module": "SEG_ROCK",
+   "offset": 257742,
+   "ja": "1(烙"
+  },
+  {
+   "module": "SEG_ROCK",
+   "offset": 259076,
+   "ja": "B鈊x"
+  },
+  {
+   "module": "SEG_ROCK",
+   "offset": 259803,
+   "ja": "|A愑N"
+  },
+  {
+   "module": "SEG_ROCK",
+   "offset": 260879,
+   "ja": "(O淌"
+  },
+  {
+   "module": "SEG_ROCK",
+   "offset": 261981,
+   "ja": "獗h"
+  },
+  {
+   "module": "SEG_ROCK",
+   "offset": 263515,
+   "ja": "b烙"
+  },
+  {
+   "module": "SEG_ROCK",
+   "offset": 263663,
+   "ja": "b烙"
+  },
+  {
+   "module": "SEG_ROCK",
+   "offset": 263843,
+   "ja": "6i昞"
+  },
+  {
+   "module": "SEG_ROCK",
+   "offset": 263935,
+   "ja": "|i靃"
+  },
+  {
+   "module": "SEG_ROCK",
+   "offset": 264557,
+   "ja": "靃N"
+  },
+  {
+   "module": "SEG_ROCK",
+   "offset": 266958,
+   "ja": "c\\C輔"
+  },
+  {
+   "module": "SEG_ROCK",
+   "offset": 267058,
+   "ja": "?zW淏\""
+  },
+  {
+   "module": "SEG_ROCK",
+   "offset": 267171,
+   "ja": "Pp裙"
+  },
+  {
+   "module": "SEG_ROCK",
+   "offset": 267786,
+   "ja": "纎6"
+  },
+  {
+   "module": "SEG_ROCK",
+   "offset": 268423,
+   "ja": "zz溘z"
+  },
+  {
+   "module": "SEG_ROCK",
+   "offset": 268439,
+   "ja": "z~溘z"
+  },
+  {
+   "module": "SEG_ROCK",
+   "offset": 268503,
+   "ja": "z次縻"
+  },
+  {
+   "module": "SEG_ROCK",
+   "offset": 268527,
+   "ja": "z髪縻包縻"
+  },
+  {
+   "module": "SEG_ROCK",
+   "offset": 269120,
+   "ja": "聢2"
+  },
+  {
+   "module": "SEG_ROCK",
+   "offset": 281210,
+   "ja": "/*A榲*"
+  },
+  {
+   "module": "SEG_ROCK",
+   "offset": 285247,
+   "ja": "|7昞"
+  },
+  {
+   "module": "SEG_ROCK",
+   "offset": 285391,
+   "ja": "(X昞掘"
+  },
+  {
+   "module": "SEG_ROCK",
+   "offset": 285419,
+   "ja": "|b昞"
+  },
+  {
+   "module": "SEG_ROCK",
+   "offset": 285483,
+   "ja": "|p昞"
+  },
+  {
+   "module": "SEG_ROCK",
+   "offset": 286342,
+   "ja": "S\\I燐"
+  },
+  {
+   "module": "SEG_ROCK",
+   "offset": 286555,
+   "ja": "Pv醺"
+  },
+  {
+   "module": "SEG_ROCK",
+   "offset": 287501,
+   "ja": "愿z"
+  },
+  {
+   "module": "SEG_ROCK",
+   "offset": 287517,
+   "ja": "愿z"
+  },
+  {
+   "module": "SEG_ROCK",
+   "offset": 287581,
+   "ja": "愿z"
+  },
+  {
+   "module": "SEG_ROCK",
+   "offset": 291735,
+   "ja": ">k妥"
+  },
+  {
+   "module": "SOUNDROOM",
+   "offset": 14336,
+   "ja": "彝"
+  },
+  {
+   "module": "STATISTICS",
+   "offset": 18348,
+   "ja": "禺"
+  },
+  {
+   "module": "SYMBOL",
+   "offset": 17528,
+   "ja": "媾"
+  },
+  {
+   "module": "TETRAN",
+   "offset": 51536,
+   "ja": "惇"
+  },
+  {
+   "module": "TRF3D",
+   "offset": 87692,
+   "ja": "燭"
+  },
+  {
+   "module": "TRF3D",
+   "offset": 87700,
+   "ja": "禰"
+  },
+  {
+   "module": "TRF3D",
+   "offset": 87720,
+   "ja": "這"
+  },
+  {
+   "module": "TRF3D",
+   "offset": 87736,
+   "ja": "翠"
+  },
+  {
+   "module": "TRF3D",
+   "offset": 87756,
+   "ja": "怏"
+  },
+  {
+   "module": "TRF3D",
+   "offset": 87788,
+   "ja": "彈"
+  },
+  {
+   "module": "TRF3D",
+   "offset": 87860,
+   "ja": "廚"
+  },
+  {
+   "module": "TRF3D",
+   "offset": 87884,
+   "ja": "腓"
+  },
+  {
+   "module": "TRF3D",
+   "offset": 87892,
+   "ja": "鮏"
+  },
+  {
+   "module": "TRF3D",
+   "offset": 87964,
+   "ja": "這"
+  },
+  {
+   "module": "TRF3D",
+   "offset": 87980,
+   "ja": "翠"
+  },
+  {
+   "module": "TRF3D",
+   "offset": 88000,
+   "ja": "怏"
+  },
+  {
+   "module": "TRF3D",
+   "offset": 88020,
+   "ja": "彈"
+  },
+  {
+   "module": "TRF3D",
+   "offset": 88088,
+   "ja": "轡"
+  },
+  {
+   "module": "TRF3D",
+   "offset": 88092,
+   "ja": "廚"
+  },
+  {
+   "module": "TRF3D",
+   "offset": 88116,
+   "ja": "腓"
+  },
+  {
+   "module": "TRF3D",
+   "offset": 88124,
+   "ja": "鮏"
+  },
+  {
+   "module": "TRF3D",
+   "offset": 88168,
+   "ja": "魯"
+  },
+  {
+   "module": "TRF3D",
+   "offset": 88416,
+   "ja": "如"
+  },
+  {
+   "module": "TRF3D",
+   "offset": 88704,
+   "ja": "彈"
+  },
+  {
+   "module": "TRF3D",
+   "offset": 88764,
+   "ja": "潺"
+  },
+  {
+   "module": "TRF3D",
+   "offset": 88776,
+   "ja": "廚"
+  },
+  {
+   "module": "TRF3D",
+   "offset": 88800,
+   "ja": "腓"
+  },
+  {
+   "module": "TRF3D",
+   "offset": 88808,
+   "ja": "鮏"
+  },
+  {
+   "module": "TRF3D",
+   "offset": 89028,
+   "ja": "錵"
+  },
+  {
+   "module": "TRF3D",
+   "offset": 89208,
+   "ja": "傑"
+  },
+  {
+   "module": "TRF3D",
+   "offset": 89220,
+   "ja": "廡"
+  },
+  {
+   "module": "TRF3D",
+   "offset": 89348,
+   "ja": "傑"
+  },
+  {
+   "module": "TRF3D",
+   "offset": 89392,
+   "ja": "傑"
+  },
+  {
+   "module": "TRF3D",
+   "offset": 89556,
+   "ja": "錵"
+  },
+  {
+   "module": "TRF3D",
+   "offset": 89744,
+   "ja": "腱"
+  },
+  {
+   "module": "TRF3D",
+   "offset": 89804,
+   "ja": "錵"
+  },
+  {
+   "module": "TRF3D",
+   "offset": 89828,
+   "ja": "鰀"
+  },
+  {
+   "module": "TRF3D",
+   "offset": 90076,
+   "ja": "隈"
+  },
+  {
+   "module": "TRF3D",
+   "offset": 90080,
+   "ja": "賂"
+  },
+  {
+   "module": "TRF3D",
+   "offset": 90124,
+   "ja": "禰"
+  },
+  {
+   "module": "TRF3D",
+   "offset": 90156,
+   "ja": "澀"
+  },
+  {
+   "module": "TRF3D",
+   "offset": 90312,
+   "ja": "禰"
+  },
+  {
+   "module": "TRF3D",
+   "offset": 90412,
+   "ja": "這"
+  },
+  {
+   "module": "TRF3D",
+   "offset": 90428,
+   "ja": "翠"
+  },
+  {
+   "module": "TRF3D",
+   "offset": 90448,
+   "ja": "怏"
+  },
+  {
+   "module": "TRFCAMERA",
+   "offset": 76784,
+   "ja": "廝"
+  },
+  {
+   "module": "TRFCAMERA",
+   "offset": 76840,
+   "ja": "廝"
+  },
+  {
+   "module": "TRFCAMERA",
+   "offset": 77136,
+   "ja": "廝"
+  },
+  {
+   "module": "TRFCAMERA",
+   "offset": 77172,
+   "ja": "寧"
+  },
+  {
+   "module": "TRFCAMERA",
+   "offset": 77328,
+   "ja": "廝"
+  },
+  {
+   "module": "TRFCOLLISION",
+   "offset": 30172,
+   "ja": "闕"
+  },
+  {
+   "module": "TRFDISPLAY",
+   "offset": 35384,
+   "ja": "彖"
+  },
+  {
+   "module": "TRFDISPLAY",
+   "offset": 35412,
+   "ja": "歪"
+  },
+  {
+   "module": "TRFDISPLAY",
+   "offset": 35428,
+   "ja": "慧"
+  },
+  {
+   "module": "TRFDISPLAY",
+   "offset": 35724,
+   "ja": "彖"
+  },
+  {
+   "module": "TRFDISPLAY",
+   "offset": 35752,
+   "ja": "歪"
+  },
+  {
+   "module": "TRFDISPLAY",
+   "offset": 35768,
+   "ja": "慧"
+  },
+  {
+   "module": "TRFDISPLAY",
+   "offset": 36736,
+   "ja": "濺"
+  },
+  {
+   "module": "TRFDISPLAY",
+   "offset": 36760,
+   "ja": "掲"
+  },
+  {
+   "module": "TRFDISPLAY",
+   "offset": 36768,
+   "ja": "杷"
+  },
+  {
+   "module": "TRFDISPLAY",
+   "offset": 37004,
+   "ja": "濺"
+  },
+  {
+   "module": "TRFDISPLAY",
+   "offset": 37028,
+   "ja": "掲"
+  },
+  {
+   "module": "TRFDISPLAY",
+   "offset": 37036,
+   "ja": "杷"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 82924,
+   "ja": "慫"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 82964,
+   "ja": "獎"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 82968,
+   "ja": "菻"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 82972,
+   "ja": "靤"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 82988,
+   "ja": "靦"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 83204,
+   "ja": "慫"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 83244,
+   "ja": "獎"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 83248,
+   "ja": "菻"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 83252,
+   "ja": "靤"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 83268,
+   "ja": "靦"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 83612,
+   "ja": "燬"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 83632,
+   "ja": "燧"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 83644,
+   "ja": "陜"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 83668,
+   "ja": "燬"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 83688,
+   "ja": "燧"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 83700,
+   "ja": "陜"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 83772,
+   "ja": "猴"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 83896,
+   "ja": "寸"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 83900,
+   "ja": "腑"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 84012,
+   "ja": "寸"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 84016,
+   "ja": "腑"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 84072,
+   "ja": "腑"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 84144,
+   "ja": "燬"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 84164,
+   "ja": "燧"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 84176,
+   "ja": "陜"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 84292,
+   "ja": "寸"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 84296,
+   "ja": "腑"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 84388,
+   "ja": "鞜"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 84404,
+   "ja": "鞨"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 84484,
+   "ja": "腑"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 84540,
+   "ja": "腑"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 84564,
+   "ja": "猴"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 84600,
+   "ja": "鞜"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 84616,
+   "ja": "鞨"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 84696,
+   "ja": "腑"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 84720,
+   "ja": "猴"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 84768,
+   "ja": "鞜"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 84784,
+   "ja": "鞨"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 84864,
+   "ja": "腑"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 112264,
+   "ja": "腑"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 112280,
+   "ja": "澆"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 112320,
+   "ja": "腑"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 112376,
+   "ja": "腑"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 112396,
+   "ja": "雇"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 112428,
+   "ja": "鼓"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 112492,
+   "ja": "維"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 112528,
+   "ja": "雇"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 112560,
+   "ja": "鼓"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 112624,
+   "ja": "維"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 112720,
+   "ja": "忿"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 112736,
+   "ja": "芻"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 112756,
+   "ja": "熾"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 112772,
+   "ja": "芍"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 112792,
+   "ja": "倭"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 112848,
+   "ja": "濮"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 112864,
+   "ja": "腑"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 113216,
+   "ja": "腑"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 113240,
+   "ja": "脆"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 113252,
+   "ja": "霹"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 113288,
+   "ja": "澆"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 113328,
+   "ja": "腑"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 113444,
+   "ja": "忿"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 113460,
+   "ja": "芻"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 113480,
+   "ja": "熾"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 113496,
+   "ja": "芍"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 113588,
+   "ja": "腑"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 113596,
+   "ja": "臉"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 113608,
+   "ja": "雇"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 113640,
+   "ja": "鼓"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 113704,
+   "ja": "維"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 113912,
+   "ja": "潘"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 113928,
+   "ja": "脆"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 113940,
+   "ja": "霹"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 113976,
+   "ja": "澆"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 114016,
+   "ja": "腑"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 114076,
+   "ja": "蚤"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 114128,
+   "ja": "鐶"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 114140,
+   "ja": "腑"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 114244,
+   "ja": "腑"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 114480,
+   "ja": "脆"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 114492,
+   "ja": "霹"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 114508,
+   "ja": "彙"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 114528,
+   "ja": "澆"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 114556,
+   "ja": "臙"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 114568,
+   "ja": "腑"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 114676,
+   "ja": "忿"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 114692,
+   "ja": "芻"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 114712,
+   "ja": "熾"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 114728,
+   "ja": "芍"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 114820,
+   "ja": "腑"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 115144,
+   "ja": "蒻"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 115316,
+   "ja": "蒻"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 116552,
+   "ja": "｛"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 116632,
+   "ja": "｛"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 116648,
+   "ja": "｛"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 116680,
+   "ja": "｛"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 116696,
+   "ja": "｛"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 116952,
+   "ja": "嬶"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 116968,
+   "ja": "嬶"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 116984,
+   "ja": "嬶"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 117000,
+   "ja": "嬶"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 117016,
+   "ja": "嬶"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 117032,
+   "ja": "嬶"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 117048,
+   "ja": "嬶"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 117080,
+   "ja": "嬶"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 117112,
+   "ja": "嬶"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 117144,
+   "ja": "嬶"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 117176,
+   "ja": "楪"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 117192,
+   "ja": "嬶"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 117256,
+   "ja": "嬶"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 117464,
+   "ja": "嬶"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 117640,
+   "ja": "嬶"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 117656,
+   "ja": "嬶"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 117672,
+   "ja": "嬶"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 117720,
+   "ja": "嬶"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 117736,
+   "ja": "嬶"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 117752,
+   "ja": "嬶"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 117784,
+   "ja": "鴇DEST"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 118072,
+   "ja": "墟"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 118312,
+   "ja": "墟"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 118328,
+   "ja": "墟"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 118344,
+   "ja": "墟"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 118360,
+   "ja": "墟"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 118376,
+   "ja": "墟"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 118392,
+   "ja": "墟"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 118408,
+   "ja": "墟"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 118424,
+   "ja": "墟"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 118440,
+   "ja": "墟"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 118456,
+   "ja": "墟"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 118472,
+   "ja": "墟"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 118488,
+   "ja": "墟"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 118504,
+   "ja": "戔"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 118520,
+   "ja": "廾"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 118552,
+   "ja": "廸"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 118568,
+   "ja": "廸"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 118622,
+   "ja": "刕"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 118648,
+   "ja": "擡"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 118664,
+   "ja": "廸"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 118696,
+   "ja": "廸"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 118712,
+   "ja": "愧"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 118728,
+   "ja": "廾"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 118744,
+   "ja": "廾"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 118760,
+   "ja": "廸"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 118776,
+   "ja": "愧"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 118792,
+   "ja": "廸"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 118872,
+   "ja": "杖"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 118888,
+   "ja": "鉦"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 118904,
+   "ja": "鉦"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 118920,
+   "ja": "鉦"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 119000,
+   "ja": "杖"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 119032,
+   "ja": "鉦"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 119048,
+   "ja": "鉦"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 119064,
+   "ja": "鉦"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 119080,
+   "ja": "鉦"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 119096,
+   "ja": "鉦"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 119176,
+   "ja": "鍾"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 119192,
+   "ja": "鍾"
+  },
+  {
+   "module": "TRFDRAW",
+   "offset": 119816,
+   "ja": "如"
+  },
+  {
+   "module": "TRFDRAWGAGE",
+   "offset": 51316,
+   "ja": "儘"
+  },
+  {
+   "module": "TRFDRAWMENU",
+   "offset": 38840,
+   "ja": "牆"
+  },
+  {
+   "module": "TRFDRAWMUSICNOTE",
+   "offset": 41036,
+   "ja": "隹"
+  },
+  {
+   "module": "TRFDRAWMUSICNOTE",
+   "offset": 41292,
+   "ja": "鯵"
+  },
+  {
+   "module": "TRFDRAWMUSICNOTE",
+   "offset": 41296,
+   "ja": "擲"
+  },
+  {
+   "module": "TRFDRAWNAMEENTRY",
+   "offset": 42380,
+   "ja": "亞"
+  },
+  {
+   "module": "TRFDRAWNAMEENTRY",
+   "offset": 42412,
+   "ja": "雎"
+  },
+  {
+   "module": "TRFDRAWNUM",
+   "offset": 44508,
+   "ja": "霤"
+  },
+  {
+   "module": "TRFDRAWOBJECTS",
+   "offset": 48789,
+   "ja": "劜6"
+  },
+  {
+   "module": "TRFDRAWOBJECTS",
+   "offset": 48796,
+   "ja": "獵"
+  },
+  {
+   "module": "TRFDRAWPIGAGE",
+   "offset": 26660,
+   "ja": "茨"
+  },
+  {
+   "module": "TRFDRAWPIGAGE",
+   "offset": 26672,
+   "ja": "渥"
+  },
+  {
+   "module": "TRFDRAWPIGAGE",
+   "offset": 60485,
+   "ja": "寘6"
+  },
+  {
+   "module": "TRFDRAWSTAR",
+   "offset": 40412,
+   "ja": "隴"
+  },
+  {
+   "module": "TRFFONT",
+   "offset": 19797,
+   "ja": "榿6"
+  },
+  {
+   "module": "TRFGUI",
+   "offset": 45724,
+   "ja": "猗"
+  },
+  {
+   "module": "TRFGUIDEMAP",
+   "offset": 18480,
+   "ja": "鎹"
+  },
+  {
+   "module": "TRFGUIDEMAP",
+   "offset": 18484,
+   "ja": "鎹"
+  },
+  {
+   "module": "TRFGUIDEMAP",
+   "offset": 18488,
+   "ja": "鎹"
+  },
+  {
+   "module": "TRFGUIDEMAP",
+   "offset": 18492,
+   "ja": "鎹"
+  },
+  {
+   "module": "TRFGUIDEMAP",
+   "offset": 18496,
+   "ja": "鎹"
+  },
+  {
+   "module": "TRFGUIDEMAP",
+   "offset": 18500,
+   "ja": "鎹"
+  },
+  {
+   "module": "TRFGUIDEMAP",
+   "offset": 18504,
+   "ja": "鎹"
+  },
+  {
+   "module": "TRFGUIDEMAP",
+   "offset": 18508,
+   "ja": "鎹"
+  },
+  {
+   "module": "TRFGUIDEMAP",
+   "offset": 18512,
+   "ja": "鎹"
+  },
+  {
+   "module": "TRFGUIDEMAP",
+   "offset": 18516,
+   "ja": "鎹"
+  },
+  {
+   "module": "TRFGUIDEMAP",
+   "offset": 18520,
+   "ja": "鎹"
+  },
+  {
+   "module": "TRFGUIDEMAP",
+   "offset": 18524,
+   "ja": "鎹"
+  },
+  {
+   "module": "TRFGUIDEMAP",
+   "offset": 18528,
+   "ja": "鎹"
+  },
+  {
+   "module": "TRFGUIDEMAP",
+   "offset": 18532,
+   "ja": "鎹"
+  },
+  {
+   "module": "TRFGUIDEMAP",
+   "offset": 18536,
+   "ja": "鎹"
+  },
+  {
+   "module": "TRFGUIDEMAP",
+   "offset": 18540,
+   "ja": "鎹"
+  },
+  {
+   "module": "TRFGUIDEMAP",
+   "offset": 18544,
+   "ja": "鎹"
+  },
+  {
+   "module": "TRFGUIDEMAP",
+   "offset": 18568,
+   "ja": "鎹"
+  },
+  {
+   "module": "TRFGUIDEMAP",
+   "offset": 18572,
+   "ja": "鎹"
+  },
+  {
+   "module": "TRFGUIDEMAP",
+   "offset": 18576,
+   "ja": "鎹"
+  },
+  {
+   "module": "TRFGUIDEMAP",
+   "offset": 18588,
+   "ja": "鎹"
+  },
+  {
+   "module": "TRFGUIDEMAP",
+   "offset": 18592,
+   "ja": "鎹"
+  },
+  {
+   "module": "TRFGUIDEMAP",
+   "offset": 18596,
+   "ja": "鎹"
+  },
+  {
+   "module": "TRFGUIDEMAP",
+   "offset": 18600,
+   "ja": "鎹"
+  },
+  {
+   "module": "TRFGUIDEMAP",
+   "offset": 18604,
+   "ja": "鎹"
+  },
+  {
+   "module": "TRFGUIDEMAP",
+   "offset": 76116,
+   "ja": "濡"
+  },
+  {
+   "module": "TRFK000",
+   "offset": 77508,
+   "ja": "鐚"
+  },
+  {
+   "module": "TRFK000",
+   "offset": 77620,
+   "ja": "弸"
+  },
+  {
+   "module": "TRFK000",
+   "offset": 77628,
+   "ja": "膸"
+  },
+  {
+   "module": "TRFK000",
+   "offset": 77756,
+   "ja": "彌"
+  },
+  {
+   "module": "TRFK000",
+   "offset": 77808,
+   "ja": "鍖"
+  },
+  {
+   "module": "TRFK000",
+   "offset": 77880,
+   "ja": "臀"
+  },
+  {
+   "module": "TRFK000",
+   "offset": 77904,
+   "ja": "腟"
+  },
+  {
+   "module": "TRFK000",
+   "offset": 77912,
+   "ja": "鰀"
+  },
+  {
+   "module": "TRFK000",
+   "offset": 78148,
+   "ja": "肋"
+  },
+  {
+   "module": "TRFK000",
+   "offset": 78248,
+   "ja": "濔"
+  },
+  {
+   "module": "TRFKARAOKE",
+   "offset": 129256,
+   "ja": "惓"
+  },
+  {
+   "module": "TRFKARAOKE",
+   "offset": 129448,
+   "ja": "膺"
+  },
+  {
+   "module": "TRFKARAOKE",
+   "offset": 129468,
+   "ja": "彷"
+  },
+  {
+   "module": "TRFKARAOKE",
+   "offset": 129504,
+   "ja": "傑"
+  },
+  {
+   "module": "TRFKARAOKE",
+   "offset": 129912,
+   "ja": "膺"
+  },
+  {
+   "module": "TRFKARAOKE",
+   "offset": 129932,
+   "ja": "彷"
+  },
+  {
+   "module": "TRFKARAOKE",
+   "offset": 129968,
+   "ja": "傑"
+  },
+  {
+   "module": "TRFKARAOKE",
+   "offset": 130112,
+   "ja": "荳"
+  },
+  {
+   "module": "TRFKARAOKE",
+   "offset": 130224,
+   "ja": "雜"
+  },
+  {
+   "module": "TRFKARAOKE",
+   "offset": 130244,
+   "ja": "惓"
+  },
+  {
+   "module": "TRFKARAOKE",
+   "offset": 130436,
+   "ja": "膺"
+  },
+  {
+   "module": "TRFKARAOKE",
+   "offset": 130456,
+   "ja": "彷"
+  },
+  {
+   "module": "TRFKARAOKE",
+   "offset": 130492,
+   "ja": "傑"
+  },
+  {
+   "module": "TRFKARAOKE",
+   "offset": 130997,
+   "ja": "籌6"
+  },
+  {
+   "module": "TRFKARAOKE",
+   "offset": 131036,
+   "ja": "濺"
+  },
+  {
+   "module": "TRFKERNEL",
+   "offset": 13516,
+   "ja": "柚"
+  },
+  {
+   "module": "TRFKERNEL",
+   "offset": 13536,
+   "ja": "蹼"
+  },
+  {
+   "module": "TRFMAIN",
+   "offset": 57868,
+   "ja": "洄"
+  },
+  {
+   "module": "TRFMAIN",
+   "offset": 58004,
+   "ja": "顫"
+  },
+  {
+   "module": "TRFMILKING",
+   "offset": 122796,
+   "ja": "惟"
+  },
+  {
+   "module": "TRFMILKING",
+   "offset": 122844,
+   "ja": "蒭"
+  },
+  {
+   "module": "TRFMILKING",
+   "offset": 122924,
+   "ja": "惟"
+  },
+  {
+   "module": "TRFMILKING",
+   "offset": 122928,
+   "ja": "惟"
+  },
+  {
+   "module": "TRFMILKING",
+   "offset": 122940,
+   "ja": "惟"
+  },
+  {
+   "module": "TRFMILKING",
+   "offset": 123012,
+   "ja": "珸"
+  },
+  {
+   "module": "TRFMILKING",
+   "offset": 123024,
+   "ja": "惟"
+  },
+  {
+   "module": "TRFMILKING",
+   "offset": 123028,
+   "ja": "惟"
+  },
+  {
+   "module": "TRFMILKING",
+   "offset": 123040,
+   "ja": "惟"
+  },
+  {
+   "module": "TRFMILKING",
+   "offset": 123080,
+   "ja": "萎"
+  },
+  {
+   "module": "TRFMILKING",
+   "offset": 123136,
+   "ja": "惟"
+  },
+  {
+   "module": "TRFMILKING",
+   "offset": 123140,
+   "ja": "惟"
+  },
+  {
+   "module": "TRFMILKING",
+   "offset": 123152,
+   "ja": "惟"
+  },
+  {
+   "module": "TRFMILKING",
+   "offset": 123477,
+   "ja": "昀6"
+  },
+  {
+   "module": "TRFMSGTIMING",
+   "offset": 17616,
+   "ja": "鐔"
+  },
+  {
+   "module": "TRFNAMEIN",
+   "offset": 80580,
+   "ja": "鏘"
+  },
+  {
+   "module": "TRFNAMEIN",
+   "offset": 80704,
+   "ja": "膂"
+  },
+  {
+   "module": "TRFNAMEIN",
+   "offset": 80820,
+   "ja": "膂"
+  },
+  {
+   "module": "TRFNAMEIN",
+   "offset": 80976,
+   "ja": "膂"
+  },
+  {
+   "module": "TRFNAMEIN",
+   "offset": 80980,
+   "ja": "鏃"
+  },
+  {
+   "module": "TRFOPTIONGAME",
+   "offset": 88724,
+   "ja": "F尺6"
+  },
+  {
+   "module": "TRFPAD",
+   "offset": 13244,
+   "ja": "鏥"
+  },
+  {
+   "module": "TRFPAD",
+   "offset": 13800,
+   "ja": "｛"
+  },
+  {
+   "module": "TRFPAD",
+   "offset": 13880,
+   "ja": "｛"
+  },
+  {
+   "module": "TRFPAD",
+   "offset": 13896,
+   "ja": "｛"
+  },
+  {
+   "module": "TRFPAD",
+   "offset": 13928,
+   "ja": "｛"
+  },
+  {
+   "module": "TRFPAD",
+   "offset": 13944,
+   "ja": "｛"
+  },
+  {
+   "module": "TRFPAD",
+   "offset": 14200,
+   "ja": "嬶"
+  },
+  {
+   "module": "TRFPAD",
+   "offset": 14216,
+   "ja": "嬶"
+  },
+  {
+   "module": "TRFPAD",
+   "offset": 14232,
+   "ja": "嬶"
+  },
+  {
+   "module": "TRFPAD",
+   "offset": 14248,
+   "ja": "嬶"
+  },
+  {
+   "module": "TRFPAD",
+   "offset": 14264,
+   "ja": "嬶"
+  },
+  {
+   "module": "TRFPAD",
+   "offset": 14280,
+   "ja": "嬶"
+  },
+  {
+   "module": "TRFPAD",
+   "offset": 14296,
+   "ja": "嬶"
+  },
+  {
+   "module": "TRFPAD",
+   "offset": 14328,
+   "ja": "嬶"
+  },
+  {
+   "module": "TRFPAD",
+   "offset": 14360,
+   "ja": "嬶"
+  },
+  {
+   "module": "TRFPAD",
+   "offset": 14392,
+   "ja": "嬶"
+  },
+  {
+   "module": "TRFPAD",
+   "offset": 14424,
+   "ja": "楪"
+  },
+  {
+   "module": "TRFPAD",
+   "offset": 14440,
+   "ja": "嬶"
+  },
+  {
+   "module": "TRFPAD",
+   "offset": 14504,
+   "ja": "嬶"
+  },
+  {
+   "module": "TRFPAD",
+   "offset": 14712,
+   "ja": "嬶"
+  },
+  {
+   "module": "TRFPAD",
+   "offset": 14888,
+   "ja": "嬶"
+  },
+  {
+   "module": "TRFPAD",
+   "offset": 14904,
+   "ja": "嬶"
+  },
+  {
+   "module": "TRFPAD",
+   "offset": 14920,
+   "ja": "嬶"
+  },
+  {
+   "module": "TRFPAD",
+   "offset": 14968,
+   "ja": "嬶"
+  },
+  {
+   "module": "TRFPAD",
+   "offset": 14984,
+   "ja": "嬶"
+  },
+  {
+   "module": "TRFPAD",
+   "offset": 15000,
+   "ja": "嬶"
+  },
+  {
+   "module": "TRFPAD",
+   "offset": 15032,
+   "ja": "鴇DEST"
+  },
+  {
+   "module": "TRFPAD",
+   "offset": 15320,
+   "ja": "墟"
+  },
+  {
+   "module": "TRFPAD",
+   "offset": 15560,
+   "ja": "墟"
+  },
+  {
+   "module": "TRFPAD",
+   "offset": 15576,
+   "ja": "墟"
+  },
+  {
+   "module": "TRFPAD",
+   "offset": 15592,
+   "ja": "墟"
+  },
+  {
+   "module": "TRFPAD",
+   "offset": 15608,
+   "ja": "墟"
+  },
+  {
+   "module": "TRFPAD",
+   "offset": 15624,
+   "ja": "墟"
+  },
+  {
+   "module": "TRFPAD",
+   "offset": 15640,
+   "ja": "墟"
+  },
+  {
+   "module": "TRFPAD",
+   "offset": 15656,
+   "ja": "墟"
+  },
+  {
+   "module": "TRFPAD",
+   "offset": 15672,
+   "ja": "墟"
+  },
+  {
+   "module": "TRFPAD",
+   "offset": 15688,
+   "ja": "墟"
+  },
+  {
+   "module": "TRFPAD",
+   "offset": 15704,
+   "ja": "墟"
+  },
+  {
+   "module": "TRFPAD",
+   "offset": 15720,
+   "ja": "墟"
+  },
+  {
+   "module": "TRFPAD",
+   "offset": 15736,
+   "ja": "墟"
+  },
+  {
+   "module": "TRFPAD",
+   "offset": 15752,
+   "ja": "戔"
+  },
+  {
+   "module": "TRFPAD",
+   "offset": 15768,
+   "ja": "廾"
+  },
+  {
+   "module": "TRFPAD",
+   "offset": 15800,
+   "ja": "廸"
+  },
+  {
+   "module": "TRFPAD",
+   "offset": 15816,
+   "ja": "廸"
+  },
+  {
+   "module": "TRFPAD",
+   "offset": 15870,
+   "ja": "刕"
+  },
+  {
+   "module": "TRFPAD",
+   "offset": 15896,
+   "ja": "擡"
+  },
+  {
+   "module": "TRFPAD",
+   "offset": 15912,
+   "ja": "廸"
+  },
+  {
+   "module": "TRFPAD",
+   "offset": 15944,
+   "ja": "廸"
+  },
+  {
+   "module": "TRFPAD",
+   "offset": 15960,
+   "ja": "愧"
+  },
+  {
+   "module": "TRFPAD",
+   "offset": 15976,
+   "ja": "廾"
+  },
+  {
+   "module": "TRFPAD",
+   "offset": 15992,
+   "ja": "廾"
+  },
+  {
+   "module": "TRFPAD",
+   "offset": 16008,
+   "ja": "廸"
+  },
+  {
+   "module": "TRFPAD",
+   "offset": 16024,
+   "ja": "愧"
+  },
+  {
+   "module": "TRFPAD",
+   "offset": 16040,
+   "ja": "廸"
+  },
+  {
+   "module": "TRFPAD",
+   "offset": 16464,
+   "ja": "鏑"
+  },
+  {
+   "module": "TRFQUIZ",
+   "offset": 62280,
+   "ja": "鮱"
+  },
+  {
+   "module": "TRFQUIZ",
+   "offset": 62396,
+   "ja": "腱"
+  },
+  {
+   "module": "TRFQUIZ",
+   "offset": 62648,
+   "ja": "腦"
+  },
+  {
+   "module": "TRFQUIZ",
+   "offset": 62764,
+   "ja": "腦"
+  },
+  {
+   "module": "TRFQUIZ",
+   "offset": 62832,
+   "ja": "濬"
+  },
+  {
+   "module": "TRFQUIZ",
+   "offset": 62948,
+   "ja": "腦"
+  },
+  {
+   "module": "TRFQUIZ",
+   "offset": 130120,
+   "ja": "慱"
+  },
+  {
+   "module": "TRFQUIZ",
+   "offset": 130256,
+   "ja": "慱"
+  },
+  {
+   "module": "TRFQUIZ",
+   "offset": 130360,
+   "ja": "珀"
+  },
+  {
+   "module": "TRFQUIZ",
+   "offset": 130404,
+   "ja": "慱"
+  },
+  {
+   "module": "TRFQUIZ",
+   "offset": 130428,
+   "ja": "懊"
+  },
+  {
+   "module": "TRFSCENELAUNCH",
+   "offset": 50757,
+   "ja": "榿6"
+  },
+  {
+   "module": "TRFSCENELAUNCH",
+   "offset": 50764,
+   "ja": "窃"
+  },
+  {
+   "module": "TRFSCENELAUNCH",
+   "offset": 50788,
+   "ja": "萎"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 218312,
+   "ja": "勲"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 218444,
+   "ja": "膤"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 218484,
+   "ja": "聾"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 218504,
+   "ja": "蝋"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 218588,
+   "ja": "忸"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 218620,
+   "ja": "烋"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 218804,
+   "ja": "怏"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 219040,
+   "ja": "苹"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 219044,
+   "ja": "陌"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 219052,
+   "ja": "椙"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 219076,
+   "ja": "茆"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 219128,
+   "ja": "雀"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 219144,
+   "ja": "陜"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 219328,
+   "ja": "儘"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 219332,
+   "ja": "狐"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 219528,
+   "ja": "狐"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 219704,
+   "ja": "醐"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 219716,
+   "ja": "誹"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 219720,
+   "ja": "偃"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 219724,
+   "ja": "蔘"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 219732,
+   "ja": "懽"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 219740,
+   "ja": "做"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 219764,
+   "ja": "頡"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 219852,
+   "ja": "醐"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 219864,
+   "ja": "誹"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 219868,
+   "ja": "偃"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 219880,
+   "ja": "蒡"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 220000,
+   "ja": "醐"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 220012,
+   "ja": "誹"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 220016,
+   "ja": "偃"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 220028,
+   "ja": "蒡"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 220160,
+   "ja": "醐"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 220172,
+   "ja": "誹"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 220176,
+   "ja": "偃"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 220188,
+   "ja": "蒡"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 220308,
+   "ja": "醐"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 220320,
+   "ja": "誹"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 220324,
+   "ja": "偃"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 220328,
+   "ja": "蔘"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 220336,
+   "ja": "懽"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 220344,
+   "ja": "做"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 220368,
+   "ja": "頡"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 220420,
+   "ja": "憔"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 220456,
+   "ja": "醐"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 220468,
+   "ja": "誹"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 220472,
+   "ja": "偃"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 220476,
+   "ja": "蔘"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 220484,
+   "ja": "懽"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 220492,
+   "ja": "做"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 220516,
+   "ja": "頡"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 220564,
+   "ja": "俤"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 220672,
+   "ja": "鞴"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 220680,
+   "ja": "倅"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 220708,
+   "ja": "瑚"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 220732,
+   "ja": "鞴"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 220740,
+   "ja": "倅"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 220792,
+   "ja": "鞴"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 220800,
+   "ja": "倅"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 220992,
+   "ja": "醐"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 221004,
+   "ja": "誹"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 221008,
+   "ja": "偃"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 221020,
+   "ja": "蒡"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 221140,
+   "ja": "醐"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 221152,
+   "ja": "誹"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 221156,
+   "ja": "偃"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 221160,
+   "ja": "蔘"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 221168,
+   "ja": "懽"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 221176,
+   "ja": "做"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 221200,
+   "ja": "頡"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 293032,
+   "ja": "爐"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 293140,
+   "ja": "爐"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 294136,
+   "ja": "忸"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 295600,
+   "ja": "慊"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 297040,
+   "ja": "怏"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 297088,
+   "ja": "弸"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 297132,
+   "ja": "鐚"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 298368,
+   "ja": "偬"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 299244,
+   "ja": "雀"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 299260,
+   "ja": "陜"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 299328,
+   "ja": "蕃"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 299332,
+   "ja": "靹"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 299364,
+   "ja": "獵"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 299380,
+   "ja": "匪"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 299488,
+   "ja": "隋"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 299492,
+   "ja": "髜"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 299508,
+   "ja": "脾"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 300204,
+   "ja": "蕃"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 300208,
+   "ja": "靹"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 300240,
+   "ja": "獵"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 300256,
+   "ja": "匪"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 300384,
+   "ja": "隋"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 300388,
+   "ja": "髜"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 300404,
+   "ja": "脾"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 301120,
+   "ja": "勲"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 301476,
+   "ja": "弸"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 301520,
+   "ja": "鐚"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 302548,
+   "ja": "弸"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 302592,
+   "ja": "鐚"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 302752,
+   "ja": "勲"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 302892,
+   "ja": "爐"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 303644,
+   "ja": "蕃"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 303648,
+   "ja": "靹"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 303680,
+   "ja": "獵"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 303696,
+   "ja": "匪"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 304372,
+   "ja": "苹"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 304376,
+   "ja": "陌"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 304384,
+   "ja": "椙"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 304408,
+   "ja": "茆"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 304676,
+   "ja": "藩"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 304680,
+   "ja": "萢"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 304700,
+   "ja": "倏"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 305216,
+   "ja": "苹"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 305220,
+   "ja": "陌"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 305228,
+   "ja": "椙"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 305252,
+   "ja": "茆"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 305308,
+   "ja": "雀"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 305324,
+   "ja": "陜"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 305480,
+   "ja": "藩"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 305484,
+   "ja": "萢"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 305504,
+   "ja": "倏"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 305840,
+   "ja": "慊"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 305968,
+   "ja": "忸"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 306236,
+   "ja": "雀"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 306252,
+   "ja": "陜"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 306520,
+   "ja": "慊"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 306624,
+   "ja": "忸"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 307640,
+   "ja": "膤"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 307680,
+   "ja": "聾"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 307700,
+   "ja": "蝋"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 307740,
+   "ja": "膤"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 307780,
+   "ja": "聾"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 307800,
+   "ja": "蝋"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 308716,
+   "ja": "偬"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 309204,
+   "ja": "偬"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 309600,
+   "ja": "隋"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 309604,
+   "ja": "髜"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 309620,
+   "ja": "脾"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 310064,
+   "ja": "怏"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 310780,
+   "ja": "怏"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 311384,
+   "ja": "藩"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 311388,
+   "ja": "萢"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 311408,
+   "ja": "倏"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 311788,
+   "ja": "隋"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 311792,
+   "ja": "髜"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 311808,
+   "ja": "脾"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 312372,
+   "ja": "苹"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 312376,
+   "ja": "陌"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 312384,
+   "ja": "椙"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 312408,
+   "ja": "茆"
+  },
+  {
+   "module": "TRFSCORE",
+   "offset": 312805,
+   "ja": "還6"
+  },
+  {
+   "module": "TRFSHOTING",
+   "offset": 222256,
+   "ja": "廨"
+  },
+  {
+   "module": "TRFSHOTING",
+   "offset": 222276,
+   "ja": "膊"
+  },
+  {
+   "module": "TRFSHOTING",
+   "offset": 222308,
+   "ja": "廱"
+  },
+  {
+   "module": "TRFSHOTING",
+   "offset": 222352,
+   "ja": "濟"
+  },
+  {
+   "module": "TRFSHOTING",
+   "offset": 222356,
+   "ja": "膸"
+  },
+  {
+   "module": "TRFSHOTING",
+   "offset": 222360,
+   "ja": "鏤"
+  },
+  {
+   "module": "TRFSHOTING",
+   "offset": 222780,
+   "ja": "熹"
+  },
+  {
+   "module": "TRFSHOTING",
+   "offset": 222792,
+   "ja": "燹"
+  },
+  {
+   "module": "TRFSHOTING",
+   "offset": 222872,
+   "ja": "釆"
+  },
+  {
+   "module": "TRFSHOTING",
+   "offset": 222876,
+   "ja": "狐"
+  },
+  {
+   "module": "TRFSHOTING",
+   "offset": 223288,
+   "ja": "廨"
+  },
+  {
+   "module": "TRFSHOTING",
+   "offset": 223308,
+   "ja": "膊"
+  },
+  {
+   "module": "TRFSHOTING",
+   "offset": 223340,
+   "ja": "廱"
+  },
+  {
+   "module": "TRFSHOTING",
+   "offset": 223384,
+   "ja": "濟"
+  },
+  {
+   "module": "TRFSHOTING",
+   "offset": 223388,
+   "ja": "膸"
+  },
+  {
+   "module": "TRFSHOTING",
+   "offset": 223392,
+   "ja": "鏤"
+  },
+  {
+   "module": "TRFSHOTING",
+   "offset": 223812,
+   "ja": "熹"
+  },
+  {
+   "module": "TRFSHOTING",
+   "offset": 223824,
+   "ja": "燹"
+  },
+  {
+   "module": "TRFSHOTING",
+   "offset": 223904,
+   "ja": "釆"
+  },
+  {
+   "module": "TRFSHOTING",
+   "offset": 223908,
+   "ja": "狐"
+  },
+  {
+   "module": "TRFSHOTING",
+   "offset": 224312,
+   "ja": "廨"
+  },
+  {
+   "module": "TRFSHOTING",
+   "offset": 224332,
+   "ja": "膊"
+  },
+  {
+   "module": "TRFSHOTING",
+   "offset": 224364,
+   "ja": "廱"
+  },
+  {
+   "module": "TRFSHOTING",
+   "offset": 224408,
+   "ja": "濟"
+  },
+  {
+   "module": "TRFSHOTING",
+   "offset": 224412,
+   "ja": "膸"
+  },
+  {
+   "module": "TRFSHOTING",
+   "offset": 224416,
+   "ja": "鏤"
+  },
+  {
+   "module": "TRFSHOTING",
+   "offset": 224836,
+   "ja": "熹"
+  },
+  {
+   "module": "TRFSHOTING",
+   "offset": 224848,
+   "ja": "燹"
+  },
+  {
+   "module": "TRFSHOTING",
+   "offset": 224928,
+   "ja": "釆"
+  },
+  {
+   "module": "TRFSHOTING",
+   "offset": 224932,
+   "ja": "狐"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 43804,
+   "ja": "黑"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 43916,
+   "ja": "潦"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 44088,
+   "ja": "臠"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 44180,
+   "ja": "黑"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 44292,
+   "ja": "臠"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 44460,
+   "ja": "潦"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 44528,
+   "ja": "潦"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 44804,
+   "ja": "臠"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 44932,
+   "ja": "黑"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 45292,
+   "ja": "朗"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 45524,
+   "ja": "瀋"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 45704,
+   "ja": "瀋"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 46284,
+   "ja": "｛"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 46364,
+   "ja": "｛"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 46380,
+   "ja": "｛"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 46412,
+   "ja": "｛"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 46428,
+   "ja": "｛"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 46684,
+   "ja": "嬶"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 46700,
+   "ja": "嬶"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 46716,
+   "ja": "嬶"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 46732,
+   "ja": "嬶"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 46748,
+   "ja": "嬶"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 46764,
+   "ja": "嬶"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 46780,
+   "ja": "嬶"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 46812,
+   "ja": "嬶"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 46844,
+   "ja": "嬶"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 46876,
+   "ja": "嬶"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 46908,
+   "ja": "楪"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 46924,
+   "ja": "嬶"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 46988,
+   "ja": "嬶"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 47196,
+   "ja": "嬶"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 47372,
+   "ja": "嬶"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 47388,
+   "ja": "嬶"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 47404,
+   "ja": "嬶"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 47452,
+   "ja": "嬶"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 47468,
+   "ja": "嬶"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 47484,
+   "ja": "嬶"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 47516,
+   "ja": "鴇DEST"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 47804,
+   "ja": "墟"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 48044,
+   "ja": "墟"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 48060,
+   "ja": "墟"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 48076,
+   "ja": "墟"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 48092,
+   "ja": "墟"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 48108,
+   "ja": "墟"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 48124,
+   "ja": "墟"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 48140,
+   "ja": "墟"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 48156,
+   "ja": "墟"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 48172,
+   "ja": "墟"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 48188,
+   "ja": "墟"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 48204,
+   "ja": "墟"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 48220,
+   "ja": "墟"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 48236,
+   "ja": "戔"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 48252,
+   "ja": "廾"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 48284,
+   "ja": "廸"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 48300,
+   "ja": "廸"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 48354,
+   "ja": "刕"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 48380,
+   "ja": "擡"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 48396,
+   "ja": "廸"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 48428,
+   "ja": "廸"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 48444,
+   "ja": "愧"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 48460,
+   "ja": "廾"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 48476,
+   "ja": "廾"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 48492,
+   "ja": "廸"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 48508,
+   "ja": "愧"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 48524,
+   "ja": "廸"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 48740,
+   "ja": "萢"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 48756,
+   "ja": "藩"
+  },
+  {
+   "module": "TRFSOUND",
+   "offset": 48772,
+   "ja": "賣"
+  },
+  {
+   "module": "TRFSTREAM",
+   "offset": 11404,
+   "ja": "魯"
+  },
+  {
+   "module": "TRFSTREAM",
+   "offset": 11436,
+   "ja": "瓮"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 48212,
+   "ja": "漓"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 48608,
+   "ja": "澳"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 49012,
+   "ja": "錵"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 49232,
+   "ja": "臉"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 49304,
+   "ja": "徂"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 49320,
+   "ja": "臠"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 49368,
+   "ja": "臉"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 49492,
+   "ja": "臉"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 49848,
+   "ja": "亙"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 49876,
+   "ja": "稽"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 49920,
+   "ja": "亙"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 50024,
+   "ja": "亙"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 50108,
+   "ja": "怱"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 50224,
+   "ja": "鑼"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 50352,
+   "ja": "鑼"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 50360,
+   "ja": "帥"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 50616,
+   "ja": "鑼"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 50788,
+   "ja": "恆"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 51080,
+   "ja": "阡"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 51416,
+   "ja": "隕"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 51492,
+   "ja": "姓"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 51552,
+   "ja": "隧"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 111040,
+   "ja": "拳"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 111052,
+   "ja": "雋"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 111076,
+   "ja": "拳"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 111420,
+   "ja": "葦"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 111809,
+   "ja": "凵噤h＃｛"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 114064,
+   "ja": "~w誄"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 196515,
+   "ja": "輾>f"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 223882,
+   "ja": "鈞>G"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 248234,
+   "ja": "錮s"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 253579,
+   "ja": "3鋩3`"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 255901,
+   "ja": "x繙"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 275074,
+   "ja": "`<髜0"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 279714,
+   "ja": "L~銕"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 279723,
+   "ja": "l~銕"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 290338,
+   "ja": "p?髜"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 296963,
+   "ja": "烝x"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 313117,
+   "ja": "?錮8"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 319874,
+   "ja": "狢s"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 319895,
+   "ja": "珥s"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 325541,
+   "ja": "詛~諧p諧"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 327945,
+   "ja": "p矇8"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 329543,
+   "ja": "狢c"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 350662,
+   "ja": "x瘍"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 368983,
+   "ja": "q酥"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 379260,
+   "ja": "鵫 8"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 399417,
+   "ja": "~繧>A"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 412729,
+   "ja": "q咨"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 420685,
+   "ja": "?錮?錮8"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 448378,
+   "ja": "p蹊"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 463959,
+   "ja": "礰pf"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 503142,
+   "ja": "`1珥"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 510472,
+   "ja": "r?炬"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 513534,
+   "ja": "8腋8腋8"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 516563,
+   "ja": "0髜"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 529927,
+   "ja": "1翅"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 548551,
+   "ja": "s憫a倭|"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 548988,
+   "ja": "0@錫"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 568006,
+   "ja": "w漑w"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 571669,
+   "ja": "?錮?錮8"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 579240,
+   "ja": "~/錮"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 585102,
+   "ja": "瀰髙o烝L"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 589591,
+   "ja": "9翅"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 591224,
+   "ja": "諧y諧"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 609850,
+   "ja": "o鋩l`"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 627936,
+   "ja": "荢鉋w"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 631954,
+   "ja": "?錮?錮0"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 649402,
+   "ja": "q咨"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 655851,
+   "ja": "蕙~~t"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 676182,
+   "ja": "緖滓a淺"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 703929,
+   "ja": "秦DD"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 767521,
+   "ja": "y烙"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 767563,
+   "ja": "y縲"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 768460,
+   "ja": "O錮P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 768760,
+   "ja": "O胄W鉤T"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 769417,
+   "ja": "/銜(("
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 770119,
+   "ja": "/鉚 "
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 770125,
+   "ja": "/鉚 "
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 770191,
+   "ja": "/鈕 "
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 771172,
+   "ja": "c茗"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 772498,
+   "ja": "A!8懋"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 774367,
+   "ja": "P汝x汝"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 775264,
+   "ja": "/潯 "
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 776265,
+   "ja": "(w醫"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 776952,
+   "ja": "D<甕"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 777385,
+   "ja": "O銓W鉤P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 778693,
+   "ja": "S醋P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 780297,
+   "ja": "鮱P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 784738,
+   "ja": "1迪"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 784819,
+   "ja": "O燿P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 786193,
+   "ja": "s圷"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 788503,
+   "ja": "O轢@"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 789549,
+   "ja": "0d醫P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 790877,
+   "ja": "如DヰW"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 792223,
+   "ja": "s迸"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 792971,
+   "ja": "g髜@"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 794171,
+   "ja": "O瀋@"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 794990,
+   "ja": "8齋"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 797220,
+   "ja": "\nW鉤P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 797917,
+   "ja": "A?漓@"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 798883,
+   "ja": "O咥PZ"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 799857,
+   "ja": "諤h("
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 799950,
+   "ja": "P\t逅"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 801527,
+   "ja": "/腥"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 805702,
+   "ja": "/髙("
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 805708,
+   "ja": "/髙(\n"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 809162,
+   "ja": "槇p"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 810482,
+   "ja": "顱8)H"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 810721,
+   "ja": "y迸"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 810738,
+   "ja": "杼h"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 811179,
+   "ja": "\n_鋺X"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 813271,
+   "ja": "O銜P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 814906,
+   "ja": "O鉤"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 815116,
+   "ja": "y凧\nR\n"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 817432,
+   "ja": "O鋩P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 817438,
+   "ja": "W鈞X"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 817444,
+   "ja": "S醋"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 819873,
+   "ja": "慨渼T"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 819906,
+   "ja": "咳~*P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 819937,
+   "ja": "L銜P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 824995,
+   "ja": "!胙A"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 825938,
+   "ja": "O髜 "
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 828444,
+   "ja": "0@|髜"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 830565,
+   "ja": "捻P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 831218,
+   "ja": "漑P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 833083,
+   "ja": "W鋺X"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 833344,
+   "ja": "/鉚 "
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 833581,
+   "ja": "I鉞U"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 836068,
+   "ja": "3暢"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 836528,
+   "ja": "掲D"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 836972,
+   "ja": "辷D"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 841350,
+   "ja": "P<澑"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 842477,
+   "ja": "-廼B"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 847945,
+   "ja": "1辭#鄲"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 850050,
+   "ja": "\no銜"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 854003,
+   "ja": "轣w"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 855391,
+   "ja": "s酥"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 855607,
+   "ja": "@C魲0"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 857244,
+   "ja": " /淆("
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 857615,
+   "ja": "鋩1"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 857629,
+   "ja": "/銓 "
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 858456,
+   "ja": "@]竦A"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 862668,
+   "ja": " O諷"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 864516,
+   "ja": "@y顱"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 866026,
+   "ja": "J迸A"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 866053,
+   "ja": "D滉Y"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 866833,
+   "ja": "Ps弃@"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 868483,
+   "ja": "/鈞("
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 868622,
+   "ja": "銜p"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 871423,
+   "ja": "O<髜"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 871940,
+   "ja": "轢r"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 871946,
+   "ja": "轢p"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 872808,
+   "ja": "Py邇"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 872823,
+   "ja": "P9逵"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 873217,
+   "ja": "Z<濟 "
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 873940,
+   "ja": "/銜 "
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 874009,
+   "ja": "/鈕 "
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 874379,
+   "ja": "漑s"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 876058,
+   "ja": "'鋩H"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 876841,
+   "ja": "/銜("
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 877904,
+   "ja": "逵R"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 879634,
+   "ja": "O鋩@"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 881802,
+   "ja": "\nQ漑Q"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 883183,
+   "ja": "r搬;"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 883735,
+   "ja": "/鉚 "
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 883747,
+   "ja": "/鉚 "
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 884821,
+   "ja": "/鈕("
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 885096,
+   "ja": "P9劈@"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 890069,
+   "ja": "邇s"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 891295,
+   "ja": "y滲"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 891577,
+   "ja": "L烙P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 891583,
+   "ja": "L烙@"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 892087,
+   "ja": "q迸\n"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 892712,
+   "ja": "O苣"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 893833,
+   "ja": "W鋩X"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 895159,
+   "ja": "@靭訓B@"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 897910,
+   "ja": "A$\n|垂"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 899755,
+   "ja": "/鉚 "
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 899761,
+   "ja": "/鉚("
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 901496,
+   "ja": "O隋"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 901948,
+   "ja": "Y佩D"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 903322,
+   "ja": "U溟I溟A"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 903616,
+   "ja": "x蠡"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 907738,
+   "ja": "/錮 "
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 909601,
+   "ja": "/鉚 "
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 910384,
+   "ja": "f滉"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 910667,
+   "ja": "腋d"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 911272,
+   "ja": "_甯F`@"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 912102,
+   "ja": "@y瓠"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 918465,
+   "ja": "(w醫"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 921053,
+   "ja": "\nR?祿"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 925783,
+   "ja": "/銜 "
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 925789,
+   "ja": "/銜 "
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 925795,
+   "ja": "/銜 "
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 925801,
+   "ja": "/銜 "
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 927454,
+   "ja": "Q{朦"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 928969,
+   "ja": "T纜U缺t"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 932528,
+   "ja": "9茖"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 932621,
+   "ja": "s梠d"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 935806,
+   "ja": "/鉚 "
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 936100,
+   "ja": "/鉚/鉚 "
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 936952,
+   "ja": "/銜 "
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 936972,
+   "ja": "P9逵"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 937303,
+   "ja": "g\n楳 "
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 937974,
+   "ja": "D?錺"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 938413,
+   "ja": "頗p"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 938632,
+   "ja": "/鈕 "
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 938697,
+   "ja": "H\"飃R "
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 940141,
+   "ja": "/鉚 "
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 940147,
+   "ja": "/鉚 "
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 940228,
+   "ja": "/鉚 "
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 941416,
+   "ja": "\\y朿"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 942061,
+   "ja": "A劈Z"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 942076,
+   "ja": "q辨\n"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 943855,
+   "ja": "U賽T"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 943928,
+   "ja": "賽g"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 944000,
+   "ja": "賽U"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 945547,
+   "ja": "T|魵"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 948923,
+   "ja": "辟D"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 949179,
+   "ja": "\n/銓 "
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 949220,
+   "ja": "喰P\n\nP"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 950637,
+   "ja": "P<澑"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 952201,
+   "ja": "M繧U"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 954891,
+   "ja": "(s酥"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 956173,
+   "ja": "O鋺R"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 957619,
+   "ja": "y烟"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 960103,
+   "ja": "g<窶"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 961276,
+   "ja": "s庶"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 961993,
+   "ja": "g懿"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 962674,
+   "ja": "[拭Y"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 962692,
+   "ja": "P拭B"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 963251,
+   "ja": "x捻"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 964834,
+   "ja": "?9錙\n"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 964897,
+   "ja": "p魁"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 966426,
+   "ja": "\nA征"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 967504,
+   "ja": "Y摺B$"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 968137,
+   "ja": "/鉚 "
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 968143,
+   "ja": "/鉚 "
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 970668,
+   "ja": "Hc澁"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 971977,
+   "ja": "/聿"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 974284,
+   "ja": "B允"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 974593,
+   "ja": "/鉚/鉚 "
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 975117,
+   "ja": "x摺"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 975490,
+   "ja": "P懺P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 976047,
+   "ja": "J\t濳\n"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 976336,
+   "ja": "_戛W懺P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 976345,
+   "ja": "W憫_懈P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 976354,
+   "ja": "_懈W憫P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 977693,
+   "ja": "鈞g鉞"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 977805,
+   "ja": "咳\n魁B0"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 978868,
+   "ja": "O<髜"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 980179,
+   "ja": "1辟@"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 989230,
+   "ja": "H+謌H"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 990170,
+   "ja": "9苺"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 990674,
+   "ja": "y芍"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 991891,
+   "ja": "Iy煢"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 993274,
+   "ja": "g鉞"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 993388,
+   "ja": "O銓O銓@"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 993397,
+   "ja": "O銓O銓"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 994177,
+   "ja": "A錮$"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 995403,
+   "ja": "魁aJ"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 999162,
+   "ja": "(Q翳P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 999238,
+   "ja": "Q橇P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 999669,
+   "ja": "(s酥"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 999742,
+   "ja": "c鉞"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1000819,
+   "ja": "T黴T\n"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1002613,
+   "ja": "P 捻"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1003930,
+   "ja": "U耒U"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1004932,
+   "ja": "TG澣瑞T"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1005351,
+   "ja": "４轤S"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1006432,
+   "ja": "O銓P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1006437,
+   "ja": "\nW鋺X"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1006788,
+   "ja": "PTs弋"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1006993,
+   "ja": "B轤Y"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1007422,
+   "ja": "<y脾"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1008190,
+   "ja": "P'鏐"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1008724,
+   "ja": "X逵T"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1008730,
+   "ja": "U缺U"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1009010,
+   "ja": "_潯P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1009015,
+   "ja": "PO澑"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1009079,
+   "ja": "醫C"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1009699,
+   "ja": "C釵B$"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1010685,
+   "ja": "\n_鋺P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1010742,
+   "ja": "\n_嘱P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1010818,
+   "ja": "W溲S汪P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1010886,
+   "ja": "\nW鉤P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1010893,
+   "ja": "S鉤P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1010913,
+   "ja": "\n_鋺P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1010923,
+   "ja": "W鉤P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1010961,
+   "ja": "害迥V"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1011030,
+   "ja": "*P\n咳"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1011250,
+   "ja": "W鉤X"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1011327,
+   "ja": "*S醋P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1013630,
+   "ja": "P瀋P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1018591,
+   "ja": "g寛"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1018607,
+   "ja": "國R叶"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1019476,
+   "ja": "P徘"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1020188,
+   "ja": "G襦"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1020508,
+   "ja": "(窒Cぴ"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1020988,
+   "ja": "U栞U栞"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1021939,
+   "ja": "CS諠"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1021990,
+   "ja": "/昜@"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1022986,
+   "ja": "c醋s鉋@"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1024067,
+   "ja": "\t$9魲"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1024816,
+   "ja": "C錏D"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1024879,
+   "ja": "/銜 "
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1026416,
+   "ja": "ヽP逝!"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1026652,
+   "ja": "/鉚 "
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1027012,
+   "ja": "/銜 "
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1027678,
+   "ja": "/鉚 "
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1028953,
+   "ja": "O鋺 "
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1029637,
+   "ja": "O銓P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1029679,
+   "ja": "y辨"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1030805,
+   "ja": "詑8"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1031012,
+   "ja": "匇T"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1031444,
+   "ja": "顗U顗T"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1031563,
+   "ja": "W昶P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1032864,
+   "ja": "Px澑"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1033724,
+   "ja": "烙p"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1035392,
+   "ja": "g菎(("
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1035581,
+   "ja": "鈞4"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1036403,
+   "ja": "O奓P\n"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1036591,
+   "ja": "4\\腟"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1037541,
+   "ja": "拭(P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1037555,
+   "ja": "'拭(P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1038540,
+   "ja": "PU躅U"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1041200,
+   "ja": "y弑"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1044079,
+   "ja": "P踪R"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1044084,
+   "ja": "FB逵B"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1044151,
+   "ja": "8疉"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1050416,
+   "ja": "逵B"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1052917,
+   "ja": "s烟"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1054399,
+   "ja": "L逐"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1057261,
+   "ja": "Ps澑"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1058011,
+   "ja": "PO膈"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1058548,
+   "ja": "\\醫P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1058757,
+   "ja": "@>纜A"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1059716,
+   "ja": "靍g廁"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1061725,
+   "ja": "s鎚"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1068076,
+   "ja": "_鋩P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1068082,
+   "ja": "W鉅X"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1070798,
+   "ja": "憫c"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1071437,
+   "ja": "3徭"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1071803,
+   "ja": "缺s"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1072471,
+   "ja": "G桎U"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1072589,
+   "ja": "滲A滬"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1073824,
+   "ja": "y奓"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1074610,
+   "ja": "\\&魯F"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1074670,
+   "ja": "s噫"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1075567,
+   "ja": "B滲"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1076206,
+   "ja": "c鉗"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1082825,
+   "ja": "疋J%"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1083395,
+   "ja": "餧A"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1084693,
+   "ja": "`y苣"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1087250,
+   "ja": "弃P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1087507,
+   "ja": "A淮$"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1088621,
+   "ja": "h侃"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1089744,
+   "ja": "xT'澣("
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1092009,
+   "ja": "丐 B"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1092192,
+   "ja": "甼滓T"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1096197,
+   "ja": "PB捻,"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1096572,
+   "ja": "襯\tT鼻"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1098773,
+   "ja": "P\n潘r"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1099478,
+   "ja": "B諠@"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1101931,
+   "ja": "/鉚 "
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1101937,
+   "ja": "/鉚("
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1102858,
+   "ja": "(O滷@"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1102865,
+   "ja": "O爼P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1105246,
+   "ja": "W庶"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1105308,
+   "ja": "咳/\n"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1105831,
+   "ja": "Q|魵"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1106759,
+   "ja": "鄲p"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1107145,
+   "ja": "8磬"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1107239,
+   "ja": "A曵"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1107559,
+   "ja": "O<窶"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1107919,
+   "ja": "g<諤"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1108135,
+   "ja": "g懿"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1109472,
+   "ja": "咳戌P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1109479,
+   "ja": "P1廖"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1110349,
+   "ja": "G腋"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1110867,
+   "ja": "閖x"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1111680,
+   "ja": "P@緕"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1114021,
+   "ja": "R@魲@"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1114613,
+   "ja": "魁P\t"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1114861,
+   "ja": "/鈕 "
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1115708,
+   "ja": "滲p"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1115729,
+   "ja": "P\n{栩"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1116361,
+   "ja": "A滲*"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1116471,
+   "ja": "濆X"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1119259,
+   "ja": "9脛"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1119412,
+   "ja": "'錮H"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1120138,
+   "ja": "g鈕"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1120543,
+   "ja": "B逐"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1121044,
+   "ja": ".k廖P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1121336,
+   "ja": "捻h"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1121365,
+   "ja": "_鋺W鉤P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1121554,
+   "ja": "/滲"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1121860,
+   "ja": "g坎"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1123208,
+   "ja": "T@e芦"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1123291,
+   "ja": "m苙"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1123600,
+   "ja": "/廻 "
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1127189,
+   "ja": "/髜 "
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1127410,
+   "ja": "z沮\nT"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1130373,
+   "ja": "觧T"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1130560,
+   "ja": "A釞]"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1130669,
+   "ja": "1摺8 "
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1132678,
+   "ja": "P溟"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1133533,
+   "ja": "'鋩0"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1133940,
+   "ja": "蓋晝X"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1133947,
+   "ja": "W鉤P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1136669,
+   "ja": "P拭"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1139404,
+   "ja": "O銓P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1139413,
+   "ja": "O銓P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1139817,
+   "ja": "蝶 DB"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1141270,
+   "ja": "y磬"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1141298,
+   "ja": "痼l"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1143233,
+   "ja": "s曄"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1143508,
+   "ja": "/鉚 "
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1143529,
+   "ja": "/鉚 "
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1143538,
+   "ja": "/鉚 "
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1143822,
+   "ja": "@9如"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1147342,
+   "ja": "'錮H"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1149811,
+   "ja": "/鈕 "
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1150715,
+   "ja": "癢0*"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1150944,
+   "ja": "Z/迪"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1151005,
+   "ja": "W鉤X"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1151308,
+   "ja": "O銓P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1151313,
+   "ja": "\nW鉤X"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1153309,
+   "ja": "q辨@"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1153330,
+   "ja": "O銓P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1153606,
+   "ja": "9郛"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1154169,
+   "ja": "漾D"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1154560,
+   "ja": "/鈕 "
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1155067,
+   "ja": "/鉚/鈕 "
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1155076,
+   "ja": "/鉚/鈕 "
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1155494,
+   "ja": "Y魯D"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1155944,
+   "ja": "剞a"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1156218,
+   "ja": "*P醋P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1157476,
+   "ja": "3'隋@"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1157500,
+   "ja": "YS澪P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1158301,
+   "ja": "g鈔"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1160960,
+   "ja": "鋩P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1161616,
+   "ja": "/銜/銜 "
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1161688,
+   "ja": "'鈞/鈞 "
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1162084,
+   "ja": "/鉚 "
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1162588,
+   "ja": "A耒"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1163842,
+   "ja": "d鄲(轢("
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1167367,
+   "ja": "/燿?錮@"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1168645,
+   "ja": "35俍=\n"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1172601,
+   "ja": "P@襲"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1172758,
+   "ja": ">/錢("
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1173334,
+   "ja": "G鍗@"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1173396,
+   "ja": "P>s廣"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1173622,
+   "ja": ">腱A"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1174048,
+   "ja": "A篶>\""
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1177564,
+   "ja": "9逵\t"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1178085,
+   "ja": "P斈\n "
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1178424,
+   "ja": "BI?啣@"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1179937,
+   "ja": "N'濂("
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1180640,
+   "ja": "ａ悛B"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1180995,
+   "ja": " X瑞"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1181275,
+   "ja": "X/濆 "
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1182266,
+   "ja": "燿d"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1182342,
+   "ja": "擬A"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1188443,
+   "ja": "逵A迸$"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1188790,
+   "ja": "A楯Y0"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1189077,
+   "ja": " I迸 "
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1190860,
+   "ja": "PP\nO審"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1191007,
+   "ja": "O汝"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1191055,
+   "ja": "F拭J"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1193522,
+   "ja": "飩8)J"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1194433,
+   "ja": "q葵"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1194465,
+   "ja": "禄@B"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1195657,
+   "ja": "s廈"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1196305,
+   "ja": "s謬"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1196521,
+   "ja": "s屍"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1197442,
+   "ja": "PG髜"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1198230,
+   "ja": "LR耒＝"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1199107,
+   "ja": "O靑P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1199251,
+   "ja": "O胄P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1199271,
+   "ja": "JS蜉P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1199280,
+   "ja": "\nS覊P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1199323,
+   "ja": "O靑S醋T"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1199349,
+   "ja": "*W醋P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1199395,
+   "ja": "O胄P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1199400,
+   "ja": "\nW<鷄"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1199406,
+   "ja": "\nW<鷄"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1199467,
+   "ja": "O胄R"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1200115,
+   "ja": "O銓W鉤X"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1200124,
+   "ja": "S醋T"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1200262,
+   "ja": "W鉤P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1200291,
+   "ja": "\nY劒P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1200342,
+   "ja": "\nQ醋P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1201402,
+   "ja": "@醫J"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1201408,
+   "ja": "B醫B"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1201609,
+   "ja": "\\x鮱"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1201645,
+   "ja": "@g覈("
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1201906,
+   "ja": "Z?禊"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1201912,
+   "ja": "Q滓T"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1202115,
+   "ja": " @D栗"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1202485,
+   "ja": "A愈D"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1204027,
+   "ja": "c鉞"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1206469,
+   "ja": "1髦\n("
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1210414,
+   "ja": "Q?髜"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1211290,
+   "ja": "b悛UP"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1212373,
+   "ja": "C銜"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1214953,
+   "ja": "A鯊"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1215672,
+   "ja": "\nW鉤X"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1215681,
+   "ja": "\nS醋T"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1219440,
+   "ja": "hB疋"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1220218,
+   "ja": "R3琇"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1220620,
+   "ja": "R戉P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1220692,
+   "ja": "S胙P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1222821,
+   "ja": "(y茯"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1223671,
+   "ja": "J#鵫("
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1224724,
+   "ja": "O<髜"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1224795,
+   "ja": "禺x"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1224868,
+   "ja": "O<髜"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1224940,
+   "ja": "O<髜"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1227166,
+   "ja": "y燿"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1228446,
+   "ja": "\nL栓"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1228553,
+   "ja": "咥@Z"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1238833,
+   "ja": "9瑣"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1239406,
+   "ja": "9脛@"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1242452,
+   "ja": "'澪h"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1243448,
+   "ja": "B尽檍"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1243519,
+   "ja": "/爲"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1243600,
+   "ja": " 4如"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1244770,
+   "ja": "Us朸"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1245109,
+   "ja": "q詛\n"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1245535,
+   "ja": "s迸"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1246042,
+   "ja": "9劈"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1246333,
+   "ja": "s捻"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1248187,
+   "ja": "01鵫"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1249255,
+   "ja": "Y'脾"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1252591,
+   "ja": "J枦"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1257505,
+   "ja": "@Y襦`"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1258020,
+   "ja": "4P龍"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1258665,
+   "ja": "h`桎P "
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1258716,
+   "ja": "J麾"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1258861,
+   "ja": "洸J f2"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1259003,
+   "ja": "B$泛"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1259209,
+   "ja": "TG潸"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1260946,
+   "ja": "愧P"
+  },
+  {
+   "module": "TRFSTRINGS",
+   "offset": 1261086,
+   "ja": "@B弼悛"
+  },
+  {
+   "module": "TRFSUNFLOWERMAZE",
+   "offset": 143016,
+   "ja": "彎"
+  },
+  {
+   "module": "TRFSUNFLOWERMAZE",
+   "offset": 143112,
+   "ja": "艙"
+  },
+  {
+   "module": "TRFSUNFLOWERMAZE",
+   "offset": 143144,
+   "ja": "彎"
+  },
+  {
+   "module": "TRFSUNFLOWERMAZE",
+   "offset": 143304,
+   "ja": "艙"
+  },
+  {
+   "module": "TRFSUNFLOWERMAZE",
+   "offset": 143336,
+   "ja": "彎"
+  },
+  {
+   "module": "TRFSUNFLOWERMAZE",
+   "offset": 143368,
+   "ja": "彷"
+  },
+  {
+   "module": "TRFSUNFLOWERMAZE",
+   "offset": 143428,
+   "ja": "艙"
+  },
+  {
+   "module": "TRFSUNFLOWERMAZE",
+   "offset": 143460,
+   "ja": "彎"
+  },
+  {
+   "module": "TRFSUNFLOWERMAZE",
+   "offset": 143748,
+   "ja": "B鉸6"
+  },
+  {
+   "module": "TRFTASK",
+   "offset": 42096,
+   "ja": "芦"
+  },
+  {
+   "module": "TRFTASK",
+   "offset": 42100,
+   "ja": "于"
+  },
+  {
+   "module": "TRFTECHNOMAZE",
+   "offset": 157884,
+   "ja": "臉"
+  },
+  {
+   "module": "TRFTECHNOMAZE",
+   "offset": 158024,
+   "ja": "腥"
+  },
+  {
+   "module": "TRFTECHNOMAZE",
+   "offset": 158044,
+   "ja": "煤"
+  },
+  {
+   "module": "TRFTECHNOMAZE",
+   "offset": 158100,
+   "ja": "臉"
+  },
+  {
+   "module": "TRFTECHNOMAZE",
+   "offset": 158112,
+   "ja": "濾"
+  },
+  {
+   "module": "TRFTECHNOMAZE",
+   "offset": 158148,
+   "ja": "腥"
+  },
+  {
+   "module": "TRFTECHNOMAZE",
+   "offset": 158160,
+   "ja": "艨"
+  },
+  {
+   "module": "TRFTECHNOMAZE",
+   "offset": 158168,
+   "ja": "煤"
+  },
+  {
+   "module": "TRFTECHNOMAZE",
+   "offset": 158224,
+   "ja": "臉"
+  },
+  {
+   "module": "TRFTECHNOMAZE",
+   "offset": 158252,
+   "ja": "腥"
+  },
+  {
+   "module": "TRFTECHNOMAZE",
+   "offset": 158272,
+   "ja": "煤"
+  },
+  {
+   "module": "TRFTECHNOMAZE",
+   "offset": 158328,
+   "ja": "臉"
+  },
+  {
+   "module": "TRFTECHNOMAZE",
+   "offset": 158596,
+   "ja": " 鉸6"
+  },
+  {
+   "module": "TRFTENNIS",
+   "offset": 130908,
+   "ja": "爼"
+  },
+  {
+   "module": "TRFTENNIS",
+   "offset": 130912,
+   "ja": "爼"
+  },
+  {
+   "module": "TRFTENNIS",
+   "offset": 130916,
+   "ja": "茗"
+  },
+  {
+   "module": "TRFTENNIS",
+   "offset": 131012,
+   "ja": "牽"
+  },
+  {
+   "module": "TRFTENNIS",
+   "offset": 131380,
+   "ja": "霓"
+  },
+  {
+   "module": "TRFTENNIS",
+   "offset": 131432,
+   "ja": "乃"
+  },
+  {
+   "module": "TRFTENNIS",
+   "offset": 131488,
+   "ja": "爼"
+  },
+  {
+   "module": "TRFTENNIS",
+   "offset": 131492,
+   "ja": "茗"
+  },
+  {
+   "module": "TRFTENNIS",
+   "offset": 131520,
+   "ja": "牽"
+  },
+  {
+   "module": "TRFTENNIS",
+   "offset": 131888,
+   "ja": "霓"
+  },
+  {
+   "module": "TRFTENNIS",
+   "offset": 131940,
+   "ja": "乃"
+  },
+  {
+   "module": "TRFTENNIS",
+   "offset": 131996,
+   "ja": "爼"
+  },
+  {
+   "module": "TRFTENNIS",
+   "offset": 132000,
+   "ja": "茗"
+  },
+  {
+   "module": "TRFTENNIS",
+   "offset": 132040,
+   "ja": "隶"
+  },
+  {
+   "module": "TRFTENNIS",
+   "offset": 132048,
+   "ja": "牽"
+  },
+  {
+   "module": "TRFTENNIS",
+   "offset": 132416,
+   "ja": "霓"
+  },
+  {
+   "module": "TRFTENNIS",
+   "offset": 132468,
+   "ja": "乃"
+  },
+  {
+   "module": "TRFTENNIS",
+   "offset": 132524,
+   "ja": "爼"
+  },
+  {
+   "module": "TRFTENNIS",
+   "offset": 132528,
+   "ja": "茗"
+  },
+  {
+   "module": "TRFUFO",
+   "offset": 187344,
+   "ja": "烙"
+  },
+  {
+   "module": "TRFVMSCHECK",
+   "offset": 63812,
+   "ja": "?樛6"
+  },
+  {
+   "module": "TRFVMSVIEW",
+   "offset": 62933,
+   "ja": "鞭6"
+  },
+  {
+   "module": "TRFWAVENAME",
+   "offset": 17604,
+   "ja": "鐔"
+  }
+ ]
+}

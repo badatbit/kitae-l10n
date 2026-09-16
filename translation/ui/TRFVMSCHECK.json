@@ -3,16 +3,6 @@
   "path": "/TRF/TRFVMSCHECK.DLL",
   "entries": [
     {
-      "offset": 63812,
-      "size": 4,
-      "avail": 7,
-      "section": ".rdata",
-      "text": {
-        "ja": "?樛6",
-        "ko": ""
-      }
-    },
-    {
       "offset": 64180,
       "size": 142,
       "avail": 143,

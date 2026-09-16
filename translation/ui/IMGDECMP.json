@@ -43,82 +43,12 @@
       }
     },
     {
-      "offset": 24940,
-      "size": 3,
-      "avail": 3,
-      "section": ".data",
-      "text": {
-        "ja": "冉3",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 24964,
-      "size": 3,
-      "avail": 3,
-      "section": ".data",
-      "text": {
-        "ja": "劔3",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 24988,
-      "size": 3,
-      "avail": 3,
-      "section": ".data",
-      "text": {
-        "ja": "厠3",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 25080,
-      "size": 3,
-      "avail": 3,
-      "section": ".data",
-      "text": {
-        "ja": "冉f",
-        "ko": ""
-      }
-    },
-    {
       "offset": 25089,
       "size": 2,
       "avail": 2,
       "section": ".data",
       "text": {
         "ja": "冉",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 25092,
-      "size": 3,
-      "avail": 3,
-      "section": ".data",
-      "text": {
-        "ja": "3冉",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 25096,
-      "size": 3,
-      "avail": 3,
-      "section": ".data",
-      "text": {
-        "ja": "f冉",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 25100,
-      "size": 3,
-      "avail": 3,
-      "section": ".data",
-      "text": {
-        "ja": "劔f",
         "ko": ""
       }
     },
@@ -143,42 +73,12 @@
       }
     },
     {
-      "offset": 25120,
-      "size": 3,
-      "avail": 3,
-      "section": ".data",
-      "text": {
-        "ja": "厠f",
-        "ko": ""
-      }
-    },
-    {
       "offset": 25157,
       "size": 2,
       "avail": 2,
       "section": ".data",
       "text": {
         "ja": "劔",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 25216,
-      "size": 3,
-      "avail": 3,
-      "section": ".data",
-      "text": {
-        "ja": "3劔",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 25220,
-      "size": 3,
-      "avail": 3,
-      "section": ".data",
-      "text": {
-        "ja": "f劔",
         "ko": ""
       }
     },
@@ -219,26 +119,6 @@
       "section": ".data",
       "text": {
         "ja": "厠",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 25356,
-      "size": 3,
-      "avail": 3,
-      "section": ".data",
-      "text": {
-        "ja": "3厠",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 25360,
-      "size": 3,
-      "avail": 3,
-      "section": ".data",
-      "text": {
-        "ja": "f厠",
         "ko": ""
       }
     },

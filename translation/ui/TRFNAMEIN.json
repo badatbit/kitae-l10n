@@ -3,62 +3,12 @@
  "path": "/TRF/TRFNAMEIN.DLL",
  "entries": [
   {
-   "offset": 80580,
-   "size": 2,
-   "avail": 2,
-   "section": ".rdata",
-   "text": {
-    "ja": "鏘",
-    "ko": ""
-   }
-  },
-  {
-   "offset": 80704,
-   "size": 2,
-   "avail": 2,
-   "section": ".rdata",
-   "text": {
-    "ja": "膂",
-    "ko": ""
-   }
-  },
-  {
-   "offset": 80820,
-   "size": 2,
-   "avail": 2,
-   "section": ".rdata",
-   "text": {
-    "ja": "膂",
-    "ko": ""
-   }
-  },
-  {
    "offset": 80960,
    "size": 2,
    "avail": 2,
    "section": ".rdata",
    "text": {
     "ja": "狼",
-    "ko": ""
-   }
-  },
-  {
-   "offset": 80976,
-   "size": 2,
-   "avail": 2,
-   "section": ".rdata",
-   "text": {
-    "ja": "膂",
-    "ko": ""
-   }
-  },
-  {
-   "offset": 80980,
-   "size": 2,
-   "avail": 2,
-   "section": ".rdata",
-   "text": {
-    "ja": "鏃",
     "ko": ""
    }
   },

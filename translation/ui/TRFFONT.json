@@ -3,16 +3,6 @@
   "path": "/TRF/TRFFONT.DLL",
   "entries": [
     {
-      "offset": 19797,
-      "size": 3,
-      "avail": 6,
-      "section": ".rdata",
-      "text": {
-        "ja": "榿6",
-        "ko": ""
-      }
-    },
-    {
       "offset": 19828,
       "size": 2,
       "avail": 3,

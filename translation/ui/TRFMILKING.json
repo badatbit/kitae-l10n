@@ -13,62 +13,12 @@
       }
     },
     {
-      "offset": 122796,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "惟",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 122844,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "蒭",
-        "ko": ""
-      }
-    },
-    {
       "offset": 122896,
       "size": 2,
       "avail": 2,
       "section": ".rdata",
       "text": {
         "ja": "鶏",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 122924,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "惟",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 122928,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "惟",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 122940,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "惟",
         "ko": ""
       }
     },
@@ -93,46 +43,6 @@
       }
     },
     {
-      "offset": 123012,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "珸",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 123024,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "惟",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 123028,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "惟",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 123040,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "惟",
-        "ko": ""
-      }
-    },
-    {
       "offset": 123072,
       "size": 2,
       "avail": 2,
@@ -143,62 +53,12 @@
       }
     },
     {
-      "offset": 123080,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "萎",
-        "ko": ""
-      }
-    },
-    {
       "offset": 123108,
       "size": 2,
       "avail": 2,
       "section": ".rdata",
       "text": {
         "ja": "鶏",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 123136,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "惟",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 123140,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "惟",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 123152,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "惟",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 123477,
-      "size": 3,
-      "avail": 6,
-      "section": ".rdata",
-      "text": {
-        "ja": "昀6",
         "ko": ""
       }
     },

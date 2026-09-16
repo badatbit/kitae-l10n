@@ -13,16 +13,6 @@
       }
     },
     {
-      "offset": 51536,
-      "size": 2,
-      "avail": 3,
-      "section": ".rdata",
-      "text": {
-        "ja": "惇",
-        "ko": ""
-      }
-    },
-    {
       "offset": 52012,
       "size": 2,
       "avail": 2,

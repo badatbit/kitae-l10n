@@ -13,32 +13,12 @@
       }
     },
     {
-      "offset": 143016,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "彎",
-        "ko": ""
-      }
-    },
-    {
       "offset": 143096,
       "size": 2,
       "avail": 2,
       "section": ".rdata",
       "text": {
         "ja": "輩",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 143112,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "艙",
         "ko": ""
       }
     },
@@ -53,42 +33,12 @@
       }
     },
     {
-      "offset": 143144,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "彎",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 143304,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "艙",
-        "ko": ""
-      }
-    },
-    {
       "offset": 143332,
       "size": 2,
       "avail": 2,
       "section": ".rdata",
       "text": {
         "ja": "脳",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 143336,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "彎",
         "ko": ""
       }
     },
@@ -103,52 +53,12 @@
       }
     },
     {
-      "offset": 143368,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "彷",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 143428,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "艙",
-        "ko": ""
-      }
-    },
-    {
       "offset": 143456,
       "size": 2,
       "avail": 2,
       "section": ".rdata",
       "text": {
         "ja": "脳",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 143460,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "彎",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 143748,
-      "size": 4,
-      "avail": 7,
-      "section": ".rdata",
-      "text": {
-        "ja": "B鉸6",
         "ko": ""
       }
     },

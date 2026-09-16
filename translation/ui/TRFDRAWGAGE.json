@@ -13,16 +13,6 @@
       }
     },
     {
-      "offset": 51316,
-      "size": 2,
-      "avail": 3,
-      "section": ".rdata",
-      "text": {
-        "ja": "儘",
-        "ko": ""
-      }
-    },
-    {
       "offset": 51348,
       "size": 2,
       "avail": 5,

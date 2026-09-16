@@ -53,16 +53,6 @@
       }
     },
     {
-      "offset": 106464,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "默",
-        "ko": ""
-      }
-    },
-    {
       "offset": 108360,
       "size": 12,
       "avail": 15,

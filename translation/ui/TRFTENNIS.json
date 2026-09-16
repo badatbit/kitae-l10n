@@ -3,52 +3,12 @@
   "path": "/TRF/TRFTENNIS.DLL",
   "entries": [
     {
-      "offset": 130908,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "爼",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 130912,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "爼",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 130916,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "茗",
-        "ko": ""
-      }
-    },
-    {
       "offset": 131008,
       "size": 2,
       "avail": 2,
       "section": ".rdata",
       "text": {
         "ja": "晴",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 131012,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "牽",
         "ko": ""
       }
     },
@@ -73,56 +33,6 @@
       }
     },
     {
-      "offset": 131380,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "霓",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 131432,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "乃",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 131488,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "爼",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 131492,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "茗",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 131520,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "牽",
-        "ko": ""
-      }
-    },
-    {
       "offset": 131540,
       "size": 2,
       "avail": 2,
@@ -139,46 +49,6 @@
       "section": ".rdata",
       "text": {
         "ja": "爆",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 131888,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "霓",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 131940,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "乃",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 131996,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "爼",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 132000,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "茗",
         "ko": ""
       }
     },
@@ -203,26 +73,6 @@
       }
     },
     {
-      "offset": 132040,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "隶",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 132048,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "牽",
-        "ko": ""
-      }
-    },
-    {
       "offset": 132068,
       "size": 2,
       "avail": 2,
@@ -239,46 +89,6 @@
       "section": ".rdata",
       "text": {
         "ja": "爆",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 132416,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "霓",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 132468,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "乃",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 132524,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "爼",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 132528,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "茗",
         "ko": ""
       }
     },

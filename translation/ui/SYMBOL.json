@@ -23,16 +23,6 @@
       }
     },
     {
-      "offset": 17528,
-      "size": 2,
-      "avail": 3,
-      "section": ".rdata",
-      "text": {
-        "ja": "媾",
-        "ko": ""
-      }
-    },
-    {
       "offset": 18224,
       "size": 2,
       "avail": 2,

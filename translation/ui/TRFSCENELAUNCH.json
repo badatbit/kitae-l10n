@@ -23,36 +23,6 @@
       }
     },
     {
-      "offset": 50757,
-      "size": 3,
-      "avail": 6,
-      "section": ".rdata",
-      "text": {
-        "ja": "榿6",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 50764,
-      "size": 2,
-      "avail": 3,
-      "section": ".rdata",
-      "text": {
-        "ja": "窃",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 50788,
-      "size": 2,
-      "avail": 3,
-      "section": ".rdata",
-      "text": {
-        "ja": "萎",
-        "ko": ""
-      }
-    },
-    {
       "offset": 50820,
       "size": 2,
       "avail": 5,

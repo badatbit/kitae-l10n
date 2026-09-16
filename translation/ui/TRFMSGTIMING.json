@@ -11,16 +11,6 @@
         "ja": "彌",
         "ko": ""
       }
-    },
-    {
-      "offset": 17616,
-      "size": 2,
-      "avail": 3,
-      "section": ".rdata",
-      "text": {
-        "ja": "鐔",
-        "ko": ""
-      }
     }
   ]
 }

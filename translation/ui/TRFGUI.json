@@ -3,16 +3,6 @@
   "path": "/TRF/TRFGUI.DLL",
   "entries": [
     {
-      "offset": 45724,
-      "size": 2,
-      "avail": 3,
-      "section": ".rdata",
-      "text": {
-        "ja": "猗",
-        "ko": ""
-      }
-    },
-    {
       "offset": 46568,
       "size": 2,
       "avail": 2,

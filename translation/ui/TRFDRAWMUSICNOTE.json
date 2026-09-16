@@ -1,36 +1,5 @@
 {
   "module": "TRFDRAWMUSICNOTE",
   "path": "/TRF/TRFDRAWMUSICNOTE.DLL",
-  "entries": [
-    {
-      "offset": 41036,
-      "size": 2,
-      "avail": 3,
-      "section": ".rdata",
-      "text": {
-        "ja": "隹",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 41292,
-      "size": 2,
-      "avail": 3,
-      "section": ".rdata",
-      "text": {
-        "ja": "鯵",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 41296,
-      "size": 2,
-      "avail": 3,
-      "section": ".rdata",
-      "text": {
-        "ja": "擲",
-        "ko": ""
-      }
-    }
-  ]
+  "entries": []
 }

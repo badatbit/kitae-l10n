@@ -23,16 +23,6 @@
       }
     },
     {
-      "offset": 13020,
-      "size": 2,
-      "avail": 3,
-      "section": ".rdata",
-      "text": {
-        "ja": "｛",
-        "ko": ""
-      }
-    },
-    {
       "offset": 13036,
       "size": 2,
       "avail": 2,
@@ -63,26 +53,6 @@
       }
     },
     {
-      "offset": 13100,
-      "size": 2,
-      "avail": 3,
-      "section": ".rdata",
-      "text": {
-        "ja": "｛",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 13116,
-      "size": 2,
-      "avail": 3,
-      "section": ".rdata",
-      "text": {
-        "ja": "｛",
-        "ko": ""
-      }
-    },
-    {
       "offset": 13132,
       "size": 2,
       "avail": 2,
@@ -93,512 +63,12 @@
       }
     },
     {
-      "offset": 13148,
-      "size": 2,
-      "avail": 3,
-      "section": ".rdata",
-      "text": {
-        "ja": "｛",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 13164,
-      "size": 2,
-      "avail": 3,
-      "section": ".rdata",
-      "text": {
-        "ja": "｛",
-        "ko": ""
-      }
-    },
-    {
       "offset": 13180,
       "size": 2,
       "avail": 2,
       "section": ".rdata",
       "text": {
         "ja": "沖",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 13420,
-      "size": 2,
-      "avail": 3,
-      "section": ".rdata",
-      "text": {
-        "ja": "嬶",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 13436,
-      "size": 2,
-      "avail": 3,
-      "section": ".rdata",
-      "text": {
-        "ja": "嬶",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 13452,
-      "size": 2,
-      "avail": 3,
-      "section": ".rdata",
-      "text": {
-        "ja": "嬶",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 13468,
-      "size": 2,
-      "avail": 3,
-      "section": ".rdata",
-      "text": {
-        "ja": "嬶",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 13484,
-      "size": 2,
-      "avail": 3,
-      "section": ".rdata",
-      "text": {
-        "ja": "嬶",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 13500,
-      "size": 2,
-      "avail": 3,
-      "section": ".rdata",
-      "text": {
-        "ja": "嬶",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 13516,
-      "size": 2,
-      "avail": 3,
-      "section": ".rdata",
-      "text": {
-        "ja": "嬶",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 13548,
-      "size": 2,
-      "avail": 3,
-      "section": ".rdata",
-      "text": {
-        "ja": "嬶",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 13580,
-      "size": 2,
-      "avail": 3,
-      "section": ".rdata",
-      "text": {
-        "ja": "嬶",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 13612,
-      "size": 2,
-      "avail": 3,
-      "section": ".rdata",
-      "text": {
-        "ja": "嬶",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 13644,
-      "size": 2,
-      "avail": 3,
-      "section": ".rdata",
-      "text": {
-        "ja": "楪",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 13660,
-      "size": 2,
-      "avail": 3,
-      "section": ".rdata",
-      "text": {
-        "ja": "嬶",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 13724,
-      "size": 2,
-      "avail": 3,
-      "section": ".rdata",
-      "text": {
-        "ja": "嬶",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 13932,
-      "size": 2,
-      "avail": 3,
-      "section": ".rdata",
-      "text": {
-        "ja": "嬶",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 14108,
-      "size": 2,
-      "avail": 3,
-      "section": ".rdata",
-      "text": {
-        "ja": "嬶",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 14124,
-      "size": 2,
-      "avail": 3,
-      "section": ".rdata",
-      "text": {
-        "ja": "嬶",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 14140,
-      "size": 2,
-      "avail": 3,
-      "section": ".rdata",
-      "text": {
-        "ja": "嬶",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 14188,
-      "size": 2,
-      "avail": 3,
-      "section": ".rdata",
-      "text": {
-        "ja": "嬶",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 14204,
-      "size": 2,
-      "avail": 3,
-      "section": ".rdata",
-      "text": {
-        "ja": "嬶",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 14220,
-      "size": 2,
-      "avail": 3,
-      "section": ".rdata",
-      "text": {
-        "ja": "嬶",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 14252,
-      "size": 6,
-      "avail": 7,
-      "section": ".rdata",
-      "text": {
-        "ja": "鴇DEST",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 14540,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "墟",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 14780,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "墟",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 14796,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "墟",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 14812,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "墟",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 14828,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "墟",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 14844,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "墟",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 14860,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "墟",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 14876,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "墟",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 14892,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "墟",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 14908,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "墟",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 14924,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "墟",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 14940,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "墟",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 14956,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "墟",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 14972,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "戔",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 14988,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "廾",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 15020,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "廸",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 15036,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "廸",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 15090,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "刕",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 15116,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "擡",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 15132,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "廸",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 15164,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "廸",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 15180,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "愧",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 15196,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "廾",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 15212,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "廾",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 15228,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "廸",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 15244,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "愧",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 15260,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "廸",
         "ko": ""
       }
     },
@@ -683,32 +153,12 @@
       }
     },
     {
-      "offset": 16458,
-      "size": 3,
-      "avail": 3,
-      "section": ".data",
-      "text": {
-        "ja": "黑p",
-        "ko": ""
-      }
-    },
-    {
       "offset": 16537,
       "size": 2,
       "avail": 2,
       "section": ".data",
       "text": {
         "ja": "劔",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 16587,
-      "size": 3,
-      "avail": 3,
-      "section": ".data",
-      "text": {
-        "ja": "蕙z",
         "ko": ""
       }
     },
@@ -753,32 +203,12 @@
       }
     },
     {
-      "offset": 16970,
-      "size": 3,
-      "avail": 3,
-      "section": ".data",
-      "text": {
-        "ja": "黑p",
-        "ko": ""
-      }
-    },
-    {
       "offset": 17049,
       "size": 2,
       "avail": 2,
       "section": ".data",
       "text": {
         "ja": "劔",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 17099,
-      "size": 3,
-      "avail": 3,
-      "section": ".data",
-      "text": {
-        "ja": "蕙z",
         "ko": ""
       }
     },
@@ -833,32 +263,12 @@
       }
     },
     {
-      "offset": 17482,
-      "size": 3,
-      "avail": 3,
-      "section": ".data",
-      "text": {
-        "ja": "黑p",
-        "ko": ""
-      }
-    },
-    {
       "offset": 17561,
       "size": 2,
       "avail": 2,
       "section": ".data",
       "text": {
         "ja": "劔",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 17611,
-      "size": 3,
-      "avail": 3,
-      "section": ".data",
-      "text": {
-        "ja": "蕙z",
         "ko": ""
       }
     },

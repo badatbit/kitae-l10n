@@ -523,32 +523,12 @@
       }
     },
     {
-      "offset": 73572,
-      "size": 3,
-      "avail": 3,
-      "section": ".data",
-      "text": {
-        "ja": "M朞",
-        "ko": ""
-      }
-    },
-    {
       "offset": 73592,
       "size": 3,
       "avail": 3,
       "section": ".data",
       "text": {
         "ja": "{樽",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 73632,
-      "size": 3,
-      "avail": 3,
-      "section": ".data",
-      "text": {
-        "ja": "窕M",
         "ko": ""
       }
     },
@@ -643,26 +623,6 @@
       }
     },
     {
-      "offset": 73808,
-      "size": 3,
-      "avail": 3,
-      "section": ".data",
-      "text": {
-        "ja": "慴5",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 73812,
-      "size": 3,
-      "avail": 3,
-      "section": ".data",
-      "text": {
-        "ja": "惶n",
-        "ko": ""
-      }
-    },
-    {
       "offset": 73817,
       "size": 2,
       "avail": 2,
@@ -723,26 +683,6 @@
       }
     },
     {
-      "offset": 73936,
-      "size": 3,
-      "avail": 3,
-      "section": ".data",
-      "text": {
-        "ja": "Y骭",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 73948,
-      "size": 3,
-      "avail": 3,
-      "section": ".data",
-      "text": {
-        "ja": "勾S",
-        "ko": ""
-      }
-    },
-    {
       "offset": 73965,
       "size": 2,
       "avail": 2,
@@ -753,42 +693,12 @@
       }
     },
     {
-      "offset": 73980,
-      "size": 3,
-      "avail": 3,
-      "section": ".data",
-      "text": {
-        "ja": "鞣S",
-        "ko": ""
-      }
-    },
-    {
       "offset": 73993,
       "size": 2,
       "avail": 2,
       "section": ".data",
       "text": {
         "ja": "倩",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 73996,
-      "size": 3,
-      "avail": 3,
-      "section": ".data",
-      "text": {
-        "ja": "0鏸",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 74008,
-      "size": 3,
-      "avail": 3,
-      "section": ".data",
-      "text": {
-        "ja": "g猜",
         "ko": ""
       }
     },
@@ -819,16 +729,6 @@
       "section": ".data",
       "text": {
         "ja": "=鋠",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 74064,
-      "size": 3,
-      "avail": 3,
-      "section": ".data",
-      "text": {
-        "ja": "t橾",
         "ko": ""
       }
     },

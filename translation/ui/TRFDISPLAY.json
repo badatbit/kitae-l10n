@@ -23,42 +23,12 @@
       }
     },
     {
-      "offset": 35384,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "彖",
-        "ko": ""
-      }
-    },
-    {
       "offset": 35404,
       "size": 2,
       "avail": 2,
       "section": ".rdata",
       "text": {
         "ja": "瀉",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 35412,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "歪",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 35428,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "慧",
         "ko": ""
       }
     },
@@ -83,62 +53,12 @@
       }
     },
     {
-      "offset": 35724,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "彖",
-        "ko": ""
-      }
-    },
-    {
       "offset": 35744,
       "size": 2,
       "avail": 2,
       "section": ".rdata",
       "text": {
         "ja": "瀉",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 35752,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "歪",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 35768,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "慧",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 36736,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "濺",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 36760,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "掲",
         "ko": ""
       }
     },
@@ -153,52 +73,12 @@
       }
     },
     {
-      "offset": 36768,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "杷",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 37004,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "濺",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 37028,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "掲",
-        "ko": ""
-      }
-    },
-    {
       "offset": 37032,
       "size": 2,
       "avail": 2,
       "section": ".rdata",
       "text": {
         "ja": "診",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 37036,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "杷",
         "ko": ""
       }
     },

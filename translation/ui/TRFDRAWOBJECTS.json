@@ -11,26 +11,6 @@
         "ja": "吾",
         "ko": ""
       }
-    },
-    {
-      "offset": 48789,
-      "size": 3,
-      "avail": 6,
-      "section": ".rdata",
-      "text": {
-        "ja": "劜6",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 48796,
-      "size": 2,
-      "avail": 3,
-      "section": ".rdata",
-      "text": {
-        "ja": "獵",
-        "ko": ""
-      }
     }
   ]
 }

@@ -13,26 +13,6 @@
       }
     },
     {
-      "offset": 42096,
-      "size": 2,
-      "avail": 3,
-      "section": ".rdata",
-      "text": {
-        "ja": "芦",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 42100,
-      "size": 2,
-      "avail": 3,
-      "section": ".rdata",
-      "text": {
-        "ja": "于",
-        "ko": ""
-      }
-    },
-    {
       "offset": 42132,
       "size": 2,
       "avail": 5,

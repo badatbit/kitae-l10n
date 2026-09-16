@@ -3,16 +3,6 @@
  "path": "/TRF/SOUNDROOM.DLL",
  "entries": [
   {
-   "offset": 14336,
-   "size": 2,
-   "avail": 2,
-   "section": ".rdata",
-   "text": {
-    "ja": "彝",
-    "ko": ""
-   }
-  },
-  {
    "offset": 77980,
    "size": 10,
    "avail": 11,

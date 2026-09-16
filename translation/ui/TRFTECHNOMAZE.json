@@ -13,62 +13,12 @@
       }
     },
     {
-      "offset": 157884,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "臉",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 158024,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "腥",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 158044,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "煤",
-        "ko": ""
-      }
-    },
-    {
       "offset": 158092,
       "size": 2,
       "avail": 2,
       "section": ".rdata",
       "text": {
         "ja": "農",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 158100,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "臉",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 158112,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "濾",
         "ko": ""
       }
     },
@@ -83,36 +33,6 @@
       }
     },
     {
-      "offset": 158148,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "腥",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 158160,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "艨",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 158168,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "煤",
-        "ko": ""
-      }
-    },
-    {
       "offset": 158216,
       "size": 2,
       "avail": 2,
@@ -123,62 +43,12 @@
       }
     },
     {
-      "offset": 158224,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "臉",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 158252,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "腥",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 158272,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "煤",
-        "ko": ""
-      }
-    },
-    {
       "offset": 158320,
       "size": 2,
       "avail": 2,
       "section": ".rdata",
       "text": {
         "ja": "農",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 158328,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "臉",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 158596,
-      "size": 4,
-      "avail": 7,
-      "section": ".rdata",
-      "text": {
-        "ja": " 鉸6",
         "ko": ""
       }
     },

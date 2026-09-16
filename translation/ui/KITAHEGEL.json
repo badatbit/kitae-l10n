@@ -3,36 +3,6 @@
   "path": "/TRF/KITAHEGEL.DLL",
   "entries": [
     {
-      "offset": 25420,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "祢",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 25700,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "祢",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 26112,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "祢",
-        "ko": ""
-      }
-    },
-    {
       "offset": 74200,
       "size": 2,
       "avail": 2,

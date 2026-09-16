@@ -3,26 +3,6 @@
   "path": "/TRF/MESSAGEOUT.DLL",
   "entries": [
     {
-      "offset": 8728,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "鐃",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 8740,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "錚",
-        "ko": ""
-      }
-    },
-    {
       "offset": 67224,
       "size": 2,
       "avail": 2,

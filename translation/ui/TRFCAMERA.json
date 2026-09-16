@@ -3,26 +3,6 @@
   "path": "/TRF/TRFCAMERA.DLL",
   "entries": [
     {
-      "offset": 76784,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "廝",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 76840,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "廝",
-        "ko": ""
-      }
-    },
-    {
       "offset": 76972,
       "size": 2,
       "avail": 2,
@@ -33,42 +13,12 @@
       }
     },
     {
-      "offset": 77136,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "廝",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 77172,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "寧",
-        "ko": ""
-      }
-    },
-    {
       "offset": 77316,
       "size": 2,
       "avail": 2,
       "section": ".rdata",
       "text": {
         "ja": "桑",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 77328,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "廝",
         "ko": ""
       }
     },

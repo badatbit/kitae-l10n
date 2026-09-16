@@ -33,42 +33,12 @@
       }
     },
     {
-      "offset": 26660,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "茨",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 26672,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "渥",
-        "ko": ""
-      }
-    },
-    {
       "offset": 26684,
       "size": 2,
       "avail": 2,
       "section": ".rdata",
       "text": {
         "ja": "飲",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 60485,
-      "size": 3,
-      "avail": 6,
-      "section": ".rdata",
-      "text": {
-        "ja": "寘6",
         "ko": ""
       }
     },

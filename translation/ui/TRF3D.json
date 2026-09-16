@@ -3,72 +3,12 @@
   "path": "/TRF/TRF3D.DLL",
   "entries": [
     {
-      "offset": 87692,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "燭",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 87700,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "禰",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 87720,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "這",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 87736,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "翠",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 87756,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "怏",
-        "ko": ""
-      }
-    },
-    {
       "offset": 87784,
       "size": 2,
       "avail": 2,
       "section": ".rdata",
       "text": {
         "ja": "麓",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 87788,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "彈",
         "ko": ""
       }
     },
@@ -83,66 +23,6 @@
       }
     },
     {
-      "offset": 87860,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "廚",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 87884,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "腓",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 87892,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "鮏",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 87964,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "這",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 87980,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "翠",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 88000,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "怏",
-        "ko": ""
-      }
-    },
-    {
       "offset": 88016,
       "size": 2,
       "avail": 2,
@@ -153,82 +33,12 @@
       }
     },
     {
-      "offset": 88020,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "彈",
-        "ko": ""
-      }
-    },
-    {
       "offset": 88044,
       "size": 2,
       "avail": 2,
       "section": ".rdata",
       "text": {
         "ja": "圭",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 88088,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "轡",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 88092,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "廚",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 88116,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "腓",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 88124,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "鮏",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 88168,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "魯",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 88416,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "如",
         "ko": ""
       }
     },
@@ -253,62 +63,12 @@
       }
     },
     {
-      "offset": 88704,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "彈",
-        "ko": ""
-      }
-    },
-    {
       "offset": 88728,
       "size": 2,
       "avail": 2,
       "section": ".rdata",
       "text": {
         "ja": "圭",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 88764,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "潺",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 88776,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "廚",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 88800,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "腓",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 88808,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "鮏",
         "ko": ""
       }
     },
@@ -323,62 +83,12 @@
       }
     },
     {
-      "offset": 89028,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "錵",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 89208,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "傑",
-        "ko": ""
-      }
-    },
-    {
       "offset": 89216,
       "size": 2,
       "avail": 2,
       "section": ".rdata",
       "text": {
         "ja": "色",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 89220,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "廡",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 89348,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "傑",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 89392,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "傑",
         "ko": ""
       }
     },
@@ -393,132 +103,12 @@
       }
     },
     {
-      "offset": 89556,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "錵",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 89744,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "腱",
-        "ko": ""
-      }
-    },
-    {
       "offset": 89776,
       "size": 2,
       "avail": 2,
       "section": ".rdata",
       "text": {
         "ja": "忍",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 89804,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "錵",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 89828,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "鰀",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 90076,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "隈",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 90080,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "賂",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 90124,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "禰",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 90156,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "澀",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 90312,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "禰",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 90412,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "這",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 90428,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "翠",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 90448,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "怏",
         "ko": ""
       }
     }

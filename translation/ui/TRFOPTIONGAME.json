@@ -3,16 +3,6 @@
   "path": "/TRF/TRFOPTIONGAME.DLL",
   "entries": [
     {
-      "offset": 88724,
-      "size": 4,
-      "avail": 7,
-      "section": ".rdata",
-      "text": {
-        "ja": "F尺6",
-        "ko": ""
-      }
-    },
-    {
       "offset": 89416,
       "size": 10,
       "avail": 11,

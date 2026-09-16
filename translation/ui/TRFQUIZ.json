@@ -3,52 +3,12 @@
   "path": "/TRF/TRFQUIZ.DLL",
   "entries": [
     {
-      "offset": 62280,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "鮱",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 62396,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "腱",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 62648,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "腦",
-        "ko": ""
-      }
-    },
-    {
       "offset": 62664,
       "size": 2,
       "avail": 2,
       "section": ".rdata",
       "text": {
         "ja": "桑",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 62764,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "腦",
         "ko": ""
       }
     },
@@ -73,26 +33,6 @@
       }
     },
     {
-      "offset": 62832,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "濬",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 62948,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "腦",
-        "ko": ""
-      }
-    },
-    {
       "offset": 62964,
       "size": 2,
       "avail": 2,
@@ -113,32 +53,12 @@
       }
     },
     {
-      "offset": 130120,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "慱",
-        "ko": ""
-      }
-    },
-    {
       "offset": 130132,
       "size": 2,
       "avail": 2,
       "section": ".rdata",
       "text": {
         "ja": "番",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 130256,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "慱",
         "ko": ""
       }
     },
@@ -163,16 +83,6 @@
       }
     },
     {
-      "offset": 130360,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "珀",
-        "ko": ""
-      }
-    },
-    {
       "offset": 130368,
       "size": 2,
       "avail": 2,
@@ -193,32 +103,12 @@
       }
     },
     {
-      "offset": 130404,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "慱",
-        "ko": ""
-      }
-    },
-    {
       "offset": 130416,
       "size": 2,
       "avail": 2,
       "section": ".rdata",
       "text": {
         "ja": "番",
-        "ko": ""
-      }
-    },
-    {
-      "offset": 130428,
-      "size": 2,
-      "avail": 2,
-      "section": ".rdata",
-      "text": {
-        "ja": "懊",
         "ko": ""
       }
     },

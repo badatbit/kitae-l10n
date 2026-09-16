@@ -3,16 +3,6 @@
   "path": "/TRF/COMMONSAVE.DLL",
   "entries": [
     {
-      "offset": 66036,
-      "size": 4,
-      "avail": 7,
-      "section": ".rdata",
-      "text": {
-        "ja": "/腿6",
-        "ko": ""
-      }
-    },
-    {
       "offset": 66756,
       "size": 49,
       "avail": 51,

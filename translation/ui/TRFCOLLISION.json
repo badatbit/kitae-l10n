@@ -1,16 +1,5 @@
 {
   "module": "TRFCOLLISION",
   "path": "/TRF/TRFCOLLISION.DLL",
-  "entries": [
-    {
-      "offset": 30172,
-      "size": 2,
-      "avail": 3,
-      "section": ".rdata",
-      "text": {
-        "ja": "闕",
-        "ko": ""
-      }
-    }
-  ]
+  "entries": []
 }
