@@ -230,7 +230,7 @@ UI부품)**로 추정되나 미확정. 289 실측: `0x6B`(289) → `0x6E A=180 B
   `used_cells` 의 예약 목록은 **대사**를 훑어 만든 것이라 가사 쪽은 안 세었다.
 - WinCE 특유의 화면 전환. 이쪽이면 위 규칙대로 원본에서 먼저 재현해 봐야 한다.
 
-되살릴 오프셋은 [`translation/src/minigames.py`](../translation/src/minigames.py) 의
+되살릴 오프셋은 [`tools/legacy-src/minigames.py.txt`](../tools/legacy-src/minigames.py.txt) 의
 `TRFKARAOKE` 블록에 주석으로 남겨 두었다.
 
 ---
