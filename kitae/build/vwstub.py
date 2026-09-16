@@ -769,10 +769,22 @@ def stub_copy_strdump():
 
 
 def stub_rec_x2(table_bytes):
-    """copy 훅(0x10003AE6, 줄 단위) — 줄 문자열(@r11)을 1/2바이트 파싱→build_table
-    조회→**각 글자 레코드의 x2(rec+8) = width** 를 쓴다. rec = this+84 + 글자*320 +
-    줄*16 이므로 x2 = this+92 + 줄*16, 글자마다 +320. 게임의 x2 쓰기(0x10003b12)는
-    apply 에서 nop. 원본 6워드 재현. 보존필수 r4(=0)·r13. table 은 mova(pc-상대)."""
+    """copy 훅(0x10003AE6, 줄 단위) — **토크나이저 노드 리스트**를 걸어 글자별 폭을
+    **각 글자 레코드의 x2(rec+8) = width** 로 쓴다. rec = this+84 + 글자*128 + 줄*16
+    이므로 x2 = this+92 + 줄*16, 글자마다 +128. 게임의 x2 쓰기(0x10003b12)는 apply 에서
+    nop. 원본 6워드 재현. 보존필수 r4(=0)·r13·r9. table 은 mova(pc-상대).
+
+    ★ 왜 raw 문자열(r11)이 아니라 노드 리스트인가 — `&主人公名前&` 같은 토큰은
+    렌더러(0x100076DC)가 fontobj+612 의 (치환문,토큰) 표로 **런타임에 펼친다**.
+    raw 줄을 파싱하면 토큰 7글자(`&`+한자5+`&`)에 폭을 주고 그 자리엔 이름이 그려져
+    폭이 어긋났다(이름 안 공백이 24, 뒤 `．` 실종). 토크나이저는 글자마다
+    `fontobj+0x6C` 리스트에 노드(+0 next · +8 code · +12 len)를 append 하고, 치환문
+    경로(0x10007a28~)도 같은 리스트에 같은 형식으로 붙이며, 마크업(`@..@` `%..%`)은
+    노드를 안 만든다. 리스트는 SetString 진입마다 비워지니 HOOK2 시점엔 **이 줄의
+    펼쳐진 글자만** 순서대로 들어 있다. `$N` 숫자 노드는 len 0 → 건너뛴다.
+
+    fontobj 는 절대주소 없이 `*r9` 로 얻는다 — 레코드 빌드 함수가 0x10003918 에서
+    r9 = &글꼴전역(0x1001D16C) 로 두고 HOOK2 까지 안 덮는다(정적 확인)."""
     S = sh4
     body = [
         (0x6283, "mov r8,r2"),           # 0  this
@@ -782,81 +794,79 @@ def stub_rec_x2(table_bytes):
         (0x4108, "shll2 r1"),            # 4
         (0x4108, "shll2 r1"),            # 5  줄*16
         (0x321C, "add r1,r2"),           # 6  r2 = rec_0.x2
-        (0xC720, None),                  # 7  mova table,r0
+        (0xC720, None),                  # 7  mova table,r0 (변위는 아래서 채움)
         (0x6303, "mov r0,r3"),           # 8  table base
-        (0xC512, "mov.w @(36,gbr),r0"),  # 9  조각수(글자수)
+        (0xC512, "mov.w @(36,gbr),r0"),  # 9  글자수(그려지는 글자)
         (0x600D, "extu.w r0,r0"),        # 10
         (0x6703, "mov r0,r7"),           # 11 count
-        (0x66B3, "mov r11,r6"),          # 12 cursor
-        # loop(13):
-        (0x6060, "mov.b @r6,r0"),        # 13
-        (0x600C, "extu.b r0,r0"),        # 14
-        (0xE57F, "mov #127,r5"),         # 15
-        (0x7502, "add #2,r5"),           # 16 0x81
-        (0x3053, "cmp/ge r5,r0"),        # 17
-        (0x8B03, "bf 0x2e"),             # 18 → check_e0(23)
-        (0xE57F, "mov #127,r5"),         # 19
-        (0x7520, "add #32,r5"),          # 20 0x9F
-        (0x3503, "cmp/ge r0,r5"),        # 21
-        (0x890C, "bt 0x48"),             # 22 → is2(36)
-        # check_e0(23):
-        (0xE570, "mov #112,r5"),         # 23
-        (0x4500, "shll r5"),             # 24 0xE0
-        (0x3053, "cmp/ge r5,r0"),        # 25
-        (0x8B03, "bf 0x3e"),             # 26 → is1(31)
-        (0xE57F, "mov #127,r5"),         # 27
-        (0x7570, "add #112,r5"),         # 28 0xEF
-        (0x3503, "cmp/ge r0,r5"),        # 29
-        (0x8904, "bt 0x48"),             # 30 → is2(36)
-        # is1(31):
-        (0x6503, "mov r0,r5"),           # 31 trail=code
-        (0xE100, "mov #0,r1"),           # 32 page=0
-        (0x7601, "add #1,r6"),           # 33 cursor+1
-        (0xA005, "bra 0x52"),            # 34 → lookup(41)
-        (S.nop(), "nop"),                # 35
-        # is2(36):
-        (0x6103, "mov r0,r1"),           # 36 page
-        (0x8461, "mov.b @(1,r6),r0"),    # 37 trail
-        (0x600C, "extu.b r0,r0"),        # 38
-        (0x6503, "mov r0,r5"),           # 39
-        (0x7602, "add #2,r6"),           # 40 cursor+2
-        # lookup(41):
-        (0x6013, "mov r1,r0"),           # 41 page
-        (0x003C, "mov.b @(r0,r3),r0"),   # 42 페이지맵
-        (0x600C, "extu.b r0,r0"),        # 43 pv
-        (0x6103, "mov r0,r1"),           # 44
-        (0xC880, "tst #128,r0"),         # 45
-        (0x8903, "bt 0x66"),             # 46 → subtable(51)
-        # direct(47):
-        (0x6013, "mov r1,r0"),           # 47
-        (0xC97F, "and #127,r0"),         # 48
-        (0xA007, "bra 0x74"),            # 49 → store(58)
+        (0x6692, "mov.l @r9,r6"),        # 12 r6 = fontobj (*&글꼴전역)
+        (0xE06C, "mov #108,r0"),         # 13 0x6C
+        (S.movl_r0_rm(6, 6), "mov.l @(r0,r6),r6"),  # 14 r6 = head node
+        # loop(15):
+        (0x2668, "tst r6,r6"),           # 15
+        (None, "bt done"),               # 16 (null → done)
+        (S.movl_disp_rm(12, 6, 0), "mov.l @(12,r6),r0"),  # 17 len
+        (0x2008, "tst r0,r0"),           # 18
+        (None, "bt skip"),               # 19 len 0 → 건너뜀
+        (S.movl_disp_rm(8, 6, 0), "mov.l @(8,r6),r0"),    # 20 code
+        (0x6503, "mov r0,r5"),           # 21
+        (S.extu_b(5, 5), "extu.b r5,r5"),  # 22 trail = code & 0xFF
+        (S.shlr8(0), "shlr8 r0"),        # 23
+        (0x6103, "mov r0,r1"),           # 24 page = code >> 8
+        # lookup(25):
+        (0x6013, "mov r1,r0"),           # 25 page
+        (0x003C, "mov.b @(r0,r3),r0"),   # 26 페이지맵
+        (0x600C, "extu.b r0,r0"),        # 27 pv
+        (0x6103, "mov r0,r1"),           # 28
+        (0xC880, "tst #128,r0"),         # 29
+        (None, "bt subtable"),           # 30
+        # direct(31):
+        (0x6013, "mov r1,r0"),           # 31
+        (0xC97F, "and #127,r0"),         # 32
+        (None, "bra store"),             # 33
+        (S.nop(), "nop"),                # 34
+        # subtable(35):
+        (0x6013, "mov r1,r0"),           # 35
+        (0x7001, "add #1,r0"),           # 36
+        (0x4018, "shll8 r0"),            # 37
+        (0x303C, "add r3,r0"),           # 38
+        (0x305C, "add r5,r0"),           # 39
+        (0x6000, "mov.b @r0,r0"),        # 40
+        (0x600C, "extu.b r0,r0"),        # 41
+        # store(42): rec.x2 = width ; r2 += 128 ; 다음 노드
+        (0x2202, "mov.l r0,@r2"),        # 42
+        (0xE120, "mov #32,r1"),          # 43 (★ 글자 스트라이드 320→128)
+        (0x4108, "shll2 r1"),            # 44 128
+        (0x321C, "add r1,r2"),           # 45
+        (0x4710, "dt r7"),               # 46
+        (0x6662, "mov.l @r6,r6"),        # 47 next
+        (None, "bf loop"),               # 48 count 남으면 계속
+        (None, "bra done"),              # 49
         (S.nop(), "nop"),                # 50
-        # subtable(51):
-        (0x6013, "mov r1,r0"),           # 51
-        (0x7001, "add #1,r0"),           # 52
-        (0x4018, "shll8 r0"),            # 53
-        (0x303C, "add r3,r0"),           # 54
-        (0x305C, "add r5,r0"),           # 55
-        (0x6000, "mov.b @r0,r0"),        # 56
-        (0x600C, "extu.b r0,r0"),        # 57
-        # store(58): rec.x2 = width ; r2 += 320
-        (0x2202, "mov.l r0,@r2"),        # 58
-        (0xE120, "mov #32,r1"),          # 59 (★ 글자 스트라이드 320→128)
-        (0x4108, "shll2 r1"),            # 60 128
-        (0x321C, "add r1,r2"),           # 61
-        (0x4710, "dt r7"),               # 62
-        (0x8BCC, "bf 0x1a"),             # 63 → loop(13)
-        # 원본 6워드
-        (0x6BA3, "mov r10,r11"),         # 64
-        (0x4B08, "shll2 r11"),           # 65
-        (0xEC54, "mov #84,r12"),         # 66
-        (0x3C8C, "add r8,r12"),          # 67
-        (0xE520, "mov #32,r5"),          # 68 (★ 게임 copy 글자 스트라이드 320→128)
-        (0x4508, "shll2 r5"),            # 69 128
-        (S.rts(), "rts"),                # 70
-        (S.nop(), "nop"),                # 71
+        # skip(51): len 0 노드 — count 안 줄이고 다음
+        (0x6662, "mov.l @r6,r6"),        # 51
+        (None, "bra loop"),              # 52
+        (S.nop(), "nop"),                # 53
+        # done(54): 원본 6워드
+        (0x6BA3, "mov r10,r11"),         # 54
+        (0x4B08, "shll2 r11"),           # 55
+        (0xEC54, "mov #84,r12"),         # 56
+        (0x3C8C, "add r8,r12"),          # 57
+        (0xE520, "mov #32,r5"),          # 58 (★ 게임 copy 글자 스트라이드 320→128)
+        (0x4508, "shll2 r5"),            # 59 128
+        (S.rts(), "rts"),                # 60
+        (S.nop(), "nop"),                # 61
     ]
+    LOOP, LOOKUP_SUB, STORE, SKIP, DONE = 15, 35, 42, 51, 54
+    def rel(i, t):                       # 분기 변위(워드): 목적지 - (분기+2)
+        return t - (i + 2)
+    body[16] = (S.bt(rel(16, DONE)), None)
+    body[19] = (S.bt(rel(19, SKIP)), None)
+    body[30] = (S.bt(rel(30, LOOKUP_SUB)), None)
+    body[33] = (S.bra(rel(33, STORE)), None)
+    body[48] = (S.bf(rel(48, LOOP)), None)
+    body[49] = (S.bra(rel(49, DONE)), None)
+    body[52] = (S.bra(rel(52, LOOP)), None)
     n = len(body)
     lit_off = (n * 2 + 3) & ~3
     body += [(S.nop(), "nop")] * ((lit_off - n * 2) // 2)
