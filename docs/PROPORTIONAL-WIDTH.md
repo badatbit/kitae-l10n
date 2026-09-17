@@ -675,17 +675,42 @@ TRFGUIDEMAP 이 만드는 것: `CTRFMessage`/`ITRFMessage` ×5, `CTRFMsgput`/`IC
     메시지 목록을 받는다(`0x10002e68`). 스폿 설명은 `guides.msl` 을 가리키는 16B 레코드 표
     (`0x144e4~`, 큐빅 사고의 그 표)로 같은 경로. 이 목록의 표시는 `ICustomMsgput`
     (`CTRFMsgput`, `0x1000142c`)·`CTRFTXOut` 이 맡는다.
-  * **고정폭의 정체 = `CTRFTXOut` 의 그리기.** vtable `0x1001c980`(27슬롯, 이름 문자열
-    `CTRFTXOut`@`0x1001c868` 바로 뒤)의 `[12]=0x1000970c` `[13]=0x10009b88` `[14]=0x10009bec` 가
-    폰트 `vt[52]` DrawChar 를 부르면서 **폭을 r6=24(전각)/12(반각) 로 명시**한다
-    (`0x10009bc6~`: 플래그 비트로 24/12 선택, r7=24). 폭표를 보지 않으니 글자마다 같은
-    칸이다. 이 vtable 엔 훅 함수가 하나도 없다.
+  * **고정폭의 정체 = `CTRFTXOut` 이 안에 품은 `CTRFTextOut` 의 그리기.** (2026-09-18 정정:
+    처음엔 `0x1001c980` 을 CTRFTXOut vtable 로 적었는데, 그 표는 QI 표가 `ITRFTextOut` 인
+    **CTRFTextOut** 의 것이다. 등록 레코드 `.data 0x1013618c` → 생성자 `0x1000b19c`, 52B,
+    최종 vtable `0x1001c9c8` = [0..2] QI/AddRef/Release + `[3]=0x1000970c [4]=0x10009b88
+    [5]=0x10009bec [6..8]`.)
+    - `CTRFTXOut` 등록 레코드 `.data 0x101360e8` → 생성 `0x1000a3c0`→`0x1000a3ec`(64B).
+      vtable 둘: +0 `0x1000e0d4` = **ITRFTXOut 13슬롯** (`[5]=0x1000a068` 줄 추가
+      (x,y,str,len) → 줄 리스트 +32, `[9]=0x1000a140` 표시 플래그 +60, `[10]=0x1000a27c`,
+      `[12]=0x1000a00c` 줄 전부 삭제), +4 `0x1000e108` = **ITRFDrawObject** (`[3]=0x1000a148`
+      Draw). 초기화 `0x10009f1c` 가 `TRFCreateInstance("CTRFTextOut",0,"ITRFTextOut",&+56)`
+      로 내부 객체를 만든다.
+    - Draw `0x1000a148` 은 줄마다 `내부->vt[5]`(= `0x10009bec`, `0x1000a1fa`/`0x1000a260`)
+      를 부르고, `0x10009bec` 의 문자 루프가 폰트 DrawChar(`0x10009cda`, 폰트 vt 오프셋 52)
+      를 부르면서 **전진폭을 2바이트 글자 `mov #24,r8`(`0x10009c56`) / 1바이트
+      `mov #12,r8`(`0x10009c8e`) 로 상수 지정**한다. 폭표를 보지 않으니 글자마다 같은 칸이다.
+      이 경로엔 훅 함수가 하나도 없다.
 
-TRFSTRINGS 안의 DrawChar(vt[52]) 호출은 8곳이고 훅이 감싸는 건 CTRFMessage 의 2곳
+TRFSTRINGS 안의 DrawChar 호출 가운데 훅이 감싸는 건 CTRFMessage 의 2곳
 (`0x10003584`·`0x100035ae`)뿐이다. 나머지: `CTRFSquareStr`(`0x10002854`·`0x1000970c`),
-폰트 내부 아틀라스 빌드(`0x10007c64`·`0x10007df0`, vt `0x1000dbb4`), `CTRFTXOut`(위 둘).
+폰트 내부 아틀라스 빌드(`0x10007c64`·`0x10007df0`, vt `0x1000dbb4`), `CTRFTextOut`(위).
 
-**따라서** 도시 설명(및 TXOut/Msgput 을 쓰는 다른 UI 텍스트)에 가변폭을 주려면
-`0x1001c980[13]/[14]` 가 넘기는 폭 인자(24/12)를 폭표 조회로 바꾸는 **별도 훅**이 필요하다 —
-CTRFMessage 훅과 독립이고, 그 클래스는 `rec.x2` 파이프라인을 쓰지 않는다.
+**따라서** 도시 설명(및 TXOut 을 쓰는 다른 UI 텍스트)에 가변폭을 주려면 `CTRFTextOut`
+`0x10009bec` 의 전진폭 상수(`0x10009c56`/`0x10009c8e` 의 r8)를 폭표 조회로 바꾸는 **별도
+훅**이 필요하다 — CTRFMessage 훅과 독립이고, 그 클래스는 `rec.x2` 파이프라인을 쓰지 않는다.
+
+### 타이틀 VMS 메시지("메모리 카드에 접근 중입니다")도 같은 경로 (2026-09-18)
+
+KITATITLE.DLL 엔 `CTRFMessage`/`ITRFMessage` 이름 자체가 없다. `0x100012f8`(CKitaTitle 초기화)이
+`TRFCreateInstance("CTRFClipper",…,&this+116)` 로 회색 상자(20,368)-(620,452)·색 `0x50000030`
+을 만들고, `0x10001420` 에서 `TRFCreateInstance("CTRFTXOut",0,"ITRFTXOut",&this+120)` 한 객체에
+`vt[9](1)`·`vt[12]()` 뒤 **`vt[5](0,0,str,-1)`**(`0x1000146c`) 로 문자열을 넘긴다. 문자열은
+`.data` 셀 `0x100130e0` → `0x10013198`(translation/ui/KITATITLE.json offset 67992). 그 뒤는
+위 CTRFTXOut → 내부 CTRFTextOut → 24/12 고정폭 경로 그대로다.
+
+`CTRFTXOut` 을 만드는 모듈(= 전부 고정폭): ITEMMENU, KITACMDMENU, KITATITLE, SOUNDROOM,
+TRFFRUITION, TRFGUIDEMAP(×2), TRFOPTIONGAME(×2), TRFROLL, TRFSCENELAUNCH, TRFSYSCONFIG,
+TRFVMSVIEW. 구현·등록은 TRFSTRINGS 하나뿐이다(디스크 /TRF 72개 전수, 미추출 2개는 .FOB/.FPB).
+`translation/ui/TRFVMSVIEW.json` 의 저장/불러오기 안내문도 이 경로다.
 
