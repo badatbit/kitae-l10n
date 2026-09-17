@@ -93,5 +93,6 @@
   "vw_extension": false,
   "name_separator": true,
   "layout_patch": true,
-  "vw_txout": true
+  "vw_txout": true,
+  "save_header_reorder": true
 }

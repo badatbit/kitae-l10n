@@ -46,6 +46,62 @@
       "from": "0e02",
       "to": "3a02",
       "why": "스폿 목록 회색 배경 오버레이 우측 X (u16 리터럴 @0x28b0): 526→570. 흰막대 우측(114+456)과 일치."
+    },
+    {
+      "module": "/TRF/TRFVMSVIEW.DLL",
+      "offset": 8454,
+      "from": "17b1",
+      "to": "0900",
+      "why": "저장 슬롯 머리글 순서: 앞머리 장소 호출/strlen/r9 전진 무력화 (@0x10002d06)",
+      "option": "save_header_reorder"
+    },
+    {
+      "module": "/TRF/TRFVMSVIEW.DLL",
+      "offset": 8460,
+      "from": "0b40",
+      "to": "0900",
+      "why": "저장 슬롯 머리글 순서: 앞머리 장소 호출/strlen/r9 전진 무력화 (@0x10002d0c)",
+      "option": "save_header_reorder"
+    },
+    {
+      "module": "/TRF/TRFVMSVIEW.DLL",
+      "offset": 8476,
+      "from": "0c39",
+      "to": "0900",
+      "why": "저장 슬롯 머리글 순서: 앞머리 장소 호출/strlen/r9 전진 무력화 (@0x10002d1c)",
+      "option": "save_header_reorder"
+    },
+    {
+      "module": "/TRF/TRFVMSVIEW.DLL",
+      "offset": 8550,
+      "from": "17d4406220290179418409e2",
+      "to": "14e00c601840627003000900",
+      "why": "저장 슬롯 머리글: 月 뒤 전각공백 훅 (@0x10002d66 → 스텁 0x100041d4)",
+      "option": "save_header_reorder"
+    },
+    {
+      "module": "/TRF/TRFVMSVIEW.DLL",
+      "offset": 8738,
+      "from": "69d50c3966d00ae110290179",
+      "to": "13e00c6018406a7003000900",
+      "why": "저장 슬롯 머리글: 시간대 뒤에 장소 붙이는 훅 (@0x10002e22 → 스텁 0x10004198)",
+      "option": "save_header_reorder"
+    },
+    {
+      "module": "/TRF/TRFVMSVIEW.DLL",
+      "offset": 13720,
+      "from": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "to": "224f0c3981e0002940e0918000b002792a0b09d1bc311362f47284550b4293661e790ae11029017903d1bc317c7112601255264f0b0009009cedffff224f00b009e22a0306d43c344264406090804184918081e0928040e00379264f0b000900eaebffff",
+      "why": "저장 슬롯 머리글 스텁 C(60B @0x10004198) + D(40B @0x100041d4) — .text 꼬리 케이브",
+      "option": "save_header_reorder"
+    },
+    {
+      "module": "/TRF/TRFVMSVIEW.DLL",
+      "offset": 440,
+      "from": "98310000",
+      "to": "fc310000",
+      "why": ".text VirtualSize 0x3198→0x31fc (케이브 스텁 포함)",
+      "option": "save_header_reorder"
     }
   ]
 }

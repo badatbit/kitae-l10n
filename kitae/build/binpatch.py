@@ -4,7 +4,8 @@
 문자열이 아니라 **상수**(레이아웃 좌표·크기 등)를 고칠 때 쓴다. uipatch 는
 표시 문자열만 다루므로, `mov #imm` 의 즉시값 같은 코드 상수는 여기서 바꾼다.
 
-근거는 `data/dllpatch.json`. 각 항목은 {module, offset, from, to, why}:
+근거는 `data/dllpatch.json`. 각 항목은 {module, offset, from, to, why[, option]}:
+- option 이 있으면 kitae.config.json 의 그 키(불리언, 기본 true)가 false 일 때 건너뛴다.
 - offset 은 모듈(원본 DLL) 기준 파일 오프셋.
 - from/to 는 16진 바이트열. **from 이 실제 바이트와 일치할 때만** 적용한다
   (원본이 바뀌면 조용히 엉뚱한 곳을 덮지 않도록).
@@ -37,6 +38,9 @@ def apply(cfg, ui):
     spec = json.load(io.open(path, encoding="utf-8"))
     n = 0
     for e in spec.get("patches", []):
+        opt = e.get("option")
+        if opt and not cfg.get(opt, True):
+            continue                      # 항목별 옵션(kitae.config.json 불리언)으로 끈 패치
         mod = e["module"]
         blob = bytearray(ui.get(mod) or open(uipatch.original(cfg, mod), "rb").read())
         off = int(e["offset"])
