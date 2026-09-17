@@ -120,6 +120,21 @@ HOOK4 = 0x100076DC
 HOOK4_LEN = 12
 HOOK4_ORIG = (0x6843, 0x6A53, 0x7FB0, 0x6EF3, 0x7FBC, 0x548E)
 
+# ★ CTRFTextOut 전진폭 훅 — CTRFTXOut(타이틀 VMS 메시지·가이드북 도시 설명·옵션·저장
+# 안내 등 12개 모듈)이 품은 CTRFTextOut::DrawString(0x10009bec)의 전진 구간
+# 0x10009CE2~0x10009CED(12B: mov.l lit,r0 / mov #100,r5 / mov.l @(48,r10),r2 /
+# mul.l r2,r8 / jsr @r0 / sts macl,r4). r8 은 상자폭(24=2바이트, 12=1바이트)이고
+# 같은 r8 이 0x10009cb6 의 DrawChar 상자폭에도 쓰이므로 **상자는 두고 전진만** 표로
+# 바꾼다. 글자 코드는 r11(이미 글자 뒤로 전진)에서 되읽는다: r8==24 면
+# (@(r11-2)<<8)|@(r11-1), 아니면 원래 12 유지. 복귀 0x10009CEE. 임시 r0~r5 (r6·r7 불변).
+# 스텁은 .ktrw 가 아니라 .text 꼬리 케이브(징검다리 뒤)에 둔다 — .ktrw 는 디스크
+# 익스텐트 한계라 68B 뿐이고, 케이브면 훅 bsrf(16비트)로 바로 닿고 나눗셈 썽크
+# 0x1000b4e0 도 bsr(±4KB) 안이다. 표는 .ktrw 의 기존 표를 mova+거리 리터럴로 공유.
+HOOK5 = 0x10009CE2
+HOOK5_LEN = 12
+HOOK5_ORIG = (0xD056, 0xE564, 0x52AC, 0x0827, 0x400B, 0x041A)
+HOOK5_DIV = 0x1000B4E0        # 원본이 jsr 하던 나눗셈 썽크(COREDLL #2001, r4/r5→r0)
+
 
 # ★ 디스크 익스텐트에 여유가 1,024B 뿐이다.
 # TRFSTRINGS 의 ISO 엔트리는 1,275,904B 인데 원본이 1,274,880B 다. 그래서
@@ -1378,6 +1393,74 @@ def trampoline(tramp_va, stub_va):
     return code + struct.pack("<i", delta)
 
 
+def stub_txout_advance(stub_va, table_va, div_va=HOOK5_DIV):
+    """CTRFTextOut 전진폭 훅(0x10009CE2) 스텁 — 2바이트 글자면 폭표(.ktrw 의 기존 표)로
+    전진폭을 구하고, 원본대로 r4=폭*@(48,r10)(배율), r5=100 으로 나눗셈 썽크를 불러
+    r0 를 돌려준다. 1바이트 글자(r8==12)는 원래 12. 표 주소는 mova 로 얻은 리터럴
+    자리에 (표-리터럴) 거리를 더해 만든다 — 절대주소가 없어 재배치가 필요 없다."""
+    S = sh4
+    body = [
+        (0x6283, "mov r8,r2"),            # 0  w = 상자폭(24/12)
+        (0xE018, "mov #24,r0"),           # 1
+        (0x3800, "cmp/eq r0,r8"),         # 2  2바이트 글자?
+        (S.bf(29), None),                 # 3  → one_byte(34)
+        (0x61B3, "mov r11,r1"),           # 4
+        (0x71FE, "add #-2,r1"),           # 5  r1 = 글자 시작
+        (0x6010, "mov.b @r1,r0"),         # 6  lead
+        (0x600C, "extu.b r0,r0"),         # 7
+        (0x6303, "mov r0,r3"),            # 8  r3 = page
+        (0x8411, "mov.b @(1,r1),r0"),     # 9  trail
+        (0x600C, "extu.b r0,r0"),         # 10
+        (0x6503, "mov r0,r5"),            # 11 r5 = trail
+        (0xC700, None),                   # 12 mova LIT,r0 (변위 아래서)
+        (0x6102, "mov.l @r0,r1"),         # 13 r1 = 표-LIT 거리
+        (0x301C, "add r1,r0"),            # 14 r0 = 표
+        (0x6403, "mov r0,r4"),            # 15 r4 = 표
+        (0x6033, "mov r3,r0"),            # 16 page
+        (0x004C, "mov.b @(r0,r4),r0"),    # 17 페이지맵[page]
+        (0x600C, "extu.b r0,r0"),         # 18
+        (0x6103, "mov r0,r1"),            # 19 pv
+        (0xC880, "tst #128,r0"),          # 20 직접값?
+        (S.bt(3), None),                  # 21 → sub(26)
+        (0x6013, "mov r1,r0"),            # 22
+        (0xC97F, "and #127,r0"),          # 23 폭 = pv&0x7F
+        (S.bra(7), None),                 # 24 → got(33)
+        (S.nop(), "nop"),                 # 25
+        (0x6013, "mov r1,r0"),            # 26 sub: pv
+        (0x7001, "add #1,r0"),            # 27
+        (0x4018, "shll8 r0"),             # 28 *256
+        (0x304C, "add r4,r0"),            # 29 +표
+        (0x305C, "add r5,r0"),            # 30 +trail
+        (0x6000, "mov.b @r0,r0"),         # 31
+        (0x600C, "extu.b r0,r0"),         # 32 폭
+        (0x6203, "mov r0,r2"),            # 33 got: w = 폭
+        (0x51AC, "mov.l @(48,r10),r1"),   # 34 one_byte: 배율
+        (0x0217, "mul.l r1,r2"),          # 35 macl = w*배율
+        (0xE564, "mov #100,r5"),          # 36
+        (S.sts_pr_push(), None),          # 37 pr 보존(훅 복귀주소)
+        (0xB000, None),                   # 38 bsr 썽크 (변위 아래서)
+        (0x041A, "sts macl,r4"),          # 39 (지연슬롯) r4 = w*배율
+        (S.lds_pr_pop(), None),           # 40
+        (S.rts(), "rts"),                 # 41
+        (S.nop(), "nop"),                 # 42
+        (S.nop(), "nop"),                 # 43 (4바이트 정렬)
+    ]
+    lit_off = len(body) * 2
+    assert lit_off % 4 == 0, lit_off
+    body[12] = (S.mova(lit_off - ((12 * 2 + 4) & ~3)), None)
+    bsr_pc = stub_va + 38 * 2 + 4
+    d = (div_va - bsr_pc) // 2
+    if not -2048 <= d <= 2047 or (div_va - bsr_pc) % 2:
+        raise ValueError(f"bsr 거리 {div_va - bsr_pc:#x} 가 ±4KB 밖 (스텁 {stub_va:#x})")
+    body[38] = (S.bsr(d), None)
+    code = S.assemble(body, stub_va)
+    # 되읽기: bsr 목적지·mova 리터럴 자리 검증
+    got = [a for a, t in S.disasm([w for w, _ in body], stub_va) if t.startswith("bsr")]
+    if len(got) != 1:
+        raise ValueError("bsr 이 하나가 아니다")
+    return code + struct.pack("<i", table_va - (stub_va + lit_off))
+
+
 SECTION = ".ktrw"
 CHARS = 0xE0000020            # CODE | EXECUTE | READ | WRITE (스텁이 폭 스크래치 4B 를 쓴다)
 
@@ -1621,6 +1704,23 @@ def apply(cfg, blob):
             out[toff:toff + len(tr)] = tr
             _grow_virtual(out, ".text", (tva - lo) + len(tr))
             out[raw + (hookva - lo): raw + (hookva - lo) + hlen] = hook_code(hookva, tva)
+        # ★ CTRFTextOut 전진폭 훅(HOOK5) — 스텁은 징검다리 3개 바로 뒤 케이브에.
+        txout_note = ""
+        if cfg.get("vw_txout", True):
+            for i, want in enumerate(HOOK5_ORIG):
+                got = struct.unpack_from("<H", blob, raw + (HOOK5 - lo) + i * 2)[0]
+                if got != want:
+                    raise ValueError(f"{HOOK5 + i*2:#x} = {got:#06x}, {want:#06x} 기대")
+            table_va = va_cpy + (len(s_cpy) - len(table))
+            s5_va, s5_off = t_va + 3 * tl, t_off + 3 * tl
+            assert s5_va % 4 == 0, hex(s5_va)
+            s5 = stub_txout_advance(s5_va, table_va)
+            if any(out[s5_off:s5_off + len(s5)]):
+                raise ValueError(f"케이브 {s5_va:#x} 가 비어 있지 않다")
+            out[s5_off:s5_off + len(s5)] = s5
+            _grow_virtual(out, ".text", (s5_va - lo) + len(s5))
+            out[raw + (HOOK5 - lo): raw + (HOOK5 - lo) + HOOK5_LEN] = hook_code(HOOK5, s5_va)
+            txout_note = f" · TXOut 훅 {HOOK5:#x}→{s5_va:#x}({len(s5)}B, 표 {table_va:#x})"
         # 게임의 rec.x2 쓰기 (0x10003b12 mov.l r1,@(8,r2) = 0x1212) → nop
         if struct.unpack_from("<H", blob, raw + (0x10003B12 - lo))[0] != 0x1212:
             raise ValueError("0x10003b12 != 0x1212")
@@ -1649,7 +1749,7 @@ def apply(cfg, blob):
         ext = "확장" if cfg.get("vw_extension", True) else "핵심만(≤25)"
         note = (f"가변폭(rec.x2·{ext}): adv{len(s_adv)}+dc1{len(s_dc1)}+cpy{len(s_cpy)}B "
                 f"표{len(table)}B({npages}p) @ {va:#x} · 훅 {HOOK:#x}/{HOOK3:#x}/{HOOK2:#x}"
-                f"→{t_va:#x} · 0x10003b12 nop")
+                f"→{t_va:#x} · 0x10003b12 nop{txout_note}")
         return bytes(out), note
 
     # (mode is not True: 단일 draw 훅 진단 경로)

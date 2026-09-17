@@ -92,5 +92,6 @@
   "font_variable": true,
   "vw_extension": false,
   "name_separator": true,
-  "layout_patch": true
+  "layout_patch": true,
+  "vw_txout": true
 }

@@ -37,6 +37,13 @@ def _dig(d, key, value=None, set_=False):
             value = int(value)
         elif isinstance(old, list):
             value = [v.strip() for v in value.split(",") if v.strip()]
+        elif old is None:
+            # 새 키: true/false·정수 리터럴은 그 타입으로 (문자열 "true" 가 남으면
+            # cfg.get(...) 이 늘 참이라 끌 수 없다)
+            if value.lower() in ("true", "false"):
+                value = value.lower() == "true"
+            elif value.lstrip("-").isdigit():
+                value = int(value)
         cur[parts[-1]] = value
         return value
     return cur.get(parts[-1])
