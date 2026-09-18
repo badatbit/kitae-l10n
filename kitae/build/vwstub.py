@@ -1328,7 +1328,11 @@ def stub_diag():
 
 
 def hook_code(hook_va, stub_va):
-    """훅 １２바이트. `bsrf` 로 스텁까지 상대 분기한다."""
+    """훅 １２바이트. `bsrf` 로 스텁까지 상대 분기한다.
+
+    ★ 거리를 **r0** 에 만들어 뛰므로 스텁에 들어갈 때 r0 은 훅 자리의 원본 값이 아니다.
+    스텁이 원본 r0(예: 직전 strlen 결과)을 써야 하면 스텁 안에서 다시 구해야 한다
+    (tools/gen_savehdr_patch.py 의 HOOK C 가 이걸로 한 번 깨졌다)."""
     S = sh4
     # ★ bsrf 는 다섯째 명령(주소 hook+8)이다. 목적지 = (bsrf주소+4) + r0.
     # 예전에 `extu.b` 를 넣고도 이 식을 hook+6 으로 두어 **２바이트 어긋난**
