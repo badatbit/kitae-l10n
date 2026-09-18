@@ -210,7 +210,9 @@ def patch_all(cfg, lang, encode, base=None, verbose=False):
     for name, doc in mods:
         rows = []
         for e in doc["entries"]:
-            if not ((e.get("text") or {}).get(lang) or "").strip():
+            # 비었는지는 ASCII 공백만 벗겨 본다 — str.strip() 은 EM SPACE·FIGURE SPACE 도 지워서
+            # 공백만으로 된 칸 맞춤 항목(저장 슬롯 15칸 필드, 자릿수 패딩)을 미번역으로 오판했다.
+            if not ((e.get("text") or {}).get(lang) or "").strip(" \t\r\n"):
                 continue
             # `force` 는 키 차단을 뚫는다 — 같은 ja 가 다른 모듈에선 키라도
             # 이 자리는 표시용임을 사람이 확인했을 때만 쓴다(검토 근거를 남긴다).
@@ -222,7 +224,7 @@ def patch_all(cfg, lang, encode, base=None, verbose=False):
             continue
         # 보호 항목은 raw 로 — 인코더는 (text, raw) 를 받는다(hangul.encoder)
         fixed_texts = {e["text"][lang] for e in doc["entries"]
-                       if ((e.get("text") or {}).get(lang) or "").strip() and is_fixed(e)}
+                       if ((e.get("text") or {}).get(lang) or "").strip(" \t\r\n") and is_fixed(e)}
 
         def enc(t, _enc=encode, _fixed=fixed_texts):
             return _enc(t, raw=t in _fixed)
