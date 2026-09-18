@@ -158,7 +158,7 @@
 
 | 규칙 | 코드 |
 |---|---|
-| 셀 목록·폭 단일 출처 | `kitae/build/widths.py` — `SYMBOL_CELLS`(ASCII 93 + `' '` + EN SPACE + EM SPACE + 합자 7), `LIGATURES`, `Widths.width/offset`(숫자 고정 = 글꼴 숫자 전진폭 15, ASCII 는 글꼴 전진폭, `・` 22, 그 밖 24). 옛 보정(`SENT`·`DEC`·`QOPEN`·따옴표 12) 삭제 |
+| 셀 목록·폭 단일 출처 | `kitae/build/widths.py` — `SYMBOL_CELLS`(ASCII 93 + `' '` + EN SPACE + EM SPACE + 합자 7), `LIGATURES`, `Widths.width/offset`(숫자 고정 = 글꼴 숫자 전진폭 15+1=16(오른쪽 끝 잘림 방지, 9/19), FIGURE SPACE 도 16, ASCII 는 글꼴 전진폭, `・` 22, 그 밖 24). 옛 보정(`SENT`·`DEC`·`QOPEN`·따옴표 12) 삭제 |
 | 셀 배정 | `hangul.SYMBOL_PAGE = 0xE5` 에 기호 셀을 먼저 배정(`inject`), 한글은 그 뒤 페이지 순서. `data/codepage.json` 에 `" "`·`". "` 같은 키로 기록. **숫자 `0`~`9` 는 연속 10칸**(`contiguous_digits`) — 엔진이 `'０'` 템플릿 뒤 바이트 + n 으로 자릿수·슬롯 번호를 만들기 때문(게임이 쓰는 0xE559 때문에 '8' 이 밀려 한자로 나온 적 있음) |
 | 글리프 단위 | `hangul.units(text)` — 마크업(`windows.MARKUP_ALL`: `@..@ &..& %N% *N $N`) 분리 + 합자 병합. `glyph_string` 은 타이밍용(합자 = 첫 글자, `%N%` 은 예전처럼 글자로) |
 | 인코더 | `hangul.encode(text, cp, raw=False)` — 셀·EM(0x8140)·cp932. `raw` 는 보호 항목(ASCII 1바이트, U+3000, 합자 없음). `encoder(cfg)` 가 `(text, raw)` |
@@ -172,4 +172,4 @@
 
 주의: 저장 슬롯 장소 필드(TRFVMSVIEW 스폿명)는 보호 항목이라 반각 공백 1바이트로 22B 를 맞춘다
 (`0ＪＲ삿포로역 남쪽 출구`). 인게임 확인 항목: 합자 글리프 모양, ASCII 셀의 세로 위치, 숫자
-고정폭 15, EM SPACE 로 바뀐 UI 정렬.
+고정폭 16(9/19, 15 는 끝이 잘림), EM SPACE 로 바뀐 UI 정렬.

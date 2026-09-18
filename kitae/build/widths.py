@@ -22,8 +22,9 @@
     한글          24      글꼴 상자(22)보다 넓게 — 25px 래스터가 23px 까지 나온다
     ' '            9      Plex 의 6 은 어절이 붙어 보인다
     EN / EM       12/24
-    FIGURE SPACE  = 숫자 폭(15) — 한 자리 월·일 앞자리 패딩
-    숫자           고정폭  = 글꼴의 숫자 전진폭(Plex 는 tabular, 25px 에서 15)
+    FIGURE SPACE  = 숫자 폭(16) — 한 자리 월·일 앞자리 패딩
+    숫자           고정폭  = 글꼴의 숫자 전진폭 +1 (Plex 는 tabular, 25px 에서 15+1=16 —
+                          15 로는 숫자 오른쪽 끝이 미묘하게 잘려 보인다, 2026-09-19 지시)
     ASCII 나머지    글꼴 전진폭 그대로(사이드베어링 포함) — 여백 보정 없음
     `²` U+00B2     글꼴 전진폭(9) — 가이드 면적 `km²`. `㎢` 는 Plex 에서 44px 라 한 칸에 못 넣는다
     합자           구성 글자 폭의 합
@@ -48,6 +49,7 @@ MID = "・"
 MID_W = 22
 SEP24 = "\u29f5"              # 선택지 구분 기호 — ASCII 슬래시 모양을 24 칸 가운데(고정 피치 행용)
 DIGITS = "0123456789"
+DIGIT_PAD = 1                 # 숫자 고정폭 = 글꼴 전진폭 + 1 (오른쪽 끝 잘림 방지)
 MARKUP_CHARS = "@&%*$"        # 제어 코드 문자 — 글자로 쓰려면 전각 ％＆＊＠＄
 FONT_ADV = "²"                # ASCII 밖인데 글꼴 전진폭을 쓰는 라틴 기호 (km²)
 
@@ -97,7 +99,7 @@ class Widths:
 
     @functools.lru_cache(maxsize=1)
     def digit_w(self):
-        return max(self.adv(d) for d in DIGITS)
+        return max(self.adv(d) for d in DIGITS) + DIGIT_PAD
 
     def shape(self, ch):
         """그 칸에 실제로 그릴 모양."""
