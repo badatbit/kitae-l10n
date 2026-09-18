@@ -87,8 +87,8 @@ def _docs():
 
 # 사람이 정한 보호 항목 — 반각 공백으로 칸을 맞춘 라벨(원문엔 ASCII 가 없어 자동 판정 밖)
 FIXED = {("KITATITLE", 67976), ("TRFOPTIONGAME", 89984), ("TRFOPTIONGAME", 90008)}
-# 저장 슬롯 장소 필드는 도시 8B 와 합쳐 30B — 반각 공백(1B)으로 22B 에 맞춘다(보호 항목)
-RETEXT = {("TRFVMSVIEW", 65252): "0ＪＲ삿포로역 남쪽 출구"}
+# 저장 슬롯 장소 필드는 도시 8B 와 합쳐 30B — 스폿명 22B 이하(어절 공백 셀도 2B)
+RETEXT = {("TRFVMSVIEW", 65252): "0JR삿포로역 남쪽 출구"}   # 스폿명 어절 공백은 raw 에서도 셀(9px), 22B
 
 
 def main():

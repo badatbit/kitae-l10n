@@ -252,10 +252,11 @@ def planes(gray, solid=128, edge=40):
     return body, fringe
 
 
-# 보호 항목(raw)용 — 엔진이 바이트로 조립하는 UI 문자열은 옛 방식 그대로 넣는다.
-#   U+2002(EN SPACE)  -> 0x20    엔진 반각 공백 12px (1바이트)
-#   U+3000            -> 0x8140  게임 전각 공백(폭표 12 = EN, 반각 단위 정렬)
-# EM SPACE(U+2003)·구분 기호(U+29F5)처럼 비ASCII 셀은 raw 에서도 셀로 넣는다(2바이트, 폭 24).
+# 보호 항목(raw)용 — 엔진이 바이트로 조립하는 UI 문자열. 표기는 규칙(§2)과 같다:
+#   ' '  (어절 공백)      -> 어절 공백 셀 (2바이트, 9px)   ← 2026-09-19: 스폿명 `로즈힐 미나미히라기시`
+#   U+2002 EN SPACE       -> 0x20    엔진 반각 공백 12px (1바이트) — 메뉴 라벨 정렬
+#   U+3000                -> 0x8140  게임 전각 공백(폭표 12 = EN, 2바이트) — 고정 폭 필드
+#   그 밖의 셀(한글·EM·FIGURE·⧵ …) -> 셀. ASCII 는 1바이트 그대로(색인 접두·서식).
 _SPACER = {"\u2002": b"\x20", "\u3000": b"\x81\x40"}
 _IDEO = b"\x81\x40"
 
@@ -297,15 +298,16 @@ def glyph_string(text):
 def encode(text, cp, raw=False):
     """번역문 → 게임 바이트. 배정된 셀(한글·ASCII·공백·합자) + cp932.
 
-    `raw` 는 보호 항목(uipatch.is_fixed): ASCII 는 1바이트 그대로, U+3000/EM 은 0x8140,
-    합자·ASCII 셀 재할당을 하지 않는다 — 엔진이 바이트를 세거나 조립하는 문자열."""
+    `raw` 는 보호 항목(uipatch.is_fixed): ASCII 는 1바이트 그대로(단 ' ' 는 어절 공백 셀),
+    EN SPACE 는 1바이트 0x20, U+3000 은 0x8140, 합자·ASCII 셀 재할당은 하지 않는다 — 엔진이
+    바이트를 세거나 조립하는 문자열. 정렬용 12px 공백은 EN 으로 적는다."""
     out = bytearray()
     if raw:
         for ch in text:
-            if ch in cp and ord(ch) > 0x7F:
-                out += bytes(cp[ch])
-            elif ch in _SPACER:
+            if ch in _SPACER:                       # EN → 0x20(1바이트), U+3000 → 0x8140 — 셀 규칙보다 먼저
                 out += _SPACER[ch]
+            elif ch in cp and (ord(ch) > 0x7F or ch == " "):
+                out += bytes(cp[ch])
             else:
                 out += ch.encode("cp932")
         return bytes(out)
