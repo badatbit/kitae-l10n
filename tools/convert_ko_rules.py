@@ -5,8 +5,7 @@
      **두 글자 이상의 토큰**만 ASCII 로(`ＪＲ`→`JR`, `Ｙｏｕ’ｒｅ`→`You're`), 한 글자
      토큰(`Ａ 버튼`·`１Ｆ`·`Ｐ있음`)은 고정폭 전각으로 남긴다(§3-2).
   2. 공백: 줄 첫머리(마크업 뒤 포함)의 전각 공백 → EM SPACE, 반각 공백 → EN SPACE(칸 맞춤).
-     대사·가이드·퀴즈의 어절 사이 전각 공백 하나 → `' '`, 둘 이상 → EM SPACE(정렬).
-     UI 는 전각 공백을 전부 EM SPACE 로(원래 24px 배치 그대로).
+     어절 사이 전각 공백 하나 → `' '`, 둘 이상 → EM SPACE(정렬). UI 도 같다.
   3. `. , ! ? :` 뒤 공백, 줄 끝 공백 제거 — kitae.core.textrules.fix_spacing.
   4. 보호 항목(uipatch.is_fixed)은 건드리지 않는다. 단어장·용어집의 ko 도 같이 바꾼다.
 
@@ -66,11 +65,9 @@ def convert(text, ui=False):
         if m:
             pad = "".join(EM if c == IDEO else EN for c in m.group(2))
             line = m.group(1) + pad + line[m.end():]
-        if ui:
-            line = line.replace(IDEO, EM)
-        else:
-            line = re.sub(f"{IDEO}{{2,}}", lambda mm: EM * len(mm.group()), line)
-            line = line.replace(IDEO, " ")
+        # UI 도 같은 규칙 — 어절 하나는 ' '(9px). 전부 EM 으로 두면 안내문이 고정폭처럼 보인다(9/18 실제 발생).
+        line = re.sub(f"{IDEO}{{2,}}", lambda mm: EM * len(mm.group()), line)
+        line = line.replace(IDEO, " ")
         out.append(line)
     text = "\n".join(out)
     # 3) 문장부호 뒤 공백, 줄 끝 공백

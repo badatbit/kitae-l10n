@@ -162,7 +162,7 @@
 | 글꼴 굽기 | `hangul.inject` — 모든 셀을 `Widths` 로 그림(ASCII 는 글꼴 원점, 합자는 두 글자 연속). 전각 칸 재그림은 `・` 뿐(전각 로마자·기호는 게임 글리프 24) |
 | 타이밍 | `runner._timing_specs` 가 번역 줄을 `glyph_string` 으로 넘김 → `mtg.retime` 이 글리프 수로 나눔 |
 | 검사 | `kitae check` "문자 규칙" — `kitae/core/textrules.py`(`bad_chars`·`space_violations`·`line_glyphs`·`line_px`). 대사만 25글리프·600px, 이름 토큰 8 |
-| 일괄 변환 | `tools/convert_ko_rules.py`(1회) — 전각→ASCII(두 글자 이상 로마자만), 공백(줄머리 = EM/EN, 대사 어절 = `' '`, 둘 이상 = EM, UI 는 전부 EM), 문장부호 뒤 공백(`textrules.fix_spacing`), 단어장·용어집 ko 도 |
+| 일괄 변환 | `tools/convert_ko_rules.py`(1회) — 전각→ASCII(두 글자 이상 로마자만), 공백(줄머리 = EM/EN, 어절 = `' '`, 둘 이상 = EM — UI 도 같음), 문장부호 뒤 공백(`textrules.fix_spacing`), 단어장·용어집 ko 도 |
 | 미리보기 | `kitae render` 가 `units` + `Widths` 폭으로 그림 |
 
 주의: 저장 슬롯 장소 필드(TRFVMSVIEW 스폿명)는 보호 항목이라 반각 공백 1바이트로 22B 를 맞춘다
