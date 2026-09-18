@@ -43,7 +43,7 @@ def _codes(text, cp, widths=None):
         if u in cp:
             out.append((bytes(cp[u]), widths.width(u) if widths else FULL))
             continue
-        if u in ("\u2003", "\u3000"):
+        if u == "\u3000":
             out.append((b"\x81\x40", widths.width(u) if widths else FULL))
             continue
         try:

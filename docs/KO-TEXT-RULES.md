@@ -153,12 +153,12 @@
 
 | 규칙 | 코드 |
 |---|---|
-| 셀 목록·폭 단일 출처 | `kitae/build/widths.py` — `SYMBOL_CELLS`(ASCII 93 + `' '` + EN SPACE + 합자 7), `LIGATURES`, `Widths.width/offset`(숫자 고정 = 글꼴 숫자 전진폭 15, ASCII 는 글꼴 전진폭, `・` 22, 그 밖 24). 옛 보정(`SENT`·`DEC`·`QOPEN`·따옴표 12) 삭제 |
+| 셀 목록·폭 단일 출처 | `kitae/build/widths.py` — `SYMBOL_CELLS`(ASCII 93 + `' '` + EN SPACE + EM SPACE + 합자 7), `LIGATURES`, `Widths.width/offset`(숫자 고정 = 글꼴 숫자 전진폭 15, ASCII 는 글꼴 전진폭, `・` 22, 그 밖 24). 옛 보정(`SENT`·`DEC`·`QOPEN`·따옴표 12) 삭제 |
 | 셀 배정 | `hangul.SYMBOL_PAGE = 0xE5` 에 기호 셀 98개를 먼저 연속 배정(`inject`), 한글은 그 뒤 페이지 순서. `data/codepage.json` 에 `" "`·`". "` 같은 키로 기록 |
 | 글리프 단위 | `hangul.units(text)` — 마크업(`windows.MARKUP_ALL`: `@..@ &..& %N% *N $N`) 분리 + 합자 병합. `glyph_string` 은 타이밍용(합자 = 첫 글자, `%N%` 은 예전처럼 글자로) |
 | 인코더 | `hangul.encode(text, cp, raw=False)` — 셀·EM(0x8140)·cp932. `raw` 는 보호 항목(ASCII 1바이트, U+3000, 합자 없음). `encoder(cfg)` 가 `(text, raw)` |
-| 보호 항목 | `uipatch.is_fixed(e)` — `fixed: true` 또는 원문에 ASCII/탭, 또는 원문이 전각 공백으로 시작·끝. `patch_all` 이 그 항목만 raw 로 |
-| 폭표 | `vwstub.build_table` — 코드페이지 전 셀 + `・` + 0x8140(=EM 24) + 1바이트 ASCII 12. 하위표 2장은 기본폭 아닌 칸이 많은 페이지(0xE5, 0x81) |
+| 보호 항목 | `uipatch.is_fixed(e)` — `fixed: true` 또는 원문(마크업 제외)에 ASCII/탭, 또는 원문이 전각 공백으로 시작·끝. `patch_all` 이 그 항목만 raw 로(U+3000 → 0x8140 = 12px) |
+| 폭표 | `vwstub.build_table` — 코드페이지 전 셀 + `・` + 0x8140(보호 항목의 U+3000 = EN 12, 반각 단위 정렬) + 1바이트 ASCII 12. EM SPACE 는 전용 셀 24. 하위표 2장은 기본폭 아닌 칸이 많은 페이지(0xE5, 0x81) |
 | 글꼴 굽기 | `hangul.inject` — 모든 셀을 `Widths` 로 그림(ASCII 는 글꼴 원점, 합자는 두 글자 연속). 전각 칸 재그림은 `・` 뿐(전각 로마자·기호는 게임 글리프 24) |
 | 타이밍 | `runner._timing_specs` 가 번역 줄을 `glyph_string` 으로 넘김 → `mtg.retime` 이 글리프 수로 나눔 |
 | 검사 | `kitae check` "문자 규칙" — `kitae/core/textrules.py`(`bad_chars`·`space_violations`·`line_glyphs`·`line_px`). 대사만 25글리프·600px, 이름 토큰 8 |

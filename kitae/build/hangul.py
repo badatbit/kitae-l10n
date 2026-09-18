@@ -230,11 +230,12 @@ def planes(gray, solid=128, edge=40):
     return body, fringe
 
 
-# 보호 항목(raw)용 공백 — 엔진이 바이트로 조립하는 UI 문자열은 옛 방식 그대로 넣는다.
+# 보호 항목(raw)용 — 엔진이 바이트로 조립하는 UI 문자열은 옛 방식 그대로 넣는다.
 #   U+2002(EN SPACE)  -> 0x20    엔진 반각 공백 12px (1바이트)
-#   U+2003(EM SPACE)  -> 0x8140  전각 공백 24px
-_SPACER = {"\u2002": b"\x20", "\u2003": b"\x81\x40"}
-_EM = b"\x81\x40"
+#   U+3000            -> 0x8140  게임 전각 공백(폭표 12 = EN, 반각 단위 정렬)
+# EM SPACE(U+2003)는 전용 셀(24px)이라 raw 에서도 셀로 넣는다.
+_SPACER = {"\u2002": b"\x20", "\u3000": b"\x81\x40"}
+_IDEO = b"\x81\x40"
 
 
 def units(text):
@@ -279,7 +280,7 @@ def encode(text, cp, raw=False):
     out = bytearray()
     if raw:
         for ch in text:
-            if ch in cp and is_hangul(ch):
+            if ch in cp and (is_hangul(ch) or ch == "\u2003"):
                 out += bytes(cp[ch])
             elif ch in _SPACER:
                 out += _SPACER[ch]
@@ -291,8 +292,8 @@ def encode(text, cp, raw=False):
             out += u.encode("cp932")            # 제어 코드는 1바이트 그대로
         elif u in cp:
             out += bytes(cp[u])
-        elif u in ("\u2003", "\u3000"):
-            out += _EM
+        elif u == "\u3000":
+            out += _IDEO
         else:
             out += u.encode("cp932")
     return bytes(out)

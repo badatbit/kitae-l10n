@@ -145,7 +145,7 @@ MAX_SUBS = 2
 
 def build_table(cfg, swap=False, probe=None):
     """(표 바이트, 하위표 수). 값은 전부 widths.Widths — 코드페이지의 모든 셀(한글·ASCII·
-    공백·합자)과 `・`·전각 공백 0x8140, 그리고 1바이트 ASCII(보호 항목용, 엔진 반각 12).
+    공백·합자)과 `・`·전각 공백 0x8140(=EN 12), 그리고 1바이트 ASCII(보호 항목용, 엔진 반각 12).
 
     `swap` 이면 코드 키의 두 바이트를 뒤집는다 — 엔진이 `mov.w` 한 번으로 읽으면
     리틀엔디언이라 `0xEE 0xB0` 이 `0xB0EE` 가 된다. `probe` 는 한글 페이지 전부를 그
@@ -156,7 +156,7 @@ def build_table(cfg, swap=False, probe=None):
     전부 24 라 페이지맵 직접값으로 끝난다."""
     import collections
     from kitae.build.hangul import _read_codepage, is_hangul
-    from kitae.build.widths import EM, MID, Widths
+    from kitae.build.widths import EN, MID, Widths
 
     W = Widths(cfg)
     cp = _read_codepage(cfg.path("data", "codepage.json"))
@@ -169,7 +169,7 @@ def build_table(cfg, swap=False, probe=None):
         table[key(*cell)] = probe if (probe and is_hangul(ch)) else W.width(ch)
     mid = MID.encode("cp932")
     table[key(mid[0], mid[1])] = W.width(MID)
-    table[key(0x81, 0x40)] = EM                       # 전각 공백 = EM SPACE
+    table[key(0x81, 0x40)] = EN                       # 게임 전각 공백(보호 항목) = 반각 단위 12
     for c in range(0x20, 0x7F):
         table[c] = 12                                 # 1바이트(보호 항목): 엔진 반각
 

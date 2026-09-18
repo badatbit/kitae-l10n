@@ -10,8 +10,10 @@
   * 한글 완성형 — 번역에 실제로 쓰인 글자만(`hangul.assign`).
   * **ASCII** U+0021~U+007E — 엔진의 1바이트 처리(고정 12px)를 피하려고 2바이트 셀에
     재할당한다. 마크업 문자 `@ & % * $` 는 제외(그건 텍스트가 아니라 제어 코드).
-  * 공백 셋: `' '`(어절, SPACE), EN SPACE(U+2002, 반각), EM SPACE(U+2003 = 전각 공백
-    0x8140, 셀 없음).
+  * 공백 셋: `' '`(어절, SPACE), EN SPACE(U+2002, 반각 12), EM SPACE(U+2003, 전각 24) — 셋 다
+    전용 셀. 게임의 전각 공백 0x8140(U+3000)은 보호 항목(uipatch.is_fixed, raw 인코딩)에만
+    남는데 폭은 **EN 과 같은 12** — 24 의 절반이라 반각 단위로 가운데 정렬을 맞출 수 있다
+    (메뉴 라벨 `시스템　설정`, 예/아니요 칸 맞춤). 9 로 두면 정렬 계산이 안 맞는다(사용자 지시).
   * **합자** `LIGATURES` — `". "` 처럼 두 글자를 한 셀에. 글자 수(타이밍·줄 길이)를
     아끼려는 것. 텍스트는 두 글자 그대로 적고 인코더가 셀로 바꾼다.
 
@@ -35,7 +37,7 @@ CELL = 24                     # 글리프 상자(px) = 전진폭 상한
 HANGUL = 24
 SPACE = 9                     # ' ' 어절 공백
 EN = 12                       # U+2002 EN SPACE
-EM = 24                       # U+2003 EM SPACE (= 전각 공백 0x8140)
+EM = 24                       # U+2003 EM SPACE (전용 셀)
 EN_SPACE, EM_SPACE, IDEO_SPACE = " ", " ", "　"
 MID = "・"
 MID_W = 22
@@ -45,7 +47,7 @@ MARKUP_CHARS = "@&%*$"        # 제어 코드 문자 — 글자로 쓰려면 전
 ASCII_CELLS = tuple(chr(c) for c in range(0x21, 0x7F) if chr(c) not in MARKUP_CHARS)
 LIGATURES = (". ", ", ", "! ", "? ", ": ", " (", ") ")
 # 폰트 셀이 필요한 비한글 글리프 전부 (hangul.SYMBOL_PAGE 에 이 순서로 붙는다)
-SYMBOL_CELLS = (" ", EN_SPACE) + ASCII_CELLS + LIGATURES
+SYMBOL_CELLS = (" ", EN_SPACE, EM_SPACE) + ASCII_CELLS + LIGATURES
 
 # 게임 전각 칸에 다시 그리는 모양 — 이제 `・` 하나뿐
 SHAPE = {MID: "·"}
@@ -101,8 +103,10 @@ class Widths:
             w = SPACE
         elif ch == EN_SPACE:
             w = EN
-        elif ch in (EM_SPACE, IDEO_SPACE):
+        elif ch == EM_SPACE:
             w = EM
+        elif ch == IDEO_SPACE:              # 0x8140 — 보호 항목의 전각 공백 = EN(반각 단위 정렬)
+            w = EN
         elif ch == MID:
             w = MID_W
         elif ch in DIGITS:

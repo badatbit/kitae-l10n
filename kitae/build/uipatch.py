@@ -52,8 +52,10 @@ def is_fixed(e):
 
     판정: 사람이 `fixed: true` 를 달았거나, 원문에 ASCII(서식 템플릿·색인 접두·탭·
     반각 정렬 공백)가 있거나, 원문이 전각 공백으로 시작/끝난다(조각 조립·칸 맞춤)."""
+    from kitae.core.windows import MARKUP_ALL
     ja = (e.get("text") or {}).get("ja") or ""
-    return (bool(e.get("fixed")) or bool(_ASCII.search(ja))
+    plain = MARKUP_ALL.sub("", ja)          # `&マフラー&` 의 & 는 ASCII 가 아니라 마크업
+    return (bool(e.get("fixed")) or bool(_ASCII.search(plain))
             or ja.startswith("\u3000") or ja.endswith("\u3000"))
 
 
