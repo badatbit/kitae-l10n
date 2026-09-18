@@ -25,6 +25,7 @@
     FIGURE SPACE  = 숫자 폭(15) — 한 자리 월·일 앞자리 패딩
     숫자           고정폭  = 글꼴의 숫자 전진폭(Plex 는 tabular, 25px 에서 15)
     ASCII 나머지    글꼴 전진폭 그대로(사이드베어링 포함) — 여백 보정 없음
+    `²` U+00B2     글꼴 전진폭(9) — 가이드 면적 `km²`. `㎢` 는 Plex 에서 44px 라 한 칸에 못 넣는다
     합자           구성 글자 폭의 합
     `・`           22      말줄임(・・・)·나열 겸용, 칸 가운데
     `⧵` U+29F5     24      선택지 구분 기호(시스템 설정 행) — 엔진이 24 고정 피치로 커서 상자를
@@ -48,11 +49,12 @@ MID_W = 22
 SEP24 = "\u29f5"              # 선택지 구분 기호 — ASCII 슬래시 모양을 24 칸 가운데(고정 피치 행용)
 DIGITS = "0123456789"
 MARKUP_CHARS = "@&%*$"        # 제어 코드 문자 — 글자로 쓰려면 전각 ％＆＊＠＄
+FONT_ADV = "²"                # ASCII 밖인데 글꼴 전진폭을 쓰는 라틴 기호 (km²)
 
 ASCII_CELLS = tuple(chr(c) for c in range(0x21, 0x7F) if chr(c) not in MARKUP_CHARS)
 LIGATURES = (". ", ", ", "! ", "? ", ": ", " (", ") ")
 # 폰트 셀이 필요한 비한글 글리프 전부 (hangul.SYMBOL_PAGE 에 이 순서로 붙는다)
-SYMBOL_CELLS = (" ", EN_SPACE, EM_SPACE, SEP24, FIGURE_SPACE) + ASCII_CELLS + LIGATURES
+SYMBOL_CELLS = (" ", EN_SPACE, EM_SPACE, SEP24, FIGURE_SPACE) + ASCII_CELLS + LIGATURES + tuple(FONT_ADV)
 
 # 칸에 실제로 그릴 모양이 문자와 다른 것. REDRAW 는 그중 게임 cp932 칸을 덮어 그리는 것.
 SHAPE = {MID: "·", SEP24: "/"}
@@ -121,7 +123,7 @@ class Widths:
             w = CELL
         elif ch in DIGITS:
             w = self.digit_w()
-        elif is_ascii_cell(ch):
+        elif is_ascii_cell(ch) or ch in FONT_ADV:
             w = self.adv(ch)
         elif "가" <= ch <= "힣":
             w = HANGUL
