@@ -22,6 +22,7 @@
     한글          24      글꼴 상자(22)보다 넓게 — 25px 래스터가 23px 까지 나온다
     ' '            9      Plex 의 6 은 어절이 붙어 보인다
     EN / EM       12/24
+    FOUR-PER-EM    6      U+2005 — EM 의 1/4. 제목 라벨 가운데 정렬의 반 EN 보정(`시스템 설정`: 앞 18px)
     FIGURE SPACE  = 숫자 폭(16) — 한 자리 월·일 앞자리 패딩
     숫자           고정폭  = 글꼴의 숫자 전진폭 +1 (Plex 는 tabular, 25px 에서 15+1=16 —
                           15 로는 숫자 오른쪽 끝이 미묘하게 잘려 보인다, 2026-09-19 지시)
@@ -44,6 +45,8 @@ SPACE = 9                     # ' ' 어절 공백
 EN = 12                       # U+2002 EN SPACE
 EM = 24                       # U+2003 EM SPACE (전용 셀)
 EN_SPACE, EM_SPACE, IDEO_SPACE = " ", " ", "　"
+FOUR_PER_EM_SPACE = " "  # 6px — 반 EN. 메뉴 라벨을 반각 단위로 못 맞출 때(제목 `시스템 설정`)
+Q4 = 6
 FIGURE_SPACE = " "       # 숫자 폭의 공백 — 한 자리 월·일의 앞자리 패딩(저장 슬롯 날짜)
 MID = "・"
 MID_W = 22
@@ -56,7 +59,7 @@ FONT_ADV = "²"                # ASCII 밖인데 글꼴 전진폭을 쓰는 라�
 ASCII_CELLS = tuple(chr(c) for c in range(0x21, 0x7F) if chr(c) not in MARKUP_CHARS)
 LIGATURES = (". ", ", ", "! ", "? ", ": ", " (", ") ")
 # 폰트 셀이 필요한 비한글 글리프 전부 (hangul.SYMBOL_PAGE 에 이 순서로 붙는다)
-SYMBOL_CELLS = (" ", EN_SPACE, EM_SPACE, SEP24, FIGURE_SPACE) + ASCII_CELLS + LIGATURES + tuple(FONT_ADV)
+SYMBOL_CELLS = (" ", EN_SPACE, EM_SPACE, SEP24, FIGURE_SPACE, FOUR_PER_EM_SPACE) + ASCII_CELLS + LIGATURES + tuple(FONT_ADV)
 
 # 칸에 실제로 그릴 모양이 문자와 다른 것. REDRAW 는 그중 게임 cp932 칸을 덮어 그리는 것.
 SHAPE = {MID: "·", SEP24: "/"}
@@ -117,6 +120,8 @@ class Widths:
             w = EM
         elif ch == FIGURE_SPACE:
             w = self.digit_w()
+        elif ch == FOUR_PER_EM_SPACE:
+            w = Q4
         elif ch == IDEO_SPACE:              # 0x8140 — 보호 항목의 전각 공백 = EN(반각 단위 정렬)
             w = EN
         elif ch == MID:

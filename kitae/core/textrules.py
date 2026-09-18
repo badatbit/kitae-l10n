@@ -13,9 +13,10 @@ import re
 from kitae.core.windows import MARKUP_ALL
 
 EN_SPACE, EM_SPACE, IDEO_SPACE, FIGURE_SPACE = " ", " ", "　", " "
+FOUR_PER_EM_SPACE = " "       # U+2005, 6px — 제목 라벨 가운데 정렬 보정
 PUNCT = ".,!?:"                      # 뒤에 공백이 오는 문장부호
 CLOSERS = ")』」>・'\""              # 이 앞에는 공백을 넣지 않는다
-SPACES = " " + EN_SPACE + EM_SPACE + FIGURE_SPACE
+SPACES = " " + EN_SPACE + EM_SPACE + FIGURE_SPACE + FOUR_PER_EM_SPACE
 _ALNUM = re.compile(r"[0-9A-Za-z]")
 
 LIMIT_GLYPHS = 25                    # 엔진 레코드 한도 (vw_extension=false)
