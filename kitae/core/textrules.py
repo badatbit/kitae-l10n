@@ -12,10 +12,10 @@ import re
 
 from kitae.core.windows import MARKUP_ALL
 
-EN_SPACE, EM_SPACE, IDEO_SPACE = " ", " ", "　"
+EN_SPACE, EM_SPACE, IDEO_SPACE, FIGURE_SPACE = " ", " ", "　", " "
 PUNCT = ".,!?:"                      # 뒤에 공백이 오는 문장부호
 CLOSERS = ")』」>・'\""              # 이 앞에는 공백을 넣지 않는다
-SPACES = " " + EN_SPACE + EM_SPACE
+SPACES = " " + EN_SPACE + EM_SPACE + FIGURE_SPACE
 _ALNUM = re.compile(r"[0-9A-Za-z]")
 
 LIMIT_GLYPHS = 25                    # 엔진 레코드 한도 (vw_extension=false)

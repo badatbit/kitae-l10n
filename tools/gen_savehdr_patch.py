@@ -3,14 +3,16 @@
 
 원본 0x10002cf4 는 슬롯 머리글을 `[도시 8B][스폿 …30B 고정][월][月][일][日][시간대]` 순으로
 쓴다(장소는 서브루틴 0x10002f38 이 버퍼 앞에 고정 배치). 이것을
-`[월][月][전각공백][일][日][시간대][반각공백][도시 8B][스폿 …30B]` 로 바꾼다.
+`[월][月][' '][일][日][EM][시간대][EM][도시 8B(EM 채움)][스폿 …30B]` 로 바꾼다.
+숫자는 '０' 항목의 ko 를 `0`(ASCII 셀)으로 두어 엔진의 자릿수 조립이 ASCII 셀을 내고, 앞자리
+패딩 '　' 항목은 FIGURE SPACE(U+2007, 폭 15), 시간대 앞 공백·15칸 필드는 EM SPACE 셀.
 
   * PATCH A/B: 앞머리의 장소 호출(0x10002d06 bsr)·strlen 호출(0x10002d0c jsr)·
     r9 전진(0x10002d1c add r0,r9) 을 nop — 날짜가 버퍼 맨 앞에 쓰이게.
-  * HOOK D(0x10002d66, 12B): 月 두 바이트 뒤에 전각공백을 끼운다(원본 6워드 재현).
-  * HOOK C(0x10002e22, 12B): 시간대 끝(NUL 탐색) 뒤에 반각 공백 → 장소 서브루틴(r5=@(16,r8), r6=r9)
+  * HOOK D(0x10002d66, 12B): 月 두 바이트 뒤에 어절 공백(' ' 셀)을 끼운다(셀 바이트 직접).
+  * HOOK C(0x10002e22, 12B): 시간대 끝(NUL 탐색) 뒤에 EM SPACE 셀 → 장소 서브루틴(r5=@(16,r8), r6=r9)
     → r9+=30 → 개행 → r5=保存日時, r0=strcpy 를 원본 리터럴 풀에서 읽어 복귀.
-  * 스텁 둘(64B+40B)은 .text 꼬리 케이브(0x10004198, 104B)를 꽉 채운다. 절대주소는 하나도 안 박고
+  * 스텁 둘(68B+24B)은 .text 꼬리 케이브(0x10004198, 104B)에. 절대주소는 하나도 안 박고
     `bsr L; sts pr,rN` 으로 얻은 PC 에 **거리 상수**를 더해 풀·함수에 닿는다 → 재배치 불필요.
   * .text VirtualSize 를 케이브 사용분만큼 키운다.
 
@@ -49,6 +51,16 @@ def va2off(va):
     return TEXT_RAW + (va - TEXT_VA)
 
 
+def _cell(ch):
+    """코드페이지의 셀 바이트. 스텁이 글자 바이트를 직접 쓰므로 codepage.json 이 바뀌면 재생성."""
+    cp = json.load(io.open(os.path.join(ROOT, "data", "codepage.json"), encoding="utf-8"))
+    return bytes(cp[ch])
+
+
+def _signed(b):
+    return b - 0x100 if b >= 0x80 else b
+
+
 def stub_c(va):
     """HOOK C 스텁. 진입: r9=시간대 문자열 시작(strcpy 직후), r8=레코드, pr=0x10002e2e.
 
@@ -56,10 +68,11 @@ def stub_c(va):
     (strlen 결과)이 아니다.** 처음엔 `add r0,r9` 로 시작했다가 r9 가 4,970B 뒤로 가 장소·개행·
     보존일시가 버퍼 밖에 쓰였다(화면엔 날짜만 남음). 그래서 시간대의 끝은 NUL 을 직접 찾는다.
 
-    구분 공백은 반각 1바이트(엔진 12px = EN) — 케이브 104B 에 맞추려 2바이트 전각 대신.
-    base(0x10002f44)는 r12 에 보관한다(훅 뒤로 r11·r12 는 이 함수가 안 쓴다; 에필로그가 복원)."""
+    시간대와 장소 사이는 EM SPACE 셀(2바이트, 24px). base(0x10002f44)는 r12 에 보관한다
+    (훅 뒤로 r11·r12 는 이 함수가 안 쓴다; 에필로그가 복원)."""
     base = 0x10002F44          # 장소함수 = base-12, 풀 = base+124 (둘 다 8비트 imm 안)
     L1 = va + 3 * 2
+    em = _cell(chr(0x2003))
     body = [
         (S.sts_pr_push(), None),           # 0
         (S.bsr(0), None),                  # 1  bsr L1 (PC 얻기)
@@ -73,61 +86,56 @@ def stub_c(va):
         (S.bt(1), None),                   # 9  → done(12)
         (S.bra(-5), None),                 # 10 → loop(7)
         (0x7901, "add #1,r9"),             # 11 (지연)
-        (0xE020, "mov #32,r0"),            # 12 done: 구분 공백(반각 1바이트)
+        (S.mov_imm(_signed(em[0]), 0), None),   # 12 done: EM SPACE 셀[0]
         (0x2900, "mov.b r0,@r9"),          # 13
-        (0x7901, "add #1,r9"),             # 14
-        (0x6213, "mov r1,r2"),             # 15
-        (0x72F4, "add #-12,r2"),           # 16 r2 = 장소함수
-        (0x420B, "jsr @r2"),               # 17
-        (0x6693, "mov r9,r6"),             # 18 (지연) r6 = 버퍼 위치
-        (0x791E, "add #30,r9"),            # 19 장소 필드 30B
-        (0xE10A, "mov #10,r1"),            # 20
-        (0x2910, "mov.b r1,@r9"),          # 21 개행
-        (0x7901, "add #1,r9"),             # 22
-        (0x61C3, "mov r12,r1"),            # 23 r1 = base
-        (0x717C, "add #124,r1"),           # 24 r1 = 풀 0x10002fc0
-        (0x6012, "mov.l @r1,r0"),          # 25 r0 = strcpy 썽크
-        (S.lds_pr_pop(), None),            # 26
-        (S.rts(), "rts"),                  # 27
-        (0x5512, "mov.l @(8,r1),r5"),      # 28 (지연) r5 = '保存日時'
+        (S.mov_imm(_signed(em[1]), 0), None),   # 14 EM SPACE 셀[1]
+        (0x8091, "mov.b r0,@(1,r9)"),      # 15
+        (0x7902, "add #2,r9"),             # 16
+        (0x6213, "mov r1,r2"),             # 17
+        (0x72F4, "add #-12,r2"),           # 18 r2 = 장소함수
+        (0x420B, "jsr @r2"),               # 19
+        (0x6693, "mov r9,r6"),             # 20 (지연) r6 = 버퍼 위치
+        (0x791E, "add #30,r9"),            # 21 장소 필드 30B
+        (0xE10A, "mov #10,r1"),            # 22
+        (0x2910, "mov.b r1,@r9"),          # 23 개행
+        (0x7901, "add #1,r9"),             # 24
+        (0x61C3, "mov r12,r1"),            # 25 r1 = base
+        (0x717C, "add #124,r1"),           # 26 r1 = 풀 0x10002fc0
+        (0x6012, "mov.l @r1,r0"),          # 27 r0 = strcpy 썽크
+        (S.lds_pr_pop(), None),            # 28
+        (S.rts(), "rts"),                  # 29
+        (0x5512, "mov.l @(8,r1),r5"),      # 30 (지연) r5 = '保存日時'
     ]
     n = len(body)
     lit = (n * 2 + 3) & ~3
     body += [(S.nop(), "nop")] * ((lit - n * 2) // 2)
-    assert lit == 60, lit
     body[4] = (S.movl_pc(lit - ((4 * 2 + 4) & ~3), 1), None)
     code = S.assemble(body, va)
     return code + struct.pack("<i", base - L1)
 
 
 def stub_d(va):
-    """HOOK D 스텁. 진입: r9=月 쓸 자리, pr=0x10002d72(그 자리의 mov.b r0,@r9 가 공백[1] 을 쓴다)."""
-    L2 = va + 3 * 2
+    """HOOK D 스텁. 진입: r9=月 쓸 자리, pr=0x10002d72(그 자리의 mov.b r0,@r9 가 공백[1] 을 쓴다).
+
+    '월'과 뒤따르는 어절 공백(' ' 셀, 9px)의 바이트를 codepage.json 에서 읽어 **직접** 쓴다 —
+    리터럴 풀을 거치지 않아 PC 트릭·pr 보존이 필요 없고 24B 로 끝난다. 원본 `mov #9,r2` 재현."""
+    wol = _cell("월")
+    sp = _cell(" ")
     body = [
-        (S.sts_pr_push(), None),           # 0
-        (S.bsr(0), None),                  # 1  bsr L2
-        (0xE209, "mov #9,r2"),             # 2  (지연) 원본 mov #9,r2 재현
-        (0x032A, "sts pr,r3"),             # 3  L2: r3 = L2
-        (0xD000, None),                    # 4  mov.l K4,r4
-        (0x343C, "add r3,r4"),             # 5  r4 = 풀 0x10002dc4
-        (0x6442, "mov.l @r4,r4"),          # 6  r4 = '月' 문자열(재배치된 주소)
-        (0x6040, "mov.b @r4,r0"),          # 7
-        (0x8090, "mov.b r0,@(0,r9)"),      # 8  月[0]
-        (0x8441, "mov.b @(1,r4),r0"),      # 9
-        (0x8091, "mov.b r0,@(1,r9)"),      # 10 月[1]
-        (0xE081, "mov #-127,r0"),          # 11
-        (0x8092, "mov.b r0,@(2,r9)"),      # 12 공백[0]
-        (0xE040, "mov #64,r0"),            # 13 공백[1] → 복귀지 0x10002d72 가 @r9 에 쓴다
-        (0x7903, "add #3,r9"),             # 14 r9 = 공백[1] 자리 (그 뒤 0x10002d7e 가 +1)
-        (S.lds_pr_pop(), None),            # 15
-        (S.rts(), "rts"),                  # 16
-        (S.nop(), "nop"),                  # 17
+        (S.mov_imm(_signed(wol[0]), 0), None),  # 0  월[0]
+        (0x8090, "mov.b r0,@(0,r9)"),           # 1
+        (S.mov_imm(_signed(wol[1]), 0), None),  # 2  월[1]
+        (0x8091, "mov.b r0,@(1,r9)"),           # 3
+        (S.mov_imm(_signed(sp[0]), 0), None),   # 4  ' '[0]
+        (0x8092, "mov.b r0,@(2,r9)"),           # 5
+        (S.mov_imm(_signed(sp[1]), 0), None),   # 6  ' '[1] → 복귀지 0x10002d72 가 @r9 에 쓴다
+        (0x7903, "add #3,r9"),                  # 7  r9 = ' '[1] 자리 (그 뒤 0x10002d7e 가 +1)
+        (0xE209, "mov #9,r2"),                  # 8  원본 재현
+        (S.rts(), "rts"),                       # 9
+        (S.nop(), "nop"),                       # 10
+        (S.nop(), "nop"),                       # 11 (4바이트 정렬)
     ]
-    lit = len(body) * 2
-    assert lit % 4 == 0 and lit == 36
-    body[4] = (S.movl_pc(lit - ((4 * 2 + 4) & ~3), 4), None)
-    code = S.assemble(body, va)
-    return code + struct.pack("<i", POOL_TSUKI - L2)
+    return S.assemble(body, va)
 
 
 def main():
@@ -177,7 +185,7 @@ def main():
         add(va2off(va), words([orig_w]), words([0x0009]),
             f"저장 슬롯 머리글 순서: 앞머리 장소 호출/strlen/r9 전진 무력화 (@{va:#x})")
     add(va2off(HOOK_D), words(HOOK_D_ORIG), hook_code(HOOK_D, d_va),
-        f"저장 슬롯 머리글: 月 뒤 전각공백 훅 (@{HOOK_D:#x} → 스텁 {d_va:#x})")
+        f"저장 슬롯 머리글: 月 뒤 어절 공백 훅 (@{HOOK_D:#x} → 스텁 {d_va:#x})")
     add(va2off(HOOK_C), words(HOOK_C_ORIG), hook_code(HOOK_C, c_va),
         f"저장 슬롯 머리글: 시간대 뒤에 장소 붙이는 훅 (@{HOOK_C:#x} → 스텁 {c_va:#x})")
     add(cave_off, bytes(total), sc + sd,
