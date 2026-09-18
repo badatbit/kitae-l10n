@@ -11,6 +11,7 @@
 import io
 import json
 import os
+import re
 
 
 def modules(cfg):
@@ -40,6 +41,20 @@ def original(cfg, disc_path):
         with open(dst, "wb") as fh:
             fh.write(fs.read(lba, size))
     return dst
+
+
+_ASCII = re.compile(r"[\t\x20-\x7e]")
+
+
+def is_fixed(e):
+    """엔진이 바이트로 다루는(조립·해석·고정 폭) 항목 — 문자 규칙(docs/KO-TEXT-RULES.md
+    §5)을 적용하지 않고 옛 인코딩(ASCII 1바이트, U+3000=0x8140, 합자 없음)으로 넣는다.
+
+    판정: 사람이 `fixed: true` 를 달았거나, 원문에 ASCII(서식 템플릿·색인 접두·탭·
+    반각 정렬 공백)가 있거나, 원문이 전각 공백으로 시작/끝난다(조각 조립·칸 맞춤)."""
+    ja = (e.get("text") or {}).get("ja") or ""
+    return (bool(e.get("fixed")) or bool(_ASCII.search(ja))
+            or ja.startswith("\u3000") or ja.endswith("\u3000"))
 
 
 def texts(cfg, lang):
@@ -203,6 +218,12 @@ def patch_all(cfg, lang, encode, base=None, verbose=False):
             rows.append(dict(e, text=e["text"][lang]))
         if not rows:
             continue
+        # 보호 항목은 raw 로 — 인코더는 (text, raw) 를 받는다(hangul.encoder)
+        fixed_texts = {e["text"][lang] for e in doc["entries"]
+                       if ((e.get("text") or {}).get(lang) or "").strip() and is_fixed(e)}
+
+        def enc(t, _enc=encode, _fixed=fixed_texts):
+            return _enc(t, raw=t in _fixed)
         disc_path = doc["path"]
         blob = base.get(name) or open(original(cfg, disc_path), "rb").read()
 
@@ -216,10 +237,10 @@ def patch_all(cfg, lang, encode, base=None, verbose=False):
         # 한 바퀴에 하나씩만 빠질 수 있으므로 항목 수만큼 돌 수 있어야 한다.
         # 6번으로 끊었더니 ITEMMENU 가 통째로 안 들어갔다.
         for _round in range(len(rows) + 1):
-            got, rep = relocate.apply(base_blob, attempt, encode,
+            got, rep = relocate.apply(base_blob, attempt, enc,
                                       extra_free=spare)
             if rep["failed"]:
-                got2, rep2 = relocate.compact(base_blob, attempt, encode)
+                got2, rep2 = relocate.compact(base_blob, attempt, enc)
                 if not rep2["failed"]:
                     got, rep = got2, rep2
                     print(f"  {name}: 빈칸이 조각나 전체 재배치로 전환")
@@ -238,7 +259,7 @@ def patch_all(cfg, lang, encode, base=None, verbose=False):
         if dropped:
             # 소유 공간으로 안 되면 PE 에 데이터 섹션을 붙여 본다. 파일이
             # 커지므로 ISO 여유가 필요하고, 로더가 받아 줄지는 미확인이다.
-            grown = _grow(cfg, name, disc_path, base_blob, rows, encode)
+            grown = _grow(cfg, name, disc_path, base_blob, rows, enc)
             if grown is not None:
                 blob, rep, dropped = grown
                 print(f"  {name}: 자리가 모자라 PE 섹션을 붙였다")

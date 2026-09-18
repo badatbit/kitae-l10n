@@ -67,6 +67,7 @@ def _timing_specs(doc, lang, wins, strs):
     당기기 위해서다 — kitae.build.mtg 의 _snap 참고.
     """
     from kitae.core.windows import display_len, MARKUP
+    from kitae.build.hangul import glyph_string
     by = {}
     for e in doc["entries"]:
         t = ((e.get("text") or {}).get(lang) or "")
@@ -82,7 +83,8 @@ def _timing_specs(doc, lang, wins, strs):
             src = strs[si]
             t = by.get((w, n), "")
             orig.append(display_len(src))
-            new.append(MARKUP.sub("", t if t.strip() else src))
+            # 번역은 글리프 단위(합자 = 1)로 센다 — hangul.glyph_string. 원문 폴백은 예전대로.
+            new.append(glyph_string(t) if t.strip() else MARKUP.sub("", src))
         if orig != [len(t) for t in new]:
             out[w] = (orig, new)
     return out

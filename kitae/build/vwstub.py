@@ -144,57 +144,45 @@ MAX_SUBS = 2
 
 
 def build_table(cfg, swap=False, probe=None):
-    """(표 바이트, 하위표 수).
+    """(표 바이트, 하위표 수). 값은 전부 widths.Widths — 코드페이지의 모든 셀(한글·ASCII·
+    공백·합자)과 `・`·전각 공백 0x8140, 그리고 1바이트 ASCII(보호 항목용, 엔진 반각 12).
 
-    `swap` 이면 코드 키의 두 바이트를 뒤집는다 — 엔진이 `mov.w` 한 번으로
-    읽으면 리틀엔디언이라 `0xEE 0xB0` 이 `0xB0EE` 가 된다.
-    `probe` 를 주면 코드페이지(한글) 전부를 그 폭으로 강제한다 — 진단용.
-    """
-    import io
-    import json
-    from kitae.build.widths import CELL, SHAPE, Widths
+    `swap` 이면 코드 키의 두 바이트를 뒤집는다 — 엔진이 `mov.w` 한 번으로 읽으면
+    리틀엔디언이라 `0xEE 0xB0` 이 `0xB0EE` 가 된다. `probe` 는 한글 페이지 전부를 그
+    폭으로 강제한다(진단용).
+
+    하위표는 두 장(MAX_SUBS, 디스크 익스텐트)뿐이다. 기본폭(24)이 아닌 칸이 많은 페이지
+    순으로 준다 — 지금은 ASCII 셀 페이지(SYMBOL_PAGE)와 `・`·공백이 든 0x81. 한글 페이지는
+    전부 24 라 페이지맵 직접값으로 끝난다."""
+    import collections
+    from kitae.build.hangul import _read_codepage, is_hangul
+    from kitae.build.widths import EM, MID, Widths
 
     W = Widths(cfg)
-    with io.open(cfg.path("data", "codepage.json"), encoding="utf-8") as fh:
-        cp = json.load(fh)
+    cp = _read_codepage(cfg.path("data", "codepage.json"))
 
     def key(a, b):
         return (b << 8) | a if swap else (a << 8) | b
 
     table = {}
     for ch, cell in cp.items():
-        table[key(cell[0], cell[1])] = probe or W.width(ch)
-    for ch in SHAPE:
-        try:
-            b = ch.encode("cp932")
-        except Exception:
-            continue
-        table[b[0] if len(b) == 1 else key(b[0], b[1])] = W.width(ch)
+        table[key(*cell)] = probe if (probe and is_hangul(ch)) else W.width(ch)
+    mid = MID.encode("cp932")
+    table[key(mid[0], mid[1])] = W.width(MID)
+    table[key(0x81, 0x40)] = EM                       # 전각 공백 = EM SPACE
     for c in range(0x20, 0x7F):
-        table[c] = max(1, min(CELL, W.ink_w(chr(c)) + 2))
+        table[c] = 12                                 # 1바이트(보호 항목): 엔진 반각
 
     pages = {}
     for code, w in table.items():
         pages.setdefault(code >> 8, {})[code & 0xFF] = w
 
-    import collections
     pagemap = bytearray([0x80 | DEFAULT_W]) * 256
     subs = bytearray()
     nsub = 0
-    # ★ 하위표는 두 장뿐이라 **어느 페이지에 주느냐가 곧 품질**이다.
-    # 전에는 "폭 종류가 많은 순"으로 줬더니 URL 용 ASCII 페이지가 한 장을
-    # 가져가고, 정작 공백이 든 페이지가 대표값 １３ 으로 뭉개졌다
-    # (공백 9 → 13, `。` 10 → 13). 본문에서 １９,０００번 나오는 공백이
-    # ２１７번 나오는 URL 에 밀린 것이다.
-    #
-    # 그래서 **본문에서 실익이 있는 페이지를 먼저** 준다. 공백이 든 페이지와
-    # 전각 숫자·라틴이 든 페이지 — 가변폭으로 얻는 것이 거기 다 있다.
-    # (한글 페이지는 전부 ２２ 단일값이라 하위표가 필요 없다)
-    key = [ch.encode("cp932")[0] for ch in ("　", "０")]
 
-    def rank(q):
-        return (key.index(q) if q in key else len(key),
-                -len(set(pages[q].values())))
+    def rank(q):                                      # 기본폭 아닌 칸이 많은 순
+        return -sum(1 for w in pages[q].values() if w != DEFAULT_W)
 
     for p in sorted(pages, key=rank):
         ws = set(pages[p].values())
@@ -209,8 +197,9 @@ def build_table(cfg, swap=False, probe=None):
             w = collections.Counter(pages[p].values()).most_common(1)[0][0]
             assert w < 0x80
             pagemap[p] = 0x80 | w
+            if len(ws) > 1:
+                print(f"  ⚠ 폭표: 페이지 {p:#x} 는 폭이 {len(ws)}종인데 하위표가 없어 {w} 로 뭉갬")
     return bytes(pagemap) + bytes(subs), nsub
-
 
 RULER = (8, 16, 28, 40)
 

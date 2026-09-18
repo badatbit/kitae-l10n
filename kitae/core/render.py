@@ -32,34 +32,38 @@ SHADOW_OFFSET = (3, 3)
 BG = (118, 122, 130)
 
 
-def _codes(text, cp):
-    """표시되는 (바이트열, 폭) 목록. 마크업은 건너뛴다."""
+def _codes(text, cp, widths=None):
+    """표시되는 (바이트열, 폭) 목록. 마크업은 건너뛴다. 글리프 단위는 hangul.units
+    (합자 = 셀 하나), 폭은 widths(kitae.build.widths.Widths)가 있으면 그 값, 없으면 24/12."""
+    from kitae.build.hangul import units
     out = []
-    for part in re.split(f"({MARKUP.pattern})", text):
-        if not part or MARKUP.fullmatch(part):
+    for u, mk in units(text):
+        if mk:
             continue
-        for ch in part:
-            if ch in cp:
-                out.append((bytes(cp[ch]), FULL))
-                continue
-            try:
-                b = ch.encode("cp932")
-            except UnicodeEncodeError:
-                out.append((None, FULL))          # 폰트에 없는 글자
-                continue
-            out.append((b, FULL if len(b) == 2 else HALF))
+        if u in cp:
+            out.append((bytes(cp[u]), widths.width(u) if widths else FULL))
+            continue
+        if u in ("\u2003", "\u3000"):
+            out.append((b"\x81\x40", widths.width(u) if widths else FULL))
+            continue
+        try:
+            b = u.encode("cp932")
+        except UnicodeEncodeError:
+            out.append((None, FULL))          # 폰트에 없는 글자
+            continue
+        out.append((b, widths.width(u) if widths else (FULL if len(b) == 2 else HALF)))
     return out
 
 
-def measure(text, cp):
+def measure(text, cp, widths=None):
     """표시 폭(px)."""
-    return sum(w for _, w in _codes(text, cp))
+    return sum(w for _, w in _codes(text, cp, widths))
 
 
-def wrap(text, cp, width_px):
+def wrap(text, cp, width_px, widths=None):
     """폭에 맞춰 자른 줄 목록. 게임은 자동 개행을 하지 않으므로 확인용이다."""
     lines, cur, used = [], [], 0
-    for code, w in _codes(text, cp):
+    for code, w in _codes(text, cp, widths):
         if used + w > width_px and cur:
             lines.append(cur)
             cur, used = [], 0
@@ -118,9 +122,9 @@ def draw(lines, font, width_px, pad=8, bg=BG):
     return img
 
 
-def render(text, font, cp=None, width=26 * FULL, pad=8, bg=BG):
-    """문자열 하나를 그린다 (필요하면 줄바꿈)."""
-    return draw(wrap(text, cp or {}, width), font, width, pad, bg)
+def render(text, font, cp=None, width=26 * FULL, pad=8, bg=BG, widths=None):
+    """문자열 하나를 그린다 (필요하면 줄바꿈). widths 를 주면 가변폭으로."""
+    return draw(wrap(text, cp or {}, width, widths), font, width, pad, bg)
 
 
 def label_strip(text, width, height=18, fg=(150, 160, 180), bg=BG):

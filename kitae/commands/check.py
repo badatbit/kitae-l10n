@@ -31,6 +31,10 @@ def glossary(cfg, lang):
         terms = json.load(fh)["terms"]
     terms.sort(key=lambda t: -len(t["ja"]))
 
+    # 공백은 종류(' '·EN·EM·U+3000)가 갈래마다 달라 표기 비교에선 하나로 본다
+    def norm(s):
+        return re.sub("[　   ]+", " ", s)
+
     bad = []
     root = cfg.path("translation")
     for f in sorted(glob.glob(os.path.join(root, "**", "*.json"), recursive=True)):
@@ -42,15 +46,16 @@ def glossary(cfg, lang):
         if not isinstance(doc, dict) or "entries" not in doc:
             continue
         for e in doc["entries"]:
-            ja, ko = e["text"]["ja"], (e["text"].get(lang) or "").strip()
+            ja, ko = e["text"]["ja"], norm(e["text"].get(lang) or "").strip()
             if not ko:
                 continue
             rest_ja, rest_ko = ja, ko
             for t in terms:
+                want = norm(t["ko"])
                 while t["ja"] in rest_ja:
                     rest_ja = rest_ja.replace(t["ja"], "", 1)
-                    if t["ko"] in rest_ko:
-                        rest_ko = rest_ko.replace(t["ko"], "", 1)
+                    if want in rest_ko:
+                        rest_ko = rest_ko.replace(want, "", 1)
                     else:
                         bad.append((os.path.relpath(f, cfg.root),
                                     e.get("window"), e.get("line"),
@@ -59,7 +64,7 @@ def glossary(cfg, lang):
     return bad
 
 
-MARKUP = re.compile(r"@[^@]{0,8}@|&[^&]{0,16}&|%[0-9０-９]{1,2}%")
+from kitae.core.windows import MARKUP_ALL as MARKUP     # 마크업은 한 곳(windows)에서
 
 
 def _docs(cfg):
@@ -128,6 +133,48 @@ def schema(cfg, langs):
                     bad.append((rel, f"entries[{i}] text.{lang} 가 문자열이 아님"))
             if not isinstance(t.get(langs[0]), str):
                 bad.append((rel, f"entries[{i}] 원문 text.{langs[0]} 없음"))
+    return bad
+
+
+def text_rules(cfg, lang):
+    """한국어 문자 규칙(docs/KO-TEXT-RULES.md). [(파일, 열쇠, 줄, 문제)]
+
+    보호 항목(uipatch.is_fixed — 엔진이 바이트로 조립하는 UI 문자열)은 건너뛴다.
+    줄 길이(글리프 25·600px)는 대사에만 본다(가이드·UI 는 다른 상자를 쓴다)."""
+    from kitae.core import textrules as T
+    from kitae.build.uipatch import is_fixed
+    try:
+        from kitae.build.widths import Widths
+        W = Widths(cfg)
+    except Exception:
+        W = None
+    limit = T.LIMIT_GLYPHS_EXT if cfg.get("vw_extension") else T.LIMIT_GLYPHS
+    bad = []
+    for rel, doc in _docs(cfg):
+        if doc is None:
+            continue
+        is_ui = rel.replace("\\", "/").startswith("translation/ui/")
+        is_dialogue = "/" not in rel.replace("\\", "/")[len("translation/"):]
+        for e in doc["entries"]:
+            t = e.get("text") or {}
+            ko = t.get(lang) or ""
+            if not ko.strip() or (is_ui and is_fixed(e)) or ko.strip() == (t.get("ja") or "").strip():
+                continue                        # 빈 줄·보호 항목·미번역 키(ko==ja)
+            key = e.get("window", e.get("offset"))
+            for ch, n in T.bad_chars(ko).items():
+                what = "전각 공백 U+3000" if ch == T.IDEO_SPACE else f"허용 밖 글자 {ch!r} U+{ord(ch):04X}"
+                bad.append((rel, key, e.get("line"), f"{what} ×{n}"))
+            for ln, msg in T.space_violations(ko):
+                bad.append((rel, key, ln, msg))
+            if is_dialogue:
+                for ln, l in enumerate(ko.split("\n")):
+                    g = T.line_glyphs(l)
+                    if g > limit:
+                        bad.append((rel, key, ln, f"줄 길이 {g}글리프 > {limit}"))
+                    if W is not None:
+                        px = T.line_px(l, W)
+                        if px > T.LIMIT_PX:
+                            bad.append((rel, key, ln, f"줄 폭 {px}px > {T.LIMIT_PX}"))
     return bad
 
 
@@ -200,6 +247,14 @@ def run(args):
                "정상" if not bad else f"문제 {len(bad)}건")
     for f, msg in bad[:10]:
         print(f"          {f}: {msg}")
+
+    bad = text_rules(cfg, cfg["target"])
+    ok &= _row(not bad, "문자 규칙",
+               "KO-TEXT-RULES 준수" if not bad else f"위반 {len(bad)}곳")
+    for f, w, ln, msg in bad[:15]:
+        print(f"          {f} [{w}.{ln}]  {msg}")
+    if len(bad) > 15:
+        print(f"          … {len(bad) - 15}곳 더")
 
     print("\n준비됨" if ok else "\n미비 항목이 있습니다")
     return 0 if ok else 1

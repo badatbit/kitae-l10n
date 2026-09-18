@@ -39,6 +39,9 @@ TTF = os.path.join(os.environ.get("LOCALAPPDATA", ""),
 PAGES = [0xEE, 0xED, 0xE1, 0x9B, 0xE2, 0xE3, 0xE4, 0xE5, 0xE6, 0xE7,
          0xE8, 0xE9, 0xEA, 0xE0, 0x9C, 0x9D, 0x9E, 0x9F, 0x99, 0x9A]
 CELLS = [c for c in range(0x40, 0xFD) if c != 0x7F]      # 188 usable trail bytes
+# ASCII·공백·합자 셀(widths.SYMBOL_CELLS)을 붙이는 페이지 — 한글 페이지 뒤, 연속으로.
+# 한글이 넘치면 이 페이지의 남은 칸도 쓴다(폭표는 하위표라 섞여도 된다).
+SYMBOL_PAGE = 0xE5
 
 
 def is_hangul(ch):
@@ -227,24 +230,71 @@ def planes(gray, solid=128, edge=40):
     return body, fringe
 
 
-# UI 정렬용 폭 스페이서 — 이름화면 예/아니오처럼 상자에 맞춰 미세 배치할 때 쓴다.
-# 게임 폰트는 바이트 수로 전진폭이 갈린다: 1바이트=반각 12px, 2바이트=전각 24px.
-#   U+2002(EN SPACE)  -> 0x20    반각 공백 12px
+# 보호 항목(raw)용 공백 — 엔진이 바이트로 조립하는 UI 문자열은 옛 방식 그대로 넣는다.
+#   U+2002(EN SPACE)  -> 0x20    엔진 반각 공백 12px (1바이트)
 #   U+2003(EM SPACE)  -> 0x8140  전각 공백 24px
-# (cp932 에 없는 문자라 그냥 두면 인코딩 실패 → 여기서 게임 공백 칸으로 매핑.)
-_SPACER = {" ": b"\x20", " ": b"\x81\x40"}
+_SPACER = {"\u2002": b"\x20", "\u2003": b"\x81\x40"}
+_EM = b"\x81\x40"
 
 
-def encode(text, cp):
-    """Korean-aware replacement for `text.encode('cp932')`."""
+def units(text):
+    """텍스트 → 글리프 단위 [(문자열, 마크업 여부)]. 합자(widths.LIGATURES)는 한 단위.
+
+    인코더·타이밍·검사기·미리보기가 같은 분해를 쓴다 — 글자 수는 바이트가 아니라
+    **렌더링될 글리프 수**다(docs/KO-TEXT-RULES.md §4)."""
+    from kitae.core.windows import MARKUP_ALL
+    from kitae.build.widths import LIGATURES
+    out, pos = [], 0
+
+    def split(seg):
+        i, n = 0, len(seg)
+        while i < n:
+            if seg[i:i + 2] in LIGATURES:
+                out.append((seg[i:i + 2], False))
+                i += 2
+            else:
+                out.append((seg[i], False))
+                i += 1
+
+    for m in MARKUP_ALL.finditer(text):
+        split(text[pos:m.start()])
+        out.append((m.group(), True))
+        pos = m.end()
+    split(text[pos:])
+    return out
+
+
+def glyph_string(text):
+    """타이밍·줄 길이용 문자열 — 글리프 하나당 한 글자(합자는 첫 글자). `@..@`·`&..&` 는
+    빼고, `%N%` 같은 나머지 마크업은 예전 display_len 과 같게 글자로 남긴다."""
+    from kitae.core.windows import MARKUP
+    return "".join(u if mk else u[0] for u, mk in units(MARKUP.sub("", text)))
+
+
+def encode(text, cp, raw=False):
+    """번역문 → 게임 바이트. 배정된 셀(한글·ASCII·공백·합자) + cp932.
+
+    `raw` 는 보호 항목(uipatch.is_fixed): ASCII 는 1바이트 그대로, U+3000/EM 은 0x8140,
+    합자·ASCII 셀 재할당을 하지 않는다 — 엔진이 바이트를 세거나 조립하는 문자열."""
     out = bytearray()
-    for ch in text:
-        if ch in cp:
-            out += bytes(cp[ch])
-        elif ch in _SPACER:
-            out += _SPACER[ch]
+    if raw:
+        for ch in text:
+            if ch in cp and is_hangul(ch):
+                out += bytes(cp[ch])
+            elif ch in _SPACER:
+                out += _SPACER[ch]
+            else:
+                out += ch.encode("cp932")
+        return bytes(out)
+    for u, mk in units(text):
+        if mk:
+            out += u.encode("cp932")            # 제어 코드는 1바이트 그대로
+        elif u in cp:
+            out += bytes(cp[u])
+        elif u in ("\u2003", "\u3000"):
+            out += _EM
         else:
-            out += ch.encode("cp932")
+            out += u.encode("cp932")
     return bytes(out)
 
 
@@ -266,19 +316,22 @@ def inject(cfg, chars, verbose=False):
 
     cp_path = os.path.join(cfg.data_dir, "codepage.json")
     cp = _read_codepage(cp_path)
-    cp = assign(chars, cp, reserved, pages)
+    # ASCII·공백·합자 셀은 SYMBOL_PAGE 에 먼저(연속으로), 한글은 그 뒤 페이지 순서대로.
+    from kitae.build.widths import SYMBOL_CELLS
+    symbols = set(SYMBOL_CELLS)
+    cp = assign(symbols, cp, reserved, [SYMBOL_PAGE])
+    cp = assign(set(chars) - symbols, cp, reserved, pages)
     _write_codepage(cp_path, cp)
+    chars = set(chars) | symbols
 
     ttf = cfg.path(cfg["font"]["ttf"]) if cfg["font"].get("ttf") else TTF
     size = int(cfg["font"].get("size", 21))
     yoff = int(cfg["font"].get("y_offset", 2))
 
-    # 가변폭을 켜면 글리프도 함께 바뀌어야 한다 — 좌측 정렬, 그리고 전각 칸에는
-    # 반각 모양. 전진폭만 좁히고 원본 글리프를 두면 이웃과 겹친다.
-    W = None
-    if cfg.get("font_variable"):
-        from kitae.build.widths import SHAPE, Widths
-        W = Widths(cfg)
+    # 글리프는 늘 widths 를 따른다(ASCII 셀은 글꼴 원점 그대로, `・` 는 가운데).
+    # 폭표(가변폭)와 짝이라 값을 두 군데 적지 않는다.
+    from kitae.build.widths import SHAPE, Widths
+    W = Widths(cfg)
 
     for ch in sorted(chars):
         body, fringe = planes(render_glyph(ch, size, yoff, ttf, widths=W))
@@ -286,25 +339,15 @@ def inject(cfg, chars, verbose=False):
         f.set_glyph(code, body, 0)
         f.set_glyph(code, fringe, 1)
 
-    if W is not None:
-        # 전각 기호·숫자·라틴 칸을 반각 모양으로 덮어쓴다
-        n = 0
-        for ch in SHAPE:
-            try:
-                code = ch.encode("cp932")
-            except Exception:
-                continue
-            if len(code) != 2:            # 반각 칸은 게임 글리프를 그대로 둔다
-                continue
-            body, fringe = planes(render_glyph(ch, size, yoff, ttf, widths=W))
-            try:
-                f.set_glyph(code, body, 0)
-                f.set_glyph(code, fringe, 1)
-            except KeyError:
-                continue
-            n += 1
-        if verbose:
-            print(f"    전각 {n}칸을 반각 모양으로 다시 그림")
+    # 게임 전각 칸에 다시 그리는 것은 `・`(가운데 22px)뿐 — 전각 로마자·기호는 게임
+    # 글리프 24 고정폭 그대로(docs/KO-TEXT-RULES.md §6).
+    for ch in SHAPE:
+        code = ch.encode("cp932")
+        body, fringe = planes(render_glyph(ch, size, yoff, ttf, widths=W))
+        f.set_glyph(code, body, 0)
+        f.set_glyph(code, fringe, 1)
+    if verbose:
+        print(f"    셀 {len(symbols)}개(ASCII·공백·합자) 포함, 재그림 {len(SHAPE)}칸")
 
     f.save(dst)
     return dst
@@ -341,11 +384,11 @@ def decoder(cfg):
 
 
 def encoder(cfg):
-    """번역문을 게임 바이트로 바꾸는 함수. cp932 + 배정된 한글 칸."""
+    """번역문을 게임 바이트로 바꾸는 함수. `enc(text, raw=False)` — raw 는 encode 참고."""
     cp = _read_codepage(os.path.join(cfg.data_dir, "codepage.json"))
 
-    def enc(text):
-        return encode(text, cp)
+    def enc(text, raw=False):
+        return encode(text, cp, raw=raw)
     return enc
 
 

@@ -1,69 +1,58 @@
 # -*- coding: utf-8 -*-
-"""글자별 전진폭 — **단일 출처**.
+"""글리프 셀 목록과 글자별 전진폭 — **단일 출처**.
 
-폰트를 굽는 쪽(글리프 위치)과 스텁이 읽는 표(전진폭)가 여기서 같은 값을 본다.
-갈리면 화면이 통째로 틀어지므로 값을 두 군데 적지 않는다.
+규칙은 [docs/KO-TEXT-RULES.md](../../docs/KO-TEXT-RULES.md). 폰트를 굽는 쪽(`hangul.inject`),
+스텁이 읽는 폭표(`vwstub.build_table`), 검사기(`kitae check`), 미리보기(`kitae render`)가 전부
+여기 값을 본다. 갈리면 화면이 통째로 틀어지므로 값을 두 군데 적지 않는다.
 
-## 왜 잉크를 실측하는가
+## 어떤 글리프가 셀을 받나 (2026-09-18)
 
-`ImageFont.getlength`·`textbbox` 는 **여백까지 포함한 상자**를 준다. 점(`.`)이
-７px 로 나오는데 실제 잉크는 ４px 다. 그걸 모르고 사이드베어링을 잡았다가
-`１４７．２` 가 벌어져 보였고, 고치고 나니 이번엔 `ＪＲ` 이 겹쳤다. 그래서
-**직접 그려서 잰다.**
+  * 한글 완성형 — 번역에 실제로 쓰인 글자만(`hangul.assign`).
+  * **ASCII** U+0021~U+007E — 엔진의 1바이트 처리(고정 12px)를 피하려고 2바이트 셀에
+    재할당한다. 마크업 문자 `@ & % * $` 는 제외(그건 텍스트가 아니라 제어 코드).
+  * 공백 셋: `' '`(어절, SPACE), EN SPACE(U+2002, 반각), EM SPACE(U+2003 = 전각 공백
+    0x8140, 셀 없음).
+  * **합자** `LIGATURES` — `". "` 처럼 두 글자를 한 셀에. 글자 수(타이밍·줄 길이)를
+    아끼려는 것. 텍스트는 두 글자 그대로 적고 인코더가 셀로 바꾼다.
 
-## 전각 칸에 반각 모양을 그린다
+## 폭을 어떻게 정하나
 
-`０`·`。` 의 게임 원본 글리프는 １em 을 꽉 채운다. 폭만 좁히면 이웃과 겹치므로
-그 칸에는 반각 모양(`0`·`.`)을 다시 그려 넣는다. `SHAPE` 가 그 대응이다.
+    한글          24      글꼴 상자(22)보다 넓게 — 25px 래스터가 23px 까지 나온다
+    ' '            9      Plex 의 6 은 어절이 붙어 보인다
+    EN / EM       12/24
+    숫자           고정폭  = 글꼴의 숫자 전진폭(Plex 는 tabular, 25px 에서 15)
+    ASCII 나머지    글꼴 전진폭 그대로(사이드베어링 포함) — 여백 보정 없음
+    합자           구성 글자 폭의 합
+    `・`           22      말줄임(・・・)·나열 겸용, 칸 가운데
+    그 밖(전각 기호·전각 로마자) 24  게임 원래 글리프, 고정폭
 
-## 값을 어떻게 정했나 (2026-08-09, 화면 비교로 확정)
-
-    한글          24      ★ 글꼴 상자(２２)보다 **넓게** 준다. ２５px 로
-                          래스터화하면 잉크가 ２３px 까지 나오므로 상자 그대로
-                          ２２ 를 주면 글자가 겹쳐 보인다. ２４ 라야 제일 넓은
-                          글자도 １px 은 뜬다
-    공백 `　`       9      Plex 값 ６ 은 어절이 붙어 보인다
-    `。` `、`      잉크+9   문장부호 뒤에는 반각 공백만큼 숨을 둔다
-    `．` `.` `，` `,`  잉크−1   **소수점·URL 은 숫자에 붙어야 한다**
-    `・`           22      말줄임(・・・)과 나열(태평양・동해)을 겸하므로 가운데 정렬
-    `『`          잉크+0   여는 쌍따옴표만 좌+1/우−1
-    `』` `「` `」`    12
-    숫자·알파벳     잉크+2   좌+1/우+1
-
-`。` 가 줄 끝일 때는 뒤 여백이 필요 없지만 **넣지 않았다.** 스텁은 글자 코드만
-보므로 줄 끝인지 모르고, 그 여백은 어차피 화면에 안 보인다. 클릭 대기 삼각형이
-어긋나 보이면 그때 넣는다(루프에 인덱스 `r11` 과 개수가 다 있다).
+옛 보정(`。`=잉크+9, `．`=잉크−1, `『` 좌+1/우−1, 따옴표 12)은 없앴다 — 여백은 텍스트의
+공백이 맡는다. 전각 로마자는 고정폭 영역(`Ａ 버튼`)에서만 쓰므로 게임 글리프 24 그대로.
 """
 import functools
 
-CELL = 24
-
-# 전각 코드 → 그 칸에 실제로 그릴 모양
-SHAPE = {"　": " ", "。": ".", "、": ",", "・": "·", "！": "!", "？": "?", "：": ":",
-         "／": "/", "（": "(", "）": ")", "＋": "+", "－": "-", "％": "%", "～": "~",
-         "「": "‘", "」": "’", "『": "“", "』": "”", "．": "."}
-for _i in range(10):
-    SHAPE[chr(0xFF10 + _i)] = chr(0x30 + _i)
-for _i in range(26):
-    SHAPE[chr(0xFF21 + _i)] = chr(0x41 + _i)
-    SHAPE[chr(0xFF41 + _i)] = chr(0x61 + _i)
-
+CELL = 24                     # 글리프 상자(px) = 전진폭 상한
 HANGUL = 24
-SPACE = 9
-SENT = "。、"                     # 뒤에 반각 공백
-DEC = "．.，,"                    # 숫자에 붙는다
+SPACE = 9                     # ' ' 어절 공백
+EN = 12                       # U+2002 EN SPACE
+EM = 24                       # U+2003 EM SPACE (= 전각 공백 0x8140)
+EN_SPACE, EM_SPACE, IDEO_SPACE = " ", " ", "　"
 MID = "・"
-QUOTE = "』「」"                  # 고정폭
-QOPEN = "『"                      # 좌+1 / 우−1
-CENTERED = MID + "「」"           # 좁은 칸 안에서 가운데
-LATIN = set("０１２３４５６７８９")
-LATIN |= {chr(0xFF21 + i) for i in range(26)} | {chr(0xFF41 + i) for i in range(26)}
-
-QUOTE_W = 12
 MID_W = 22
-LATIN_L, LATIN_R = 1, 1
-QOPEN_L, QOPEN_R = 1, -1
-DEC_L, DEC_R = -2, 1
+DIGITS = "0123456789"
+MARKUP_CHARS = "@&%*$"        # 제어 코드 문자 — 글자로 쓰려면 전각 ％＆＊＠＄
+
+ASCII_CELLS = tuple(chr(c) for c in range(0x21, 0x7F) if chr(c) not in MARKUP_CHARS)
+LIGATURES = (". ", ", ", "! ", "? ", ": ", " (", ") ")
+# 폰트 셀이 필요한 비한글 글리프 전부 (hangul.SYMBOL_PAGE 에 이 순서로 붙는다)
+SYMBOL_CELLS = (" ", EN_SPACE) + ASCII_CELLS + LIGATURES
+
+# 게임 전각 칸에 다시 그리는 모양 — 이제 `・` 하나뿐
+SHAPE = {MID: "·"}
+
+
+def is_ascii_cell(ch):
+    return len(ch) == 1 and 0x21 <= ord(ch) < 0x7F
 
 
 class Widths:
@@ -91,54 +80,46 @@ class Widths:
         lo, hi = self.ink(ch)
         return hi - lo
 
+    @functools.lru_cache(maxsize=4096)
+    def adv(self, s):
+        """글꼴의 전진폭(px, 반올림) — 사이드베어링 포함."""
+        return int(round(self.font.getlength(s)))
+
+    @functools.lru_cache(maxsize=1)
+    def digit_w(self):
+        return max(self.adv(d) for d in DIGITS)
+
     def shape(self, ch):
         """그 칸에 실제로 그릴 모양."""
         return SHAPE.get(ch, ch)
 
     def width(self, ch):
-        """전진폭(px). 1~CELL."""
-        g = self.shape(ch)
-        if ch in SENT:
-            w = self.ink_w(g) + SPACE
-        elif ch in DEC:
-            w = self.ink_w(g) + DEC_L + DEC_R
-        elif ch in QOPEN:
-            w = self.ink_w(g) + QOPEN_L + QOPEN_R
-        elif ch in LATIN:
-            w = self.ink_w(g) + LATIN_L + LATIN_R
-        elif ch == "　":
+        """전진폭(px). 1~CELL. 합자는 구성 글자 폭의 합."""
+        if ch in LIGATURES:
+            w = sum(self.width(c) for c in ch)
+        elif ch == " ":
             w = SPACE
+        elif ch == EN_SPACE:
+            w = EN
+        elif ch in (EM_SPACE, IDEO_SPACE):
+            w = EM
         elif ch == MID:
             w = MID_W
-        elif ch in QUOTE:
-            w = QUOTE_W
+        elif ch in DIGITS:
+            w = self.digit_w()
+        elif is_ascii_cell(ch):
+            w = self.adv(ch)
         elif "가" <= ch <= "힣":
             w = HANGUL
         else:
-            w = self.ink_w(g) + 2
+            w = CELL                        # 게임 글리프(전각 기호·전각 로마자)
         return max(1, min(CELL, w))
 
     def offset(self, ch):
-        """잉크를 펜에서 얼마나 밀어 그릴지 (가로만)."""
-        g = self.shape(ch)
-        lo, hi = self.ink(g)
-        if ch in DEC:
-            return DEC_L - lo
-        if ch in QOPEN:
-            return QOPEN_L - lo
-        if ch in LATIN:
-            return LATIN_L - lo
-        if "가" <= ch <= "힣":
-            # ★ 손대지 않는다. 글꼴이 이미 사이드베어링을 갖고 있다 —
-            # 어드밴스는 ２,２３５자 전부 ２２.０px 로 같은데 왼쪽 여백은
-            # `긱` ２ · `거` １ · `굛` ０ 으로 **글자마다 다르게 설계돼 있다.**
-            # 좁은 글자는 왼쪽을 띄우고 넓은 글자는 붙인다.
-            #
-            # 왼쪽 정렬(`-lo`)은 그걸 ０ 으로 지우고, 가운데 정렬은 그 자리에
-            # 우리가 계산한 값을 넣는다. **둘 다 디자이너가 정한 것을 버린다.**
-            # 인게임에서 `거각` 사이가 ７px, `각거` 사이가 ２px 로 벌어졌던
-            # 것이 그 결과다.
-            return 0
-        if ch in CENTERED:
-            return max(0, (self.width(ch) - (hi - lo)) // 2) - lo
-        return -lo                       # 반각 모양은 좁힌 칸 왼쪽에 붙인다
+        """잉크를 펜에서 얼마나 밀어 그릴지 (가로만). 기본은 글꼴 원점 그대로."""
+        if ch == MID:
+            lo, hi = self.ink(self.shape(ch))
+            return max(0, (MID_W - (hi - lo)) // 2) - lo
+        # 한글: 글꼴이 이미 사이드베어링을 갖고 있다(`긱` 2 · `거` 1 · `굛` 0 —
+        # 디자이너가 글자마다 정한 것). ASCII·합자도 같은 이유로 손대지 않는다.
+        return 0

@@ -52,13 +52,15 @@ def run(args):
     cfg = Config.load()
     font = _font(cfg)
     cp = _codepage(cfg)
+    from kitae.build.widths import Widths
+    W = Widths(cfg)                      # 실제 빌드와 같은 전진폭
     width = args.width * R.FULL
     langs = args.lang or [cfg["source"], cfg["target"]]
     out = cfg.path(args.out or os.path.join(cfg["work_dir"], "preview.png"))
     os.makedirs(os.path.dirname(out) or ".", exist_ok=True)
 
     if args.text:
-        img = R.render(args.text, font, cp, width)
+        img = R.render(args.text, font, cp, width, widths=W)
     else:
         script = (args.script or cfg["scripts"][0]).upper()
         doc = translation.load(cfg, script)
@@ -85,7 +87,7 @@ def run(args):
                 over = False
                 for e in entries:
                     t = (e.get("text") or {}).get(lang) or ""
-                    wrapped = R.wrap(t, cp, width)
+                    wrapped = R.wrap(t, cp, width, W)
                     if len(wrapped) > 1:
                         over = True
                     lines += wrapped

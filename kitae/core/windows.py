@@ -37,6 +37,9 @@ import re
 #   @S@ @P@ ...  playback control (speed / pause)
 #   &主人公& &主人公名前& ...  runtime name substitution
 MARKUP = re.compile(r"@[^@]{0,8}@|&[^&]{0,16}&")
+# 인코더·변환기·검사기가 쓰는 전체 마크업 — 선택지 `%N%`, 자간 `*N`, `$N` 까지.
+# display_len 은 게임의 타이밍 셈과 같게 위의 MARKUP 만 뺀다(%N% 은 예전처럼 글자로 센다).
+MARKUP_ALL = re.compile(r"@[^@]{0,8}@|&[^&]{0,16}&|%[0-9０-９]{1,2}%|\*[0-9]|\$[0-9]")
 
 
 def display_len(s):
