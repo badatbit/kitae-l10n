@@ -1,918 +1,918 @@
 {
- "script": "AYU_CBS",
- "source": "ja",
- "entries": [
-  {
-   "window": 0,
-   "line": 0,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 0,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a1587.wav",
-   "chars": 7,
-   "text": {
-    "ja": "あ・・ごめん。",
-    "ko": "아・・미안．"
-   }
-  },
-  {
-   "window": 0,
-   "line": 1,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 0,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a1587.wav",
-   "chars": 15,
-   "text": {
-    "ja": "・・・私たち気が合うみたいね。",
-    "ko": "・・・우리　잘　맞나　봐．"
-   }
-  },
-  {
-   "window": 0,
-   "line": 2,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 0,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a1587.wav",
-   "chars": 14,
-   "text": {
-    "ja": "うふふ・・先に言っていいよ。",
-    "ko": "우후후・・먼저　말해도　돼．"
-   }
-  },
-  {
-   "window": 1,
-   "line": 0,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 0,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a1588.wav",
-   "chars": 7,
-   "text": {
-    "ja": "あのさぁ・・・",
-    "ko": "있잖아・・・"
-   }
-  },
-  {
-   "window": 1,
-   "line": 1,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 0,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a1588.wav",
-   "chars": 22,
-   "text": {
-    "ja": "・・・あ・・ごめん・・一緒に喋っちゃったね。",
-    "ko": "・・・아・・미안・・같이　말해　버렸네．"
-   }
-  },
-  {
-   "window": 1,
-   "line": 2,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 0,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a1588.wav",
-   "chars": 8,
-   "text": {
-    "ja": "お先にどうぞ・・",
-    "ko": "먼저　해・・"
-   }
-  },
-  {
-   "window": 2,
-   "line": 0,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 0,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a1589.wav",
-   "chars": 16,
-   "text": {
-    "ja": "それでさ・・・あっ！　ごめん・・",
-    "ko": "그래서・・・앗！　미안・・"
-   }
-  },
-  {
-   "window": 2,
-   "line": 1,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 0,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a1589.wav",
-   "chars": 9,
-   "text": {
-    "ja": "先に言っていいよ。",
-    "ko": "먼저　말해도　돼．"
-   }
-  },
-  {
-   "window": 3,
-   "line": 0,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a1590.wav",
-   "chars": 7,
-   "text": {
-    "ja": "え？　なぁに？",
-    "ko": "어？　뭐야？"
-   }
-  },
-  {
-   "window": 4,
-   "line": 0,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a7379.wav",
-   "chars": 10,
-   "text": {
-    "ja": "え？　何て言ったの？",
-    "ko": "어？　뭐라고　했어？"
-   }
-  },
-  {
-   "window": 5,
-   "line": 0,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a7380.wav",
-   "chars": 2,
-   "text": {
-    "ja": "ん？",
-    "ko": "응？"
-   }
-  },
-  {
-   "window": 6,
-   "line": 0,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a7381.wav",
-   "chars": 18,
-   "text": {
-    "ja": "もう！　何よ！　私喋ってるのに・・・",
-    "ko": "진짜！　뭐야！　나　말하는데・・・"
-   }
-  },
-  {
-   "window": 7,
-   "line": 0,
-   "speaker": "鮎",
-   "kind": "대기",
-   "scene": null,
-   "date": null,
-   "slot": null,
-   "place": null,
-   "voice": "",
-   "chars": 11,
-   "text": {
-    "ja": "もう一回最初から話して",
-    "ko": "처음부터　다시　말해　줘"
-   }
-  },
-  {
-   "window": 7,
-   "line": 1,
-   "speaker": "鮎",
-   "kind": "대기",
-   "scene": null,
-   "date": null,
-   "slot": null,
-   "place": null,
-   "voice": "",
-   "chars": 11,
-   "text": {
-    "ja": "その話題・・もういいよ",
-    "ko": "그　얘기・・이제　됐어"
-   }
-  },
-  {
-   "window": 7,
-   "line": 2,
-   "speaker": "鮎",
-   "kind": "대기",
-   "scene": null,
-   "date": null,
-   "slot": null,
-   "place": null,
-   "voice": "",
-   "chars": 11,
-   "text": {
-    "ja": "いや・・何でもない・・",
-    "ko": "아니・・아무것도　아냐・・"
-   }
-  },
-  {
-   "window": 7,
-   "line": 3,
-   "speaker": "鮎",
-   "kind": "대기",
-   "scene": null,
-   "date": null,
-   "slot": null,
-   "place": null,
-   "voice": "",
-   "chars": 9,
-   "text": {
-    "ja": "プレゼントをあげる",
-    "ko": "선물을　준다"
-   }
-  },
-  {
-   "window": 8,
-   "line": 0,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a1591.wav",
-   "chars": 7,
-   "text": {
-    "ja": "うん。いいよ。",
-    "ko": "응．좋아．"
-   }
-  },
-  {
-   "window": 9,
-   "line": 0,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a1592.wav",
-   "chars": 3,
-   "text": {
-    "ja": "うん。",
-    "ko": "응．"
-   }
-  },
-  {
-   "window": 10,
-   "line": 0,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a1593.wav",
-   "chars": 4,
-   "text": {
-    "ja": "いいよ。",
-    "ko": "좋아．"
-   }
-  },
-  {
-   "window": 11,
-   "line": 0,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a1594.wav",
-   "chars": 7,
-   "text": {
-    "ja": "@S@・・・@P@ごめん。",
-    "ko": "@S@・・・@P@미안．"
-   }
-  },
-  {
-   "window": 11,
-   "line": 1,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a1594.wav",
-   "chars": 14,
-   "text": {
-    "ja": "それじゃ・・何話そうかな・・",
-    "ko": "그럼・・무슨　얘기할까・・"
-   }
-  },
-  {
-   "window": 11,
-   "line": 2,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a1594.wav",
-   "chars": 10,
-   "text": {
-    "ja": "・・あ・・そうだ！！",
-    "ko": "・・아・・맞다！！"
-   }
-  },
-  {
-   "window": 12,
-   "line": 0,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a1595.wav",
-   "chars": 11,
-   "text": {
-    "ja": "@S@・・・・・@P@でもさぁ・・",
-    "ko": "@S@・・・・・@P@근데　말이야・・"
-   }
-  },
-  {
-   "window": 12,
-   "line": 1,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a1595.wav",
-   "chars": 14,
-   "text": {
-    "ja": "それじゃ何話せばいいかな・・",
-    "ko": "그럼　무슨　얘길　하면　될까・・"
-   }
-  },
-  {
-   "window": 12,
-   "line": 2,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a1595.wav",
-   "chars": 16,
-   "text": {
-    "ja": "・・あ！　そうだ！　・・あのね。",
-    "ko": "・・아！　맞다！　・・있잖아．"
-   }
-  },
-  {
-   "window": 13,
-   "line": 0,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a1596.wav",
-   "chars": 10,
-   "text": {
-    "ja": "@S@・・・・・@P@ふぅん・・",
-    "ko": "@S@・・・・・@P@흐응・・"
-   }
-  },
-  {
-   "window": 13,
-   "line": 1,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a1596.wav",
-   "chars": 15,
-   "text": {
-    "ja": "それじゃ　何話せばいいかな・・",
-    "ko": "그럼　무슨　얘길　하면　될까・・"
-   }
-  },
-  {
-   "window": 13,
-   "line": 2,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a1596.wav",
-   "chars": 20,
-   "text": {
-    "ja": "・・えーと・・えーと・・あっ　そうだ・・",
-    "ko": "・・음・・음・・앗　맞다・・"
-   }
-  },
-  {
-   "window": 14,
-   "line": 0,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a1597.wav",
-   "chars": 10,
-   "text": {
-    "ja": "何よぉ・・変な人・・",
-    "ko": "뭐야아・・이상한　사람・・"
-   }
-  },
-  {
-   "window": 14,
-   "line": 1,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a1597.wav",
-   "chars": 25,
-   "text": {
-    "ja": "あーん！　どこまで話したか忘れちゃったじゃない・・",
-    "ko": "아앙！　어디까지　말했는지　까먹었잖아・・"
-   }
-  },
-  {
-   "window": 14,
-   "line": 2,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a1597.wav",
-   "chars": 11,
-   "text": {
-    "ja": "あ！　そう思い出した！",
-    "ko": "아！　맞다　생각났어！"
-   }
-  },
-  {
-   "window": 15,
-   "line": 0,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a1598.wav",
-   "chars": 17,
-   "text": {
-    "ja": "そぉ？　何か気になっちゃうなぁ・・",
-    "ko": "그래？　왠지　신경　쓰이네・・"
-   }
-  },
-  {
-   "window": 15,
-   "line": 1,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a1598.wav",
-   "chars": 25,
-   "text": {
-    "ja": "あーん！　どこまで話したか忘れちゃったじゃない・・",
-    "ko": "아앙！　어디까지　말했는지　까먹었잖아・・"
-   }
-  },
-  {
-   "window": 15,
-   "line": 2,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a1598.wav",
-   "chars": 13,
-   "text": {
-    "ja": "あ！　そうそう思い出した！",
-    "ko": "아！　맞다맞다　생각났어！"
-   }
-  },
-  {
-   "window": 16,
-   "line": 0,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a1599.wav",
-   "chars": 5,
-   "text": {
-    "ja": "変なの！！",
-    "ko": "이상해！！"
-   }
-  },
-  {
-   "window": 16,
-   "line": 1,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a1599.wav",
-   "chars": 23,
-   "text": {
-    "ja": "えーっと　何話してたっけ・・あ・・そうそう・・",
-    "ko": "음　무슨　얘기했더라・・아・・그래그래・・"
-   }
-  },
-  {
-   "window": 17,
-   "line": 0,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A1597.WAV",
-   "chars": 10,
-   "text": {
-    "ja": "何よぉ・・変な人・・",
-    "ko": "뭐야아・・이상한　사람・・"
-   }
-  },
-  {
-   "window": 17,
-   "line": 1,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A1597.WAV",
-   "chars": 25,
-   "text": {
-    "ja": "あーん！　どこまで話したか忘れちゃったじゃない・・",
-    "ko": "아앙！　어디까지　말했는지　까먹었잖아・・"
-   }
-  },
-  {
-   "window": 17,
-   "line": 2,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A1597.WAV",
-   "chars": 11,
-   "text": {
-    "ja": "あ！　そう思い出した！",
-    "ko": "아！　맞다　생각났어！"
-   }
-  },
-  {
-   "window": 18,
-   "line": 0,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a7382.wav",
-   "chars": 12,
-   "text": {
-    "ja": "え？　それ私にくれるの？",
-    "ko": "어？　그거　나　주는　거야？"
-   }
-  },
-  {
-   "window": 18,
-   "line": 1,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a7382.wav",
-   "chars": 17,
-   "text": {
-    "ja": "ほんと？　うれしい！　ありがとう！",
-    "ko": "정말？　기뻐！　고마워！"
-   }
-  },
-  {
-   "window": 19,
-   "line": 0,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a7383.wav",
-   "chars": 14,
-   "text": {
-    "ja": "あ・・それって　プレゼント？",
-    "ko": "아・・그거　선물이야？"
-   }
-  },
-  {
-   "window": 19,
-   "line": 1,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a7383.wav",
-   "chars": 14,
-   "text": {
-    "ja": "ありがとう。もらっておくね。",
-    "ko": "고마워．받아　둘게．"
-   }
-  },
-  {
-   "window": 20,
-   "line": 0,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a7384.wav",
-   "chars": 14,
-   "text": {
-    "ja": "あ・・それって　プレゼント？",
-    "ko": "아・・그거　선물이야？"
-   }
-  },
-  {
-   "window": 20,
-   "line": 1,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a7384.wav",
-   "chars": 16,
-   "text": {
-    "ja": "でも私　それ持ってるからなぁ・・",
-    "ko": "근데　나　그거　있어서　말야・・"
-   }
-  },
-  {
-   "window": 20,
-   "line": 2,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a7384.wav",
-   "chars": 9,
-   "text": {
-    "ja": "・・・・ごめんね。",
-    "ko": "・・・・미안해．"
-   }
-  },
-  {
-   "window": 21,
-   "line": 0,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a7385.wav",
-   "chars": 14,
-   "text": {
-    "ja": "あ・・それって　プレゼント？",
-    "ko": "아・・그거　선물이야？"
-   }
-  },
-  {
-   "window": 21,
-   "line": 1,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a7385.wav",
-   "chars": 11,
-   "text": {
-    "ja": "でも　ちょっとなぁ・・",
-    "ko": "근데　좀　그렇네・・"
-   }
-  },
-  {
-   "window": 21,
-   "line": 2,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a7385.wav",
-   "chars": 14,
-   "text": {
-    "ja": "せっかくだけど・・ごめんね。",
-    "ko": "모처럼인데・・미안해．"
-   }
-  },
-  {
-   "window": 22,
-   "line": 0,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a7386.wav",
-   "chars": 12,
-   "text": {
-    "ja": "え？　それ　プレゼント？",
-    "ko": "어？　그거　선물이야？"
-   }
-  },
-  {
-   "window": 22,
-   "line": 1,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a7386.wav",
-   "chars": 11,
-   "text": {
-    "ja": "・・でも高いんでしょ？",
-    "ko": "・・근데　비싼　거지？"
-   }
-  },
-  {
-   "window": 22,
-   "line": 2,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a7386.wav",
-   "chars": 20,
-   "text": {
-    "ja": "そういうの　もらえないよ。・・ごめんね。",
-    "ko": "그런　건　못　받아．・・미안해．"
-   }
-  },
-  {
-   "window": 23,
-   "line": 0,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 2,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a1627.wav",
-   "chars": 14,
-   "text": {
-    "ja": "あ・・そういう話ってきらい？",
-    "ko": "아・・그런　얘기　싫어？"
-   }
-  },
-  {
-   "window": 24,
-   "line": 0,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 2,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a1628.wav",
-   "chars": 7,
-   "text": {
-    "ja": "@S@・・・@P@ごめん。",
-    "ko": "@S@・・・@P@미안．"
-   }
-  },
-  {
-   "window": 24,
-   "line": 1,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 2,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a1628.wav",
-   "chars": 19,
-   "text": {
-    "ja": "私　変なこと言っちゃったみたいだね・・",
-    "ko": "나　이상한　말　한　것　같네・・"
-   }
-  },
-  {
-   "window": 25,
-   "line": 0,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 2,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a1629.wav",
-   "chars": 16,
-   "text": {
-    "ja": "@S@・・・・・・・・・・・・・・・・",
-    "ko": ""
-   }
-  },
-  {
-   "window": 25,
-   "line": 1,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 2,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "a1629.wav",
-   "chars": 19,
-   "text": {
-    "ja": "@P@ねぇ？　どうしちゃったの？　聞いてる？",
-    "ko": "@P@저기？　왜　그래？　듣고　있어？"
-   }
-  }
- ]
+  "script": "AYU_CBS",
+  "source": "ja",
+  "entries": [
+    {
+      "window": 0,
+      "line": 0,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 0,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a1587.wav",
+      "chars": 7,
+      "text": {
+        "ja": "あ・・ごめん。",
+        "ko": "아・・미안."
+      }
+    },
+    {
+      "window": 0,
+      "line": 1,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 0,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a1587.wav",
+      "chars": 15,
+      "text": {
+        "ja": "・・・私たち気が合うみたいね。",
+        "ko": "・・・우리 잘 맞나 봐."
+      }
+    },
+    {
+      "window": 0,
+      "line": 2,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 0,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a1587.wav",
+      "chars": 14,
+      "text": {
+        "ja": "うふふ・・先に言っていいよ。",
+        "ko": "우후후・・먼저 말해도 돼."
+      }
+    },
+    {
+      "window": 1,
+      "line": 0,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 0,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a1588.wav",
+      "chars": 7,
+      "text": {
+        "ja": "あのさぁ・・・",
+        "ko": "있잖아・・・"
+      }
+    },
+    {
+      "window": 1,
+      "line": 1,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 0,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a1588.wav",
+      "chars": 22,
+      "text": {
+        "ja": "・・・あ・・ごめん・・一緒に喋っちゃったね。",
+        "ko": "・・・아・・미안・・같이 말해 버렸네."
+      }
+    },
+    {
+      "window": 1,
+      "line": 2,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 0,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a1588.wav",
+      "chars": 8,
+      "text": {
+        "ja": "お先にどうぞ・・",
+        "ko": "먼저 해・・"
+      }
+    },
+    {
+      "window": 2,
+      "line": 0,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 0,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a1589.wav",
+      "chars": 16,
+      "text": {
+        "ja": "それでさ・・・あっ！　ごめん・・",
+        "ko": "그래서・・・앗! 미안・・"
+      }
+    },
+    {
+      "window": 2,
+      "line": 1,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 0,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a1589.wav",
+      "chars": 9,
+      "text": {
+        "ja": "先に言っていいよ。",
+        "ko": "먼저 말해도 돼."
+      }
+    },
+    {
+      "window": 3,
+      "line": 0,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a1590.wav",
+      "chars": 7,
+      "text": {
+        "ja": "え？　なぁに？",
+        "ko": "어? 뭐야?"
+      }
+    },
+    {
+      "window": 4,
+      "line": 0,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a7379.wav",
+      "chars": 10,
+      "text": {
+        "ja": "え？　何て言ったの？",
+        "ko": "어? 뭐라고 했어?"
+      }
+    },
+    {
+      "window": 5,
+      "line": 0,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a7380.wav",
+      "chars": 2,
+      "text": {
+        "ja": "ん？",
+        "ko": "응?"
+      }
+    },
+    {
+      "window": 6,
+      "line": 0,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a7381.wav",
+      "chars": 18,
+      "text": {
+        "ja": "もう！　何よ！　私喋ってるのに・・・",
+        "ko": "진짜! 뭐야! 나 말하는데・・・"
+      }
+    },
+    {
+      "window": 7,
+      "line": 0,
+      "speaker": "鮎",
+      "kind": "대기",
+      "scene": null,
+      "date": null,
+      "slot": null,
+      "place": null,
+      "voice": "",
+      "chars": 11,
+      "text": {
+        "ja": "もう一回最初から話して",
+        "ko": "처음부터 다시 말해 줘"
+      }
+    },
+    {
+      "window": 7,
+      "line": 1,
+      "speaker": "鮎",
+      "kind": "대기",
+      "scene": null,
+      "date": null,
+      "slot": null,
+      "place": null,
+      "voice": "",
+      "chars": 11,
+      "text": {
+        "ja": "その話題・・もういいよ",
+        "ko": "그 얘기・・이제 됐어"
+      }
+    },
+    {
+      "window": 7,
+      "line": 2,
+      "speaker": "鮎",
+      "kind": "대기",
+      "scene": null,
+      "date": null,
+      "slot": null,
+      "place": null,
+      "voice": "",
+      "chars": 11,
+      "text": {
+        "ja": "いや・・何でもない・・",
+        "ko": "아니・・아무것도 아냐・・"
+      }
+    },
+    {
+      "window": 7,
+      "line": 3,
+      "speaker": "鮎",
+      "kind": "대기",
+      "scene": null,
+      "date": null,
+      "slot": null,
+      "place": null,
+      "voice": "",
+      "chars": 9,
+      "text": {
+        "ja": "プレゼントをあげる",
+        "ko": "선물을 준다"
+      }
+    },
+    {
+      "window": 8,
+      "line": 0,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a1591.wav",
+      "chars": 7,
+      "text": {
+        "ja": "うん。いいよ。",
+        "ko": "응. 좋아."
+      }
+    },
+    {
+      "window": 9,
+      "line": 0,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a1592.wav",
+      "chars": 3,
+      "text": {
+        "ja": "うん。",
+        "ko": "응."
+      }
+    },
+    {
+      "window": 10,
+      "line": 0,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a1593.wav",
+      "chars": 4,
+      "text": {
+        "ja": "いいよ。",
+        "ko": "좋아."
+      }
+    },
+    {
+      "window": 11,
+      "line": 0,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a1594.wav",
+      "chars": 7,
+      "text": {
+        "ja": "@S@・・・@P@ごめん。",
+        "ko": "@S@・・・@P@미안."
+      }
+    },
+    {
+      "window": 11,
+      "line": 1,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a1594.wav",
+      "chars": 14,
+      "text": {
+        "ja": "それじゃ・・何話そうかな・・",
+        "ko": "그럼・・무슨 얘기할까・・"
+      }
+    },
+    {
+      "window": 11,
+      "line": 2,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a1594.wav",
+      "chars": 10,
+      "text": {
+        "ja": "・・あ・・そうだ！！",
+        "ko": "・・아・・맞다!!"
+      }
+    },
+    {
+      "window": 12,
+      "line": 0,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a1595.wav",
+      "chars": 11,
+      "text": {
+        "ja": "@S@・・・・・@P@でもさぁ・・",
+        "ko": "@S@・・・・・@P@근데 말이야・・"
+      }
+    },
+    {
+      "window": 12,
+      "line": 1,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a1595.wav",
+      "chars": 14,
+      "text": {
+        "ja": "それじゃ何話せばいいかな・・",
+        "ko": "그럼 무슨 얘길 하면 될까・・"
+      }
+    },
+    {
+      "window": 12,
+      "line": 2,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a1595.wav",
+      "chars": 16,
+      "text": {
+        "ja": "・・あ！　そうだ！　・・あのね。",
+        "ko": "・・아! 맞다! ・・있잖아."
+      }
+    },
+    {
+      "window": 13,
+      "line": 0,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a1596.wav",
+      "chars": 10,
+      "text": {
+        "ja": "@S@・・・・・@P@ふぅん・・",
+        "ko": "@S@・・・・・@P@흐응・・"
+      }
+    },
+    {
+      "window": 13,
+      "line": 1,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a1596.wav",
+      "chars": 15,
+      "text": {
+        "ja": "それじゃ　何話せばいいかな・・",
+        "ko": "그럼 무슨 얘길 하면 될까・・"
+      }
+    },
+    {
+      "window": 13,
+      "line": 2,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a1596.wav",
+      "chars": 20,
+      "text": {
+        "ja": "・・えーと・・えーと・・あっ　そうだ・・",
+        "ko": "・・음・・음・・앗 맞다・・"
+      }
+    },
+    {
+      "window": 14,
+      "line": 0,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a1597.wav",
+      "chars": 10,
+      "text": {
+        "ja": "何よぉ・・変な人・・",
+        "ko": "뭐야아・・이상한 사람・・"
+      }
+    },
+    {
+      "window": 14,
+      "line": 1,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a1597.wav",
+      "chars": 25,
+      "text": {
+        "ja": "あーん！　どこまで話したか忘れちゃったじゃない・・",
+        "ko": "아앙! 어디까지 말했는지 까먹었잖아・・"
+      }
+    },
+    {
+      "window": 14,
+      "line": 2,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a1597.wav",
+      "chars": 11,
+      "text": {
+        "ja": "あ！　そう思い出した！",
+        "ko": "아! 맞다 생각났어!"
+      }
+    },
+    {
+      "window": 15,
+      "line": 0,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a1598.wav",
+      "chars": 17,
+      "text": {
+        "ja": "そぉ？　何か気になっちゃうなぁ・・",
+        "ko": "그래? 왠지 신경 쓰이네・・"
+      }
+    },
+    {
+      "window": 15,
+      "line": 1,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a1598.wav",
+      "chars": 25,
+      "text": {
+        "ja": "あーん！　どこまで話したか忘れちゃったじゃない・・",
+        "ko": "아앙! 어디까지 말했는지 까먹었잖아・・"
+      }
+    },
+    {
+      "window": 15,
+      "line": 2,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a1598.wav",
+      "chars": 13,
+      "text": {
+        "ja": "あ！　そうそう思い出した！",
+        "ko": "아! 맞다맞다 생각났어!"
+      }
+    },
+    {
+      "window": 16,
+      "line": 0,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a1599.wav",
+      "chars": 5,
+      "text": {
+        "ja": "変なの！！",
+        "ko": "이상해!!"
+      }
+    },
+    {
+      "window": 16,
+      "line": 1,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a1599.wav",
+      "chars": 23,
+      "text": {
+        "ja": "えーっと　何話してたっけ・・あ・・そうそう・・",
+        "ko": "음 무슨 얘기했더라・・아・・그래그래・・"
+      }
+    },
+    {
+      "window": 17,
+      "line": 0,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A1597.WAV",
+      "chars": 10,
+      "text": {
+        "ja": "何よぉ・・変な人・・",
+        "ko": "뭐야아・・이상한 사람・・"
+      }
+    },
+    {
+      "window": 17,
+      "line": 1,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A1597.WAV",
+      "chars": 25,
+      "text": {
+        "ja": "あーん！　どこまで話したか忘れちゃったじゃない・・",
+        "ko": "아앙! 어디까지 말했는지 까먹었잖아・・"
+      }
+    },
+    {
+      "window": 17,
+      "line": 2,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A1597.WAV",
+      "chars": 11,
+      "text": {
+        "ja": "あ！　そう思い出した！",
+        "ko": "아! 맞다 생각났어!"
+      }
+    },
+    {
+      "window": 18,
+      "line": 0,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a7382.wav",
+      "chars": 12,
+      "text": {
+        "ja": "え？　それ私にくれるの？",
+        "ko": "어? 그거 나 주는 거야?"
+      }
+    },
+    {
+      "window": 18,
+      "line": 1,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a7382.wav",
+      "chars": 17,
+      "text": {
+        "ja": "ほんと？　うれしい！　ありがとう！",
+        "ko": "정말? 기뻐! 고마워!"
+      }
+    },
+    {
+      "window": 19,
+      "line": 0,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a7383.wav",
+      "chars": 14,
+      "text": {
+        "ja": "あ・・それって　プレゼント？",
+        "ko": "아・・그거 선물이야?"
+      }
+    },
+    {
+      "window": 19,
+      "line": 1,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a7383.wav",
+      "chars": 14,
+      "text": {
+        "ja": "ありがとう。もらっておくね。",
+        "ko": "고마워. 받아 둘게."
+      }
+    },
+    {
+      "window": 20,
+      "line": 0,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a7384.wav",
+      "chars": 14,
+      "text": {
+        "ja": "あ・・それって　プレゼント？",
+        "ko": "아・・그거 선물이야?"
+      }
+    },
+    {
+      "window": 20,
+      "line": 1,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a7384.wav",
+      "chars": 16,
+      "text": {
+        "ja": "でも私　それ持ってるからなぁ・・",
+        "ko": "근데 나 그거 있어서 말야・・"
+      }
+    },
+    {
+      "window": 20,
+      "line": 2,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a7384.wav",
+      "chars": 9,
+      "text": {
+        "ja": "・・・・ごめんね。",
+        "ko": "・・・・미안해."
+      }
+    },
+    {
+      "window": 21,
+      "line": 0,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a7385.wav",
+      "chars": 14,
+      "text": {
+        "ja": "あ・・それって　プレゼント？",
+        "ko": "아・・그거 선물이야?"
+      }
+    },
+    {
+      "window": 21,
+      "line": 1,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a7385.wav",
+      "chars": 11,
+      "text": {
+        "ja": "でも　ちょっとなぁ・・",
+        "ko": "근데 좀 그렇네・・"
+      }
+    },
+    {
+      "window": 21,
+      "line": 2,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a7385.wav",
+      "chars": 14,
+      "text": {
+        "ja": "せっかくだけど・・ごめんね。",
+        "ko": "모처럼인데・・미안해."
+      }
+    },
+    {
+      "window": 22,
+      "line": 0,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a7386.wav",
+      "chars": 12,
+      "text": {
+        "ja": "え？　それ　プレゼント？",
+        "ko": "어? 그거 선물이야?"
+      }
+    },
+    {
+      "window": 22,
+      "line": 1,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a7386.wav",
+      "chars": 11,
+      "text": {
+        "ja": "・・でも高いんでしょ？",
+        "ko": "・・근데 비싼 거지?"
+      }
+    },
+    {
+      "window": 22,
+      "line": 2,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a7386.wav",
+      "chars": 20,
+      "text": {
+        "ja": "そういうの　もらえないよ。・・ごめんね。",
+        "ko": "그런 건 못 받아.・・미안해."
+      }
+    },
+    {
+      "window": 23,
+      "line": 0,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 2,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a1627.wav",
+      "chars": 14,
+      "text": {
+        "ja": "あ・・そういう話ってきらい？",
+        "ko": "아・・그런 얘기 싫어?"
+      }
+    },
+    {
+      "window": 24,
+      "line": 0,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 2,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a1628.wav",
+      "chars": 7,
+      "text": {
+        "ja": "@S@・・・@P@ごめん。",
+        "ko": "@S@・・・@P@미안."
+      }
+    },
+    {
+      "window": 24,
+      "line": 1,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 2,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a1628.wav",
+      "chars": 19,
+      "text": {
+        "ja": "私　変なこと言っちゃったみたいだね・・",
+        "ko": "나 이상한 말 한 것 같네・・"
+      }
+    },
+    {
+      "window": 25,
+      "line": 0,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 2,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a1629.wav",
+      "chars": 16,
+      "text": {
+        "ja": "@S@・・・・・・・・・・・・・・・・",
+        "ko": ""
+      }
+    },
+    {
+      "window": 25,
+      "line": 1,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 2,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "a1629.wav",
+      "chars": 19,
+      "text": {
+        "ja": "@P@ねぇ？　どうしちゃったの？　聞いてる？",
+        "ko": "@P@저기? 왜 그래? 듣고 있어?"
+      }
+    }
+  ]
 }

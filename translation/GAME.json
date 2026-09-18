@@ -1,1814 +1,1814 @@
 {
- "script": "GAME",
- "source": "ja",
- "entries": [
-  {
-   "window": 0,
-   "line": 0,
-   "speaker": "琴梨",
-   "kind": "대사",
-   "scene": 0,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7687.WAV",
-   "chars": 6,
-   "text": {
-    "ja": "やったー！！",
-    "ko": "해냈다ー！！"
-   }
-  },
-  {
-   "window": 1,
-   "line": 0,
-   "speaker": "琴梨",
-   "kind": "대사",
-   "scene": 0,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7688.WAV",
-   "chars": 14,
-   "text": {
-    "ja": "うーん・・まあまあ・・かな？",
-    "ko": "으음・・그럭저럭・・이려나？"
-   }
-  },
-  {
-   "window": 2,
-   "line": 0,
-   "speaker": "琴梨",
-   "kind": "대사",
-   "scene": 0,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7689.WAV",
-   "chars": 13,
-   "text": {
-    "ja": "あーん・・・残念だなぁ・・",
-    "ko": "아앙・・・아쉽다・・"
-   }
-  },
-  {
-   "window": 3,
-   "line": 0,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 0,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7690.WAV",
-   "chars": 6,
-   "text": {
-    "ja": "やったー！！",
-    "ko": "해냈다ー！！"
-   }
-  },
-  {
-   "window": 3,
-   "line": 1,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 0,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7690.WAV",
-   "chars": 16,
-   "text": {
-    "ja": "ねぇねぇ見てた？　すごいでしょ？",
-    "ko": "있잖아　봤어？　대단하지？"
-   }
-  },
-  {
-   "window": 4,
-   "line": 0,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 0,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7691.WAV",
-   "chars": 12,
-   "text": {
-    "ja": "まぁ　こんなもんだよね？",
-    "ko": "뭐　이　정도지？"
-   }
-  },
-  {
-   "window": 5,
-   "line": 0,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 0,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7692.WAV",
-   "chars": 13,
-   "text": {
-    "ja": "悔しい！　全然駄目だよね。",
-    "ko": "분해！　완전　별로였어．"
-   }
-  },
-  {
-   "window": 6,
-   "line": 0,
-   "speaker": "ターニャ",
-   "kind": "대사",
-   "scene": 0,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7693.WAV",
-   "chars": 18,
-   "text": {
-    "ja": "なんか・・調子よかったみたいですね。",
-    "ko": "왠지・・컨디션이　좋았나　봐요．"
-   }
-  },
-  {
-   "window": 7,
-   "line": 0,
-   "speaker": "ターニャ",
-   "kind": "대사",
-   "scene": 0,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7694.WAV",
-   "chars": 17,
-   "text": {
-    "ja": "結果はどうあれ　楽しかったですよ。",
-    "ko": "결과가　어떻든　즐거웠어요．"
-   }
-  },
-  {
-   "window": 8,
-   "line": 0,
-   "speaker": "ターニャ",
-   "kind": "대사",
-   "scene": 0,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7695.WAV",
-   "chars": 19,
-   "text": {
-    "ja": "やっぱり　こういうのって難しいですね。",
-    "ko": "역시　이런　건　어렵네요．"
-   }
-  },
-  {
-   "window": 9,
-   "line": 0,
-   "speaker": "由子",
-   "kind": "대사",
-   "scene": 0,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7696.WAV",
-   "chars": 11,
-   "text": {
-    "ja": "やったー！！　絶好調！",
-    "ko": "해냈다ー！！　컨디션　최고！"
-   }
-  },
-  {
-   "window": 10,
-   "line": 0,
-   "speaker": "由子",
-   "kind": "대사",
-   "scene": 0,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7697.WAV",
-   "chars": 11,
-   "text": {
-    "ja": "ま・・こんなもんかな？",
-    "ko": "뭐・・이　정도려나？"
-   }
-  },
-  {
-   "window": 11,
-   "line": 0,
-   "speaker": "由子",
-   "kind": "대사",
-   "scene": 0,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7698.WAV",
-   "chars": 13,
-   "text": {
-    "ja": "次！　次は実力出すからね。",
-    "ko": "다음！　다음엔　실력　보여줄　거야．"
-   }
-  },
-  {
-   "window": 12,
-   "line": 0,
-   "speaker": "薫",
-   "kind": "대사",
-   "scene": 0,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7699.WAV",
-   "chars": 15,
-   "text": {
-    "ja": "ちょっと本気出しちゃったかな？",
-    "ko": "조금　진심을　내　버렸나？"
-   }
-  },
-  {
-   "window": 13,
-   "line": 0,
-   "speaker": "薫",
-   "kind": "대사",
-   "scene": 0,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7700.WAV",
-   "chars": 13,
-   "text": {
-    "ja": "まあ　こんなものかしらね？",
-    "ko": "글쎄　이　정도일까？"
-   }
-  },
-  {
-   "window": 14,
-   "line": 0,
-   "speaker": "薫",
-   "kind": "대사",
-   "scene": 0,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7701.WAV",
-   "chars": 17,
-   "text": {
-    "ja": "たまにはこういうこともあるわよね。",
-    "ko": "가끔은　이런　일도　있는　거야．"
-   }
-  },
-  {
-   "window": 15,
-   "line": 0,
-   "speaker": "葉野香",
-   "kind": "대사",
-   "scene": 0,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7702.WAV",
-   "chars": 11,
-   "text": {
-    "ja": "へへっ！　やったね！！",
-    "ko": "헤헷！　해냈네！！"
-   }
-  },
-  {
-   "window": 16,
-   "line": 0,
-   "speaker": "葉野香",
-   "kind": "대사",
-   "scene": 0,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7703.WAV",
-   "chars": 15,
-   "text": {
-    "ja": "まぁ・・こんなもんだろうね・・",
-    "ko": "뭐・・이　정도겠지・・"
-   }
-  },
-  {
-   "window": 17,
-   "line": 0,
-   "speaker": "葉野香",
-   "kind": "대사",
-   "scene": 0,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7704.WAV",
-   "chars": 14,
-   "text": {
-    "ja": "あーあ・・やってらんないよ。",
-    "ko": "아아・・못　해먹겠네．"
-   }
-  },
-  {
-   "window": 18,
-   "line": 0,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 0,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7705.WAV",
-   "chars": 16,
-   "text": {
-    "ja": "やったぁ！！　ねぇ誉めて誉めて！",
-    "ko": "해냈다ー！！　나　칭찬해　칭찬해！"
-   }
-  },
-  {
-   "window": 19,
-   "line": 0,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 0,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7706.WAV",
-   "chars": 14,
-   "text": {
-    "ja": "次やったら　もっとすごいよ。",
-    "ko": "다음엔　더　대단할　거야．"
-   }
-  },
-  {
-   "window": 20,
-   "line": 0,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 0,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7707.WAV",
-   "chars": 15,
-   "text": {
-    "ja": "ねぇ？　今のって　練習だよね？",
-    "ko": "있잖아？　방금　건　연습이었지？"
-   }
-  },
-  {
-   "window": 21,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 0,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7708.WAV",
-   "chars": 16,
-   "text": {
-    "ja": "すごーい！！　やったやったー！！",
-    "ko": "굉장해ー！！　해냈다　해냈다ー！！"
-   }
-  },
-  {
-   "window": 22,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 0,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7709.WAV",
-   "chars": 15,
-   "text": {
-    "ja": "うん。まぁ　こんな感じだよね。",
-    "ko": "응．뭐　이런　느낌이지．"
-   }
-  },
-  {
-   "window": 23,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 0,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7710.WAV",
-   "chars": 12,
-   "text": {
-    "ja": "あーあ。失敗しちゃった。",
-    "ko": "아아．실패해　버렸어．"
-   }
-  },
-  {
-   "window": 24,
-   "line": 0,
-   "speaker": "琴梨",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7711.WAV",
-   "chars": 18,
-   "text": {
-    "ja": "わぁ！　お兄ちゃんって　すごいよね。",
-    "ko": "와아！　오빠　정말　대단하다．"
-   }
-  },
-  {
-   "window": 25,
-   "line": 0,
-   "speaker": "琴梨",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7712.WAV",
-   "chars": 16,
-   "text": {
-    "ja": "残念！　でも　また次があるよね。",
-    "ko": "아쉽다！　근데　또　다음이　있잖아．"
-   }
-  },
-  {
-   "window": 26,
-   "line": 0,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7713.WAV",
-   "chars": 13,
-   "text": {
-    "ja": "すごーい！！　天才かも・・",
-    "ko": "굉장해ー！！　천재일지도・・"
-   }
-  },
-  {
-   "window": 27,
-   "line": 0,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7714.WAV",
-   "chars": 19,
-   "text": {
-    "ja": "ドンマイ！　ドンマイ！　次があるよね。",
-    "ko": "괜찮아！　괜찮아！　다음이　있잖아．"
-   }
-  },
-  {
-   "window": 28,
-   "line": 0,
-   "speaker": "ターニャ",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7715.WAV",
-   "chars": 12,
-   "text": {
-    "ja": "やっぱり　すごいですね。",
-    "ko": "역시　대단하네요．"
-   }
-  },
-  {
-   "window": 29,
-   "line": 0,
-   "speaker": "ターニャ",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7716.WAV",
-   "chars": 17,
-   "text": {
-    "ja": "誰でも調子の悪いときはありますよ。",
-    "ko": "누구나　컨디션　나쁠　때가　있어요．"
-   }
-  },
-  {
-   "window": 30,
-   "line": 0,
-   "speaker": "由子",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7717.WAV",
-   "chars": 14,
-   "text": {
-    "ja": "すっごーい！　やるじゃない？",
-    "ko": "굉장해ー！　제법인데？"
-   }
-  },
-  {
-   "window": 31,
-   "line": 0,
-   "speaker": "由子",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7718.WAV",
-   "chars": 17,
-   "text": {
-    "ja": "ドンマイ！　次は本気出していいよ。",
-    "ko": "괜찮아！　다음엔　진심　내도　돼．"
-   }
-  },
-  {
-   "window": 32,
-   "line": 0,
-   "speaker": "薫",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7719.WAV",
-   "chars": 16,
-   "text": {
-    "ja": "ひょっとして　本気出したでしょ？",
-    "ko": "혹시　진심　낸　거　아니야？"
-   }
-  },
-  {
-   "window": 33,
-   "line": 0,
-   "speaker": "薫",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7720.WAV",
-   "chars": 17,
-   "text": {
-    "ja": "男の子の悔しがってる顔って好きよ。",
-    "ko": "분해하는　남자애　얼굴　좋아해．"
-   }
-  },
-  {
-   "window": 34,
-   "line": 0,
-   "speaker": "葉野香",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7721.WAV",
-   "chars": 10,
-   "text": {
-    "ja": "へぇ・・すごいね・・",
-    "ko": "헤에・・대단하네・・"
-   }
-  },
-  {
-   "window": 35,
-   "line": 0,
-   "speaker": "葉野香",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7722.WAV",
-   "chars": 14,
-   "text": {
-    "ja": "まぁ・・そういう時もあるよ。",
-    "ko": "뭐・・그럴　때도　있지．"
-   }
-  },
-  {
-   "window": 36,
-   "line": 0,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7723.WAV",
-   "chars": 5,
-   "text": {
-    "ja": "すごーい！",
-    "ko": "굉장해ー！"
-   }
-  },
-  {
-   "window": 36,
-   "line": 1,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7723.WAV",
-   "chars": 17,
-   "text": {
-    "ja": "やっぱり私の応援が良かったのかな？",
-    "ko": "역시　내　응원이　좋았던　걸까？"
-   }
-  },
-  {
-   "window": 37,
-   "line": 0,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7724.WAV",
-   "chars": 5,
-   "text": {
-    "ja": "どんまい！",
-    "ko": "괜찮아！"
-   }
-  },
-  {
-   "window": 37,
-   "line": 1,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7724.WAV",
-   "chars": 11,
-   "text": {
-    "ja": "次は応援してあげるね。",
-    "ko": "다음엔　응원해　줄게．"
-   }
-  },
-  {
-   "window": 38,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7725.WAV",
-   "chars": 17,
-   "text": {
-    "ja": "すごーい！！　やっぱりすごいよね。",
-    "ko": "굉장해ー！！　역시　대단하다．"
-   }
-  },
-  {
-   "window": 39,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 1,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7726.WAV",
-   "chars": 17,
-   "text": {
-    "ja": "失敗しちゃったね。でも次があるよ。",
-    "ko": "실패했네．근데　다음이　있어．"
-   }
-  },
-  {
-   "window": 40,
-   "line": 0,
-   "speaker": "司会者",
-   "kind": "대사",
-   "scene": 2,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7727.WAV",
-   "chars": 15,
-   "text": {
-    "ja": "クイズ　まるごと　北海道～！！",
-    "ko": "퀴즈　통째로　홋카이도～！！"
-   }
-  },
-  {
-   "window": 41,
-   "line": 0,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 3,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7728.WAV",
-   "chars": 8,
-   "text": {
-    "ja": "あっ！　待って！",
-    "ko": "앗！　기다려！"
-   }
-  },
-  {
-   "window": 41,
-   "line": 1,
-   "speaker": "鮎",
-   "kind": "대사",
-   "scene": 3,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7728.WAV",
-   "chars": 20,
-   "text": {
-    "ja": "まだチェックポイント全部まわってないよ。",
-    "ko": "아직　체크포인트　다　안　돌았어．"
-   }
-  },
-  {
-   "window": 42,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 3,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7729.WAV",
-   "chars": 20,
-   "text": {
-    "ja": "あれ？　まだ行ってないチェックポイントが",
-    "ko": "어라？　아직　안　간　체크포인트가"
-   }
-  },
-  {
-   "window": 42,
-   "line": 1,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 3,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7729.WAV",
-   "chars": 10,
-   "text": {
-    "ja": "あるんじゃないかな？",
-    "ko": "있지　않을까？"
-   }
-  },
-  {
-   "window": 43,
-   "line": 0,
-   "speaker": "琴梨",
-   "kind": "대사",
-   "scene": 4,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7730.WAV",
-   "chars": 14,
-   "text": {
-    "ja": "それじゃ行こ！　お兄ちゃん。",
-    "ko": "그럼　가자！　오빠．"
-   }
-  },
-  {
-   "window": 44,
-   "line": 0,
-   "speaker": "琴梨",
-   "kind": "대사",
-   "scene": 4,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7731.WAV",
-   "chars": 13,
-   "text": {
-    "ja": "お兄ちゃん！　こっちだよ。",
-    "ko": "오빠！　이쪽이야．"
-   }
-  },
-  {
-   "window": 45,
-   "line": 0,
-   "speaker": "琴梨",
-   "kind": "대사",
-   "scene": 4,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7732.WAV",
-   "chars": 13,
-   "text": {
-    "ja": "こっち・・・でいいのかな？",
-    "ko": "이쪽・・・이　맞으려나？"
-   }
-  },
-  {
-   "window": 46,
-   "line": 0,
-   "speaker": "琴梨",
-   "kind": "대사",
-   "scene": 4,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7733.WAV",
-   "chars": 17,
-   "text": {
-    "ja": "ひょっとして・・迷っちゃったかな？",
-    "ko": "혹시・・길　잃은　걸까？"
-   }
-  },
-  {
-   "window": 47,
-   "line": 0,
-   "speaker": "琴梨",
-   "kind": "대사",
-   "scene": 4,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7734.WAV",
-   "chars": 19,
-   "text": {
-    "ja": "あっ！　チェックポイント　見つけたよ！",
-    "ko": "앗！　체크포인트　찾았어！"
-   }
-  },
-  {
-   "window": 48,
-   "line": 0,
-   "speaker": "琴梨",
-   "kind": "대사",
-   "scene": 4,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7735.WAV",
-   "chars": 17,
-   "text": {
-    "ja": "あっ！　あそこがゴールみたいだよ！",
-    "ko": "앗！　저기가　골　같아！"
-   }
-  },
-  {
-   "window": 49,
-   "line": 0,
-   "speaker": "琴梨",
-   "kind": "대사",
-   "scene": 4,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7736.WAV",
-   "chars": 9,
-   "text": {
-    "ja": "やった！　ゴール！",
-    "ko": "해냈다！　골！"
-   }
-  },
-  {
-   "window": 50,
-   "line": 0,
-   "speaker": "琴梨",
-   "kind": "대사",
-   "scene": 4,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7737.WAV",
-   "chars": 21,
-   "text": {
-    "ja": "あれ？　まだ行ってないチェックポイント・・",
-    "ko": "어라？　아직　안　간　체크포인트・・"
-   }
-  },
-  {
-   "window": 50,
-   "line": 1,
-   "speaker": "琴梨",
-   "kind": "대사",
-   "scene": 4,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7737.WAV",
-   "chars": 10,
-   "text": {
-    "ja": "あるんじゃないかな？",
-    "ko": "있지　않을까？"
-   }
-  },
-  {
-   "window": 51,
-   "line": 0,
-   "speaker": "ターニャ",
-   "kind": "대사",
-   "scene": 4,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7738.WAV",
-   "chars": 14,
-   "text": {
-    "ja": "それでは　行きましょうか・・",
-    "ko": "그럼　가　볼까요・・"
-   }
-  },
-  {
-   "window": 52,
-   "line": 0,
-   "speaker": "ターニャ",
-   "kind": "대사",
-   "scene": 4,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7739.WAV",
-   "chars": 11,
-   "text": {
-    "ja": "きっと　こっちですよ。",
-    "ko": "분명　이쪽이에요．"
-   }
-  },
-  {
-   "window": 53,
-   "line": 0,
-   "speaker": "ターニャ",
-   "kind": "대사",
-   "scene": 4,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7740.WAV",
-   "chars": 16,
-   "text": {
-    "ja": "こっち・・・でいいんでしょうか？",
-    "ko": "이쪽・・・이　맞을까요？"
-   }
-  },
-  {
-   "window": 54,
-   "line": 0,
-   "speaker": "ターニャ",
-   "kind": "대사",
-   "scene": 4,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7741.WAV",
-   "chars": 17,
-   "text": {
-    "ja": "・・・迷ってしまったのでしょうか？",
-    "ko": "・・・길을　잃은　걸까요？"
-   }
-  },
-  {
-   "window": 55,
-   "line": 0,
-   "speaker": "ターニャ",
-   "kind": "대사",
-   "scene": 4,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7742.WAV",
-   "chars": 17,
-   "text": {
-    "ja": "チェックポイント　見つけましたよ。",
-    "ko": "체크포인트　찾았어요．"
-   }
-  },
-  {
-   "window": 56,
-   "line": 0,
-   "speaker": "ターニャ",
-   "kind": "대사",
-   "scene": 4,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7743.WAV",
-   "chars": 11,
-   "text": {
-    "ja": "あそこがゴールですね！",
-    "ko": "저기가　골이네요！"
-   }
-  },
-  {
-   "window": 57,
-   "line": 0,
-   "speaker": "ターニャ",
-   "kind": "대사",
-   "scene": 4,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7744.WAV",
-   "chars": 13,
-   "text": {
-    "ja": "着きましたね。ゴールです！",
-    "ko": "도착했네요．골이에요！"
-   }
-  },
-  {
-   "window": 58,
-   "line": 0,
-   "speaker": "ターニャ",
-   "kind": "대사",
-   "scene": 4,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7745.WAV",
-   "chars": 18,
-   "text": {
-    "ja": "まだ　まわってないチェックポイントが",
-    "ko": "아직　안　돈　체크포인트가"
-   }
-  },
-  {
-   "window": 58,
-   "line": 1,
-   "speaker": "ターニャ",
-   "kind": "대사",
-   "scene": 4,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7745.WAV",
-   "chars": 11,
-   "text": {
-    "ja": "あるような気がします。",
-    "ko": "있는　것　같아요．"
-   }
-  },
-  {
-   "window": 59,
-   "line": 0,
-   "speaker": "由子",
-   "kind": "대사",
-   "scene": 4,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7746.WAV",
-   "chars": 14,
-   "text": {
-    "ja": "それじゃ！　行ってみよっか！",
-    "ko": "그럼！　가　보자！"
-   }
-  },
-  {
-   "window": 60,
-   "line": 0,
-   "speaker": "由子",
-   "kind": "대사",
-   "scene": 4,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7747.WAV",
-   "chars": 7,
-   "text": {
-    "ja": "こっちこっち！",
-    "ko": "이쪽　이쪽！"
-   }
-  },
-  {
-   "window": 61,
-   "line": 0,
-   "speaker": "由子",
-   "kind": "대사",
-   "scene": 4,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7748.WAV",
-   "chars": 14,
-   "text": {
-    "ja": "こっちだよ！　・・多分・・・",
-    "ko": "이쪽이야！　・・아마・・・"
-   }
-  },
-  {
-   "window": 62,
-   "line": 0,
-   "speaker": "由子",
-   "kind": "대사",
-   "scene": 4,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7749.WAV",
-   "chars": 16,
-   "text": {
-    "ja": "ひょっとして　迷っちゃったかな？",
-    "ko": "혹시　길　잃은　걸까？"
-   }
-  },
-  {
-   "window": 63,
-   "line": 0,
-   "speaker": "由子",
-   "kind": "대사",
-   "scene": 4,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7750.WAV",
-   "chars": 11,
-   "text": {
-    "ja": "チェックポイント発見！",
-    "ko": "체크포인트　발견！"
-   }
-  },
-  {
-   "window": 64,
-   "line": 0,
-   "speaker": "由子",
-   "kind": "대사",
-   "scene": 4,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7751.WAV",
-   "chars": 13,
-   "text": {
-    "ja": "あっ！　あそこがゴールだ！",
-    "ko": "앗！　저기가　골이다！"
-   }
-  },
-  {
-   "window": 65,
-   "line": 0,
-   "speaker": "由子",
-   "kind": "대사",
-   "scene": 4,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7752.WAV",
-   "chars": 10,
-   "text": {
-    "ja": "やったぁ！　ゴール！",
-    "ko": "해냈다ー！　골！"
-   }
-  },
-  {
-   "window": 66,
-   "line": 0,
-   "speaker": "由子",
-   "kind": "대사",
-   "scene": 4,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7753.WAV",
-   "chars": 18,
-   "text": {
-    "ja": "あ・・ひょっとして　まだまわってない",
-    "ko": "아・・혹시　아직　안　돈"
-   }
-  },
-  {
-   "window": 66,
-   "line": 1,
-   "speaker": "由子",
-   "kind": "대사",
-   "scene": 4,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7753.WAV",
-   "chars": 17,
-   "text": {
-    "ja": "チェックポイントがあるんじゃない？",
-    "ko": "체크포인트가　있지　않아？"
-   }
-  },
-  {
-   "window": 67,
-   "line": 0,
-   "speaker": "薫",
-   "kind": "대사",
-   "scene": 4,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7754.WAV",
-   "chars": 14,
-   "text": {
-    "ja": "それじゃ　行きましょうか・・",
-    "ko": "그럼　가　볼까・・"
-   }
-  },
-  {
-   "window": 68,
-   "line": 0,
-   "speaker": "薫",
-   "kind": "대사",
-   "scene": 4,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7755.WAV",
-   "chars": 5,
-   "text": {
-    "ja": "こっちよ。",
-    "ko": "이쪽이야．"
-   }
-  },
-  {
-   "window": 69,
-   "line": 0,
-   "speaker": "薫",
-   "kind": "대사",
-   "scene": 4,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7756.WAV",
-   "chars": 14,
-   "text": {
-    "ja": "こっち・・・だと思うけど・・",
-    "ko": "이쪽・・・인　것　같은데・・"
-   }
-  },
-  {
-   "window": 70,
-   "line": 0,
-   "speaker": "薫",
-   "kind": "대사",
-   "scene": 4,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7757.WAV",
-   "chars": 16,
-   "text": {
-    "ja": "ちょっと　迷っちゃったみたいね。",
-    "ko": "조금　길을　잃은　것　같네．"
-   }
-  },
-  {
-   "window": 71,
-   "line": 0,
-   "speaker": "薫",
-   "kind": "대사",
-   "scene": 4,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7758.WAV",
-   "chars": 18,
-   "text": {
-    "ja": "あっ！　あそこがチェックポイントね。",
-    "ko": "앗！　저기가　체크포인트네．"
-   }
-  },
-  {
-   "window": 72,
-   "line": 0,
-   "speaker": "薫",
-   "kind": "대사",
-   "scene": 4,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7759.WAV",
-   "chars": 9,
-   "text": {
-    "ja": "ゴールが見えたわ。",
-    "ko": "골이　보이네．"
-   }
-  },
-  {
-   "window": 73,
-   "line": 0,
-   "speaker": "薫",
-   "kind": "대사",
-   "scene": 4,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7760.WAV",
-   "chars": 16,
-   "text": {
-    "ja": "お疲れさま。ゴールに着いたわね。",
-    "ko": "수고했어．골에　도착했네．"
-   }
-  },
-  {
-   "window": 74,
-   "line": 0,
-   "speaker": "薫",
-   "kind": "대사",
-   "scene": 4,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7761.WAV",
-   "chars": 25,
-   "text": {
-    "ja": "待って！　チェックポイント　まだ残ってるみたいよ。",
-    "ko": "기다려！　체크포인트　아직　남은　것　같아．"
-   }
-  },
-  {
-   "window": 75,
-   "line": 0,
-   "speaker": "葉野香",
-   "kind": "대사",
-   "scene": 4,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7762.WAV",
-   "chars": 8,
-   "text": {
-    "ja": "よし！　行こう！",
-    "ko": "좋아！　가자！"
-   }
-  },
-  {
-   "window": 76,
-   "line": 0,
-   "speaker": "葉野香",
-   "kind": "대사",
-   "scene": 4,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7763.WAV",
-   "chars": 6,
-   "text": {
-    "ja": "こっちだよ！",
-    "ko": "이쪽이야！"
-   }
-  },
-  {
-   "window": 77,
-   "line": 0,
-   "speaker": "葉野香",
-   "kind": "대사",
-   "scene": 4,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7764.WAV",
-   "chars": 8,
-   "text": {
-    "ja": "こっち・・だよ！",
-    "ko": "이쪽・・이야！"
-   }
-  },
-  {
-   "window": 78,
-   "line": 0,
-   "speaker": "葉野香",
-   "kind": "대사",
-   "scene": 4,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7765.WAV",
-   "chars": 16,
-   "text": {
-    "ja": "なんか　迷ってるんじゃないのか？",
-    "ko": "왠지　길　잃은　거　아냐？"
-   }
-  },
-  {
-   "window": 79,
-   "line": 0,
-   "speaker": "葉野香",
-   "kind": "대사",
-   "scene": 4,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7766.WAV",
-   "chars": 20,
-   "text": {
-    "ja": "あっ！　あれチェックポイントじゃないか？",
-    "ko": "앗！　저거　체크포인트　아냐？"
-   }
-  },
-  {
-   "window": 80,
-   "line": 0,
-   "speaker": "葉野香",
-   "kind": "대사",
-   "scene": 4,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7767.WAV",
-   "chars": 14,
-   "text": {
-    "ja": "見つけた！　あれがゴールだ！",
-    "ko": "찾았다！　저게　골이다！"
-   }
-  },
-  {
-   "window": 81,
-   "line": 0,
-   "speaker": "葉野香",
-   "kind": "대사",
-   "scene": 4,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7768.WAV",
-   "chars": 11,
-   "text": {
-    "ja": "ふぅ・・ゴールに到着！",
-    "ko": "후우・・골에　도착！"
-   }
-  },
-  {
-   "window": 82,
-   "line": 0,
-   "speaker": "葉野香",
-   "kind": "대사",
-   "scene": 4,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7769.WAV",
-   "chars": 15,
-   "text": {
-    "ja": "待って！　チェックポイント・・",
-    "ko": "기다려！　체크포인트・・"
-   }
-  },
-  {
-   "window": 82,
-   "line": 1,
-   "speaker": "葉野香",
-   "kind": "대사",
-   "scene": 4,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7769.WAV",
-   "chars": 13,
-   "text": {
-    "ja": "まだ抜けがあるみたいだよ。",
-    "ko": "아직　빠진　게　있는　것　같아．"
-   }
-  },
-  {
-   "window": 83,
-   "line": 0,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 4,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7770.WAV",
-   "chars": 11,
-   "text": {
-    "ja": "それじゃ！　スタート！",
-    "ko": "그럼！　스타트！"
-   }
-  },
-  {
-   "window": 84,
-   "line": 0,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 4,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7771.WAV",
-   "chars": 22,
-   "text": {
-    "ja": "こっちこっち！　私こう言うのって得意なんだ！",
-    "ko": "이쪽　이쪽！　나　이런　거　잘한단　말이야！"
-   }
-  },
-  {
-   "window": 85,
-   "line": 0,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 4,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7772.WAV",
-   "chars": 13,
-   "text": {
-    "ja": "こっち・・だと思うけど・・",
-    "ko": "이쪽・・인　것　같은데・・"
-   }
-  },
-  {
-   "window": 86,
-   "line": 0,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 4,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7773.WAV",
-   "chars": 18,
-   "text": {
-    "ja": "ちょっとぐらい迷った方が面白いよね。",
-    "ko": "조금은　헤매는　게　더　재밌지．"
-   }
-  },
-  {
-   "window": 87,
-   "line": 0,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 4,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7774.WAV",
-   "chars": 21,
-   "text": {
-    "ja": "あっ！　あれってチェックポイントじゃない？",
-    "ko": "앗！　저거　체크포인트　아니야？"
-   }
-  },
-  {
-   "window": 88,
-   "line": 0,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 4,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7775.WAV",
-   "chars": 13,
-   "text": {
-    "ja": "あっ！　ゴール見つけたよ！",
-    "ko": "앗！　골　찾았어！"
-   }
-  },
-  {
-   "window": 89,
-   "line": 0,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 4,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7776.WAV",
-   "chars": 7,
-   "text": {
-    "ja": "とうちゃーく！",
-    "ko": "도차ー악！"
-   }
-  },
-  {
-   "window": 90,
-   "line": 0,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 4,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7777.WAV",
-   "chars": 18,
-   "text": {
-    "ja": "ゴールには来たけど　まだまわってない",
-    "ko": "골엔　왔지만　아직　안　돈"
-   }
-  },
-  {
-   "window": 90,
-   "line": 1,
-   "speaker": "梢",
-   "kind": "대사",
-   "scene": 4,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7777.WAV",
-   "chars": 20,
-   "text": {
-    "ja": "チェックポイントがあるんじゃないかな・・",
-    "ko": "체크포인트가　있지　않을까・・"
-   }
-  },
-  {
-   "window": 91,
-   "line": 0,
-   "speaker": "琴梨",
-   "kind": "대사",
-   "scene": 5,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7778.WAV",
-   "chars": 11,
-   "text": {
-    "ja": "お兄ちゃん　上手い！！",
-    "ko": "오빠　잘한다！！"
-   }
-  },
-  {
-   "window": 92,
-   "line": 0,
-   "speaker": "琴梨",
-   "kind": "대사",
-   "scene": 5,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7779.WAV",
-   "chars": 10,
-   "text": {
-    "ja": "うん。その調子だよ。",
-    "ko": "응．그　기세야．"
-   }
-  },
-  {
-   "window": 93,
-   "line": 0,
-   "speaker": "琴梨",
-   "kind": "대사",
-   "scene": 5,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7780.WAV",
-   "chars": 11,
-   "text": {
-    "ja": "ナイスコントロール！！",
-    "ko": "나이스　컨트롤！！"
-   }
-  },
-  {
-   "window": 94,
-   "line": 0,
-   "speaker": "琴梨",
-   "kind": "대사",
-   "scene": 5,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7781.WAV",
-   "chars": 9,
-   "text": {
-    "ja": "ナイスリターン！！",
-    "ko": "나이스　리턴！！"
-   }
-  },
-  {
-   "window": 95,
-   "line": 0,
-   "speaker": "琴梨",
-   "kind": "대사",
-   "scene": 5,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7782.WAV",
-   "chars": 8,
-   "text": {
-    "ja": "ナイスボレー！！",
-    "ko": "나이스　발리！！"
-   }
-  },
-  {
-   "window": 96,
-   "line": 0,
-   "speaker": "琴梨",
-   "kind": "대사",
-   "scene": 5,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7783.WAV",
-   "chars": 13,
-   "text": {
-    "ja": "あっ！　ごめんなさーい！！",
-    "ko": "앗！　미안해ー！！"
-   }
-  },
-  {
-   "window": 97,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 6,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7784.WAV",
-   "chars": 14,
-   "text": {
-    "ja": "こっちこっち！　大変だよ！！",
-    "ko": "이쪽　이쪽！　큰일이야！！"
-   }
-  },
-  {
-   "window": 98,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 6,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7785.WAV",
-   "chars": 10,
-   "text": {
-    "ja": "うん。いい感じだよ。",
-    "ko": "응．좋은　느낌이야．"
-   }
-  },
-  {
-   "window": 99,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 6,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7786.WAV",
-   "chars": 13,
-   "text": {
-    "ja": "すごいすごい！　いい調子！",
-    "ko": "대단해　대단해！　좋은　기세！"
-   }
-  },
-  {
-   "window": 100,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 6,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7787.WAV",
-   "chars": 14,
-   "text": {
-    "ja": "もうこんなに沢山とれたよ！！",
-    "ko": "벌써　이렇게　많이　잡았어！！"
-   }
-  },
-  {
-   "window": 101,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 6,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7788.WAV",
-   "chars": 12,
-   "text": {
-    "ja": "今日も元気に頑張ろう！！",
-    "ko": "오늘도　기운차게　힘내자！！"
-   }
-  },
-  {
-   "window": 102,
-   "line": 0,
-   "speaker": "めぐみ",
-   "kind": "대사",
-   "scene": 6,
-   "date": null,
-   "slot": null,
-   "place": "",
-   "voice": "A7789.WAV",
-   "chars": 14,
-   "text": {
-    "ja": "さぁもう一息！　頑張ろう！！",
-    "ko": "자　조금만　더！　힘내자！！"
-   }
-  }
- ]
+  "script": "GAME",
+  "source": "ja",
+  "entries": [
+    {
+      "window": 0,
+      "line": 0,
+      "speaker": "琴梨",
+      "kind": "대사",
+      "scene": 0,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7687.WAV",
+      "chars": 6,
+      "text": {
+        "ja": "やったー！！",
+        "ko": "해냈다ー!!"
+      }
+    },
+    {
+      "window": 1,
+      "line": 0,
+      "speaker": "琴梨",
+      "kind": "대사",
+      "scene": 0,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7688.WAV",
+      "chars": 14,
+      "text": {
+        "ja": "うーん・・まあまあ・・かな？",
+        "ko": "으음・・그럭저럭・・이려나?"
+      }
+    },
+    {
+      "window": 2,
+      "line": 0,
+      "speaker": "琴梨",
+      "kind": "대사",
+      "scene": 0,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7689.WAV",
+      "chars": 13,
+      "text": {
+        "ja": "あーん・・・残念だなぁ・・",
+        "ko": "아앙・・・아쉽다・・"
+      }
+    },
+    {
+      "window": 3,
+      "line": 0,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 0,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7690.WAV",
+      "chars": 6,
+      "text": {
+        "ja": "やったー！！",
+        "ko": "해냈다ー!!"
+      }
+    },
+    {
+      "window": 3,
+      "line": 1,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 0,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7690.WAV",
+      "chars": 16,
+      "text": {
+        "ja": "ねぇねぇ見てた？　すごいでしょ？",
+        "ko": "있잖아 봤어? 대단하지?"
+      }
+    },
+    {
+      "window": 4,
+      "line": 0,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 0,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7691.WAV",
+      "chars": 12,
+      "text": {
+        "ja": "まぁ　こんなもんだよね？",
+        "ko": "뭐 이 정도지?"
+      }
+    },
+    {
+      "window": 5,
+      "line": 0,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 0,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7692.WAV",
+      "chars": 13,
+      "text": {
+        "ja": "悔しい！　全然駄目だよね。",
+        "ko": "분해! 완전 별로였어."
+      }
+    },
+    {
+      "window": 6,
+      "line": 0,
+      "speaker": "ターニャ",
+      "kind": "대사",
+      "scene": 0,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7693.WAV",
+      "chars": 18,
+      "text": {
+        "ja": "なんか・・調子よかったみたいですね。",
+        "ko": "왠지・・컨디션이 좋았나 봐요."
+      }
+    },
+    {
+      "window": 7,
+      "line": 0,
+      "speaker": "ターニャ",
+      "kind": "대사",
+      "scene": 0,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7694.WAV",
+      "chars": 17,
+      "text": {
+        "ja": "結果はどうあれ　楽しかったですよ。",
+        "ko": "결과가 어떻든 즐거웠어요."
+      }
+    },
+    {
+      "window": 8,
+      "line": 0,
+      "speaker": "ターニャ",
+      "kind": "대사",
+      "scene": 0,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7695.WAV",
+      "chars": 19,
+      "text": {
+        "ja": "やっぱり　こういうのって難しいですね。",
+        "ko": "역시 이런 건 어렵네요."
+      }
+    },
+    {
+      "window": 9,
+      "line": 0,
+      "speaker": "由子",
+      "kind": "대사",
+      "scene": 0,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7696.WAV",
+      "chars": 11,
+      "text": {
+        "ja": "やったー！！　絶好調！",
+        "ko": "해냈다ー!! 컨디션 최고!"
+      }
+    },
+    {
+      "window": 10,
+      "line": 0,
+      "speaker": "由子",
+      "kind": "대사",
+      "scene": 0,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7697.WAV",
+      "chars": 11,
+      "text": {
+        "ja": "ま・・こんなもんかな？",
+        "ko": "뭐・・이 정도려나?"
+      }
+    },
+    {
+      "window": 11,
+      "line": 0,
+      "speaker": "由子",
+      "kind": "대사",
+      "scene": 0,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7698.WAV",
+      "chars": 13,
+      "text": {
+        "ja": "次！　次は実力出すからね。",
+        "ko": "다음! 다음엔 실력 보여줄 거야."
+      }
+    },
+    {
+      "window": 12,
+      "line": 0,
+      "speaker": "薫",
+      "kind": "대사",
+      "scene": 0,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7699.WAV",
+      "chars": 15,
+      "text": {
+        "ja": "ちょっと本気出しちゃったかな？",
+        "ko": "조금 진심을 내 버렸나?"
+      }
+    },
+    {
+      "window": 13,
+      "line": 0,
+      "speaker": "薫",
+      "kind": "대사",
+      "scene": 0,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7700.WAV",
+      "chars": 13,
+      "text": {
+        "ja": "まあ　こんなものかしらね？",
+        "ko": "글쎄 이 정도일까?"
+      }
+    },
+    {
+      "window": 14,
+      "line": 0,
+      "speaker": "薫",
+      "kind": "대사",
+      "scene": 0,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7701.WAV",
+      "chars": 17,
+      "text": {
+        "ja": "たまにはこういうこともあるわよね。",
+        "ko": "가끔은 이런 일도 있는 거야."
+      }
+    },
+    {
+      "window": 15,
+      "line": 0,
+      "speaker": "葉野香",
+      "kind": "대사",
+      "scene": 0,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7702.WAV",
+      "chars": 11,
+      "text": {
+        "ja": "へへっ！　やったね！！",
+        "ko": "헤헷! 해냈네!!"
+      }
+    },
+    {
+      "window": 16,
+      "line": 0,
+      "speaker": "葉野香",
+      "kind": "대사",
+      "scene": 0,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7703.WAV",
+      "chars": 15,
+      "text": {
+        "ja": "まぁ・・こんなもんだろうね・・",
+        "ko": "뭐・・이 정도겠지・・"
+      }
+    },
+    {
+      "window": 17,
+      "line": 0,
+      "speaker": "葉野香",
+      "kind": "대사",
+      "scene": 0,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7704.WAV",
+      "chars": 14,
+      "text": {
+        "ja": "あーあ・・やってらんないよ。",
+        "ko": "아아・・못 해먹겠네."
+      }
+    },
+    {
+      "window": 18,
+      "line": 0,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 0,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7705.WAV",
+      "chars": 16,
+      "text": {
+        "ja": "やったぁ！！　ねぇ誉めて誉めて！",
+        "ko": "해냈다ー!! 나 칭찬해 칭찬해!"
+      }
+    },
+    {
+      "window": 19,
+      "line": 0,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 0,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7706.WAV",
+      "chars": 14,
+      "text": {
+        "ja": "次やったら　もっとすごいよ。",
+        "ko": "다음엔 더 대단할 거야."
+      }
+    },
+    {
+      "window": 20,
+      "line": 0,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 0,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7707.WAV",
+      "chars": 15,
+      "text": {
+        "ja": "ねぇ？　今のって　練習だよね？",
+        "ko": "있잖아? 방금 건 연습이었지?"
+      }
+    },
+    {
+      "window": 21,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 0,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7708.WAV",
+      "chars": 16,
+      "text": {
+        "ja": "すごーい！！　やったやったー！！",
+        "ko": "굉장해ー!! 해냈다 해냈다ー!!"
+      }
+    },
+    {
+      "window": 22,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 0,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7709.WAV",
+      "chars": 15,
+      "text": {
+        "ja": "うん。まぁ　こんな感じだよね。",
+        "ko": "응. 뭐 이런 느낌이지."
+      }
+    },
+    {
+      "window": 23,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 0,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7710.WAV",
+      "chars": 12,
+      "text": {
+        "ja": "あーあ。失敗しちゃった。",
+        "ko": "아아. 실패해 버렸어."
+      }
+    },
+    {
+      "window": 24,
+      "line": 0,
+      "speaker": "琴梨",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7711.WAV",
+      "chars": 18,
+      "text": {
+        "ja": "わぁ！　お兄ちゃんって　すごいよね。",
+        "ko": "와아! 오빠 정말 대단하다."
+      }
+    },
+    {
+      "window": 25,
+      "line": 0,
+      "speaker": "琴梨",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7712.WAV",
+      "chars": 16,
+      "text": {
+        "ja": "残念！　でも　また次があるよね。",
+        "ko": "아쉽다! 근데 또 다음이 있잖아."
+      }
+    },
+    {
+      "window": 26,
+      "line": 0,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7713.WAV",
+      "chars": 13,
+      "text": {
+        "ja": "すごーい！！　天才かも・・",
+        "ko": "굉장해ー!! 천재일지도・・"
+      }
+    },
+    {
+      "window": 27,
+      "line": 0,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7714.WAV",
+      "chars": 19,
+      "text": {
+        "ja": "ドンマイ！　ドンマイ！　次があるよね。",
+        "ko": "괜찮아! 괜찮아! 다음이 있잖아."
+      }
+    },
+    {
+      "window": 28,
+      "line": 0,
+      "speaker": "ターニャ",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7715.WAV",
+      "chars": 12,
+      "text": {
+        "ja": "やっぱり　すごいですね。",
+        "ko": "역시 대단하네요."
+      }
+    },
+    {
+      "window": 29,
+      "line": 0,
+      "speaker": "ターニャ",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7716.WAV",
+      "chars": 17,
+      "text": {
+        "ja": "誰でも調子の悪いときはありますよ。",
+        "ko": "누구나 컨디션 나쁠 때가 있어요."
+      }
+    },
+    {
+      "window": 30,
+      "line": 0,
+      "speaker": "由子",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7717.WAV",
+      "chars": 14,
+      "text": {
+        "ja": "すっごーい！　やるじゃない？",
+        "ko": "굉장해ー! 제법인데?"
+      }
+    },
+    {
+      "window": 31,
+      "line": 0,
+      "speaker": "由子",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7718.WAV",
+      "chars": 17,
+      "text": {
+        "ja": "ドンマイ！　次は本気出していいよ。",
+        "ko": "괜찮아! 다음엔 진심 내도 돼."
+      }
+    },
+    {
+      "window": 32,
+      "line": 0,
+      "speaker": "薫",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7719.WAV",
+      "chars": 16,
+      "text": {
+        "ja": "ひょっとして　本気出したでしょ？",
+        "ko": "혹시 진심 낸 거 아니야?"
+      }
+    },
+    {
+      "window": 33,
+      "line": 0,
+      "speaker": "薫",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7720.WAV",
+      "chars": 17,
+      "text": {
+        "ja": "男の子の悔しがってる顔って好きよ。",
+        "ko": "분해하는 남자애 얼굴 좋아해."
+      }
+    },
+    {
+      "window": 34,
+      "line": 0,
+      "speaker": "葉野香",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7721.WAV",
+      "chars": 10,
+      "text": {
+        "ja": "へぇ・・すごいね・・",
+        "ko": "헤에・・대단하네・・"
+      }
+    },
+    {
+      "window": 35,
+      "line": 0,
+      "speaker": "葉野香",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7722.WAV",
+      "chars": 14,
+      "text": {
+        "ja": "まぁ・・そういう時もあるよ。",
+        "ko": "뭐・・그럴 때도 있지."
+      }
+    },
+    {
+      "window": 36,
+      "line": 0,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7723.WAV",
+      "chars": 5,
+      "text": {
+        "ja": "すごーい！",
+        "ko": "굉장해ー!"
+      }
+    },
+    {
+      "window": 36,
+      "line": 1,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7723.WAV",
+      "chars": 17,
+      "text": {
+        "ja": "やっぱり私の応援が良かったのかな？",
+        "ko": "역시 내 응원이 좋았던 걸까?"
+      }
+    },
+    {
+      "window": 37,
+      "line": 0,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7724.WAV",
+      "chars": 5,
+      "text": {
+        "ja": "どんまい！",
+        "ko": "괜찮아!"
+      }
+    },
+    {
+      "window": 37,
+      "line": 1,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7724.WAV",
+      "chars": 11,
+      "text": {
+        "ja": "次は応援してあげるね。",
+        "ko": "다음엔 응원해 줄게."
+      }
+    },
+    {
+      "window": 38,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7725.WAV",
+      "chars": 17,
+      "text": {
+        "ja": "すごーい！！　やっぱりすごいよね。",
+        "ko": "굉장해ー!! 역시 대단하다."
+      }
+    },
+    {
+      "window": 39,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 1,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7726.WAV",
+      "chars": 17,
+      "text": {
+        "ja": "失敗しちゃったね。でも次があるよ。",
+        "ko": "실패했네. 근데 다음이 있어."
+      }
+    },
+    {
+      "window": 40,
+      "line": 0,
+      "speaker": "司会者",
+      "kind": "대사",
+      "scene": 2,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7727.WAV",
+      "chars": 15,
+      "text": {
+        "ja": "クイズ　まるごと　北海道～！！",
+        "ko": "퀴즈 통째로 홋카이도~!!"
+      }
+    },
+    {
+      "window": 41,
+      "line": 0,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 3,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7728.WAV",
+      "chars": 8,
+      "text": {
+        "ja": "あっ！　待って！",
+        "ko": "앗! 기다려!"
+      }
+    },
+    {
+      "window": 41,
+      "line": 1,
+      "speaker": "鮎",
+      "kind": "대사",
+      "scene": 3,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7728.WAV",
+      "chars": 20,
+      "text": {
+        "ja": "まだチェックポイント全部まわってないよ。",
+        "ko": "아직 체크포인트 다 안 돌았어."
+      }
+    },
+    {
+      "window": 42,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 3,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7729.WAV",
+      "chars": 20,
+      "text": {
+        "ja": "あれ？　まだ行ってないチェックポイントが",
+        "ko": "어라? 아직 안 간 체크포인트가"
+      }
+    },
+    {
+      "window": 42,
+      "line": 1,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 3,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7729.WAV",
+      "chars": 10,
+      "text": {
+        "ja": "あるんじゃないかな？",
+        "ko": "있지 않을까?"
+      }
+    },
+    {
+      "window": 43,
+      "line": 0,
+      "speaker": "琴梨",
+      "kind": "대사",
+      "scene": 4,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7730.WAV",
+      "chars": 14,
+      "text": {
+        "ja": "それじゃ行こ！　お兄ちゃん。",
+        "ko": "그럼 가자! 오빠."
+      }
+    },
+    {
+      "window": 44,
+      "line": 0,
+      "speaker": "琴梨",
+      "kind": "대사",
+      "scene": 4,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7731.WAV",
+      "chars": 13,
+      "text": {
+        "ja": "お兄ちゃん！　こっちだよ。",
+        "ko": "오빠! 이쪽이야."
+      }
+    },
+    {
+      "window": 45,
+      "line": 0,
+      "speaker": "琴梨",
+      "kind": "대사",
+      "scene": 4,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7732.WAV",
+      "chars": 13,
+      "text": {
+        "ja": "こっち・・・でいいのかな？",
+        "ko": "이쪽・・・이 맞으려나?"
+      }
+    },
+    {
+      "window": 46,
+      "line": 0,
+      "speaker": "琴梨",
+      "kind": "대사",
+      "scene": 4,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7733.WAV",
+      "chars": 17,
+      "text": {
+        "ja": "ひょっとして・・迷っちゃったかな？",
+        "ko": "혹시・・길 잃은 걸까?"
+      }
+    },
+    {
+      "window": 47,
+      "line": 0,
+      "speaker": "琴梨",
+      "kind": "대사",
+      "scene": 4,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7734.WAV",
+      "chars": 19,
+      "text": {
+        "ja": "あっ！　チェックポイント　見つけたよ！",
+        "ko": "앗! 체크포인트 찾았어!"
+      }
+    },
+    {
+      "window": 48,
+      "line": 0,
+      "speaker": "琴梨",
+      "kind": "대사",
+      "scene": 4,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7735.WAV",
+      "chars": 17,
+      "text": {
+        "ja": "あっ！　あそこがゴールみたいだよ！",
+        "ko": "앗! 저기가 골 같아!"
+      }
+    },
+    {
+      "window": 49,
+      "line": 0,
+      "speaker": "琴梨",
+      "kind": "대사",
+      "scene": 4,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7736.WAV",
+      "chars": 9,
+      "text": {
+        "ja": "やった！　ゴール！",
+        "ko": "해냈다! 골!"
+      }
+    },
+    {
+      "window": 50,
+      "line": 0,
+      "speaker": "琴梨",
+      "kind": "대사",
+      "scene": 4,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7737.WAV",
+      "chars": 21,
+      "text": {
+        "ja": "あれ？　まだ行ってないチェックポイント・・",
+        "ko": "어라? 아직 안 간 체크포인트・・"
+      }
+    },
+    {
+      "window": 50,
+      "line": 1,
+      "speaker": "琴梨",
+      "kind": "대사",
+      "scene": 4,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7737.WAV",
+      "chars": 10,
+      "text": {
+        "ja": "あるんじゃないかな？",
+        "ko": "있지 않을까?"
+      }
+    },
+    {
+      "window": 51,
+      "line": 0,
+      "speaker": "ターニャ",
+      "kind": "대사",
+      "scene": 4,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7738.WAV",
+      "chars": 14,
+      "text": {
+        "ja": "それでは　行きましょうか・・",
+        "ko": "그럼 가 볼까요・・"
+      }
+    },
+    {
+      "window": 52,
+      "line": 0,
+      "speaker": "ターニャ",
+      "kind": "대사",
+      "scene": 4,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7739.WAV",
+      "chars": 11,
+      "text": {
+        "ja": "きっと　こっちですよ。",
+        "ko": "분명 이쪽이에요."
+      }
+    },
+    {
+      "window": 53,
+      "line": 0,
+      "speaker": "ターニャ",
+      "kind": "대사",
+      "scene": 4,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7740.WAV",
+      "chars": 16,
+      "text": {
+        "ja": "こっち・・・でいいんでしょうか？",
+        "ko": "이쪽・・・이 맞을까요?"
+      }
+    },
+    {
+      "window": 54,
+      "line": 0,
+      "speaker": "ターニャ",
+      "kind": "대사",
+      "scene": 4,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7741.WAV",
+      "chars": 17,
+      "text": {
+        "ja": "・・・迷ってしまったのでしょうか？",
+        "ko": "・・・길을 잃은 걸까요?"
+      }
+    },
+    {
+      "window": 55,
+      "line": 0,
+      "speaker": "ターニャ",
+      "kind": "대사",
+      "scene": 4,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7742.WAV",
+      "chars": 17,
+      "text": {
+        "ja": "チェックポイント　見つけましたよ。",
+        "ko": "체크포인트 찾았어요."
+      }
+    },
+    {
+      "window": 56,
+      "line": 0,
+      "speaker": "ターニャ",
+      "kind": "대사",
+      "scene": 4,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7743.WAV",
+      "chars": 11,
+      "text": {
+        "ja": "あそこがゴールですね！",
+        "ko": "저기가 골이네요!"
+      }
+    },
+    {
+      "window": 57,
+      "line": 0,
+      "speaker": "ターニャ",
+      "kind": "대사",
+      "scene": 4,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7744.WAV",
+      "chars": 13,
+      "text": {
+        "ja": "着きましたね。ゴールです！",
+        "ko": "도착했네요. 골이에요!"
+      }
+    },
+    {
+      "window": 58,
+      "line": 0,
+      "speaker": "ターニャ",
+      "kind": "대사",
+      "scene": 4,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7745.WAV",
+      "chars": 18,
+      "text": {
+        "ja": "まだ　まわってないチェックポイントが",
+        "ko": "아직 안 돈 체크포인트가"
+      }
+    },
+    {
+      "window": 58,
+      "line": 1,
+      "speaker": "ターニャ",
+      "kind": "대사",
+      "scene": 4,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7745.WAV",
+      "chars": 11,
+      "text": {
+        "ja": "あるような気がします。",
+        "ko": "있는 것 같아요."
+      }
+    },
+    {
+      "window": 59,
+      "line": 0,
+      "speaker": "由子",
+      "kind": "대사",
+      "scene": 4,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7746.WAV",
+      "chars": 14,
+      "text": {
+        "ja": "それじゃ！　行ってみよっか！",
+        "ko": "그럼! 가 보자!"
+      }
+    },
+    {
+      "window": 60,
+      "line": 0,
+      "speaker": "由子",
+      "kind": "대사",
+      "scene": 4,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7747.WAV",
+      "chars": 7,
+      "text": {
+        "ja": "こっちこっち！",
+        "ko": "이쪽 이쪽!"
+      }
+    },
+    {
+      "window": 61,
+      "line": 0,
+      "speaker": "由子",
+      "kind": "대사",
+      "scene": 4,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7748.WAV",
+      "chars": 14,
+      "text": {
+        "ja": "こっちだよ！　・・多分・・・",
+        "ko": "이쪽이야! ・・아마・・・"
+      }
+    },
+    {
+      "window": 62,
+      "line": 0,
+      "speaker": "由子",
+      "kind": "대사",
+      "scene": 4,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7749.WAV",
+      "chars": 16,
+      "text": {
+        "ja": "ひょっとして　迷っちゃったかな？",
+        "ko": "혹시 길 잃은 걸까?"
+      }
+    },
+    {
+      "window": 63,
+      "line": 0,
+      "speaker": "由子",
+      "kind": "대사",
+      "scene": 4,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7750.WAV",
+      "chars": 11,
+      "text": {
+        "ja": "チェックポイント発見！",
+        "ko": "체크포인트 발견!"
+      }
+    },
+    {
+      "window": 64,
+      "line": 0,
+      "speaker": "由子",
+      "kind": "대사",
+      "scene": 4,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7751.WAV",
+      "chars": 13,
+      "text": {
+        "ja": "あっ！　あそこがゴールだ！",
+        "ko": "앗! 저기가 골이다!"
+      }
+    },
+    {
+      "window": 65,
+      "line": 0,
+      "speaker": "由子",
+      "kind": "대사",
+      "scene": 4,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7752.WAV",
+      "chars": 10,
+      "text": {
+        "ja": "やったぁ！　ゴール！",
+        "ko": "해냈다ー! 골!"
+      }
+    },
+    {
+      "window": 66,
+      "line": 0,
+      "speaker": "由子",
+      "kind": "대사",
+      "scene": 4,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7753.WAV",
+      "chars": 18,
+      "text": {
+        "ja": "あ・・ひょっとして　まだまわってない",
+        "ko": "아・・혹시 아직 안 돈"
+      }
+    },
+    {
+      "window": 66,
+      "line": 1,
+      "speaker": "由子",
+      "kind": "대사",
+      "scene": 4,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7753.WAV",
+      "chars": 17,
+      "text": {
+        "ja": "チェックポイントがあるんじゃない？",
+        "ko": "체크포인트가 있지 않아?"
+      }
+    },
+    {
+      "window": 67,
+      "line": 0,
+      "speaker": "薫",
+      "kind": "대사",
+      "scene": 4,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7754.WAV",
+      "chars": 14,
+      "text": {
+        "ja": "それじゃ　行きましょうか・・",
+        "ko": "그럼 가 볼까・・"
+      }
+    },
+    {
+      "window": 68,
+      "line": 0,
+      "speaker": "薫",
+      "kind": "대사",
+      "scene": 4,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7755.WAV",
+      "chars": 5,
+      "text": {
+        "ja": "こっちよ。",
+        "ko": "이쪽이야."
+      }
+    },
+    {
+      "window": 69,
+      "line": 0,
+      "speaker": "薫",
+      "kind": "대사",
+      "scene": 4,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7756.WAV",
+      "chars": 14,
+      "text": {
+        "ja": "こっち・・・だと思うけど・・",
+        "ko": "이쪽・・・인 것 같은데・・"
+      }
+    },
+    {
+      "window": 70,
+      "line": 0,
+      "speaker": "薫",
+      "kind": "대사",
+      "scene": 4,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7757.WAV",
+      "chars": 16,
+      "text": {
+        "ja": "ちょっと　迷っちゃったみたいね。",
+        "ko": "조금 길을 잃은 것 같네."
+      }
+    },
+    {
+      "window": 71,
+      "line": 0,
+      "speaker": "薫",
+      "kind": "대사",
+      "scene": 4,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7758.WAV",
+      "chars": 18,
+      "text": {
+        "ja": "あっ！　あそこがチェックポイントね。",
+        "ko": "앗! 저기가 체크포인트네."
+      }
+    },
+    {
+      "window": 72,
+      "line": 0,
+      "speaker": "薫",
+      "kind": "대사",
+      "scene": 4,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7759.WAV",
+      "chars": 9,
+      "text": {
+        "ja": "ゴールが見えたわ。",
+        "ko": "골이 보이네."
+      }
+    },
+    {
+      "window": 73,
+      "line": 0,
+      "speaker": "薫",
+      "kind": "대사",
+      "scene": 4,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7760.WAV",
+      "chars": 16,
+      "text": {
+        "ja": "お疲れさま。ゴールに着いたわね。",
+        "ko": "수고했어. 골에 도착했네."
+      }
+    },
+    {
+      "window": 74,
+      "line": 0,
+      "speaker": "薫",
+      "kind": "대사",
+      "scene": 4,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7761.WAV",
+      "chars": 25,
+      "text": {
+        "ja": "待って！　チェックポイント　まだ残ってるみたいよ。",
+        "ko": "기다려! 체크포인트 아직 남은 것 같아."
+      }
+    },
+    {
+      "window": 75,
+      "line": 0,
+      "speaker": "葉野香",
+      "kind": "대사",
+      "scene": 4,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7762.WAV",
+      "chars": 8,
+      "text": {
+        "ja": "よし！　行こう！",
+        "ko": "좋아! 가자!"
+      }
+    },
+    {
+      "window": 76,
+      "line": 0,
+      "speaker": "葉野香",
+      "kind": "대사",
+      "scene": 4,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7763.WAV",
+      "chars": 6,
+      "text": {
+        "ja": "こっちだよ！",
+        "ko": "이쪽이야!"
+      }
+    },
+    {
+      "window": 77,
+      "line": 0,
+      "speaker": "葉野香",
+      "kind": "대사",
+      "scene": 4,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7764.WAV",
+      "chars": 8,
+      "text": {
+        "ja": "こっち・・だよ！",
+        "ko": "이쪽・・이야!"
+      }
+    },
+    {
+      "window": 78,
+      "line": 0,
+      "speaker": "葉野香",
+      "kind": "대사",
+      "scene": 4,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7765.WAV",
+      "chars": 16,
+      "text": {
+        "ja": "なんか　迷ってるんじゃないのか？",
+        "ko": "왠지 길 잃은 거 아냐?"
+      }
+    },
+    {
+      "window": 79,
+      "line": 0,
+      "speaker": "葉野香",
+      "kind": "대사",
+      "scene": 4,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7766.WAV",
+      "chars": 20,
+      "text": {
+        "ja": "あっ！　あれチェックポイントじゃないか？",
+        "ko": "앗! 저거 체크포인트 아냐?"
+      }
+    },
+    {
+      "window": 80,
+      "line": 0,
+      "speaker": "葉野香",
+      "kind": "대사",
+      "scene": 4,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7767.WAV",
+      "chars": 14,
+      "text": {
+        "ja": "見つけた！　あれがゴールだ！",
+        "ko": "찾았다! 저게 골이다!"
+      }
+    },
+    {
+      "window": 81,
+      "line": 0,
+      "speaker": "葉野香",
+      "kind": "대사",
+      "scene": 4,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7768.WAV",
+      "chars": 11,
+      "text": {
+        "ja": "ふぅ・・ゴールに到着！",
+        "ko": "후우・・골에 도착!"
+      }
+    },
+    {
+      "window": 82,
+      "line": 0,
+      "speaker": "葉野香",
+      "kind": "대사",
+      "scene": 4,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7769.WAV",
+      "chars": 15,
+      "text": {
+        "ja": "待って！　チェックポイント・・",
+        "ko": "기다려! 체크포인트・・"
+      }
+    },
+    {
+      "window": 82,
+      "line": 1,
+      "speaker": "葉野香",
+      "kind": "대사",
+      "scene": 4,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7769.WAV",
+      "chars": 13,
+      "text": {
+        "ja": "まだ抜けがあるみたいだよ。",
+        "ko": "아직 빠진 게 있는 것 같아."
+      }
+    },
+    {
+      "window": 83,
+      "line": 0,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 4,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7770.WAV",
+      "chars": 11,
+      "text": {
+        "ja": "それじゃ！　スタート！",
+        "ko": "그럼! 스타트!"
+      }
+    },
+    {
+      "window": 84,
+      "line": 0,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 4,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7771.WAV",
+      "chars": 22,
+      "text": {
+        "ja": "こっちこっち！　私こう言うのって得意なんだ！",
+        "ko": "이쪽 이쪽! 나 이런 거 잘한단 말이야!"
+      }
+    },
+    {
+      "window": 85,
+      "line": 0,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 4,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7772.WAV",
+      "chars": 13,
+      "text": {
+        "ja": "こっち・・だと思うけど・・",
+        "ko": "이쪽・・인 것 같은데・・"
+      }
+    },
+    {
+      "window": 86,
+      "line": 0,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 4,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7773.WAV",
+      "chars": 18,
+      "text": {
+        "ja": "ちょっとぐらい迷った方が面白いよね。",
+        "ko": "조금은 헤매는 게 더 재밌지."
+      }
+    },
+    {
+      "window": 87,
+      "line": 0,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 4,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7774.WAV",
+      "chars": 21,
+      "text": {
+        "ja": "あっ！　あれってチェックポイントじゃない？",
+        "ko": "앗! 저거 체크포인트 아니야?"
+      }
+    },
+    {
+      "window": 88,
+      "line": 0,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 4,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7775.WAV",
+      "chars": 13,
+      "text": {
+        "ja": "あっ！　ゴール見つけたよ！",
+        "ko": "앗! 골 찾았어!"
+      }
+    },
+    {
+      "window": 89,
+      "line": 0,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 4,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7776.WAV",
+      "chars": 7,
+      "text": {
+        "ja": "とうちゃーく！",
+        "ko": "도차ー악!"
+      }
+    },
+    {
+      "window": 90,
+      "line": 0,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 4,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7777.WAV",
+      "chars": 18,
+      "text": {
+        "ja": "ゴールには来たけど　まだまわってない",
+        "ko": "골엔 왔지만 아직 안 돈"
+      }
+    },
+    {
+      "window": 90,
+      "line": 1,
+      "speaker": "梢",
+      "kind": "대사",
+      "scene": 4,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7777.WAV",
+      "chars": 20,
+      "text": {
+        "ja": "チェックポイントがあるんじゃないかな・・",
+        "ko": "체크포인트가 있지 않을까・・"
+      }
+    },
+    {
+      "window": 91,
+      "line": 0,
+      "speaker": "琴梨",
+      "kind": "대사",
+      "scene": 5,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7778.WAV",
+      "chars": 11,
+      "text": {
+        "ja": "お兄ちゃん　上手い！！",
+        "ko": "오빠 잘한다!!"
+      }
+    },
+    {
+      "window": 92,
+      "line": 0,
+      "speaker": "琴梨",
+      "kind": "대사",
+      "scene": 5,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7779.WAV",
+      "chars": 10,
+      "text": {
+        "ja": "うん。その調子だよ。",
+        "ko": "응. 그 기세야."
+      }
+    },
+    {
+      "window": 93,
+      "line": 0,
+      "speaker": "琴梨",
+      "kind": "대사",
+      "scene": 5,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7780.WAV",
+      "chars": 11,
+      "text": {
+        "ja": "ナイスコントロール！！",
+        "ko": "나이스 컨트롤!!"
+      }
+    },
+    {
+      "window": 94,
+      "line": 0,
+      "speaker": "琴梨",
+      "kind": "대사",
+      "scene": 5,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7781.WAV",
+      "chars": 9,
+      "text": {
+        "ja": "ナイスリターン！！",
+        "ko": "나이스 리턴!!"
+      }
+    },
+    {
+      "window": 95,
+      "line": 0,
+      "speaker": "琴梨",
+      "kind": "대사",
+      "scene": 5,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7782.WAV",
+      "chars": 8,
+      "text": {
+        "ja": "ナイスボレー！！",
+        "ko": "나이스 발리!!"
+      }
+    },
+    {
+      "window": 96,
+      "line": 0,
+      "speaker": "琴梨",
+      "kind": "대사",
+      "scene": 5,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7783.WAV",
+      "chars": 13,
+      "text": {
+        "ja": "あっ！　ごめんなさーい！！",
+        "ko": "앗! 미안해ー!!"
+      }
+    },
+    {
+      "window": 97,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 6,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7784.WAV",
+      "chars": 14,
+      "text": {
+        "ja": "こっちこっち！　大変だよ！！",
+        "ko": "이쪽 이쪽! 큰일이야!!"
+      }
+    },
+    {
+      "window": 98,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 6,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7785.WAV",
+      "chars": 10,
+      "text": {
+        "ja": "うん。いい感じだよ。",
+        "ko": "응. 좋은 느낌이야."
+      }
+    },
+    {
+      "window": 99,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 6,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7786.WAV",
+      "chars": 13,
+      "text": {
+        "ja": "すごいすごい！　いい調子！",
+        "ko": "대단해 대단해! 좋은 기세!"
+      }
+    },
+    {
+      "window": 100,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 6,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7787.WAV",
+      "chars": 14,
+      "text": {
+        "ja": "もうこんなに沢山とれたよ！！",
+        "ko": "벌써 이렇게 많이 잡았어!!"
+      }
+    },
+    {
+      "window": 101,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 6,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7788.WAV",
+      "chars": 12,
+      "text": {
+        "ja": "今日も元気に頑張ろう！！",
+        "ko": "오늘도 기운차게 힘내자!!"
+      }
+    },
+    {
+      "window": 102,
+      "line": 0,
+      "speaker": "めぐみ",
+      "kind": "대사",
+      "scene": 6,
+      "date": null,
+      "slot": null,
+      "place": "",
+      "voice": "A7789.WAV",
+      "chars": 14,
+      "text": {
+        "ja": "さぁもう一息！　頑張ろう！！",
+        "ko": "자 조금만 더! 힘내자!!"
+      }
+    }
+  ]
 }

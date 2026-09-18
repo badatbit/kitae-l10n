@@ -1,2446 +1,2446 @@
 {
- "module": "TRFROLL",
- "path": "/TRF/TRFROLL.DLL",
- "entries": [
-  {
-   "offset": 73080,
-   "size": 8,
-   "avail": 11,
-   "section": ".data",
-   "text": {
-    "ja": "Ｃａｓｔ",
-    "ko": "Ｃａｓｔ"
-   }
-  },
-  {
-   "offset": 73096,
-   "size": 36,
-   "avail": 39,
-   "section": ".data",
-   "text": {
-    "ja": "春野琴梨　　　　　　　　　　千葉紗子",
-    "ko": "하루노　코토리　　　　치바　사에코"
-   }
-  },
-  {
-   "offset": 73136,
-   "size": 36,
-   "avail": 39,
-   "section": ".data",
-   "text": {
-    "ja": "川原　鮎　　　　　　　　　　広橋佳以",
-    "ko": "카와하라　아유　　　　히로하시　카이"
-   }
-  },
-  {
-   "offset": 73176,
-   "size": 36,
-   "avail": 39,
-   "section": ".data",
-   "text": {
-    "ja": "ターニャ・リピンスキー　　　坂本真綾",
-    "ko": "타냐　리핀스키　　　　사카모토　마아야"
-   }
-  },
-  {
-   "offset": 73216,
-   "size": 36,
-   "avail": 39,
-   "section": ".data",
-   "text": {
-    "ja": "桜町由子　　　　　　　　　　南　央美",
-    "ko": "사쿠라마치　유코　　　미나미　오미"
-   }
-  },
-  {
-   "offset": 73256,
-   "size": 36,
-   "avail": 39,
-   "section": ".data",
-   "text": {
-    "ja": "椎名　薫　　　　　　　　　　榊原良子",
-    "ko": "시이나　카오루　　　　사카키바라　요시코"
-   }
-  },
-  {
-   "offset": 73296,
-   "size": 36,
-   "avail": 39,
-   "section": ".data",
-   "text": {
-    "ja": "左京葉野香　　　　　　　　　川澄綾子",
-    "ko": "사쿄　하노카　　　　　카와스미　아야코"
-   }
-  },
-  {
-   "offset": 73336,
-   "size": 38,
-   "avail": 39,
-   "section": ".data",
-   "text": {
-    "ja": "里中梢　　　　　　　　　　　豊口めぐみ",
-    "ko": "사토나카　코즈에　　　토요구치　메구미"
-   }
-  },
-  {
-   "offset": 73376,
-   "size": 36,
-   "avail": 39,
-   "section": ".data",
-   "text": {
-    "ja": "愛田めぐみ　　　　　　　　　大谷育江",
-    "ko": "아이다　메구미　　　　오오타니　이쿠에"
-   }
-  },
-  {
-   "offset": 73416,
-   "size": 38,
-   "avail": 39,
-   "section": ".data",
-   "text": {
-    "ja": "春野陽子　　　　　　　　　　佐久間レイ",
-    "ko": "하루노　요코　　　　　사쿠마　레이"
-   }
-  },
-  {
-   "offset": 73456,
-   "size": 36,
-   "avail": 39,
-   "section": ".data",
-   "text": {
-    "ja": "春野　響　　　　　　　　　　小山力也",
-    "ko": "하루노　히비키　　　　코야마　리키야"
-   }
-  },
-  {
-   "offset": 73496,
-   "size": 36,
-   "avail": 39,
-   "section": ".data",
-   "text": {
-    "ja": "けあふりぃ　　　　　　　　　千葉　繁",
-    "ko": "케어플리　　　　　　　치바　시게루"
-   }
-  },
-  {
-   "offset": 73536,
-   "size": 38,
-   "avail": 39,
-   "section": ".data",
-   "text": {
-    "ja": "蒼き月の夜　　　　　　　　　三木眞一郎",
-    "ko": "푸른　달의　밤　　　　미키　신이치로"
-   }
-  },
-  {
-   "offset": 73576,
-   "size": 36,
-   "avail": 39,
-   "section": ".data",
-   "text": {
-    "ja": "愛田耕作　　　　　　　　　　立木文彦",
-    "ko": "아이다　코사쿠　　　　타치키　후미히코"
-   }
-  },
-  {
-   "offset": 73616,
-   "size": 36,
-   "avail": 39,
-   "section": ".data",
-   "text": {
-    "ja": "愛田里子　　　　　　　　　　土井美加",
-    "ko": "아이다　사토코　　　　도이　미카"
-   }
-  },
-  {
-   "offset": 73656,
-   "size": 36,
-   "avail": 39,
-   "section": ".data",
-   "text": {
-    "ja": "左京達也　　　　　　　　　　関　智一",
-    "ko": "사쿄　타츠야　　　　　세키　토모카즈"
-   }
-  },
-  {
-   "offset": 73696,
-   "size": 36,
-   "avail": 39,
-   "section": ".data",
-   "text": {
-    "ja": "間　朴堂　　　　　　　　　　小形　満",
-    "ko": "하자마　보쿠도　　　　오가타　미츠루"
-   }
-  },
-  {
-   "offset": 73736,
-   "size": 36,
-   "avail": 39,
-   "section": ".data",
-   "text": {
-    "ja": "ターニャの義父　　　　　　　増谷康紀",
-    "ko": "타냐의　의붓아버지　　마스타니　야스노리"
-   }
-  },
-  {
-   "offset": 73776,
-   "size": 38,
-   "avail": 39,
-   "section": ".data",
-   "text": {
-    "ja": "ターニャの母　　　　　　　　児玉　孝子",
-    "ko": "타냐의　어머니　　　　코다마　타카코"
-   }
-  },
-  {
-   "offset": 73816,
-   "size": 22,
-   "avail": 23,
-   "section": ".data",
-   "text": {
-    "ja": "柳原みわ　　　柳　知樹",
-    "ko": "야나기하라　미와　　　야나기　토모키"
-   }
-  },
-  {
-   "offset": 73840,
-   "size": 22,
-   "avail": 23,
-   "section": ".data",
-   "text": {
-    "ja": "泉　尚摯　　　田中伸幸",
-    "ko": "이즈미　쇼지　　　　　타나카　노부유키"
-   }
-  },
-  {
-   "offset": 73864,
-   "size": 24,
-   "avail": 27,
-   "section": ".data",
-   "text": {
-    "ja": "永吉由佳　　　宮城満希子",
-    "ko": "나가요시　유카　　　　미야기　마키코"
-   }
-  },
-  {
-   "offset": 73892,
-   "size": 22,
-   "avail": 23,
-   "section": ".data",
-   "text": {
-    "ja": "サエキ　トモ　江沢規予",
-    "ko": "사에키　토모　　에자와　노리요"
-   }
-  },
-  {
-   "offset": 73916,
-   "size": 26,
-   "avail": 27,
-   "section": ".data",
-   "text": {
-    "ja": "ヴァーチャルホラーサウンド",
-    "ko": "버추얼호러사운드"
-   }
-  },
-  {
-   "offset": 73944,
-   "size": 34,
-   "avail": 35,
-   "section": ".data",
-   "text": {
-    "ja": "ロメロ　　　　　　　　　　佐竹真一",
-    "ko": "로메로　　　　　　사타케　신이치"
-   }
-  },
-  {
-   "offset": 73980,
-   "size": 36,
-   "avail": 39,
-   "section": ".data",
-   "text": {
-    "ja": "春子　　　　　　　　　　　くどうみき",
-    "ko": "하루코　　　　　　쿠도　미키"
-   }
-  },
-  {
-   "offset": 74020,
-   "size": 34,
-   "avail": 35,
-   "section": ".data",
-   "text": {
-    "ja": "夏彦　　　　　　　　　　　藤原俊和",
-    "ko": "나츠히코　　　　　후지와라　토시카즈"
-   }
-  },
-  {
-   "offset": 74056,
-   "size": 34,
-   "avail": 35,
-   "section": ".data",
-   "text": {
-    "ja": "秋夫　　　　　　　　　　　武田　晋",
-    "ko": "아키오　　　　　　타케다　스스무"
-   }
-  },
-  {
-   "offset": 74092,
-   "size": 36,
-   "avail": 39,
-   "section": ".data",
-   "text": {
-    "ja": "冬子　　　　　　　　　　　永井くみ子",
-    "ko": "후유코　　　　　　나가이　쿠미코"
-   }
-  },
-  {
-   "offset": 74132,
-   "size": 38,
-   "avail": 39,
-   "section": ".data",
-   "text": {
-    "ja": "サブゲーム　　　　　　　　　伊部恵理子",
-    "ko": "서브게임　　　　　이베　에리코"
-   }
-  },
-  {
-   "offset": 74172,
-   "size": 42,
-   "avail": 43,
-   "section": ".data",
-   "text": {
-    "ja": "ロシア語協力　　　　モズゴヴォイ　セルゲイ",
-    "ko": "러시아어　협력　　모즈고보이　세르게이"
-   }
-  },
-  {
-   "offset": 74216,
-   "size": 18,
-   "avail": 19,
-   "section": ".data",
-   "text": {
-    "ja": "モロズ　オクサーナ",
-    "ko": "모로즈　옥사나"
-   }
-  },
-  {
-   "offset": 74236,
-   "size": 10,
-   "avail": 11,
-   "section": ".data",
-   "text": {
-    "ja": "Ｓｔａｆｆ",
-    "ko": "Ｓｔａｆｆ"
-   }
-  },
-  {
-   "offset": 74248,
-   "size": 28,
-   "avail": 31,
-   "section": ".data",
-   "text": {
-    "ja": "企画・原作／総合プロデュース",
-    "ko": "기획・원작／종합　프로듀스"
-   }
-  },
-  {
-   "offset": 74280,
-   "size": 8,
-   "avail": 11,
-   "section": ".data",
-   "text": {
-    "ja": "広井王子",
-    "ko": "히로이　오지"
-   }
-  },
-  {
-   "offset": 74292,
-   "size": 20,
-   "avail": 23,
-   "section": ".data",
-   "text": {
-    "ja": "キャラクターデザイン",
-    "ko": "캐릭터　디자인"
-   }
-  },
-  {
-   "offset": 74316,
-   "size": 22,
-   "avail": 23,
-   "section": ".data",
-   "text": {
-    "ja": "ＮＯＣＣＨＩ（ＲＥＤ）",
-    "ko": "ＮＯＣＣＨＩ（ＲＥＤ）"
-   }
-  },
-  {
-   "offset": 74340,
-   "size": 36,
-   "avail": 39,
-   "section": ".data",
-   "text": {
-    "ja": "監督　　　　　　　　　　　　竹部隆司",
-    "ko": "감독　　　　타케베　타카시"
-   }
-  },
-  {
-   "offset": 74380,
-   "size": 36,
-   "avail": 39,
-   "section": ".data",
-   "text": {
-    "ja": "脚本　　　　　　　　　　　　長山　豊",
-    "ko": "각본　　　　나가야마　유타카"
-   }
-  },
-  {
-   "offset": 74420,
-   "size": 36,
-   "avail": 39,
-   "section": ".data",
-   "text": {
-    "ja": "演出　　　　　　　　　　　　安部知也",
-    "ko": "연출　　　　아베　토모야"
-   }
-  },
-  {
-   "offset": 74460,
-   "size": 36,
-   "avail": 39,
-   "section": ".data",
-   "text": {
-    "ja": "美術監督　　　　　　　　　　角谷篤志",
-    "ko": "미술감독　　카쿠타니　아츠시"
-   }
-  },
-  {
-   "offset": 74500,
-   "size": 34,
-   "avail": 35,
-   "section": ".data",
-   "text": {
-    "ja": "音楽　　　　　　　　　　　　池　毅",
-    "ko": "음악　　　　이케　타케시"
-   }
-  },
-  {
-   "offset": 74536,
-   "size": 46,
-   "avail": 47,
-   "section": ".data",
-   "text": {
-    "ja": "プロデューサー　　　　　　　小林正樹（ＲＥＤ）",
-    "ko": "프로듀서　　코바야시　마사키（ＲＥＤ）"
-   }
-  },
-  {
-   "offset": 74584,
-   "size": 20,
-   "avail": 23,
-   "section": ".data",
-   "text": {
-    "ja": "家入多佳文（ＲＥＤ）",
-    "ko": "이에이리　타카후미（ＲＥＤ）"
-   }
-  },
-  {
-   "offset": 74608,
-   "size": 36,
-   "avail": 39,
-   "section": ".data",
-   "text": {
-    "ja": "ディレクター　　　　　　　　高野俊哉",
-    "ko": "디렉터　　　　　　　타카노　토시야"
-   }
-  },
-  {
-   "offset": 74648,
-   "size": 36,
-   "avail": 39,
-   "section": ".data",
-   "text": {
-    "ja": "プロダクトマネージャー　　　香月薫児",
-    "ko": "프로덕트　매니저　　카츠키　쿤지"
-   }
-  },
-  {
-   "offset": 74688,
-   "size": 16,
-   "avail": 19,
-   "section": ".data",
-   "text": {
-    "ja": "スーパーバイザー",
-    "ko": "슈퍼바이저"
-   }
-  },
-  {
-   "offset": 74708,
-   "size": 20,
-   "avail": 23,
-   "section": ".data",
-   "text": {
-    "ja": "大里幸夫　　猪狩　寛",
-    "ko": "오사토　유키오　　이가리　히로시"
-   }
-  },
-  {
-   "offset": 74732,
-   "size": 14,
-   "avail": 15,
-   "section": ".data",
-   "text": {
-    "ja": "○企画スタッフ",
-    "ko": "○기획　스태프"
-   }
-  },
-  {
-   "offset": 74748,
-   "size": 36,
-   "avail": 39,
-   "section": ".data",
-   "text": {
-    "ja": "システム　　　　　　　　　　安部知也",
-    "ko": "시스템　　　아베　토모야"
-   }
-  },
-  {
-   "offset": 74788,
-   "size": 36,
-   "avail": 39,
-   "section": ".data",
-   "text": {
-    "ja": "サブゲーム　　　　　　　　　竹下功一",
-    "ko": "서브게임　　타케시타　코이치"
-   }
-  },
-  {
-   "offset": 74828,
-   "size": 20,
-   "avail": 23,
-   "section": ".data",
-   "text": {
-    "ja": "○プログラムスタッフ",
-    "ko": "○프로그램　스태프"
-   }
-  },
-  {
-   "offset": 74852,
-   "size": 16,
-   "avail": 19,
-   "section": ".data",
-   "text": {
-    "ja": "メインプログラム",
-    "ko": "메인프로그램"
-   }
-  },
-  {
-   "offset": 74872,
-   "size": 20,
-   "avail": 23,
-   "section": ".data",
-   "text": {
-    "ja": "桝谷裕一　　三枝博器",
-    "ko": "마스타니　유이치　　사에구사　히로키"
-   }
-  },
-  {
-   "offset": 74896,
-   "size": 20,
-   "avail": 23,
-   "section": ".data",
-   "text": {
-    "ja": "サブゲームプログラム",
-    "ko": "서브게임프로그램"
-   }
-  },
-  {
-   "offset": 74920,
-   "size": 20,
-   "avail": 23,
-   "section": ".data",
-   "text": {
-    "ja": "中嶋知彦　　斉藤智之",
-    "ko": "나카지마　토모히코　　사이토　토모유키"
-   }
-  },
-  {
-   "offset": 74944,
-   "size": 16,
-   "avail": 19,
-   "section": ".data",
-   "text": {
-    "ja": "ツールプログラム",
-    "ko": "툴프로그램"
-   }
-  },
-  {
-   "offset": 74964,
-   "size": 20,
-   "avail": 23,
-   "section": ".data",
-   "text": {
-    "ja": "田坂拓哉　　千葉慎二",
-    "ko": "타사카　타쿠야　　　치바　신지"
-   }
-  },
-  {
-   "offset": 74988,
-   "size": 20,
-   "avail": 23,
-   "section": ".data",
-   "text": {
-    "ja": "米川正樹　　日野清治",
-    "ko": "요네카와　마사키　　히노　세이지"
-   }
-  },
-  {
-   "offset": 75012,
-   "size": 10,
-   "avail": 11,
-   "section": ".data",
-   "text": {
-    "ja": "布施田忠幸",
-    "ko": "후세다　타다유키"
-   }
-  },
-  {
-   "offset": 75024,
-   "size": 44,
-   "avail": 47,
-   "section": ".data",
-   "text": {
-    "ja": "シーン構築　　　　　　　さだ　　　　中村　充",
-    "ko": "씬　구축　　사다　　　　나카무라　미츠루"
-   }
-  },
-  {
-   "offset": 75072,
-   "size": 18,
-   "avail": 19,
-   "section": ".data",
-   "text": {
-    "ja": "○デザインスタッフ",
-    "ko": "○디자인　스태프"
-   }
-  },
-  {
-   "offset": 75092,
-   "size": 32,
-   "avail": 35,
-   "section": ".data",
-   "text": {
-    "ja": "総監修　　　　　　　　　角谷篤志",
-    "ko": "총감수　　　　　　카쿠타니　아츠시"
-   }
-  },
-  {
-   "offset": 75128,
-   "size": 32,
-   "avail": 35,
-   "section": ".data",
-   "text": {
-    "ja": "ペイント監修　　　　　　多田知美",
-    "ko": "페인트　감수　　　타다　토모미"
-   }
-  },
-  {
-   "offset": 75164,
-   "size": 32,
-   "avail": 35,
-   "section": ".data",
-   "text": {
-    "ja": "長山真希　　山口英樹　　蟹江則宏",
-    "ko": "나가야마　마키　야마구치　히데키　카니에　노리히로"
-   }
-  },
-  {
-   "offset": 75200,
-   "size": 32,
-   "avail": 35,
-   "section": ".data",
-   "text": {
-    "ja": "笠原圭介　　杉上弘美　　矢野祐治",
-    "ko": "카사하라　케이스케　스기우에　히로미　야노　유지"
-   }
-  },
-  {
-   "offset": 75236,
-   "size": 32,
-   "avail": 35,
-   "section": ".data",
-   "text": {
-    "ja": "柳澤　学　　柴田晃宏　　藤本佳代",
-    "ko": "야나기사와　마나부　시바타　아키히로　후지모토　카요"
-   }
-  },
-  {
-   "offset": 75272,
-   "size": 32,
-   "avail": 35,
-   "section": ".data",
-   "text": {
-    "ja": "岡田寿夫　　大竹浩史　　後藤幸徳",
-    "ko": "오카다　히사오　　오오타케　히로시　고토　유키노리"
-   }
-  },
-  {
-   "offset": 75308,
-   "size": 32,
-   "avail": 35,
-   "section": ".data",
-   "text": {
-    "ja": "稲場将栄　　田中俊介　　新田実穂",
-    "ko": "이나바　쇼에이　　　타나카　슌스케　닛타　미호"
-   }
-  },
-  {
-   "offset": 75344,
-   "size": 32,
-   "avail": 35,
-   "section": ".data",
-   "text": {
-    "ja": "永澤希句子　伊原朱美　　吉見直人",
-    "ko": "나가사와　키쿠코　　이하라　아케미　요시미　나오토"
-   }
-  },
-  {
-   "offset": 75380,
-   "size": 34,
-   "avail": 35,
-   "section": ".data",
-   "text": {
-    "ja": "高橋康明　　上嶋利英　　稲井田麻由",
-    "ko": "타카하시　야스아키　우에지마　토시히데　이나이다　마유"
-   }
-  },
-  {
-   "offset": 75416,
-   "size": 32,
-   "avail": 35,
-   "section": ".data",
-   "text": {
-    "ja": "佐藤　梢　　福田哲司　　野中和彦",
-    "ko": "사토　코즈에　　후쿠다　테츠지　노나카　카즈히코"
-   }
-  },
-  {
-   "offset": 75452,
-   "size": 32,
-   "avail": 35,
-   "section": ".data",
-   "text": {
-    "ja": "山本次行　　松浦浩司　　東　明彦",
-    "ko": "야마모토　츠구유키　마츠우라　코지　아즈마　아키히코"
-   }
-  },
-  {
-   "offset": 75488,
-   "size": 8,
-   "avail": 11,
-   "section": ".data",
-   "text": {
-    "ja": "藤井康博",
-    "ko": "후지이　야스히로"
-   }
-  },
-  {
-   "offset": 75500,
-   "size": 32,
-   "avail": 35,
-   "section": ".data",
-   "text": {
-    "ja": "背景監修　　　　　　　　佐々木伸",
-    "ko": "배경　감수　　　　　사사키　신"
-   }
-  },
-  {
-   "offset": 75536,
-   "size": 32,
-   "avail": 35,
-   "section": ".data",
-   "text": {
-    "ja": "美術設定　　　　　　　　大谷達也",
-    "ko": "미술　설정　　　　　오오타니　타츠야"
-   }
-  },
-  {
-   "offset": 75572,
-   "size": 32,
-   "avail": 35,
-   "section": ".data",
-   "text": {
-    "ja": "３Ｄムービー　　　　　　大辻貴志",
-    "ko": "３Ｄ　무비　　　　　오오츠지　타카시"
-   }
-  },
-  {
-   "offset": 75608,
-   "size": 38,
-   "avail": 39,
-   "section": ".data",
-   "text": {
-    "ja": "背景　　　　　　　松浦佐永子　丹波由起",
-    "ko": "배경　　　　　　　　마츠우라　사에코　탄바　유키"
-   }
-  },
-  {
-   "offset": 75648,
-   "size": 20,
-   "avail": 23,
-   "section": ".data",
-   "text": {
-    "ja": "石川秀人　　阿部臣史",
-    "ko": "이시카와　히데토　　아베　신지"
-   }
-  },
-  {
-   "offset": 75672,
-   "size": 44,
-   "avail": 47,
-   "section": ".data",
-   "text": {
-    "ja": "オープニングムービー　ビジュアルディレクター",
-    "ko": "오프닝무비　비주얼디렉터"
-   }
-  },
-  {
-   "offset": 75720,
-   "size": 18,
-   "avail": 19,
-   "section": ".data",
-   "text": {
-    "ja": "関　和義（ＲＥＤ）",
-    "ko": "세키　카즈요시（ＲＥＤ）"
-   }
-  },
-  {
-   "offset": 75740,
-   "size": 24,
-   "avail": 27,
-   "section": ".data",
-   "text": {
-    "ja": "○アニメーションスタッフ",
-    "ko": "○애니메이션　스태프"
-   }
-  },
-  {
-   "offset": 75768,
-   "size": 34,
-   "avail": 35,
-   "section": ".data",
-   "text": {
-    "ja": "総作画監督　　　　　　　室井ふみえ",
-    "ko": "총작화감독　　무로이　후미에"
-   }
-  },
-  {
-   "offset": 75804,
-   "size": 38,
-   "avail": 39,
-   "section": ".data",
-   "text": {
-    "ja": "作画監督　　　　　石川洋一　　新号　靖",
-    "ko": "작화감독　　　이시카와　요이치　신고　야스시"
-   }
-  },
-  {
-   "offset": 75844,
-   "size": 4,
-   "avail": 7,
-   "section": ".data",
-   "text": {
-    "ja": "原画",
-    "ko": "원화"
-   }
-  },
-  {
-   "offset": 75852,
-   "size": 32,
-   "avail": 35,
-   "section": ".data",
-   "text": {
-    "ja": "佐藤和巳　　橘　秀樹　　斉藤哲人",
-    "ko": "사토　카즈미　　　타치바나　히데키　사이토　테츠토"
-   }
-  },
-  {
-   "offset": 75888,
-   "size": 32,
-   "avail": 35,
-   "section": ".data",
-   "text": {
-    "ja": "三井洋一　　小島正士　　小菅和久",
-    "ko": "미츠이　요이치　　코지마　마사시　코스게　카즈히사"
-   }
-  },
-  {
-   "offset": 75924,
-   "size": 32,
-   "avail": 35,
-   "section": ".data",
-   "text": {
-    "ja": "尾尻進矢　　藤谷尚子　　数井浩子",
-    "ko": "오지리　신야　　　후지타니　나오코　카즈이　히로코"
-   }
-  },
-  {
-   "offset": 75960,
-   "size": 32,
-   "avail": 35,
-   "section": ".data",
-   "text": {
-    "ja": "伊藤良太　　杉本　功　　北野幸広",
-    "ko": "이토　료타　　　스기모토　이사오　키타노　유키히로"
-   }
-  },
-  {
-   "offset": 75996,
-   "size": 34,
-   "avail": 35,
-   "section": ".data",
-   "text": {
-    "ja": "秋本勇一　　西尾公伯　　室井ふみえ",
-    "ko": "아키모토　유이치　니시오　키미노리　무로이　후미에"
-   }
-  },
-  {
-   "offset": 76032,
-   "size": 32,
-   "avail": 35,
-   "section": ".data",
-   "text": {
-    "ja": "長縄宏美　　石川洋一　　池平千里",
-    "ko": "나가나와　히로미　이시카와　요이치　이케히라　치사토"
-   }
-  },
-  {
-   "offset": 76068,
-   "size": 8,
-   "avail": 11,
-   "section": ".data",
-   "text": {
-    "ja": "新号　靖",
-    "ko": "신고　야스시"
-   }
-  },
-  {
-   "offset": 76080,
-   "size": 32,
-   "avail": 35,
-   "section": ".data",
-   "text": {
-    "ja": "レイアウトチェック　　　山田浩之",
-    "ko": "레이아웃　체크　　　야마다　히로유키"
-   }
-  },
-  {
-   "offset": 76116,
-   "size": 40,
-   "avail": 43,
-   "section": ".data",
-   "text": {
-    "ja": "動画チェック　　　江山梨恵　　たくらんけ",
-    "ko": "동화　체크　　　　　에야마　리에　타쿠란케"
-   }
-  },
-  {
-   "offset": 76160,
-   "size": 38,
-   "avail": 39,
-   "section": ".data",
-   "text": {
-    "ja": "動画　　　　　　　川田栄三　　小松英司",
-    "ko": "동화　　　　　　　　카와다　에이조　코마츠　에이지"
-   }
-  },
-  {
-   "offset": 76200,
-   "size": 22,
-   "avail": 23,
-   "section": ".data",
-   "text": {
-    "ja": "西河広美　　寺田久美子",
-    "ko": "니시카와　히로미　　테라다　쿠미코"
-   }
-  },
-  {
-   "offset": 76224,
-   "size": 20,
-   "avail": 23,
-   "section": ".data",
-   "text": {
-    "ja": "岡田浩志　　江山梨恵",
-    "ko": "오카다　히로시　　　에야마　리에"
-   }
-  },
-  {
-   "offset": 76248,
-   "size": 20,
-   "avail": 23,
-   "section": ".data",
-   "text": {
-    "ja": "伊藤賢太郎　伊藤良太",
-    "ko": "이토　켄타로　　이토　료타"
-   }
-  },
-  {
-   "offset": 76272,
-   "size": 32,
-   "avail": 35,
-   "section": ".data",
-   "text": {
-    "ja": "制作　　　　　　　　　　西原秀二",
-    "ko": "제작　　　　니시하라　슈지"
-   }
-  },
-  {
-   "offset": 76308,
-   "size": 32,
-   "avail": 35,
-   "section": ".data",
-   "text": {
-    "ja": "プロデューサー　　　　　近藤康彦",
-    "ko": "프로듀서　　콘도　야스히코"
-   }
-  },
-  {
-   "offset": 76344,
-   "size": 34,
-   "avail": 35,
-   "section": ".data",
-   "text": {
-    "ja": "制作協力　　　　　　　（有）ＣＯＸ",
-    "ko": "제작협력　　（유）ＣＯＸ"
-   }
-  },
-  {
-   "offset": 76380,
-   "size": 18,
-   "avail": 19,
-   "section": ".data",
-   "text": {
-    "ja": "スタジオコクピット",
-    "ko": "스튜디오콕핏"
-   }
-  },
-  {
-   "offset": 76400,
-   "size": 18,
-   "avail": 19,
-   "section": ".data",
-   "text": {
-    "ja": "○ムービースタッフ",
-    "ko": "○무비　스태프"
-   }
-  },
-  {
-   "offset": 76420,
-   "size": 34,
-   "avail": 35,
-   "section": ".data",
-   "text": {
-    "ja": "ビジュアルプロデューサー　水野祥司",
-    "ko": "비주얼　프로듀서　　　　　미즈노　쇼지"
-   }
-  },
-  {
-   "offset": 76456,
-   "size": 34,
-   "avail": 35,
-   "section": ".data",
-   "text": {
-    "ja": "製作進行　　　　　　　　　吉見直人",
-    "ko": "제작진행　　　　요시미　나오토"
-   }
-  },
-  {
-   "offset": 76492,
-   "size": 34,
-   "avail": 35,
-   "section": ".data",
-   "text": {
-    "ja": "ムービーエディット　　　　蒲原　仁",
-    "ko": "무비　에디트　　칸바라　히토시"
-   }
-  },
-  {
-   "offset": 76528,
-   "size": 18,
-   "avail": 19,
-   "section": ".data",
-   "text": {
-    "ja": "○サウンドスタッフ",
-    "ko": "○사운드　스태프"
-   }
-  },
-  {
-   "offset": 76548,
-   "size": 34,
-   "avail": 35,
-   "section": ".data",
-   "text": {
-    "ja": "マネージメント　　　　　　三井啓介",
-    "ko": "매니지먼트　　미츠이　케이스케"
-   }
-  },
-  {
-   "offset": 76584,
-   "size": 34,
-   "avail": 35,
-   "section": ".data",
-   "text": {
-    "ja": "進行　　　　　　　　　　　滝本利昭",
-    "ko": "진행　　　　　타키모토　토시아키"
-   }
-  },
-  {
-   "offset": 76620,
-   "size": 4,
-   "avail": 7,
-   "section": ".data",
-   "text": {
-    "ja": "作曲",
-    "ko": "작곡"
-   }
-  },
-  {
-   "offset": 76628,
-   "size": 30,
-   "avail": 31,
-   "section": ".data",
-   "text": {
-    "ja": "カラオケ　　　　　　　　池　毅",
-    "ko": "노래방　　　이케　타케시"
-   }
-  },
-  {
-   "offset": 76660,
-   "size": 32,
-   "avail": 35,
-   "section": ".data",
-   "text": {
-    "ja": "サブゲーム　　　　　　　真野茜音",
-    "ko": "서브게임　　　마노　아카네"
-   }
-  },
-  {
-   "offset": 76696,
-   "size": 34,
-   "avail": 35,
-   "section": ".data",
-   "text": {
-    "ja": "オペレート　　　　　　　　八幡浩暢",
-    "ko": "오퍼레이트　　야하타　히로노부"
-   }
-  },
-  {
-   "offset": 76732,
-   "size": 26,
-   "avail": 27,
-   "section": ".data",
-   "text": {
-    "ja": "サウンドデザイン　　　　　",
-    "ko": "사운드　디자인"
-   }
-  },
-  {
-   "offset": 76760,
-   "size": 32,
-   "avail": 35,
-   "section": ".data",
-   "text": {
-    "ja": "成田　修　　山本裕直　　坂東章平",
-    "ko": "나리타　오사무　야마모토　히로나오　반도　쇼헤이"
-   }
-  },
-  {
-   "offset": 76796,
-   "size": 34,
-   "avail": 35,
-   "section": ".data",
-   "text": {
-    "ja": "ＭＡ　　　　　　　　　　　坂東章平",
-    "ko": "ＭＡ　　반도　쇼헤이"
-   }
-  },
-  {
-   "offset": 76832,
-   "size": 6,
-   "avail": 7,
-   "section": ".data",
-   "text": {
-    "ja": "効果音",
-    "ko": "효과음"
-   }
-  },
-  {
-   "offset": 76840,
-   "size": 48,
-   "avail": 51,
-   "section": ".data",
-   "text": {
-    "ja": "監修　　　　　　冨井昭次（ジョーダウンスタジオ）",
-    "ko": "감수　　토미이　쇼지（조다운스튜디오）"
-   }
-  },
-  {
-   "offset": 76892,
-   "size": 48,
-   "avail": 51,
-   "section": ".data",
-   "text": {
-    "ja": "制作　　　　　　福岡博美（ジョーダウンスタジオ）",
-    "ko": "제작　　후쿠오카　히로미（조다운스튜디오）"
-   }
-  },
-  {
-   "offset": 76944,
-   "size": 8,
-   "avail": 11,
-   "section": ".data",
-   "text": {
-    "ja": "サポート",
-    "ko": "서포트"
-   }
-  },
-  {
-   "offset": 76956,
-   "size": 32,
-   "avail": 35,
-   "section": ".data",
-   "text": {
-    "ja": "井上雅明　　古屋拓道　　岡　秀樹",
-    "ko": "이노우에　마사아키　후루야　타쿠미치　오카　히데키"
-   }
-  },
-  {
-   "offset": 76992,
-   "size": 8,
-   "avail": 11,
-   "section": ".data",
-   "text": {
-    "ja": "○挿入歌",
-    "ko": "○삽입곡"
-   }
-  },
-  {
-   "offset": 77004,
-   "size": 48,
-   "avail": 51,
-   "section": ".data",
-   "text": {
-    "ja": "『北へ。』　　　　　　　　　歌　　　Four Seasons",
-    "ko": "『북으로．』　　　　　　　　　　노래　Four Seasons"
-   }
-  },
-  {
-   "offset": 77056,
-   "size": 44,
-   "avail": 47,
-   "section": ".data",
-   "text": {
-    "ja": "『恋のダンシング』　　　　　歌　　　千葉紗子",
-    "ko": "『사랑의　댄싱』　　　　　　　　노래　치바　사에코"
-   }
-  },
-  {
-   "offset": 77104,
-   "size": 44,
-   "avail": 47,
-   "section": ".data",
-   "text": {
-    "ja": "『夏の思い出』　　　　　　　歌　　　大谷育江",
-    "ko": "『여름의　추억』　　　　　　노래　오오타니　이쿠에"
-   }
-  },
-  {
-   "offset": 77152,
-   "size": 44,
-   "avail": 47,
-   "section": ".data",
-   "text": {
-    "ja": "『Ｓｗｅｅｔ　Ｄｒｅａｍ』　歌　　　榊原良子",
-    "ko": "『Ｓｗｅｅｔ　Ｄｒｅａｍ』　노래　사카키바라　요시코"
-   }
-  },
-  {
-   "offset": 77200,
-   "size": 16,
-   "avail": 19,
-   "section": ".data",
-   "text": {
-    "ja": "作詞　　広井王子",
-    "ko": "작사　　　　　　　　　　　　　　　　히로이　오지"
-   }
-  },
-  {
-   "offset": 77220,
-   "size": 14,
-   "avail": 15,
-   "section": ".data",
-   "text": {
-    "ja": "作編曲　池　毅",
-    "ko": "작편곡　이케　타케시"
-   }
-  },
-  {
-   "offset": 77236,
-   "size": 44,
-   "avail": 47,
-   "section": ".data",
-   "text": {
-    "ja": "『魔法にかける魔法』　　　　歌　　　広橋佳以",
-    "ko": "『마법에　거는　마법』　　　　노래　히로하시　카이"
-   }
-  },
-  {
-   "offset": 77284,
-   "size": 44,
-   "avail": 47,
-   "section": ".data",
-   "text": {
-    "ja": "『ダイナマイトが５万トン』　歌　　　南　央美",
-    "ko": "『다이너마이트가　５만톤』　노래　　미나미　오미"
-   }
-  },
-  {
-   "offset": 77332,
-   "size": 44,
-   "avail": 47,
-   "section": ".data",
-   "text": {
-    "ja": "『タイクツとユウウツ』　　　歌　　　坂本真綾",
-    "ko": "『지루함과　우울』　　　　　노래　사카모토　마아야"
-   }
-  },
-  {
-   "offset": 77380,
-   "size": 44,
-   "avail": 47,
-   "section": ".data",
-   "text": {
-    "ja": "『札幌ススキノ雨の２５時』　歌　　　川澄綾子",
-    "ko": "『스스키노　비의　２５시』　노래　카와스미　아야코"
-   }
-  },
-  {
-   "offset": 77428,
-   "size": 46,
-   "avail": 47,
-   "section": ".data",
-   "text": {
-    "ja": "『ＲＧ』　　　　　　　　　　歌　　　豊口めぐみ",
-    "ko": "『ＲＧ』　　　　　　　　　　노래　토요구치　메구미"
-   }
-  },
-  {
-   "offset": 77476,
-   "size": 44,
-   "avail": 47,
-   "section": ".data",
-   "text": {
-    "ja": "『わたしまけましたわ』　　　歌　　　広橋佳以",
-    "ko": "『와타시마케마시타와』　　　　노래　히로하시　카이"
-   }
-  },
-  {
-   "offset": 77524,
-   "size": 44,
-   "avail": 47,
-   "section": ".data",
-   "text": {
-    "ja": "『大好き』　　　　　　　　　歌　　　広橋佳以",
-    "ko": "『정말　좋아해』　　　　　　　노래　히로하시　카이"
-   }
-  },
-  {
-   "offset": 77572,
-   "size": 16,
-   "avail": 19,
-   "section": ".data",
-   "text": {
-    "ja": "作詞　　長山　豊",
-    "ko": "작사　　　　　　　　　　　　　　　나가야마　유타카"
-   }
-  },
-  {
-   "offset": 77592,
-   "size": 22,
-   "avail": 23,
-   "section": ".data",
-   "text": {
-    "ja": "ヴォーカルトラック制作",
-    "ko": "보컬트랙　제작"
-   }
-  },
-  {
-   "offset": 77616,
-   "size": 30,
-   "avail": 31,
-   "section": ".data",
-   "text": {
-    "ja": "スーパーバイザー　　　香山　哲",
-    "ko": "슈퍼바이저　　카야마　테츠"
-   }
-  },
-  {
-   "offset": 77648,
-   "size": 30,
-   "avail": 31,
-   "section": ".data",
-   "text": {
-    "ja": "ディレクター　　　　　吉田　隆",
-    "ko": "디렉터　　　　요시다　타카시"
-   }
-  },
-  {
-   "offset": 77680,
-   "size": 30,
-   "avail": 31,
-   "section": ".data",
-   "text": {
-    "ja": "エンジニア　　　　　　笹森英樹",
-    "ko": "엔지니어　　　사사모리　히데키"
-   }
-  },
-  {
-   "offset": 77712,
-   "size": 28,
-   "avail": 31,
-   "section": ".data",
-   "text": {
-    "ja": "協力　　メディアファクトリー",
-    "ko": "협력　　　　　미디어팩토리"
-   }
-  },
-  {
-   "offset": 77744,
-   "size": 32,
-   "avail": 35,
-   "section": ".data",
-   "text": {
-    "ja": "西山恭子　　永田勝治　　島　哲雄",
-    "ko": "니시야마　쿄코　나가타　카츠지　시마　테츠오"
-   }
-  },
-  {
-   "offset": 77780,
-   "size": 20,
-   "avail": 23,
-   "section": ".data",
-   "text": {
-    "ja": "澤田純孝　　田岡　敬",
-    "ko": "사와다　스미타카　　타오카　타카시"
-   }
-  },
-  {
-   "offset": 77804,
-   "size": 18,
-   "avail": 19,
-   "section": ".data",
-   "text": {
-    "ja": "○ナレーション制作",
-    "ko": "○내레이션　제작"
-   }
-  },
-  {
-   "offset": 77824,
-   "size": 36,
-   "avail": 39,
-   "section": ".data",
-   "text": {
-    "ja": "録音監督　　　　三間雅文　　高寺　雄",
-    "ko": "녹음감독　　　　　　미마　마사후미　타카데라　유"
-   }
-  },
-  {
-   "offset": 77864,
-   "size": 30,
-   "avail": 31,
-   "section": ".data",
-   "text": {
-    "ja": "スタジオ　　　　アオイスタジオ",
-    "ko": "스튜디오　　　　　　아오이스튜디오"
-   }
-  },
-  {
-   "offset": 77896,
-   "size": 26,
-   "avail": 27,
-   "section": ".data",
-   "text": {
-    "ja": "○デバッグスタッフ　　　　",
-    "ko": "○디버그　스태프　　"
-   }
-  },
-  {
-   "offset": 77924,
-   "size": 32,
-   "avail": 35,
-   "section": ".data",
-   "text": {
-    "ja": "太田宏之　　高橋抄太　　中川　剛",
-    "ko": "오오타　히로유키　타카하시　쇼타　나카가와　츠요시"
-   }
-  },
-  {
-   "offset": 77960,
-   "size": 46,
-   "avail": 47,
-   "section": ".data",
-   "text": {
-    "ja": "○広報　　　　田部井緑子　荒木ひろみ（ＲＥＤ）",
-    "ko": "○홍보　타베이　미도리코　아라키　히로미（ＲＥＤ）"
-   }
-  },
-  {
-   "offset": 78008,
-   "size": 34,
-   "avail": 35,
-   "section": ".data",
-   "text": {
-    "ja": "○マニュアル制作　　　　　三谷晴基",
-    "ko": "○매뉴얼　제작　　미타니　하루키"
-   }
-  },
-  {
-   "offset": 78044,
-   "size": 14,
-   "avail": 15,
-   "section": ".data",
-   "text": {
-    "ja": "○撮影スタッフ",
-    "ko": "○촬영　스태프"
-   }
-  },
-  {
-   "offset": 78060,
-   "size": 32,
-   "avail": 35,
-   "section": ".data",
-   "text": {
-    "ja": "写真撮影　　　　　　　　吉野高司",
-    "ko": "사진촬영　　요시노　타카시"
-   }
-  },
-  {
-   "offset": 78096,
-   "size": 32,
-   "avail": 35,
-   "section": ".data",
-   "text": {
-    "ja": "撮影助手　　　　　　　　松本浩二",
-    "ko": "촬영조수　　마츠모토　코지"
-   }
-  },
-  {
-   "offset": 78132,
-   "size": 38,
-   "avail": 39,
-   "section": ".data",
-   "text": {
-    "ja": "演出助手　　　　　山口英樹　　蟹江則宏",
-    "ko": "연출조수　　야마구치　히데키　카니에　노리히로"
-   }
-  },
-  {
-   "offset": 78172,
-   "size": 32,
-   "avail": 35,
-   "section": ".data",
-   "text": {
-    "ja": "撮影進行　　　　　　　　竹下功一",
-    "ko": "촬영진행　　타케시타　코이치"
-   }
-  },
-  {
-   "offset": 78208,
-   "size": 43,
-   "avail": 43,
-   "section": ".data",
-   "text": {
-    "ja": "取材　　 株式会社エムジー・コーポレーション",
-    "ko": "취재　　　　 주식회사엠지・코퍼레이션"
-   }
-  },
-  {
-   "offset": 78252,
-   "size": 8,
-   "avail": 11,
-   "section": ".data",
-   "text": {
-    "ja": "千田勤也",
-    "ko": "치다　킨야"
-   }
-  },
-  {
-   "offset": 78264,
-   "size": 12,
-   "avail": 15,
-   "section": ".data",
-   "text": {
-    "ja": "写真素材提供",
-    "ko": "사진소재제공"
-   }
-  },
-  {
-   "offset": 78280,
-   "size": 46,
-   "avail": 47,
-   "section": ".data",
-   "text": {
-    "ja": "株式会社アイ・ピー・エス　　　株式会社アダック",
-    "ko": "주식회사아이・피・에스　주식회사아다크"
-   }
-  },
-  {
-   "offset": 78328,
-   "size": 46,
-   "avail": 47,
-   "section": ".data",
-   "text": {
-    "ja": "株式会社世界文化フォト　　株式会社フォトバンク",
-    "ko": "주식회사세계문화포토　　주식회사포토뱅크"
-   }
-  },
-  {
-   "offset": 78376,
-   "size": 46,
-   "avail": 47,
-   "section": ".data",
-   "text": {
-    "ja": "北海道撮影社　　　株式会社マリンプレスジャパン",
-    "ko": "홋카이도　촬영사　　　　주식회사마린프레스재팬"
-   }
-  },
-  {
-   "offset": 78424,
-   "size": 10,
-   "avail": 11,
-   "section": ".data",
-   "text": {
-    "ja": "○取材協力",
-    "ko": "○취재　협력"
-   }
-  },
-  {
-   "offset": 78436,
-   "size": 34,
-   "avail": 35,
-   "section": ".data",
-   "text": {
-    "ja": "朝市　吉岡食堂　　　　　味処　新橋",
-    "ko": "아침시장　요시오카식당　맛집　신바시"
-   }
-  },
-  {
-   "offset": 78472,
-   "size": 42,
-   "avail": 43,
-   "section": ".data",
-   "text": {
-    "ja": "（有）アルパイン計画　　（有）アンデルセン",
-    "ko": "（유）알파인계획　　　（유）안데르센"
-   }
-  },
-  {
-   "offset": 78516,
-   "size": 40,
-   "avail": 43,
-   "section": ".data",
-   "text": {
-    "ja": "ＹＥＳ・そうご電器　　　ＩＮ　ＢＬＯＯＭ",
-    "ko": "ＹＥＳ・소고전기　　　ＩＮ　ＢＬＯＯＭ"
-   }
-  },
-  {
-   "offset": 78560,
-   "size": 44,
-   "avail": 47,
-   "section": ".data",
-   "text": {
-    "ja": "（株）エンゼル　　　　　（株）おくむら生花店",
-    "ko": "（주）엔젤　　　　　　（주）오쿠무라　꽃집"
-   }
-  },
-  {
-   "offset": 78608,
-   "size": 40,
-   "avail": 43,
-   "section": ".data",
-   "text": {
-    "ja": "小樽運河工藝館　　　　　小樽オルゴール堂",
-    "ko": "오타루　운하공예관　　오타루　오르골당"
-   }
-  },
-  {
-   "offset": 78652,
-   "size": 38,
-   "avail": 39,
-   "section": ".data",
-   "text": {
-    "ja": "（株）小樽水族館公社　　金森商船（株）",
-    "ko": "（주）오타루　수족관공사　가네모리상선（주）"
-   }
-  },
-  {
-   "offset": 78740,
-   "size": 38,
-   "avail": 39,
-   "section": ".data",
-   "text": {
-    "ja": "喫茶　樹の部屋　　　　　旧函館区公会堂",
-    "ko": "찻집　나무의　방　　　옛　하코다테구　공회당"
-   }
-  },
-  {
-   "offset": 78780,
-   "size": 44,
-   "avail": 47,
-   "section": ".data",
-   "text": {
-    "ja": "京セラ（株）　　　　　　屈斜路プリンスホテル",
-    "ko": "교세라（주）　　　　　쿳샤로　프린스　호텔"
-   }
-  },
-  {
-   "offset": 78828,
-   "size": 42,
-   "avail": 43,
-   "section": ".data",
-   "text": {
-    "ja": "紅茶の店　アッサム　　　五稜郭タワー（株）",
-    "ko": "홍차집　아삼　　　　　고료카쿠　타워（주）"
-   }
-  },
-  {
-   "offset": 78872,
-   "size": 40,
-   "avail": 43,
-   "section": ".data",
-   "text": {
-    "ja": "札幌市交通局　　　　　　札幌テレビ塔観光",
-    "ko": "삿포로시교통국　　　　삿포로ＴＶ타워관광"
-   }
-  },
-  {
-   "offset": 78916,
-   "size": 42,
-   "avail": 43,
-   "section": ".data",
-   "text": {
-    "ja": "サッポロファクトリー　　札幌プリンスホテル",
-    "ko": "삿포로　팩토리　　　　삿포로　프린스　호텔"
-   }
-  },
-  {
-   "offset": 78960,
-   "size": 32,
-   "avail": 35,
-   "section": ".data",
-   "text": {
-    "ja": "三角市場協同組合　　　　三香温泉",
-    "ko": "삼각시장협동조합　　　산코온천"
-   }
-  },
-  {
-   "offset": 78996,
-   "size": 30,
-   "avail": 31,
-   "section": ".data",
-   "text": {
-    "ja": "ＪＲ北海道　　　　　　　正楼閣",
-    "ko": "ＪＲ홋카이도　　　　　쇼로카쿠"
-   }
-  },
-  {
-   "offset": 79028,
-   "size": 34,
-   "avail": 35,
-   "section": ".data",
-   "text": {
-    "ja": "寿し処　美ぜん　　　　　寿しの澤登",
-    "ko": "초밥집　미젠　　　　　초밥집　사와노보리"
-   }
-  },
-  {
-   "offset": 79064,
-   "size": 38,
-   "avail": 39,
-   "section": ".data",
-   "text": {
-    "ja": "全日空　　　　　　　　　大衆中華　宝来",
-    "ko": "전일공　　　　　　　　대중중화　호라이"
-   }
-  },
-  {
-   "offset": 79104,
-   "size": 44,
-   "avail": 47,
-   "section": ".data",
-   "text": {
-    "ja": "（有）大正館　　　　　　（株）鷹栖町振興公社",
-    "ko": "（유）다이쇼칸　　　　（주）타카스초진흥공사"
-   }
-  },
-  {
-   "offset": 79152,
-   "size": 42,
-   "avail": 43,
-   "section": ".data",
-   "text": {
-    "ja": "テイセンホール　　　　　天狗山ロープウェイ",
-    "ko": "테이센　홀　　　　　　　텐구산　로프웨이"
-   }
-  },
-  {
-   "offset": 79196,
-   "size": 44,
-   "avail": 47,
-   "section": ".data",
-   "text": {
-    "ja": "ＴＯＳＨＩＢＡ　　　　　夏井珈琲Ｂｒｕｃｋｅ",
-    "ko": "ＴＯＳＨＩＢＡ　　　　나츠이커피　Ｂｒｕｃｋｅ"
-   }
-  },
-  {
-   "offset": 79244,
-   "size": 40,
-   "avail": 43,
-   "section": ".data",
-   "text": {
-    "ja": "（株）新倉屋　　　　　　パーラートップス",
-    "ko": "（주）니이쿠라야　　　파라　톱스"
-   }
-  },
-  {
-   "offset": 79288,
-   "size": 40,
-   "avail": 43,
-   "section": ".data",
-   "text": {
-    "ja": "函館市交通局　　　　　　函館市写真歴史館",
-    "ko": "하코다테시교통국　　　하코다테시사진역사관"
-   }
-  },
-  {
-   "offset": 79332,
-   "size": 36,
-   "avail": 39,
-   "section": ".data",
-   "text": {
-    "ja": "ビッグラン北海道　　　　ファーム富田",
-    "ko": "빅런홋카이도　　　　　팜　토미타"
-   }
-  },
-  {
-   "offset": 79372,
-   "size": 40,
-   "avail": 43,
-   "section": ".data",
-   "text": {
-    "ja": "（株）ベイはこだて　　　北海道空港（株）",
-    "ko": "（주）베이하코다테　　홋카이도공항（주）"
-   }
-  },
-  {
-   "offset": 79416,
-   "size": 38,
-   "avail": 39,
-   "section": ".data",
-   "text": {
-    "ja": "（株）丸井今井　　　　　丸駒温泉（株）",
-    "ko": "（주）마루이이마이　　마루코마온천（주）"
-   }
-  },
-  {
-   "offset": 79456,
-   "size": 36,
-   "avail": 39,
-   "section": ".data",
-   "text": {
-    "ja": "丸信　本間商店（有）　　メッセホール",
-    "ko": "마루신　혼마상점（유）　멧세홀"
-   }
-  },
-  {
-   "offset": 79496,
-   "size": 36,
-   "avail": 39,
-   "section": ".data",
-   "text": {
-    "ja": "（株）ユウメディア　　　（株）ラルズ",
-    "ko": "（주）유미디어　　（주）랄즈"
-   }
-  },
-  {
-   "offset": 79536,
-   "size": 12,
-   "avail": 15,
-   "section": ".data",
-   "text": {
-    "ja": "（株）ロフト",
-    "ko": "（주）로프트"
-   }
-  },
-  {
-   "offset": 79552,
-   "size": 26,
-   "avail": 27,
-   "section": ".data",
-   "text": {
-    "ja": "アイスクリームパーラー美園",
-    "ko": "아이스크림파라　미소노"
-   }
-  },
-  {
-   "offset": 79580,
-   "size": 26,
-   "avail": 27,
-   "section": ".data",
-   "text": {
-    "ja": "アジアン・カフェ　タオタオ",
-    "ko": "아시안・카페　타오타오"
-   }
-  },
-  {
-   "offset": 79608,
-   "size": 34,
-   "avail": 35,
-   "section": ".data",
-   "text": {
-    "ja": "網走水産（株）俺の函館駅前朝市本店",
-    "ko": "아바시리수산（주）오레노　하코다테역앞아침시장본점"
-   }
-  },
-  {
-   "offset": 79644,
-   "size": 34,
-   "avail": 35,
-   "section": ".data",
-   "text": {
-    "ja": "エレッセショップ札幌ファクトリー店",
-    "ko": "엘레세숍　삿포로팩토리점"
-   }
-  },
-  {
-   "offset": 79680,
-   "size": 24,
-   "avail": 27,
-   "section": ".data",
-   "text": {
-    "ja": "お食事処　積丹の幸みさき",
-    "ko": "식당　샤코탄의　진미　미사키"
-   }
-  },
-  {
-   "offset": 79708,
-   "size": 26,
-   "avail": 27,
-   "section": ".data",
-   "text": {
-    "ja": "カフェ＆バー　ビートルバム",
-    "ko": "카페＆바　비틀범"
-   }
-  },
-  {
-   "offset": 79736,
-   "size": 28,
-   "avail": 31,
-   "section": ".data",
-   "text": {
-    "ja": "共和製菓・ニセコ町観光商工課",
-    "ko": "쿄와제과・니세코초관광상공과"
-   }
-  },
-  {
-   "offset": 79768,
-   "size": 38,
-   "avail": 39,
-   "section": ".data",
-   "text": {
-    "ja": "クライスラー　ジャパン　セールス（株）",
-    "ko": "크라이슬러　재팬　세일즈（주）"
-   }
-  },
-  {
-   "offset": 79808,
-   "size": 26,
-   "avail": 27,
-   "section": ".data",
-   "text": {
-    "ja": "航空自衛隊千歳基地　広報室",
-    "ko": "항공자위대　치토세기지　홍보실"
-   }
-  },
-  {
-   "offset": 79836,
-   "size": 38,
-   "avail": 39,
-   "section": ".data",
-   "text": {
-    "ja": "コーヒーレストラン　グリーンゲイブルズ",
-    "ko": "커피레스토랑　그린게이블즈"
-   }
-  },
-  {
-   "offset": 79876,
-   "size": 32,
-   "avail": 35,
-   "section": ".data",
-   "text": {
-    "ja": "（有）ザ・グラススタジオイン函館",
-    "ko": "（유）더・글라스스튜디오인하코다테"
-   }
-  },
-  {
-   "offset": 79912,
-   "size": 28,
-   "avail": 31,
-   "section": ".data",
-   "text": {
-    "ja": "ザ・ネイチャーディスカバリー",
-    "ko": "더・네이처디스커버리"
-   }
-  },
-  {
-   "offset": 79944,
-   "size": 22,
-   "avail": 23,
-   "section": ".data",
-   "text": {
-    "ja": "刺身専門店　ヤン衆漁場",
-    "ko": "회　전문점　얀슈어장"
-   }
-  },
-  {
-   "offset": 79968,
-   "size": 24,
-   "avail": 27,
-   "section": ".data",
-   "text": {
-    "ja": "札幌狸小路商店街振興組合",
-    "ko": "삿포로타누키코지상점가진흥조합"
-   }
-  },
-  {
-   "offset": 79996,
-   "size": 22,
-   "avail": 23,
-   "section": ".data",
-   "text": {
-    "ja": "新富良野プリンスホテル",
-    "ko": "신후라노　프린스　호텔"
-   }
-  },
-  {
-   "offset": 80020,
-   "size": 32,
-   "avail": 35,
-   "section": ".data",
-   "text": {
-    "ja": "（株）スガイ　エンタテインメント",
-    "ko": "（주）스가이　엔터테인먼트"
-   }
-  },
-  {
-   "offset": 80056,
-   "size": 28,
-   "avail": 31,
-   "section": ".data",
-   "text": {
-    "ja": "ＳＵＳＵＫＩＮＯ　ＣＵＢＩＣ",
-    "ko": "ＳＵＳＵＫＩＮＯ　ＣＵＢＩＣ"
-   }
-  },
-  {
-   "offset": 80088,
-   "size": 28,
-   "avail": 31,
-   "section": ".data",
-   "text": {
-    "ja": "多目的スペースあうん堂ホール",
-    "ko": "다목적스페이스　아운도홀"
-   }
-  },
-  {
-   "offset": 80120,
-   "size": 26,
-   "avail": 27,
-   "section": ".data",
-   "text": {
-    "ja": "ＤＤＩポケット電話グループ",
-    "ko": "ＤＤＩ포켓전화그룹"
-   }
-  },
-  {
-   "offset": 80148,
-   "size": 22,
-   "avail": 23,
-   "section": ".data",
-   "text": {
-    "ja": "（株）テイネオリンピア",
-    "ko": "（주）테이네　올림피아"
-   }
-  },
-  {
-   "offset": 80172,
-   "size": 24,
-   "avail": 27,
-   "section": ".data",
-   "text": {
-    "ja": "二条市場魚町商業協同組合",
-    "ko": "니조시장우오마치상업협동조합"
-   }
-  },
-  {
-   "offset": 80200,
-   "size": 26,
-   "avail": 27,
-   "section": ".data",
-   "text": {
-    "ja": "日本空港ビルディング（株）",
-    "ko": "일본공항빌딩（주）"
-   }
-  },
-  {
-   "offset": 80228,
-   "size": 22,
-   "avail": 23,
-   "section": ".data",
-   "text": {
-    "ja": "登別温泉ホテルまほろば",
-    "ko": "노보리베츠온천호텔마호로바"
-   }
-  },
-  {
-   "offset": 80252,
-   "size": 26,
-   "avail": 27,
-   "section": ".data",
-   "text": {
-    "ja": "（株）函館カール・レイモン",
-    "ko": "（주）하코다테카를・레이몬"
-   }
-  },
-  {
-   "offset": 80280,
-   "size": 20,
-   "avail": 23,
-   "section": ".data",
-   "text": {
-    "ja": "函館ハリストス正教会",
-    "ko": "하코다테하리스토스정교회"
-   }
-  },
-  {
-   "offset": 80304,
-   "size": 24,
-   "avail": 27,
-   "section": ".data",
-   "text": {
-    "ja": "函館山ロープウェイ（株）",
-    "ko": "하코다테산　로프웨이（주）"
-   }
-  },
-  {
-   "offset": 80332,
-   "size": 26,
-   "avail": 27,
-   "section": ".data",
-   "text": {
-    "ja": "函館湯の川温泉ホテル平成館",
-    "ko": "하코다테유노카와온천　호텔헤이세이관"
-   }
-  },
-  {
-   "offset": 80360,
-   "size": 43,
-   "avail": 43,
-   "section": ".data",
-   "text": {
-    "ja": "ＰＯＷＥＲ ＣＵＲＲＹ ＭＡＧＩＣ ＳＰＩＣＥ",
-    "ko": "ＰＯＷＥＲ ＣＵＲＲＹ ＭＡＧＩＣ ＳＰＩＣＥ"
-   }
-  },
-  {
-   "offset": 80404,
-   "size": 34,
-   "avail": 35,
-   "section": ".data",
-   "text": {
-    "ja": "フィアット　オート　ジャパン（株）",
-    "ko": "피아트　오토　재팬（주）"
-   }
-  },
-  {
-   "offset": 80440,
-   "size": 34,
-   "avail": 35,
-   "section": ".data",
-   "text": {
-    "ja": "フェリシモ　クリスマスミュージアム",
-    "ko": "펠리시모　크리스마스뮤지엄"
-   }
-  },
-  {
-   "offset": 80476,
-   "size": 30,
-   "avail": 31,
-   "section": ".data",
-   "text": {
-    "ja": "（株）ベリーホットネットワーク",
-    "ko": "（주）베리핫네트워크"
-   }
-  },
-  {
-   "offset": 80508,
-   "size": 30,
-   "avail": 31,
-   "section": ".data",
-   "text": {
-    "ja": "ＨＡＬＬＳＴＡＩＲＳ　ＣＡＦＥ",
-    "ko": "ＨＡＬＬＳＴＡＩＲＳ　ＣＡＦＥ"
-   }
-  },
-  {
-   "offset": 80540,
-   "size": 44,
-   "avail": 47,
-   "section": ".data",
-   "text": {
-    "ja": "（株）北竜町振興公社サンフラワーパークホテル",
-    "ko": "（주）호쿠류초진흥공사　선플라워파크호텔"
-   }
-  },
-  {
-   "offset": 80588,
-   "size": 30,
-   "avail": 31,
-   "section": ".data",
-   "text": {
-    "ja": "北竜町ひまわりまつり実行委員会",
-    "ko": "호쿠류초해바라기축제실행위원회"
-   }
-  },
-  {
-   "offset": 80620,
-   "size": 26,
-   "avail": 27,
-   "section": ".data",
-   "text": {
-    "ja": "北海道物産センター　夕張店",
-    "ko": "홋카이도물산센터　유바리점"
-   }
-  },
-  {
-   "offset": 80648,
-   "size": 30,
-   "avail": 31,
-   "section": ".data",
-   "text": {
-    "ja": "ボルボ・カーズ・ジャパン（株）",
-    "ko": "볼보・카즈・재팬（주）"
-   }
-  },
-  {
-   "offset": 80680,
-   "size": 22,
-   "avail": 23,
-   "section": ".data",
-   "text": {
-    "ja": "（有）マルコー前川商店",
-    "ko": "（유）마루코마에카와상점"
-   }
-  },
-  {
-   "offset": 80704,
-   "size": 28,
-   "avail": 31,
-   "section": ".data",
-   "text": {
-    "ja": "メルセデス・ベンツ日本（株）",
-    "ko": "메르세데스・벤츠일본（주）"
-   }
-  },
-  {
-   "offset": 80736,
-   "size": 22,
-   "avail": 23,
-   "section": ".data",
-   "text": {
-    "ja": "（株）元町マリンハウス",
-    "ko": "（주）모토마치마린하우스"
-   }
-  },
-  {
-   "offset": 80760,
-   "size": 26,
-   "avail": 27,
-   "section": ".data",
-   "text": {
-    "ja": "（株）ロイズ　コンフェクト",
-    "ko": "（주）로이즈　콘펙트"
-   }
-  },
-  {
-   "offset": 80788,
-   "size": 30,
-   "avail": 31,
-   "section": ".data",
-   "text": {
-    "ja": "ロシアレストラン　カチューシャ",
-    "ko": "러시아레스토랑　카추샤"
-   }
-  },
-  {
-   "offset": 80820,
-   "size": 18,
-   "avail": 19,
-   "section": ".data",
-   "text": {
-    "ja": "スペシャルサンクス",
-    "ko": "스페셜　땡스"
-   }
-  },
-  {
-   "offset": 80840,
-   "size": 32,
-   "avail": 35,
-   "section": ".data",
-   "text": {
-    "ja": "関口暁信　　山下光弘　　杉本　悟",
-    "ko": "세키구치　아키노부　야마시타　미츠히로　스기모토　사토루"
-   }
-  },
-  {
-   "offset": 80876,
-   "size": 32,
-   "avail": 35,
-   "section": ".data",
-   "text": {
-    "ja": "久保　久　　林　浩志　　寺田幸司",
-    "ko": "쿠보　히사시　　　　하야시　히로시　테라다　코지"
-   }
-  },
-  {
-   "offset": 80912,
-   "size": 28,
-   "avail": 31,
-   "section": ".data",
-   "text": {
-    "ja": "横尾内輔　　ビル・リッチ国彦",
-    "ko": "요코오　나이스케　　빌・리치　쿠니히코"
-   }
-  },
-  {
-   "offset": 80956,
-   "size": 34,
-   "avail": 35,
-   "section": ".data",
-   "text": {
-    "ja": "Ted Kummert　　　　 David Robinson",
-    "ko": "Ted Kummert　　　　 David Robinson"
-   }
-  },
-  {
-   "offset": 80992,
-   "size": 32,
-   "avail": 35,
-   "section": ".data",
-   "text": {
-    "ja": "Greg Swedberg　　　 Jian Ken Cao",
-    "ko": "Greg Swedberg　　　 Jian Ken Cao"
-   }
-  },
-  {
-   "offset": 81028,
-   "size": 34,
-   "avail": 35,
-   "section": ".data",
-   "text": {
-    "ja": "Takashi Kurosawa　　Shigeru Kojima",
-    "ko": "Takashi Kurosawa　　Shigeru Kojima"
-   }
-  },
-  {
-   "offset": 81064,
-   "size": 31,
-   "avail": 31,
-   "section": ".data",
-   "text": {
-    "ja": "Kazushige Yoshida　 James Spahn",
-    "ko": "Kazushige Yoshida　 James Spahn"
-   }
-  },
-  {
-   "offset": 81112,
-   "size": 11,
-   "avail": 11,
-   "section": ".data",
-   "text": {
-    "ja": " 制作・著作",
-    "ko": " 제작・저작"
-   }
-  },
-  {
-   "offset": 81124,
-   "size": 52,
-   "avail": 55,
-   "section": ".data",
-   "text": {
-    "ja": " ゲーム:(C) SEGA ENTERPRISES,LTD. / HUDSON SOFT 1999",
-    "ko": " ゲーム:(C) SEGA ENTERPRISES,LTD. / HUDSON SOFT 1999"
-   }
-  },
-  {
-   "offset": 81180,
-   "size": 48,
-   "avail": 51,
-   "section": ".data",
-   "text": {
-    "ja": " キャラクターデザイン:(C) HUDSON SOFT / RED 1999",
-    "ko": " キャラクターデザイン:(C) HUDSON SOFT / RED 1999"
-   }
-  },
-  {
-   "offset": 81232,
-   "size": 47,
-   "avail": 47,
-   "section": ".data",
-   "text": {
-    "ja": " 企画原案:(C) HUDSON SOFT / 広井王子事務所 1999",
-    "ko": " 企画原案:(C) HUDSON SOFT / 広井王子事務所 1999"
-   }
-  },
-  {
-   "offset": 81280,
-   "size": 42,
-   "avail": 43,
-   "section": ".data",
-   "text": {
-    "ja": " 製造販売:株式会社セガ・エンタープライゼス",
-    "ko": " 제조판매:주식회사　세가・엔터프라이제스"
-   }
-  },
-  {
-   "offset": 81324,
-   "size": 18,
-   "avail": 19,
-   "section": ".data",
-   "text": {
-    "ja": "  株式会社ハドソン",
-    "ko": "  주식회사　허드슨"
-   }
-  },
-  {
-   "offset": 81356,
-   "size": 10,
-   "avail": 11,
-   "section": ".data",
-   "text": {
-    "ja": "夏ハッピー",
-    "ko": "여름　해피"
-   }
-  }
- ]
+  "module": "TRFROLL",
+  "path": "/TRF/TRFROLL.DLL",
+  "entries": [
+    {
+      "offset": 73080,
+      "size": 8,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "Ｃａｓｔ",
+        "ko": "Cast"
+      }
+    },
+    {
+      "offset": 73096,
+      "size": 36,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "春野琴梨　　　　　　　　　　千葉紗子",
+        "ko": "하루노 코토리    치바 사에코"
+      }
+    },
+    {
+      "offset": 73136,
+      "size": 36,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "川原　鮎　　　　　　　　　　広橋佳以",
+        "ko": "카와하라 아유    히로하시 카이"
+      }
+    },
+    {
+      "offset": 73176,
+      "size": 36,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "ターニャ・リピンスキー　　　坂本真綾",
+        "ko": "타냐 리핀스키    사카모토 마아야"
+      }
+    },
+    {
+      "offset": 73216,
+      "size": 36,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "桜町由子　　　　　　　　　　南　央美",
+        "ko": "사쿠라마치 유코   미나미 오미"
+      }
+    },
+    {
+      "offset": 73256,
+      "size": 36,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "椎名　薫　　　　　　　　　　榊原良子",
+        "ko": "시이나 카오루    사카키바라 요시코"
+      }
+    },
+    {
+      "offset": 73296,
+      "size": 36,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "左京葉野香　　　　　　　　　川澄綾子",
+        "ko": "사쿄 하노카     카와스미 아야코"
+      }
+    },
+    {
+      "offset": 73336,
+      "size": 38,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "里中梢　　　　　　　　　　　豊口めぐみ",
+        "ko": "사토나카 코즈에   토요구치 메구미"
+      }
+    },
+    {
+      "offset": 73376,
+      "size": 36,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "愛田めぐみ　　　　　　　　　大谷育江",
+        "ko": "아이다 메구미    오오타니 이쿠에"
+      }
+    },
+    {
+      "offset": 73416,
+      "size": 38,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "春野陽子　　　　　　　　　　佐久間レイ",
+        "ko": "하루노 요코     사쿠마 레이"
+      }
+    },
+    {
+      "offset": 73456,
+      "size": 36,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "春野　響　　　　　　　　　　小山力也",
+        "ko": "하루노 히비키    코야마 리키야"
+      }
+    },
+    {
+      "offset": 73496,
+      "size": 36,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "けあふりぃ　　　　　　　　　千葉　繁",
+        "ko": "케어플리       치바 시게루"
+      }
+    },
+    {
+      "offset": 73536,
+      "size": 38,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "蒼き月の夜　　　　　　　　　三木眞一郎",
+        "ko": "푸른 달의 밤    미키 신이치로"
+      }
+    },
+    {
+      "offset": 73576,
+      "size": 36,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "愛田耕作　　　　　　　　　　立木文彦",
+        "ko": "아이다 코사쿠    타치키 후미히코"
+      }
+    },
+    {
+      "offset": 73616,
+      "size": 36,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "愛田里子　　　　　　　　　　土井美加",
+        "ko": "아이다 사토코    도이 미카"
+      }
+    },
+    {
+      "offset": 73656,
+      "size": 36,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "左京達也　　　　　　　　　　関　智一",
+        "ko": "사쿄 타츠야     세키 토모카즈"
+      }
+    },
+    {
+      "offset": 73696,
+      "size": 36,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "間　朴堂　　　　　　　　　　小形　満",
+        "ko": "하자마 보쿠도    오가타 미츠루"
+      }
+    },
+    {
+      "offset": 73736,
+      "size": 36,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "ターニャの義父　　　　　　　増谷康紀",
+        "ko": "타냐의 의붓아버지  마스타니 야스노리"
+      }
+    },
+    {
+      "offset": 73776,
+      "size": 38,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "ターニャの母　　　　　　　　児玉　孝子",
+        "ko": "타냐의 어머니    코다마 타카코"
+      }
+    },
+    {
+      "offset": 73816,
+      "size": 22,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "柳原みわ　　　柳　知樹",
+        "ko": "야나기하라 미와   야나기 토모키"
+      }
+    },
+    {
+      "offset": 73840,
+      "size": 22,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "泉　尚摯　　　田中伸幸",
+        "ko": "이즈미 쇼지     타나카 노부유키"
+      }
+    },
+    {
+      "offset": 73864,
+      "size": 24,
+      "avail": 27,
+      "section": ".data",
+      "text": {
+        "ja": "永吉由佳　　　宮城満希子",
+        "ko": "나가요시 유카    미야기 마키코"
+      }
+    },
+    {
+      "offset": 73892,
+      "size": 22,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "サエキ　トモ　江沢規予",
+        "ko": "사에키 토모  에자와 노리요"
+      }
+    },
+    {
+      "offset": 73916,
+      "size": 26,
+      "avail": 27,
+      "section": ".data",
+      "text": {
+        "ja": "ヴァーチャルホラーサウンド",
+        "ko": "버추얼호러사운드"
+      }
+    },
+    {
+      "offset": 73944,
+      "size": 34,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "ロメロ　　　　　　　　　　佐竹真一",
+        "ko": "로메로      사타케 신이치"
+      }
+    },
+    {
+      "offset": 73980,
+      "size": 36,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "春子　　　　　　　　　　　くどうみき",
+        "ko": "하루코      쿠도 미키"
+      }
+    },
+    {
+      "offset": 74020,
+      "size": 34,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "夏彦　　　　　　　　　　　藤原俊和",
+        "ko": "나츠히코     후지와라 토시카즈"
+      }
+    },
+    {
+      "offset": 74056,
+      "size": 34,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "秋夫　　　　　　　　　　　武田　晋",
+        "ko": "아키오      타케다 스스무"
+      }
+    },
+    {
+      "offset": 74092,
+      "size": 36,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "冬子　　　　　　　　　　　永井くみ子",
+        "ko": "후유코      나가이 쿠미코"
+      }
+    },
+    {
+      "offset": 74132,
+      "size": 38,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "サブゲーム　　　　　　　　　伊部恵理子",
+        "ko": "서브게임     이베 에리코"
+      }
+    },
+    {
+      "offset": 74172,
+      "size": 42,
+      "avail": 43,
+      "section": ".data",
+      "text": {
+        "ja": "ロシア語協力　　　　モズゴヴォイ　セルゲイ",
+        "ko": "러시아어 협력  모즈고보이 세르게이"
+      }
+    },
+    {
+      "offset": 74216,
+      "size": 18,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "モロズ　オクサーナ",
+        "ko": "모로즈 옥사나"
+      }
+    },
+    {
+      "offset": 74236,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "Ｓｔａｆｆ",
+        "ko": "Staff"
+      }
+    },
+    {
+      "offset": 74248,
+      "size": 28,
+      "avail": 31,
+      "section": ".data",
+      "text": {
+        "ja": "企画・原作／総合プロデュース",
+        "ko": "기획・원작/종합 프로듀스"
+      }
+    },
+    {
+      "offset": 74280,
+      "size": 8,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "広井王子",
+        "ko": "히로이 오지"
+      }
+    },
+    {
+      "offset": 74292,
+      "size": 20,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "キャラクターデザイン",
+        "ko": "캐릭터 디자인"
+      }
+    },
+    {
+      "offset": 74316,
+      "size": 22,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "ＮＯＣＣＨＩ（ＲＥＤ）",
+        "ko": "NOCCHI(RED)"
+      }
+    },
+    {
+      "offset": 74340,
+      "size": 36,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "監督　　　　　　　　　　　　竹部隆司",
+        "ko": "감독    타케베 타카시"
+      }
+    },
+    {
+      "offset": 74380,
+      "size": 36,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "脚本　　　　　　　　　　　　長山　豊",
+        "ko": "각본    나가야마 유타카"
+      }
+    },
+    {
+      "offset": 74420,
+      "size": 36,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "演出　　　　　　　　　　　　安部知也",
+        "ko": "연출    아베 토모야"
+      }
+    },
+    {
+      "offset": 74460,
+      "size": 36,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "美術監督　　　　　　　　　　角谷篤志",
+        "ko": "미술감독  카쿠타니 아츠시"
+      }
+    },
+    {
+      "offset": 74500,
+      "size": 34,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "音楽　　　　　　　　　　　　池　毅",
+        "ko": "음악    이케 타케시"
+      }
+    },
+    {
+      "offset": 74536,
+      "size": 46,
+      "avail": 47,
+      "section": ".data",
+      "text": {
+        "ja": "プロデューサー　　　　　　　小林正樹（ＲＥＤ）",
+        "ko": "프로듀서  코바야시 마사키(RED)"
+      }
+    },
+    {
+      "offset": 74584,
+      "size": 20,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "家入多佳文（ＲＥＤ）",
+        "ko": "이에이리 타카후미(RED)"
+      }
+    },
+    {
+      "offset": 74608,
+      "size": 36,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "ディレクター　　　　　　　　高野俊哉",
+        "ko": "디렉터       타카노 토시야"
+      }
+    },
+    {
+      "offset": 74648,
+      "size": 36,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "プロダクトマネージャー　　　香月薫児",
+        "ko": "프로덕트 매니저  카츠키 쿤지"
+      }
+    },
+    {
+      "offset": 74688,
+      "size": 16,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "スーパーバイザー",
+        "ko": "슈퍼바이저"
+      }
+    },
+    {
+      "offset": 74708,
+      "size": 20,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "大里幸夫　　猪狩　寛",
+        "ko": "오사토 유키오  이가리 히로시"
+      }
+    },
+    {
+      "offset": 74732,
+      "size": 14,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "○企画スタッフ",
+        "ko": "○기획 스태프"
+      }
+    },
+    {
+      "offset": 74748,
+      "size": 36,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "システム　　　　　　　　　　安部知也",
+        "ko": "시스템   아베 토모야"
+      }
+    },
+    {
+      "offset": 74788,
+      "size": 36,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "サブゲーム　　　　　　　　　竹下功一",
+        "ko": "서브게임  타케시타 코이치"
+      }
+    },
+    {
+      "offset": 74828,
+      "size": 20,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "○プログラムスタッフ",
+        "ko": "○프로그램 스태프"
+      }
+    },
+    {
+      "offset": 74852,
+      "size": 16,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "メインプログラム",
+        "ko": "메인프로그램"
+      }
+    },
+    {
+      "offset": 74872,
+      "size": 20,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "桝谷裕一　　三枝博器",
+        "ko": "마스타니 유이치  사에구사 히로키"
+      }
+    },
+    {
+      "offset": 74896,
+      "size": 20,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "サブゲームプログラム",
+        "ko": "서브게임프로그램"
+      }
+    },
+    {
+      "offset": 74920,
+      "size": 20,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "中嶋知彦　　斉藤智之",
+        "ko": "나카지마 토모히코  사이토 토모유키"
+      }
+    },
+    {
+      "offset": 74944,
+      "size": 16,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "ツールプログラム",
+        "ko": "툴프로그램"
+      }
+    },
+    {
+      "offset": 74964,
+      "size": 20,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "田坂拓哉　　千葉慎二",
+        "ko": "타사카 타쿠야   치바 신지"
+      }
+    },
+    {
+      "offset": 74988,
+      "size": 20,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "米川正樹　　日野清治",
+        "ko": "요네카와 마사키  히노 세이지"
+      }
+    },
+    {
+      "offset": 75012,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "布施田忠幸",
+        "ko": "후세다 타다유키"
+      }
+    },
+    {
+      "offset": 75024,
+      "size": 44,
+      "avail": 47,
+      "section": ".data",
+      "text": {
+        "ja": "シーン構築　　　　　　　さだ　　　　中村　充",
+        "ko": "씬 구축  사다    나카무라 미츠루"
+      }
+    },
+    {
+      "offset": 75072,
+      "size": 18,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "○デザインスタッフ",
+        "ko": "○디자인 스태프"
+      }
+    },
+    {
+      "offset": 75092,
+      "size": 32,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "総監修　　　　　　　　　角谷篤志",
+        "ko": "총감수      카쿠타니 아츠시"
+      }
+    },
+    {
+      "offset": 75128,
+      "size": 32,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "ペイント監修　　　　　　多田知美",
+        "ko": "페인트 감수   타다 토모미"
+      }
+    },
+    {
+      "offset": 75164,
+      "size": 32,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "長山真希　　山口英樹　　蟹江則宏",
+        "ko": "나가야마 마키 야마구치 히데키 카니에 노리히로"
+      }
+    },
+    {
+      "offset": 75200,
+      "size": 32,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "笠原圭介　　杉上弘美　　矢野祐治",
+        "ko": "카사하라 케이스케 스기우에 히로미 야노 유지"
+      }
+    },
+    {
+      "offset": 75236,
+      "size": 32,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "柳澤　学　　柴田晃宏　　藤本佳代",
+        "ko": "야나기사와 마나부 시바타 아키히로 후지모토 카요"
+      }
+    },
+    {
+      "offset": 75272,
+      "size": 32,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "岡田寿夫　　大竹浩史　　後藤幸徳",
+        "ko": "오카다 히사오  오오타케 히로시 고토 유키노리"
+      }
+    },
+    {
+      "offset": 75308,
+      "size": 32,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "稲場将栄　　田中俊介　　新田実穂",
+        "ko": "이나바 쇼에이   타나카 슌스케 닛타 미호"
+      }
+    },
+    {
+      "offset": 75344,
+      "size": 32,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "永澤希句子　伊原朱美　　吉見直人",
+        "ko": "나가사와 키쿠코  이하라 아케미 요시미 나오토"
+      }
+    },
+    {
+      "offset": 75380,
+      "size": 34,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "高橋康明　　上嶋利英　　稲井田麻由",
+        "ko": "타카하시 야스아키 우에지마 토시히데 이나이다 마유"
+      }
+    },
+    {
+      "offset": 75416,
+      "size": 32,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "佐藤　梢　　福田哲司　　野中和彦",
+        "ko": "사토 코즈에  후쿠다 테츠지 노나카 카즈히코"
+      }
+    },
+    {
+      "offset": 75452,
+      "size": 32,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "山本次行　　松浦浩司　　東　明彦",
+        "ko": "야마모토 츠구유키 마츠우라 코지 아즈마 아키히코"
+      }
+    },
+    {
+      "offset": 75488,
+      "size": 8,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "藤井康博",
+        "ko": "후지이 야스히로"
+      }
+    },
+    {
+      "offset": 75500,
+      "size": 32,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "背景監修　　　　　　　　佐々木伸",
+        "ko": "배경 감수     사사키 신"
+      }
+    },
+    {
+      "offset": 75536,
+      "size": 32,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "美術設定　　　　　　　　大谷達也",
+        "ko": "미술 설정     오오타니 타츠야"
+      }
+    },
+    {
+      "offset": 75572,
+      "size": 32,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "３Ｄムービー　　　　　　大辻貴志",
+        "ko": "3Ｄ 무비     오오츠지 타카시"
+      }
+    },
+    {
+      "offset": 75608,
+      "size": 38,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "背景　　　　　　　松浦佐永子　丹波由起",
+        "ko": "배경        마츠우라 사에코 탄바 유키"
+      }
+    },
+    {
+      "offset": 75648,
+      "size": 20,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "石川秀人　　阿部臣史",
+        "ko": "이시카와 히데토  아베 신지"
+      }
+    },
+    {
+      "offset": 75672,
+      "size": 44,
+      "avail": 47,
+      "section": ".data",
+      "text": {
+        "ja": "オープニングムービー　ビジュアルディレクター",
+        "ko": "오프닝무비 비주얼디렉터"
+      }
+    },
+    {
+      "offset": 75720,
+      "size": 18,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "関　和義（ＲＥＤ）",
+        "ko": "세키 카즈요시(RED)"
+      }
+    },
+    {
+      "offset": 75740,
+      "size": 24,
+      "avail": 27,
+      "section": ".data",
+      "text": {
+        "ja": "○アニメーションスタッフ",
+        "ko": "○애니메이션 스태프"
+      }
+    },
+    {
+      "offset": 75768,
+      "size": 34,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "総作画監督　　　　　　　室井ふみえ",
+        "ko": "총작화감독  무로이 후미에"
+      }
+    },
+    {
+      "offset": 75804,
+      "size": 38,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "作画監督　　　　　石川洋一　　新号　靖",
+        "ko": "작화감독   이시카와 요이치 신고 야스시"
+      }
+    },
+    {
+      "offset": 75844,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "原画",
+        "ko": "원화"
+      }
+    },
+    {
+      "offset": 75852,
+      "size": 32,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "佐藤和巳　　橘　秀樹　　斉藤哲人",
+        "ko": "사토 카즈미   타치바나 히데키 사이토 테츠토"
+      }
+    },
+    {
+      "offset": 75888,
+      "size": 32,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "三井洋一　　小島正士　　小菅和久",
+        "ko": "미츠이 요이치  코지마 마사시 코스게 카즈히사"
+      }
+    },
+    {
+      "offset": 75924,
+      "size": 32,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "尾尻進矢　　藤谷尚子　　数井浩子",
+        "ko": "오지리 신야   후지타니 나오코 카즈이 히로코"
+      }
+    },
+    {
+      "offset": 75960,
+      "size": 32,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "伊藤良太　　杉本　功　　北野幸広",
+        "ko": "이토 료타   스기모토 이사오 키타노 유키히로"
+      }
+    },
+    {
+      "offset": 75996,
+      "size": 34,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "秋本勇一　　西尾公伯　　室井ふみえ",
+        "ko": "아키모토 유이치 니시오 키미노리 무로이 후미에"
+      }
+    },
+    {
+      "offset": 76032,
+      "size": 32,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "長縄宏美　　石川洋一　　池平千里",
+        "ko": "나가나와 히로미 이시카와 요이치 이케히라 치사토"
+      }
+    },
+    {
+      "offset": 76068,
+      "size": 8,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "新号　靖",
+        "ko": "신고 야스시"
+      }
+    },
+    {
+      "offset": 76080,
+      "size": 32,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "レイアウトチェック　　　山田浩之",
+        "ko": "레이아웃 체크   야마다 히로유키"
+      }
+    },
+    {
+      "offset": 76116,
+      "size": 40,
+      "avail": 43,
+      "section": ".data",
+      "text": {
+        "ja": "動画チェック　　　江山梨恵　　たくらんけ",
+        "ko": "동화 체크     에야마 리에 타쿠란케"
+      }
+    },
+    {
+      "offset": 76160,
+      "size": 38,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "動画　　　　　　　川田栄三　　小松英司",
+        "ko": "동화        카와다 에이조 코마츠 에이지"
+      }
+    },
+    {
+      "offset": 76200,
+      "size": 22,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "西河広美　　寺田久美子",
+        "ko": "니시카와 히로미  테라다 쿠미코"
+      }
+    },
+    {
+      "offset": 76224,
+      "size": 20,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "岡田浩志　　江山梨恵",
+        "ko": "오카다 히로시   에야마 리에"
+      }
+    },
+    {
+      "offset": 76248,
+      "size": 20,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "伊藤賢太郎　伊藤良太",
+        "ko": "이토 켄타로  이토 료타"
+      }
+    },
+    {
+      "offset": 76272,
+      "size": 32,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "制作　　　　　　　　　　西原秀二",
+        "ko": "제작    니시하라 슈지"
+      }
+    },
+    {
+      "offset": 76308,
+      "size": 32,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "プロデューサー　　　　　近藤康彦",
+        "ko": "프로듀서  콘도 야스히코"
+      }
+    },
+    {
+      "offset": 76344,
+      "size": 34,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "制作協力　　　　　　　（有）ＣＯＸ",
+        "ko": "제작협력  (유)COX"
+      }
+    },
+    {
+      "offset": 76380,
+      "size": 18,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "スタジオコクピット",
+        "ko": "스튜디오콕핏"
+      }
+    },
+    {
+      "offset": 76400,
+      "size": 18,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "○ムービースタッフ",
+        "ko": "○무비 스태프"
+      }
+    },
+    {
+      "offset": 76420,
+      "size": 34,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "ビジュアルプロデューサー　水野祥司",
+        "ko": "비주얼 프로듀서     미즈노 쇼지"
+      }
+    },
+    {
+      "offset": 76456,
+      "size": 34,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "製作進行　　　　　　　　　吉見直人",
+        "ko": "제작진행    요시미 나오토"
+      }
+    },
+    {
+      "offset": 76492,
+      "size": 34,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "ムービーエディット　　　　蒲原　仁",
+        "ko": "무비 에디트  칸바라 히토시"
+      }
+    },
+    {
+      "offset": 76528,
+      "size": 18,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "○サウンドスタッフ",
+        "ko": "○사운드 스태프"
+      }
+    },
+    {
+      "offset": 76548,
+      "size": 34,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "マネージメント　　　　　　三井啓介",
+        "ko": "매니지먼트  미츠이 케이스케"
+      }
+    },
+    {
+      "offset": 76584,
+      "size": 34,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "進行　　　　　　　　　　　滝本利昭",
+        "ko": "진행     타키모토 토시아키"
+      }
+    },
+    {
+      "offset": 76620,
+      "size": 4,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "作曲",
+        "ko": "작곡"
+      }
+    },
+    {
+      "offset": 76628,
+      "size": 30,
+      "avail": 31,
+      "section": ".data",
+      "text": {
+        "ja": "カラオケ　　　　　　　　池　毅",
+        "ko": "노래방   이케 타케시"
+      }
+    },
+    {
+      "offset": 76660,
+      "size": 32,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "サブゲーム　　　　　　　真野茜音",
+        "ko": "서브게임   마노 아카네"
+      }
+    },
+    {
+      "offset": 76696,
+      "size": 34,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "オペレート　　　　　　　　八幡浩暢",
+        "ko": "오퍼레이트  야하타 히로노부"
+      }
+    },
+    {
+      "offset": 76732,
+      "size": 26,
+      "avail": 27,
+      "section": ".data",
+      "text": {
+        "ja": "サウンドデザイン　　　　　",
+        "ko": "사운드　디자인"
+      }
+    },
+    {
+      "offset": 76760,
+      "size": 32,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "成田　修　　山本裕直　　坂東章平",
+        "ko": "나리타 오사무 야마모토 히로나오 반도 쇼헤이"
+      }
+    },
+    {
+      "offset": 76796,
+      "size": 34,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "ＭＡ　　　　　　　　　　　坂東章平",
+        "ko": "MA  반도 쇼헤이"
+      }
+    },
+    {
+      "offset": 76832,
+      "size": 6,
+      "avail": 7,
+      "section": ".data",
+      "text": {
+        "ja": "効果音",
+        "ko": "효과음"
+      }
+    },
+    {
+      "offset": 76840,
+      "size": 48,
+      "avail": 51,
+      "section": ".data",
+      "text": {
+        "ja": "監修　　　　　　冨井昭次（ジョーダウンスタジオ）",
+        "ko": "감수  토미이 쇼지(조다운스튜디오)"
+      }
+    },
+    {
+      "offset": 76892,
+      "size": 48,
+      "avail": 51,
+      "section": ".data",
+      "text": {
+        "ja": "制作　　　　　　福岡博美（ジョーダウンスタジオ）",
+        "ko": "제작  후쿠오카 히로미(조다운스튜디오)"
+      }
+    },
+    {
+      "offset": 76944,
+      "size": 8,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "サポート",
+        "ko": "서포트"
+      }
+    },
+    {
+      "offset": 76956,
+      "size": 32,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "井上雅明　　古屋拓道　　岡　秀樹",
+        "ko": "이노우에 마사아키 후루야 타쿠미치 오카 히데키"
+      }
+    },
+    {
+      "offset": 76992,
+      "size": 8,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "○挿入歌",
+        "ko": "○삽입곡"
+      }
+    },
+    {
+      "offset": 77004,
+      "size": 48,
+      "avail": 51,
+      "section": ".data",
+      "text": {
+        "ja": "『北へ。』　　　　　　　　　歌　　　Four Seasons",
+        "ko": "『북으로．』　　　　　　　　　　노래　Four Seasons"
+      }
+    },
+    {
+      "offset": 77056,
+      "size": 44,
+      "avail": 47,
+      "section": ".data",
+      "text": {
+        "ja": "『恋のダンシング』　　　　　歌　　　千葉紗子",
+        "ko": "『사랑의 댄싱』        노래 치바 사에코"
+      }
+    },
+    {
+      "offset": 77104,
+      "size": 44,
+      "avail": 47,
+      "section": ".data",
+      "text": {
+        "ja": "『夏の思い出』　　　　　　　歌　　　大谷育江",
+        "ko": "『여름의 추억』      노래 오오타니 이쿠에"
+      }
+    },
+    {
+      "offset": 77152,
+      "size": 44,
+      "avail": 47,
+      "section": ".data",
+      "text": {
+        "ja": "『Ｓｗｅｅｔ　Ｄｒｅａｍ』　歌　　　榊原良子",
+        "ko": "『Sweet Dream』 노래 사카키바라 요시코"
+      }
+    },
+    {
+      "offset": 77200,
+      "size": 16,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "作詞　　広井王子",
+        "ko": "작사                히로이 오지"
+      }
+    },
+    {
+      "offset": 77220,
+      "size": 14,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "作編曲　池　毅",
+        "ko": "작편곡 이케 타케시"
+      }
+    },
+    {
+      "offset": 77236,
+      "size": 44,
+      "avail": 47,
+      "section": ".data",
+      "text": {
+        "ja": "『魔法にかける魔法』　　　　歌　　　広橋佳以",
+        "ko": "『마법에 거는 마법』    노래 히로하시 카이"
+      }
+    },
+    {
+      "offset": 77284,
+      "size": 44,
+      "avail": 47,
+      "section": ".data",
+      "text": {
+        "ja": "『ダイナマイトが５万トン』　歌　　　南　央美",
+        "ko": "『다이너마이트가 5만톤』 노래  미나미 오미"
+      }
+    },
+    {
+      "offset": 77332,
+      "size": 44,
+      "avail": 47,
+      "section": ".data",
+      "text": {
+        "ja": "『タイクツとユウウツ』　　　歌　　　坂本真綾",
+        "ko": "『지루함과 우울』     노래 사카모토 마아야"
+      }
+    },
+    {
+      "offset": 77380,
+      "size": 44,
+      "avail": 47,
+      "section": ".data",
+      "text": {
+        "ja": "『札幌ススキノ雨の２５時』　歌　　　川澄綾子",
+        "ko": "『스스키노 비의 25시』 노래 카와스미 아야코"
+      }
+    },
+    {
+      "offset": 77428,
+      "size": 46,
+      "avail": 47,
+      "section": ".data",
+      "text": {
+        "ja": "『ＲＧ』　　　　　　　　　　歌　　　豊口めぐみ",
+        "ko": "『RG』          노래 토요구치 메구미"
+      }
+    },
+    {
+      "offset": 77476,
+      "size": 44,
+      "avail": 47,
+      "section": ".data",
+      "text": {
+        "ja": "『わたしまけましたわ』　　　歌　　　広橋佳以",
+        "ko": "『와타시마케마시타와』    노래 히로하시 카이"
+      }
+    },
+    {
+      "offset": 77524,
+      "size": 44,
+      "avail": 47,
+      "section": ".data",
+      "text": {
+        "ja": "『大好き』　　　　　　　　　歌　　　広橋佳以",
+        "ko": "『정말 좋아해』       노래 히로하시 카이"
+      }
+    },
+    {
+      "offset": 77572,
+      "size": 16,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "作詞　　長山　豊",
+        "ko": "작사               나가야마 유타카"
+      }
+    },
+    {
+      "offset": 77592,
+      "size": 22,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "ヴォーカルトラック制作",
+        "ko": "보컬트랙 제작"
+      }
+    },
+    {
+      "offset": 77616,
+      "size": 30,
+      "avail": 31,
+      "section": ".data",
+      "text": {
+        "ja": "スーパーバイザー　　　香山　哲",
+        "ko": "슈퍼바이저  카야마 테츠"
+      }
+    },
+    {
+      "offset": 77648,
+      "size": 30,
+      "avail": 31,
+      "section": ".data",
+      "text": {
+        "ja": "ディレクター　　　　　吉田　隆",
+        "ko": "디렉터    요시다 타카시"
+      }
+    },
+    {
+      "offset": 77680,
+      "size": 30,
+      "avail": 31,
+      "section": ".data",
+      "text": {
+        "ja": "エンジニア　　　　　　笹森英樹",
+        "ko": "엔지니어   사사모리 히데키"
+      }
+    },
+    {
+      "offset": 77712,
+      "size": 28,
+      "avail": 31,
+      "section": ".data",
+      "text": {
+        "ja": "協力　　メディアファクトリー",
+        "ko": "협력     미디어팩토리"
+      }
+    },
+    {
+      "offset": 77744,
+      "size": 32,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "西山恭子　　永田勝治　　島　哲雄",
+        "ko": "니시야마 쿄코 나가타 카츠지 시마 테츠오"
+      }
+    },
+    {
+      "offset": 77780,
+      "size": 20,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "澤田純孝　　田岡　敬",
+        "ko": "사와다 스미타카  타오카 타카시"
+      }
+    },
+    {
+      "offset": 77804,
+      "size": 18,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "○ナレーション制作",
+        "ko": "○내레이션 제작"
+      }
+    },
+    {
+      "offset": 77824,
+      "size": 36,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "録音監督　　　　三間雅文　　高寺　雄",
+        "ko": "녹음감독      미마 마사후미 타카데라 유"
+      }
+    },
+    {
+      "offset": 77864,
+      "size": 30,
+      "avail": 31,
+      "section": ".data",
+      "text": {
+        "ja": "スタジオ　　　　アオイスタジオ",
+        "ko": "스튜디오      아오이스튜디오"
+      }
+    },
+    {
+      "offset": 77896,
+      "size": 26,
+      "avail": 27,
+      "section": ".data",
+      "text": {
+        "ja": "○デバッグスタッフ　　　　",
+        "ko": "○디버그　스태프　　"
+      }
+    },
+    {
+      "offset": 77924,
+      "size": 32,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "太田宏之　　高橋抄太　　中川　剛",
+        "ko": "오오타 히로유키 타카하시 쇼타 나카가와 츠요시"
+      }
+    },
+    {
+      "offset": 77960,
+      "size": 46,
+      "avail": 47,
+      "section": ".data",
+      "text": {
+        "ja": "○広報　　　　田部井緑子　荒木ひろみ（ＲＥＤ）",
+        "ko": "○홍보 타베이 미도리코 아라키 히로미(RED)"
+      }
+    },
+    {
+      "offset": 78008,
+      "size": 34,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "○マニュアル制作　　　　　三谷晴基",
+        "ko": "○매뉴얼 제작  미타니 하루키"
+      }
+    },
+    {
+      "offset": 78044,
+      "size": 14,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "○撮影スタッフ",
+        "ko": "○촬영 스태프"
+      }
+    },
+    {
+      "offset": 78060,
+      "size": 32,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "写真撮影　　　　　　　　吉野高司",
+        "ko": "사진촬영  요시노 타카시"
+      }
+    },
+    {
+      "offset": 78096,
+      "size": 32,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "撮影助手　　　　　　　　松本浩二",
+        "ko": "촬영조수  마츠모토 코지"
+      }
+    },
+    {
+      "offset": 78132,
+      "size": 38,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "演出助手　　　　　山口英樹　　蟹江則宏",
+        "ko": "연출조수  야마구치 히데키 카니에 노리히로"
+      }
+    },
+    {
+      "offset": 78172,
+      "size": 32,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "撮影進行　　　　　　　　竹下功一",
+        "ko": "촬영진행  타케시타 코이치"
+      }
+    },
+    {
+      "offset": 78208,
+      "size": 43,
+      "avail": 43,
+      "section": ".data",
+      "text": {
+        "ja": "取材　　 株式会社エムジー・コーポレーション",
+        "ko": "취재　　　　 주식회사엠지・코퍼레이션"
+      }
+    },
+    {
+      "offset": 78252,
+      "size": 8,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "千田勤也",
+        "ko": "치다 킨야"
+      }
+    },
+    {
+      "offset": 78264,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "写真素材提供",
+        "ko": "사진소재제공"
+      }
+    },
+    {
+      "offset": 78280,
+      "size": 46,
+      "avail": 47,
+      "section": ".data",
+      "text": {
+        "ja": "株式会社アイ・ピー・エス　　　株式会社アダック",
+        "ko": "주식회사아이・피・에스 주식회사아다크"
+      }
+    },
+    {
+      "offset": 78328,
+      "size": 46,
+      "avail": 47,
+      "section": ".data",
+      "text": {
+        "ja": "株式会社世界文化フォト　　株式会社フォトバンク",
+        "ko": "주식회사세계문화포토  주식회사포토뱅크"
+      }
+    },
+    {
+      "offset": 78376,
+      "size": 46,
+      "avail": 47,
+      "section": ".data",
+      "text": {
+        "ja": "北海道撮影社　　　株式会社マリンプレスジャパン",
+        "ko": "홋카이도 촬영사    주식회사마린프레스재팬"
+      }
+    },
+    {
+      "offset": 78424,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "○取材協力",
+        "ko": "○취재 협력"
+      }
+    },
+    {
+      "offset": 78436,
+      "size": 34,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "朝市　吉岡食堂　　　　　味処　新橋",
+        "ko": "아침시장 요시오카식당 맛집 신바시"
+      }
+    },
+    {
+      "offset": 78472,
+      "size": 42,
+      "avail": 43,
+      "section": ".data",
+      "text": {
+        "ja": "（有）アルパイン計画　　（有）アンデルセン",
+        "ko": "(유)알파인계획   (유)안데르센"
+      }
+    },
+    {
+      "offset": 78516,
+      "size": 40,
+      "avail": 43,
+      "section": ".data",
+      "text": {
+        "ja": "ＹＥＳ・そうご電器　　　ＩＮ　ＢＬＯＯＭ",
+        "ko": "YES・소고전기   IN BLOOM"
+      }
+    },
+    {
+      "offset": 78560,
+      "size": 44,
+      "avail": 47,
+      "section": ".data",
+      "text": {
+        "ja": "（株）エンゼル　　　　　（株）おくむら生花店",
+        "ko": "(주)엔젤      (주)오쿠무라 꽃집"
+      }
+    },
+    {
+      "offset": 78608,
+      "size": 40,
+      "avail": 43,
+      "section": ".data",
+      "text": {
+        "ja": "小樽運河工藝館　　　　　小樽オルゴール堂",
+        "ko": "오타루 운하공예관  오타루 오르골당"
+      }
+    },
+    {
+      "offset": 78652,
+      "size": 38,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "（株）小樽水族館公社　　金森商船（株）",
+        "ko": "(주)오타루 수족관공사 가네모리상선(주)"
+      }
+    },
+    {
+      "offset": 78740,
+      "size": 38,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "喫茶　樹の部屋　　　　　旧函館区公会堂",
+        "ko": "찻집 나무의 방   옛 하코다테구 공회당"
+      }
+    },
+    {
+      "offset": 78780,
+      "size": 44,
+      "avail": 47,
+      "section": ".data",
+      "text": {
+        "ja": "京セラ（株）　　　　　　屈斜路プリンスホテル",
+        "ko": "교세라(주)     쿳샤로 프린스 호텔"
+      }
+    },
+    {
+      "offset": 78828,
+      "size": 42,
+      "avail": 43,
+      "section": ".data",
+      "text": {
+        "ja": "紅茶の店　アッサム　　　五稜郭タワー（株）",
+        "ko": "홍차집 아삼     고료카쿠 타워(주)"
+      }
+    },
+    {
+      "offset": 78872,
+      "size": 40,
+      "avail": 43,
+      "section": ".data",
+      "text": {
+        "ja": "札幌市交通局　　　　　　札幌テレビ塔観光",
+        "ko": "삿포로시교통국    삿포로TV타워관광"
+      }
+    },
+    {
+      "offset": 78916,
+      "size": 42,
+      "avail": 43,
+      "section": ".data",
+      "text": {
+        "ja": "サッポロファクトリー　　札幌プリンスホテル",
+        "ko": "삿포로 팩토리    삿포로 프린스 호텔"
+      }
+    },
+    {
+      "offset": 78960,
+      "size": 32,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "三角市場協同組合　　　　三香温泉",
+        "ko": "삼각시장협동조합   산코온천"
+      }
+    },
+    {
+      "offset": 78996,
+      "size": 30,
+      "avail": 31,
+      "section": ".data",
+      "text": {
+        "ja": "ＪＲ北海道　　　　　　　正楼閣",
+        "ko": "JR홋카이도     쇼로카쿠"
+      }
+    },
+    {
+      "offset": 79028,
+      "size": 34,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "寿し処　美ぜん　　　　　寿しの澤登",
+        "ko": "초밥집 미젠     초밥집 사와노보리"
+      }
+    },
+    {
+      "offset": 79064,
+      "size": 38,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "全日空　　　　　　　　　大衆中華　宝来",
+        "ko": "전일공        대중중화 호라이"
+      }
+    },
+    {
+      "offset": 79104,
+      "size": 44,
+      "avail": 47,
+      "section": ".data",
+      "text": {
+        "ja": "（有）大正館　　　　　　（株）鷹栖町振興公社",
+        "ko": "(유)다이쇼칸    (주)타카스초진흥공사"
+      }
+    },
+    {
+      "offset": 79152,
+      "size": 42,
+      "avail": 43,
+      "section": ".data",
+      "text": {
+        "ja": "テイセンホール　　　　　天狗山ロープウェイ",
+        "ko": "테이센 홀       텐구산 로프웨이"
+      }
+    },
+    {
+      "offset": 79196,
+      "size": 44,
+      "avail": 47,
+      "section": ".data",
+      "text": {
+        "ja": "ＴＯＳＨＩＢＡ　　　　　夏井珈琲Ｂｒｕｃｋｅ",
+        "ko": "TOSHIBA    나츠이커피 Brucke"
+      }
+    },
+    {
+      "offset": 79244,
+      "size": 40,
+      "avail": 43,
+      "section": ".data",
+      "text": {
+        "ja": "（株）新倉屋　　　　　　パーラートップス",
+        "ko": "(주)니이쿠라야   파라 톱스"
+      }
+    },
+    {
+      "offset": 79288,
+      "size": 40,
+      "avail": 43,
+      "section": ".data",
+      "text": {
+        "ja": "函館市交通局　　　　　　函館市写真歴史館",
+        "ko": "하코다테시교통국   하코다테시사진역사관"
+      }
+    },
+    {
+      "offset": 79332,
+      "size": 36,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "ビッグラン北海道　　　　ファーム富田",
+        "ko": "빅런홋카이도     팜 토미타"
+      }
+    },
+    {
+      "offset": 79372,
+      "size": 40,
+      "avail": 43,
+      "section": ".data",
+      "text": {
+        "ja": "（株）ベイはこだて　　　北海道空港（株）",
+        "ko": "(주)베이하코다테  홋카이도공항(주)"
+      }
+    },
+    {
+      "offset": 79416,
+      "size": 38,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "（株）丸井今井　　　　　丸駒温泉（株）",
+        "ko": "(주)마루이이마이  마루코마온천(주)"
+      }
+    },
+    {
+      "offset": 79456,
+      "size": 36,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "丸信　本間商店（有）　　メッセホール",
+        "ko": "마루신 혼마상점(유) 멧세홀"
+      }
+    },
+    {
+      "offset": 79496,
+      "size": 36,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "（株）ユウメディア　　　（株）ラルズ",
+        "ko": "(주)유미디어  (주)랄즈"
+      }
+    },
+    {
+      "offset": 79536,
+      "size": 12,
+      "avail": 15,
+      "section": ".data",
+      "text": {
+        "ja": "（株）ロフト",
+        "ko": "(주)로프트"
+      }
+    },
+    {
+      "offset": 79552,
+      "size": 26,
+      "avail": 27,
+      "section": ".data",
+      "text": {
+        "ja": "アイスクリームパーラー美園",
+        "ko": "아이스크림파라 미소노"
+      }
+    },
+    {
+      "offset": 79580,
+      "size": 26,
+      "avail": 27,
+      "section": ".data",
+      "text": {
+        "ja": "アジアン・カフェ　タオタオ",
+        "ko": "아시안・카페 타오타오"
+      }
+    },
+    {
+      "offset": 79608,
+      "size": 34,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "網走水産（株）俺の函館駅前朝市本店",
+        "ko": "아바시리수산(주)오레노 하코다테역앞아침시장본점"
+      }
+    },
+    {
+      "offset": 79644,
+      "size": 34,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "エレッセショップ札幌ファクトリー店",
+        "ko": "엘레세숍 삿포로팩토리점"
+      }
+    },
+    {
+      "offset": 79680,
+      "size": 24,
+      "avail": 27,
+      "section": ".data",
+      "text": {
+        "ja": "お食事処　積丹の幸みさき",
+        "ko": "식당 샤코탄의 진미 미사키"
+      }
+    },
+    {
+      "offset": 79708,
+      "size": 26,
+      "avail": 27,
+      "section": ".data",
+      "text": {
+        "ja": "カフェ＆バー　ビートルバム",
+        "ko": "카페＆바 비틀범"
+      }
+    },
+    {
+      "offset": 79736,
+      "size": 28,
+      "avail": 31,
+      "section": ".data",
+      "text": {
+        "ja": "共和製菓・ニセコ町観光商工課",
+        "ko": "쿄와제과・니세코초관광상공과"
+      }
+    },
+    {
+      "offset": 79768,
+      "size": 38,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "クライスラー　ジャパン　セールス（株）",
+        "ko": "크라이슬러 재팬 세일즈(주)"
+      }
+    },
+    {
+      "offset": 79808,
+      "size": 26,
+      "avail": 27,
+      "section": ".data",
+      "text": {
+        "ja": "航空自衛隊千歳基地　広報室",
+        "ko": "항공자위대 치토세기지 홍보실"
+      }
+    },
+    {
+      "offset": 79836,
+      "size": 38,
+      "avail": 39,
+      "section": ".data",
+      "text": {
+        "ja": "コーヒーレストラン　グリーンゲイブルズ",
+        "ko": "커피레스토랑 그린게이블즈"
+      }
+    },
+    {
+      "offset": 79876,
+      "size": 32,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "（有）ザ・グラススタジオイン函館",
+        "ko": "(유)더・글라스스튜디오인하코다테"
+      }
+    },
+    {
+      "offset": 79912,
+      "size": 28,
+      "avail": 31,
+      "section": ".data",
+      "text": {
+        "ja": "ザ・ネイチャーディスカバリー",
+        "ko": "더・네이처디스커버리"
+      }
+    },
+    {
+      "offset": 79944,
+      "size": 22,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "刺身専門店　ヤン衆漁場",
+        "ko": "회 전문점 얀슈어장"
+      }
+    },
+    {
+      "offset": 79968,
+      "size": 24,
+      "avail": 27,
+      "section": ".data",
+      "text": {
+        "ja": "札幌狸小路商店街振興組合",
+        "ko": "삿포로타누키코지상점가진흥조합"
+      }
+    },
+    {
+      "offset": 79996,
+      "size": 22,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "新富良野プリンスホテル",
+        "ko": "신후라노 프린스 호텔"
+      }
+    },
+    {
+      "offset": 80020,
+      "size": 32,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "（株）スガイ　エンタテインメント",
+        "ko": "(주)스가이 엔터테인먼트"
+      }
+    },
+    {
+      "offset": 80056,
+      "size": 28,
+      "avail": 31,
+      "section": ".data",
+      "text": {
+        "ja": "ＳＵＳＵＫＩＮＯ　ＣＵＢＩＣ",
+        "ko": "SUSUKINO CUBIC"
+      }
+    },
+    {
+      "offset": 80088,
+      "size": 28,
+      "avail": 31,
+      "section": ".data",
+      "text": {
+        "ja": "多目的スペースあうん堂ホール",
+        "ko": "다목적스페이스 아운도홀"
+      }
+    },
+    {
+      "offset": 80120,
+      "size": 26,
+      "avail": 27,
+      "section": ".data",
+      "text": {
+        "ja": "ＤＤＩポケット電話グループ",
+        "ko": "DDI포켓전화그룹"
+      }
+    },
+    {
+      "offset": 80148,
+      "size": 22,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "（株）テイネオリンピア",
+        "ko": "(주)테이네 올림피아"
+      }
+    },
+    {
+      "offset": 80172,
+      "size": 24,
+      "avail": 27,
+      "section": ".data",
+      "text": {
+        "ja": "二条市場魚町商業協同組合",
+        "ko": "니조시장우오마치상업협동조합"
+      }
+    },
+    {
+      "offset": 80200,
+      "size": 26,
+      "avail": 27,
+      "section": ".data",
+      "text": {
+        "ja": "日本空港ビルディング（株）",
+        "ko": "일본공항빌딩(주)"
+      }
+    },
+    {
+      "offset": 80228,
+      "size": 22,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "登別温泉ホテルまほろば",
+        "ko": "노보리베츠온천호텔마호로바"
+      }
+    },
+    {
+      "offset": 80252,
+      "size": 26,
+      "avail": 27,
+      "section": ".data",
+      "text": {
+        "ja": "（株）函館カール・レイモン",
+        "ko": "(주)하코다테카를・레이몬"
+      }
+    },
+    {
+      "offset": 80280,
+      "size": 20,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "函館ハリストス正教会",
+        "ko": "하코다테하리스토스정교회"
+      }
+    },
+    {
+      "offset": 80304,
+      "size": 24,
+      "avail": 27,
+      "section": ".data",
+      "text": {
+        "ja": "函館山ロープウェイ（株）",
+        "ko": "하코다테산 로프웨이(주)"
+      }
+    },
+    {
+      "offset": 80332,
+      "size": 26,
+      "avail": 27,
+      "section": ".data",
+      "text": {
+        "ja": "函館湯の川温泉ホテル平成館",
+        "ko": "하코다테유노카와온천 호텔헤이세이관"
+      }
+    },
+    {
+      "offset": 80360,
+      "size": 43,
+      "avail": 43,
+      "section": ".data",
+      "text": {
+        "ja": "ＰＯＷＥＲ ＣＵＲＲＹ ＭＡＧＩＣ ＳＰＩＣＥ",
+        "ko": "ＰＯＷＥＲ ＣＵＲＲＹ ＭＡＧＩＣ ＳＰＩＣＥ"
+      }
+    },
+    {
+      "offset": 80404,
+      "size": 34,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "フィアット　オート　ジャパン（株）",
+        "ko": "피아트 오토 재팬(주)"
+      }
+    },
+    {
+      "offset": 80440,
+      "size": 34,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "フェリシモ　クリスマスミュージアム",
+        "ko": "펠리시모 크리스마스뮤지엄"
+      }
+    },
+    {
+      "offset": 80476,
+      "size": 30,
+      "avail": 31,
+      "section": ".data",
+      "text": {
+        "ja": "（株）ベリーホットネットワーク",
+        "ko": "(주)베리핫네트워크"
+      }
+    },
+    {
+      "offset": 80508,
+      "size": 30,
+      "avail": 31,
+      "section": ".data",
+      "text": {
+        "ja": "ＨＡＬＬＳＴＡＩＲＳ　ＣＡＦＥ",
+        "ko": "HALLSTAIRS CAFE"
+      }
+    },
+    {
+      "offset": 80540,
+      "size": 44,
+      "avail": 47,
+      "section": ".data",
+      "text": {
+        "ja": "（株）北竜町振興公社サンフラワーパークホテル",
+        "ko": "(주)호쿠류초진흥공사 선플라워파크호텔"
+      }
+    },
+    {
+      "offset": 80588,
+      "size": 30,
+      "avail": 31,
+      "section": ".data",
+      "text": {
+        "ja": "北竜町ひまわりまつり実行委員会",
+        "ko": "호쿠류초해바라기축제실행위원회"
+      }
+    },
+    {
+      "offset": 80620,
+      "size": 26,
+      "avail": 27,
+      "section": ".data",
+      "text": {
+        "ja": "北海道物産センター　夕張店",
+        "ko": "홋카이도물산센터 유바리점"
+      }
+    },
+    {
+      "offset": 80648,
+      "size": 30,
+      "avail": 31,
+      "section": ".data",
+      "text": {
+        "ja": "ボルボ・カーズ・ジャパン（株）",
+        "ko": "볼보・카즈・재팬(주)"
+      }
+    },
+    {
+      "offset": 80680,
+      "size": 22,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "（有）マルコー前川商店",
+        "ko": "(유)마루코마에카와상점"
+      }
+    },
+    {
+      "offset": 80704,
+      "size": 28,
+      "avail": 31,
+      "section": ".data",
+      "text": {
+        "ja": "メルセデス・ベンツ日本（株）",
+        "ko": "메르세데스・벤츠일본(주)"
+      }
+    },
+    {
+      "offset": 80736,
+      "size": 22,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": "（株）元町マリンハウス",
+        "ko": "(주)모토마치마린하우스"
+      }
+    },
+    {
+      "offset": 80760,
+      "size": 26,
+      "avail": 27,
+      "section": ".data",
+      "text": {
+        "ja": "（株）ロイズ　コンフェクト",
+        "ko": "(주)로이즈 콘펙트"
+      }
+    },
+    {
+      "offset": 80788,
+      "size": 30,
+      "avail": 31,
+      "section": ".data",
+      "text": {
+        "ja": "ロシアレストラン　カチューシャ",
+        "ko": "러시아레스토랑 카추샤"
+      }
+    },
+    {
+      "offset": 80820,
+      "size": 18,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "スペシャルサンクス",
+        "ko": "스페셜 땡스"
+      }
+    },
+    {
+      "offset": 80840,
+      "size": 32,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "関口暁信　　山下光弘　　杉本　悟",
+        "ko": "세키구치 아키노부 야마시타 미츠히로 스기모토 사토루"
+      }
+    },
+    {
+      "offset": 80876,
+      "size": 32,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "久保　久　　林　浩志　　寺田幸司",
+        "ko": "쿠보 히사시    하야시 히로시 테라다 코지"
+      }
+    },
+    {
+      "offset": 80912,
+      "size": 28,
+      "avail": 31,
+      "section": ".data",
+      "text": {
+        "ja": "横尾内輔　　ビル・リッチ国彦",
+        "ko": "요코오 나이스케  빌・리치 쿠니히코"
+      }
+    },
+    {
+      "offset": 80956,
+      "size": 34,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "Ted Kummert　　　　 David Robinson",
+        "ko": "Ted Kummert　　　　 David Robinson"
+      }
+    },
+    {
+      "offset": 80992,
+      "size": 32,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "Greg Swedberg　　　 Jian Ken Cao",
+        "ko": "Greg Swedberg　　　 Jian Ken Cao"
+      }
+    },
+    {
+      "offset": 81028,
+      "size": 34,
+      "avail": 35,
+      "section": ".data",
+      "text": {
+        "ja": "Takashi Kurosawa　　Shigeru Kojima",
+        "ko": "Takashi Kurosawa　　Shigeru Kojima"
+      }
+    },
+    {
+      "offset": 81064,
+      "size": 31,
+      "avail": 31,
+      "section": ".data",
+      "text": {
+        "ja": "Kazushige Yoshida　 James Spahn",
+        "ko": "Kazushige Yoshida　 James Spahn"
+      }
+    },
+    {
+      "offset": 81112,
+      "size": 11,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": " 制作・著作",
+        "ko": " 제작・저작"
+      }
+    },
+    {
+      "offset": 81124,
+      "size": 52,
+      "avail": 55,
+      "section": ".data",
+      "text": {
+        "ja": " ゲーム:(C) SEGA ENTERPRISES,LTD. / HUDSON SOFT 1999",
+        "ko": " ゲーム:(C) SEGA ENTERPRISES,LTD. / HUDSON SOFT 1999"
+      }
+    },
+    {
+      "offset": 81180,
+      "size": 48,
+      "avail": 51,
+      "section": ".data",
+      "text": {
+        "ja": " キャラクターデザイン:(C) HUDSON SOFT / RED 1999",
+        "ko": " キャラクターデザイン:(C) HUDSON SOFT / RED 1999"
+      }
+    },
+    {
+      "offset": 81232,
+      "size": 47,
+      "avail": 47,
+      "section": ".data",
+      "text": {
+        "ja": " 企画原案:(C) HUDSON SOFT / 広井王子事務所 1999",
+        "ko": " 企画原案:(C) HUDSON SOFT / 広井王子事務所 1999"
+      }
+    },
+    {
+      "offset": 81280,
+      "size": 42,
+      "avail": 43,
+      "section": ".data",
+      "text": {
+        "ja": " 製造販売:株式会社セガ・エンタープライゼス",
+        "ko": " 제조판매:주식회사　세가・엔터프라이제스"
+      }
+    },
+    {
+      "offset": 81324,
+      "size": 18,
+      "avail": 19,
+      "section": ".data",
+      "text": {
+        "ja": "  株式会社ハドソン",
+        "ko": "  주식회사　허드슨"
+      }
+    },
+    {
+      "offset": 81356,
+      "size": 10,
+      "avail": 11,
+      "section": ".data",
+      "text": {
+        "ja": "夏ハッピー",
+        "ko": "여름 해피"
+      }
+    }
+  ]
 }
