@@ -26,6 +26,8 @@
     ASCII 나머지    글꼴 전진폭 그대로(사이드베어링 포함) — 여백 보정 없음
     합자           구성 글자 폭의 합
     `・`           22      말줄임(・・・)·나열 겸용, 칸 가운데
+    `⧵` U+29F5     24      선택지 구분 기호(시스템 설정 행) — 엔진이 24 고정 피치로 커서 상자를
+                          두는 행에서 ASCII `/` 모양을 24 칸 가운데에. 그 행은 공백도 EM, 숫자도 전각
     그 밖(전각 기호·전각 로마자) 24  게임 원래 글리프, 고정폭
 
 옛 보정(`。`=잉크+9, `．`=잉크−1, `『` 좌+1/우−1, 따옴표 12)은 없앴다 — 여백은 텍스트의
@@ -41,16 +43,18 @@ EM = 24                       # U+2003 EM SPACE (전용 셀)
 EN_SPACE, EM_SPACE, IDEO_SPACE = " ", " ", "　"
 MID = "・"
 MID_W = 22
+SEP24 = "\u29f5"              # 선택지 구분 기호 — ASCII 슬래시 모양을 24 칸 가운데(고정 피치 행용)
 DIGITS = "0123456789"
 MARKUP_CHARS = "@&%*$"        # 제어 코드 문자 — 글자로 쓰려면 전각 ％＆＊＠＄
 
 ASCII_CELLS = tuple(chr(c) for c in range(0x21, 0x7F) if chr(c) not in MARKUP_CHARS)
 LIGATURES = (". ", ", ", "! ", "? ", ": ", " (", ") ")
 # 폰트 셀이 필요한 비한글 글리프 전부 (hangul.SYMBOL_PAGE 에 이 순서로 붙는다)
-SYMBOL_CELLS = (" ", EN_SPACE, EM_SPACE) + ASCII_CELLS + LIGATURES
+SYMBOL_CELLS = (" ", EN_SPACE, EM_SPACE, SEP24) + ASCII_CELLS + LIGATURES
 
-# 게임 전각 칸에 다시 그리는 모양 — 이제 `・` 하나뿐
-SHAPE = {MID: "·"}
+# 칸에 실제로 그릴 모양이 문자와 다른 것. REDRAW 는 그중 게임 cp932 칸을 덮어 그리는 것.
+SHAPE = {MID: "·", SEP24: "/"}
+REDRAW = (MID,)
 
 
 def is_ascii_cell(ch):
@@ -109,6 +113,8 @@ class Widths:
             w = EN
         elif ch == MID:
             w = MID_W
+        elif ch == SEP24:
+            w = CELL
         elif ch in DIGITS:
             w = self.digit_w()
         elif is_ascii_cell(ch):
@@ -121,9 +127,9 @@ class Widths:
 
     def offset(self, ch):
         """잉크를 펜에서 얼마나 밀어 그릴지 (가로만). 기본은 글꼴 원점 그대로."""
-        if ch == MID:
+        if ch in (MID, SEP24):                # 칸 가운데
             lo, hi = self.ink(self.shape(ch))
-            return max(0, (MID_W - (hi - lo)) // 2) - lo
+            return max(0, (self.width(ch) - (hi - lo)) // 2) - lo
         # 한글: 글꼴이 이미 사이드베어링을 갖고 있다(`긱` 2 · `거` 1 · `굛` 0 —
         # 디자이너가 글자마다 정한 것). ASCII·합자도 같은 이유로 손대지 않는다.
         return 0

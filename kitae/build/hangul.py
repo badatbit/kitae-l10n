@@ -233,7 +233,7 @@ def planes(gray, solid=128, edge=40):
 # 보호 항목(raw)용 — 엔진이 바이트로 조립하는 UI 문자열은 옛 방식 그대로 넣는다.
 #   U+2002(EN SPACE)  -> 0x20    엔진 반각 공백 12px (1바이트)
 #   U+3000            -> 0x8140  게임 전각 공백(폭표 12 = EN, 반각 단위 정렬)
-# EM SPACE(U+2003)는 전용 셀(24px)이라 raw 에서도 셀로 넣는다.
+# EM SPACE(U+2003)·구분 기호(U+29F5)처럼 비ASCII 셀은 raw 에서도 셀로 넣는다(2바이트, 폭 24).
 _SPACER = {"\u2002": b"\x20", "\u3000": b"\x81\x40"}
 _IDEO = b"\x81\x40"
 
@@ -280,7 +280,7 @@ def encode(text, cp, raw=False):
     out = bytearray()
     if raw:
         for ch in text:
-            if ch in cp and (is_hangul(ch) or ch == "\u2003"):
+            if ch in cp and ord(ch) > 0x7F:
                 out += bytes(cp[ch])
             elif ch in _SPACER:
                 out += _SPACER[ch]
@@ -331,7 +331,7 @@ def inject(cfg, chars, verbose=False):
 
     # 글리프는 늘 widths 를 따른다(ASCII 셀은 글꼴 원점 그대로, `・` 는 가운데).
     # 폭표(가변폭)와 짝이라 값을 두 군데 적지 않는다.
-    from kitae.build.widths import SHAPE, Widths
+    from kitae.build.widths import REDRAW, Widths
     W = Widths(cfg)
 
     for ch in sorted(chars):
@@ -342,13 +342,13 @@ def inject(cfg, chars, verbose=False):
 
     # 게임 전각 칸에 다시 그리는 것은 `・`(가운데 22px)뿐 — 전각 로마자·기호는 게임
     # 글리프 24 고정폭 그대로(docs/KO-TEXT-RULES.md §6).
-    for ch in SHAPE:
+    for ch in REDRAW:
         code = ch.encode("cp932")
         body, fringe = planes(render_glyph(ch, size, yoff, ttf, widths=W))
         f.set_glyph(code, body, 0)
         f.set_glyph(code, fringe, 1)
     if verbose:
-        print(f"    셀 {len(symbols)}개(ASCII·공백·합자) 포함, 재그림 {len(SHAPE)}칸")
+        print(f"    셀 {len(symbols)}개(ASCII·공백·합자·구분기호) 포함, 재그림 {len(REDRAW)}칸")
 
     f.save(dst)
     return dst
