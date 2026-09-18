@@ -184,6 +184,28 @@ def assign(chars, cp=None, reserved=(), pages=None):
     return cp
 
 
+def contiguous_digits(cp, reserved=()):
+    """ASCII 숫자 '0'~'9' 를 SYMBOL_PAGE 의 **연속 10칸**에 둔다.
+
+    엔진은 저장 슬롯 날짜·슬롯 번호를 '０' 템플릿의 뒤 바이트에 n 을 더해 만든다(TRFVMSVIEW
+    0x10002d5e 등). assign 은 게임이 쓰는 칸·못 읽는 칸을 건너뛰므로 숫자 사이에 구멍이 생길 수
+    있고, 실제로 '8' 이 0x5A 로 밀려 8월이 한자로 나왔다(2026-09-19). 이미 연속이면 그대로."""
+    digits = "0123456789"
+    cells = [cp.get(d) for d in digits]
+    if all(cells) and all(c[0] == cells[0][0] and c[1] == cells[0][1] + i for i, c in enumerate(cells)):
+        return cp
+    taken = (set(v for k, v in cp.items() if k not in digits) | set(reserved)
+             | {(SYMBOL_PAGE, c) for c in CELLS if not _decodable(SYMBOL_PAGE, c)})
+    for start in CELLS:
+        run = [(SYMBOL_PAGE, start + i) for i in range(10)]
+        if any(c[1] not in CELLS or c in taken for c in run):
+            continue
+        for d, c in zip(digits, run):
+            cp[d] = c
+        return cp
+    raise RuntimeError("숫자 10칸 연속 자리가 없다")
+
+
 def render_glyph(ch, size=21, y_off=2, ttf=None, widths=None):
     """24x24 grayscale of one character from IBM Plex Sans KR.
 
@@ -321,6 +343,7 @@ def inject(cfg, chars, verbose=False):
     from kitae.build.widths import SYMBOL_CELLS
     symbols = set(SYMBOL_CELLS)
     cp = assign(symbols, cp, reserved, [SYMBOL_PAGE])
+    cp = contiguous_digits(cp, reserved)
     cp = assign(set(chars) - symbols, cp, reserved, pages)
     _write_codepage(cp_path, cp)
     chars = set(chars) | symbols
