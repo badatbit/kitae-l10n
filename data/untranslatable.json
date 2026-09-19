@@ -1,6 +1,6 @@
 {
  "note": "조회 키라서 번역하지 않은 문자열. docs/UI-TEXT.md 참고",
- "count": 166,
+ "count": 165,
  "entries": [
   {
    "module": "COMMONSAVE",
@@ -216,11 +216,6 @@
    "module": "TRFCAMERA",
    "offset": "0x013124",
    "ja": "由子の写真"
-  },
-  {
-   "module": "TRFFRUITION",
-   "offset": "0x011bec",
-   "ja": "ターニャ"
   },
   {
    "module": "TRFKARAOKE",

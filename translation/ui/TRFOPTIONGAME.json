@@ -113,6 +113,16 @@
       }
     },
     {
+      "offset": 89840,
+      "size": 20,
+      "avail": 23,
+      "section": ".data",
+      "text": {
+        "ja": " ＵＦＯキャッチャー ",
+        "ko": "      인형뽑기      "
+      }
+    },
+    {
       "offset": 89864,
       "size": 20,
       "avail": 23,
