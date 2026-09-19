@@ -1,107 +1,163 @@
 {
-  "_": [
-    "DLL 코드/데이터 바이트 직접 패치 — 문자열이 아닌 상수(레이아웃 좌표 등).",
-    "offset 은 원본 DLL 파일 오프셋. from 이 실제 바이트와 같을 때만 적용.",
-    "적용 로직은 kitae/build/binpatch.py."
-  ],
-  "patches": [
-    {
-      "module": "/TRF/TRFGUIDEMAP.DLL",
-      "offset": 5730,
-      "from": "55",
-      "to": "34",
-      "why": "가이드북 지역선택 바 좌측 X: 170→104 (mov #85→#52 @0x1662, ×2). 흰막대+회색오버레이 좌측 공유."
-    },
-    {
-      "module": "/TRF/TRFGUIDEMAP.DLL",
-      "offset": 5850,
-      "from": "4b",
-      "to": "6c",
-      "why": "흰 선택막대 폭: 300→432 (mov #75→#108 @0x16da, ×4). 우측=104+432=536."
-    },
-    {
-      "module": "/TRF/TRFGUIDEMAP.DLL",
-      "offset": 6062,
-      "from": "57",
-      "to": "36",
-      "why": "텍스트 X: 174→108 (mov #87→#54 @0x17ae, ×2). 바 좌측(104)+여백4. 최장행 유바리가 바 중앙에."
-    },
-    {
-      "module": "/TRF/TRFGUIDEMAP.DLL",
-      "offset": 10102,
-      "from": "67",
-      "to": "72",
-      "why": "스폿 목록 흰 선택막대 폭: 412→456 (mov #103→#114 @0x2776, ×4). 18칸 스폿명 수용."
-    },
-    {
-      "module": "/TRF/TRFGUIDEMAP.DLL",
-      "offset": 6186,
-      "from": "d601",
-      "to": "1802",
-      "why": "지역선택 회색 배경 오버레이 우측 X (u16 리터럴 @0x182a→@(24,r14), 구조체로 콜리 전달): 470→536. 흰막대 우측(104+432)과 일치."
-    },
-    {
-      "module": "/TRF/TRFGUIDEMAP.DLL",
-      "offset": 10416,
-      "from": "0e02",
-      "to": "3a02",
-      "why": "스폿 목록 회색 배경 오버레이 우측 X (u16 리터럴 @0x28b0): 526→570. 흰막대 우측(114+456)과 일치."
-    },
-    {
-      "module": "/TRF/TRFVMSVIEW.DLL",
-      "offset": 8454,
-      "from": "17b1",
-      "to": "0900",
-      "why": "저장 슬롯 머리글 순서: 앞머리 장소 호출/strlen/r9 전진 무력화 (@0x10002d06)",
-      "option": "save_header_reorder"
-    },
-    {
-      "module": "/TRF/TRFVMSVIEW.DLL",
-      "offset": 8460,
-      "from": "0b40",
-      "to": "0900",
-      "why": "저장 슬롯 머리글 순서: 앞머리 장소 호출/strlen/r9 전진 무력화 (@0x10002d0c)",
-      "option": "save_header_reorder"
-    },
-    {
-      "module": "/TRF/TRFVMSVIEW.DLL",
-      "offset": 8476,
-      "from": "0c39",
-      "to": "0900",
-      "why": "저장 슬롯 머리글 순서: 앞머리 장소 호출/strlen/r9 전진 무력화 (@0x10002d1c)",
-      "option": "save_header_reorder"
-    },
-    {
-      "module": "/TRF/TRFVMSVIEW.DLL",
-      "offset": 8550,
-      "from": "17d4406220290179418409e2",
-      "to": "14e00c6018406a7003000900",
-      "why": "저장 슬롯 머리글: 月 뒤 어절 공백 훅 (@0x10002d66 → 스텁 0x100041dc)",
-      "option": "save_header_reorder"
-    },
-    {
-      "module": "/TRF/TRFVMSVIEW.DLL",
-      "offset": 8738,
-      "from": "69d50c3966d00ae110290179",
-      "to": "13e00c6018406a7003000900",
-      "why": "저장 슬롯 머리글: 시간대 뒤에 장소 붙이는 훅 (@0x10002e22 → 스텁 0x10004198)",
-      "option": "save_header_reorder"
-    },
-    {
-      "module": "/TRF/TRFVMSVIEW.DLL",
-      "offset": 13720,
-      "from": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
-      "to": "224f00b084552a0b0dd1bc31136c906008200189fbaf0179e5e00029a4e0918002791362f4720b4293661e790ae110290179c3617c711260264f0b0012550900a6edffffeee09080d3e09180e5e0928040e0037909e20b0009000900",
-      "why": "저장 슬롯 머리글 스텁 C(68B @0x10004198) + D(24B @0x100041dc) — .text 꼬리 케이브",
-      "option": "save_header_reorder"
-    },
-    {
-      "module": "/TRF/TRFVMSVIEW.DLL",
-      "offset": 440,
-      "from": "98310000",
-      "to": "f4310000",
-      "why": ".text VirtualSize 0x3198→0x31f4 (케이브 스텁 포함)",
-      "option": "save_header_reorder"
-    }
-  ]
+ "_": [
+  "DLL 코드/데이터 바이트 직접 패치 — 문자열이 아닌 상수(레이아웃 좌표 등).",
+  "offset 은 원본 DLL 파일 오프셋. from 이 실제 바이트와 같을 때만 적용.",
+  "적용 로직은 kitae/build/binpatch.py."
+ ],
+ "patches": [
+  {
+   "module": "/TRF/TRFGUIDEMAP.DLL",
+   "offset": 5730,
+   "from": "55",
+   "to": "34",
+   "why": "가이드북 지역선택 바 좌측 X: 170→104 (mov #85→#52 @0x1662, ×2). 흰막대+회색오버레이 좌측 공유."
+  },
+  {
+   "module": "/TRF/TRFGUIDEMAP.DLL",
+   "offset": 5850,
+   "from": "4b",
+   "to": "6c",
+   "why": "흰 선택막대 폭: 300→432 (mov #75→#108 @0x16da, ×4). 우측=104+432=536."
+  },
+  {
+   "module": "/TRF/TRFGUIDEMAP.DLL",
+   "offset": 6062,
+   "from": "57",
+   "to": "36",
+   "why": "텍스트 X: 174→108 (mov #87→#54 @0x17ae, ×2). 바 좌측(104)+여백4. 최장행 유바리가 바 중앙에."
+  },
+  {
+   "module": "/TRF/TRFGUIDEMAP.DLL",
+   "offset": 10102,
+   "from": "67",
+   "to": "72",
+   "why": "스폿 목록 흰 선택막대 폭: 412→456 (mov #103→#114 @0x2776, ×4). 18칸 스폿명 수용."
+  },
+  {
+   "module": "/TRF/TRFGUIDEMAP.DLL",
+   "offset": 6186,
+   "from": "d601",
+   "to": "1802",
+   "why": "지역선택 회색 배경 오버레이 우측 X (u16 리터럴 @0x182a→@(24,r14), 구조체로 콜리 전달): 470→536. 흰막대 우측(104+432)과 일치."
+  },
+  {
+   "module": "/TRF/TRFGUIDEMAP.DLL",
+   "offset": 10416,
+   "from": "0e02",
+   "to": "3a02",
+   "why": "스폿 목록 회색 배경 오버레이 우측 X (u16 리터럴 @0x28b0): 526→570. 흰막대 우측(114+456)과 일치."
+  },
+  {
+   "module": "/TRF/TRFVMSVIEW.DLL",
+   "offset": 8454,
+   "from": "17b1",
+   "to": "0900",
+   "why": "저장 슬롯 머리글 순서: 앞머리 장소 호출/strlen/r9 전진 무력화 (@0x10002d06)",
+   "option": "save_header_reorder"
+  },
+  {
+   "module": "/TRF/TRFVMSVIEW.DLL",
+   "offset": 8460,
+   "from": "0b40",
+   "to": "0900",
+   "why": "저장 슬롯 머리글 순서: 앞머리 장소 호출/strlen/r9 전진 무력화 (@0x10002d0c)",
+   "option": "save_header_reorder"
+  },
+  {
+   "module": "/TRF/TRFVMSVIEW.DLL",
+   "offset": 8476,
+   "from": "0c39",
+   "to": "0900",
+   "why": "저장 슬롯 머리글 순서: 앞머리 장소 호출/strlen/r9 전진 무력화 (@0x10002d1c)",
+   "option": "save_header_reorder"
+  },
+  {
+   "module": "/TRF/TRFVMSVIEW.DLL",
+   "offset": 8550,
+   "from": "17d4406220290179418409e2",
+   "to": "14e00c6018406a7003000900",
+   "why": "저장 슬롯 머리글: 月 뒤 어절 공백 훅 (@0x10002d66 → 스텁 0x100041dc)",
+   "option": "save_header_reorder"
+  },
+  {
+   "module": "/TRF/TRFVMSVIEW.DLL",
+   "offset": 8738,
+   "from": "69d50c3966d00ae110290179",
+   "to": "13e00c6018406a7003000900",
+   "why": "저장 슬롯 머리글: 시간대 뒤에 장소 붙이는 훅 (@0x10002e22 → 스텁 0x10004198)",
+   "option": "save_header_reorder"
+  },
+  {
+   "module": "/TRF/TRFVMSVIEW.DLL",
+   "offset": 13720,
+   "from": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+   "to": "224f00b084552a0b0dd1bc31136c906008200189fbaf0179e5e00029a4e0918002791362f4720b4293661e790ae110290179c3617c711260264f0b0012550900a6edffffeee09080d3e09180e5e0928040e0037909e20b0009000900",
+   "why": "저장 슬롯 머리글 스텁 C(68B @0x10004198) + D(24B @0x100041dc) — .text 꼬리 케이브",
+   "option": "save_header_reorder"
+  },
+  {
+   "module": "/TRF/TRFVMSVIEW.DLL",
+   "offset": 440,
+   "from": "98310000",
+   "to": "f4310000",
+   "why": ".text VirtualSize 0x3198→0x31f4 (케이브 스텁 포함)",
+   "option": "save_header_reorder"
+  },
+  {
+   "module": "/TRF/TRFOPTIONGAME.DLL",
+   "offset": 12706,
+   "from": "4ed00b4083644cd0c3650b408364",
+   "to": "11e00c6018404270030009000900",
+   "why": "순위 표 이름: 성·이름 사이 어절 공백 훅 (@0x10003da2 → 스텁 0x10004ef0)",
+   "option": "rank_name_space"
+  },
+  {
+   "module": "/TRF/TRFOPTIONGAME.DLL",
+   "offset": 12946,
+   "from": "12d00b40836410d0c3650b408364",
+   "to": "10e00c6018405270030009000900",
+   "why": "순위 표 이름: 성·이름 사이 어절 공백 훅 (@0x10003e92 → 스텁 0x10004ef0)",
+   "option": "rank_name_space"
+  },
+  {
+   "module": "/TRF/TRFOPTIONGAME.DLL",
+   "offset": 13216,
+   "from": "3cd00b4083643bd0c3650b408364",
+   "to": "0fe00c6018404470030009000900",
+   "why": "순위 표 이름: 성·이름 사이 어절 공백 훅 (@0x10003fa0 → 스텁 0x10004ef0)",
+   "option": "rank_name_space"
+  },
+  {
+   "module": "/TRF/TRFOPTIONGAME.DLL",
+   "offset": 13410,
+   "from": "0cd00b4083640ad0c3650b408364",
+   "to": "0fe00c6018408270030009000900",
+   "why": "순위 표 이름: 성·이름 사이 어절 공백 훅 (@0x10004062 → 스텁 0x10004ef0)",
+   "option": "rank_name_space"
+  },
+  {
+   "module": "/TRF/TRFOPTIONGAME.DLL",
+   "offset": 13624,
+   "from": "2cd00b4083642bd0c3650b408364",
+   "to": "0ee00c601840ac70030009000900",
+   "why": "순위 표 이름: 성·이름 사이 어절 공백 훅 (@0x10004138 → 스텁 0x10004ef0)",
+   "option": "rank_name_space"
+  },
+  {
+   "module": "/TRF/TRFOPTIONGAME.DLL",
+   "offset": 17136,
+   "from": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+   "to": "224f07d00b40836405d006d50b40836403d0c3650b408364264f09000b000900bc4c0010184f0010e5400000",
+   "why": "순위 표 이름 스텁 44B @0x10004ef0 — 성→공백→이름 strcat, .text 꼬리 케이브",
+   "option": "rank_name_space"
+  },
+  {
+   "module": "/TRF/TRFOPTIONGAME.DLL",
+   "offset": 440,
+   "from": "ee3e0000",
+   "to": "1c3f0000",
+   "why": ".text VirtualSize 0x3eee→0x3f1c (케이브 스텁 포함)",
+   "option": "rank_name_space"
+  }
+ ]
 }
