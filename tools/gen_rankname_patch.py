@@ -18,7 +18,10 @@ strcat 한다. 사이에 구분자 문자열이 없어 `타사카츠요시` 로 
 `성 → 공백 → 이름` 순으로 세 번 strcat 한다. 진입 때 r8=버퍼, r5=성, r12=이름이고
 strcat 는 COREDLL 임포트 썽크(0x10004CBC, `jmp @r0` 꼬리 점프)라 r8·r12 는 보존된다.
 
-★ 공백 셀 바이트를 스텁이 직접 들고 있으므로 **codepage.json 이 바뀌면 재생성**해야
+★ 스텁에는 절대 주소를 두지 않는다 — 케이브에 새로 넣은 리터럴에는 PE 재배치 항목이
+없어 모듈이 다른 기준 주소에 올라가면 죽는다(처음 판이 순위 보기에서 크래시). 호출은
+PC 상대 `bsr`, 공백 주소는 PC 상대 `mova` 로 구한다.
+★ 공백 셀 바이트는 스텁이 직접 들고 있으므로 **codepage.json 이 바뀌면 재생성**해야
 한다 (tools/gen_savehdr_patch.py 와 같은 제약).
 
 실행: python tools/gen_rankname_patch.py   (work/orig/TRF/TRFOPTIONGAME.DLL 필요)
@@ -58,32 +61,38 @@ def _cell(ch):
 
 
 def stub(va, sep_bytes):
-    """성 → 공백 → 이름 순으로 strcat 세 번. 진입: r8=버퍼, r5=성, r12=이름."""
-    lit_strcat = 32                  # 스텁 시작 기준 바이트 오프셋
-    lit_sep = 36
-    sep_at = 40
+    """성 → 공백 → 이름 순으로 strcat 세 번. 진입: r8=버퍼, r5=성, r12=이름.
+
+    ★ 절대 주소를 하나도 두지 않는다. 케이브에 새로 넣는 리터럴에는 **PE 재배치 항목이
+    없어서**, 모듈이 기준 주소와 다른 곳에 올라가면 그 포인터가 어긋나 죽는다(처음에
+    strcat·공백 주소를 리터럴로 박았다가 순위 보기에서 크래시). 그래서 호출은 PC 상대
+    `bsr`, 공백 주소는 PC 상대 `mova` 로 구한다 — 둘 다 재배치가 필요 없다."""
+    SEP_AT = 28                      # 공백 셀 위치(스텁 시작 기준, 4정렬 = mova 대상)
+
+    def bsr_to(at):                  # at = bsr 명령 주소(스텁 시작 기준 오프셋)
+        delta = STRCAT - (va + at + 4)
+        assert delta % 2 == 0 and -4096 <= delta <= 4094, hex(delta)
+        return S.bsr(delta // 2)
+
     prog = [
-        (S.sts_pr_push(), "sts.l pr,@-r15"),                  # +0  pr 저장(jsr 가 덮는다)
-        (S.movl_pc(lit_strcat - 4, 0), None),                 # +2  r0 = strcat
-        (JSR_R0, "jsr @r0"),                                  # +4  strcat(r8, r5=성)
-        (S.mov_reg(8, 4), "mov r8,r4"),                       # +6  지연 슬롯
-        (S.movl_pc(lit_strcat - 12, 0), None),                # +8  r0 = strcat
-        (S.movl_pc(lit_sep - 12, 5), None),                   # +10 r5 = 공백
-        (JSR_R0, "jsr @r0"),                                  # +12 strcat(r8, 공백)
-        (S.mov_reg(8, 4), "mov r8,r4"),                       # +14
-        (S.movl_pc(lit_strcat - 20, 0), None),                # +16 r0 = strcat
-        (MOV_R12_R5, "mov r12,r5"),                           # +18 r5 = 이름
-        (JSR_R0, "jsr @r0"),                                  # +20 strcat(r8, 이름)
-        (S.mov_reg(8, 4), "mov r8,r4"),                       # +22
-        (S.lds_pr_pop(), "lds.l @r15+,pr"),                   # +24
-        (S.nop(), "nop"),                                     # +26 lds→rts 사이 한 박자
-        (S.rts(), "rts"),                                     # +28
-        (S.nop(), "nop"),                                     # +30 지연 슬롯
+        (S.sts_pr_push(), "sts.l pr,@-r15"),      # +0  원래 복귀 주소 보관(bsr 가 pr 을 덮는다)
+        (bsr_to(2), None),                        # +2  strcat(버퍼, 성)
+        (S.mov_reg(8, 4), "mov r8,r4"),           # +4  지연 슬롯 (r5 = 성, 이미 들어와 있다)
+        (S.mova(SEP_AT - 8), None),               # +6  r0 = 공백 문자열 (PC 상대)
+        (S.mov_reg(0, 5), "mov r0,r5"),           # +8
+        (bsr_to(10), None),                       # +10 strcat(버퍼, 공백)
+        (S.mov_reg(8, 4), "mov r8,r4"),           # +12 지연 슬롯
+        (S.mov_reg(12, 5), "mov r12,r5"),         # +14
+        (bsr_to(16), None),                       # +16 strcat(버퍼, 이름)
+        (S.mov_reg(8, 4), "mov r8,r4"),           # +18 지연 슬롯
+        (S.lds_pr_pop(), "lds.l @r15+,pr"),       # +20
+        (S.nop(), "nop"),                         # +22 lds→rts 사이 한 박자
+        (S.rts(), "rts"),                         # +24
+        (S.nop(), "nop"),                         # +26 지연 슬롯
     ]
     code = S.assemble(prog, va)
-    assert len(code) == lit_strcat, len(code)
-    return (code + struct.pack("<I", STRCAT) + struct.pack("<I", va + sep_at)
-            + sep_bytes.ljust(4, b"\x00"))
+    assert len(code) == SEP_AT, len(code)
+    return code + sep_bytes.ljust(4, b"\x00")
 
 
 def main():

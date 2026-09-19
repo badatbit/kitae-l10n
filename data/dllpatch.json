@@ -146,17 +146,17 @@
   {
    "module": "/TRF/TRFOPTIONGAME.DLL",
    "offset": 17136,
-   "from": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
-   "to": "224f07d00b40836405d006d50b40836403d0c3650b408364264f09000b000900bc4c0010184f0010e5400000",
-   "why": "순위 표 이름 스텁 44B @0x10004ef0 — 성→공백→이름 strcat, .text 꼬리 케이브",
+   "from": "0000000000000000000000000000000000000000000000000000000000000000",
+   "to": "224fe3be836405c70365dfbe8364c365dcbe8364264f09000b000900e5400000",
+   "why": "순위 표 이름 스텁 32B @0x10004ef0 — 성→공백→이름 strcat, .text 꼬리 케이브",
    "option": "rank_name_space"
   },
   {
    "module": "/TRF/TRFOPTIONGAME.DLL",
    "offset": 440,
    "from": "ee3e0000",
-   "to": "1c3f0000",
-   "why": ".text VirtualSize 0x3eee→0x3f1c (케이브 스텁 포함)",
+   "to": "103f0000",
+   "why": ".text VirtualSize 0x3eee→0x3f10 (케이브 스텁 포함)",
    "option": "rank_name_space"
   }
  ]
