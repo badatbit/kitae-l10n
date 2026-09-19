@@ -1,0 +1,22 @@
+{
+  // 공백 셀을 눈으로 구분한다 — 종류·폭은 docs/KO-TEXT-RULES.md §2, 값은 kitae/build/widths.py.
+  // Gremlins tracker(nhoizey.gremlins)는 색이 세 단계뿐이라 폭 계열로 묶는다:
+  //   error(빨강) = EM 24px, warning(파랑) = EN 12px, info(주황) = 그 밖(FIGURE 16·FOUR-PER-EM 6·전각 공백).
+  "gremlins.color_error": "rgba(255, 80, 80, 0.45)",
+  "gremlins.color_warning": "rgba(60, 140, 255, 0.45)",
+  "gremlins.color_info": "rgba(255, 170, 0, 0.40)",
+  "gremlins.showInProblemPane": false,
+  "gremlins.characters": {
+    "2003": { "description": "EM SPACE 24px — 예/아니요 행, 칸 맞춤", "level": "error" },
+    "2002": { "description": "EN SPACE 12px — 라벨 정렬(보호 항목은 1바이트 0x20)", "level": "warning" },
+    "2007": { "description": "FIGURE SPACE 16px = 숫자 폭 — 한 자리 월·일 패딩", "level": "info" },
+    "2005": { "description": "FOUR-PER-EM SPACE 6px — 반 EN 보정(제목 라벨)", "level": "info" },
+    "3000": { "description": "IDEOGRAPHIC SPACE — ja 원문 / ko 는 보호 항목만(0x8140, 12px)", "level": "info", "hideGutterIcon": true },
+    // 원문(ja)에 흔한 문장 부호는 표시하지 않는다 — ko 쪽은 kitae check 문자 규칙이 잡는다
+    "2013": { "level": "none" },
+    "2019": { "level": "none" },
+    "201d": { "level": "none" }
+  },
+  // VS Code 기본 노란 상자와 겹치지 않게 — 위 색만 보이도록
+  "editor.unicodeHighlight.allowedCharacters": { " ": true, " ": true, " ": true, " ": true }
+}
