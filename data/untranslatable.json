@@ -1,6 +1,6 @@
 {
  "note": "조회 키라서 번역하지 않은 문자열. docs/UI-TEXT.md 참고",
- "count": 165,
+ "count": 164,
  "entries": [
   {
    "module": "COMMONSAVE",
@@ -456,11 +456,6 @@
    "module": "TRFQUIZ",
    "offset": "0x0201e0",
    "ja": "めぐみ"
-  },
-  {
-   "module": "TRFQUIZ",
-   "offset": "0x02025c",
-   "ja": "ターニャ"
   },
   {
    "module": "TRFQUIZ",
