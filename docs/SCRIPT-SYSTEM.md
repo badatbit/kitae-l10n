@@ -85,3 +85,34 @@ MTG의 WST도 같은 포맷: `CTRFDataSet` 루트 아래 `CTRFWaveName` 객체 �
 - ~~**최대 병목 = ENC2 압축**~~ → **해소 (2026-08-05)**: ENC2 = `CTRFLzss` 해독 완료,
   INIS/SCV/MTG 전량 판독 가능. 상세: [ENC2-FORMAT.md](ENC2-FORMAT.md).
   이제 §6의 EB 옵코드 해석과 화자·선택지·음성 매핑 자동 추출이 다음 과제.
+
+## 디버그 부팅 — 제품판에 남은 개발 도구 (2026-09-19, `debug_boot`)
+
+제품판 디스크에 개발용 도구가 그대로 들어 있다.
+
+| 도구 | 모듈 | 띄우는 씬 (P42 = game) |
+|---|---|---|
+| 씬 셀렉터 — 플롯(P00~P47)·씬(P##S###) 목록 상자, `SCN/Plots.Ini`·`Plots.scn` 을 읽음 | TRFSCENELAUNCH.DLL `CTRFSceneLaunch` | `P42S007` ○シーンセレクト起動 |
+| 사운드 테스트 — 인트로/루프 시간(초), 16K/18K 모드 | KITASOUNDTEST.DLL `CKitaSoundTest` | `P42S024` ○サウンドテスト |
+| めぐみテスト | (스크립트) | `P42S020` |
+
+**들어가는 길은 없다.** 저장 변수 이름(north01.sym 623개)에 デバッグ 계열이 없고,
+타이틀(KITATITLE)의 패드 처리는 엣지 필터뿐이며 이름으로 띄우는 태스크는 `MiniGame`
+하나다. EB 스크립트 48개 어디에도 이 세 씬으로 가는 분기가 없고, 세 씬은 날짜·장소가
+없어 캘린더로도 안 온다. `Software\Hudson\TRF\Execute\CLSID` 는 COM 식 클래스 등록
+키일 뿐 부팅 선택이 아니다. 세이브 파일로는 열 수 없다.
+
+**그래서 씬 파일을 바꾼다.** 씬은 `RESOURCE/SCN/SCV.CB` 의 CLSS 직렬화 객체이고,
+어떤 태스크 DLL 을 띄울지는 `CTRFTaskCut` 의 클래스명 문자열이 정한다. 타이틀 씬
+`P00S052.SCV` 의 `CKitaTitle` 을 `CTRFSceneLaunch` 로 바꾸면(길이 +4 → CTRFTaskCut 과
+부모 CTRFDataSet 의 payload 길이 보정) VMS 확인·오프닝 뒤 타이틀 자리에 씬 셀렉터가
+뜬다. `kitae/build/debugboot.py`, 옵션 `debug_boot`(기본 false):
+
+```
+kitae config set debug_boot true   # 디버그 디스크
+kitae build
+kitae config set debug_boot false  # 일반 디스크
+```
+
+재포장한 SCV.CB(1,318,191B)는 원 슬롯(665섹터)에 들어간다. 셀렉터에서 `P42S024`
+를 고르면 사운드 테스트, `P00S052` 를 고르면 다시 셀렉터(타이틀은 사라진 상태).

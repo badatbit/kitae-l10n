@@ -387,6 +387,8 @@ def _build(cfg, scripts, lang, want_font=True, verbose=False):
                    "RESOURCE/SOZ.CB": out_soz,
                    "RESOURCE/M05.CB": out_m05}
     disc_builds.update(image_cbs)
+    # 디버그 부팅(옵션 debug_boot): 타이틀 씬의 태스크를 씬 셀렉터로 — kitae.build.debugboot
+    disc_builds["RESOURCE/SCN/SCV.CB"] = _debug_boot_scv(cfg)
     _patch_cbs(cfg, track, disc_builds)
 
     # 6. 시스템 UI ----------------------------------------------------------
@@ -486,6 +488,21 @@ def _stage_disc(cfg):
             shutil.copyfile(p, os.path.join(stage, name))
     track = glob.glob(os.path.join(stage, "*track03.bin"))[0]
     return dist, stage, track
+
+
+def _debug_boot_scv(cfg):
+    """옵션 `debug_boot` 가 참이면 타이틀 씬을 씬 셀렉터로 바꾼 SCV.CB 경로, 아니면 None.
+
+    제품판에 남은 개발용 씬 셀렉터(TRFSCENELAUNCH)로 부팅하는 디스크를 만든다 —
+    근거와 구조는 kitae/build/debugboot.py 머리말, docs/SCRIPT-SYSTEM.md."""
+    if not cfg.get("debug_boot"):
+        return None
+    from kitae.build import debugboot, uipatch
+    out = _work(cfg, "build", "SCV.CB")
+    debugboot.build(cfg, uipatch.original(cfg, debugboot.SCV_DISC), out)
+    print(f"디버그 부팅: 타이틀(P00S052) 태스크 CKitaTitle → CTRFSceneLaunch "
+          f"→ RESOURCE/SCN/SCV.CB ({os.path.getsize(out):,})")
+    return out
 
 
 def _patch_cbs(cfg, track, disc_builds):
@@ -634,7 +651,8 @@ def build_images(cfg, rerender=False, lang=None):
     disc_builds = {"RESOURCE/PLOT.CB": cached("PLOT.CB"),
                    "RESOURCE/MTG.CB": cached("MTG.CB"),
                    "RESOURCE/SOZ.CB": out_soz or cached("SOZ_final.CB"),
-                   "RESOURCE/M05.CB": cached("M05.CB")}
+                   "RESOURCE/M05.CB": cached("M05.CB"),
+                   "RESOURCE/SCN/SCV.CB": cached("SCV.CB") if cfg.get("debug_boot") else None}
     disc_builds.update(image_cbs)
     _patch_cbs(cfg, track, disc_builds)
 
