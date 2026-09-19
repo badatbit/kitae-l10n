@@ -82,6 +82,21 @@ def shll8(rn):
     return 0x4018 | (_n(rn) << 8)
 
 
+def shll16(rn):
+    return 0x4028 | (_n(rn) << 8)
+
+
+def or_reg(rm, rn):
+    """or Rm,Rn"""
+    return 0x200B | (_n(rn) << 8) | (_n(rm) << 4)
+
+
+def and_imm(imm):
+    """and #imm,R0 — R0 전용"""
+    assert 0 <= imm <= 255
+    return 0xC900 | imm
+
+
 def extu_b(rm, rn):
     return 0x600C | (_n(rn) << 8) | (_n(rm) << 4)
 

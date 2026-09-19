@@ -774,7 +774,8 @@ def stub_copy_strdump():
 
 def stub_rec_x2(table_bytes):
     """copy 훅(0x10003AE6, 줄 단위) — **토크나이저 노드 리스트**를 걸어 글자별 폭을
-    **각 글자 레코드의 x2(rec+8) = width** 로 쓴다. rec = this+84 + 글자*128 + 줄*16
+    **각 글자 레코드의 x2(rec+8) = width | len<<16** 로 쓴다(len = 반각 1·전각 2, 그리기
+    래퍼가 글리프 상자 12/24 를 고르는 단서 — stub_drawchar1 참고). rec = this+84 + 글자*128 + 줄*16
     이므로 x2 = this+92 + 줄*16, 글자마다 +128. 게임의 x2 쓰기(0x10003b12)는 apply 에서
     nop. 원본 6워드 재현. 보존필수 r4(=0)·r13·r9. table 은 mova(pc-상대).
 
@@ -837,21 +838,26 @@ def stub_rec_x2(table_bytes):
         (0x305C, "add r5,r0"),           # 39
         (0x6000, "mov.b @r0,r0"),        # 40
         (0x600C, "extu.b r0,r0"),        # 41
-        # store(42): rec.x2 = width ; r2 += 128 ; 다음 노드
-        (0x2202, "mov.l r0,@r2"),        # 42
-        (0xE120, "mov #32,r1"),          # 43 (★ 글자 스트라이드 320→128)
-        (0x4108, "shll2 r1"),            # 44 128
-        (0x321C, "add r1,r2"),           # 45
-        (0x4710, "dt r7"),               # 46
-        (0x6662, "mov.l @r6,r6"),        # 47 next
-        (None, "bf loop"),               # 48 count 남으면 계속
-        (None, "bra done"),              # 49
-        (S.nop(), "nop"),                # 50
-        # skip(51): len 0 노드 — count 안 줄이고 다음
-        (0x6662, "mov.l @r6,r6"),        # 51
-        (None, "bra loop"),              # 52
+        # store(42): rec.x2 = width | len<<16 ; r2 += 128 ; 다음 노드
+        # ★ len(반각 1·전각 2)을 상위에 같이 싣는다 — DrawChar 래퍼가 글리프 상자를
+        #   12/24 로 고르는 유일한 단서다(아래 stub_drawchar1 주석).
+        (S.movl_disp_rm(12, 6, 1), "mov.l @(12,r6),r1"),  # 42 len
+        (S.shll16(1), "shll16 r1"),      # 43
+        (S.or_reg(1, 0), "or r1,r0"),    # 44 r0 = width | len<<16
+        (0x2202, "mov.l r0,@r2"),        # 45
+        (0xE120, "mov #32,r1"),          # 46 (★ 글자 스트라이드 320→128)
+        (0x4108, "shll2 r1"),            # 47 128
+        (0x321C, "add r1,r2"),           # 48
+        (0x4710, "dt r7"),               # 49
+        (0x6662, "mov.l @r6,r6"),        # 50 next
+        (None, "bf loop"),               # 51 count 남으면 계속
+        (None, "bra done"),              # 52
         (S.nop(), "nop"),                # 53
-        # done(54): 원본 6워드
+        # skip(54): len 0 노드 — count 안 줄이고 다음
+        (0x6662, "mov.l @r6,r6"),        # 54
+        (None, "bra loop"),              # 55
+        (S.nop(), "nop"),                # 56
+        # done(57): 원본 6워드
         (0x6BA3, "mov r10,r11"),         # 54
         (0x4B08, "shll2 r11"),           # 55
         (0xEC54, "mov #84,r12"),         # 56
@@ -861,16 +867,16 @@ def stub_rec_x2(table_bytes):
         (S.rts(), "rts"),                # 60
         (S.nop(), "nop"),                # 61
     ]
-    LOOP, LOOKUP_SUB, STORE, SKIP, DONE = 15, 35, 42, 51, 54
+    LOOP, LOOKUP_SUB, STORE, SKIP, DONE = 15, 35, 42, 54, 57
     def rel(i, t):                       # 분기 변위(워드): 목적지 - (분기+2)
         return t - (i + 2)
     body[16] = (S.bt(rel(16, DONE)), None)
     body[19] = (S.bt(rel(19, SKIP)), None)
     body[30] = (S.bt(rel(30, LOOKUP_SUB)), None)
     body[33] = (S.bra(rel(33, STORE)), None)
-    body[48] = (S.bf(rel(48, LOOP)), None)
-    body[49] = (S.bra(rel(49, DONE)), None)
-    body[52] = (S.bra(rel(52, LOOP)), None)
+    body[51] = (S.bf(rel(51, LOOP)), None)
+    body[52] = (S.bra(rel(52, DONE)), None)
+    body[55] = (S.bra(rel(55, LOOP)), None)
     n = len(body)
     lit_off = (n * 2 + 3) & ~3
     body += [(S.nop(), "nop")] * ((lit_off - n * 2) // 2)
@@ -879,8 +885,20 @@ def stub_rec_x2(table_bytes):
 
 
 def stub_drawchar1():
-    """DrawChar #1 래퍼(0x10003582 훅) — rec 완성 후 x2 를 x1+24(풀박스)로 스왑하고
-    원래 x2(=width)를 스크래치에 보관한 뒤 jsr DrawChar 재발행. pr 은 스택 보존.
+    """DrawChar #1 래퍼(0x10003582 훅) — rec 완성 후 x2 를 글리프 상자(x1+12·x1+24)로
+    스왑하고 원래 x2(=width)를 스크래치에 보관한 뒤 jsr DrawChar 재발행. pr 은 스택 보존.
+
+    ★★ 상자는 **반각 12 · 전각 24** 다 — 무조건 24 가 아니다 (2026-09-19).
+    레코드 4칸은 글리프 아틀라스의 소스 사각형(x1,y1,x2,y2)이고, 엔진이 그걸 채우는
+    자리(0x10007d40~0x10007d84)는 `len==1` 이면 **셀폭을 절반으로 줄여**
+    (`shar` → 12) `x2 = x1 + 12 - 1` 로 쓴다. 아틀라스 칸 피치는 반각도 24 라서 오른쪽
+    절반은 비어 있다. 그러니 반각에 x1+24 를 주면 **빈칸(또는 이전 문자열의 찌꺼기)
+    12px 이 글자 뒤에 함께 그려지고**, 전진폭은 표대로 12 라 다음 글자가 그 위에 겹친다.
+    한글 본문은 전부 2바이트 셀이라 안 드러났고, `itoa` 로 만든 숫자(퀴즈 `-제2문-`)와
+    raw ASCII(순위표 `1위`)처럼 **런타임 1바이트 글자**에서만 터졌다.
+
+    단서는 stub_rec_x2 가 rec.x2 상위 16비트에 실어 준 len(1/2)뿐이다 — 이 시점엔
+    엔진의 원래 x2 가 이미 덮여 있다. 상자 = 12*len, 폭 = 하위 8비트.
 
     스크래치는 **DLL 자기 섹션의 쓰기가능 슬롯**(모듈 소유·안전). 두 스텁이 `mova`(PC상대,
     리로케이션 무관)로 공유한다. mova 변위는 페이로드 배치를 아는 apply() 가 채운다.
@@ -890,43 +908,54 @@ def stub_drawchar1():
         (0x384C, "add r4,r8"),           # 0  r8 += 글자*320
         (0x382C, "add r2,r8"),           # 1  r8 += 줄*16 → rec 완성
         (0x533D, "mov.l @(52,r3),r3"),   # 2  r3 = vtable[52] = DrawChar
-        (0x5082, "mov.l @(8,r8),r0"),    # 3  r0 = rec.x2 (=width)
-        (0x6103, "mov r0,r1"),           # 4  r1 = width 보관
-        (0xC700, None),                  # 5  ★ mova scratch,r0 (변위 apply 패치)
-        (0x2012, "mov.l r1,@r0"),        # 6  *scratch = width
-        (0x6082, "mov.l @r8,r0"),        # 7  r0 = rec.x1
-        (0x7018, "add #24,r0"),          # 8  x1+24
-        (0x1802, "mov.l r0,@(8,r8)"),    # 9  rec.x2 = x1+24 (풀박스)
-        (0x6583, "mov r8,r5"),           # 10 r5 = rec
-        (0x4F22, "sts.l pr,@-r15"),      # 11 pr 저장
-        (0x430B, "jsr @r3"),             # 12 DrawChar
-        (0x64D3, "mov r13,r4"),          # 13 (지연슬롯) r4 = r13
-        (0x4F26, "lds.l @r15+,pr"),      # 14 pr 복원
-        (S.rts(), "rts"),                # 15 → 0x1000358E
-        (S.nop(), "nop"),                # 16
+        (0x5082, "mov.l @(8,r8),r0"),    # 3  r0 = rec.x2 (= width | len<<16)
+        (S.mov_reg(0, 5), "mov r0,r5"),  # 4  r5 = 실린 값(len 꺼내려고 보관)
+        (0x6103, "mov r0,r1"),           # 5  r1 = 실린 값
+        (0xC700, None),                  # 6  ★ mova scratch,r0 (변위 apply 패치)
+        (0x2012, "mov.l r1,@r0"),        # 7  *scratch = 실린 값 — ★ width 만 넣으면
+                                         #    전진폭 훅이 len 없는 값을 되돌려 **다음
+                                         #    프레임에 상자폭이 0** 이 된다(글자 실종).
+        (S.shlr16(5), "shlr16 r5"),      # 8  r5 = len (반각 1 · 전각 2)
+        (S.shll2(5), "shll2 r5"),        # 9  4*len
+        (S.mov_reg(5, 1), "mov r5,r1"),  # 10
+        (S.shll(1), "shll r1"),          # 11 8*len
+        (S.add_reg(1, 5), "add r1,r5"),  # 12 r5 = 12*len = 상자폭(12/24)
+        (0x6082, "mov.l @r8,r0"),        # 13 r0 = rec.x1
+        (S.add_reg(5, 0), "add r5,r0"),  # 14 x1 + 상자폭
+        (0x1802, "mov.l r0,@(8,r8)"),    # 15 rec.x2 = x1 + 상자폭
+        (0x6583, "mov r8,r5"),           # 16 r5 = rec
+        (0x4F22, "sts.l pr,@-r15"),      # 17 pr 저장
+        (0x430B, "jsr @r3"),             # 18 DrawChar
+        (0x64D3, "mov r13,r4"),          # 19 (지연슬롯) r4 = r13
+        (0x4F26, "lds.l @r15+,pr"),      # 20 pr 복원
+        (S.rts(), "rts"),                # 21 → 0x1000358E
+        (S.nop(), "nop"),                # 22
     ]
     if len(body) % 2:                    # 4바이트 정렬 (스크래치 슬롯 정렬 유지)
         body.append((S.nop(), "nop"))
-    return S.assemble(body), 5 * 2       # mova = body[5] → 오프셋 10
+    return S.assemble(body), 6 * 2       # mova = body[6] → 오프셋 12
 
 
 def stub_advance():
-    """전진폭 훅(0x100035B4) — rec.x2 를 스크래치(=width)로 복원하고 전진폭 r4=width.
+    """전진폭 훅(0x100035B4) — rec.x2 를 스크래치(= width|len<<16)로 **그대로** 되돌리고
+    전진폭 r4 = 하위 8비트(width). 레코드는 프레임마다 다시 그려지므로 len 을 지우면
+    다음 프레임 DrawChar 래퍼가 상자폭 0 을 계산한다.
     이어서 원본 자간(@52)·보정(@48)·charIdx++ 재현.  반환: (바이트, mova 바이트오프셋)."""
     S = sh4
     body = [
         (0xC700, None),                  # 0  ★ mova scratch,r0 (변위 apply 패치)
-        (0x6002, "mov.l @r0,r0"),        # 1  r0 = tmp(=width)
-        (0x1802, "mov.l r0,@(8,r8)"),    # 2  rec.x2 = tmp (복원)
-        (0x6403, "mov r0,r4"),           # 3  r4 = width
+        (0x6002, "mov.l @r0,r0"),        # 1  r0 = tmp(= width|len<<16)
+        (0x1802, "mov.l r0,@(8,r8)"),    # 2  rec.x2 = tmp (복원, len 포함)
+        (S.and_imm(0xFF), "and #255,r0"),  # 3  r0 = width
+        (0x6403, "mov r0,r4"),           # 4  r4 = width
         # 원본 자간/보정
-        (0x7B01, "add #1,r11"),          # 4
-        (0x51AD, "mov.l @(52,r10),r1"),  # 5
-        (0x341C, "add r1,r4"),           # 6
-        (0x52AC, "mov.l @(48,r10),r2"),  # 7
-        (0x3428, "sub r2,r4"),           # 8
-        (S.rts(), "rts"),                # 9
-        (S.nop(), "nop"),                # 10
+        (0x7B01, "add #1,r11"),          # 5
+        (0x51AD, "mov.l @(52,r10),r1"),  # 6
+        (0x341C, "add r1,r4"),           # 7
+        (0x52AC, "mov.l @(48,r10),r2"),  # 8
+        (0x3428, "sub r2,r4"),           # 9
+        (S.rts(), "rts"),                # 10
+        (S.nop(), "nop"),                # 11
     ]
     if len(body) % 2:                    # 4바이트 정렬
         body.append((S.nop(), "nop"))
@@ -1657,8 +1686,8 @@ def apply(cfg, blob):
         table, npages = build_table(cfg)
 
     # ★★ 정식 방식 (mode is True) — rec.x2 에 글자별 폭을 실어 그린다 (3 훅):
-    #   copy(HOOK2 0x10003AE6): rec.x2 = width  (게임의 x2 쓰기 0x10003b12 nop)
-    #   DrawChar 래퍼(HOOK3 0x10003582): x2 를 x1+24 풀박스로 스왑 후 jsr DrawChar
+    #   copy(HOOK2 0x10003AE6): rec.x2 = width | len<<16  (게임의 x2 쓰기 0x10003b12 nop)
+    #   DrawChar 래퍼(HOOK3 0x10003582): x2 를 x1+12*len(반각 12·전각 24)으로 스왑 후 jsr
     #   전진폭(HOOK 0x100035b4): rec.x2 복원 후 전진폭 = width
     # rec 는 obj 안 글리프와 함께 살아 동기 — 버퍼·카운트·재사용 desync 전부 없음.
     if mode is True:
