@@ -50,13 +50,19 @@ def is_fixed(e):
     """엔진이 바이트로 다루는(조립·해석·고정 폭) 항목 — 문자 규칙(docs/KO-TEXT-RULES.md
     §5)을 적용하지 않고 옛 인코딩(ASCII 1바이트, U+3000=0x8140, 합자 없음)으로 넣는다.
 
-    판정: 사람이 `fixed: true` 를 달았거나, 원문에 ASCII(서식 템플릿·색인 접두·탭·
-    반각 정렬 공백)가 있거나, 원문이 전각 공백으로 시작/끝난다(조각 조립·칸 맞춤)."""
+    판정: `fixed` 를 명시했으면 그 값(true/false)이 우선한다. 없으면 원문에 ASCII(서식
+    템플릿·색인 접두·탭·반각 정렬 공백)가 있거나, 원문이 전각 공백으로 시작/끝나면(조각
+    조립·칸 맞춤) 보호 항목이다. `fixed: false` 는 자동 판정을 끄는 용도 — 예: TRFNAMEIN
+    85984 `　さんでいいですか？　` 는 앞뒤 전각 공백으로 raw 로 잡히지만 실제로는 이름 뒤에
+    strcat 돼 CTRFMessage 로 그려질 뿐이라 바이트 위치 제약이 없다. raw 면 `?` 가 엔진 반각
+    글리프(12px 상자를 잉크로 꽉 채우는 굵은 픽셀 글자)로, 셀이면 우리가 구운 Plex 셀로 나온다."""
     from kitae.core.windows import MARKUP_ALL
     ja = (e.get("text") or {}).get("ja") or ""
     plain = MARKUP_ALL.sub("", ja)          # `&マフラー&` 의 & 는 ASCII 가 아니라 마크업
-    return (bool(e.get("fixed")) or bool(_ASCII.search(plain))
-            or ja.startswith("\u3000") or ja.endswith("\u3000"))
+    if "fixed" in e:                        # 명시 값이 자동 판정보다 우선 (false 로 끌 수 있다)
+        return bool(e["fixed"])
+    return (bool(_ASCII.search(plain))
+            or ja.startswith("　") or ja.endswith("　"))
 
 
 def texts(cfg, lang):

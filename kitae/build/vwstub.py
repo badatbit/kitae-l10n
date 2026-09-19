@@ -885,7 +885,7 @@ def stub_rec_x2(table_bytes):
 
 
 def stub_drawchar1():
-    """DrawChar #1 래퍼(0x10003582 훅) — rec 완성 후 x2 를 글리프 상자(x1+12·x1+24)로
+    """DrawChar #1 래퍼(0x10003582 훅) — rec 완성 후 x2 를 글리프 상자(x1+11·x1+23, 끝 포함)로
     스왑하고 원래 x2(=width)를 스크래치에 보관한 뒤 jsr DrawChar 재발행. pr 은 스택 보존.
 
     ★★ 상자는 **반각 12 · 전각 24** 다 — 무조건 24 가 아니다 (2026-09-19).
@@ -920,16 +920,21 @@ def stub_drawchar1():
         (S.mov_reg(5, 1), "mov r5,r1"),  # 10
         (S.shll(1), "shll r1"),          # 11 8*len
         (S.add_reg(1, 5), "add r1,r5"),  # 12 r5 = 12*len = 상자폭(12/24)
-        (0x6082, "mov.l @r8,r0"),        # 13 r0 = rec.x1
-        (S.add_reg(5, 0), "add r5,r0"),  # 14 x1 + 상자폭
-        (0x1802, "mov.l r0,@(8,r8)"),    # 15 rec.x2 = x1 + 상자폭
-        (0x6583, "mov r8,r5"),           # 16 r5 = rec
-        (0x4F22, "sts.l pr,@-r15"),      # 17 pr 저장
-        (0x430B, "jsr @r3"),             # 18 DrawChar
-        (0x64D3, "mov r13,r4"),          # 19 (지연슬롯) r4 = r13
-        (0x4F26, "lds.l @r15+,pr"),      # 20 pr 복원
-        (S.rts(), "rts"),                # 21 → 0x1000358E
-        (S.nop(), "nop"),                # 22
+        (S.add_imm(-1, 5), "add #-1,r5"),  # 13 ★ 끝 포함: 엔진 관례 x2 = x1 + 폭 − 1
+                                         #    (0x10007d80). +폭 그대로 두면 한 열 더 샘플한다 —
+                                         #    전각은 다음 칸 첫 열(빈 열)이라 안 보이지만 반각은
+                                         #    자기 칸의 안 쓰는 오른쪽 절반이라 이전 문자열
+                                         #    픽셀이 세로 한 줄로 드러난다(이름 확인창 `예` 뒤).
+        (0x6082, "mov.l @r8,r0"),        # 14 r0 = rec.x1
+        (S.add_reg(5, 0), "add r5,r0"),  # 15 x1 + 상자폭 − 1
+        (0x1802, "mov.l r0,@(8,r8)"),    # 16 rec.x2
+        (0x6583, "mov r8,r5"),           # 17 r5 = rec
+        (0x4F22, "sts.l pr,@-r15"),      # 18 pr 저장
+        (0x430B, "jsr @r3"),             # 19 DrawChar
+        (0x64D3, "mov r13,r4"),          # 20 (지연슬롯) r4 = r13
+        (0x4F26, "lds.l @r15+,pr"),      # 21 pr 복원
+        (S.rts(), "rts"),                # 22 → 0x1000358E
+        (S.nop(), "nop"),                # 23
     ]
     if len(body) % 2:                    # 4바이트 정렬 (스크래치 슬롯 정렬 유지)
         body.append((S.nop(), "nop"))
