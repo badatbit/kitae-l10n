@@ -25,7 +25,7 @@ LIMIT_PX = 600
 NAME_TOKEN = "&主人公名前&"
 NAME_GLYPHS = 8                      # 성 4 + 공백 1 + 이름 3
 
-ALLOWED_SYMBOLS = set("『』「」・―ー○△▼☆◎♂♀●〒§※■□♪×ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩ\u29f5²")   # U+29F5 = 24px 구분 기호, ² = km²(글꼴 전진폭)   # ー 는 장음(대사 114곳)
+ALLOWED_SYMBOLS = set("『』「」・―ー○△▼☆◎♂♀●〒§※■□♪×ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩ／²")   # ／ = 24px 선택지 구분 기호(9/19 정책: `/` 12px·`／` 24px, 같은 모양), ² = km²(글꼴 전진폭)   # ー 는 장음(대사 114곳)
 FW_ROMAN = {chr(0xFF21 + i) for i in range(26)} | {chr(0xFF41 + i) for i in range(26)}
 FW_MARK = set("％＆＊＠＄")          # 마크업과 겹치는 문자의 전각형
 
