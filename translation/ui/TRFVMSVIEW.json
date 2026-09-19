@@ -1049,8 +1049,9 @@
       "section": ".data",
       "text": {
         "ja": "月",
-        "ko": "월"
-      }
+        "ko": "월 "
+      },
+      "fixed": true
     },
     {
       "offset": 66500,
