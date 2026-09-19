@@ -1,6 +1,6 @@
 {
  "note": "조회 키라서 번역하지 않은 문자열. docs/UI-TEXT.md 참고",
- "count": 164,
+ "count": 163,
  "entries": [
   {
    "module": "COMMONSAVE",
@@ -596,11 +596,6 @@
    "module": "TRFTECHNOMAZE",
    "offset": "0x0275f4",
    "ja": "オプション"
-  },
-  {
-   "module": "TRFTENNIS",
-   "offset": "0x020ae8",
-   "ja": "琴梨"
   },
   {
    "module": "TRFTENNIS",
