@@ -158,8 +158,12 @@ def text_rules(cfg, lang):
         for e in doc["entries"]:
             t = e.get("text") or {}
             ko = t.get(lang) or ""
-            if not ko.strip() or (is_ui and is_fixed(e)) or ko.strip() == (t.get("ja") or "").strip():
-                continue                        # 빈 줄·보호 항목·미번역 키(ko==ja)
+            ja = t.get("ja") or ""
+            # 원문을 그대로 두는 항목: ko==ja, 또는 공백만 EN(←ASCII)·EM(←U+3000)으로 바꾼 것
+            # (스탭롤에서 번역하지 않은 일본어 이름·회사명 — 폭표에서 전각 공백이 12 라 EM 으로 맞춘다)
+            kept = ko.strip() == ja.strip() or ko.strip() == ja.replace(" ", T.EN_SPACE).replace(T.IDEO_SPACE, T.EM_SPACE).strip()
+            if not ko.strip() or (is_ui and is_fixed(e)) or kept:
+                continue                        # 빈 줄·보호 항목·원문 유지 항목
             key = e.get("window", e.get("offset"))
             for ch, n in T.bad_chars(ko).items():
                 what = "전각 공백 U+3000" if ch == T.IDEO_SPACE else f"허용 밖 글자 {ch!r} U+{ord(ch):04X}"
