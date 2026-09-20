@@ -820,6 +820,34 @@ TRFQUIZ `0x1000c1b0`)와 바이트 예산 때문에 raw 로 남긴 문자열(순
 
 **인게임 확인 완료(2026-09-19)** — 퀴즈 머리글·순위표 둘 다 정상.
 
+### ★ 미니게임 팝업(`게임 시작`) 라이브 조사 — 2026-09-20 밤, 미완
+
+Flycast Lua(`tools/lualink.py`)로 팝업이 떠 있는 순간을 뜯었다. 테스트 라벨 `게임 시작 ABC`(TRFOPTIONGAME 91420).
+- **TRFSTRINGS 런타임**: VA 델타 −0xe5c0000(정적 0x1000xxxx → 0x1a4xxxx), 이미지 phys 0x8cc8b000 부근.
+  힙 va→phys 는 청크마다 다르다(메뉴 청크 +0x8c0b3000, 라벨 사본 청크 +0x8c0c3000).
+- **팝업 글자는 매 프레임 그리는 게 아니다.** 살아 있는 CTRFMessage(vt 0x1000d3c4)·CTRFMsgput(0x1000d48c)·
+  CTRFSquareStr(0x1000dcb4/dbb4/dc14)·나머지 텍스트 컨텍스트 vt(1000d22c/d43c/d504/d7e4) 어디에도 9글자 레코드가
+  없다. CTRFMsgput 5개(글자 1~3개)의 첫 글자 폭을 6 으로 poke 해도 화면 불변. CTRFMenu(+0xe0)가 가리키는 쿼드
+  객체가 **216×26(float)** = 9글자×24 — 라벨은 텍스처에 한 번 구워진다.
+- 반면 폭표로 잰 값 **164px**(48+12+48+9+16+15+16)이 CTRFMsgput +0x2024 와 라벨 사본 뒤(0x8c5f2c58)에 남아 있다.
+  → 재기는 가변폭, 굽기는 24 고정.
+- 전역 글꼴(CTRFFont, vt 0x1000de9c, phys 0x8cde4da8)의 노드 목록 헤더 +0x6c 는 그 순간 **0**(비어 있음).
+- **구조(정적)**: CGeneralMenu(MENUSELECT.DLL) → CTRFMenu(TRFSTRINGS, vt 0x1000d82c/+4 0x1000d898, 236B).
+  SetItems(vt[3]=0x10005cc4)가 CTRFSquareStr 를 this+12 에 만들어 항목마다 SetString(0x100076cc)·측정(vt[21])하고
+  항목 문자열 사본을 this+152+i*4 에 둔다. 항목 목록 인자는 문자열 줄 목록 클래스(vt 0x1000d08c: [3]=줄수,
+  [4]=줄i 문자열, [5]=
+/0x1A 로 분할). Draw(0x10006038)는 this+20 의 객체(CTRFMsgput 로 추정)에 항목마다
+  vt[6](색)·vt[7]·vt[8]·**vt[5](항목x+2)** 를 부른다 — 항목 x 배열이 있다.
+- CTRFTextOut vt[3](0x1000970c)은 문자열을 ≤25코드로 쪼개 CTRFSquareStr 로 5×5 아틀라스를 굽고(0x1000994c →
+  SetString·vt[4]=0x10007c64 배치: x=(i%5)*24, y=(i/5)*24, 반각은 len==1 → 폭 12) 레코드를 복사한다 — HOOK5 의
+  vt[5]와 별개 경로. SquareStr 자체는 216 폭 단일 행 텍스처를 만들지 않는다(늘 5열).
+- CTRFSquareStr 의 `this+0x260` 이 노드 목록 헤더(노드 +8 code(lead<<8|trail), +12 len(2)). `$N` 은 len 0.
+- **아직 못 잡은 것**: 216×26 텍스처를 실제로 굽는 코드. 후보는 this+20 객체(CTRFMsgput = ICustomMsgput)가
+  SetText 뒤 텍스처(`$MSGsurface$`/`$MSGTMP$.pvr`, 0x100039b8·0x10003a26)에 렌더하는 경로 — SetText 안에서
+  전역 글꼴 vt[3](줄 문자열)(0x10003a0e)로 토크나이즈하므로 HOOK2 의 전역 목록은 이때는 차 있어야 한다.
+  다음 라이브 단계: 팝업이 **열리는 순간** 전역 글꼴 +0x6c 와 레코드 x2 를 잡거나(프레임 훅), HOOK2 스텁에
+  진단 링(코드·폭)을 넣어 디스크 빌드로 확인. 에뮬레이터는 22:38 께 종료돼 이날은 여기까지.
+
 ### ★★ 메뉴 상자(`CGeneralMenu`→`CTRFMenu`→`CTRFSquareStr`)는 가변폭이 안 된다 (2026-09-20)
 
 **증상.** 미니게임 선택의 `게임 시작` / `순위 보기` 에서 어절 공백이 24px 로 성기게 나온다.
