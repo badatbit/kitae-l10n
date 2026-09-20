@@ -323,24 +323,37 @@ def pack(blob, entries, encode, strict=False):
         return blob, {"kept": 0, "moved": [], "failed": fail, "free_left": 0}
 
     pool = _merge([(e["offset"], avs[id(e)] + 1) for e, _r, _f in items])
-    free = sorted(pool)
-    placed = []
-    for e, raw, refs in sorted(items, key=lambda x: -len(x[1])):
-        need = len(raw) + 1
-        off = None
-        if not strict and _carve(free, e["offset"], need):
-            off = e["offset"]
-        else:
-            cand = [(m - need, o) for o, m in free if m >= need]
-            if cand:
-                _left, off = min(cand)
-                _carve(free, off, need)
-        if off is None:
-            fail.append((e, len(raw)))
-            continue
-        placed.append((e, raw, refs, off))
-    if fail:
-        return blob, {"kept": 0, "moved": [], "failed": fail, "free_left": 0}
+
+    # 자기 자리에 들어가는 항목은 절대 실패시키지 않는다 — 큰 것부터 넣다 보면 조각난
+    # 끝에 3B(2B+NUL) 범위가 안 남아 `예`·`일` 같은 두 바이트짜리가 굶는다(키 차단 항목의
+    # 자리가 풀에서 빠진 실제 빌드에서 재현). 그런 항목은 자기 자리를 먼저 확보(예약)하고
+    # 다시 배정한다 — 매번 하나 이상 예약이 늘므로 항목 수 안에 끝난다.
+    reserved = set()
+    while True:
+        free = sorted(pool)
+        placed, fail = [], []
+        for e, raw, refs in sorted(items, key=lambda x: (id(x[0]) not in reserved, -len(x[1]))):
+            need = len(raw) + 1
+            off = None
+            if (id(e) in reserved or not strict) and _carve(free, e["offset"], need):
+                off = e["offset"]
+            else:
+                cand = [(m - need, o) for o, m in free if m >= need]
+                if cand:
+                    _left, off = min(cand)
+                    _carve(free, off, need)
+            if off is None:
+                fail.append((e, len(raw)))
+                continue
+            placed.append((e, raw, refs, off))
+        if not fail:
+            break
+        rawof = {id(x): r for x, r, _f in items}
+        again = [e for e, _n in fail
+                 if id(e) not in reserved and len(rawof[id(e)]) <= avs[id(e)]]
+        if not again:
+            return blob, {"kept": 0, "moved": [], "failed": fail, "free_left": 0}
+        reserved.update(id(e) for e in again)
 
     out = bytearray(blob)
     for off, n in pool:
