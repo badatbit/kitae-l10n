@@ -749,10 +749,17 @@ CTRFCharout 은 TRFNCHAR.DLL 에만 구현돼 있고(다른 모듈은 만들지 
 (가운데 정렬인 `・` 22 만 오른쪽 1px).
 
 **폭표.** TRFSTRINGS `.ktrw` 의 표 하나를 공유한다. 다른 모듈이라 절대주소를 못 쓰므로 폰트
-객체(`@(56,this)` = 컴포넌트 "Font"/ITRFFontC = TRFSTRINGS CTRFFont; 등록 레코드 0x1001d2f8,
-ITRFFontC vtable 정적 0x1000dc10, vt[13] = DrawChar 0x10007c64)의 vtable 주소에 (표 − 0x1000dc10)
-거리를 더한다. 스텁이 `vt[13] − vt == 0x10007c64 − 0x1000dc10` 을 먼저 확인하고 아니면 24.
-TRFFONT.DLL 에도 CTRFFont 가 있지만 글리프 데이터는 TRFSTRINGS 쪽이다.
+객체(`@(56,this)` = 컴포넌트 "Font"/ITRFFontC)의 vtable 주소에 (표 − vtable) 거리를 더한다.
+그 폰트는 TRFSTRINGS 의 CTRFFont(등록 레코드 0x1001d2f8)다 — QI 맵(0x1000de3c)이 ITRFFont·
+ITRFFontC 를 오프셋 0 으로 두므로 객체 첫 dword 의 vtable 이 그대로 쓰이고, 단독 생성(0x10008e48)
+이면 **0x1000de9c**, 집합 생성(0x10008f0c, +8 내부)이면 **0x1000de60** 이다. 둘 다 [13] = DrawChar
+0x10008bac(내부 아틀라스 객체에 위임). 스텁은 `vt[13] − vt` 를 두 후보와 대조해 맞는 쪽의 거리를
+쓰고, 둘 다 아니면 24. (첫 시도는 0x1000dc10 을 vtable 로 잘못 짚었다 — 그 주소는 어떤 생성자도
+저장하지 않는 CTRFSquareStr 표 안쪽이었고, 인게임에서 전부 폴백 24 로 나왔다. 0x270 객체
+(0x10008206, vt 0x1000dcb4/0x1000dbb4/0x1000dc14)는 CTRFSquareStr 이지 CTRFFont 가 아니다.)
+TRFFONT.DLL 에도 CTRFFont 가 있지만 글리프 데이터·"Font" 소비자(TRFK000·TRFNCHAR·TRFSTRINGS)와
+맞물리는 것은 TRFSTRINGS 쪽이다. CTRFTextOut(HOOK5)도 같은 포인터로 `@r12 → vt[13]` 을 부른다
+(0x10009cda).
 
 옵션은 HOOK5 와 같이 `vw_txout`. 구현 `vwstub.apply_nchar`(표 주소는 `apply()` 가 `_LAST` 에
 남긴다), runner 가 UI 패치 뒤 TRFNCHAR 를 ui 에 넣는다. 스탭롤 미리보기 페이지는 모든 줄을
