@@ -27,6 +27,7 @@ NAME_GLYPHS = 8                      # 성 4 + 공백 1 + 이름 3
 
 ALLOWED_SYMBOLS = set("『』「」・―ー○△▼☆◎♂♀●〒§※■□♪×ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩ／－．²")   # ／·－·． = 24px 셀(9/19·9/20 정책: `/`·`-`·`.` 와 같은 모양, 폭만 24 — ／－ 는 가운데, ． 은 왼쪽), ² = km²(글꼴 전진폭)   # ー 는 장음(대사 114곳)
 FW_ROMAN = {chr(0xFF21 + i) for i in range(26)} | {chr(0xFF41 + i) for i in range(26)}
+FW_DIGIT = {chr(0xFF10 + i) for i in range(10)}   # 전각 숫자 — 로마자와 같이 고정폭 정렬용(스탭롤 `３Ｄ무비`·『ＲＧ』 자간 맞춤, 9/20)
 FW_MARK = set("％＆＊＠＄")          # 마크업과 겹치는 문자의 전각형
 
 
@@ -41,7 +42,7 @@ def allowed(ch):
     막는다(장음 ー 만 예외)."""
     o = ord(ch)
     return (is_hangul(ch) or 0x20 <= o < 0x7F or ch == "\n" or ch in SPACES
-            or ch in ALLOWED_SYMBOLS or ch in FW_ROMAN or ch in FW_MARK
+            or ch in ALLOWED_SYMBOLS or ch in FW_ROMAN or ch in FW_DIGIT or ch in FW_MARK
             or 0x4E00 <= o <= 0x9FFF or 0x0400 <= o <= 0x04FF or 0x0370 <= o <= 0x03FF)
 
 
