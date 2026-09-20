@@ -788,6 +788,12 @@ def stub_rec_x2(table_bytes):
     노드를 안 만든다. 리스트는 SetString 진입마다 비워지니 HOOK2 시점엔 **이 줄의
     펼쳐진 글자만** 순서대로 들어 있다. `$N` 숫자 노드는 len 0 → 건너뛴다.
 
+    ★ fontobj 는 **전역 글꼴(`*r9`)** 이 맞다 — 2026-09-20 에 `this+12` 로 바꿨다가 안내문이
+    완전히 깨졌다(전역이 아닌 CTRFSquareStr 의 엉뚱한 리스트로 폭·len 을 매김). SetText 의
+    토크나이즈는 0x1000394e 에서 전역의 QI 인터페이스(ITRFStrTimingImport)에 문자열을 넘기는
+    쪽이고, 0x100039aa 의 `@(12,r8)->vt[12]()` 는 인자 없는 다른 호출이다. this+12 는 SetText 의
+    인자 객체(0x1000ae8c 로 AddRef 대입)라 글꼴이 아니다. 선택 상자(CTRFMsgput)가 24px 균일로
+    나오는 문제는 별도 — 자기검증(후보 리스트 첫 노드 코드 == 줄 첫 글자) 없이는 건드리지 말 것.
     fontobj 는 절대주소 없이 `*r9` 로 얻는다 — 레코드 빌드 함수가 0x10003918 에서
     r9 = &글꼴전역(0x1001D16C) 로 두고 HOOK2 까지 안 덮는다(정적 확인)."""
     S = sh4
@@ -804,7 +810,7 @@ def stub_rec_x2(table_bytes):
         (0xC512, "mov.w @(36,gbr),r0"),  # 9  글자수(그려지는 글자)
         (0x600D, "extu.w r0,r0"),        # 10
         (0x6703, "mov r0,r7"),           # 11 count
-        (0x6692, "mov.l @r9,r6"),        # 12 r6 = fontobj (*&글꼴전역)
+        (0x6692, "mov.l @r9,r6"),           # 12 r6 = fontobj (*&글꼴전역) — ★ this+12 아님(아래 주석)
         (0xE06C, "mov #108,r0"),         # 13 0x6C
         (S.movl_r0_rm(6, 6), "mov.l @(r0,r6),r6"),  # 14 r6 = head node
         # loop(15):
