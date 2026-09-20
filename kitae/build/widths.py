@@ -49,6 +49,8 @@ EM = 24                       # U+2003 EM SPACE (전용 셀)
 EN_SPACE, EM_SPACE, IDEO_SPACE = " ", " ", "　"
 FOUR_PER_EM_SPACE = " "  # 6px — 반 EN. 메뉴 라벨을 반각 단위로 못 맞출 때(제목 `시스템 설정`)
 Q4 = 6
+THREE_PER_EM_SPACE = " "  # 8px — 1/3 전각. 스탭롤 열 맞춤(『Sweet Dream』 뒤 `노래` 열, 9/20)
+Q3 = 8
 FIGURE_SPACE = " "       # 숫자 폭의 공백 — 한 자리 월·일의 앞자리 패딩(저장 슬롯 날짜)
 MID = "・"
 MID_W = 22
@@ -64,7 +66,7 @@ SLASH_W = 12                  # ASCII `/` 는 반각 고정(칸 가운데) — `
 ASCII_CELLS = tuple(chr(c) for c in range(0x21, 0x7F) if chr(c) not in MARKUP_CHARS)
 LIGATURES = (". ", ", ", "! ", "? ", ": ", " (", ") ")
 # 폰트 셀이 필요한 비한글 글리프 전부 (hangul.SYMBOL_PAGE 에 이 순서로 붙는다)
-SYMBOL_CELLS = (" ", EN_SPACE, EM_SPACE, SEP24, FIGURE_SPACE, FOUR_PER_EM_SPACE, DASH24, DOT24) + ASCII_CELLS + LIGATURES + tuple(FONT_ADV)
+SYMBOL_CELLS = (" ", EN_SPACE, EM_SPACE, SEP24, FIGURE_SPACE, FOUR_PER_EM_SPACE, THREE_PER_EM_SPACE, DASH24, DOT24) + ASCII_CELLS + LIGATURES + tuple(FONT_ADV)
 
 # 칸에 실제로 그릴 모양이 문자와 다른 것. REDRAW 는 그중 게임 cp932 칸을 덮어 그리는 것.
 SHAPE = {MID: "·", SEP24: "/", DASH24: "-", DOT24: "."}
@@ -127,6 +129,8 @@ class Widths:
             w = self.digit_w()
         elif ch == FOUR_PER_EM_SPACE:
             w = Q4
+        elif ch == THREE_PER_EM_SPACE:
+            w = Q3
         elif ch == IDEO_SPACE:              # 0x8140 — 보호 항목의 전각 공백 = EN(반각 단위 정렬)
             w = EN
         elif ch == MID:
