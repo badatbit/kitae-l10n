@@ -1703,9 +1703,9 @@ def apply(cfg, blob):
     # rec 는 obj 안 글리프와 함께 살아 동기 — 버퍼·카운트·재사용 desync 전부 없음.
     if mode is True:
         table, npages = build_table(cfg)
-        s_adv, adv_mova = stub_advance()
+        s_adv, adv_mova = stub_advance_diag() if cfg.get("vw_diag") else stub_advance()   # vw_diag: 전진폭 링 로그(flycast 전용)
         s_dc1, dc1_mova = stub_drawchar1()
-        s_cpy = stub_rec_x2(table)
+        s_cpy = stub_rec_x2(table)          # (rec_x2 링 진단은 stub_rec_x2_diag — 예산상 전진폭 진단과 동시 사용 불가)
         # 폭 스크래치 4B 를 s_dc1 뒤(두 mova 앞)에 4정렬로 끼운다 → 물리 RAM 대신 모듈 메모리.
         base = len(s_adv) + len(s_dc1)
         scratch_off = (base + 3) & ~3
@@ -1755,6 +1755,31 @@ def apply(cfg, blob):
             _grow_virtual(out, ".text", (s5_va - lo) + len(s5))
             out[raw + (HOOK5 - lo): raw + (HOOK5 - lo) + HOOK5_LEN] = hook_code(HOOK5, s5_va)
             txout_note = f" · TXOut 훅 {HOOK5:#x}→{s5_va:#x}({len(s5)}B, 표 {table_va:#x})"
+        # ★ vw_diag: 폰트 DrawChar 입구 진단 — HOOK5 스텁 바로 뒤 케이브(파일 크기 불변)
+        if cfg.get("vw_diag"):
+            if not cfg.get("vw_txout", True):
+                raise ValueError("vw_diag 의 DrawChar 진단은 vw_txout 스텁 뒤에 놓인다 — vw_txout 을 켜라")
+            for i, want in enumerate(DIAG_DC_ORIG):
+                got = struct.unpack_from("<H", blob, raw + (DIAG_DC_HOOK - lo) + i * 2)[0]
+                if got != want:
+                    raise ValueError(f"{DIAG_DC_HOOK + i*2:#x} = {got:#06x}, {want:#06x} 기대")
+            s6_va = (s5_va + len(s5) + 3) & ~3
+            s6_off = raw + (s6_va - lo)
+            s6 = stub_drawchar_diag(s6_va)
+            pe_ = struct.unpack_from("<I", out, 0x3C)[0]; opt_ = struct.unpack_from("<H", out, pe_ + 20)[0]
+            nsec_ = struct.unpack_from("<H", out, pe_ + 6)[0]; text_rsize = None
+            for k in range(nsec_):
+                h = pe_ + 24 + opt_ + 40 * k
+                if out[h:h + 8].rstrip(bytes(1)) == b".text":
+                    text_rsize = struct.unpack_from("<I", out, h + 16)[0]
+            if s6_off + len(s6) > raw + text_rsize:
+                raise ValueError(f"DrawChar 진단 스텁이 .text 꼬리를 넘는다: {s6_off + len(s6) - (raw + text_rsize)}B")
+            if any(out[s6_off:s6_off + len(s6)]):
+                raise ValueError(f"케이브 {s6_va:#x} 가 비어 있지 않다")
+            out[s6_off:s6_off + len(s6)] = s6
+            _grow_virtual(out, ".text", (s6_va - lo) + len(s6))
+            out[raw + (DIAG_DC_HOOK - lo): raw + (DIAG_DC_HOOK - lo) + HOOK_LEN] = hook_code(DIAG_DC_HOOK, s6_va)
+            txout_note += f" · DrawChar 진단 {DIAG_DC_HOOK:#x}→{s6_va:#x}({len(s6)}B)"
         # 게임의 rec.x2 쓰기 (0x10003b12 mov.l r1,@(8,r2) = 0x1212) → nop
         if struct.unpack_from("<H", blob, raw + (0x10003B12 - lo))[0] != 0x1212:
             raise ValueError("0x10003b12 != 0x1212")
@@ -2068,3 +2093,178 @@ def apply_nchar(cfg, blob, table_va=None):
     note = (f"TRFNCHAR 훅 {NCHAR_HOOK:#x}→{s_va:#x}({len(stub)}B, 표 {table_va:#x} = 폰트 vt {vt1:#x}/{vt2:#x}"
             f"+거리) — 스탭롤 스크롤 줄(CTRFCharout) 가변폭")
     return bytes(out), note
+
+
+# ---------------------------------------------------------------------------
+# 진단용 HOOK2 스텁 (옵션 `vw_diag`, 기본 false, 커밋 금지) — 2026-09-20
+# stub_rec_x2 와 같은 일을 하면서 SetText 줄마다 링(cnt 0x8CFE08FC, base 0x8CFE0900, 1024칸 순환)에
+#   머리글 = count<<16 | line,  글자마다 = code<<16 | (width|len<<16 의 하위 16비트 = width)
+# 를 남긴다. 팝업/선택 상자가 열릴 때 HOOK2 가 실제로 무엇을 읽고 무엇을 쓰는지 라이브로 본다.
+# ★ 물리 RAM 꼭대기(0x8CFE....)는 redream 에서 죽는다 — flycast 전용, 옵션 끄면 원래 스텁.
+DIAG_RING_CNT, DIAG_RING_BASE, DIAG_RING_MASK = 0x8CFE08FC, 0x8CFE0900, 0x3FF
+
+
+def stub_rec_x2_diag(table_bytes):
+    """stub_rec_x2 + 링 로그. 크기 예산: .ktrw 1024B 안에 adv24+dc1 48+scratch 4+cpy 가 들어가야
+    TRFSTRINGS 가 디스크 익스텐트(+1024B)를 안 넘는다 → cpy ≤ 948 = 코드 172 + 리터럴 8 + 표 768.
+    그래서 머리글은 count(≤25) 그대로, 글자는 code(≥0x8140) 그대로 남긴다(폭은 오프라인에서 표로 계산), 링은 256칸 순환."""
+    S = sh4
+    L = {}
+    LOG = [  # ring[cnt] = r5 ; cnt = (cnt+1) & 0xFF   — r0·r1 사용 (8명령)
+        (0x60B2, "mov.l @r11,r0"), (0x6103, "mov r0,r1"), (0x4108, "shll2 r1"), (0x31CC, "add r12,r1"),
+        (0x2152, "mov.l r5,@r1"), (0x7001, "add #1,r0"), (0xC9FF, "and #255,r0"), (0x2B02, "mov.l r0,@r11"),
+    ]
+    body = [
+        (0x6283, "mov r8,r2"), (0xE05C, "mov #92,r0"), (0x320C, "add r0,r2"),
+        (0x61A3, "mov r10,r1"), (0x4108, "shll2 r1"), (0x4108, "shll2 r1"), (0x321C, "add r1,r2"),   # r2 = rec_0.x2
+        ("MOVA", None),                                      # mova LIT,r0
+        (0x6B02, "mov.l @r0,r11"),                          # r11 = ring cnt 주소
+        (S.movl_disp_rm(4, 0, 12), "mov.l @(4,r0),r12"),    # r12 = ring base
+        (0x7008, "add #8,r0"),
+        (0x6303, "mov r0,r3"),                               # r3 = table
+        (0xC512, "mov.w @(36,gbr),r0"), (0x600D, "extu.w r0,r0"), (0x6703, "mov r0,r7"),   # count
+        (0x6573, "mov r7,r5"), *LOG,                              # 머리글 = count<<16
+        (0x6692, "mov.l @r9,r6"), (0xE06C, "mov #108,r0"), (S.movl_r0_rm(6, 6), "mov.l @(r0,r6),r6"),   # r6 = head
+        ("LOOP", (0x2668, "tst r6,r6")),
+        ("bt", "DONE"),
+        (S.movl_disp_rm(12, 6, 0), "mov.l @(12,r6),r0"), (0x2008, "tst r0,r0"),
+        ("bt", "SKIP"),
+        (S.movl_disp_rm(8, 6, 0), "mov.l @(8,r6),r0"), (0x6503, "mov r0,r5"), (S.extu_b(5, 5), "extu.b r5,r5"),
+        (S.shlr8(0), "shlr8 r0"), (0x6103, "mov r0,r1"),
+        (0x6013, "mov r1,r0"), (0x003C, "mov.b @(r0,r3),r0"), (0x600C, "extu.b r0,r0"), (0x6103, "mov r0,r1"),
+        (0xC880, "tst #128,r0"),
+        ("bt", "SUB"),
+        (0x6013, "mov r1,r0"), (0xC97F, "and #127,r0"),
+        ("bra", "STORE"), (S.nop(), "nop"),
+        ("SUB", (0x6013, "mov r1,r0")), (0x7001, "add #1,r0"), (0x4018, "shll8 r0"), (0x303C, "add r3,r0"), (0x305C, "add r5,r0"),
+        (0x6000, "mov.b @r0,r0"), (0x600C, "extu.b r0,r0"),
+        ("STORE", (S.movl_disp_rm(12, 6, 1), "mov.l @(12,r6),r1")), (S.shll16(1), "shll16 r1"), (S.or_reg(1, 0), "or r1,r0"),
+        (0x2202, "mov.l r0,@r2"),
+        (S.movl_disp_rm(8, 6, 5), "mov.l @(8,r6),r5"), *LOG,   # 글자 = code<<16
+        (0xE120, "mov #32,r1"), (0x4108, "shll2 r1"), (0x321C, "add r1,r2"),
+        (0x4710, "dt r7"), (0x6662, "mov.l @r6,r6"),
+        ("bf", "LOOP"),
+        ("bra", "DONE"), (S.nop(), "nop"),
+        ("SKIP", (0x6662, "mov.l @r6,r6")),
+        ("bra", "LOOP"), (S.nop(), "nop"),
+        ("DONE", (0x6BA3, "mov r10,r11")), (0x4B08, "shll2 r11"), (0xEC54, "mov #84,r12"), (0x3C8C, "add r8,r12"),
+        (0xE520, "mov #32,r5"), (0x4508, "shll2 r5"),
+        (S.rts(), "rts"), (S.nop(), "nop"),
+    ]
+    prog = []
+    for ent in body:
+        if isinstance(ent[0], str) and ent[0] in ("LOOP", "SUB", "STORE", "SKIP", "DONE"):
+            L[ent[0]] = len(prog); ent = ent[1]
+        prog.append(ent)
+    n = len(prog)
+    lit_off = (n * 2 + 3) & ~3
+    prog += [(S.nop(), "nop")] * ((lit_off - n * 2) // 2)
+    final = []
+    for i, ent in enumerate(prog):
+        if ent[0] == "MOVA":
+            final.append((S.mova(lit_off - ((i * 2 + 4) & ~3)), None))
+        elif isinstance(ent[0], str):
+            final.append(({"bt": S.bt, "bf": S.bf, "bra": S.bra}[ent[0]](L[ent[1]] - (i + 2)), None))
+        else:
+            final.append(ent)
+    code = S.assemble(final)
+    out = code + struct.pack("<II", DIAG_RING_CNT, DIAG_RING_BASE) + table_bytes
+    if len(out) > 948:
+        raise ValueError(f"진단 스텁이 예산(948B)을 넘는다: {len(out)}")
+    return out
+
+
+def stub_advance_diag():
+    """stub_advance + 링 로그(옵션 vw_diag). **표면 모드 객체(@(40,obj) 비트1)** 의 글자에서만
+    ring[cnt] = obj(r10), ring[cnt+1] = 전진폭(r4) 을 남긴다 — 매 프레임 그리는 대사창은 비트1 이
+    없어 링을 안 채운다. 팝업/선택 상자가 훅 경로(0x100034FC)로 그려지는지, 그때 전진폭이 얼마인지
+    본다. 리터럴 [cnt, base] 는 코드 뒤 4정렬. 반환: (바이트, mova 오프셋 0)."""
+    S = sh4
+    body = [
+        (0xC700, None),                  # 0  mova scratch,r0 (변위 apply 패치)
+        (0x6002, "mov.l @r0,r0"),        # 1
+        (0x1802, "mov.l r0,@(8,r8)"),    # 2  rec.x2 복원
+        (S.and_imm(0xFF), "and #255,r0"),  # 3
+        (0x6403, "mov r0,r4"),           # 4  r4 = width
+        (0x7B01, "add #1,r11"),          # 5
+        (0x51AD, "mov.l @(52,r10),r1"),  # 6
+        (0x341C, "add r1,r4"),           # 7
+        (0x52AC, "mov.l @(48,r10),r2"),  # 8
+        (0x3428, "sub r2,r4"),           # 9  r4 = 전진폭 (여기까지 원본 스텁과 같다)
+        (0xE048, "mov #72,r0"),          # 10 @(72,r15) = 이 줄의 글자수
+        (S.movl_r0_rm(15, 0), "mov.l @(r0,r15),r0"),   # 11
+        (0x8809, "cmp/eq #9,r0"),        # 12 9글자 줄(팝업 라벨)만
+        ("bf", "DONE"),                  # 13
+        ("MOVA", None),                  # 13 mova LIT,r0
+        (0x6102, "mov.l @r0,r1"),        # 14 r1 = cnt 주소
+        (S.movl_disp_rm(4, 0, 2), "mov.l @(4,r0),r2"),      # 15 r2 = base
+        (0x6012, "mov.l @r1,r0"),        # 16 cnt
+        (0x6303, "mov r0,r3"),           # 17
+        (0x4308, "shll2 r3"),            # 18
+        (0x332C, "add r2,r3"),           # 19 slot
+        (0x23A2, "mov.l r10,@r3"),       # 20 obj
+        (0x1341, "mov.l r4,@(4,r3)"),    # 21 advance
+        (0x7002, "add #2,r0"),           # 22
+        (S.and_imm(0xFF), "and #255,r0"),  # 23 256칸 순환
+        (0x2102, "mov.l r0,@r1"),        # 24
+        ("DONE", (S.rts(), "rts")),      # 25
+        (S.nop(), "nop"),                # 26
+    ]
+    L = {}; prog = []
+    for ent in body:
+        if isinstance(ent[0], str) and ent[0] == "DONE":
+            L["DONE"] = len(prog); ent = ent[1]
+        prog.append(ent)
+    n = len(prog)
+    lit_off = (n * 2 + 3) & ~3
+    prog += [(S.nop(), "nop")] * ((lit_off - n * 2) // 2)
+    final = []
+    for i, ent in enumerate(prog):
+        if ent[0] == "MOVA":
+            final.append((S.mova(lit_off - ((i * 2 + 4) & ~3)), None))
+        elif ent[0] in ("bt", "bf"):
+            final.append(({"bt": S.bt, "bf": S.bf}[ent[0]](L["DONE"] - (i + 2)), None))
+        else:
+            final.append(ent)
+    code = S.assemble(final)
+    return code + struct.pack("<II", DIAG_RING_CNT, DIAG_RING_BASE), 0
+
+
+# 폰트 DrawChar(CTRFFont vt[13] 0x10008bac) 입구 진단 — 옵션 vw_diag. 0x10008bba(PR 저장 직후) 12B 를
+# hook_code 로 바꾸고 스텁이 ring[cnt] = 호출자 PR(@r15), ring[cnt+1] = code<<16 | y1<<8 | x1 을 남긴 뒤
+# 원본 6명령(mov.l r6,@(36,r15) / mov r4,r8 / mov r5,r13 / add #-24,r15 / mov #120,r9 / add r8,r9)을 재현하고
+# rts 로 0x10008bc6 에 돌아간다. 누가 글자를 아틀라스/텍스처에 찍는지(호출자·사각형)를 본다.
+DIAG_DC_HOOK = 0x10008BBA
+DIAG_DC_ORIG = (0x1F69, 0x6843, 0x6D53, 0x7FE8, 0xE978, 0x398C)
+
+
+def stub_drawchar_diag(stub_va):
+    S = sh4
+    body = [
+        ("MOVA", None),                              # 0  mova LIT,r0
+        (0x6102, "mov.l @r0,r1"),                    # 1  r1 = cnt 주소
+        (S.movl_disp_rm(4, 0, 2), "mov.l @(4,r0),r2"),   # 2  r2 = base
+        (0x6012, "mov.l @r1,r0"),                    # 3  cnt
+        (0x6303, "mov r0,r3"), (0x4308, "shll2 r3"), (0x332C, "add r2,r3"),   # 4-6 slot
+        (0x7002, "add #2,r0"), (S.and_imm(0xFF), "and #255,r0"), (0x2102, "mov.l r0,@r1"),   # 7-9 cnt 갱신
+        (0x51F6, "mov.l @(24,r15),r1"),              # 10 스택의 r8 = 호출자(SquareStr vt[4])의 this
+        (0x2312, "mov.l r1,@r3"),                    # 11
+        (0x6153, "mov r5,r1"), (S.shll16(1), "shll16 r1"),          # 12-13 code<<16
+        (0x6062, "mov.l @r6,r0"), (S.extu_b(0, 0), "extu.b r0,r0"), (S.or_reg(0, 1), "or r0,r1"),   # 14-16 | x1
+        (S.movl_disp_rm(4, 6, 0), "mov.l @(4,r6),r0"), (S.extu_b(0, 0), "extu.b r0,r0"), (0x4018, "shll8 r0"), (S.or_reg(0, 1), "or r0,r1"),   # 17-20 | y1<<8
+        (0x1311, "mov.l r1,@(4,r3)"),                # 21
+        (0x1F69, "mov.l r6,@(36,r15)"), (0x6843, "mov r4,r8"), (0x6D53, "mov r5,r13"),   # 22-24 원본
+        (0x7FE8, "add #-24,r15"), (0xE978, "mov #120,r9"), (0x398C, "add r8,r9"),      # 25-27 원본
+        (S.rts(), "rts"), (S.nop(), "nop"),          # 28-29
+    ]
+    n = len(body)
+    lit_off = (n * 2 + 3) & ~3
+    body += [(S.nop(), "nop")] * ((lit_off - n * 2) // 2)
+    final = []
+    for i, ent in enumerate(body):
+        if ent[0] == "MOVA":
+            final.append((S.mova(lit_off - ((i * 2 + 4) & ~3)), None))
+        else:
+            final.append(ent)
+    code = S.assemble(final, stub_va)
+    return code + struct.pack("<II", DIAG_RING_CNT, DIAG_RING_BASE)

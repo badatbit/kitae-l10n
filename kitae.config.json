@@ -94,6 +94,7 @@
   "name_separator": true,
   "layout_patch": true,
   "vw_txout": true,
+  "vw_diag": false,
   "save_header_reorder": true,
   "debug_boot": false,
   "rank_name_space": true,
