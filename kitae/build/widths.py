@@ -54,6 +54,7 @@ MID = "・"
 MID_W = 22
 SEP24 = "／"                 # 선택지 구분 기호 = 전각 슬래시. ASCII `/` 와 같은 모양을 24 칸 가운데(고정 피치 행용). 9/19 정책
 DASH24 = "－"                # 전각 하이픈 = ASCII `-` 와 같은 모양을 24 칸 가운데 (9/20 정책, `／` 와 같은 규칙; 사운드룸 `좋아해－소재A`)
+DOT24 = "．"                 # 전각 마침표 = ASCII `.` 와 같은 모양을 **왼쪽 그대로** 두고 오른쪽을 비워 24 칸 (9/20 정책; 스탭롤 『북으로．』 — 원문 `。` 자리)
 DIGITS = "0123456789"
 DIGIT_PAD = 1                 # 숫자 고정폭 = 글꼴 전진폭 + 1 (오른쪽 끝 잘림 방지)
 MARKUP_CHARS = "@&%*$"        # 제어 코드 문자 — 글자로 쓰려면 전각 ％＆＊＠＄
@@ -63,10 +64,10 @@ SLASH_W = 12                  # ASCII `/` 는 반각 고정(칸 가운데) — `
 ASCII_CELLS = tuple(chr(c) for c in range(0x21, 0x7F) if chr(c) not in MARKUP_CHARS)
 LIGATURES = (". ", ", ", "! ", "? ", ": ", " (", ") ")
 # 폰트 셀이 필요한 비한글 글리프 전부 (hangul.SYMBOL_PAGE 에 이 순서로 붙는다)
-SYMBOL_CELLS = (" ", EN_SPACE, EM_SPACE, SEP24, FIGURE_SPACE, FOUR_PER_EM_SPACE, DASH24) + ASCII_CELLS + LIGATURES + tuple(FONT_ADV)
+SYMBOL_CELLS = (" ", EN_SPACE, EM_SPACE, SEP24, FIGURE_SPACE, FOUR_PER_EM_SPACE, DASH24, DOT24) + ASCII_CELLS + LIGATURES + tuple(FONT_ADV)
 
 # 칸에 실제로 그릴 모양이 문자와 다른 것. REDRAW 는 그중 게임 cp932 칸을 덮어 그리는 것.
-SHAPE = {MID: "·", SEP24: "/", DASH24: "-"}
+SHAPE = {MID: "·", SEP24: "/", DASH24: "-", DOT24: "."}
 REDRAW = (MID,)
 
 
@@ -130,7 +131,7 @@ class Widths:
             w = EN
         elif ch == MID:
             w = MID_W
-        elif ch in (SEP24, DASH24):
+        elif ch in (SEP24, DASH24, DOT24):   # DOT24 는 가운데가 아니라 왼쪽(offset 0) — 오른쪽만 빈다
             w = CELL
         elif ch == "/":
             w = SLASH_W
