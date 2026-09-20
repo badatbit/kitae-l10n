@@ -158,6 +158,14 @@
    "to": "103f0000",
    "why": ".text VirtualSize 0x3eee→0x3f10 (케이브 스텁 포함)",
    "option": "rank_name_space"
+  },
+  {
+   "module": "/TRF/KITATITLE.DLL",
+   "offset": 5072,
+   "from": "50e1",
+   "to": "00e1",
+   "why": "타이틀 사운드룸 항목 게이트: 달성도 평균 임계값 80→0 (0x10001fd0 mov #80,r1 → mov #0,r1). 게이트는 0x6e0 마스크가 아니라 CTRFFruition(this+96) 값 10개 합/9 ≥ 80 (KITATITLE 0x10001fa8~0x10001fda)",
+   "option": "soundroom_unlock"
   }
  ]
 }

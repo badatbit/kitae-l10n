@@ -96,5 +96,6 @@
   "vw_txout": true,
   "save_header_reorder": true,
   "debug_boot": false,
-  "rank_name_space": true
+  "rank_name_space": true,
+  "soundroom_unlock": true
 }

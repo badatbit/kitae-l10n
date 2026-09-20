@@ -225,3 +225,22 @@ r12=이름이고 `strcat`(0x10004CBC)는 COREDLL 임포트 썽크(`jmp @r0`)라 
 생성기 `tools/gen_rankname_patch.py`. **공백 셀 바이트를 스텁이 직접 들고 있으므로
 codepage.json 이 바뀌면 재생성해야 한다**(저장 슬롯 머리글 스텁과 같은 제약).
 끄기: `kitae config set rank_name_space false`.
+
+## 타이틀 사운드룸 항목 열기 (2026-09-20, `soundroom_unlock`)
+
+사운드룸 항목은 세이브의 해제 마스크(데이터 `0x6e0`)로 열리지 않는다. KITATITLE
+`0x10001f94~0x10001fda` 가 두 항목을 따로 판정한다:
+
+  * 미니게임: 마스크 `& 0x7F00`(미니게임 7비트 중 하나라도) → `mov.b #1,@r10`.
+  * 사운드룸: `this+96` 의 **CTRFFruition(達成度)** 객체에서 `vt[16]` 으로 받은 값 10개를
+    합해 `0x10003f3c(합, 9)`(나눗셈 썽크)로 나눈 뒤 **80 이상**이면 `mov.b #1,@r9`.
+    즉 **달성도 평균 ≥ 80%** 가 조건이다. (마스크 비트 15 `0x8000` 은 TRFOPTIONGAME 의
+    `まけましたわ` 항목 게이트라 무관 — `0x1000331c`·`0x10001802`.)
+
+세이브로 열려면 이야기 플래그(데이터 `0x426~`, KITAHEGEL GetFlag)를 대량으로 세워야
+하므로, 대신 디스크 옵션 패치로 임계값을 없앤다:
+
+    /TRF/KITATITLE.DLL 오프셋 5072 (VA 0x10001fd0): `50 e1` mov #80,r1 → `00 e1` mov #0,r1
+
+옵션 `soundroom_unlock`(kitae.config.json, 기본 true — `data/dllpatch.json` 의 `option` 은
+false 일 때만 건너뛴다). 배포 빌드에서는 `kitae config set soundroom_unlock false`.
