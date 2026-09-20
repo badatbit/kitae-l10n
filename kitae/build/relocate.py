@@ -269,3 +269,93 @@ def compact(blob, entries, encode):
     free_left = left + sum(n for _o, n in pool[si + 1:])
     return bytes(out), {"kept": kept, "moved": moved, "failed": [],
                         "free_left": free_left}
+
+
+def _carve(free, off, n):
+    """free 범위 목록에서 [off, off+n) 을 떼어 낸다. 못 떼면 False."""
+    for i, (o, m) in enumerate(free):
+        if o <= off and off + n <= o + m:
+            free.pop(i)
+            if off > o:
+                free.append((o, off - o))
+            if o + m > off + n:
+                free.append((off + n, o + m - off - n))
+            free.sort()
+            return True
+    return False
+
+
+def pack(blob, entries, encode, strict=False):
+    """전역 재배정 — 필드와 문자열의 짝을 새로 맞춘다 (best-fit decreasing, 제자리 우선).
+
+    `apply` 는 이미 빈 구멍에만 옮기고 `compact` 는 원래 순서대로 다시 깔 뿐이라,
+    "짧은 번역이 차지한 넓은 필드를 비워 긴 번역에 준다"는 짝 바꾸기를 못 한다.
+    포인터는 `.reloc` 에 등록된 진짜 포인터를 고치므로 어느 문자열이 어느 자리에
+    살든 상관없다 — 문제는 빈 패킹이다. 인접 자리를 합친 범위를 빈 공간으로 두고,
+    문자열(+NUL)을 큰 것부터 넣는다:
+
+      * 자기 자리가 아직 비어 있고 들어가면 **자기 자리**(대부분 제자리에 남는다).
+      * 아니면 남는 공간이 가장 작은 빈 범위(best-fit).
+      * `strict=True` 면 자기 자리 선호 없이 순수 best-fit — 조각남 때문에 위가
+        실패할 때 한 번 더 시도한다(거의 전부 옮긴다).
+
+    참조를 못 찾은 문자열은 옮길 수 없으니 제자리 고정, 그 자리는 풀에서 뺀다
+    (자기 칸에 못 들어가면 실패). 한 번의 배정이라 라운드가 없고, 자리가 있는데도
+    밀려나는 부수 피해가 없다(2026-09-20, 사운드룸 287항목·8개 모듈에서 PE 증설 대체).
+    """
+    from kitae.core import pestr
+
+    secs = pestr.sections(blob)
+    vm = _va_map(secs)
+    slots = reloc_slots(blob, secs)
+    avs = _clamp_avails(entries, _ref_target_offsets(blob, secs))
+
+    items, pinned, fail = [], [], []
+    for e in entries:
+        raw = encode(e["text"])
+        va = off_to_va(vm, e["offset"])
+        refs = find_refs(blob, va, slots) if va else []
+        (items if refs else pinned).append((e, raw, refs))
+    for e, raw, _r in pinned:
+        if len(raw) > avs[id(e)]:
+            fail.append((e, "참조를 못 찾음(제자리에도 안 들어감)"))
+    if fail:
+        return blob, {"kept": 0, "moved": [], "failed": fail, "free_left": 0}
+
+    pool = _merge([(e["offset"], avs[id(e)] + 1) for e, _r, _f in items])
+    free = sorted(pool)
+    placed = []
+    for e, raw, refs in sorted(items, key=lambda x: -len(x[1])):
+        need = len(raw) + 1
+        off = None
+        if not strict and _carve(free, e["offset"], need):
+            off = e["offset"]
+        else:
+            cand = [(m - need, o) for o, m in free if m >= need]
+            if cand:
+                _left, off = min(cand)
+                _carve(free, off, need)
+        if off is None:
+            fail.append((e, len(raw)))
+            continue
+        placed.append((e, raw, refs, off))
+    if fail:
+        return blob, {"kept": 0, "moved": [], "failed": fail, "free_left": 0}
+
+    out = bytearray(blob)
+    for off, n in pool:
+        out[off:off + n] = bytes(n)
+    for e, raw, _r in pinned:
+        out[e["offset"]:e["offset"] + avs[id(e)]] = raw + bytes(avs[id(e)] - len(raw))
+    moved, kept = [], len(pinned)
+    for e, raw, refs, off in placed:
+        out[off:off + len(raw) + 1] = raw + bytes(1)
+        if off == e["offset"]:
+            kept += 1
+            continue
+        new_va = off_to_va(vm, off)
+        for r in refs:
+            struct.pack_into("<I", out, r, new_va)
+        moved.append((e["offset"], off, len(refs), e["text"]))
+    return bytes(out), {"kept": kept, "moved": moved, "failed": [],
+                        "free_left": sum(m for _o, m in free)}

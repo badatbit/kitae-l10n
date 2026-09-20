@@ -250,10 +250,19 @@ def patch_all(cfg, lang, encode, base=None, verbose=False):
             got, rep = relocate.apply(base_blob, attempt, enc,
                                       extra_free=spare)
             if rep["failed"]:
-                got2, rep2 = relocate.compact(base_blob, attempt, enc)
-                if not rep2["failed"]:
-                    got, rep = got2, rep2
-                    print(f"  {name}: 빈칸이 조각나 전체 재배치로 전환")
+                # 구멍 채우기로 안 되면 전역 재배정(best-fit) — 짧은 번역이 넓은 필드를
+                # 비워 긴 번역에 준다. 그래도 안 되면 옛 compact 를 시도한다.
+                got3, rep3 = relocate.pack(base_blob, attempt, enc)
+                if rep3["failed"]:
+                    got3, rep3 = relocate.pack(base_blob, attempt, enc, strict=True)
+                if not rep3["failed"]:
+                    got, rep = got3, rep3
+                    print(f"  {name}: 빈칸이 모자라 전역 재배정(pack)으로 전환 — 이사 {len(rep3['moved'])}개")
+                else:
+                    got2, rep2 = relocate.compact(base_blob, attempt, enc)
+                    if not rep2["failed"]:
+                        got, rep = got2, rep2
+                        print(f"  {name}: 빈칸이 조각나 전체 재배치로 전환")
                 # compact 의 실패는 "참조를 못 찾음"/"풀이 모자람" 같은 **전체
                 # 중단 표지**라 개별 항목 실패 목록이 아니다 — 이걸 apply 실패와
                 # 개수로 비교해 고르면, 매 라운드 애먼 항목 하나가 지목·탈락해

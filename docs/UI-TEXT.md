@@ -244,3 +244,32 @@ codepage.json 이 바뀌면 재생성해야 한다**(저장 슬롯 머리글 스
 
 옵션 `soundroom_unlock`(kitae.config.json, 기본 true — `data/dllpatch.json` 의 `option` 은
 false 일 때만 건너뛴다). 배포 빌드에서는 `kitae config set soundroom_unlock false`.
+
+## 재배치 3단계 — apply → pack → compact (2026-09-20, `relocate.pack`)
+
+자리가 모자란 UI 문자열은 `kitae/build/relocate.py` 가 옮기고 포인터(`.reloc` 등록분만)를
+고친다. 순서(`uipatch.patch_all`):
+
+1. **apply** — 자기 자리에 들어가면 제자리, 아니면 **이미 빈 구멍**(짧아진 번역의 꼬리·
+   비운 자리·섹션 끝 패딩)에 통째로. 구멍이 문자열보다 작으면 실패.
+2. **pack** (새로 추가) — 필드와 문자열의 **짝을 새로 맞춘다**. 인접 자리를 합친 범위를
+   빈 공간으로 두고 문자열(+NUL)을 큰 것부터 넣는다: 자기 자리가 비어 있고 들어가면
+   자기 자리(대부분 제자리), 아니면 남는 공간이 가장 작은 곳(best-fit). 조각남으로
+   실패하면 `strict=True`(자기 자리 선호 없음, 거의 전부 옮김)로 한 번 더.
+   참조를 못 찾은 문자열은 옮기지 않고 제자리 고정. 라운드가 없어 "자리가 있는데도
+   밀려나는" 부수 피해가 없다.
+3. **compact** — 옛 방식(원래 순서대로 다시 깔기). pack 이 실패할 때만.
+4. 그래도 안 되면 실패 항목을 떨구며 라운드 반복 → PE 섹션 증설(디스크 여유 필요).
+
+효과(9/20 dry-run, 원본 기준): COMMONSAVE·ITEMMENU·KITATITLE·TRFFRUITION·TRFOPTIONGAME·
+TRFVMSVIEW 는 home-first 로, TRFGUIDEMAP·TRFROLL 은 strict 로 전부 들어간다 — 전엔 compact
+나 PE 증설로 가던 모듈들. KITASAVE(57B 한 줄)·TRFKARAOKE·TRFSCORE 는 용량 자체가
+모자라 옛 경로 그대로. SOUNDROOM 은 곡명 287개 중 276개를 원래 표기(앞 EN·9px 어절
+공백)로 되돌리고 11개만 줄인 표기를 남긴 채 전부 들어간다(strict, 286개 이사).
+
+한계: 문자열 하나는 어떤 배정에서도 **한 범위 안**에 있어야 하므로, 늘릴 수 있는 길이의
+상한은 총 여유가 아니라 **가장 큰 빈 범위**다(사운드룸은 48B, 대부분 12~20B 필드).
+
+★ 구현 주의: 이 저장소의 Bash 히어독은 `\x00` 같은 이스케이프를 실제 바이트로 바꾼다.
+relocate.py 를 히어독으로 쓰다 NUL 이 박혀 import 가 죽었다(9/20). 0 채우기는 `bytes(n)`,
+파일 쓰기는 파이썬으로 — 백슬래시 이스케이프를 히어독에 넣지 말 것.
