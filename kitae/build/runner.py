@@ -423,6 +423,19 @@ def _build(cfg, scripts, lang, want_font=True, verbose=False):
         except Exception as e:                 # 조립부가 다르면 건너뛴다
             print(f"  이름 공백 패치 건너뜀: {e}")
 
+    # ★ 스탭롤 스크롤 줄(CTRFCharout, TRFNCHAR.DLL) 가변폭 — HOOK6. 처음 20줄은 CTRFTXOut(HOOK5)
+    # 이지만 재사용 줄은 CTRFCharout 이 w=24 상수로 그린다. 폭표는 TRFSTRINGS 의 것을 폰트 vtable
+    # 거리로 찾는다 (근거: vwstub.apply_nchar, docs/PROPORTIONAL-WIDTH.md HOOK6).
+    if font_dll and cfg.get("font_variable") and cfg.get("vw_txout", True):
+        from kitae.build import vwstub
+        ckey = "/TRF/TRFNCHAR.DLL"
+        cbase = ui.get(ckey) or open(uipatch.original(cfg, ckey), "rb").read()
+        try:
+            ui[ckey], cnote = vwstub.apply_nchar(cfg, cbase)
+            print(f"  {cnote}")
+        except Exception as e:                 # 코드가 다르면 건너뛴다 — 스크롤 줄은 고정폭으로 남는다
+            print(f"  TRFNCHAR 훅 건너뜀: {e}")
+
     # u16 글리프-코드 와이드 문자열(환영 패널 등) — cp932 추출기가 못 잡는 형식
     from kitae.build import wstr
     nw = wstr.apply(cfg, ui, hangul.encoder(cfg))

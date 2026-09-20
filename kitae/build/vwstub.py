@@ -1745,6 +1745,7 @@ def apply(cfg, blob):
                 if got != want:
                     raise ValueError(f"{HOOK5 + i*2:#x} = {got:#06x}, {want:#06x} 기대")
             table_va = va_cpy + (len(s_cpy) - len(table))
+            _LAST["table_va"] = table_va          # HOOK6(TRFNCHAR)이 같은 표를 쓴다
             s5_va, s5_off = t_va + 3 * tl, t_off + 3 * tl
             assert s5_va % 4 == 0, hex(s5_va)
             s5 = stub_txout_advance(s5_va, table_va)
@@ -1885,3 +1886,166 @@ def _cave(blob, text_raw, text_va):
     va = text_va + (off - text_raw)
     assert va % 4 == 0, hex(va)
     return va, off
+
+
+# ---------------------------------------------------------------------------
+# ★ HOOK6 — 스탭롤 스크롤 줄(CTRFCharout, /TRF/TRFNCHAR.DLL) 전진폭 훅 (2026-09-20)
+#
+# 스탭롤(TRFROLL)은 처음 20줄만 CTRFTXOut(→HOOK5 가변폭)으로 그리고, 스크롤로 재사용되는
+# 줄은 CTRFCharout 으로 그린다. CTRFCharout 은 TRFNCHAR.DLL 에만 구현돼 있고(다른 모듈은
+# 안 쓴다) 글자마다 아틀라스 칸에 DrawChar 한 뒤 {x, y, w, h} 항목을 쌓는데, 2바이트 글자의
+# w 를 상수 24 로 넣는다(0x100016fe). 이 w 가 화면 사각형 폭이자 펜 전진폭이다
+# (0x100017b2 `@(8,entry)` → 그리기, 0x100017e2 → `@(40,frame) += w + 자간`).
+#
+# 훅: 0x100016f2~0x10001701(16B: 항목 포인터 계산 + w 저장)을
+#     `mov.l LIT,r0 / bsrf r0 / nop / bra +3 / nop / LIT(4B) / nop` 로 바꾼다.
+#     bsr(±4KB)로는 .text 꼬리 케이브(0x10002878~)에 못 닿아 bsrf 를 쓴다.
+# 스텁: 항목 포인터를 다시 계산하고, 글자 코드(u16 lead<<8|trail, 문자열 객체 +38 배열,
+#     색인 = @r13-1)로 폭표를 조회해 `@(8,entry)` 에 넣고 r3=24(다음 줄의 h 저장용)로 돌아간다.
+# 폭표: TRFSTRINGS .ktrw 의 표 하나를 공유한다. 다른 모듈이라 절대주소를 못 쓰므로
+#     폰트 객체(@(56,this), 컴포넌트 "Font"/ITRFFontC = TRFSTRINGS CTRFFont)의 vtable
+#     (정적 0x1000dc10) 기준 **거리**로 찾는다. vtable 이 기대와 다르면(vt[13]-vt 검증) 24.
+# 1바이트 글자(raw 항목의 ASCII)는 다른 블록(w=12)이라 손대지 않는다.
+NCHAR_HOOK = 0x100016F2
+NCHAR_HOOK_ORIG = (0x52AD, 0xE110, 0x4208, 0x319C, 0x4208, 0x312C, 0xE318, 0x1132)
+NCHAR_RESUME = 0x10001702
+NCHAR_FONT_VT = 0x1000DC10        # TRFSTRINGS CTRFFont 의 ITRFFontC vtable (vt[13] = DrawChar 0x10007c64)
+NCHAR_FONT_DRAWCHAR = 0x10007C64
+_LAST = {}                        # apply() 가 남기는 표 주소 — apply_nchar 가 쓴다
+
+
+def stub_nchar_width(stub_va, table_va):
+    """CTRFCharout 2바이트 글자 폭 스텁. 들어올 때 r9=항목 배열, r10=this, r13=&색인(이미 +1),
+    r14=프레임(@r14=문자열 객체). r0~r7 만 쓴다. 나갈 때 @(8,항목)=폭, r3=24."""
+    S = sh4
+    body = [
+        (S.movl_disp_rm(52, 10, 7), "mov.l @(52,r10),r7"),   # 0  k = 항목 수
+        (S.shll2(7), "shll2 r7"),                             # 1
+        (S.shll2(7), "shll2 r7"),                             # 2  k*16
+        (S.add_reg(9, 7), "add r9,r7"),                       # 3
+        (S.add_imm(16, 7), "add #16,r7"),                     # 4  r7 = 항목 포인터
+        (0x60D2, "mov.l @r13,r0"),      # 5  색인(+1 된 값)
+        (S.add_imm(-1, 0), "add #-1,r0"),                     # 6
+        (S.shll(0), "shll r0"),                               # 7  *2
+        (0x62E2, "mov.l @r14,r2"),      # 8  문자열 객체
+        (S.add_imm(38, 2), "add #38,r2"),                     # 9  u16 코드 배열
+        (S.movw_r0_rm(2, 0), "mov.w @(r0,r2),r0"),            # 10 코드
+        (S.extu_w(0, 0), "extu.w r0,r0"),                     # 11
+        (S.mov_reg(0, 5), "mov r0,r5"),                       # 12
+        (S.shlr8(0), "shlr8 r0"),                             # 13 page
+        (S.mov_reg(0, 3), "mov r0,r3"),                       # 14 r3 = page
+        (S.mov_reg(5, 0), "mov r5,r0"),                       # 15
+        (S.and_imm(255), "and #255,r0"),                      # 16
+        (S.mov_reg(0, 5), "mov r0,r5"),                       # 17 r5 = trail
+        (S.movl_disp_rm(56, 10, 2), "mov.l @(56,r10),r2"),   # 18 폰트 객체
+        (0x6222, "mov.l @r2,r2"),        # 19 vtable
+        (S.movl_disp_rm(52, 2, 0), "mov.l @(52,r2),r0"),     # 20 vt[13]
+        (0xD100, None),                                       # 21 mov.l LIT_D13,r1 (변위 아래서)
+        (S.add_reg(2, 1), "add r2,r1"),                       # 22 기대 vt[13]
+        (S.cmp_eq(1, 0), "cmp/eq r1,r0"),                     # 23
+        (S.bf(19), None),                                     # 24 → fallback(44)
+        (0xD400, None),                                       # 25 mov.l LIT_DT,r4 (변위 아래서)
+        (S.add_reg(2, 4), "add r2,r4"),                       # 26 r4 = 표
+        (S.mov_reg(3, 0), "mov r3,r0"),                       # 27 page
+        (S.movb_r0_rm(4, 0), "mov.b @(r0,r4),r0"),            # 28 페이지맵[page]
+        (S.extu_b(0, 0), "extu.b r0,r0"),                     # 29
+        (S.mov_reg(0, 1), "mov r0,r1"),                       # 30 pv
+        (S.tst_imm(128), "tst #128,r0"),                      # 31 직접값?
+        (S.bt(3), None),                                      # 32 → sub(37)
+        (S.mov_reg(1, 0), "mov r1,r0"),                       # 33
+        (S.and_imm(127), "and #127,r0"),                      # 34 폭 = pv&0x7F
+        (S.bra(7), None),                                     # 35 → got(44)... (아래 재계산)
+        (S.nop(), "nop"),                                     # 36
+        (S.mov_reg(1, 0), "mov r1,r0"),                       # 37 sub: pv
+        (S.add_imm(1, 0), "add #1,r0"),                       # 38
+        (S.shll8(0), "shll8 r0"),                             # 39 *256
+        (S.add_reg(4, 0), "add r4,r0"),                       # 40 +표
+        (S.add_reg(5, 0), "add r5,r0"),                       # 41 +trail
+        (0x6000, "mov.b @r0,r0"),                             # 42
+        (S.extu_b(0, 0), "extu.b r0,r0"),                     # 43 폭
+        (0x1702, "mov.l r0,@(8,r7)"),                         # 44 got: 항목.w = 폭
+        (S.mov_imm(24, 3), "mov #24,r3"),                     # 45 r3 = 24 (h 저장용)
+        (S.rts(), "rts"),                                     # 46
+        (S.nop(), "nop"),                                     # 47
+        (S.mov_imm(24, 0), "mov #24,r0"),                     # 48 fallback: vtable 이 기대와 다름
+        (S.bra(-7), None),                                    # 49 → got(44)
+        (S.nop(), "nop"),                                     # 50
+        (S.nop(), "nop"),                                     # 51 (4바이트 정렬)
+    ]
+    GOT, SUB, FALLBACK = 44, 37, 48
+    body[24] = (S.bf(FALLBACK - (24 + 2)), None)
+    body[32] = (S.bt(SUB - (32 + 2)), None)
+    body[35] = (S.bra(GOT - (35 + 2)), None)
+    body[49] = (S.bra(GOT - (49 + 2)), None)
+    lit_off = len(body) * 2
+    assert lit_off % 4 == 0, lit_off
+    for idx, reg in ((21, 1), (25, 4)):
+        pc = (idx * 2 + 4) & ~3
+        disp = lit_off + (0 if idx == 21 else 4) - pc
+        body[idx] = (S.movl_pc(disp, reg), None)
+    code = S.assemble(body, stub_va)
+    # 분기 목적지 되읽기: bf→fallback, bt→sub, bra→got
+    for a, t in S.disasm([w for w, _ in body], stub_va):
+        if t.startswith(("bf", "bt", "bra")):
+            tgt = int(t.split()[-1], 16)
+            if (tgt - stub_va) // 2 not in (GOT, SUB, FALLBACK):
+                raise ValueError(f"스텁 분기 {a:#x} {t} 가 엉뚱한 곳으로 간다")
+    lits = struct.pack("<i", NCHAR_FONT_DRAWCHAR - NCHAR_FONT_VT) + struct.pack("<i", table_va - NCHAR_FONT_VT)
+    return code + lits
+
+
+def nchar_hook_code(stub_va):
+    """0x100016f2 에 놓는 16B: mov.l LIT,r0 / bsrf r0 / nop / bra 0x10001702 / nop / LIT / nop."""
+    S = sh4
+    prog = [
+        (S.movl_pc(8, 0), None),                # 0x100016f2 → LIT @0x100016fc
+        (S.bsrf(0), "bsrf r0"),                               # 0x100016f4 (PC=0x100016f8)
+        (S.nop(), "nop"),                                     # 0x100016f6
+        (S.bra((NCHAR_RESUME - (NCHAR_HOOK + 6 + 4)) // 2), None),   # 0x100016f8 → 0x10001702
+        (S.nop(), "nop"),                                     # 0x100016fa
+    ]
+    code = S.assemble(prog, NCHAR_HOOK)
+    lit = struct.pack("<i", stub_va - (NCHAR_HOOK + 2 + 4))  # bsrf: PC = 0x100016f4+4
+    return code + lit + S.to_bytes([S.nop()])
+
+
+def apply_nchar(cfg, blob, table_va=None):
+    """/TRF/TRFNCHAR.DLL 에 HOOK6 을 심는다. (바이트, 로그 한 줄)."""
+    table_va = table_va or _LAST.get("table_va")
+    if not table_va:
+        raise ValueError("TRFSTRINGS 폭표 주소를 모른다 — apply() 뒤에 불러야 한다")
+    pe = struct.unpack_from("<I", blob, 0x3C)[0]
+    opt = struct.unpack_from("<H", blob, pe + 20)[0]
+    nsec = struct.unpack_from("<H", blob, pe + 6)[0]
+    base = struct.unpack_from("<I", blob, pe + 24 + 28)[0]
+    text_va = text_raw = None
+    for i in range(nsec):
+        h = pe + 24 + opt + 40 * i
+        if blob[h:h + 8].rstrip(bytes(1)) == b".text":
+            _vs, rva, _rs, raw = struct.unpack_from("<IIII", blob, h + 8)
+            text_va, text_raw = base + rva, raw
+    if text_va is None:
+        raise ValueError(".text 없음")
+    hoff = text_raw + (NCHAR_HOOK - text_va)
+    for i, want in enumerate(NCHAR_HOOK_ORIG):
+        got = struct.unpack_from("<H", blob, hoff + i * 2)[0]
+        if got != want:
+            raise ValueError(f"TRFNCHAR {NCHAR_HOOK + i*2:#x} = {got:#06x}, {want:#06x} 기대")
+    out = bytearray(blob)
+    s_va, s_off = _cave(out, text_raw, text_va)
+    stub = stub_nchar_width(s_va, table_va)
+    if any(out[s_off:s_off + len(stub)]):
+        raise ValueError(f"케이브 {s_va:#x} 가 비어 있지 않다")
+    out[s_off:s_off + len(stub)] = stub
+    _grow_virtual(out, ".text", (s_va - text_va) + len(stub))
+    hook = nchar_hook_code(s_va)
+    assert len(hook) == 16, len(hook)
+    out[hoff:hoff + 16] = hook
+    # 되읽기: bsrf 목적지 = 스텁, 리터럴 거리 = 표-vtable
+    lit = struct.unpack_from("<i", out, hoff + 10)[0]
+    assert NCHAR_HOOK + 6 + lit == s_va, (hex(lit), hex(s_va))
+    d13, dt = struct.unpack_from("<ii", out, s_off + len(stub) - 8)
+    assert d13 == NCHAR_FONT_DRAWCHAR - NCHAR_FONT_VT and dt == table_va - NCHAR_FONT_VT
+    note = (f"TRFNCHAR 훅 {NCHAR_HOOK:#x}→{s_va:#x}({len(stub)}B, 표 {table_va:#x} = 폰트 vt {NCHAR_FONT_VT:#x}"
+            f"+{dt:#x}) — 스탭롤 스크롤 줄(CTRFCharout) 가변폭")
+    return bytes(out), note
