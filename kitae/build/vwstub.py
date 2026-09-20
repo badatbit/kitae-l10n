@@ -1445,6 +1445,8 @@ def stub_txout_advance(stub_va, table_va, div_va=HOOK5_DIV):
         (0x8411, "mov.b @(1,r1),r0"),     # 9  trail
         (0x600C, "extu.b r0,r0"),         # 10
         (0x6503, "mov r0,r5"),            # 11 r5 = trail
+        # ★ 2026-09-21 되돌림: @(24,r15) 를 코드로 쓰려다 타이틀 메뉴가 겹쳤다(그 슬롯은 코드가 아니다).
+        #   0x10009bec 는 raw 바이트 문자열에서 lead/trail 을 읽어 코드를 만들므로 r11−2/−1 되읽기가 맞다.
         (0xC700, None),                   # 12 mova LIT,r0 (변위 아래서)
         (0x6102, "mov.l @r0,r1"),         # 13 r1 = 표-LIT 거리
         (0x301C, "add r1,r0"),            # 14 r0 = 표
