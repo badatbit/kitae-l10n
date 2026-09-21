@@ -187,7 +187,7 @@ def disasm(words, va=0):
     """[(주소, '명령')] — 검증과 로그용."""
     import capstone
     md = capstone.Cs(capstone.CS_ARCH_SH,
-                     capstone.CS_MODE_LITTLE_ENDIAN | (1 << 4))
+                     capstone.CS_MODE_LITTLE_ENDIAN | (1 << 4) | (1 << 6))   # SH4 | SHFPU (fmov/fmul 도 읽는다)
     return [(i.address, f"{i.mnemonic} {i.op_str}".strip())
             for i in md.disasm(to_bytes(words), va)]
 

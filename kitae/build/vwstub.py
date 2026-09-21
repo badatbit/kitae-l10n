@@ -116,6 +116,8 @@ HOOK3_ORIG = (0x384C, 0x533D, 0x382C, 0x6583, 0x430B, 0x64D3)
 
 # ★ (진단) 문자열→텍스처 렌더러 진입 뒤(pr 저장 후) 0x100076DC. r5=문자열. 여기서
 # 받은 문자열을 스크래치에 덤프해 실제 몇 글자 받는지 본다. 복귀 0x100076E8.
+HOOK8 = 0x100035A6            # 본체 DrawChar 호출(vw_menu) — HOOK3 징검다리로 같은 스텁에 간다
+HOOK8_ORIG = (0x64D3, 0x6692, 0x6583, 0x63D2, 0x533D, 0x430B)
 HOOK4 = 0x100076DC
 HOOK4_LEN = 12
 HOOK4_ORIG = (0x6843, 0x6A53, 0x7FB0, 0x6EF3, 0x7FBC, 0x548E)
@@ -890,7 +892,7 @@ def stub_rec_x2(table_bytes):
     return S.assemble(body) + table_bytes
 
 
-def stub_drawchar1():
+def stub_drawchar1(box_width=False):
     """DrawChar #1 래퍼(0x10003582 훅) — rec 완성 후 x2 를 글리프 상자(x1+11·x1+23, 끝 포함)로
     스왑하고 원래 x2(=width)를 스크래치에 보관한 뒤 jsr DrawChar 재발행. pr 은 스택 보존.
 
@@ -908,8 +910,60 @@ def stub_drawchar1():
 
     스크래치는 **DLL 자기 섹션의 쓰기가능 슬롯**(모듈 소유·안전). 두 스텁이 `mova`(PC상대,
     리로케이션 무관)로 공유한다. mova 변위는 페이로드 배치를 아는 apply() 가 채운다.
-    반환: (바이트, mova 바이트오프셋)."""
+    반환: (바이트, mova 바이트오프셋).
+
+    `box_width`(vw_menu, 2026-09-21): 아틀라스를 폭대로 촘촘히 굽는 HOOK7 과 짝 — 상자 = **폭 − 1**
+    (하위 8비트). 촘촘한 아틀라스에선 x1+23 상자가 다음 글자 칸을 물고 오므로 타자 연출 중
+    다음 글자의 왼쪽 조각이 먼저 보인다. 폭 상자면 정확히 자기 글리프만 그린다."""
     S = sh4
+    if box_width:
+        # ★ vw_menu 판(2026-09-21): 두 DrawChar 호출(그림자 0x1000358a · 본체 0x100035b0)을 **한 스텁**이 받는다
+        #   (본체 쪽 HOOK8 은 HOOK3 의 징검다리로 뛴다). 어느 쪽인지는 PR 하위 16비트(0x358E / 0x35B2)로 가른다 —
+        #   모듈 베이스가 64KB 정렬이라 재배치와 무관. 그림자: rec 완성·x2 스왑(폭−1)·스크래치 보관;
+        #   본체: 스크래치의 폭만 꺼낸다. 둘 다 **r6 = 폭**(그리기 폭)·r7 = 줄 크기(높이)로 DrawChar 를 부른다.
+        #   엔진은 r6=r7=줄 크기(24)를 넘겨 사각형을 24 로 늘려 그렸는데, 원본 대사는 전각뿐이라 드러나지 않았고
+        #   폭 상자(16·8)에선 로마자·마침표가 가로로 늘어나 깨졌다(9/21 캡처). TextOut vt[4]/HOOK5 는 원래
+        #   r6 에 글자 폭(24/12·표 폭)을 준다 — 같은 규약.
+        body = [
+            (0xC700, None),                  # 0  ★ mova scratch,r0 (변위 apply 패치)
+            (0x6303, "mov r0,r3"),           # 1  r3 = 스크래치
+            (0x012A, "sts pr,r1"),           # 2  복귀주소
+            (0x611D, "extu.w r1,r1"),        # 3  하위 16비트
+            (0x901A, None),                  # 4  mov.w LIT,r0 (= HOOK8 복귀 0x35B2)
+            (0x3100, "cmp/eq r0,r1"),        # 5
+            (S.bt(12), None),                # 6  → SITE2(20)
+            (0x384C, "add r4,r8"),           # 7  r8 += 글자*128
+            (0x382C, "add r2,r8"),           # 8  r8 += 줄*16 → rec 완성
+            (0x5082, "mov.l @(8,r8),r0"),    # 9  rec.x2 = width | len<<16
+            (0x2302, "mov.l r0,@r3"),        # 10 *scratch (len 포함 — 전진폭 훅이 되돌린다)
+            (0x6503, "mov r0,r5"),           # 11
+            (0x655C, "extu.b r5,r5"),        # 12 r5 = 폭
+            (0x6653, "mov r5,r6"),           # 13 r6 = 폭 = 그리기 폭
+            (0x75FF, "add #-1,r5"),          # 14 상자 = 폭 − 1 (끝 포함)
+            (0x6082, "mov.l @r8,r0"),        # 15 rec.x1
+            (0x305C, "add r5,r0"),           # 16
+            (0x1802, "mov.l r0,@(8,r8)"),    # 17 rec.x2 = x1 + 폭 − 1
+            (S.bra(3), None),                # 18 → CALL(23)
+            (0x6792, "mov.l @r9,r7"),        # 19 (지연) r7 = 줄 크기
+            (0x6632, "mov.l @r3,r6"),        # 20 SITE2: 스크래치
+            (0x666C, "extu.b r6,r6"),        # 21 r6 = 폭
+            (0x6792, "mov.l @r9,r7"),        # 22 r7 = 줄 크기
+            (0x63D2, "mov.l @r13,r3"),       # 23 CALL: vtable
+            (0x533D, "mov.l @(52,r3),r3"),   # 24 vt[13] = DrawChar
+            (0x6583, "mov r8,r5"),           # 25 r5 = rec
+            (0x4F22, "sts.l pr,@-r15"),      # 26
+            (0x430B, "jsr @r3"),             # 27
+            (0x64D3, "mov r13,r4"),          # 28 (지연) this
+            (0x4F26, "lds.l @r15+,pr"),      # 29
+            (S.rts(), "rts"),                # 30 → 0x1000358E / 0x100035B2
+            (S.nop(), "nop"),                # 31
+        ]
+        lit_off = len(body) * 2              # 64: mov.w 변위 = (64 − ((4*2+4)&~3)) / 2 = 26 → 0x901A
+        assert (lit_off - ((4 * 2 + 4) & ~3)) // 2 == 0x1A and lit_off % 4 == 0, lit_off
+        code = S.assemble(body)
+        got = dict(S.disasm([w for w, _ in body]))
+        assert got[6 * 2].endswith(hex(20 * 2)) and got[18 * 2].endswith(hex(23 * 2)), got
+        return code + struct.pack("<HH", (HOOK8 + HOOK3_LEN) & 0xFFFF, 0x0009), 0    # LIT16 + nop(정렬)
     body = [
         (0x384C, "add r4,r8"),           # 0  r8 += 글자*320
         (0x382C, "add r2,r8"),           # 1  r8 += 줄*16 → rec 완성
@@ -1706,7 +1760,7 @@ def apply(cfg, blob):
     if mode is True:
         table, npages = build_table(cfg)
         s_adv, adv_mova = stub_advance_diag() if cfg.get("vw_diag") else stub_advance()   # vw_diag: 전진폭 링 로그(flycast 전용)
-        s_dc1, dc1_mova = stub_drawchar1()
+        s_dc1, dc1_mova = stub_drawchar1(box_width=bool(cfg.get("vw_menu")))   # vw_menu: 상자 = 폭−1 (HOOK7 짝)
         s_cpy = stub_rec_x2(table)          # (rec_x2 링 진단은 stub_rec_x2_diag — 예산상 전진폭 진단과 동시 사용 불가)
         # 폭 스크래치 4B 를 s_dc1 뒤(두 mova 앞)에 4정렬로 끼운다 → 물리 RAM 대신 모듈 메모리.
         base = len(s_adv) + len(s_dc1)
@@ -1739,6 +1793,13 @@ def apply(cfg, blob):
             out[toff:toff + len(tr)] = tr
             _grow_virtual(out, ".text", (tva - lo) + len(tr))
             out[raw + (hookva - lo): raw + (hookva - lo) + hlen] = hook_code(hookva, tva)
+        if cfg.get("vw_menu"):
+            # ★ HOOK8: 본체 DrawChar 호출도 HOOK3 스텁(징검다리 k=1)으로 — r6 = 폭으로 그리게 (stub_drawchar1 참조)
+            for i, want in enumerate(HOOK8_ORIG):
+                got = struct.unpack_from("<H", blob, raw + (HOOK8 - lo) + i * 2)[0]
+                if got != want:
+                    raise ValueError(f"{HOOK8 + i*2:#x} = {got:#06x}, {want:#06x} 기대")
+            out[raw + (HOOK8 - lo): raw + (HOOK8 - lo) + HOOK3_LEN] = hook_code(HOOK8, t_va + 1 * tl)
         # ★ CTRFTextOut 전진폭 훅(HOOK5) — 스텁은 징검다리 3개 바로 뒤 케이브에.
         txout_note = ""
         if cfg.get("vw_txout", True):
@@ -1750,13 +1811,66 @@ def apply(cfg, blob):
             _LAST["table_va"] = table_va          # HOOK6(TRFNCHAR)이 같은 표를 쓴다
             s5_va, s5_off = t_va + 3 * tl, t_off + 3 * tl
             assert s5_va % 4 == 0, hex(s5_va)
-            s5 = stub_txout_advance(s5_va, table_va)
-            if any(out[s5_off:s5_off + len(s5)]):
-                raise ValueError(f"케이브 {s5_va:#x} 가 비어 있지 않다")
-            out[s5_off:s5_off + len(s5)] = s5
-            _grow_virtual(out, ".text", (s5_va - lo) + len(s5))
-            out[raw + (HOOK5 - lo): raw + (HOOK5 - lo) + HOOK5_LEN] = hook_code(HOOK5, s5_va)
-            txout_note = f" · TXOut 훅 {HOOK5:#x}→{s5_va:#x}({len(s5)}B, 표 {table_va:#x})"
+            if cfg.get("vw_menu"):
+                # ★ vw_menu: HOOK7c 가 사각형에 진짜 폭을 남기므로 그리기 앞에서 r8 = 사각형 폭 (HOOK5b). 전진폭 훅(HOOK5)은 불필요.
+                for i, want in enumerate(HOOK5B_ORIG):
+                    got = struct.unpack_from("<H", blob, raw + (HOOK5B - lo) + i * 2)[0]
+                    if got != want:
+                        raise ValueError(f"{HOOK5B + i*2:#x} = {got:#06x}, {want:#06x} 기대")
+                s5 = stub_txout_rect(s5_va)
+                if any(out[s5_off:s5_off + len(s5)]):
+                    raise ValueError(f"케이브 {s5_va:#x} 가 비어 있지 않다")
+                out[s5_off:s5_off + len(s5)] = s5
+                _grow_virtual(out, ".text", (s5_va - lo) + len(s5))
+                out[raw + (HOOK5B - lo): raw + (HOOK5B - lo) + 16] = hook16(HOOK5B, s5_va, HOOK5B_RESUME)
+                d1, d2 = struct.unpack_from("<ii", out, s5_off + len(s5) - 8)
+                assert s5_va + len(s5) - 8 + d1 == HOOK5B_HELPER and s5_va + len(s5) - 4 + d2 == HOOK5B_NOTFOUND, (hex(d1), hex(d2))
+                txout_note = f" · TXOut 사각형폭 훅 HOOK5b {HOOK5B:#x}→{s5_va:#x}({len(s5)}B, 표 {table_va:#x})"
+            else:
+                s5 = stub_txout_advance(s5_va, table_va)
+                if any(out[s5_off:s5_off + len(s5)]):
+                    raise ValueError(f"케이브 {s5_va:#x} 가 비어 있지 않다")
+                out[s5_off:s5_off + len(s5)] = s5
+                _grow_virtual(out, ".text", (s5_va - lo) + len(s5))
+                out[raw + (HOOK5 - lo): raw + (HOOK5 - lo) + HOOK5_LEN] = hook_code(HOOK5, s5_va)
+                txout_note = f" · TXOut 훅 {HOOK5:#x}→{s5_va:#x}({len(s5)}B, 표 {table_va:#x})"
+        # ★ vw_menu: HOOK7 — CTRFSquareStr 아틀라스 굽기(0x10007c64)를 폭대로 촘촘히(줄 안 x1 = 앞 글자 x2+1).
+        #   스텁은 HOOK5 스텁 바로 뒤 .text 꼬리 케이브(진단 스텁 자리와 같다 — vw_diag 와 동시 불가).
+        if cfg.get("vw_menu"):
+            if not cfg.get("vw_txout", True):
+                raise ValueError("vw_menu(HOOK7)는 vw_txout 의 폭표·케이브를 쓴다 — vw_txout 을 켜라")
+            if cfg.get("vw_diag"):
+                raise ValueError("vw_menu 와 vw_diag 는 같은 케이브를 쓴다 — 하나만 켜라")
+            for i, want in enumerate(HOOK7_ORIG):
+                got = struct.unpack_from("<H", blob, raw + (HOOK7 - lo) + i * 2)[0]
+                if got != want:
+                    raise ValueError(f"{HOOK7 + i*2:#x} = {got:#06x}, {want:#06x} 기대")
+            s7_va = (s5_va + len(s5) + 3) & ~3
+            s7_off = raw + (s7_va - lo)
+            s7 = stub_atlas_pack(s7_va, table_va)
+            if s7_off + len(s7) > raw + _text_rsize(out):
+                raise ValueError(f"HOOK7 스텁이 .text 꼬리를 넘는다: {s7_off + len(s7) - (raw + _text_rsize(out))}B")
+            if any(out[s7_off:s7_off + len(s7)]):
+                raise ValueError(f"케이브 {s7_va:#x} 가 비어 있지 않다")
+            out[s7_off:s7_off + len(s7)] = s7
+            _grow_virtual(out, ".text", (s7_va - lo) + len(s7))
+            out[raw + (HOOK7 - lo): raw + (HOOK7 - lo) + 16] = hook16(HOOK7, s7_va, HOOK7_RESUME)
+            lit = struct.unpack_from("<i", out, s7_off + len(s7) - 4)[0]
+            assert s7_va + len(s7) - 4 + lit == table_va, (hex(lit), hex(table_va))
+            txout_note += f" · 아틀라스 촘촘히 HOOK7 {HOOK7:#x}→{s7_va:#x}({len(s7)}B)"
+            # HOOK7c — 굽기 뒤 저장 사각형 x2 = x1+폭−1. .text 꼬리가 찼으니 .rdata 꼬리(읽기 = 실행)에 둔다.
+            for i, want in enumerate(HOOK7C_ORIG):
+                got = struct.unpack_from("<H", blob, raw + (HOOK7C - lo) + i * 2)[0]
+                if got != want:
+                    raise ValueError(f"{HOOK7C + i*2:#x} = {got:#06x}, {want:#06x} 기대")
+            c_va, c_off, c_room = _cave_sec(out, ".rdata")
+            s7c = stub_atlas_x2()
+            if len(s7c) > c_room:
+                raise ValueError(f"HOOK7c 스텁 {len(s7c)}B 가 .rdata 꼬리 {c_room}B 를 넘는다")
+            out[c_off:c_off + len(s7c)] = s7c
+            _grow_virtual(out, ".rdata", (c_va - _section_va_of(out, ".rdata")) + len(s7c))
+            out[raw + (HOOK7C - lo): raw + (HOOK7C - lo) + 16] = hook16(HOOK7C, c_va, HOOK7C_RESUME)
+            txout_note += f" · HOOK7c {HOOK7C:#x}→{c_va:#x}({len(s7c)}B, .rdata)"
         # ★ vw_diag: 폰트 DrawChar 입구 진단 — HOOK5 스텁 바로 뒤 케이브(파일 크기 불변)
         if cfg.get("vw_diag"):
             if not cfg.get("vw_txout", True):
@@ -2270,3 +2384,491 @@ def stub_drawchar_diag(stub_va):
             final.append(ent)
     code = S.assemble(final, stub_va)
     return code + struct.pack("<II", DIAG_RING_CNT, DIAG_RING_BASE)
+
+
+# ───────────────────────────────────────────────────────────────────────────────
+# ★ HOOK7 (vw_menu, 2026-09-21) — 메뉴 팝업(CGeneralMenu, MENUSELECT.DLL) 가변폭.
+#
+# 팝업 라벨은 CTRFMsgput 이 **표면 모드**로 CTRFSquareStr 아틀라스(128×128, 한 줄 5칸×24)에 한 번 굽고,
+# MENUSELECT 의 항목 빌더(vt[8] 0x10001678)가 **아틀라스 한 줄(24px 행) = 화면 120px 타일** 로 이어 붙여
+# 띠를 만든다(타일 u 0..120/128, v 는 행 표). 그러니 글자 피치는 굽기 자리(x1=(i%5)*24)가 전부다.
+#   7a TRFSTRINGS 0x10007d6e: 굽기 x1 = 같은 행 앞 글자의 x2+1(행 첫 글자는 0), 폭 = 폭표(2바이트) / 12(1바이트).
+#      사각형 x2 = x1+폭−1 은 원본 코드가 그대로 만든다. 행 배정(i/5)은 그대로라 5글자/행.
+#   7b MENUSELECT 0x100019aa(타일 루프 머리): 타일 폭 = 그 행 글자 폭 합 × k × 배율, u1(fr13) = 합/128.
+#      행 폭은 CTRFMenu(+80)+152+i*4 의 항목 문자열 사본을 걸어 폭표로 다시 센다(0x20/0x09 는 전처리기가
+#      지우므로 건너뜀). 폭표는 CTRFMenu vtable(0x1000d82c) 거리로 찾는다(HOOK6 과 같은 수법).
+#      마지막 타일 다듬기(pad = 120 − count*24%120)는 r10=0 으로 끈다(2워드).
+#   HOOK3 상자 = 폭−1 (stub_drawchar1(box_width=True)) — 촘촘한 아틀라스에서 다음 글자 조각이 새지 않게.
+HOOK5B = 0x10009C90                       # TextOut vt[5]: 사각형 찾기 헬퍼 호출 자리 (16B 훅, vw_menu)
+HOOK5B_ORIG = (0xE718, 0x64A3, 0x7B01, 0x66E3, 0xB040, 0x37FC, 0x2008, 0x8920)
+HOOK5B_RESUME = 0x10009CA0
+HOOK5B_HELPER = 0x10009D1C                # 사각형/텍스처 찾기 (this, code, &tex, &rect) → r0 = 찾음
+HOOK5B_NOTFOUND = 0x10009CE2              # 못 찾으면 원본이 뛰던 곳(그리기 건너뜀)
+HOOK7 = 0x10007D6E
+HOOK7_ORIG = (0xD0B7, 0x011A, 0x400B, 0x1F1E, 0x5286, 0x0027, 0xE040, 0x011A)
+HOOK7_RESUME = 0x10007D7E
+MSEL_HOOK = 0x100019AA
+MSEL_HOOK_ORIG = (0xE030, 0xF5F6, 0xD075, 0x400B, 0xF4EC, 0xE034, 0x94EC, 0x34FC)
+MSEL_RESUME = 0x100019BA
+MSEL_PAD = ((0x100018BA, 0xEA78, 0xEA00),     # mov #120,r10 → mov #0,r10
+            (0x100018BC, 0x3A48, 0x0009))     # sub r4,r10   → nop
+MSEL_W_HOOK = 0x10001858                  # W = float(글자수×24) 자리 (16B 훅) → W = 글자 폭 합
+MSEL_W_ORIG = (0xE218, 0x61B2, 0x0217, 0x400B, 0x041A, 0x7904, 0xF90A, 0x50F9)
+MSEL_W_RESUME = 0x10001868
+MSEL_ITOF, MSEL_FADD, MSEL_FMUL = 0x10005D84, 0x10005F38, 0x10006140   # 게임의 FP 썽크(fr4,fr5→fr0 / r4→fr0)
+MENU_VT, MENU_VT3 = 0x1000D82C, 0x10005CC4          # CTRFMenu vtable, vt[3]=SetItems (검증용 거리)
+K_UNIT = 0x3907BAC1                                  # 화면 1px 의 월드 단위(빌더가 쓰는 상수)
+INV128 = 0x3C000000                                  # 1/128
+
+
+def _text_rsize(blob):
+    pe = struct.unpack_from("<I", blob, 0x3C)[0]
+    opt = struct.unpack_from("<H", blob, pe + 20)[0]
+    nsec = struct.unpack_from("<H", blob, pe + 6)[0]
+    for k in range(nsec):
+        h = pe + 24 + opt + 40 * k
+        if blob[h:h + 8].rstrip(bytes(1)) == b".text":
+            return struct.unpack_from("<I", blob, h + 16)[0]
+    raise KeyError(".text")
+
+
+def hook16(hook_va, stub_va, resume_va):
+    """16B 훅: mov.l LIT,r0 / bsrf r0 / nop / bra resume / nop / (nop) / LIT. r0 를 쓴다.
+    LIT 는 (스텁 − (훅+6)) 거리 — 재배치 불필요. 훅 주소 4배수/2배수 둘 다 리터럴이 4정렬되게 놓는다."""
+    S = sh4
+    aligned = hook_va % 4 == 0
+    prog = [
+        (S.movl_pc(8, 0), None),                    # LIT 는 (PC&~3)+8
+        (S.bsrf(0), "bsrf r0"),
+        (S.nop(), "nop"),
+        (S.bra((resume_va - (hook_va + 6 + 4)) // 2), None),
+        (S.nop(), "nop"),
+    ]
+    if aligned:
+        prog.append((S.nop(), "nop"))               # LIT 를 +12 로
+    code = S.assemble(prog, hook_va)
+    lit = struct.pack("<i", stub_va - (hook_va + 2 + 4))
+    out = code + lit + (b"" if aligned else S.to_bytes([S.nop()]))
+    assert len(out) == 16, len(out)
+    return out
+
+
+def _resolve(body, labels, lits, stub_va):
+    """('bt'|'bf'|'bra', 라벨) · ('MOVA', 리터럴이름) · (라벨, 명령) 을 풀어 assemble 한다."""
+    S = sh4
+    L = {}
+    prog = []
+    for ent in body:
+        if isinstance(ent[0], str) and ent[0] in labels:
+            L[ent[0]] = len(prog); ent = ent[1]
+        prog.append(ent)
+    lit_off = len(prog) * 2
+    assert lit_off % 4 == 0, lit_off
+    final = []
+    for i, ent in enumerate(prog):
+        if isinstance(ent[0], str):
+            kind = ent[0]
+            if kind == "MOVA":
+                final.append((S.mova(lit_off + lits[ent[1]] - ((i * 2 + 4) & ~3)), None))
+            elif kind == "MOVW":
+                d = (lit_off + lits[ent[1]] - (i * 2 + 4)) // 2
+                assert 0 <= d <= 255 and (lit_off + lits[ent[1]] - (i * 2 + 4)) % 2 == 0, d
+                final.append((0x9000 | d, None))
+            else:
+                final.append(({"bt": S.bt, "bf": S.bf, "bra": S.bra}[kind](L[ent[1]] - (i + 2)), None))
+        else:
+            final.append(ent)
+    code = S.assemble(final, stub_va)
+    for a, t in S.disasm([w for w, _ in final], stub_va):
+        if t.startswith(("bf", "bt", "bra")):
+            tgt = (int(t.split()[-1], 16) - stub_va) // 2
+            if tgt not in L.values():
+                raise ValueError(f"스텁 분기 {a:#x} {t} 가 엉뚱한 곳으로 간다")
+    return code, lit_off
+
+
+def stub_txout_rect(stub_va):
+    """HOOK5b 스텁(TextOut 0x10009c90, vw_menu). 원본대로 헬퍼 0x10009d1c 를 부르고(사각형·텍스처 찾기), 찾았으면
+    **r8 = 사각형 폭(x2−x1+1)** — HOOK7c 로 사각형이 진짜 폭이라 표 조회가 필요 없다. 그러면 원본이 r8 로 만드는
+    그리기 폭(@(20,r15) = r8·배율/100)과 전진폭(0x10009ce2~) 이 저절로 폭이 된다(HOOK5 불필요). 못 찾으면 원본처럼
+    0x10009ce2 로 뛴다. 엔진은 r8=24 를 넘겨 8텍셀 마침표를 24px 로 늘려 `_` 처럼 그렸다(9/22 캡처)."""
+    S = sh4
+    body = [
+        (0xE718, "mov #24,r7"),               # 원본 0x10009c90~
+        (0x64A3, "mov r10,r4"),
+        (0x7B01, "add #1,r11"),
+        (0x66E3, "mov r14,r6"),
+        (0x37FC, "add r15,r7"),               # r7 = &rect 슬롯 (push 전 r15)
+        (0x4F22, "sts.l pr,@-r15"),
+        ("MOVA", "HELPER"),
+        (0x6102, "mov.l @r0,r1"),
+        (0x310C, "add r0,r1"),
+        (0x410B, "jsr @r1"),
+        (S.nop(), "nop"),
+        (0x4F26, "lds.l @r15+,pr"),
+        (0x2008, "tst r0,r0"),
+        ("bt", "NF"),
+        (0x51F6, "mov.l @(24,r15),r1"),       # rect
+        (0x5812, "mov.l @(8,r1),r8"),         # x2
+        (0x6012, "mov.l @r1,r0"),             # x1
+        (0x3808, "sub r0,r8"),
+        (0x7801, "add #1,r8"),                # r8 = 폭
+        (S.rts(), "rts"),
+        (S.nop(), "nop"),
+        ("NF", ("MOVA", "NOTFOUND")),
+        (0x6102, "mov.l @r0,r1"),
+        (0x310C, "add r0,r1"),
+        (0x412B, "jmp @r1"),
+        (S.nop(), "nop"),
+    ]
+    code, lit_off = _resolve(body, ("NF",), {"HELPER": 0, "NOTFOUND": 4}, stub_va)
+    lit_va = stub_va + lit_off
+    return code + struct.pack("<ii", HOOK5B_HELPER - lit_va, HOOK5B_NOTFOUND - (lit_va + 4))
+
+
+def stub_atlas_pack(stub_va, table_va):
+    """HOOK7a 스텁(TRFSTRINGS 0x10007d6e, 16B 훅). 들어올 때 macl=(i/5)*셀, r12=i, r8=this, r9=엔진폭(24/12),
+    @(36,r15)=코드, @(40,r15)=len(1/2). 나갈 때 @(56,r15)=y1, r1=x1, r0=64, **r9 는 그대로**(굽기 블릿은 24·12
+    사각형만 제대로 굽는다 — 폭 16 사각형을 주면 로마자가 깨진다, 9/21) — 원본 0x10007d7e 가 x2=x1+r9−1 을
+    만들고 HOOK7c 가 저장 직전에 x2 = x1+폭−1 로 고친다. 폭은 @(4,r15), 다음 글자의 x1(운영 x)은 @(0,r15)
+    (굽기 프레임의 빈 슬롯). 행 첫 글자 판정은 rect[i−1].y1 ≠ y1 (i%5 나눗셈 없이)."""
+    S = sh4
+    body = [
+        (0x011A, "sts macl,r1"),              # y1 = (i/5)*셀
+        (0x1F1E, "mov.l r1,@(56,r15)"),
+        (0xE300, "mov #0,r3"),                # x1 기본 0
+        (0x62C3, "mov r12,r2"),
+        (0x2228, "tst r2,r2"),
+        ("bt", "ROWSTART"),                   # i == 0
+        (0x4208, "shll2 r2"),
+        (0x4208, "shll2 r2"),                 # i*16
+        (0xE074, "mov #116,r0"),
+        (0x308C, "add r8,r0"),                # this+116 = &rect[-1]
+        (0x320C, "add r0,r2"),                # r2 = &rect[i-1]
+        (0x5021, "mov.l @(4,r2),r0"),         # 앞 글자 y1
+        (0x3010, "cmp/eq r1,r0"),
+        ("bf", "ROWSTART"),                   # 다른 행 → x1 = 0
+        (0x63F2, "mov.l @r15,r3"),            # 운영 x
+        ("ROWSTART", (0x6133, "mov r3,r1")),  # r1 = x1
+        (0x50FA, "mov.l @(40,r15),r0"),       # len
+        (0x8802, "cmp/eq #2,r0"),
+        ("bf", "ONE"),                        # 1바이트: 엔진 12
+        ("MOVA", "TABLE"),
+        (0x6202, "mov.l @r0,r2"),
+        (0x320C, "add r0,r2"),                # r2 = 폭표
+        (0x50F9, "mov.l @(36,r15),r0"),       # 코드
+        (0x6503, "mov r0,r5"),
+        (0x4019, "shlr8 r0"),                 # page
+        (0x002C, "mov.b @(r0,r2),r0"),        # 페이지맵
+        (0xC880, "tst #128,r0"),
+        ("bt", "SUB"),
+        ("bra", "GOT"),
+        (0xC97F, "and #127,r0"),              # (지연) 직접값
+        ("SUB", (0x7001, "add #1,r0")),
+        (0x4018, "shll8 r0"),
+        (0x302C, "add r2,r0"),
+        (0x655C, "extu.b r5,r5"),             # trail
+        (0x305C, "add r5,r0"),
+        (0x6000, "mov.b @r0,r0"),
+        ("bra", "GOT"),
+        (0x600C, "extu.b r0,r0"),             # (지연)
+        ("ONE", (0xE00C, "mov #12,r0")),
+        ("GOT", (0x1F01, "mov.l r0,@(4,r15)")),   # 폭 저장 (HOOK7c)
+        (0x303C, "add r3,r0"),
+        (0x2F02, "mov.l r0,@r15"),            # 운영 x = x1 + 폭
+        (0xE040, "mov #64,r0"),
+        (S.rts(), "rts"),
+        (S.nop(), "nop"),
+        (S.nop(), "nop"),                     # 리터럴 4정렬
+    ]
+    code, lit_off = _resolve(body, ("ROWSTART", "SUB", "ONE", "GOT"), {"TABLE": 0}, stub_va)
+    return code + struct.pack("<i", table_va - (stub_va + lit_off))
+
+
+HOOK7C = 0x10007DA4                       # 굽기 뒤 사각형 저장 직전 (16B 훅)
+HOOK7C_ORIG = (0x64C3, 0x51F6, 0x4408, 0x52FE, 0x4408, 0x710C, 0x314C, 0x1121)
+HOOK7C_RESUME = 0x10007DB4
+
+
+def stub_atlas_x2():
+    """HOOK7c 스텁: @(60,r15)(x2) = @(52,r15)(x1) + @(4,r15)(폭) − 1, 원본 8명령 재현. 사각형 배열엔 진짜 폭이
+    남아 대사(rec)·TextOut(사각형 복사)·모두 폭 사각형을 받는다. 자리는 .rdata 꼬리(SH4 는 읽기 = 실행)."""
+    S = sh4
+    body = [
+        (0x50FD, "mov.l @(52,r15),r0"),
+        (0x51F1, "mov.l @(4,r15),r1"),
+        (0x301C, "add r1,r0"),
+        (0x70FF, "add #-1,r0"),
+        (0x1F0F, "mov.l r0,@(60,r15)"),
+        (0x64C3, "mov r12,r4"),               # 원본 0x10007da4~
+        (0x51F6, "mov.l @(24,r15),r1"),
+        (0x4408, "shll2 r4"),
+        (0x52FE, "mov.l @(56,r15),r2"),
+        (0x4408, "shll2 r4"),
+        (0x710C, "add #12,r1"),
+        (0x314C, "add r4,r1"),
+        (0x1121, "mov.l r2,@(4,r1)"),
+        (S.rts(), "rts"),
+        (S.nop(), "nop"),
+        (S.nop(), "nop"),
+    ]
+    return S.assemble(body)
+
+
+
+def _section_va_of(blob, name):
+    pe = struct.unpack_from("<I", blob, 0x3C)[0]
+    opt = struct.unpack_from("<H", blob, pe + 20)[0]
+    nsec = struct.unpack_from("<H", blob, pe + 6)[0]
+    base = struct.unpack_from("<I", blob, pe + 24 + 28)[0]
+    for i in range(nsec):
+        h = pe + 24 + opt + 40 * i
+        if blob[h:h + 8].rstrip(bytes(1)) == name.encode():
+            return base + struct.unpack_from("<I", blob, h + 12)[0]
+    raise KeyError(name)
+
+
+def _cave_sec(blob, name):
+    """섹션 `name` 꼬리의 연속 0 구간 (VA, 파일오프셋, 남은 바이트) — 4정렬."""
+    pe = struct.unpack_from("<I", blob, 0x3C)[0]
+    opt = struct.unpack_from("<H", blob, pe + 20)[0]
+    nsec = struct.unpack_from("<H", blob, pe + 6)[0]
+    base = struct.unpack_from("<I", blob, pe + 24 + 28)[0]
+    for i in range(nsec):
+        h = pe + 24 + opt + 40 * i
+        if blob[h:h + 8].rstrip(bytes(1)) != name.encode():
+            continue
+        _vs, rva, rsz, raw = struct.unpack_from("<IIII", blob, h + 8)
+        end = raw + rsz
+        k = 0
+        while blob[end - 1 - k] == 0:
+            k += 1
+        off = (end - k + 3) & ~3
+        return base + rva + (off - raw), off, end - off
+    raise KeyError(name)
+
+
+def stub_menu_tiles(stub_va, table_va):
+    """HOOK7b 스텁(MENUSELECT 0x100019aa, 16B 훅; 원본 5+3명령을 대신한다). 들어올 때 r8=항목 i,
+    r11=타일 t, r9=항목 구조체(+16 배율), @r14=CGeneralMenu, fr14=x0. 나갈 때 fr0=x1(=x0+타일폭),
+    fr13=u1, @(48,r15)=타일폭(루프 끝 전진이 읽는다), r0=52, r4=r15+0x84 — 원본 0x100019ba 로 이어진다.
+    FP 는 게임 썽크(itof/fadd/fmul)를 mova 거리 리터럴로 불러 FPSCR 처리까지 원본과 같게 한다."""
+    S = sh4
+    body = [
+        (0x61E2, "mov.l @r14,r1"),            # this
+        (0xE050, "mov #80,r0"),
+        (0x011E, "mov.l @(r0,r1),r1"),        # CTRFMenu
+        (0xE04C, "mov #76,r0"),
+        (0x4000, "shll r0"),                  # 152
+        (0x6283, "mov r8,r2"),
+        (0x4208, "shll2 r2"),
+        (0x302C, "add r2,r0"),
+        (0x051E, "mov.l @(r0,r1),r5"),        # r5 = 항목 문자열 사본
+        (0x6212, "mov.l @r1,r2"),             # CTRFMenu vtable
+        (0x5123, "mov.l @(12,r2),r1"),        # vt[3]
+        (0x3128, "sub r2,r1"),                # vt[3] − vt
+        ("MOVA", "VT3"),
+        (0x6302, "mov.l @r0,r3"),
+        (0x3130, "cmp/eq r3,r1"),
+        (0xE600, "mov #0,r6"),                # r6 = 폭표 (0 = 못 찾음 → 24)
+        ("bf", "NOTBL"),
+        (0x5601, "mov.l @(4,r0),r6"),
+        (0x362C, "add r2,r6"),
+        ("NOTBL", (0xEC00, "mov #0,r12")),   # r12 = 모드(0 타일 / 1 W)
+        (0x012A, "sts pr,r1"),
+        (0x611D, "extu.w r1,r1"),
+        ("MOVW", "WRET"),                     # mov.w LIT16,r0 = W 훅 복귀 하위 16비트
+        (0x3100, "cmp/eq r0,r1"),
+        ("bf", "TILE"),
+        (0xEC01, "mov #1,r12"),               # W 모드: 전부 센다
+        (0xE200, "mov #0,r2"),
+        ("bra", "SUMSET"),
+        (0xE47F, "mov #127,r4"),              # (지연)
+        ("TILE", (0x62B3, "mov r11,r2")),
+        (0x6023, "mov r2,r0"),
+        (0x4008, "shll2 r0"),
+        (0x320C, "add r0,r2"),                # r2 = 5t = 건너뛸 글자 수
+        (0xE405, "mov #5,r4"),                # 이 행에 남은 칸
+        ("SUMSET", (0xE300, "mov #0,r3")),    # 합
+        ("LOOP", (0x6050, "mov.b @r5,r0")),
+        (0x600C, "extu.b r0,r0"),
+        (0x2008, "tst r0,r0"),
+        ("bt", "DONE"),
+        (0x8820, "cmp/eq #32,r0"),
+        ("bt", "SKIP1"),
+        (0x8809, "cmp/eq #9,r0"),
+        ("bt", "SKIP1"),
+        (0xE181, "mov #-127,r1"),             # 0x81
+        (0x611C, "extu.b r1,r1"),
+        (0x3012, "cmp/hs r1,r0"),
+        ("bf", "ONE"),
+        (0xE19F, "mov #-97,r1"),              # 0x9f
+        (0x611C, "extu.b r1,r1"),
+        (0x3016, "cmp/hi r1,r0"),
+        ("bf", "TWO"),
+        (0xE1E0, "mov #-32,r1"),              # 0xe0
+        (0x611C, "extu.b r1,r1"),
+        (0x3012, "cmp/hs r1,r0"),
+        ("bf", "ONE"),
+        (0xE1EF, "mov #-17,r1"),              # 0xef
+        (0x611C, "extu.b r1,r1"),
+        (0x3016, "cmp/hi r1,r0"),
+        ("bt", "ONE"),
+        ("TWO", (0x6703, "mov r0,r7")),       # lead
+        (0x8451, "mov.b @(1,r5),r0"),         # trail
+        (0x600C, "extu.b r0,r0"),
+        (0x4718, "shll8 r7"),
+        (0x207B, "or r7,r0"),                 # 코드
+        (0x7502, "add #2,r5"),
+        (0x2668, "tst r6,r6"),
+        ("bt", "W24"),
+        (0x6703, "mov r0,r7"),
+        (0x4019, "shlr8 r0"),                 # page
+        (0x006C, "mov.b @(r0,r6),r0"),
+        (0xC880, "tst #128,r0"),
+        ("bt", "SUB"),
+        ("bra", "HAVE"),
+        (0xC97F, "and #127,r0"),              # (지연)
+        ("SUB", (0x7001, "add #1,r0")),
+        (0x4018, "shll8 r0"),
+        (0x306C, "add r6,r0"),
+        (0x677C, "extu.b r7,r7"),
+        (0x307C, "add r7,r0"),
+        (0x6000, "mov.b @r0,r0"),
+        ("bra", "HAVE"),
+        (0x600C, "extu.b r0,r0"),             # (지연)
+        ("W24", (0xE018, "mov #24,r0")),
+        ("HAVE", (0x6103, "mov r0,r1")),      # r1 = 폭
+        ("bra", "COUNT"),
+        (S.nop(), "nop"),
+        ("ONE", (0x7501, "add #1,r5")),
+        (0xE10C, "mov #12,r1"),
+        ("COUNT", (0x2228, "tst r2,r2")),
+        ("bt", "ADD"),
+        ("bra", "LOOP"),
+        (0x72FF, "add #-1,r2"),               # (지연) 건너뛰기
+        ("ADD", (0x331C, "add r1,r3")),
+        (0x4410, "dt r4"),
+        ("bf", "LOOP"),
+        ("bra", "DONE"),
+        (S.nop(), "nop"),
+        ("SKIP1", ("bra", "LOOP")),
+        (0x7501, "add #1,r5"),                # (지연)
+        ("DONE", (0x4F22, "sts.l pr,@-r15")),
+        ("MOVA", "ITOF"),
+        (0x6202, "mov.l @r0,r2"),
+        (0x320C, "add r0,r2"),                # itof
+        (0x6433, "mov r3,r4"),                # 행 폭 / 전체 폭
+        (0x420B, "jsr @r2"),
+        (S.nop(), "nop"),                     # fr0 = float(폭)
+        (0x2CC8, "tst r12,r12"),
+        ("bt", "TILEFP"),
+        (0x4F26, "lds.l @r15+,pr"),           # W 모드 에필로그: 원본 0x10001862~ 재현
+        (0x7904, "add #4,r9"),
+        (0xF90A, "fmov fr0,@r9"),             # W = 글자 폭 합
+        (0x50F9, "mov.l @(36,r15),r0"),
+        (S.rts(), "rts"),
+        (S.nop(), "nop"),
+        ("TILEFP", (0xF20C, "fmov fr0,fr2")),
+        (0xF40C, "fmov fr0,fr4"),
+        ("MOVA", "FADD"),
+        (0x6702, "mov.l @r0,r7"),
+        (0x370C, "add r0,r7"),                # fadd
+        (0x5601, "mov.l @(4,r0),r6"),
+        (0x360C, "add r0,r6"),                # fmul
+        (0x700C, "add #12,r0"),               # FADD 리터럴(+12) → INV128(+24)
+        (0xF508, "fmov @r0,fr5"),             # 1/128
+        (0x460B, "jsr @r6"),
+        (S.nop(), "nop"),
+        (0xFD0C, "fmov fr0,fr13"),            # u1 = 행 폭/128
+        (0xF42C, "fmov fr2,fr4"),
+        ("MOVA", "KUNIT"),
+        (0xF508, "fmov @r0,fr5"),             # k
+        (0x460B, "jsr @r6"),
+        (S.nop(), "nop"),
+        (0xF40C, "fmov fr0,fr4"),
+        (0xE010, "mov #16,r0"),
+        (0xF596, "fmov @(r0,r9),fr5"),        # 배율
+        (0x460B, "jsr @r6"),
+        (S.nop(), "nop"),                     # fr0 = 타일 폭(단위)
+        (0xF50C, "fmov fr0,fr5"),
+        (0xF4EC, "fmov fr14,fr4"),
+        (0x470B, "jsr @r7"),
+        (S.nop(), "nop"),                     # fr0 = x0 + 타일 폭
+        (0x4F26, "lds.l @r15+,pr"),
+        (0xE030, "mov #48,r0"),
+        (0xFF57, "fmov fr5,@(r0,r15)"),       # 루프 끝 전진(0x10001b40)이 읽는 타일 폭
+        (0xE034, "mov #52,r0"),
+        (0xE442, "mov #66,r4"),
+        (0x4400, "shll r4"),
+        (0x34FC, "add r15,r4"),
+        (S.rts(), "rts"),
+        (S.nop(), "nop"),
+        (S.nop(), "nop"),                     # 리터럴 4정렬
+    ]
+    labels = ("NOTBL", "TILE", "SUMSET", "LOOP", "TWO", "SUB", "W24", "HAVE", "ONE", "COUNT", "ADD", "SKIP1", "DONE", "TILEFP")
+    lits = {"VT3": 0, "TABLE": 4, "ITOF": 8, "FADD": 12, "FMUL": 16, "KUNIT": 20, "INV128": 24, "WRET": 28}
+    code, lit_off = _resolve(body, labels, lits, stub_va)
+    lit_va = stub_va + lit_off
+    # ★ 썽크 거리는 **더하는 r0 의 값** 기준: ITOF 는 mova ITOF(=+8) 로 r0=lit+8, FADD/FMUL 은 mova FADD(=+12) 로
+    #   r0=lit+12 에서 더한다. 묶음 머리(lit_va) 기준으로 넣었다가 썽크 +8/+12 로 뛰어 팝업에서 멈췄다(9/21).
+    vals = [MENU_VT3 - MENU_VT, table_va - MENU_VT, MSEL_ITOF - (lit_va + 8), MSEL_FADD - (lit_va + 12),
+            MSEL_FMUL - (lit_va + 12), K_UNIT, INV128]
+    return (code + b"".join(struct.pack("<i" if v < 0x80000000 else "<I", v) for v in vals)
+            + struct.pack("<HH", (MSEL_W_HOOK + 6) & 0xFFFF, 0x0009))   # WRET: W 훅 복귀(hook16 = 훅+6) 하위 16비트
+
+
+def apply_menu(cfg, blob, table_va=None):
+    """/TRF/MENUSELECT.DLL 에 HOOK7b 를 심는다. (바이트, 로그 한 줄)."""
+    table_va = table_va or _LAST.get("table_va")
+    if not table_va:
+        raise ValueError("TRFSTRINGS 폭표 주소를 모른다 — apply() 뒤에 불러야 한다")
+    pe = struct.unpack_from("<I", blob, 0x3C)[0]
+    opt = struct.unpack_from("<H", blob, pe + 20)[0]
+    nsec = struct.unpack_from("<H", blob, pe + 6)[0]
+    base = struct.unpack_from("<I", blob, pe + 24 + 28)[0]
+    text_va = text_raw = None
+    for i in range(nsec):
+        h = pe + 24 + opt + 40 * i
+        if blob[h:h + 8].rstrip(bytes(1)) == b".text":
+            _vs, rva, _rs, raw = struct.unpack_from("<IIII", blob, h + 8)
+            text_va, text_raw = base + rva, raw
+    if text_va is None:
+        raise ValueError(".text 없음")
+    hoff = text_raw + (MSEL_HOOK - text_va)
+    for i, want in enumerate(MSEL_HOOK_ORIG):
+        got = struct.unpack_from("<H", blob, hoff + i * 2)[0]
+        if got != want:
+            raise ValueError(f"MENUSELECT {MSEL_HOOK + i*2:#x} = {got:#06x}, {want:#06x} 기대")
+    for va, want, _new in MSEL_PAD:
+        got = struct.unpack_from("<H", blob, text_raw + (va - text_va))[0]
+        if got != want:
+            raise ValueError(f"MENUSELECT {va:#x} = {got:#06x}, {want:#06x} 기대")
+    out = bytearray(blob)
+    s_va, s_off = _cave(out, text_raw, text_va)
+    stub = stub_menu_tiles(s_va, table_va)
+    if any(out[s_off:s_off + len(stub)]):
+        raise ValueError(f"케이브 {s_va:#x} 가 비어 있지 않다")
+    out[s_off:s_off + len(stub)] = stub
+    _grow_virtual(out, ".text", (s_va - text_va) + len(stub))
+    out[hoff:hoff + 16] = hook16(MSEL_HOOK, s_va, MSEL_RESUME)
+    woff = text_raw + (MSEL_W_HOOK - text_va)
+    for i, want in enumerate(MSEL_W_ORIG):
+        got = struct.unpack_from("<H", blob, woff + i * 2)[0]
+        if got != want:
+            raise ValueError(f"MENUSELECT {MSEL_W_HOOK + i*2:#x} = {got:#06x}, {want:#06x} 기대")
+    out[woff:woff + 16] = hook16(MSEL_W_HOOK, s_va, MSEL_W_RESUME)     # 같은 스텁, PR 로 W 모드
+    for va, _want, new in MSEL_PAD:
+        struct.pack_into("<H", out, text_raw + (va - text_va), new)
+    # 되읽기: bsrf 목적지, 리터럴 거리
+    lit = struct.unpack_from("<i", out, hoff + 10)[0]
+    assert MSEL_HOOK + 6 + lit == s_va, (hex(lit), hex(s_va))
+    lit = struct.unpack_from("<i", out, woff + 12)[0]
+    assert MSEL_W_HOOK + 6 + lit == s_va, (hex(lit), hex(s_va))
+    lit_va = s_va + len(stub) - 32
+    v = struct.unpack_from("<iiiiiII", out, s_off + len(stub) - 32)
+    assert v[0] == MENU_VT3 - MENU_VT and v[1] == table_va - MENU_VT, v[:2]
+    assert (lit_va + 8 + v[2], lit_va + 12 + v[3], lit_va + 12 + v[4]) == (MSEL_ITOF, MSEL_FADD, MSEL_FMUL), v[2:5]
+    note = (f"MENUSELECT 훅 {MSEL_HOOK:#x}/{MSEL_W_HOOK:#x}→{s_va:#x}({len(stub)}B, 표 {table_va:#x} = CTRFMenu vt {MENU_VT:#x}+거리)"
+            f" · pad 끔 — 팝업 항목 타일 폭·W = 글자 폭 합")
+    return bytes(out), note

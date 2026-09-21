@@ -436,6 +436,15 @@ def _build(cfg, scripts, lang, want_font=True, verbose=False):
         except Exception as e:                 # 코드가 다르면 건너뛴다 — 스크롤 줄은 고정폭으로 남는다
             print(f"  TRFNCHAR 훅 건너뜀: {e}")
 
+    # ★ 메뉴 팝업(CGeneralMenu, MENUSELECT.DLL) 가변폭 — HOOK7b. TRFSTRINGS 쪽 HOOK7a(아틀라스 촘촘히)와
+    # 짝이라 vw_menu 는 둘을 함께 켠다(근거: vwstub.apply_menu, docs/PROPORTIONAL-WIDTH.md HOOK7).
+    if font_dll and cfg.get("font_variable") and cfg.get("vw_txout", True) and cfg.get("vw_menu"):
+        from kitae.build import vwstub
+        mkey = "/TRF/MENUSELECT.DLL"
+        mbase = ui.get(mkey) or open(uipatch.original(cfg, mkey), "rb").read()
+        ui[mkey], mnote = vwstub.apply_menu(cfg, mbase)   # 실패는 빌드 실패 — 7a 만 걸리면 팝업 행이 어긋난다
+        print(f"  {mnote}")
+
     # u16 글리프-코드 와이드 문자열(환영 패널 등) — cp932 추출기가 못 잡는 형식
     from kitae.build import wstr
     nw = wstr.apply(cfg, ui, hangul.encoder(cfg))

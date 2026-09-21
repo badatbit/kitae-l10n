@@ -95,6 +95,7 @@
   "layout_patch": true,
   "vw_txout": true,
   "vw_diag": false,
+  "vw_menu": true,
   "save_header_reorder": true,
   "debug_boot": false,
   "rank_name_space": true,
