@@ -1,0 +1,33 @@
+MIT License
+
+Copyright (c) 2026 badatbit
+
+이 라이선스는 이 저장소의 **코드와 문서**에만 적용됩니다
+(`kitae/`, `tools/`, `docs/`, `README.md`).
+`translation/` 과 `images/` 의 번역문·레터링, 그리고 원작에서 비롯한 모든 자료는
+적용 대상이 아닙니다. README 의 "라이선스 / 범위" 절을 참고하세요.
+
+This license covers only the code and documentation in this repository
+(`kitae/`, `tools/`, `docs/`, `README.md`). It does NOT cover the Korean
+translation and lettering under `translation/` and `images/`, nor any material
+derived from the original game. See the "라이선스 / 범위" section of README.md.
+
+---
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
