@@ -1825,7 +1825,26 @@ def apply(cfg, blob):
                 out[raw + (HOOK5B - lo): raw + (HOOK5B - lo) + 16] = hook16(HOOK5B, s5_va, HOOK5B_RESUME)
                 d1, d2 = struct.unpack_from("<ii", out, s5_off + len(s5) - 8)
                 assert s5_va + len(s5) - 8 + d1 == HOOK5B_HELPER and s5_va + len(s5) - 4 + d2 == HOOK5B_NOTFOUND, (hex(d1), hex(d2))
-                txout_note = f" · TXOut 사각형폭 훅 HOOK5b {HOOK5B:#x}→{s5_va:#x}({len(s5)}B, 표 {table_va:#x})"
+                txout_note = f" · TXOut 사각형폭 훅 HOOK5b {HOOK5B:#x}→{s5_va:#x}({len(s5)}B)"
+                # ★ 전진폭은 사각형이 아니라 **폭표**로 따로 정한다(HOOK5 를 같이 건다).
+                #   HOOK5b 만 두면 r8(=사각형 폭)이 그리기와 전진을 동시에 정하는데, 아틀라스를
+                #   HOOK7 이 안 채우는 화면(TRFNAMEIN 의 CTRFTextOut 6개)에서는 사각형이 24 라
+                #   전진도 24 로 돌아가 고정폭이 된다(2026-09-24 인게임 A/B 로 확인).
+                #   그리기 폭 = 사각형(HOOK5b) · 전진폭 = 폭표(HOOK5) 로 갈라야 양쪽이 산다.
+                a5_va = (s5_va + len(s5) + 3) & ~3
+                a5_off = raw + (a5_va - lo)
+                for i, want in enumerate(HOOK5_ORIG):
+                    got = struct.unpack_from("<H", blob, raw + (HOOK5 - lo) + i * 2)[0]
+                    if got != want:
+                        raise ValueError(f"{HOOK5 + i*2:#x} = {got:#06x}, {want:#06x} 기대")
+                a5 = stub_txout_advance(a5_va, table_va)
+                if any(out[a5_off:a5_off + len(a5)]):
+                    raise ValueError(f"케이브 {a5_va:#x} 가 비어 있지 않다")
+                out[a5_off:a5_off + len(a5)] = a5
+                _grow_virtual(out, ".text", (a5_va - lo) + len(a5))
+                out[raw + (HOOK5 - lo): raw + (HOOK5 - lo) + HOOK5_LEN] = hook_code(HOOK5, a5_va)
+                s5_va, s5 = a5_va, a5      # 뒤따르는 케이브 계산이 이어지도록
+                txout_note += f" · TXOut 전진폭 훅 HOOK5 {HOOK5:#x}→{a5_va:#x}({len(a5)}B, 표 {table_va:#x})"
             else:
                 s5 = stub_txout_advance(s5_va, table_va)
                 if any(out[s5_off:s5_off + len(s5)]):
@@ -1845,19 +1864,19 @@ def apply(cfg, blob):
                 got = struct.unpack_from("<H", blob, raw + (HOOK7 - lo) + i * 2)[0]
                 if got != want:
                     raise ValueError(f"{HOOK7 + i*2:#x} = {got:#06x}, {want:#06x} 기대")
-            s7_va = (s5_va + len(s5) + 3) & ~3
-            s7_off = raw + (s7_va - lo)
+            # 스텁은 `.pdata` 꼬리에 — `.text` 꼬리는 징검다리·HOOK5b·HOOK5 로 찼다.
+            s7_va, s7_off, s7_room = _cave_sec(out, ".pdata")
             s7 = stub_atlas_pack(s7_va, table_va)
-            if s7_off + len(s7) > raw + _text_rsize(out):
-                raise ValueError(f"HOOK7 스텁이 .text 꼬리를 넘는다: {s7_off + len(s7) - (raw + _text_rsize(out))}B")
+            if len(s7) > s7_room:
+                raise ValueError(f"HOOK7 스텁 {len(s7)}B 가 .pdata 꼬리 {s7_room}B 를 넘는다")
             if any(out[s7_off:s7_off + len(s7)]):
                 raise ValueError(f"케이브 {s7_va:#x} 가 비어 있지 않다")
             out[s7_off:s7_off + len(s7)] = s7
-            _grow_virtual(out, ".text", (s7_va - lo) + len(s7))
+            _grow_virtual(out, ".pdata", (s7_va - _section_va_of(out, ".pdata")) + len(s7))
             out[raw + (HOOK7 - lo): raw + (HOOK7 - lo) + 16] = hook16(HOOK7, s7_va, HOOK7_RESUME)
             lit = struct.unpack_from("<i", out, s7_off + len(s7) - 4)[0]
             assert s7_va + len(s7) - 4 + lit == table_va, (hex(lit), hex(table_va))
-            txout_note += f" · 아틀라스 촘촘히 HOOK7 {HOOK7:#x}→{s7_va:#x}({len(s7)}B)"
+            txout_note += f" · 아틀라스 촘촘히 HOOK7 {HOOK7:#x}→{s7_va:#x}({len(s7)}B, .pdata)"
             # HOOK7c — 굽기 뒤 저장 사각형 x2 = x1+폭−1. .text 꼬리가 찼으니 .rdata 꼬리(읽기 = 실행)에 둔다.
             for i, want in enumerate(HOOK7C_ORIG):
                 got = struct.unpack_from("<H", blob, raw + (HOOK7C - lo) + i * 2)[0]

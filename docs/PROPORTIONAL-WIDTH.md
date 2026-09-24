@@ -57,10 +57,10 @@
 | HOOK3 `stub_drawchar1` | 0x10003582 (그림자 DrawChar) | rec.x2 → `x1 + 상자−1` 로 스왑, 실린 값을 스크래치에 보관, DrawChar 재발행. 상자 = 12×len−1, `vw_menu` 면 폭−1 + **그리기 폭 r6 = 폭** | font_variable |
 | HOOK8 | 0x100035A6 (본체 DrawChar) | HOOK3 징검다리로 같은 스텁. PR 하위 16비트(0x358E/0x35B2)로 호출 구분, 스크래치의 폭만 꺼내 r6 | vw_menu |
 | HOOK `stub_advance` | 0x100035B4 (전진폭) | rec.x2 를 스크래치 값 그대로 복원, 전진폭 = `값 & 0xFF` + 자간 | font_variable |
-| HOOK5 `stub_txout_advance` | 0x10009CE2 (TextOut 전진) | r8==24 면 r11−2/−1 로 코드 되읽어 폭표 조회 → 전진폭 | vw_txout (vw_menu 꺼짐일 때) |
-| HOOK5b `stub_txout_rect` | 0x10009C90 (TextOut 사각형 찾기) | 헬퍼 0x10009d1c 호출 뒤 **r8 = 사각형 폭** → 그리기 폭·전진폭 모두 폭. 못 찾으면 0x10009ce2 로 jmp | vw_menu (HOOK5 대신) |
+| HOOK5 `stub_txout_advance` | 0x10009CE2 (TextOut 전진) | r8==24 면 r11−2/−1 로 코드 되읽어 폭표 조회 → **전진폭**. vw_menu 여도 함께 건다 | vw_txout |
+| HOOK5b `stub_txout_rect` | 0x10009C90 (TextOut 사각형 찾기) | 헬퍼 0x10009d1c 호출 뒤 **r8 = 사각형 폭** → **그리기 폭**만. 못 찾으면 0x10009ce2 로 jmp | vw_menu (HOOK5 와 함께) |
 | HOOK6 `stub_nchar_width` | TRFNCHAR 0x100016F2 | 항목 w = 폭표(문자열 객체 +38 u16 배열, 색인 @r13−1). 폭표는 폰트 vtable(0x1000de9c/0x1000de60) 거리 | vw_txout |
-| HOOK7a `stub_atlas_pack` | 0x10007D6E (아틀라스 굽기) | x1 = 운영 x(@(0,r15)), 폭(@(4,r15)) = 폭표/12. **굽기 사각형은 엔진 24/12 유지**. 행 첫 글자 = rect[i−1].y1≠y1 | vw_menu |
+| HOOK7a `stub_atlas_pack` | 0x10007D6E (아틀라스 굽기) | x1 = 운영 x(@(0,r15)), 폭(@(4,r15)) = 폭표/12. **굽기 사각형은 엔진 24/12 유지**. 행 첫 글자 = rect[i−1].y1≠y1. 스텁은 .pdata 꼬리 | vw_menu |
 | HOOK7c `stub_atlas_x2` | 0x10007DA4 (사각형 저장 직전) | x2 = x1+폭−1 → 사각형 배열이 진짜 폭(대사 rec·TextOut 복사 모두 받음). 스텁은 .rdata 꼬리 | vw_menu |
 | HOOK7b `stub_menu_tiles` | MENUSELECT 0x100019AA (타일 루프) | 타일 폭·u1·@(48,r15) = 행 t 글자 폭 합(항목 사본 CTRFMenu+152+i*4 를 폭표로, 0x20/0x09 건너뜀) × k × 배율 | vw_menu |
 | W 훅 (같은 스텁) | MENUSELECT 0x10001858 | W(선택 막대·정렬 폭) = 글자 폭 합. PR 하위 16비트(0x185E/0x19B0)로 모드, r12 = 모드 | vw_menu |
@@ -76,10 +76,17 @@ MENUSELECT 의 FP 는 게임 썽크(itof 0x10005d84·fadd 0x10005f38·fmul 0x100
 - **TRFSTRINGS `.ktrw`**(RWX, 새 섹션, `.reloc` 앞): adv 24 + dc1 68 + 스크래치 4 + cpy 900(코드 132 + 표 768) ≤ 1,024B.
   디스크 익스텐트 여유가 1,024B 뿐이라 못 키운다. **스크래치는 모듈 메모리**여야 한다(물리 RAM 0x8CFE0100 은 redream
   크래시).
-- **TRFSTRINGS `.text` 꼬리 케이브** 0x1000c31c~0x1000c400(228B): 징검다리 3개(36B, 훅→bsrf→braf→.ktrw) + HOOK5b(60B,
-  vw_menu 아니면 HOOK5 92B) + HOOK7a(96B). 꽉 차서 `vw_diag`(DrawChar 진단 스텁) 와 `vw_menu` 는 함께 못 켠다.
-- **`.rdata` 꼬리**(62B): HOOK7c 32B. SH4 MMU 는 실행 비트가 없어 읽기 = 실행. `hook16`(mov.l/bsrf, 32비트 거리)은
-  어디든 닿고, `hook_code`(12B, bsrf 16비트 거리)는 64KB 안만.
+- **스텁 자리**(TRFSTRINGS). SH4 MMU 는 실행 비트가 없어 어느 섹션이든 읽기 = 실행이다.
+  `hook16`(mov.l/bsrf, 32비트 거리)은 어디든 닿고, `hook_code`(12B, bsrf 16비트 거리)는 64KB 안만 닿는다.
+
+  | 꼬리 | 크기 | 들어간 것 |
+  |---|---|---|
+  | `.text` 0x1000c31c~0x1000c400 | 228B | 징검다리 3개 36 + HOOK5b 60 + HOOK5 92 (40B 남음) |
+  | `.pdata` | 322B | HOOK7a 96 + 조사 훅 80 |
+  | `.rdata` | 62B | HOOK7c 32 |
+
+  `.text` 가 좁아 HOOK7a 를 `.pdata` 로 옮겼다(9/24). `vw_diag` 의 DrawChar 진단 스텁은 `.text` 꼬리를
+  쓰므로 `vw_menu` 와 함께 못 켠다.
 - TRFNCHAR `.text` 꼬리(0x10002878, 132B)·MENUSELECT `.text` 꼬리(0x10009a48, 332B/440B).
 - 훅 코드는 **r0 을 쓴다** — 스텁이 원래 r0 을 쓰려면 다시 구한다.
 - 진단 모드(`font_variable` 값): `flat`(무조건 22)·`len`·`page40`·`swap40`·`ruler6/4/2/0`·`low6`·`cp40`·`diag` — 화면으로 가르려면
@@ -90,6 +97,9 @@ MENUSELECT 의 FP 는 게임 썽크(itof 0x10005d84·fadd 0x10005f38·fmul 0x100
 - 전진폭 훅은 `width | len<<16` 을 **그대로** 복원한다. width 만 되돌리면 다음 프레임 상자폭이 0(글자 실종).
 - 1바이트 글자 상자는 12 를 넘기지 말 것(오른쪽 12px 은 찌꺼기). 상자는 끝 포함(`+폭−1`).
 - 폭 상자만 주고 그리기 폭(r6)을 안 바꾸면 DrawRect 가 늘려 그린다 — 대사(HOOK3/8)·TextOut(HOOK5b) 둘 다 r6=폭.
+- **TextOut 은 그리기 폭과 전진폭을 갈라야 한다.** HOOK5b 만 두면 r8(사각형 폭) 하나가 둘 다 정하는데,
+  아틀라스를 HOOK7 이 안 채우는 화면(TRFNAMEIN 이 직접 만드는 CTRFTextOut 6개)에서는 사각형이 24 라
+  전진도 24 로 돌아가 고정폭이 된다(9/24 인게임 A/B 확인). 그리기 = 사각형(HOOK5b), 전진 = 폭표(HOOK5).
 - 굽기 사각형을 폭으로 줄이면 블릿이 깨진다 — 굽기는 24/12, 저장 직전에 x2 만 고친다(HOOK7c).
 - 코드는 노드 리스트에만 있다. `r11` raw 문자열 파싱(이름 토큰 어긋남), `obj+0x1FFC`(공유 표), 그리기 훅에서 노드
   인덱싱(마크업 토큰이 섞여 노드 idx ≠ 글자 idx) — 전부 틀렸다.
@@ -104,6 +114,6 @@ MENUSELECT 의 FP 는 게임 썽크(itof 0x10005d84·fadd 0x10005f38·fmul 0x100
 ## 인게임 확인 상태
 
 - 대사·안내문(HOOK/2/3): 확인. 이름 토큰(2026-09-17)·퀴즈 머리글/순위표 1바이트(9/19)·이름 확인창(9/20) 확인.
-- TextOut(HOOK5→HOOK5b)·타이틀 VMS 안내: 확인(9/22). 스탭롤 스크롤 줄(HOOK6): 정적 검증, 인게임 미확인.
+- TextOut(HOOK5b+HOOK5)·타이틀 VMS 안내: 확인(9/22, 9/24). 스탭롤 스크롤 줄(HOOK6): 정적 검증, 인게임 미확인.
 - 메뉴 팝업(HOOK7a/7b/7c/8/W): 확인(9/22, flycast) — `게임 시작`·`순위 보기`·로마자·선택 막대 길이·대사창 로마자·
   마침표 정상.
