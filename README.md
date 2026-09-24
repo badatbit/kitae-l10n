@@ -110,6 +110,25 @@ SOZ 처럼 디스크에 넣는 단계에서 한 번 더 손대는 것이 있어,
 현재 39개 파일입니다(원자료 16.7MB). 사용자는 원본 GDI/CDI 와 이 `.dcp` 를 패처에 넣으면
 패치된 이미지가 나옵니다.
 
+### 윈도 설치 프로그램 (NSIS)
+
+```
+python tools/make_installer.py -v v0.9   # dist/installer.nsi
+makensis dist/installer.nsi              # NSIS 3(유니코드) 필요
+```
+
+원본 `track03.bin` 의 sha256 을 `certutil`(윈도 기본 도구)로 재서
+
+  * **같으면** 같이 넣은 `xdelta3.exe` 로 바로 적용하고 끝냅니다 — 완전 자동.
+  * **다르면** 다른 덤프본이므로 `.dcp` 와 안내문을 출력 폴더에 꺼내고 패처 내려받기 쪽을 엽니다.
+
+★ 두 번째가 자동이 아닌 이유: Universal Dreamcast Patcher 는 **GUI 전용**(Avalonia .NET)이라
+명령줄로 조용히 적용할 방법이 없습니다. DCP 를 직접 적용하려면 ISO9660 파일 교체와 Mode1 섹터
+EDC/ECC 재계산이 필요한데(`kitae/build/disc.py` 가 하는 일) NSIS 로는 못 합니다.
+
+컴파일하려면 `dist/xdelta3.exe` 를 먼저 넣어야 합니다(GPL, 저장소에 두지 않습니다).
+해시가 스크립트에 박히므로 **빌드할 때마다 생성기를 다시 돌려야** 합니다.
+
 ## 문서
 
 - [ANALYSIS.md](docs/ANALYSIS.md) — 디스크·아카이브 전체 구조

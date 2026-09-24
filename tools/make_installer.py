@@ -1,0 +1,230 @@
+# -*- coding: utf-8 -*-
+"""NSIS 설치 프로그램 스크립트를 만든다 (dist/installer.nsi).
+
+흐름은 사용자 요청대로다 — **원본 해시가 맞으면 xdelta 로 바로 패치하고, 아니면 DCP 로 넘긴다.**
+
+  1. 원본 `track03.bin` 이 있는 폴더를 고른다
+  2. `certutil -hashfile … SHA256` 으로 해시를 잰다 (윈도 기본 도구, 추가 의존성 없음)
+  3. 해시가 같으면 → 같이 넣은 `xdelta3.exe` 로 차분을 적용하고 **끝**
+  4. 다르면 → 다른 덤프본이다. `.dcp` 와 안내문을 출력 폴더에 풀고 패처 내려받기 쪽을 띄운다
+
+★ 4번이 자동이 아닌 이유: Universal Dreamcast Patcher 는 **GUI 전용**이라(Avalonia .NET)
+  명령줄 인자로 조용히 적용할 방법이 없다. DCP 를 코드로 직접 적용하려면 ISO9660 파일 교체와
+  Mode1 섹터 EDC/ECC 재계산이 필요한데(우리 `kitae/build/disc.py` 가 하는 일) NSIS 로는 못 한다.
+
+해시를 스크립트에 박아 두므로 **빌드할 때마다 이 생성기를 다시 돌려야** 한다.
+
+    python tools/make_installer.py -v v0.9
+    makensis dist/installer.nsi          # NSIS 3 (유니코드) 필요
+"""
+import argparse
+import glob
+import hashlib
+import os
+import sys
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, ROOT)
+sys.stdout.reconfigure(encoding="utf-8")
+
+from kitae.config import Config          # noqa: E402
+
+TITLE = "Kita He - White Illumination (KO)"
+UDP_URL = "https://github.com/DerekPascarella/UniversalDreamcastPatcher/releases"
+
+NSI = r'''; 북으로. White Illumination 한국어 패치 설치 프로그램
+; tools/make_installer.py 가 생성합니다 — 손으로 고치지 마세요(해시가 박혀 있습니다).
+Unicode true
+!include "MUI2.nsh"
+!include "LogicLib.nsh"
+
+Name "{title} {ver}"
+OutFile "{out_exe}"
+RequestExecutionLevel user
+ShowInstDetails show
+
+Var SrcDir          ; 원본 track03.bin 이 있는 폴더
+Var OutDir          ; 결과를 쓸 폴더
+Var SrcHash
+
+!define EXPECT "{src_sha}"
+!define XDELTA "{xdelta_name}"
+!define DCP    "{dcp_name}"
+
+!define MUI_WELCOMEPAGE_TITLE "{title} {ver}"
+!define MUI_WELCOMEPAGE_TEXT "원본 디스크 이미지(GDI)에 한국어 패치를 적용합니다.$\r$\n$\r$\n\
+원본은 그대로 두고 패치본을 새 폴더에 만듭니다. 약 1.2GB 의 빈 공간이 필요합니다.$\r$\n$\r$\n\
+원본이 우리가 쓴 덤프본과 같으면 곧바로 적용하고, 다르면 범용 패처용 파일을 꺼내 드립니다."
+!insertmacro MUI_PAGE_WELCOME
+
+; ── 원본 폴더
+!define MUI_PAGE_HEADER_TEXT "원본 디스크 이미지"
+!define MUI_PAGE_HEADER_SUBTEXT "track01.bin · track02.raw · track03.bin 이 들어 있는 폴더"
+!define MUI_DIRECTORYPAGE_TEXT_TOP "원본 GDI 폴더를 고르세요. 이 폴더는 바뀌지 않습니다."
+!define MUI_DIRECTORYPAGE_TEXT_DESTINATION "원본 폴더"
+!define MUI_DIRECTORYPAGE_VARIABLE $SrcDir
+!define MUI_PAGE_CUSTOMFUNCTION_LEAVE CheckSrc
+!insertmacro MUI_PAGE_DIRECTORY
+
+; ── 출력 폴더
+!define MUI_PAGE_HEADER_TEXT "패치본을 만들 곳"
+!define MUI_PAGE_HEADER_SUBTEXT "빈 폴더를 권합니다"
+!define MUI_DIRECTORYPAGE_TEXT_TOP "패치된 이미지를 쓸 폴더입니다. 약 1.2GB 가 필요합니다."
+!define MUI_DIRECTORYPAGE_TEXT_DESTINATION "출력 폴더"
+!define MUI_DIRECTORYPAGE_VARIABLE $OutDir
+!insertmacro MUI_PAGE_DIRECTORY
+
+!insertmacro MUI_PAGE_INSTFILES
+!insertmacro MUI_LANGUAGE "Korean"
+
+Function .onInit
+  StrCpy $SrcDir "$DOCUMENTS"
+  StrCpy $OutDir "$DESKTOP\{title} {ver}"
+FunctionEnd
+
+; 원본 폴더에 track03.bin 이 있나
+Function CheckSrc
+  ${{IfNot}} ${{FileExists}} "$SrcDir\track03.bin"
+    MessageBox MB_ICONSTOP "이 폴더에 track03.bin 이 없습니다.$\r$\nGDI 파일들이 있는 폴더를 고르세요."
+    Abort
+  ${{EndIf}}
+FunctionEnd
+
+; certutil 로 SHA256 → $SrcHash. 출력을 파일로 받아 둘째 줄을 읽는다
+; (StrFunc 없이 처리하려고 파일 경유. certutil 은 윈도 기본 도구라 추가 의존성이 없다.)
+Function HashSrc
+  StrCpy $SrcHash ""
+  Delete "$PLUGINSDIR\hash.txt"
+  nsExec::ExecToLog 'cmd /c ""$SYSDIR\certutil.exe" -hashfile "$SrcDir\track03.bin" SHA256 > "$PLUGINSDIR\hash.txt""'
+  Pop $0
+  ${{IfNot}} ${{FileExists}} "$PLUGINSDIR\hash.txt"
+    Return
+  ${{EndIf}}
+  ClearErrors
+  FileOpen $1 "$PLUGINSDIR\hash.txt" r
+  ${{If}} ${{Errors}}
+    Return
+  ${{EndIf}}
+  FileRead $1 $2          ; 1행: "SHA256 해시:" 안내(언어별로 다름)
+  FileRead $1 $2          ; 2행: 해시
+  FileClose $1
+  ; 공백·탭·개행 제거 (옛 certutil 은 바이트마다 띄운다)
+  StrCpy $3 ""
+  StrLen $4 $2
+  ${{If}} $4 > 0
+    IntOp $4 $4 - 1
+    ${{For}} $5 0 $4
+      StrCpy $6 $2 1 $5
+      ${{If}} $6 != " "
+      ${{AndIf}} $6 != "$\r"
+      ${{AndIf}} $6 != "$\n"
+      ${{AndIf}} $6 != "$\t"
+        StrCpy $3 "$3$6"
+      ${{EndIf}}
+    ${{Next}}
+  ${{EndIf}}
+  StrCpy $SrcHash $3
+FunctionEnd
+
+Section "패치"
+  CreateDirectory "$OutDir"
+  SetOutPath "$PLUGINSDIR"
+  File "{xdelta_exe}"
+  File "{xdelta_path}"
+  File "{dcp_path}"
+  File "{readme_path}"
+
+  DetailPrint "원본 확인 중… (1.2GB, 몇십 초 걸립니다)"
+  Call HashSrc
+  ${{If}} $SrcHash == ""
+    DetailPrint "해시를 재지 못했습니다 — DCP 쪽으로 진행합니다."
+    Goto Fallback
+  ${{EndIf}}
+  DetailPrint "원본 sha256: $SrcHash"
+
+  ; LogicLib 의 == 는 대소문자를 가리지 않는다 — certutil 출력이 대문자여도 맞는다
+  ${{If}} $SrcHash == "${{EXPECT}}"
+    DetailPrint "우리 덤프본과 같습니다. xdelta 로 적용합니다."
+    DetailPrint "데이터 트랙 만드는 중…"
+    nsExec::ExecToLog '"$PLUGINSDIR\xdelta3.exe" -d -f -s "$SrcDir\track03.bin" "$PLUGINSDIR\${{XDELTA}}" "$OutDir\track03.bin"'
+    Pop $0
+    ${{If}} $0 != 0
+      MessageBox MB_ICONSTOP "차분 적용에 실패했습니다 (코드 $0).$\r$\n빈 공간이 모자라지 않은지 보세요."
+      Abort
+    ${{EndIf}}
+    DetailPrint "나머지 트랙 복사 중…"
+    CopyFiles /SILENT "$SrcDir\track01.bin" "$OutDir\track01.bin"
+    CopyFiles /SILENT "$SrcDir\track02.raw" "$OutDir\track02.raw"
+    CopyFiles /SILENT "$SrcDir\*.gdi" "$OutDir"
+    DetailPrint "완료."
+    MessageBox MB_ICONINFORMATION "패치가 끝났습니다.$\r$\n$\r$\n$OutDir$\r$\n$\r$\n이 폴더의 .gdi 를 에뮬레이터로 여세요."
+    ExecShell "open" "$OutDir"
+    Return
+  ${{EndIf}}
+
+  Fallback:
+  DetailPrint "원본이 우리 덤프본과 다릅니다 — 범용 패처용 파일을 꺼냅니다."
+  CopyFiles /SILENT "$PLUGINSDIR\${{DCP}}" "$OutDir\${{DCP}}"
+  CopyFiles /SILENT "$PLUGINSDIR\읽어주세요.txt" "$OutDir\읽어주세요.txt"
+  MessageBox MB_ICONEXCLAMATION "원본이 우리가 쓴 덤프본과 다릅니다.$\r$\n\
+xdelta 차분은 바이트까지 같아야 적용되므로 쓸 수 없습니다.$\r$\n$\r$\n\
+대신 $OutDir 에 패치 파일(.dcp)을 꺼내 두었습니다.$\r$\n\
+Universal Dreamcast Patcher 로 적용하세요. 이어서 내려받기 쪽을 엽니다."
+  ExecShell "open" "{udp_url}"
+  ExecShell "open" "$OutDir"
+SectionEnd
+'''
+
+
+def sha256(path):
+    m = hashlib.sha256()
+    with open(path, "rb") as fh:
+        for chunk in iter(lambda: fh.read(1 << 22), b""):
+            m.update(chunk)
+    return m.hexdigest()
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("-v", "--version", default="", help="판 번호 (예: v0.9)")
+    ap.add_argument("--xdelta3", default="xdelta3.exe",
+                    help="같이 넣을 xdelta3.exe 경로 (기본: dist/xdelta3.exe)")
+    a = ap.parse_args()
+
+    cfg = Config.load()
+    out_dir = os.path.join(ROOT, cfg["out_dir"])
+    tag = f"{TITLE} {a.version}".strip()
+    orig = glob.glob(os.path.join(cfg.dir("orig_dir"), "*track03.bin"))[0]
+
+    need = {"xdelta": os.path.join(out_dir, tag + ".xdelta"),
+            "dcp": os.path.join(out_dir, tag + ".dcp"),
+            "readme": os.path.join(out_dir, "읽어주세요.txt")}
+    missing = [k for k, p in need.items() if not os.path.exists(p)]
+    if missing:
+        sys.exit(f"먼저 `python tools/make_release.py -v {a.version}` 를 돌리세요 — 없는 것: {missing}")
+
+    xd_exe = a.xdelta3 if os.path.isabs(a.xdelta3) else os.path.join(out_dir, a.xdelta3)
+    have_exe = os.path.exists(xd_exe)
+
+    nsi = NSI.format(
+        title=TITLE, ver=a.version, udp_url=UDP_URL,
+        out_exe=tag + " 설치.exe",
+        src_sha=sha256(orig),
+        xdelta_name=os.path.basename(need["xdelta"]),
+        dcp_name=os.path.basename(need["dcp"]),
+        xdelta_exe=xd_exe, xdelta_path=need["xdelta"],
+        dcp_path=need["dcp"], readme_path=need["readme"])
+    nsi_path = os.path.join(out_dir, "installer.nsi")
+    with open(nsi_path, "w", encoding="utf-8-sig", newline="\r\n") as fh:
+        fh.write(nsi)
+
+    print(f"  {nsi_path}")
+    print(f"  원본 sha256 {sha256(orig)}")
+    print(f"  담을 것: {os.path.basename(need['xdelta'])} · {os.path.basename(need['dcp'])} · 읽어주세요.txt")
+    print(f"  xdelta3.exe: {'있음 ' + xd_exe if have_exe else '★없음 — ' + xd_exe + ' 에 넣어야 컴파일됩니다'}")
+    print(f"\n  컴파일:  makensis \"{nsi_path}\"")
+    return 0 if have_exe else 1
+
+
+if __name__ == "__main__":
+    sys.exit(main())
