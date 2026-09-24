@@ -29,7 +29,8 @@ sys.stdout.reconfigure(encoding="utf-8")
 
 from kitae.config import Config          # noqa: E402
 
-TITLE = "Kita He - White Illumination (KO)"
+BASE = "kitae_white_illumination_ko"        # 파일 이름 어간(ASCII)
+TITLE = "북으로. White Illumination 한국어 패치"   # 설치 창에 보이는 이름
 UDP_URL = "https://github.com/DerekPascarella/UniversalDreamcastPatcher/releases"
 
 NSI = r"""; 북으로. White Illumination 한국어 패치 설치 프로그램
@@ -81,7 +82,7 @@ GDI(track03.bin) 와 CUE/BIN(… (Track 3).bin) 둘 다 됩니다 — 데이터 
 
 Function .onInit
   StrCpy $SrcDir "$DOCUMENTS"
-  StrCpy $DestDir "$DESKTOP\{title} {ver}"
+  StrCpy $DestDir "$DESKTOP\{base} {ver}"
 FunctionEnd
 
 ; 데이터 트랙 찾기 — 이름이 덤프본마다 다르므로 **크기로** 고른다.
@@ -243,7 +244,7 @@ def main():
 
     cfg = Config.load()
     out_dir = os.path.join(ROOT, cfg["out_dir"])
-    tag = f"{TITLE} {a.version}".strip()
+    tag = f"{BASE}_{a.version}" if a.version else BASE
     orig = glob.glob(os.path.join(cfg.dir("orig_dir"), "*track03.bin"))[0]
 
     need = {"xdelta": os.path.join(out_dir, tag + ".xdelta"),
@@ -258,7 +259,7 @@ def main():
 
     nsi = NSI.format(
         title=TITLE, ver=a.version, udp_url=UDP_URL,
-        out_exe=tag + ".exe",        # 세 에셋이 어간을 공유한다: .xdelta · .dcp · .exe
+        out_exe=tag + ".exe", base=BASE,        # 세 에셋이 어간을 공유한다: .xdelta · .dcp · .exe
         src_sha=sha256(orig), data_size=os.path.getsize(orig),
         xdelta_name=os.path.basename(need["xdelta"]),
         dcp_name=os.path.basename(need["dcp"]),

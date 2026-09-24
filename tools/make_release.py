@@ -30,7 +30,8 @@ sys.stdout.reconfigure(encoding="utf-8")
 from kitae.config import Config          # noqa: E402
 from kitae.core.gdfs import GdFs         # noqa: E402
 
-TITLE = "Kita He - White Illumination (KO)"
+# 배포 파일 이름의 어간. ASCII·소문자·밑줄 — 주소에 그대로 들어가도 안전하다.
+BASE = "kitae_white_illumination_ko"
 
 
 def sha256(path):
@@ -134,7 +135,7 @@ def main():
     orig = glob.glob(os.path.join(cfg.dir("orig_dir"), "*track03.bin"))[0]
     built = os.path.join(ROOT, cfg["out_dir"], "track03.bin")
     out_dir = os.path.join(ROOT, cfg["out_dir"])
-    tag = f"{TITLE} {a.version}".strip()
+    tag = f"{BASE}_{a.version}" if a.version else BASE
 
     rows, gone = changed(orig, built)
     print(f"바뀐 파일 {len(rows)}개" + (f" · 사라진 파일 {len(gone)}개 ★" if gone else ""))
