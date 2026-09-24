@@ -273,6 +273,33 @@ def contiguous_digits(cp, reserved=()):
     raise RuntimeError("숫자 10칸 연속 자리가 없다")
 
 
+def contiguous_josa(cp, reserved=()):
+    """조사 마커(`widths.JOSA`)를 SYMBOL_PAGE 의 **연속 칸**에 둔다.
+
+    조사 훅은 `code - 첫칸` 으로 표를 바로 인덱싱한다(루프 없음). `assign` 은 증분 안정이라
+    마커가 늘면 남은 구멍에 흩어져 연속이 깨진다 — 숫자(`contiguous_digits`)와 같은 이유로
+    여기서 한 덩어리를 잡아 준다. 이미 연속이면 그대로 둔다.
+    """
+    from kitae.build.widths import JOSA
+    marks = sorted(JOSA)
+    if not marks:
+        return cp
+    cells = [cp.get(m) for m in marks]
+    if all(cells) and all(c[0] == cells[0][0] and c[1] == cells[0][1] + i
+                          for i, c in enumerate(cells)):
+        return cp
+    taken = (set(v for k, v in cp.items() if k not in JOSA) | set(reserved)
+             | {(SYMBOL_PAGE, c) for c in CELLS if not _decodable(SYMBOL_PAGE, c)})
+    for start in CELLS:
+        run = [(SYMBOL_PAGE, start + i) for i in range(len(marks))]
+        if any(c[1] not in CELLS or c in taken for c in run):
+            continue
+        for m, c in zip(marks, run):
+            cp[m] = c
+        return cp
+    raise RuntimeError(f"조사 마커 {len(marks)}칸 연속 자리가 없다")
+
+
 def render_glyph(ch, size=21, y_off=2, ttf=None, widths=None):
     """24x24 grayscale of one character from IBM Plex Sans KR.
 
@@ -422,6 +449,7 @@ def inject(cfg, chars, verbose=False):
     symbols = set(SYMBOL_CELLS)
     cp = assign(symbols, cp, reserved, [SYMBOL_PAGE])
     cp = contiguous_digits(cp, reserved)
+    cp = contiguous_josa(cp, reserved)
     if cfg.get("josa"):                      # 받침순 전체 재배정 (docs/JOSA-ENGINE.md)
         cp, b1, b2 = assign_josa(set(chars) - symbols, cp, reserved, pages)
         if verbose:

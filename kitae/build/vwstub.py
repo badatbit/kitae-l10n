@@ -1898,22 +1898,21 @@ def apply(cfg, blob):
                 if got != want:
                     raise ValueError(f"{JOSA_HOOK + i*2:#x} = {got:#06x}, {want:#06x} 기대")
             from kitae.build.hangul import _read_codepage
-            marks = josa_literals(_read_codepage(cfg.path("data", "codepage.json")))
-            if len(marks) != 1:
-                raise ValueError(f"조사 마커는 아직 하나만 된다(현재 {len(marks)}개) — 스텁이 표가 아니다")
-            name, mark, b1, yes, no = marks[0]
+            base, n_mark, b1, entries, names = josa_literals(
+                _read_codepage(cfg.path("data", "codepage.json")))
             j_va, j_off, j_room = _cave_sec(out, ".pdata")
-            s_j = stub_josa(j_va, JOSA_ALLOC, mark, b1, yes, no)
+            s_j = stub_josa(j_va, JOSA_ALLOC, base, n_mark, b1, entries)
             if len(s_j) > j_room:
                 raise ValueError(f"조사 스텁 {len(s_j)}B 가 .pdata 꼬리 {j_room}B 를 넘는다")
             out[j_off:j_off + len(s_j)] = s_j
             _grow_virtual(out, ".pdata", (j_va - _section_va_of(out, ".pdata")) + len(s_j))
             out[raw + (JOSA_HOOK - lo): raw + (JOSA_HOOK - lo) + 16] = hook16(
                 JOSA_HOOK, j_va, JOSA_RESUME)
-            d = struct.unpack_from("<i", out, j_off + len(s_j) - 20)[0]
-            assert j_va + len(s_j) - 20 + d == JOSA_ALLOC, hex(d)
+            lit_len = 16 + 8 * n_mark          # 머리 4워드 + 마커마다 8B
+            d = struct.unpack_from("<i", out, j_off + len(s_j) - lit_len)[0]
+            assert j_va + len(s_j) - lit_len + d == JOSA_ALLOC, hex(d)
             txout_note += (f" · 조사 훅 {JOSA_HOOK:#x}→{j_va:#x}({len(s_j)}B, .pdata) "
-                           f"{name} 마커 {mark:#06x} B1 {b1:#06x}")
+                           f"마커 {n_mark}개 {base:#06x}~ B1 {b1:#06x} {''.join(names)}")
         # ★ vw_diag: 폰트 DrawChar 입구 진단 — HOOK5 스텁 바로 뒤 케이브(파일 크기 불변)
         if cfg.get("vw_diag"):
             if not cfg.get("vw_txout", True):
@@ -2946,57 +2945,79 @@ JOSA_RESUME = 0x1000784A
 JOSA_ALLOC = 0x1000851C           # 노드 할당 함수 — 훅이 r0 를 깨므로 스텁이 복원한다
 
 
-def stub_josa(stub_va, alloc_va, mark, b1, cell_yes, cell_no):
-    """조사 스텁. 리터럴 5개(할당함수 거리 · 마커 · B1 · 받침형 셀 · 무받침형 셀)."""
+def stub_josa(stub_va, alloc_va, mark_base, count, b1, entries):
+    """조사 스텁. 마커 셀이 **연속**이라 `code - base` 로 표를 바로 인덱싱한다(루프 없음).
+
+    리터럴: `+0` 할당함수 거리 · `+4` 마커 첫 셀 · `+8` 마커 수 · `+12` B1 ·
+    `+16` 부터 마커마다 8B `{받침형 셀, 무받침형 셀}`(셀코드 순).
+    `sub` 뒤 부호 없는 `cmp/hs` 한 번이 아래위 범위를 같이 막는다 — code 가 base 보다
+    작으면 밑돌아 큰 값이 되어 그대로 걸린다.
+    """
     S = sh4
     body = [
-        (0x4418, "shll8 r4"),                            # 0  ↓ 훅이 가져온 원본 두 명령
-        (0x241B, "or r1,r4"),                            # 1  r4 = lead<<8 | trail (r1 해제)
-        ("MOVA", "LIT"),                                 # 2  mova LIT,r0
-        (0x6102, "mov.l @r0,r1"),                        # 1  r1 = 할당함수 거리
-        (0x310C, "add r0,r1"),                           # 2  r1 = 할당함수 주소
-        (S.movl_disp_rm(4, 0, 2), "mov.l @(4,r0),r2"),   # 3  r2 = 마커 셀
-        (S.cmp_eq(2, 4), "cmp/eq r2,r4"),                # 4  이번 글자가 마커인가
-        ("bf", "DONE"),                                  # 5  아니면 그대로
-        (S.movl_disp_rm(20, 15, 3), "mov.l @(20,r15),r3"),   # 6  r3 = 리스트 헤더
-        (S.movl_disp_rm(4, 3, 3), "mov.l @(4,r3),r3"),   # 7  r3 = tail 노드(직전 글자)
-        (0x2338, "tst r3,r3"),                           # 8
-        ("bt", "NOBAT"),                                 # 9  앞 글자가 없으면 무받침형
-        (S.movl_disp_rm(8, 3, 3), "mov.l @(8,r3),r3"),   # 10 r3 = 직전 코드
-        (S.movl_disp_rm(8, 0, 2), "mov.l @(8,r0),r2"),   # 11 r2 = B1
-        (0x3322, "cmp/hs r2,r3"),                        # 12 직전 >= B1 → 받침 있음
-        ("bf", "NOBAT"),                                 # 13
-        (S.movl_disp_rm(12, 0, 4), "mov.l @(12,r0),r4"), # 14 r4 = 받침형 셀
-        ("bra", "DONE"),                                 # 15
-        (S.nop(), "nop"),                                # 16
-        ("NOBAT", (S.movl_disp_rm(16, 0, 4), "mov.l @(16,r0),r4")),   # 17 r4 = 무받침형 셀
-        ("DONE", (0x6013, "mov r1,r0")),                 # 18 r0 복원(할당함수)
-        (0x1E42, "mov.l r4,@(8,r14)"),                   # 19 ↓ 원본 6명령
-        (0xE202, "mov #2,r2"),                           # 20
-        (0x1E23, "mov.l r2,@(12,r14)"),                  # 21
-        (0x5DF5, "mov.l @(20,r15),r13"),                 # 22
-        (0xE600, "mov #0,r6"),                           # 23
-        (0x55D1, "mov.l @(4,r13),r5"),                   # 24
-        (S.rts(), "rts"),                                # 25
-        (S.nop(), "nop"),                                # 26
-        (S.nop(), "nop"),                                # 27 리터럴 4정렬
+        (0x4418, "shll8 r4"),                             # 0  ↓ 훅이 가져온 원본 두 명령
+        (0x241B, "or r1,r4"),                             # 1  r4 = lead<<8 | trail (r1 해제)
+        ("MOVA", "LIT"),                                  # 2  r0 = LIT
+        (0x6102, "mov.l @r0,r1"),                         # 3  r1 = 할당함수 거리
+        (0x310C, "add r0,r1"),                            # 4  r1 = 할당함수 주소
+        (S.movl_disp_rm(4, 0, 2), "mov.l @(4,r0),r2"),    # 5  r2 = 마커 첫 셀
+        (0x6343, "mov r4,r3"),                            # 6
+        (0x3328, "sub r2,r3"),                            # 7  r3 = 색인
+        (S.movl_disp_rm(8, 0, 2), "mov.l @(8,r0),r2"),    # 8  r2 = 마커 수
+        (0x3322, "cmp/hs r2,r3"),                         # 9  색인 >= 수 → 마커 아님
+        ("bt", "DONE"),                                   # 10
+        (0x4308, "shll2 r3"),                             # 11
+        (0x4300, "shll r3"),                              # 12 색인*8
+        (0x330C, "add r0,r3"),                            # 13
+        (0x7310, "add #16,r3"),                           # 14 r3 = 엔트리 주소
+        (S.movl_disp_rm(20, 15, 2), "mov.l @(20,r15),r2"),  # 15 r2 = 리스트 헤더
+        (S.movl_disp_rm(4, 2, 2), "mov.l @(4,r2),r2"),    # 16 r2 = tail 노드(직전 글자)
+        (0x2228, "tst r2,r2"),                            # 17
+        ("bt", "NOBAT"),                                  # 18 앞 글자가 없으면 무받침형
+        (S.movl_disp_rm(8, 2, 2), "mov.l @(8,r2),r2"),    # 19 r2 = 직전 코드
+        (S.movl_disp_rm(12, 0, 0), "mov.l @(12,r0),r0"),  # 20 r0 = B1 (LIT 은 더 안 쓴다)
+        (0x3202, "cmp/hs r0,r2"),                         # 21 직전 >= B1 → 받침 있음
+        ("bf", "NOBAT"),                                  # 22
+        (0x6432, "mov.l @r3,r4"),                         # 23 r4 = 받침형 셀
+        ("bra", "DONE"),                                  # 24
+        (S.nop(), "nop"),                                 # 25
+        ("NOBAT", (S.movl_disp_rm(4, 3, 4), "mov.l @(4,r3),r4")),   # 26 r4 = 무받침형 셀
+        ("DONE", (0x6013, "mov r1,r0")),                  # 27 r0 복원(할당함수)
+        (0x1E42, "mov.l r4,@(8,r14)"),                    # 28 ↓ 원본 6명령
+        (0xE202, "mov #2,r2"),                            # 29
+        (0x1E23, "mov.l r2,@(12,r14)"),                   # 30
+        (0x5DF5, "mov.l @(20,r15),r13"),                  # 31
+        (0xE600, "mov #0,r6"),                            # 32
+        (0x55D1, "mov.l @(4,r13),r5"),                    # 33
+        (S.rts(), "rts"),                                 # 34
+        (S.nop(), "nop"),                                 # 35
     ]
     code, lit_off = _resolve(body, ("NOBAT", "DONE"), {"LIT": 0}, stub_va)
     lit_va = stub_va + lit_off
-    # LIT: +0 할당함수 거리 · +4 마커 · +8 B1 · +12 받침형 · +16 무받침형
-    return code + struct.pack("<iIIII", alloc_va - lit_va, mark, b1, cell_yes, cell_no)
+    lit = struct.pack("<iIII", alloc_va - lit_va, mark_base, count, b1)
+    for yes, no in entries:
+        lit += struct.pack("<II", yes, no)
+    return code + lit
 
 
 def josa_literals(cp):
-    """codepage 에서 (마커, B1, 받침형 셀, 무받침형 셀) 목록. 마커마다 한 벌."""
+    """(마커 첫 셀, 마커 수, B1, [(받침형 셀, 무받침형 셀)], 이름들).
+
+    마커 셀은 **연속이어야 한다** — 스텁이 `code - base` 로 인덱싱하기 때문이다.
+    `SYMBOL_CELLS` 가 정렬 순서로 빈 칸을 받으므로 보통 연속이지만, 게임 예약 칸이나
+    되읽기 불가 칸이 끼면 끊긴다. 그때는 여기서 막는다(조용히 틀리는 것보다 낫다).
+    """
     from kitae.build.widths import JOSA
     from kitae.build.hangul import josa_bounds
     b1, _b2 = josa_bounds(cp)
-    out = []
-    for mark, (yes, no) in sorted(JOSA.items()):
+    cell = lambda s: (cp[s][0] << 8) | cp[s][1]
+    for mark, (yes, no) in JOSA.items():
         for need in (mark, yes, no):
             if need not in cp:
                 raise ValueError(f"조사 셀 {need!r} 이 codepage 에 없다")
-        cell = lambda s: (cp[s][0] << 8) | cp[s][1]
-        out.append((mark, cell(mark), b1, cell(yes), cell(no)))
-    return out
+    marks = sorted(JOSA, key=cell)
+    codes = [cell(m) for m in marks]
+    if codes != list(range(codes[0], codes[0] + len(codes))):
+        raise ValueError(f"조사 마커 셀이 연속이 아니다: {[hex(c) for c in codes]}")
+    entries = [(cell(JOSA[m][0]), cell(JOSA[m][1])) for m in marks]
+    return codes[0], len(marks), b1, entries, marks

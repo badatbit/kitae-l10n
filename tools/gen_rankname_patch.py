@@ -15,7 +15,8 @@ strcat 한다. 사이에 구분자 문자열이 없어 `타사카츠요시` 로 
     mov.l <strcat>,r0 · mov r12,r5 · jsr @r0 · mov r8,r4   ; strcat(버퍼, 이름)
 
 이 14바이트를 훅 12바이트(vwstub.hook_code) + nop 으로 바꾸고, 케이브의 스텁이
-`성 → 공백 → 이름` 순으로 세 번 strcat 한다. 진입 때 r8=버퍼, r5=성, r12=이름이고
+`성 → 공백 → 이름` 순으로 세 번 strcat 한다. **성이 한 글자면 공백을 건너뛴다**
+(「유명산」 vs 「아오야마　코이치」) — kitae/build/namesep.py 의 대사 쪽 규칙과 같다. 진입 때 r8=버퍼, r5=성, r12=이름이고
 strcat 는 COREDLL 임포트 썽크(0x10004CBC, `jmp @r0` 꼬리 점프)라 r8·r12 는 보존된다.
 
 ★ 스텁에는 절대 주소를 두지 않는다 — 케이브에 새로 넣은 리터럴에는 PE 재배치 항목이
@@ -67,30 +68,49 @@ def stub(va, sep_bytes):
     없어서**, 모듈이 기준 주소와 다른 곳에 올라가면 그 포인터가 어긋나 죽는다(처음에
     strcat·공백 주소를 리터럴로 박았다가 순위 보기에서 크래시). 그래서 호출은 PC 상대
     `bsr`, 공백 주소는 PC 상대 `mova` 로 구한다 — 둘 다 재배치가 필요 없다."""
-    SEP_AT = 28                      # 공백 셀 위치(스텁 시작 기준, 4정렬 = mova 대상)
+    SEP_AT = 48                      # 공백 셀 위치(스텁 시작 기준, 4정렬 = mova 대상)
+    NOSEP = 15                       # 공백을 건너뛸 때 가는 명령 색인
 
     def bsr_to(at):                  # at = bsr 명령 주소(스텁 시작 기준 오프셋)
         delta = STRCAT - (va + at + 4)
         assert delta % 2 == 0 and -4096 <= delta <= 4094, hex(delta)
         return S.bsr(delta // 2)
 
+    # ★ 성이 한 글자면 공백을 건너뛴다 — 「유명산」 vs 「아오야마　코이치」.
+    #   진입 때 r5 = 성이지만 첫 strcat 이 r5·r0 을 깨므로(인자 레지스터) **미리 재서
+    #   스택에** 둔다. 성[0] & 성[2] 는 둘 다 리드바이트(비트7)일 때만 0 이 아니다 —
+    #   성이 비었거나 2바이트 한 글자면 0 이 되어 tst 한 번으로 갈린다.
+    #   `mov.b @(disp,Rm)` 은 목적지가 R0 고정이라 두 번에 나눠 읽는다.
     prog = [
-        (S.sts_pr_push(), "sts.l pr,@-r15"),      # +0  원래 복귀 주소 보관(bsr 가 pr 을 덮는다)
-        (bsr_to(2), None),                        # +2  strcat(버퍼, 성)
-        (S.mov_reg(8, 4), "mov r8,r4"),           # +4  지연 슬롯 (r5 = 성, 이미 들어와 있다)
-        (S.mova(SEP_AT - 8), None),               # +6  r0 = 공백 문자열 (PC 상대)
-        (S.mov_reg(0, 5), "mov r0,r5"),           # +8
-        (bsr_to(10), None),                       # +10 strcat(버퍼, 공백)
-        (S.mov_reg(8, 4), "mov r8,r4"),           # +12 지연 슬롯
-        (S.mov_reg(12, 5), "mov r12,r5"),         # +14
-        (bsr_to(16), None),                       # +16 strcat(버퍼, 이름)
-        (S.mov_reg(8, 4), "mov r8,r4"),           # +18 지연 슬롯
-        (S.lds_pr_pop(), "lds.l @r15+,pr"),       # +20
-        (S.nop(), "nop"),                         # +22 lds→rts 사이 한 박자
-        (S.rts(), "rts"),                         # +24
-        (S.nop(), "nop"),                         # +26 지연 슬롯
+        (S.sts_pr_push(), "sts.l pr,@-r15"),      # [0] 원래 복귀 주소 보관(bsr 가 pr 을 덮는다)
+        (0x8452, "mov.b @(2,r5),r0"),             # [1] 성 셋째 바이트
+        (0x6103, "mov r0,r1"),                    # [2]
+        (0x6050, "mov.b @r5,r0"),                 # [3] 성 첫 바이트
+        (0x2019, "and r1,r0"),                    # [4] 둘 다 있어야 두 글자 이상
+        (S.movl_push(0), "mov.l r0,@-r15"),       # [5] strcat 이 r0·r5 를 깬다 — 스택에
+        (bsr_to(12), None),                       # [6] strcat(버퍼, 성)
+        (S.mov_reg(8, 4), "mov r8,r4"),           # [7] 지연 슬롯 (r5 = 성, 이미 들어와 있다)
+        (S.movl_pop(0), "mov.l @r15+,r0"),        # [8] 아까 잰 값
+        (0x2008, "tst r0,r0"),                    # [9]
+        (S.bt(NOSEP - (10 + 2)), None),           # [10] 한 글자면 공백 없이
+        (S.mova(SEP_AT - (((11 * 2) + 4) & ~3)), None),   # [11] r0 = 공백 문자열 (PC 상대)
+        (S.mov_reg(0, 5), "mov r0,r5"),           # [12]
+        (bsr_to(26), None),                       # [13] strcat(버퍼, 공백)
+        (S.mov_reg(8, 4), "mov r8,r4"),           # [14] 지연 슬롯
+        (S.mov_reg(12, 5), "mov r12,r5"),         # [15] NOSEP
+        (bsr_to(32), None),                       # [16] strcat(버퍼, 이름)
+        (S.mov_reg(8, 4), "mov r8,r4"),           # [17] 지연 슬롯
+        (S.lds_pr_pop(), "lds.l @r15+,pr"),       # [18]
+        (S.nop(), "nop"),                         # [19] lds→rts 사이 한 박자
+        (S.rts(), "rts"),                         # [20]
+        (S.nop(), "nop"),                         # [21] 지연 슬롯
+        (S.nop(), "nop"),                         # [22] ↓ 4정렬
+        (S.nop(), "nop"),                         # [23]
     ]
     code = S.assemble(prog, va)
+    for at, txt in S.disasm([w for w, _ in prog], va):
+        if txt.startswith("bt") and int(txt.split()[-1], 16) != va + NOSEP * 2:
+            raise ValueError(f"스텁 분기 {at:#x} {txt} 가 NOSEP({va + NOSEP*2:#x}) 이 아니다")
     assert len(code) == SEP_AT, len(code)
     return code + sep_bytes.ljust(4, b"\x00")
 

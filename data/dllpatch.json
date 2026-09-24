@@ -104,62 +104,6 @@
    "option": "save_header_reorder"
   },
   {
-   "module": "/TRF/TRFOPTIONGAME.DLL",
-   "offset": 12706,
-   "from": "4ed00b4083644cd0c3650b408364",
-   "to": "11e00c6018404270030009000900",
-   "why": "순위 표 이름: 성·이름 사이 어절 공백 훅 (@0x10003da2 → 스텁 0x10004ef0)",
-   "option": "rank_name_space"
-  },
-  {
-   "module": "/TRF/TRFOPTIONGAME.DLL",
-   "offset": 12946,
-   "from": "12d00b40836410d0c3650b408364",
-   "to": "10e00c6018405270030009000900",
-   "why": "순위 표 이름: 성·이름 사이 어절 공백 훅 (@0x10003e92 → 스텁 0x10004ef0)",
-   "option": "rank_name_space"
-  },
-  {
-   "module": "/TRF/TRFOPTIONGAME.DLL",
-   "offset": 13216,
-   "from": "3cd00b4083643bd0c3650b408364",
-   "to": "0fe00c6018404470030009000900",
-   "why": "순위 표 이름: 성·이름 사이 어절 공백 훅 (@0x10003fa0 → 스텁 0x10004ef0)",
-   "option": "rank_name_space"
-  },
-  {
-   "module": "/TRF/TRFOPTIONGAME.DLL",
-   "offset": 13410,
-   "from": "0cd00b4083640ad0c3650b408364",
-   "to": "0fe00c6018408270030009000900",
-   "why": "순위 표 이름: 성·이름 사이 어절 공백 훅 (@0x10004062 → 스텁 0x10004ef0)",
-   "option": "rank_name_space"
-  },
-  {
-   "module": "/TRF/TRFOPTIONGAME.DLL",
-   "offset": 13624,
-   "from": "2cd00b4083642bd0c3650b408364",
-   "to": "0ee00c601840ac70030009000900",
-   "why": "순위 표 이름: 성·이름 사이 어절 공백 훅 (@0x10004138 → 스텁 0x10004ef0)",
-   "option": "rank_name_space"
-  },
-  {
-   "module": "/TRF/TRFOPTIONGAME.DLL",
-   "offset": 17136,
-   "from": "0000000000000000000000000000000000000000000000000000000000000000",
-   "to": "224fe3be836405c70365dfbe8364c365dcbe8364264f09000b000900e5400000",
-   "why": "순위 표 이름 스텁 32B @0x10004ef0 — 성→공백→이름 strcat, .text 꼬리 케이브",
-   "option": "rank_name_space"
-  },
-  {
-   "module": "/TRF/TRFOPTIONGAME.DLL",
-   "offset": 440,
-   "from": "ee3e0000",
-   "to": "103f0000",
-   "why": ".text VirtualSize 0x3eee→0x3f10 (케이브 스텁 포함)",
-   "option": "rank_name_space"
-  },
-  {
    "module": "/TRF/KITATITLE.DLL",
    "offset": 5072,
    "from": "50e1",
@@ -300,6 +244,62 @@
    "to": "0900",
    "why": "타이틀 미니게임 항목 게이트: 세이브 해제 마스크(0x700, & 0x7F00) 검사 뒤 `bt 0x10001fa8`(0x10001fa2) → nop. 마스크가 0 이어도 항목을 켠다(mov.b #1,@r10).",
    "option": "minigame_unlock"
+  },
+  {
+   "module": "/TRF/TRFOPTIONGAME.DLL",
+   "offset": 12706,
+   "from": "4ed00b4083644cd0c3650b408364",
+   "to": "11e00c6018404270030009000900",
+   "why": "순위 표 이름: 성·이름 사이 어절 공백 훅 (@0x10003da2 → 스텁 0x10004ef0)",
+   "option": "rank_name_space"
+  },
+  {
+   "module": "/TRF/TRFOPTIONGAME.DLL",
+   "offset": 12946,
+   "from": "12d00b40836410d0c3650b408364",
+   "to": "10e00c6018405270030009000900",
+   "why": "순위 표 이름: 성·이름 사이 어절 공백 훅 (@0x10003e92 → 스텁 0x10004ef0)",
+   "option": "rank_name_space"
+  },
+  {
+   "module": "/TRF/TRFOPTIONGAME.DLL",
+   "offset": 13216,
+   "from": "3cd00b4083643bd0c3650b408364",
+   "to": "0fe00c6018404470030009000900",
+   "why": "순위 표 이름: 성·이름 사이 어절 공백 훅 (@0x10003fa0 → 스텁 0x10004ef0)",
+   "option": "rank_name_space"
+  },
+  {
+   "module": "/TRF/TRFOPTIONGAME.DLL",
+   "offset": 13410,
+   "from": "0cd00b4083640ad0c3650b408364",
+   "to": "0fe00c6018408270030009000900",
+   "why": "순위 표 이름: 성·이름 사이 어절 공백 훅 (@0x10004062 → 스텁 0x10004ef0)",
+   "option": "rank_name_space"
+  },
+  {
+   "module": "/TRF/TRFOPTIONGAME.DLL",
+   "offset": 13624,
+   "from": "2cd00b4083642bd0c3650b408364",
+   "to": "0ee00c601840ac70030009000900",
+   "why": "순위 표 이름: 성·이름 사이 어절 공백 훅 (@0x10004138 → 스텁 0x10004ef0)",
+   "option": "rank_name_space"
+  },
+  {
+   "module": "/TRF/TRFOPTIONGAME.DLL",
+   "offset": 17136,
+   "from": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+   "to": "224f5284036150601920062fdebe8364f6600820038906c70365d7be8364c365d4be8364264f09000b00090009000900e5400000",
+   "why": "순위 표 이름 스텁 52B @0x10004ef0 — 성→공백→이름 strcat, .text 꼬리 케이브",
+   "option": "rank_name_space"
+  },
+  {
+   "module": "/TRF/TRFOPTIONGAME.DLL",
+   "offset": 440,
+   "from": "ee3e0000",
+   "to": "243f0000",
+   "why": ".text VirtualSize 0x3eee→0x3f24 (케이브 스텁 포함)",
+   "option": "rank_name_space"
   }
  ]
 }
