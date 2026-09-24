@@ -62,10 +62,18 @@ def changed(orig_track, built_track):
     return out, gone
 
 
+# 같은 빌드에서 같은 바이트가 나오도록 시각을 고정한다 — 안 그러면 ZIP 에 현재 시각이
+# 들어가 만들 때마다 sha256 이 달라지고, 릴리즈 노트에 적은 해시가 무의미해진다.
+ZIP_EPOCH = (1980, 1, 1, 0, 0, 0)
+
+
 def make_dcp(rows, out):
     with zipfile.ZipFile(out, "w", zipfile.ZIP_DEFLATED, compresslevel=9) as z:
         for path, data in rows:
-            z.writestr(path, data)          # 뿌리에 원래 폴더 구조 그대로
+            info = zipfile.ZipInfo(path, date_time=ZIP_EPOCH)   # 뿌리에 원래 폴더 구조 그대로
+            info.compress_type = zipfile.ZIP_DEFLATED
+            info.external_attr = 0o600 << 16
+            z.writestr(info, data)
     return os.path.getsize(out)
 
 
@@ -111,6 +119,9 @@ HOWTO = """북으로. White Illumination 한국어 패치 {ver}
 패치된 데이터 트랙
   크기   {dst_size:,} 바이트
   sha256 {dst_sha}
+
+문의·버그 신고  https://github.com/badatbit/kitae-l10n/
+새 판 받기      https://github.com/badatbit/kitae-l10n/releases
 """
 
 
