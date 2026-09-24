@@ -50,11 +50,14 @@
 | `soundroom_unlock` | **사운드 룸 띄우기.** 특정 조건을 만족하면 타이틀에 사운드 룸이 뜹니다. 이 패치를 켜면 조건에 관계없이 게임 내의 다양한 음악을 들을 수 있습니다. | `data/dllpatch.json` |
 | `debug_boot` | **디버그 화면 띄우기.** 부팅 직후 디버깅 화면으로 넘어갑니다. 원하는 장면으로 바로 넘어가서 게임을 진행할 수 있습니다. | `kitae/build/debugboot.py`, [SCRIPT-SYSTEM.md](docs/SCRIPT-SYSTEM.md) |
 
+저장소 기본값은 넷 다 꺼져 있습니다. 켜려면 원하는 것만 `true` 로 바꾸고 다시 빌드하세요.
+
 ```
-python -m kitae config set cbs_bypass false      # 배포 빌드
-python -m kitae config set minigame_unlock false
-python -m kitae config set soundroom_unlock false
-python -m kitae config set debug_boot false
+python -m kitae config set cbs_bypass true
+python -m kitae config set minigame_unlock true
+python -m kitae config set soundroom_unlock true
+python -m kitae config set debug_boot true
+python -m kitae build
 ```
 
 ## 준비

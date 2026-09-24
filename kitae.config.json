@@ -86,7 +86,7 @@
     "trfstrings_dll": "",
     "typelet": "F:/dev-furaiki3/type-lettering"
   },
-  "cbs_bypass": true,
+  "cbs_bypass": false,
   "font_variable": true,
   "vw_extension": false,
   "name_separator": true,
@@ -97,6 +97,6 @@
   "save_header_reorder": true,
   "debug_boot": false,
   "rank_name_space": true,
-  "soundroom_unlock": true,
-  "minigame_unlock": true
+  "soundroom_unlock": false,
+  "minigame_unlock": false
 }
