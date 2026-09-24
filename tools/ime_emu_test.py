@@ -58,7 +58,10 @@ class SH4:
 
     def run(self, until, limit=200000):
         while self.pc != until:
-            if self.pc in STUBBED:                 # 게임 함수 → 즉시 rts
+            if self.pc in STUBBED:                 # 게임 함수 → 즉시 rts. 단 this(r4) 는 맞아야 한다
+                if self.r[4] != THIS:
+                    raise RuntimeError(f"{self.pc:#x} 를 r4={self.r[4]:#x} 로 불렀다 (this 가 아니다)")
+                self.r[0] = self.r[1] = self.r[2] = self.r[3] = self.r[4] = self.r[5] = self.r[6] = self.r[7] = 0xDEAD0000
                 self.pc = self.pr
                 continue
             self.pc = self.exec(self.pc)
@@ -144,8 +147,8 @@ class SH4:
             tgt = pc + 4 + sx8(imm) * 2
             if k == 0x9: return tgt if self.t else nxt
             if k == 0xB: return nxt if self.t else tgt
-            if k == 0xD: return delay(tgt) if self.t else pc + 4
-            if k == 0xF: return pc + 4 if self.t else delay(tgt)
+            if k == 0xD: return delay(tgt) if self.t else nxt      # 안 뛰면 슬롯 명령은 그냥 다음 명령
+            if k == 0xF: return nxt if self.t else delay(tgt)
         elif op == 0x9: R(n, sx16(self.r16(pc + 4 + imm * 2))); return nxt
         elif op == 0xA: d = w & 0xFFF; d = d - 0x1000 if d & 0x800 else d; return delay(pc + 4 + d * 2)
         elif op == 0xB: d = w & 0xFFF; d = d - 0x1000 if d & 0x800 else d; self.pr = pc + 4; return delay(pc + 4 + d * 2)
