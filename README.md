@@ -33,6 +33,25 @@
 - **이미지 전수 조사 미완**: 덤프 7,447장 중 글자 유무를 가려낸 건 `SOZ`·`M05`·`M08`·`MENU`·`MAIN`·`MP7`·`M03`. 나머지 미니게임(`MP4/6/9/10`)·조연(`SC`)·캐릭터 아카이브는 미확인.
 - 조회 키(`data/untranslatable.json` 163개)는 EDL 변수 이름이라 번역하지 않는다. 화면엔 나오지 않는다(해바라기 미로 6개 확인).
 
+## 디버그 패치 (한국어 패치와 별개)
+
+번역과 무관하게 게임 동작을 바꾸는 편의 패치. 전부 `kitae.config.json` 의 불리언 옵션이고,
+끄면 그 자리는 원본 바이트 그대로 나간다. **배포용 디스크에서는 끄는 것이 원칙이다.**
+
+| 옵션 | 하는 일 | 구현 |
+|---|---|---|
+| `cbs_bypass` | **C.B.S(커뮤니케이션 브레이크 시스템) 우회.** 원작은 선택지 508곳에 제한 시간(90~260프레임)이 있어 안 고르면 기본값으로 넘어간다. EB 의 `0x6E/0x6F` 게이트 5바이트를 문장 구분자 `0x00` 으로 덮어 제한 시간을 없앤다(길이 불변, 게이트 없는 형태는 원본에도 9곳). | `kitae/build/ebgate.py` |
+| `minigame_unlock` | **미니게임 목록 띄우기.** 타이틀의 미니게임 항목은 세이브 해제 마스크(데이터+0x700 의 `0x7F00` 비트)로 열린다. 그 검사 분기(`KITATITLE 0x10001fa2 bt`)를 nop 으로 바꿔 항상 켠다. | `data/dllpatch.json` |
+| `soundroom_unlock` | 타이틀 사운드룸 항목의 달성도 임계값(평균 80 이상)을 0 으로. | `data/dllpatch.json` |
+| `debug_boot` | **디버그 화면 띄우기.** 타이틀 씬(`P00S052`)의 태스크를 개발용 씬 셀렉터 `CTRFSceneLaunch` 로 바꿔, VMS 확인·오프닝 뒤 플롯/씬 목록이 뜬다. 거기서 `P42S024` 사운드 테스트 등 어떤 씬이든 띄울 수 있다. | `kitae/build/debugboot.py`, [SCRIPT-SYSTEM.md](docs/SCRIPT-SYSTEM.md) |
+
+```
+python -m kitae config set cbs_bypass false      # 배포 빌드
+python -m kitae config set minigame_unlock false
+python -m kitae config set soundroom_unlock false
+python -m kitae config set debug_boot false
+```
+
 ## 준비
 
 - Python 3.11+ / `pillow` (이미지), `capstone` (SH-4 역어셈블)

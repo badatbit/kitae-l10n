@@ -262,16 +262,15 @@ def _build(cfg, scripts, lang, want_font=True, verbose=False):
                     print(f"        창{w}: 줄 {o} → {[len(x) for x in t]}"
                           + (f"  ⚠ {warn[w]}ms 넘침" if w in warn else ""))
 
-    # 2b. 에뮬레이터 버그 우회 ---------------------------------------------------
-    # 번역이 아니라 에뮬레이터가 못 그리는 자리를 피해 가는 패치다.
-    # 근거·잃는 것·끄는 법: docs/EMULATOR-BUGS.md
-    fixes = cfg.get("emulator_fixes") or {}
-    if fixes.get("choice_gate", True):
+    # 2b. 디버그 패치 · C.B.S 우회 -----------------------------------------------
+    # 번역이 아니라 선택지 제한 시간(원작 C.B.S)을 없애는 편의 패치. 옵션 cbs_bypass(기본 false).
+    # 근거·잃는 것: kitae/build/ebgate.py, README "디버그 패치"
+    if cfg.get("cbs_bypass", False):
         from kitae.build import ebgate
         new_eb, n_gate = ebgate.patch_all(plot)
         if n_gate:
             new_smf.update(new_eb)
-            print(f"  에뮬레이터 우회 · 선택지 게이트 {n_gate}곳 제거 "
+            print(f"  디버그 패치 · C.B.S 우회: 선택지 게이트 {n_gate}곳 제거 "
                   f"({len(new_eb)}개 대본)")
 
     out_plot = _work(cfg, "build", "PLOT.CB")
