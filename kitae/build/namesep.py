@@ -12,6 +12,10 @@
 성과 이름 사이에 아무것도 없어 「타사카츠요시」로 붙는다. 한국어는 성·이름을
 띄우는 게 자연스러워 「타사카　츠요시」로 만든다.
 
+**단 성이 한 글자면 붙여 쓴다** — 한국식 이름은 「유　명산」이 아니라 「유명산」이다.
+스텁에 들어올 때 버퍼엔 `strcpy` 가 넣은 **성만** 들어 있으므로 거기서 길이를 본다.
+`full[0] == 0`(성 없음)이거나 `full[2] == 0`(2바이트 한 글자)이면 공백을 건너뛴다.
+
 ## 어떻게
 
 `strcpy`·`strcat` 은 **공유 임포트 thunk** 라 못 고친다(9회·3회 호출). 대신 두
@@ -35,7 +39,8 @@ strcat 과 같다.
 
 ## 자리
 
-스텁은 `.text` 꼬리 케이브(VirtualSize `0x31ca` ~ RawSize `0x3200`, 54B)에 둔다.
+스텁은 `.text` 꼬리 케이브(VirtualSize `0x31ca` ~ RawSize `0x3200`)에 둔다. 4정렬 뒤
+여유가 **52B 뿐**이라 스텁이 딱 맞는다 — 명령을 더 넣을 자리가 없다.
 그 자리는 매핑 밖이라 VirtualSize 를 RawSize 까지 늘려 매핑되게 한다.
 """
 import struct
@@ -65,42 +70,50 @@ def _pe(blob):
 def _stub(stub_va):
     """sep_strcat 스텁 바이트. strcat 은 bsrf/braf 델타로 부른다."""
     S = sh4
-    # 명령 배치(각 2B). 데이터(d1,d2,space)는 코드 뒤 4정렬.
+    # 명령 20개(40B) + 델타 2개(8B) + 전각공백(4B) = 52B — 케이브에 딱 맞다.
+    # 데이터(d1,d2,space)는 코드 뒤 4정렬.
+    TAIL = 17                                   # 공백을 건너뛸 때 가는 자리
     body = [
-        (S.movl_push(4), "mov.l r4,@-r15"),     # [0] full 저장
-        (S.movl_push(5), "mov.l r5,@-r15"),     # [1] 이름 저장
-        (S.sts_pr_push(), "sts.l pr,@-r15"),    # [2] pr 저장
-        (S.mova(0), None),                      # [3] r0 = "　" (뒤에서 disp)
-        (S.mov_reg(0, 5), "mov r0,r5"),         # [4] r5 = 공백
-        (S.movl_pc(0, 0), None),                # [5] r0 = delta1
-        (S.bsrf(0), "bsrf r0"),                 # [6] strcat(full,"　")
-        (S.nop(), "nop"),                       # [7]
-        (S.lds_pr_pop(), "lds.l @r15+,pr"),     # [8] pr 복원
-        (S.movl_pop(5), "mov.l @r15+,r5"),      # [9] 이름 복원
-        (S.movl_pop(4), "mov.l @r15+,r4"),      # [10] full 복원
-        (S.movl_pc(0, 0), None),                # [11] r0 = delta2
-        (S.braf(0), "braf r0"),                 # [12] 꼬리 strcat(full,이름)
+        (0x6040, "mov.b @r4,r0"),               # [0] 성 첫 바이트
+        (0x2008, "tst r0,r0"),                  # [1]
+        (S.bt(TAIL - (2 + 2)), None),           # [2] 성이 비었으면 공백 없이
+        (0x8442, "mov.b @(2,r4),r0"),           # [3] 성 셋째 바이트
+        (0x2008, "tst r0,r0"),                  # [4]
+        (S.bt(TAIL - (5 + 2)), None),           # [5] 2바이트(한 글자)면 붙여 쓴다
+        (S.movl_push(4), "mov.l r4,@-r15"),     # [6] full 저장
+        (S.movl_push(5), "mov.l r5,@-r15"),     # [7] 이름 저장
+        (S.sts_pr_push(), "sts.l pr,@-r15"),    # [8] pr 저장
+        (S.mova(0), None),                      # [9] r0 = "　" (뒤에서 disp)
+        (S.mov_reg(0, 5), "mov r0,r5"),         # [10] r5 = 공백
+        (S.movl_pc(0, 0), None),                # [11] r0 = delta1
+        (S.bsrf(0), "bsrf r0"),                 # [12] strcat(full,"　")
         (S.nop(), "nop"),                       # [13]
+        (S.lds_pr_pop(), "lds.l @r15+,pr"),     # [14] pr 복원
+        (S.movl_pop(5), "mov.l @r15+,r5"),      # [15] 이름 복원
+        (S.movl_pop(4), "mov.l @r15+,r4"),      # [16] full 복원
+        (S.movl_pc(0, 0), None),                # [17] TAIL: r0 = delta2
+        (S.braf(0), "braf r0"),                 # [18] 꼬리 strcat(full,이름)
+        (S.nop(), "nop"),                       # [19]
     ]
-    n = len(body)                               # 14 → 28B
-    code_len = n * 2
+    code_len = len(body) * 2                    # 40
     d1_off = code_len                           # 델타1
     d2_off = code_len + 4                       # 델타2
-    sp_off = code_len + 8                       # "　\0"
-    # [3] mova @(disp,pc),r0 : r0=(PC&~3)+disp, PC=(3*2)+4=10 → (va+10)&~3
-    body[3] = (S.mova(sp_off - (((3 * 2) + 4) & ~3)), None)
-    # [5] mov.l @(disp,pc),r0 : PC=(5*2)+4=14 → (va+14)&~3
-    body[5] = (S.movl_pc(d1_off - (((5 * 2) + 4) & ~3), 0), None)
-    # [11] mov.l @(disp,pc),r0 : PC=(11*2)+4=26 → (va+26)&~3
-    body[11] = (S.movl_pc(d2_off - (((11 * 2) + 4) & ~3), 0), None)
+    sp_off = code_len + 8                       # 전각공백
+    body[9] = (S.mova(sp_off - (((9 * 2) + 4) & ~3)), None)
+    body[11] = (S.movl_pc(d1_off - (((11 * 2) + 4) & ~3), 0), None)
+    body[17] = (S.movl_pc(d2_off - (((17 * 2) + 4) & ~3), 0), None)
     blob = S.assemble(body, va=stub_va)
+    # 되읽기: 두 조건 분기가 정말 TAIL 로 가는가
+    for a, t in S.disasm([w for w, _ in body], stub_va):
+        if t.startswith("bt") and int(t.split()[-1], 16) != stub_va + TAIL * 2:
+            raise ValueError(f"스텁 분기 {a:#x} {t} 가 TAIL({stub_va + TAIL*2:#x}) 이 아니다")
     # 델타: strcat - (분기명령주소 + 4)
-    bsrf_va = stub_va + 6 * 2
-    braf_va = stub_va + 12 * 2
+    bsrf_va = stub_va + 12 * 2
+    braf_va = stub_va + 18 * 2
     delta1 = (STRCAT - (bsrf_va + 4)) & 0xFFFFFFFF
     delta2 = (STRCAT - (braf_va + 4)) & 0xFFFFFFFF
     blob += struct.pack("<II", delta1, delta2)
-    blob += b"\x81\x40\x00\x00"                 # 전각공백(cp932 0x8140) + NUL
+    blob += bytes.fromhex("81400000")           # 전각공백(cp932 0x8140) + NUL
     return blob
 
 
