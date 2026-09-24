@@ -22,3 +22,7 @@ images/injected/
 
 # 조사용 스크래치 덤프
 /scratch_targets.txt
+
+# kitae 쪽 이미지 작업판 — 자국(jaguk)은 originals/erased 만 읽고 여기는 안 본다.
+# 변형본(.notext·.ko·후보)이 쌓이는 곳이라 저장소에 두지 않는다. 원본 덤프에서 다시 만든다.
+images/base/
