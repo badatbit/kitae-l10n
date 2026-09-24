@@ -300,6 +300,31 @@ def contiguous_josa(cp, reserved=()):
     raise RuntimeError(f"조사 마커 {len(marks)}칸 연속 자리가 없다")
 
 
+def contiguous_jamo(cp, reserved=(), pages=None):
+    """자모 40개(ime.JAMO)를 **연속 칸**에 둔다 — IME 스텁이 `code - 첫칸` 으로 자모 번호를 얻는다.
+
+    기호 페이지에 40칸 연속이 있으면 거기, 없으면 다른 페이지. 이미 연속이면 그대로.
+    assign_josa 는 jong_group 이 None 인 자모를 건너뛰므로 여기서 먼저 잡아 줘야 한다.
+    """
+    from kitae.build.ime import JAMO
+    cells = [cp.get(ch) for ch in JAMO]
+    if all(cells) and all(c[0] == cells[0][0] and c[1] == cells[0][1] + i
+                          for i, c in enumerate(cells)):
+        return cp
+    order = [SYMBOL_PAGE] + [int(x) for x in (pages or PAGES) if int(x) != SYMBOL_PAGE]
+    taken = set(v for k, v in cp.items() if k not in JAMO) | set(reserved)
+    for lead in order:
+        bad = {(lead, c) for c in CELLS if not _decodable(lead, c)}
+        for start in CELLS:
+            run = [(lead, start + i) for i in range(len(JAMO))]
+            if any(c[1] not in CELLS or c in taken or c in bad for c in run):
+                continue
+            for ch, c in zip(JAMO, run):
+                cp[ch] = c
+            return cp
+    raise RuntimeError("자모 40칸 연속 자리가 없다")
+
+
 def render_glyph(ch, size=21, y_off=2, ttf=None, widths=None):
     """24x24 grayscale of one character from IBM Plex Sans KR.
 
@@ -450,6 +475,8 @@ def inject(cfg, chars, verbose=False):
     cp = assign(symbols, cp, reserved, [SYMBOL_PAGE])
     cp = contiguous_digits(cp, reserved)
     cp = contiguous_josa(cp, reserved)
+    if cfg.get("ime"):                        # 자모 40칸 연속 (kitae.build.ime)
+        cp = contiguous_jamo(cp, reserved, pages)
     if cfg.get("josa"):                      # 받침순 전체 재배정 (docs/JOSA-ENGINE.md)
         cp, b1, b2 = assign_josa(set(chars) - symbols, cp, reserved, pages)
         if verbose:

@@ -205,6 +205,9 @@ def _build(cfg, scripts, lang, want_font=True, verbose=False):
         chars |= {c for r in guides.values() for v in r.values()
                   for c in v["target"] if hangul.is_hangul(c)}
         chars |= {c for c in quiz_chars(cfg, lang) if hangul.is_hangul(c)}
+        if cfg.get("ime"):                     # 한글 입력기: 완성형 + 자모 (kitae.build.ime)
+            from kitae.build import ime
+            chars |= ime.chars()
         if chars:
             print(f"폰트: {len(chars)}자 주입 → TRF/TRFSTRINGS.DLL")
             font_dll = hangul.inject(cfg, chars, verbose=verbose)
@@ -409,6 +412,11 @@ def _build(cfg, scripts, lang, want_font=True, verbose=False):
         if nchar:
             ui[nkey] = blob2
             print(f"  이름화면 힌트 폰트: 굽기 소스에 한글 {nchar}자 주입")
+    # 한글 입력기(1단계): かな 격자 → 자모, 음절→셀 표 (근거: kitae/build/ime.py, docs/IME.md)
+    if cfg.get("ime") and nkey in ui:
+        from kitae.build import ime
+        ui[nkey], inote = ime.patch(cfg, ui[nkey])
+        print(f"  {inote}")
     # 주인공 성/이름 사이 전각공백 — &主人公名前& 이 「성이름」으로 붙는 것.
     # UI 패치된 KITAE 위에 조립부 스텁을 얹는다(파일 크기 불변, 제자리 교체).
     # config 의 name_separator 가 켜져 있을 때만 적용 (기본 off).
