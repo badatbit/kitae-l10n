@@ -83,11 +83,22 @@ python -m kitae build KOTORI_01  # 스크립트 하나만
 1. **창별 줄 수를 바꿀 수 없다** — `.MSG` 테이블이 창마다 줄 수를 고정합니다.
 2. **인라인 마크업 보존** — `@S@`/`@P@`(재생 제어), `&主人公&`(이름 치환)
 
-## 배포용 패치 (DCP)
+## 배포용 패치
 
 ```
-python tools/make_dcp.py         # dist/*.dcp
+python tools/make_release.py -v v0.9     # dist/*.dcp · *.xdelta · 읽어주세요.txt
 ```
+
+두 벌을 냅니다.
+
+| 파일 | 크기 | 적용 | 원본 요구 |
+|---|---|---|---|
+| `.dcp` | 10.6MB | Universal Dreamcast Patcher | 조금 달라도 됨 |
+| `.xdelta` | 5.3MB | `xdelta3 -d -s track03.bin …` | 바이트까지 같아야 함 |
+
+`.xdelta` 는 **데이터 트랙 `track03.bin` 하나**의 차분입니다 — track01(오디오)·track02·`.gdi` 는
+바뀌지 않습니다. 만든 뒤 되적용해 빌드본과 sha256 이 같은지 확인합니다. 원본 해시는
+`읽어주세요.txt` 에 적힙니다.
 
 [Universal Dreamcast Patcher](https://github.com/DerekPascarella/UniversalDreamcastPatcher) 가 읽는
 **DCP** 로 냅니다. DCP 는 확장자만 바꾼 ZIP 이고, 뿌리에 바뀐 파일을 디스크의 폴더 구조 그대로
@@ -96,7 +107,7 @@ python tools/make_dcp.py         # dist/*.dcp
 
 담을 파일은 `work/build/` 가 아니라 **빌드된 디스크와 원본 디스크를 직접 비교**해 고릅니다 —
 SOZ 처럼 디스크에 넣는 단계에서 한 번 더 손대는 것이 있어, 배포될 바이트는 디스크 쪽이 정답입니다.
-현재 39개 파일 약 11MB 입니다(원자료 16.7MB). 사용자는 원본 GDI/CDI 와 이 `.dcp` 를 패처에 넣으면
+현재 39개 파일입니다(원자료 16.7MB). 사용자는 원본 GDI/CDI 와 이 `.dcp` 를 패처에 넣으면
 패치된 이미지가 나옵니다.
 
 ## 문서
