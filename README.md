@@ -83,6 +83,22 @@ python -m kitae build KOTORI_01  # 스크립트 하나만
 1. **창별 줄 수를 바꿀 수 없다** — `.MSG` 테이블이 창마다 줄 수를 고정합니다.
 2. **인라인 마크업 보존** — `@S@`/`@P@`(재생 제어), `&主人公&`(이름 치환)
 
+## 배포용 패치 (DCP)
+
+```
+python tools/make_dcp.py         # dist/*.dcp
+```
+
+[Universal Dreamcast Patcher](https://github.com/DerekPascarella/UniversalDreamcastPatcher) 가 읽는
+**DCP** 로 냅니다. DCP 는 확장자만 바꾼 ZIP 이고, 뿌리에 바뀐 파일을 디스크의 폴더 구조 그대로
+(`RESOURCE/…`, `TRF/…`) 담습니다. 매니페스트는 없습니다. 부트섹터를 바꿔야 하면 뿌리에
+`bootsector/IP.BIN` 을 두는데, 이 패치는 IP.BIN 을 안 건드리므로 넣지 않습니다.
+
+담을 파일은 `work/build/` 가 아니라 **빌드된 디스크와 원본 디스크를 직접 비교**해 고릅니다 —
+SOZ 처럼 디스크에 넣는 단계에서 한 번 더 손대는 것이 있어, 배포될 바이트는 디스크 쪽이 정답입니다.
+현재 39개 파일 약 11MB 입니다(원자료 16.7MB). 사용자는 원본 GDI/CDI 와 이 `.dcp` 를 패처에 넣으면
+패치된 이미지가 나옵니다.
+
 ## 문서
 
 - [ANALYSIS.md](docs/ANALYSIS.md) — 디스크·아카이브 전체 구조
