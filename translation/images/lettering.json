@@ -135,6 +135,22 @@
    "name": "date-card-007",
    "base": "date-card",
    "shadow": "2 2 0 #9326ff80"
+  },
+  {
+   "name": "namein-pill",
+   "font_family_ko": "IBM Plex Sans KR",
+   "font_weight": 600,
+   "font_size_px": 22,
+   "text_align": "mm",
+   "fill_rgb": "#FFFFFF",
+   "outline_rgb": "#000000AA",
+   "outline_weight_px": 1,
+   "squeeze_min": 0.7
+  },
+  {
+   "name": "namein-pill-big",
+   "base": "namein-pill",
+   "font_size_px": 28
   }
  ],
  "rows": [
@@ -11056,6 +11072,318 @@
    "jp": "永遠の幸せが約束されるという...",
    "ko": "영원한  행복이  약속된다고  한다...",
    "style": "narr-over",
+   "status": "render_ready"
+  },
+  {
+   "box_id": "namein_01_0",
+   "file": "MAIN/Namein_01.png",
+   "jp": "◁▷",
+   "ko": "◁▷",
+   "text": [
+    36,
+    44,
+    72,
+    36
+   ],
+   "style": "namein-pill",
+   "status": "render_ready"
+  },
+  {
+   "box_id": "namein_01_1",
+   "file": "MAIN/Namein_01.png",
+   "jp": "漢字",
+   "ko": "한자",
+   "text": [
+    36,
+    86,
+    72,
+    36
+   ],
+   "style": "namein-pill",
+   "status": "render_ready"
+  },
+  {
+   "box_id": "namein_01_2",
+   "file": "MAIN/Namein_01.png",
+   "jp": "かな",
+   "ko": "한글",
+   "text": [
+    36,
+    126,
+    72,
+    36
+   ],
+   "style": "namein-pill",
+   "status": "render_ready"
+  },
+  {
+   "box_id": "namein_01_3",
+   "file": "MAIN/Namein_01.png",
+   "jp": "カナ",
+   "ko": "가나",
+   "text": [
+    36,
+    166,
+    72,
+    36
+   ],
+   "style": "namein-pill",
+   "status": "render_ready"
+  },
+  {
+   "box_id": "namein_01_4",
+   "file": "MAIN/Namein_01.png",
+   "jp": "英数",
+   "ko": "영숫자",
+   "text": [
+    36,
+    206,
+    72,
+    36
+   ],
+   "style": "namein-pill",
+   "status": "render_ready",
+   "overflow": "squeeze"
+  },
+  {
+   "box_id": "namein_01_5",
+   "file": "MAIN/Namein_01.png",
+   "jp": "決定",
+   "ko": "결정",
+   "text": [
+    36,
+    336,
+    72,
+    36
+   ],
+   "style": "namein-pill",
+   "status": "render_ready"
+  },
+  {
+   "box_id": "namein_02_0",
+   "file": "MAIN/Namein_02.png",
+   "jp": "決定",
+   "ko": "결정",
+   "text": [
+    29,
+    330,
+    86,
+    48
+   ],
+   "style": "namein-pill-big",
+   "status": "render_ready"
+  },
+  {
+   "box_id": "namein_03_0",
+   "file": "MAIN/Namein_03.png",
+   "jp": "英数",
+   "ko": "영숫자",
+   "text": [
+    29,
+    200,
+    86,
+    48
+   ],
+   "style": "namein-pill-big",
+   "status": "render_ready",
+   "overflow": "squeeze"
+  },
+  {
+   "box_id": "namein_04_0",
+   "file": "MAIN/Namein_04.png",
+   "jp": "カナ",
+   "ko": "가나",
+   "text": [
+    29,
+    160,
+    86,
+    48
+   ],
+   "style": "namein-pill-big",
+   "status": "render_ready"
+  },
+  {
+   "box_id": "namein_05_0",
+   "file": "MAIN/Namein_05.png",
+   "jp": "かな",
+   "ko": "한글",
+   "text": [
+    29,
+    120,
+    86,
+    48
+   ],
+   "style": "namein-pill-big",
+   "status": "render_ready"
+  },
+  {
+   "box_id": "namein_06_0",
+   "file": "MAIN/Namein_06.png",
+   "jp": "漢字",
+   "ko": "한자",
+   "text": [
+    29,
+    80,
+    86,
+    48
+   ],
+   "style": "namein-pill-big",
+   "status": "render_ready"
+  },
+  {
+   "box_id": "namein_07_0",
+   "file": "MAIN/Namein_07.png",
+   "jp": "◁▷",
+   "ko": "◁▷",
+   "text": [
+    29,
+    40,
+    85,
+    48
+   ],
+   "style": "namein-pill-big",
+   "status": "render_ready"
+  },
+  {
+   "box_id": "set104_00_0",
+   "file": "MAIN/SET104_00.png",
+   "jp": "漢字",
+   "ko": "한자",
+   "text": [
+    32,
+    76,
+    72,
+    36
+   ],
+   "style": "namein-pill",
+   "status": "render_ready"
+  },
+  {
+   "box_id": "set104_00_1",
+   "file": "MAIN/SET104_00.png",
+   "jp": "かな",
+   "ko": "한글",
+   "text": [
+    32,
+    115,
+    72,
+    36
+   ],
+   "style": "namein-pill",
+   "status": "render_ready"
+  },
+  {
+   "box_id": "set104_00_2",
+   "file": "MAIN/SET104_00.png",
+   "jp": "カナ",
+   "ko": "가나",
+   "text": [
+    32,
+    154,
+    72,
+    36
+   ],
+   "style": "namein-pill",
+   "status": "render_ready"
+  },
+  {
+   "box_id": "set104_00_3",
+   "file": "MAIN/SET104_00.png",
+   "jp": "英数",
+   "ko": "영숫자",
+   "text": [
+    32,
+    193,
+    72,
+    36
+   ],
+   "style": "namein-pill",
+   "status": "render_ready",
+   "overflow": "squeeze"
+  },
+  {
+   "box_id": "set104_00_4",
+   "file": "MAIN/SET104_00.png",
+   "jp": "決定",
+   "ko": "결정",
+   "text": [
+    34,
+    313,
+    72,
+    36
+   ],
+   "style": "namein-pill",
+   "status": "render_ready"
+  },
+  {
+   "box_id": "set104_01_0",
+   "file": "MAIN/SET104_01.png",
+   "jp": "漢字",
+   "ko": "한자",
+   "text": [
+    25,
+    70,
+    86,
+    48
+   ],
+   "style": "namein-pill-big",
+   "status": "render_ready"
+  },
+  {
+   "box_id": "set104_02_0",
+   "file": "MAIN/SET104_02.png",
+   "jp": "かな",
+   "ko": "한글",
+   "text": [
+    25,
+    109,
+    86,
+    48
+   ],
+   "style": "namein-pill-big",
+   "status": "render_ready"
+  },
+  {
+   "box_id": "set104_03_0",
+   "file": "MAIN/SET104_03.png",
+   "jp": "カナ",
+   "ko": "가나",
+   "text": [
+    25,
+    148,
+    86,
+    48
+   ],
+   "style": "namein-pill-big",
+   "status": "render_ready"
+  },
+  {
+   "box_id": "set104_04_0",
+   "file": "MAIN/SET104_04.png",
+   "jp": "英数",
+   "ko": "영숫자",
+   "text": [
+    25,
+    187,
+    86,
+    48
+   ],
+   "style": "namein-pill-big",
+   "status": "render_ready",
+   "overflow": "squeeze"
+  },
+  {
+   "box_id": "set104_05_0",
+   "file": "MAIN/SET104_05.png",
+   "jp": "決定",
+   "ko": "결정",
+   "text": [
+    26,
+    306,
+    86,
+    48
+   ],
+   "style": "namein-pill-big",
    "status": "render_ready"
   }
  ],
