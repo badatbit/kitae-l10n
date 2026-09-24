@@ -66,10 +66,14 @@ SLASH_W = 12                  # ASCII `/` 는 반각 고정(칸 가운데) — `
 ASCII_CELLS = tuple(chr(c) for c in range(0x21, 0x7F) if chr(c) not in MARKUP_CHARS)
 LIGATURES = (". ", ", ", "! ", "? ", ": ", " (", ") ")
 # 폰트 셀이 필요한 비한글 글리프 전부 (hangul.SYMBOL_PAGE 에 이 순서로 붙는다)
-SYMBOL_CELLS = (" ", EN_SPACE, EM_SPACE, SEP24, FIGURE_SPACE, FOUR_PER_EM_SPACE, THREE_PER_EM_SPACE, DASH24, DOT24) + ASCII_CELLS + LIGATURES + tuple(FONT_ADV)
+# ★ 동적 조사 마커 — 한 셀을 먹고, 런타임에 앞 글자 받침을 보고 실제 조사로 바뀐다.
+# 키는 `{받침형무받침형}` 꼴이라 본문과 절대 겹치지 않는다(`으로` 처럼 조사 철자를 그대로
+# 쓰면 평범한 낱말과 부딪친다). 값은 (받침 있을 때, 없을 때). docs/JOSA-ENGINE.md
+JOSA = {"{은는}": ("은", "는")}
+SYMBOL_CELLS = (" ", EN_SPACE, EM_SPACE, SEP24, FIGURE_SPACE, FOUR_PER_EM_SPACE, THREE_PER_EM_SPACE, DASH24, DOT24) + ASCII_CELLS + LIGATURES + tuple(FONT_ADV) + tuple(JOSA)
 
 # 칸에 실제로 그릴 모양이 문자와 다른 것. REDRAW 는 그중 게임 cp932 칸을 덮어 그리는 것.
-SHAPE = {MID: "·", SEP24: "/", DASH24: "-", DOT24: "."}
+SHAPE = {MID: "·", SEP24: "/", DASH24: "-", DOT24: ".", **{m: v[1] for m, v in JOSA.items()}}
 REDRAW = (MID,)
 
 
@@ -135,6 +139,8 @@ class Widths:
             w = EN
         elif ch == MID:
             w = MID_W
+        elif ch in JOSA:                 # 조사 마커 = 한글 한 칸
+            w = HANGUL
         elif ch in (SEP24, DASH24, DOT24):   # DOT24 는 가운데가 아니라 왼쪽(offset 0) — 오른쪽만 빈다
             w = CELL
         elif ch == "/":

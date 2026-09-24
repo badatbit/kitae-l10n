@@ -184,6 +184,73 @@ def assign(chars, cp=None, reserved=(), pages=None):
     return cp
 
 
+JONG_L = 8                    # 종성 인덱스 8 = ㄹ
+
+
+def jong_group(ch):
+    """0 무받침 · 1 ㄹ받침 · 2 기타받침. 한글 음절이 아니면 None.
+
+    조사 선택에 필요한 구분은 이 셋뿐이다 — 은/는·이/가 류는 받침 유무만,
+    (으)로는 ㄹ 받침을 무받침과 같이 본다(`docs/JOSA-ENGINE.md`).
+    """
+    if not ("가" <= ch <= "힣"):
+        return None
+    j = (ord(ch) - 0xAC00) % 28
+    return 0 if j == 0 else (1 if j == JONG_L else 2)
+
+
+def assign_josa(chars, cp=None, reserved=(), pages=None):
+    """한글을 **받침군 순으로 전체 재배정**하고 경계를 함께 낸다. (cp, B1, B2).
+
+    셀코드(`lead<<8 | trail`) 오름차순으로 `[무받침][ㄹ받침][기타받침]` 을 깔면
+    런타임 받침 판정이 **비교 한 번**으로 끝난다. 표도 비트맵도 필요 없다.
+
+        받침 있음 = cell >= B1      (은/는·이/가·을/를·와/과 …)
+        으로/로   = cell >= B2      (무받침·ㄹ받침은 `로`)
+
+    ★ 페이지를 **숫자 오름차순**으로 돈다. `PAGES` 는 안전한 순서(선호도)라 숫자
+    순이 아니어서, 그대로 쓰면 셀코드가 단조가 아니게 되어 비교가 깨진다.
+    ★ 한글은 기존 배정을 버리고 전부 새로 깐다 — 폰트·대사 전체 재굽기가 따라온다.
+    한글이 아닌 배정(ASCII·공백·합자·기호)은 그대로 둔다.
+    """
+    cp = dict(cp or {})
+    pages = sorted(int(p) for p in (pages or PAGES))
+    hangul = {ch for ch in set(chars) | set(cp) if jong_group(ch) is not None}
+    for ch in hangul:
+        cp.pop(ch, None)
+    taken = set(cp.values()) | set(reserved)
+    taken |= {(l, c) for l in pages for c in CELLS if not _decodable(l, c)}
+    slots = [(l, c) for l in pages for c in CELLS if (l, c) not in taken]
+    if len(slots) < len(hangul):
+        raise RuntimeError(f"한글 {len(hangul)}자에 빈 칸이 {len(slots)}칸뿐이다")
+    for ch, slot in zip(sorted(hangul, key=lambda c: (jong_group(c), c)), slots):
+        cp[ch] = slot
+    return (cp,) + josa_bounds(cp)
+
+
+def josa_bounds(cp):
+    """배정에서 경계 (B1, B2) 를 읽어낸다. 받침군이 섞여 있으면 ValueError.
+
+    빌드마다 다시 계산한다 — 파일로 남기지 않는다(단일 소스는 codepage 자체).
+    """
+    groups = {}
+    for ch, slot in cp.items():
+        g = jong_group(ch)
+        if g is not None:
+            groups.setdefault(g, []).append((slot[0] << 8) | slot[1])
+    if not groups:
+        return (0, 0)
+    top = max(max(v) for v in groups.values()) + 1
+    b1 = min(groups.get(1, []) + groups.get(2, []) + [top])
+    b2 = min(groups.get(2, []) + [top])
+    # 세 구간이 실제로 갈리는지 확인 — 어긋나면 훅이 조용히 틀린 조사를 고른다
+    for g, lo, hi in ((0, 0, b1), (1, b1, b2), (2, b2, 1 << 16)):
+        bad = [c for c in groups.get(g, []) if not lo <= c < hi]
+        if bad:
+            raise ValueError(f"받침군 {g} 의 셀 {len(bad)}개가 구간 밖: {bad[:4]}")
+    return b1, b2
+
+
 def contiguous_digits(cp, reserved=()):
     """ASCII 숫자 '0'~'9' 를 SYMBOL_PAGE 의 **연속 10칸**에 둔다.
 
@@ -267,18 +334,27 @@ def units(text):
     인코더·타이밍·검사기·미리보기가 같은 분해를 쓴다 — 글자 수는 바이트가 아니라
     **렌더링될 글리프 수**다(docs/KO-TEXT-RULES.md §4)."""
     from kitae.core.windows import MARKUP_ALL
-    from kitae.build.widths import LIGATURES
+    from kitae.build.widths import LIGATURES, JOSA
     out, pos = [], 0
+    # 조사 마커가 합자보다 길므로 먼저 본다 (`{은는}` 5글자 → 한 단위)
+    longest = max([len(k) for k in JOSA] or [0])
 
     def split(seg):
         i, n = 0, len(seg)
         while i < n:
-            if seg[i:i + 2] in LIGATURES:
-                out.append((seg[i:i + 2], False))
-                i += 2
+            for k in range(longest, 2, -1):
+                if seg[i:i + k] in JOSA:
+                    out.append((seg[i:i + k], False))
+                    i += k
+                    break
             else:
-                out.append((seg[i], False))
-                i += 1
+                if seg[i:i + 2] in LIGATURES:
+                    out.append((seg[i:i + 2], False))
+                    i += 2
+                else:
+                    out.append((seg[i], False))
+                    i += 1
+                continue
 
     for m in MARKUP_ALL.finditer(text):
         split(text[pos:m.start()])
@@ -346,7 +422,12 @@ def inject(cfg, chars, verbose=False):
     symbols = set(SYMBOL_CELLS)
     cp = assign(symbols, cp, reserved, [SYMBOL_PAGE])
     cp = contiguous_digits(cp, reserved)
-    cp = assign(set(chars) - symbols, cp, reserved, pages)
+    if cfg.get("josa"):                      # 받침순 전체 재배정 (docs/JOSA-ENGINE.md)
+        cp, b1, b2 = assign_josa(set(chars) - symbols, cp, reserved, pages)
+        if verbose:
+            print(f"    조사 배정: B1={b1:#06x} B2={b2:#06x}")
+    else:
+        cp = assign(set(chars) - symbols, cp, reserved, pages)
     _write_codepage(cp_path, cp)
     chars = set(chars) | symbols
 
