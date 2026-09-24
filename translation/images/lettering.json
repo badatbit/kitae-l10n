@@ -111,7 +111,8 @@
    "font_weight": 300,
    "font_size_px": 30,
    "text_align": "lm",
-   "fill_rgb": "#FFFFFF"
+   "fill_rgb": "#FFFFFF",
+   "letter_spacing_px": 3
   },
   {
    "name": "date-card",
@@ -10972,7 +10973,7 @@
     39
    ],
    "jp": "大晦日の夜・・",
-   "ko": "섣달그믐  밤..",
+   "ko": "섣달그믐 밤..",
    "style": "narr-under",
    "status": "render_ready"
   },
@@ -10986,7 +10987,7 @@
     39
    ],
    "jp": "大晦日の夜・・",
-   "ko": "섣달그믐  밤..",
+   "ko": "섣달그믐 밤..",
    "style": "narr-over",
    "status": "render_ready"
   },
@@ -11000,7 +11001,7 @@
     39
    ],
    "jp": "イルミネーション・カウントダウンで",
-   "ko": "일루미네이션  카운트다운에서",
+   "ko": "일루미네이션 카운트다운에서",
    "style": "narr-under",
    "status": "render_ready"
   },
@@ -11014,7 +11015,7 @@
     39
    ],
    "jp": "イルミネーション・カウントダウンで",
-   "ko": "일루미네이션  카운트다운에서",
+   "ko": "일루미네이션 카운트다운에서",
    "style": "narr-over",
    "status": "render_ready"
   },
@@ -11028,7 +11029,7 @@
     39
    ],
    "jp": "年越しのｋｉｓｓをした恋人たちは",
-   "ko": "새해맞이  키스를  한  연인들은",
+   "ko": "새해맞이 키스를 한 연인들은",
    "style": "narr-under",
    "status": "render_ready"
   },
@@ -11042,7 +11043,7 @@
     39
    ],
    "jp": "年越しのｋｉｓｓをした恋人たちは",
-   "ko": "새해맞이  키스를  한  연인들은",
+   "ko": "새해맞이 키스를 한 연인들은",
    "style": "narr-over",
    "status": "render_ready"
   },
@@ -11056,7 +11057,7 @@
     39
    ],
    "jp": "永遠の幸せが約束されるという...",
-   "ko": "영원한  행복이  약속된다고  한다...",
+   "ko": "영원한 행복이 약속된다고 한다...",
    "style": "narr-under",
    "status": "render_ready"
   },
@@ -11070,7 +11071,7 @@
     39
    ],
    "jp": "永遠の幸せが約束されるという...",
-   "ko": "영원한  행복이  약속된다고  한다...",
+   "ko": "영원한 행복이 약속된다고 한다...",
    "style": "narr-over",
    "status": "render_ready"
   },

@@ -182,6 +182,31 @@ def text_rules(cfg, lang):
     return bad
 
 
+def ui_padding(cfg, lang):
+    """보호 항목(is_fixed)의 **칸 채움** 검토. [(파일, 오프셋, 원문, 번역)]
+
+    엔진이 고정 칸에 그대로 쓰는 문자열은 원문이 뒤를 전각 공백으로 채워 칸 수를 맞춰 둔다.
+    번역이 그 꼬리를 빼면 남는 칸이 안 채워지고, 그 칸을 그릴 때 글꼴 아틀라스에 남아 있던
+    **다른 글자가 비친다** — 2026-09-24 이름 화면에서 세이브가 없을 때(이름 칸이 빌 때)
+    `デブ？　　　` → `데부？` 가 이렇게 잔상을 냈다(TRFNAMEIN 0x14854).
+
+    스탭롤처럼 꼬리 공백이 장식인 항목도 걸리므로 **실패로 막지 않고 목록만** 보여 준다.
+    걸린 항목은 원문 칸 수대로 채워야 하는지 사람이 판단한다."""
+    from kitae.build.uipatch import is_fixed
+    out = []
+    for rel, doc in _docs(cfg):
+        if doc is None or not rel.replace("\\", "/").startswith("translation/ui/"):
+            continue
+        for e in doc["entries"]:
+            t = e.get("text") or {}
+            ja, ko = t.get("ja") or "", t.get(lang) or ""
+            if not ko.strip() or not is_fixed(e):
+                continue
+            if ja.endswith("　") and len(ko) != len(ja):
+                out.append((rel, e.get("offset"), ja, ko))
+    return out
+
+
 def run(args):
     cfg = Config.load()
     print(f"저장소: {cfg.root}")
@@ -259,6 +284,13 @@ def run(args):
         print(f"          {f} [{w}.{ln}]  {msg}")
     if len(bad) > 15:
         print(f"          … {len(bad) - 15}곳 더")
+
+    pad = ui_padding(cfg, cfg["target"])
+    _row(True, "칸 채움 검토",
+         "원문 꼬리 전각공백과 칸 수가 같음" if not pad else
+         f"칸 수가 다른 보호 항목 {len(pad)}건(막지 않음)")
+    for rel, off, ja, ko in pad[:8]:
+        print(f"          {rel} {off:#x}: 원문 {ja!r}({len(ja)}칸) → 번역 {ko!r}({len(ko)}칸)")
 
     print("\n준비됨" if ok else "\n미비 항목이 있습니다")
     return 0 if ok else 1
