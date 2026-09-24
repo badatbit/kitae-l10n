@@ -127,3 +127,127 @@ def patch(cfg, blob):
     note = (f"IME 1단계: かな 표 90칸 → 자모(첫 셀 {base:#06x}) · 음절→셀 표 {baked}/{N_SYL} "
             f"→ .rdata 블록 0~{TABLE_BLOCKS - 1}")
     return bytes(out), note
+
+
+# ───────────────────────────────────────────────────────────────────────────────
+# 두벌식 오토마타 — 파이썬 참조 구현. 2단계 SH4 스텁은 이 규칙을 그대로 옮긴다.
+# 상태 = (커서, 초성, 중성, 종성) 인덱스(없으면 None). 결과는 "쓰기" 동작 목록:
+#   ("put", 글자, advance)  — 커서 칸에 글자를 쓰고 advance 면 커서를 한 칸 넘긴다(PutChar 와 같다)
+JONG = [None] + list("ㄱㄲㄳㄴㄵㄶㄷㄹㄺㄻㄼㄽㄾㄿㅀㅁㅂㅄㅅㅆㅇㅈㅊㅋㅌㅍㅎ")   # 종성 28 (0 = 없음)
+CHO2JONG = [JONG.index(c) if c in JONG else 0 for c in JAMO_CHO]          # ㄸㅃㅉ → 0
+JONG2CHO = [JAMO_CHO.index(c) if (c is not None and c in JAMO_CHO) else None for c in JONG]   # 겹받침·없음 → None
+_DOUBLE = {("ㄱ", "ㅅ"): "ㄳ", ("ㄴ", "ㅈ"): "ㄵ", ("ㄴ", "ㅎ"): "ㄶ", ("ㄹ", "ㄱ"): "ㄺ",
+           ("ㄹ", "ㅁ"): "ㄻ", ("ㄹ", "ㅂ"): "ㄼ", ("ㄹ", "ㅅ"): "ㄽ", ("ㄹ", "ㅌ"): "ㄾ",
+           ("ㄹ", "ㅍ"): "ㄿ", ("ㄹ", "ㅎ"): "ㅀ", ("ㅂ", "ㅅ"): "ㅄ"}
+DOUBLE_JONG = {(JONG.index(a), JAMO_CHO.index(b)): JONG.index(r) for (a, b), r in _DOUBLE.items()}
+# 종성 → (남는 종성, 떨어져 나가는 초성): 겹받침은 둘로, 홑받침은 (0, 그 초성)
+SPLIT_JONG = {JONG.index(r): (JONG.index(a), JAMO_CHO.index(b)) for (a, b), r in _DOUBLE.items()}
+for _i, _c in enumerate(JONG):
+    if _i and _i not in SPLIT_JONG:
+        SPLIT_JONG[_i] = (0, JAMO_CHO.index(_c))
+_DIPH = {("ㅗ", "ㅏ"): "ㅘ", ("ㅗ", "ㅐ"): "ㅙ", ("ㅗ", "ㅣ"): "ㅚ", ("ㅜ", "ㅓ"): "ㅝ",
+         ("ㅜ", "ㅔ"): "ㅞ", ("ㅜ", "ㅣ"): "ㅟ", ("ㅡ", "ㅣ"): "ㅢ"}
+DIPH = {(JAMO_JUNG.index(a), JAMO_JUNG.index(b)): JAMO_JUNG.index(r) for (a, b), r in _DIPH.items()}
+UNDIPH = {r: a for (a, _b), r in DIPH.items()}          # 복모음 → 앞 모음 (삭제용)
+
+
+def compose(cho, jung, jong=0):
+    return chr(0xAC00 + (cho * 21 + jung) * 28 + (jong or 0))
+
+
+class Composer:
+    """이름 바 커서 하나를 따라가는 조합 상태. `feed(자모)`·`delete()` 가 put 동작 목록을 낸다."""
+
+    def __init__(self):
+        self.cursor = None                      # 상태가 붙어 있는 커서 칸 (None = 쉼)
+        self.cho = self.jung = self.jong = None
+
+    def _reset(self):
+        self.cursor = None
+        self.cho = self.jung = self.jong = None
+
+    def _cur(self):
+        if self.jung is None:
+            return JAMO_CHO[self.cho]
+        return compose(self.cho, self.jung, self.jong or 0)
+
+    def feed(self, cursor, ch):
+        """자모 `ch` 입력. 커서가 상태와 다르면 새로 시작한다."""
+        if self.cursor != cursor:
+            self._reset()
+            self.cursor = cursor
+        acts = []
+
+        def commit():                            # 지금 칸을 확정하고 커서를 넘긴다
+            acts.append(("put", self._cur(), True))
+            self.cursor = cursor + 1
+            self.cho = self.jung = self.jong = None
+
+        if ch in JAMO_CHO:
+            c = JAMO_CHO.index(ch)
+            if self.cho is None:
+                self.cho = c
+            elif self.jung is None:                          # 초성만 있는데 또 자음
+                commit(); self.cho = c
+            elif self.jong is None:
+                jg = CHO2JONG[c]
+                if jg: self.jong = jg
+                else: commit(); self.cho = c
+            else:
+                dj = DOUBLE_JONG.get((self.jong, c))
+                if dj: self.jong = dj
+                else: commit(); self.cho = c
+            acts.append(("put", self._cur(), False))
+            return acts
+        v = JAMO_JUNG.index(ch)
+        if self.cho is None:                                 # 홀로 선 모음: 그대로 쓰고 넘긴다
+            acts.append(("put", ch, True)); self._reset(); return acts
+        if self.jung is None:
+            self.jung = v
+        elif self.jong is None:
+            dv = DIPH.get((self.jung, v))
+            if dv: self.jung = dv
+            else:
+                commit(); acts.append(("put", ch, True)); self._reset(); return acts
+        else:                                                # 도깨비불: 받침이 다음 초성으로
+            rest, moved = SPLIT_JONG[self.jong]
+            self.jong = rest or None
+            commit()
+            self.cho, self.jung = moved, v
+        acts.append(("put", self._cur(), False))
+        return acts
+
+    def delete(self, cursor):
+        """X: 조합 중이면 자모 하나만 뺀다. 아니면 None(게임 원래 삭제에 맡김)."""
+        if self.cursor != cursor or self.cho is None:
+            self._reset(); return None
+        if self.jong is not None:
+            self.jong = SPLIT_JONG[self.jong][0] or None
+        elif self.jung is not None:
+            self.jung = UNDIPH.get(self.jung)
+        else:
+            self._reset(); return [("put", None, False)]        # 빈칸으로
+        return [("put", self._cur(), False)]
+
+
+def _selftest():
+    def run(keys, dels=()):
+        cp_, cur, cells = Composer(), 0, {}
+        for k in keys:
+            for kind, ch, adv in cp_.feed(cur, k):
+                cells[cur] = ch
+                if adv: cur += 1
+        return "".join(cells[i] for i in sorted(cells))
+    cases = {"ㄱㅏㅁㅏ": "가마", "ㅎㅏㄴㄱㅡㄹ": "한글", "ㄱㅗㅏ": "과", "ㅂㅏㄹㄱ": "밝", "ㅂㅏㄹㄱㅡㄴ": "발근",
+             "ㅇㅣㅆㅏ": "이싸", "ㄱㄱㅏ": "ㄱ가", "ㅏㄱ": "ㅏㄱ", "ㅇㅜㅣ": "위", "ㄷㅏㄹㄱ": "닭", "ㅅㅓㅜㄹ": "서ㅜㄹ"}
+    for k, want in cases.items():
+        got = run(k)
+        assert got == want, (k, got, want)
+    c = Composer(); c.feed(0, "ㄷ"); c.feed(0, "ㅏ"); c.feed(0, "ㄹ"); c.feed(0, "ㄱ")
+    assert c.delete(0) == [("put", "달", False)] and c.delete(0) == [("put", "다", False)]
+    assert c.delete(0) == [("put", "ㄷ", False)] and c.delete(0) == [("put", None, False)]
+    return "오토마타 참조 구현 OK"
+
+
+if __name__ == "__main__":
+    print(_selftest())
