@@ -32,7 +32,7 @@ from kitae.config import Config          # noqa: E402
 TITLE = "Kita He - White Illumination (KO)"
 UDP_URL = "https://github.com/DerekPascarella/UniversalDreamcastPatcher/releases"
 
-NSI = r'''; 북으로. White Illumination 한국어 패치 설치 프로그램
+NSI = r"""; 북으로. White Illumination 한국어 패치 설치 프로그램
 ; tools/make_installer.py 가 생성합니다 — 손으로 고치지 마세요(해시가 박혀 있습니다).
 Unicode true
 !include "MUI2.nsh"
@@ -43,24 +43,26 @@ OutFile "{out_exe}"
 RequestExecutionLevel user
 ShowInstDetails show
 
-Var SrcDir          ; 원본 track03.bin 이 있는 폴더
-Var OutDir          ; 결과를 쓸 폴더
+Var SrcDir          ; 원본 이미지가 있는 폴더
+Var DestDir         ; 결과를 쓸 폴더
+Var DataTrack       ; 데이터 트랙 파일 이름 (경로 없음)
 Var SrcHash
 
 !define EXPECT "{src_sha}"
+!define DATASIZE {data_size}
 !define XDELTA "{xdelta_name}"
 !define DCP    "{dcp_name}"
 
 !define MUI_WELCOMEPAGE_TITLE "{title} {ver}"
-!define MUI_WELCOMEPAGE_TEXT "원본 디스크 이미지(GDI)에 한국어 패치를 적용합니다.$\r$\n$\r$\n\
-원본은 그대로 두고 패치본을 새 폴더에 만듭니다. 약 1.2GB 의 빈 공간이 필요합니다.$\r$\n$\r$\n\
-원본이 우리가 쓴 덤프본과 같으면 곧바로 적용하고, 다르면 범용 패처용 파일을 꺼내 드립니다."
+!define MUI_WELCOMEPAGE_TEXT "원본 디스크 이미지에 한국어 패치를 적용합니다.$\r$\n$\r$\n\
+GDI(track03.bin) 와 CUE/BIN(… (Track 3).bin) 둘 다 됩니다 — 데이터 트랙은 어느 덤프본이든 같습니다.$\r$\n$\r$\n\
+원본은 그대로 두고 패치본을 새 폴더에 만듭니다. 약 1.2GB 의 빈 공간이 필요합니다."
 !insertmacro MUI_PAGE_WELCOME
 
 ; ── 원본 폴더
 !define MUI_PAGE_HEADER_TEXT "원본 디스크 이미지"
-!define MUI_PAGE_HEADER_SUBTEXT "track01.bin · track02.raw · track03.bin 이 들어 있는 폴더"
-!define MUI_DIRECTORYPAGE_TEXT_TOP "원본 GDI 폴더를 고르세요. 이 폴더는 바뀌지 않습니다."
+!define MUI_PAGE_HEADER_SUBTEXT "트랙 파일들이 들어 있는 폴더"
+!define MUI_DIRECTORYPAGE_TEXT_TOP "원본 폴더를 고르세요. 이 폴더는 바뀌지 않습니다."
 !define MUI_DIRECTORYPAGE_TEXT_DESTINATION "원본 폴더"
 !define MUI_DIRECTORYPAGE_VARIABLE $SrcDir
 !define MUI_PAGE_CUSTOMFUNCTION_LEAVE CheckSrc
@@ -71,7 +73,7 @@ Var SrcHash
 !define MUI_PAGE_HEADER_SUBTEXT "빈 폴더를 권합니다"
 !define MUI_DIRECTORYPAGE_TEXT_TOP "패치된 이미지를 쓸 폴더입니다. 약 1.2GB 가 필요합니다."
 !define MUI_DIRECTORYPAGE_TEXT_DESTINATION "출력 폴더"
-!define MUI_DIRECTORYPAGE_VARIABLE $OutDir
+!define MUI_DIRECTORYPAGE_VARIABLE $DestDir
 !insertmacro MUI_PAGE_DIRECTORY
 
 !insertmacro MUI_PAGE_INSTFILES
@@ -79,23 +81,49 @@ Var SrcHash
 
 Function .onInit
   StrCpy $SrcDir "$DOCUMENTS"
-  StrCpy $OutDir "$DESKTOP\{title} {ver}"
+  StrCpy $DestDir "$DESKTOP\{title} {ver}"
 FunctionEnd
 
-; 원본 폴더에 track03.bin 이 있나
+; 데이터 트랙 찾기 — 이름이 덤프본마다 다르므로 **크기로** 고른다.
+; GDI 는 track03.bin, Redump CUE/BIN 은 "… (Track 3).bin" 이지만 내용은 같다.
+Function FindDataTrack
+  StrCpy $DataTrack ""
+  FindFirst $0 $1 "$SrcDir\*.bin"
+  ${{Do}}
+    ${{If}} $1 == ""
+      ${{Break}}
+    ${{EndIf}}
+    ClearErrors
+    FileOpen $2 "$SrcDir\$1" r
+    ${{IfNot}} ${{Errors}}
+      FileSeek $2 0 END $3
+      FileClose $2
+      ${{If}} $3 == ${{DATASIZE}}
+        StrCpy $DataTrack $1
+        ${{Break}}
+      ${{EndIf}}
+    ${{EndIf}}
+    FindNext $0 $1
+  ${{Loop}}
+  FindClose $0
+FunctionEnd
+
 Function CheckSrc
-  ${{IfNot}} ${{FileExists}} "$SrcDir\track03.bin"
-    MessageBox MB_ICONSTOP "이 폴더에 track03.bin 이 없습니다.$\r$\nGDI 파일들이 있는 폴더를 고르세요."
+  Call FindDataTrack
+  ${{If}} $DataTrack == ""
+    MessageBox MB_ICONSTOP "이 폴더에서 데이터 트랙을 찾지 못했습니다.$\r$\n\
+크기가 ${{DATASIZE}} 바이트인 .bin 파일이 있어야 합니다.$\r$\n\
+(GDI 는 track03.bin, CUE/BIN 은 '… (Track 3).bin')"
     Abort
   ${{EndIf}}
 FunctionEnd
 
 ; certutil 로 SHA256 → $SrcHash. 출력을 파일로 받아 둘째 줄을 읽는다
-; (StrFunc 없이 처리하려고 파일 경유. certutil 은 윈도 기본 도구라 추가 의존성이 없다.)
+; (StrFunc·플러그인 없이 처리하려고 파일 경유. certutil 은 윈도 기본 도구다.)
 Function HashSrc
   StrCpy $SrcHash ""
   Delete "$PLUGINSDIR\hash.txt"
-  nsExec::ExecToLog 'cmd /c ""$SYSDIR\certutil.exe" -hashfile "$SrcDir\track03.bin" SHA256 > "$PLUGINSDIR\hash.txt""'
+  nsExec::ExecToLog 'cmd /c ""$SYSDIR\certutil.exe" -hashfile "$SrcDir\$DataTrack" SHA256 > "$PLUGINSDIR\hash.txt""'
   Pop $0
   ${{IfNot}} ${{FileExists}} "$PLUGINSDIR\hash.txt"
     Return
@@ -105,7 +133,7 @@ Function HashSrc
   ${{If}} ${{Errors}}
     Return
   ${{EndIf}}
-  FileRead $1 $2          ; 1행: "SHA256 해시:" 안내(언어별로 다름)
+  FileRead $1 $2          ; 1행: 안내(언어별로 다름)
   FileRead $1 $2          ; 2행: 해시
   FileClose $1
   ; 공백·탭·개행 제거 (옛 certutil 은 바이트마다 띄운다)
@@ -126,54 +154,76 @@ Function HashSrc
   StrCpy $SrcHash $3
 FunctionEnd
 
+; 데이터 트랙 말고 나머지 파일(.gdi/.cue/오디오 트랙)을 그대로 옮긴다
+Function CopyRest
+  FindFirst $0 $1 "$SrcDir\*.*"
+  ${{Do}}
+    ${{If}} $1 == ""
+      ${{Break}}
+    ${{EndIf}}
+    ${{If}} $1 != "."
+    ${{AndIf}} $1 != ".."
+    ${{AndIf}} $1 S!= $DataTrack
+      ${{IfNot}} ${{FileExists}} "$SrcDir\$1\*.*"
+        DetailPrint "  $1"
+        CopyFiles /SILENT "$SrcDir\$1" "$DestDir\$1"
+      ${{EndIf}}
+    ${{EndIf}}
+    FindNext $0 $1
+  ${{Loop}}
+  FindClose $0
+FunctionEnd
+
 Section "패치"
-  CreateDirectory "$OutDir"
+  ; $PLUGINSDIR 은 첫 플러그인 호출이나 InitPluginsDir 전에는 비어 있다 —
+  ; 먼저 부르지 않으면 SetOutPath 가 빈 경로를 받아 설치가 그대로 중단된다.
+  InitPluginsDir
+  CreateDirectory "$DestDir"
   SetOutPath "$PLUGINSDIR"
   File "{xdelta_exe}"
   File "{xdelta_path}"
   File "{dcp_path}"
   File "{readme_path}"
 
+  Call FindDataTrack
+  DetailPrint "데이터 트랙: $DataTrack"
   DetailPrint "원본 확인 중… (1.2GB, 몇십 초 걸립니다)"
   Call HashSrc
   ${{If}} $SrcHash == ""
-    DetailPrint "해시를 재지 못했습니다 — DCP 쪽으로 진행합니다."
+    DetailPrint "해시를 재지 못했습니다 — DCP 쪽으로 넘어갑니다."
     Goto Fallback
   ${{EndIf}}
   DetailPrint "원본 sha256: $SrcHash"
 
-  ; LogicLib 의 == 는 대소문자를 가리지 않는다 — certutil 출력이 대문자여도 맞는다
+  ; LogicLib 의 == 는 대소문자를 가리지 않는다 — certutil 이 대문자로 내도 맞는다
   ${{If}} $SrcHash == "${{EXPECT}}"
-    DetailPrint "우리 덤프본과 같습니다. xdelta 로 적용합니다."
-    DetailPrint "데이터 트랙 만드는 중…"
-    nsExec::ExecToLog '"$PLUGINSDIR\xdelta3.exe" -d -f -s "$SrcDir\track03.bin" "$PLUGINSDIR\${{XDELTA}}" "$OutDir\track03.bin"'
+    DetailPrint "우리가 쓴 덤프본과 같습니다. xdelta 로 적용합니다."
+    nsExec::ExecToLog '"$PLUGINSDIR\xdelta3.exe" -d -f -s "$SrcDir\$DataTrack" "$PLUGINSDIR\${{XDELTA}}" "$DestDir\$DataTrack"'
     Pop $0
     ${{If}} $0 != 0
       MessageBox MB_ICONSTOP "차분 적용에 실패했습니다 (코드 $0).$\r$\n빈 공간이 모자라지 않은지 보세요."
       Abort
     ${{EndIf}}
-    DetailPrint "나머지 트랙 복사 중…"
-    CopyFiles /SILENT "$SrcDir\track01.bin" "$OutDir\track01.bin"
-    CopyFiles /SILENT "$SrcDir\track02.raw" "$OutDir\track02.raw"
-    CopyFiles /SILENT "$SrcDir\*.gdi" "$OutDir"
+    DetailPrint "나머지 파일 복사 중…"
+    Call CopyRest
     DetailPrint "완료."
-    MessageBox MB_ICONINFORMATION "패치가 끝났습니다.$\r$\n$\r$\n$OutDir$\r$\n$\r$\n이 폴더의 .gdi 를 에뮬레이터로 여세요."
-    ExecShell "open" "$OutDir"
+    MessageBox MB_ICONINFORMATION "패치가 끝났습니다.$\r$\n$\r$\n$DestDir$\r$\n$\r$\n이 폴더의 .gdi 또는 .cue 를 에뮬레이터로 여세요."
+    ExecShell "open" "$DestDir"
     Return
   ${{EndIf}}
 
   Fallback:
   DetailPrint "원본이 우리 덤프본과 다릅니다 — 범용 패처용 파일을 꺼냅니다."
-  CopyFiles /SILENT "$PLUGINSDIR\${{DCP}}" "$OutDir\${{DCP}}"
-  CopyFiles /SILENT "$PLUGINSDIR\읽어주세요.txt" "$OutDir\읽어주세요.txt"
-  MessageBox MB_ICONEXCLAMATION "원본이 우리가 쓴 덤프본과 다릅니다.$\r$\n\
-xdelta 차분은 바이트까지 같아야 적용되므로 쓸 수 없습니다.$\r$\n$\r$\n\
-대신 $OutDir 에 패치 파일(.dcp)을 꺼내 두었습니다.$\r$\n\
+  CopyFiles /SILENT "$PLUGINSDIR\${{DCP}}" "$DestDir\${{DCP}}"
+  CopyFiles /SILENT "$PLUGINSDIR\읽어주세요.txt" "$DestDir\읽어주세요.txt"
+  MessageBox MB_ICONEXCLAMATION "원본 데이터 트랙이 우리가 쓴 덤프본과 다릅니다.$\r$\n\
+xdelta 차분은 바이트까지 같아야 하므로 쓸 수 없습니다.$\r$\n$\r$\n\
+대신 $DestDir 에 패치 파일(.dcp)을 꺼내 두었습니다.$\r$\n\
 Universal Dreamcast Patcher 로 적용하세요. 이어서 내려받기 쪽을 엽니다."
   ExecShell "open" "{udp_url}"
-  ExecShell "open" "$OutDir"
+  ExecShell "open" "$DestDir"
 SectionEnd
-'''
+"""
 
 
 def sha256(path):
@@ -209,7 +259,7 @@ def main():
     nsi = NSI.format(
         title=TITLE, ver=a.version, udp_url=UDP_URL,
         out_exe=tag + " 설치.exe",
-        src_sha=sha256(orig),
+        src_sha=sha256(orig), data_size=os.path.getsize(orig),
         xdelta_name=os.path.basename(need["xdelta"]),
         dcp_name=os.path.basename(need["dcp"]),
         xdelta_exe=xd_exe, xdelta_path=need["xdelta"],

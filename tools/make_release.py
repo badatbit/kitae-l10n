@@ -98,14 +98,17 @@ HOWTO = """북으로. White Illumination 한국어 패치 {ver}
 
 [2] {xd}
     원본의 데이터 트랙 하나에만 적용하는 xdelta 차분입니다.
-    xdelta3 -d -s track03.bin "{xd}" track03_patched.bin
-    만들어진 track03_patched.bin 을 track03.bin 으로 바꿔 넣으면 됩니다.
-    .gdi 와 track01.bin, track02.raw 는 그대로 두세요 (바뀌지 않습니다).
-    ★ 원본 track03.bin 이 아래와 정확히 같아야 적용됩니다.
+    xdelta3 -d -s <데이터 트랙> "{xd}" <새 파일>
+    만들어진 파일을 원래 데이터 트랙 이름으로 바꿔 넣으면 됩니다.
+    나머지 트랙과 .gdi/.cue 는 그대로 두세요 (바뀌지 않습니다).
+
+    GDI 와 Redump CUE/BIN 둘 다 됩니다. 컨테이너만 다를 뿐 데이터 트랙은
+    같은 파일이기 때문입니다 (GDI 는 track03.bin, CUE/BIN 은 '… (Track 3).bin').
+    ★ 원본 데이터 트랙이 아래와 정확히 같아야 적용됩니다.
       크기   {src_size:,} 바이트
       sha256 {src_sha}
 
-패치된 track03.bin
+패치된 데이터 트랙
   크기   {dst_size:,} 바이트
   sha256 {dst_sha}
 """
