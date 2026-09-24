@@ -258,7 +258,7 @@ def main():
 
     nsi = NSI.format(
         title=TITLE, ver=a.version, udp_url=UDP_URL,
-        out_exe=tag + " 설치.exe",
+        out_exe=tag + ".exe",        # 세 에셋이 어간을 공유한다: .xdelta · .dcp · .exe
         src_sha=sha256(orig), data_size=os.path.getsize(orig),
         xdelta_name=os.path.basename(need["xdelta"]),
         dcp_name=os.path.basename(need["dcp"]),
