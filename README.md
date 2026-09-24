@@ -94,7 +94,7 @@ python -m kitae build KOTORI_01  # 스크립트 하나만
 - [PROPORTIONAL-WIDTH.md](docs/PROPORTIONAL-WIDTH.md) — 가변폭 훅(확정 사항)
 - [JOSA-ENGINE.md](docs/JOSA-ENGINE.md) — 이름 치환 뒤 조사 처리
 - [CHARACTERS.md](docs/CHARACTERS.md) — 등장인물 표기
-- [EMULATOR-BUGS.md](docs/EMULATOR-BUGS.md) — 에뮬레이터가 못 하는 일과 디스크 쪽 우회 패치
+- [EMULATOR-BUGS.md](docs/EMULATOR-BUGS.md) — 원본 디스크에서도 나는 에뮬레이터 쪽 증상
 
 ## 밝혀진 포맷 요약
 
