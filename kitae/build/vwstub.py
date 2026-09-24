@@ -2496,7 +2496,7 @@ def hook16(hook_va, stub_va, resume_va):
 
 
 def _resolve(body, labels, lits, stub_va):
-    """('bt'|'bf'|'bra', 라벨) · ('MOVA', 리터럴이름) · (라벨, 명령) 을 풀어 assemble 한다."""
+    """('bt'|'bf'|'bra'|'bsr', 라벨) · ('MOVA', 리터럴이름) · (라벨, 명령) 을 풀어 assemble 한다."""
     S = sh4
     L = {}
     prog = []
@@ -2517,12 +2517,12 @@ def _resolve(body, labels, lits, stub_va):
                 assert 0 <= d <= 255 and (lit_off + lits[ent[1]] - (i * 2 + 4)) % 2 == 0, d
                 final.append((0x9000 | d, None))
             else:
-                final.append(({"bt": S.bt, "bf": S.bf, "bra": S.bra}[kind](L[ent[1]] - (i + 2)), None))
+                final.append(({"bt": S.bt, "bf": S.bf, "bra": S.bra, "bsr": S.bsr}[kind](L[ent[1]] - (i + 2)), None))
         else:
             final.append(ent)
     code = S.assemble(final, stub_va)
     for a, t in S.disasm([w for w, _ in final], stub_va):
-        if t.startswith(("bf", "bt", "bra")):
+        if t.startswith(("bf ", "bt ", "bra ", "bsr ")):
             tgt = (int(t.split()[-1], 16) - stub_va) // 2
             if tgt not in L.values():
                 raise ValueError(f"스텁 분기 {a:#x} {t} 가 엉뚱한 곳으로 간다")

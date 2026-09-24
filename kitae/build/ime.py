@@ -3,7 +3,7 @@
 
 1단계(이 파일, 빌드 쪽): 글꼴에 완성형 + 자모 40자를 넣고, かな 격자 표(90칸)를 자모로
 바꾸고, 음절→셀 직접 표를 TRFNAMEIN `.rdata` 클래스명 슬롯 꼬리에 심는다.
-2단계(예정): PutChar(0x10001000) 훅 + 두벌식 오토마타 스텁.
+2단계(kitae/build/imestub.py): PutChar(0x10001000) 훅 + 두벌식 오토마타 SH4 스텁 — 아래 `Composer` 를 옮긴 것.
 
 옵션 `ime`(kitae.config.json). 켜면 코드페이지가 커지므로 조사 엔진과 같은 세이브 호환 주의.
 """
@@ -156,11 +156,16 @@ def compose(cho, jung, jong=0):
 
 
 class Composer:
-    """이름 바 커서 하나를 따라가는 조합 상태. `feed(자모)`·`delete()` 가 put 동작 목록을 낸다."""
+    """이름 바 커서 하나를 따라가는 조합 상태. `feed(자모)`·`delete()` 가 put 동작 목록을 낸다.
 
-    def __init__(self):
+    `baked(글자)` 가 False 인 음절(글꼴에 없음)은 받침으로 만들지 않고, 지금 칸을 확정한 뒤 그 자음을
+    새 초성으로 삼는다 — 「철」+ㅅ 은 「첧」이 완성형에 없으니 「철」 확정 후 「ㅅ」(→「철수」).
+    SH4 스텁(imestub)의 FAIL → C_COMMIT 과 같은 규칙."""
+
+    def __init__(self, baked=None):
         self.cursor = None                      # 상태가 붙어 있는 커서 칸 (None = 쉼)
         self.cho = self.jung = self.jong = None
+        self.baked = baked or (lambda ch: True)
 
     def _reset(self):
         self.cursor = None
@@ -191,11 +196,11 @@ class Composer:
                 commit(); self.cho = c
             elif self.jong is None:
                 jg = CHO2JONG[c]
-                if jg: self.jong = jg
+                if jg and self.baked(compose(self.cho, self.jung, jg)): self.jong = jg
                 else: commit(); self.cho = c
             else:
                 dj = DOUBLE_JONG.get((self.jong, c))
-                if dj: self.jong = dj
+                if dj and self.baked(compose(self.cho, self.jung, dj)): self.jong = dj
                 else: commit(); self.cho = c
             acts.append(("put", self._cur(), False))
             return acts
@@ -243,6 +248,13 @@ def _selftest():
     for k, want in cases.items():
         got = run(k)
         assert got == want, (k, got, want)
+    ks = {c for c in chars() if "가" <= c <= "힣"}
+    cp_ = Composer(baked=ks.__contains__); cur, cells = 0, {}
+    for k in "ㅊㅓㄹㅅㅜ":
+        for _kind, ch, adv in cp_.feed(cur, k):
+            cells[cur] = ch
+            if adv: cur += 1
+    assert "".join(cells[i] for i in sorted(cells)) == "철수", cells
     c = Composer(); c.feed(0, "ㄷ"); c.feed(0, "ㅏ"); c.feed(0, "ㄹ"); c.feed(0, "ㄱ")
     assert c.delete(0) == [("put", "달", False)] and c.delete(0) == [("put", "다", False)]
     assert c.delete(0) == [("put", "ㄷ", False)] and c.delete(0) == [("put", None, False)]
