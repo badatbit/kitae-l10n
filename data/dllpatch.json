@@ -1,305 +1,321 @@
 {
- "_": [
-  "DLL 코드/데이터 바이트 직접 패치 — 문자열이 아닌 상수(레이아웃 좌표 등).",
-  "offset 은 원본 DLL 파일 오프셋. from 이 실제 바이트와 같을 때만 적용.",
-  "적용 로직은 kitae/build/binpatch.py."
- ],
- "patches": [
-  {
-   "module": "/TRF/TRFGUIDEMAP.DLL",
-   "offset": 5730,
-   "from": "55",
-   "to": "34",
-   "why": "가이드북 지역선택 바 좌측 X: 170→104 (mov #85→#52 @0x1662, ×2). 흰막대+회색오버레이 좌측 공유."
-  },
-  {
-   "module": "/TRF/TRFGUIDEMAP.DLL",
-   "offset": 5850,
-   "from": "4b",
-   "to": "6c",
-   "why": "흰 선택막대 폭: 300→432 (mov #75→#108 @0x16da, ×4). 우측=104+432=536."
-  },
-  {
-   "module": "/TRF/TRFGUIDEMAP.DLL",
-   "offset": 6062,
-   "from": "57",
-   "to": "36",
-   "why": "텍스트 X: 174→108 (mov #87→#54 @0x17ae, ×2). 바 좌측(104)+여백4. 최장행 유바리가 바 중앙에."
-  },
-  {
-   "module": "/TRF/TRFGUIDEMAP.DLL",
-   "offset": 10102,
-   "from": "67",
-   "to": "72",
-   "why": "스폿 목록 흰 선택막대 폭: 412→456 (mov #103→#114 @0x2776, ×4). 18칸 스폿명 수용."
-  },
-  {
-   "module": "/TRF/TRFGUIDEMAP.DLL",
-   "offset": 6186,
-   "from": "d601",
-   "to": "1802",
-   "why": "지역선택 회색 배경 오버레이 우측 X (u16 리터럴 @0x182a→@(24,r14), 구조체로 콜리 전달): 470→536. 흰막대 우측(104+432)과 일치."
-  },
-  {
-   "module": "/TRF/TRFGUIDEMAP.DLL",
-   "offset": 10416,
-   "from": "0e02",
-   "to": "3a02",
-   "why": "스폿 목록 회색 배경 오버레이 우측 X (u16 리터럴 @0x28b0): 526→570. 흰막대 우측(114+456)과 일치."
-  },
-  {
-   "module": "/TRF/KITATITLE.DLL",
-   "offset": 5072,
-   "from": "50e1",
-   "to": "00e1",
-   "why": "타이틀 사운드룸 항목 게이트: 달성도 평균 임계값 80→0 (0x10001fd0 mov #80,r1 → mov #0,r1). 게이트는 0x6e0 마스크가 아니라 CTRFFruition(this+96) 값 10개 합/9 ≥ 80 (KITATITLE 0x10001fa8~0x10001fda)",
-   "option": "soundroom_unlock"
-  },
-  {
-   "module": "/TRF/TRFROLL.DLL",
-   "offset": 70484,
-   "from": "2001",
-   "to": "d800",
-   "why": "스탭롤 테이블(0x112a4, 행마다 {x, 문자열} 8B) row22 `야나기하라 미와` x: 288→216. 엔진은 x+16 에 그린다(0x100014ec vt[5]). 한글 384px 가 304 에서 시작하면 화면(640) 밖 — 232 에서 시작해 616 에서 끝난다. 네 줄 한 블록, 사용자 지정 위치."
-  },
-  {
-   "module": "/TRF/TRFROLL.DLL",
-   "offset": 70492,
-   "from": "2001",
-   "to": "d800",
-   "why": "스탭롤 테이블(0x112a4, 행마다 {x, 문자열} 8B) row23 `이즈미 쇼지` x: 288→216. 엔진은 x+16 에 그린다(0x100014ec vt[5]). 한글 408px 가 304 에서 시작하면 화면(640) 밖 — 232 에서 시작해 640 에서 끝난다. 네 줄 한 블록, 사용자 지정 위치."
-  },
-  {
-   "module": "/TRF/TRFROLL.DLL",
-   "offset": 70500,
-   "from": "2001",
-   "to": "d800",
-   "why": "스탭롤 테이블(0x112a4, 행마다 {x, 문자열} 8B) row24 `나가요시 유카` x: 288→216. 엔진은 x+16 에 그린다(0x100014ec vt[5]). 한글 384px 가 304 에서 시작하면 화면(640) 밖 — 232 에서 시작해 616 에서 끝난다. 네 줄 한 블록, 사용자 지정 위치."
-  },
-  {
-   "module": "/TRF/TRFROLL.DLL",
-   "offset": 70508,
-   "from": "2001",
-   "to": "d800",
-   "why": "스탭롤 테이블(0x112a4, 행마다 {x, 문자열} 8B) row25 `사에키 토모` x: 288→216. 엔진은 x+16 에 그린다(0x100014ec vt[5]). 한글 384px 가 304 에서 시작하면 화면(640) 밖 — 232 에서 시작해 616 에서 끝난다. 네 줄 한 블록, 사용자 지정 위치."
-  },
-  {
-   "module": "/TRF/TRFROLL.DLL",
-   "offset": 70636,
-   "from": "6801",
-   "to": "5001",
-   "why": "스탭롤 테이블 row41 `히로이 오지`(74280) x: 360→336 (사용자 지정: 왼쪽 1글자). 시작 352, 끝 484."
-  },
-  {
-   "module": "/TRF/TRFROLL.DLL",
-   "offset": 70764,
-   "from": "6801",
-   "to": "5001",
-   "why": "스탭롤 테이블 row57 `이에이리 타카후미(RED)`(74584) x: 360→336 (사용자 지정: 왼쪽 1글자). 시작 352, 끝 620."
-  },
-  {
-   "module": "/TRF/TRFROLL.DLL",
-   "offset": 70916,
-   "from": "3801",
-   "to": "c000",
-   "why": "스탭롤 테이블 row76 `나카지마 토모히코`(74920) x: 312→192 (사용자 지정: 왼쪽 5글자). 시작 208, 폭 432, 끝 640."
-  },
-  {
-   "module": "/TRF/TRFROLL.DLL",
-   "offset": 70820,
-   "from": "3801",
-   "to": "c000",
-   "why": "스탭롤 테이블 row64 `오사토 …`(74708) x: 312→192 (사용자 지정: 왼쪽 5글자). 시작 208."
-  },
-  {
-   "module": "/TRF/TRFROLL.DLL",
-   "offset": 70892,
-   "from": "3801",
-   "to": "c000",
-   "why": "스탭롤 테이블 row73 `마스타니 …`(74872) x: 312→192 (사용자 지정: 왼쪽 5글자). 시작 208."
-  },
-  {
-   "module": "/TRF/TRFROLL.DLL",
-   "offset": 70940,
-   "from": "3801",
-   "to": "c000",
-   "why": "스탭롤 테이블 row79 `타사카 …`(74964) x: 312→192 (사용자 지정: 왼쪽 5글자). 시작 208."
-  },
-  {
-   "module": "/TRF/TRFROLL.DLL",
-   "offset": 70948,
-   "from": "3801",
-   "to": "c000",
-   "why": "스탭롤 테이블 row80 `요네카와 …`(74988) x: 312→192 (사용자 지정: 왼쪽 5글자). 시작 208."
-  },
-  {
-   "module": "/TRF/TRFROLL.DLL",
-   "offset": 70956,
-   "from": "3801",
-   "to": "c000",
-   "why": "스탭롤 테이블 row81 `후세다 …`(75012) x: 312→192 (사용자 지정: 왼쪽 5글자). 시작 208."
-  },
-  {
-   "module": "/TRF/TRFROLL.DLL",
-   "offset": 71188,
-   "from": "3801",
-   "to": "2001",
-   "why": "스탭롤 테이블 row110 `세키 카즈요시(RED)`(75720) x: 312→288 (사용자 지정: 왼쪽 1글자). 시작 304."
-  },
-  {
-   "module": "/TRF/TRFROLL.DLL",
-   "offset": 72076,
-   "from": "3801",
-   "to": "2001",
-   "why": "스탭롤 테이블 row221 `치다 킨야`(78252) x: 312→288 (사용자 지정: 왼쪽 1글자). 시작 304."
-  },
-  {
-   "module": "/TRF/TRFROLL.DLL",
-   "offset": 71812,
-   "from": "6801",
-   "to": "5001",
-   "why": "스탭롤 테이블 row188 `작사 …`(77572) x: 360→336 (사용자 지정: 왼쪽 1글자). 시작 352."
-  },
-  {
-   "module": "/TRF/TRFROLL.DLL",
-   "offset": 71740,
-   "from": "6801",
-   "to": "5001",
-   "why": "스탭롤 테이블 row179 `작편곡 …`(77220) x: 360→336 (사용자 지정: 왼쪽 1글자). 시작 352."
-  },
-  {
-   "module": "/TRF/TRFROLL.DLL",
-   "offset": 71820,
-   "from": "6801",
-   "to": "5001",
-   "why": "스탭롤 테이블 row189 `작편곡 …`(77220) x: 360→336 (사용자 지정: 왼쪽 1글자). 시작 352."
-  },
-  {
-   "module": "/TRF/TRFROLL.DLL",
-   "offset": 71732,
-   "from": "6801",
-   "to": "5001",
-   "why": "스탭롤 테이블 row178 `작사 …`(77200) x: 360→336 (사용자 지정: 왼쪽 1글자). 시작 352."
-  },
-  {
-   "module": "/TRF/KITATITLE.DLL",
-   "offset": 5026,
-   "from": "0189",
-   "to": "0900",
-   "why": "타이틀 미니게임 항목 게이트: 세이브 해제 마스크(0x700, & 0x7F00) 검사 뒤 `bt 0x10001fa8`(0x10001fa2) → nop. 마스크가 0 이어도 항목을 켠다(mov.b #1,@r10).",
-   "option": "minigame_unlock"
-  },
-  {
-   "module": "/TRF/TRFVMSVIEW.DLL",
-   "offset": 8454,
-   "from": "17b1",
-   "to": "0900",
-   "why": "저장 슬롯 머리글 순서: 앞머리 장소 호출/strlen/r9 전진 무력화 (@0x10002d06)",
-   "option": "save_header_reorder"
-  },
-  {
-   "module": "/TRF/TRFVMSVIEW.DLL",
-   "offset": 8460,
-   "from": "0b40",
-   "to": "0900",
-   "why": "저장 슬롯 머리글 순서: 앞머리 장소 호출/strlen/r9 전진 무력화 (@0x10002d0c)",
-   "option": "save_header_reorder"
-  },
-  {
-   "module": "/TRF/TRFVMSVIEW.DLL",
-   "offset": 8476,
-   "from": "0c39",
-   "to": "0900",
-   "why": "저장 슬롯 머리글 순서: 앞머리 장소 호출/strlen/r9 전진 무력화 (@0x10002d1c)",
-   "option": "save_header_reorder"
-  },
-  {
-   "module": "/TRF/TRFVMSVIEW.DLL",
-   "offset": 8550,
-   "from": "17d4406220290179418409e2",
-   "to": "14e00c6018406a7003000900",
-   "why": "저장 슬롯 머리글: 月 뒤 어절 공백 훅 (@0x10002d66 → 스텁 0x100041dc)",
-   "option": "save_header_reorder"
-  },
-  {
-   "module": "/TRF/TRFVMSVIEW.DLL",
-   "offset": 8738,
-   "from": "69d50c3966d00ae110290179",
-   "to": "13e00c6018406a7003000900",
-   "why": "저장 슬롯 머리글: 시간대 뒤에 장소 붙이는 훅 (@0x10002e22 → 스텁 0x10004198)",
-   "option": "save_header_reorder"
-  },
-  {
-   "module": "/TRF/TRFVMSVIEW.DLL",
-   "offset": 13720,
-   "from": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
-   "to": "224f00b084552a0b0dd1bc31136c906008200189fbaf0179e5e00029a4e0918002791362f4720b4293661e790ae110290179c3617c711260264f0b0012550900a6edffff9ee0908095e09180e5e0928040e0037909e20b0009000900",
-   "why": "저장 슬롯 머리글 스텁 C(68B @0x10004198) + D(24B @0x100041dc) — .text 꼬리 케이브",
-   "option": "save_header_reorder"
-  },
-  {
-   "module": "/TRF/TRFVMSVIEW.DLL",
-   "offset": 440,
-   "from": "98310000",
-   "to": "f4310000",
-   "why": ".text VirtualSize 0x3198→0x31f4 (케이브 스텁 포함)",
-   "option": "save_header_reorder"
-  },
-  {
-   "module": "/TRF/TRFOPTIONGAME.DLL",
-   "offset": 12706,
-   "from": "4ed00b4083644cd0c3650b408364",
-   "to": "11e00c6018404270030009000900",
-   "why": "순위 표 이름: 성·이름 사이 어절 공백 훅 (@0x10003da2 → 스텁 0x10004ef0)",
-   "option": "rank_name_space"
-  },
-  {
-   "module": "/TRF/TRFOPTIONGAME.DLL",
-   "offset": 12946,
-   "from": "12d00b40836410d0c3650b408364",
-   "to": "10e00c6018405270030009000900",
-   "why": "순위 표 이름: 성·이름 사이 어절 공백 훅 (@0x10003e92 → 스텁 0x10004ef0)",
-   "option": "rank_name_space"
-  },
-  {
-   "module": "/TRF/TRFOPTIONGAME.DLL",
-   "offset": 13216,
-   "from": "3cd00b4083643bd0c3650b408364",
-   "to": "0fe00c6018404470030009000900",
-   "why": "순위 표 이름: 성·이름 사이 어절 공백 훅 (@0x10003fa0 → 스텁 0x10004ef0)",
-   "option": "rank_name_space"
-  },
-  {
-   "module": "/TRF/TRFOPTIONGAME.DLL",
-   "offset": 13410,
-   "from": "0cd00b4083640ad0c3650b408364",
-   "to": "0fe00c6018408270030009000900",
-   "why": "순위 표 이름: 성·이름 사이 어절 공백 훅 (@0x10004062 → 스텁 0x10004ef0)",
-   "option": "rank_name_space"
-  },
-  {
-   "module": "/TRF/TRFOPTIONGAME.DLL",
-   "offset": 13624,
-   "from": "2cd00b4083642bd0c3650b408364",
-   "to": "0ee00c601840ac70030009000900",
-   "why": "순위 표 이름: 성·이름 사이 어절 공백 훅 (@0x10004138 → 스텁 0x10004ef0)",
-   "option": "rank_name_space"
-  },
-  {
-   "module": "/TRF/TRFOPTIONGAME.DLL",
-   "offset": 17136,
-   "from": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
-   "to": "224f5284036150601920062fdebe8364f6600820038906c70365d7be8364c365d4be8364264f09000b00090009000900e5400000",
-   "why": "순위 표 이름 스텁 52B @0x10004ef0 — 성→공백→이름 strcat, .text 꼬리 케이브",
-   "option": "rank_name_space"
-  },
-  {
-   "module": "/TRF/TRFOPTIONGAME.DLL",
-   "offset": 440,
-   "from": "ee3e0000",
-   "to": "243f0000",
-   "why": ".text VirtualSize 0x3eee→0x3f24 (케이브 스텁 포함)",
-   "option": "rank_name_space"
-  }
- ]
+  "_": [
+    "DLL 코드/데이터 바이트 직접 패치 — 문자열이 아닌 상수(레이아웃 좌표 등).",
+    "offset 은 원본 DLL 파일 오프셋. from 이 실제 바이트와 같을 때만 적용.",
+    "적용 로직은 kitae/build/binpatch.py."
+  ],
+  "patches": [
+    {
+      "module": "/TRF/TRFGUIDEMAP.DLL",
+      "offset": 5730,
+      "from": "55",
+      "to": "34",
+      "why": "가이드북 지역선택 바 좌측 X: 170→104 (mov #85→#52 @0x1662, ×2). 흰막대+회색오버레이 좌측 공유."
+    },
+    {
+      "module": "/TRF/TRFGUIDEMAP.DLL",
+      "offset": 5850,
+      "from": "4b",
+      "to": "6c",
+      "why": "흰 선택막대 폭: 300→432 (mov #75→#108 @0x16da, ×4). 우측=104+432=536."
+    },
+    {
+      "module": "/TRF/TRFGUIDEMAP.DLL",
+      "offset": 6062,
+      "from": "57",
+      "to": "36",
+      "why": "텍스트 X: 174→108 (mov #87→#54 @0x17ae, ×2). 바 좌측(104)+여백4. 최장행 유바리가 바 중앙에."
+    },
+    {
+      "module": "/TRF/TRFGUIDEMAP.DLL",
+      "offset": 10102,
+      "from": "67",
+      "to": "72",
+      "why": "스폿 목록 흰 선택막대 폭: 412→456 (mov #103→#114 @0x2776, ×4). 18칸 스폿명 수용."
+    },
+    {
+      "module": "/TRF/TRFGUIDEMAP.DLL",
+      "offset": 6186,
+      "from": "d601",
+      "to": "1802",
+      "why": "지역선택 회색 배경 오버레이 우측 X (u16 리터럴 @0x182a→@(24,r14), 구조체로 콜리 전달): 470→536. 흰막대 우측(104+432)과 일치."
+    },
+    {
+      "module": "/TRF/TRFGUIDEMAP.DLL",
+      "offset": 10416,
+      "from": "0e02",
+      "to": "3a02",
+      "why": "스폿 목록 회색 배경 오버레이 우측 X (u16 리터럴 @0x28b0): 526→570. 흰막대 우측(114+456)과 일치."
+    },
+    {
+      "module": "/TRF/KITATITLE.DLL",
+      "offset": 5072,
+      "from": "50e1",
+      "to": "00e1",
+      "why": "타이틀 사운드룸 항목 게이트: 달성도 평균 임계값 80→0 (0x10001fd0 mov #80,r1 → mov #0,r1). 게이트는 0x6e0 마스크가 아니라 CTRFFruition(this+96) 값 10개 합/9 ≥ 80 (KITATITLE 0x10001fa8~0x10001fda)",
+      "option": "soundroom_unlock"
+    },
+    {
+      "module": "/TRF/TRFROLL.DLL",
+      "offset": 70484,
+      "from": "2001",
+      "to": "d800",
+      "why": "스탭롤 테이블(0x112a4, 행마다 {x, 문자열} 8B) row22 `야나기하라 미와` x: 288→216. 엔진은 x+16 에 그린다(0x100014ec vt[5]). 한글 384px 가 304 에서 시작하면 화면(640) 밖 — 232 에서 시작해 616 에서 끝난다. 네 줄 한 블록, 사용자 지정 위치."
+    },
+    {
+      "module": "/TRF/TRFROLL.DLL",
+      "offset": 70492,
+      "from": "2001",
+      "to": "d800",
+      "why": "스탭롤 테이블(0x112a4, 행마다 {x, 문자열} 8B) row23 `이즈미 쇼지` x: 288→216. 엔진은 x+16 에 그린다(0x100014ec vt[5]). 한글 408px 가 304 에서 시작하면 화면(640) 밖 — 232 에서 시작해 640 에서 끝난다. 네 줄 한 블록, 사용자 지정 위치."
+    },
+    {
+      "module": "/TRF/TRFROLL.DLL",
+      "offset": 70500,
+      "from": "2001",
+      "to": "d800",
+      "why": "스탭롤 테이블(0x112a4, 행마다 {x, 문자열} 8B) row24 `나가요시 유카` x: 288→216. 엔진은 x+16 에 그린다(0x100014ec vt[5]). 한글 384px 가 304 에서 시작하면 화면(640) 밖 — 232 에서 시작해 616 에서 끝난다. 네 줄 한 블록, 사용자 지정 위치."
+    },
+    {
+      "module": "/TRF/TRFROLL.DLL",
+      "offset": 70508,
+      "from": "2001",
+      "to": "d800",
+      "why": "스탭롤 테이블(0x112a4, 행마다 {x, 문자열} 8B) row25 `사에키 토모` x: 288→216. 엔진은 x+16 에 그린다(0x100014ec vt[5]). 한글 384px 가 304 에서 시작하면 화면(640) 밖 — 232 에서 시작해 616 에서 끝난다. 네 줄 한 블록, 사용자 지정 위치."
+    },
+    {
+      "module": "/TRF/TRFROLL.DLL",
+      "offset": 70636,
+      "from": "6801",
+      "to": "5001",
+      "why": "스탭롤 테이블 row41 `히로이 오지`(74280) x: 360→336 (사용자 지정: 왼쪽 1글자). 시작 352, 끝 484."
+    },
+    {
+      "module": "/TRF/TRFROLL.DLL",
+      "offset": 70764,
+      "from": "6801",
+      "to": "5001",
+      "why": "스탭롤 테이블 row57 `이에이리 타카후미(RED)`(74584) x: 360→336 (사용자 지정: 왼쪽 1글자). 시작 352, 끝 620."
+    },
+    {
+      "module": "/TRF/TRFROLL.DLL",
+      "offset": 70916,
+      "from": "3801",
+      "to": "c000",
+      "why": "스탭롤 테이블 row76 `나카지마 토모히코`(74920) x: 312→192 (사용자 지정: 왼쪽 5글자). 시작 208, 폭 432, 끝 640."
+    },
+    {
+      "module": "/TRF/TRFROLL.DLL",
+      "offset": 70820,
+      "from": "3801",
+      "to": "c000",
+      "why": "스탭롤 테이블 row64 `오사토 …`(74708) x: 312→192 (사용자 지정: 왼쪽 5글자). 시작 208."
+    },
+    {
+      "module": "/TRF/TRFROLL.DLL",
+      "offset": 70892,
+      "from": "3801",
+      "to": "c000",
+      "why": "스탭롤 테이블 row73 `마스타니 …`(74872) x: 312→192 (사용자 지정: 왼쪽 5글자). 시작 208."
+    },
+    {
+      "module": "/TRF/TRFROLL.DLL",
+      "offset": 70940,
+      "from": "3801",
+      "to": "c000",
+      "why": "스탭롤 테이블 row79 `타사카 …`(74964) x: 312→192 (사용자 지정: 왼쪽 5글자). 시작 208."
+    },
+    {
+      "module": "/TRF/TRFROLL.DLL",
+      "offset": 70948,
+      "from": "3801",
+      "to": "c000",
+      "why": "스탭롤 테이블 row80 `요네카와 …`(74988) x: 312→192 (사용자 지정: 왼쪽 5글자). 시작 208."
+    },
+    {
+      "module": "/TRF/TRFROLL.DLL",
+      "offset": 70956,
+      "from": "3801",
+      "to": "c000",
+      "why": "스탭롤 테이블 row81 `후세다 …`(75012) x: 312→192 (사용자 지정: 왼쪽 5글자). 시작 208."
+    },
+    {
+      "module": "/TRF/TRFROLL.DLL",
+      "offset": 71188,
+      "from": "3801",
+      "to": "2001",
+      "why": "스탭롤 테이블 row110 `세키 카즈요시(RED)`(75720) x: 312→288 (사용자 지정: 왼쪽 1글자). 시작 304."
+    },
+    {
+      "module": "/TRF/TRFROLL.DLL",
+      "offset": 72076,
+      "from": "3801",
+      "to": "2001",
+      "why": "스탭롤 테이블 row221 `치다 킨야`(78252) x: 312→288 (사용자 지정: 왼쪽 1글자). 시작 304."
+    },
+    {
+      "module": "/TRF/TRFROLL.DLL",
+      "offset": 71812,
+      "from": "6801",
+      "to": "5001",
+      "why": "스탭롤 테이블 row188 `작사 …`(77572) x: 360→336 (사용자 지정: 왼쪽 1글자). 시작 352."
+    },
+    {
+      "module": "/TRF/TRFROLL.DLL",
+      "offset": 71740,
+      "from": "6801",
+      "to": "5001",
+      "why": "스탭롤 테이블 row179 `작편곡 …`(77220) x: 360→336 (사용자 지정: 왼쪽 1글자). 시작 352."
+    },
+    {
+      "module": "/TRF/TRFROLL.DLL",
+      "offset": 71820,
+      "from": "6801",
+      "to": "5001",
+      "why": "스탭롤 테이블 row189 `작편곡 …`(77220) x: 360→336 (사용자 지정: 왼쪽 1글자). 시작 352."
+    },
+    {
+      "module": "/TRF/TRFROLL.DLL",
+      "offset": 71732,
+      "from": "6801",
+      "to": "5001",
+      "why": "스탭롤 테이블 row178 `작사 …`(77200) x: 360→336 (사용자 지정: 왼쪽 1글자). 시작 352."
+    },
+    {
+      "module": "/TRF/KITATITLE.DLL",
+      "offset": 5026,
+      "from": "0189",
+      "to": "0900",
+      "why": "타이틀 미니게임 항목 게이트: 세이브 해제 마스크(0x700, & 0x7F00) 검사 뒤 `bt 0x10001fa8`(0x10001fa2) → nop. 마스크가 0 이어도 항목을 켠다(mov.b #1,@r10).",
+      "option": "minigame_unlock"
+    },
+    {
+      "module": "/TRF/TRFOPTIONGAME.DLL",
+      "offset": 3082,
+      "from": "2689",
+      "to": "0900",
+      "why": "노래방 곡 「わたしまけましたわ」 게이트: 세이브 해제 마스크(0x700) 의 비트 0x8000 검사 뒤 `bt 0x1000185a`(0x1000180a) → nop. 마스크가 0 이어도 게임 변수 「まけましたわ」 를 1 로 세워, TRFKARAOKE 가 4번째 줄을 가린 표(0x10022124) 대신 전곡 표(0x100220e4) 를 쓰게 한다.",
+      "option": "minigame_unlock"
+    },
+    {
+      "module": "/TRF/TRFOPTIONGAME.DLL",
+      "offset": 10040,
+      "from": "0989",
+      "to": "0900",
+      "why": "노래방 곡 「わたしまけましたわ」 게이트(미니게임 진입 경로): 해제 마스크 비트 0x8000 검사 뒤 `bt 0x1000334e`(0x10003338) → nop. 3082 쪽과 같은 변수를 세우지만 미니게임 목록에서 노래방을 고를 때 지나가는 건 이쪽이다.",
+      "option": "minigame_unlock"
+    },
+    {
+      "module": "/TRF/TRFVMSVIEW.DLL",
+      "offset": 8454,
+      "from": "17b1",
+      "to": "0900",
+      "why": "저장 슬롯 머리글 순서: 앞머리 장소 호출/strlen/r9 전진 무력화 (@0x10002d06)",
+      "option": "save_header_reorder"
+    },
+    {
+      "module": "/TRF/TRFVMSVIEW.DLL",
+      "offset": 8460,
+      "from": "0b40",
+      "to": "0900",
+      "why": "저장 슬롯 머리글 순서: 앞머리 장소 호출/strlen/r9 전진 무력화 (@0x10002d0c)",
+      "option": "save_header_reorder"
+    },
+    {
+      "module": "/TRF/TRFVMSVIEW.DLL",
+      "offset": 8476,
+      "from": "0c39",
+      "to": "0900",
+      "why": "저장 슬롯 머리글 순서: 앞머리 장소 호출/strlen/r9 전진 무력화 (@0x10002d1c)",
+      "option": "save_header_reorder"
+    },
+    {
+      "module": "/TRF/TRFVMSVIEW.DLL",
+      "offset": 8550,
+      "from": "17d4406220290179418409e2",
+      "to": "14e00c6018406a7003000900",
+      "why": "저장 슬롯 머리글: 月 뒤 어절 공백 훅 (@0x10002d66 → 스텁 0x100041dc)",
+      "option": "save_header_reorder"
+    },
+    {
+      "module": "/TRF/TRFVMSVIEW.DLL",
+      "offset": 8738,
+      "from": "69d50c3966d00ae110290179",
+      "to": "13e00c6018406a7003000900",
+      "why": "저장 슬롯 머리글: 시간대 뒤에 장소 붙이는 훅 (@0x10002e22 → 스텁 0x10004198)",
+      "option": "save_header_reorder"
+    },
+    {
+      "module": "/TRF/TRFVMSVIEW.DLL",
+      "offset": 13720,
+      "from": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "to": "224f00b084552a0b0dd1bc31136c906008200189fbaf0179e5e00029a4e0918002791362f4720b4293661e790ae110290179c3617c711260264f0b0012550900a6edffff9ee0908095e09180e5e0928040e0037909e20b0009000900",
+      "why": "저장 슬롯 머리글 스텁 C(68B @0x10004198) + D(24B @0x100041dc) — .text 꼬리 케이브",
+      "option": "save_header_reorder"
+    },
+    {
+      "module": "/TRF/TRFVMSVIEW.DLL",
+      "offset": 440,
+      "from": "98310000",
+      "to": "f4310000",
+      "why": ".text VirtualSize 0x3198→0x31f4 (케이브 스텁 포함)",
+      "option": "save_header_reorder"
+    },
+    {
+      "module": "/TRF/TRFOPTIONGAME.DLL",
+      "offset": 12706,
+      "from": "4ed00b4083644cd0c3650b408364",
+      "to": "11e00c6018404270030009000900",
+      "why": "순위 표 이름: 성·이름 사이 어절 공백 훅 (@0x10003da2 → 스텁 0x10004ef0)",
+      "option": "rank_name_space"
+    },
+    {
+      "module": "/TRF/TRFOPTIONGAME.DLL",
+      "offset": 12946,
+      "from": "12d00b40836410d0c3650b408364",
+      "to": "10e00c6018405270030009000900",
+      "why": "순위 표 이름: 성·이름 사이 어절 공백 훅 (@0x10003e92 → 스텁 0x10004ef0)",
+      "option": "rank_name_space"
+    },
+    {
+      "module": "/TRF/TRFOPTIONGAME.DLL",
+      "offset": 13216,
+      "from": "3cd00b4083643bd0c3650b408364",
+      "to": "0fe00c6018404470030009000900",
+      "why": "순위 표 이름: 성·이름 사이 어절 공백 훅 (@0x10003fa0 → 스텁 0x10004ef0)",
+      "option": "rank_name_space"
+    },
+    {
+      "module": "/TRF/TRFOPTIONGAME.DLL",
+      "offset": 13410,
+      "from": "0cd00b4083640ad0c3650b408364",
+      "to": "0fe00c6018408270030009000900",
+      "why": "순위 표 이름: 성·이름 사이 어절 공백 훅 (@0x10004062 → 스텁 0x10004ef0)",
+      "option": "rank_name_space"
+    },
+    {
+      "module": "/TRF/TRFOPTIONGAME.DLL",
+      "offset": 13624,
+      "from": "2cd00b4083642bd0c3650b408364",
+      "to": "0ee00c601840ac70030009000900",
+      "why": "순위 표 이름: 성·이름 사이 어절 공백 훅 (@0x10004138 → 스텁 0x10004ef0)",
+      "option": "rank_name_space"
+    },
+    {
+      "module": "/TRF/TRFOPTIONGAME.DLL",
+      "offset": 17136,
+      "from": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "to": "224f5284036150601920062fdebe8364f6600820038906c70365d7be8364c365d4be8364264f09000b00090009000900e5400000",
+      "why": "순위 표 이름 스텁 52B @0x10004ef0 — 성→공백→이름 strcat, .text 꼬리 케이브",
+      "option": "rank_name_space"
+    },
+    {
+      "module": "/TRF/TRFOPTIONGAME.DLL",
+      "offset": 440,
+      "from": "ee3e0000",
+      "to": "243f0000",
+      "why": ".text VirtualSize 0x3eee→0x3f24 (케이브 스텁 포함)",
+      "option": "rank_name_space"
+    }
+  ]
 }

@@ -93,7 +93,9 @@ def fix_spacing(text):
     """`. , ! ? :` 뒤에 공백을 넣고 줄 끝 공백을 지운다."""
     pts = _insert_points(text)
     out = "".join(text[i] + (" " if i + 1 in pts else "") for i in range(len(text)))
-    return "\n".join(l.rstrip(SPACES) for l in out.split("\n"))
+    # 온통 공백뿐인 줄은 일부러 비워 둔 줄(칸 가리개)이라 건드리지 않는다.
+    return "\n".join(l if not l.strip(SPACES) else l.rstrip(SPACES)
+                     for l in out.split("\n"))
 
 
 def space_violations(text):
@@ -104,6 +106,8 @@ def space_violations(text):
         ln = text.count("\n", 0, pos)
         bad.append((ln, f"`{text[pos - 1]}` 뒤 공백 없음"))
     for ln, l in enumerate(lines):
+        if not l.strip(SPACES):
+            continue        # 온통 공백뿐인 줄 — 원문이 칸을 가려 둔 자리
         if l != l.rstrip(SPACES):
             bad.append((ln, "줄 끝 공백"))
         if "  " in l:

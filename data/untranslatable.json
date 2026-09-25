@@ -1,6 +1,6 @@
 {
  "note": "조회 키라서 번역하지 않은 문자열. docs/UI-TEXT.md 참고",
- "count": 163,
+ "count": 164,
  "entries": [
   {
    "module": "COMMONSAVE",
@@ -221,6 +221,11 @@
    "module": "TRFKARAOKE",
    "offset": "0x0207a0",
    "ja": "鮎に勝てる"
+  },
+  {
+   "module": "TRFKARAOKE",
+   "offset": "0x0207ac",
+   "ja": "まけましたわ"
   },
   {
    "module": "TRFKARAOKE",
