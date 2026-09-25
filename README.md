@@ -96,9 +96,18 @@ python -m kitae build KOTORI_01  # 스크립트 하나만
 
 ## 배포용 패치
 
+네 단계를 **순서대로** 돌립니다.
+
 ```
-python tools/make_release.py -v v0.9     # dist/*.dcp · *.xdelta · 읽어주세요.txt
+python tools/make_release.py -v v0.90        # dist/*.dcp · *.xdelta · 읽어주세요.txt
+python tools/gen_release_notes.py --text     # dist/릴리즈 노트.txt  (설치 프로그램 안내 페이지)
+python tools/make_installer.py -v v0.90      # dist/installer.nsi → makensis → *.exe
+python tools/gen_release_notes.py            # dist/release/RELEASE-NOTES.md (세 에셋 sha256)
 ```
+
+평문 노트가 설치 프로그램 **앞**, 마크다운 노트가 **뒤**인 이유는 순환 때문입니다 — 설치
+프로그램은 노트를 안에 담고, 노트는 그 설치 프로그램의 sha256 을 적습니다. 그래서 평문판에는
+해시 표가 없고 릴리즈 페이지 주소만 둡니다.
 
 두 벌을 냅니다.
 
@@ -124,9 +133,14 @@ SOZ 처럼 디스크에 넣는 단계에서 한 번 더 손대는 것이 있어,
 ### 윈도 설치 프로그램 (NSIS)
 
 ```
-python tools/make_installer.py -v v0.9   # dist/installer.nsi
+python tools/make_installer.py -v v0.90  # dist/installer.nsi
 makensis dist/installer.nsi              # NSIS 3(유니코드) 필요
 ```
+
+환영 화면 다음에 **릴리즈 노트를 안내 페이지로 보여 줍니다**(MUI 라이선스 페이지를 동의 체크
+없이 읽기 전용으로 쓴 것). 같은 글을 결과 폴더에도 `릴리즈 노트.txt` 로 떨궈, xdelta 로 끝나든
+`.dcp` 로 넘어가든 남습니다. NSIS 유니코드판은 BOM 이 있어야 UTF-8 로 읽으므로 그 파일만
+`utf-8-sig` 로 씁니다.
 
 원본 `track03.bin` 의 sha256 을 `certutil`(윈도 기본 도구)로 재서
 

@@ -60,6 +60,14 @@ GDI(track03.bin) 와 CUE/BIN(… (Track 3).bin) 둘 다 됩니다 — 데이터 
 원본은 그대로 두고 패치본을 새 폴더에 만듭니다. 약 1.2GB 의 빈 공간이 필요합니다."
 !insertmacro MUI_PAGE_WELCOME
 
+; ── 릴리즈 노트 (MUI 의 라이선스 페이지를 읽기 전용 안내문으로 쓴다 — 동의 체크는 없앤다)
+!define MUI_PAGE_HEADER_TEXT "이 패치에 대하여"
+!define MUI_PAGE_HEADER_SUBTEXT "무엇이 들어 있고 무엇이 아직 안 되는지"
+!define MUI_LICENSEPAGE_TEXT_TOP " "
+!define MUI_LICENSEPAGE_TEXT_BOTTOM "계속하려면 [다음] 을 누르세요."
+!define MUI_LICENSEPAGE_BUTTON "다음(&N)"
+!insertmacro MUI_PAGE_LICENSE "{notes_path}"
+
 ; ── 원본 폴더
 !define MUI_PAGE_HEADER_TEXT "원본 디스크 이미지"
 !define MUI_PAGE_HEADER_SUBTEXT "트랙 파일들이 들어 있는 폴더"
@@ -185,6 +193,7 @@ Section "패치"
   File "{xdelta_path}"
   File "{dcp_path}"
   File "{readme_path}"
+  File "{notes_path}"
 
   Call FindDataTrack
   DetailPrint "데이터 트랙: $DataTrack"
@@ -207,6 +216,7 @@ Section "패치"
     ${{EndIf}}
     DetailPrint "나머지 파일 복사 중…"
     Call CopyRest
+    CopyFiles /SILENT "$PLUGINSDIR\{notes_name}" "$DestDir\{notes_name}"
     DetailPrint "완료."
     MessageBox MB_ICONINFORMATION "패치가 끝났습니다.$\r$\n$\r$\n$DestDir$\r$\n$\r$\n이 폴더의 .gdi 또는 .cue 를 에뮬레이터로 여세요."
     ExecShell "open" "$DestDir"
@@ -217,6 +227,7 @@ Section "패치"
   DetailPrint "원본이 우리 덤프본과 다릅니다 — 범용 패처용 파일을 꺼냅니다."
   CopyFiles /SILENT "$PLUGINSDIR\${{DCP}}" "$DestDir\${{DCP}}"
   CopyFiles /SILENT "$PLUGINSDIR\읽어주세요.txt" "$DestDir\읽어주세요.txt"
+  CopyFiles /SILENT "$PLUGINSDIR\{notes_name}" "$DestDir\{notes_name}"
   MessageBox MB_ICONEXCLAMATION "원본 데이터 트랙이 우리가 쓴 덤프본과 다릅니다.$\r$\n\
 xdelta 차분은 바이트까지 같아야 하므로 쓸 수 없습니다.$\r$\n$\r$\n\
 대신 $DestDir 에 패치 파일(.dcp)을 꺼내 두었습니다.$\r$\n\
@@ -249,8 +260,12 @@ def main():
 
     need = {"xdelta": os.path.join(out_dir, tag + ".xdelta"),
             "dcp": os.path.join(out_dir, tag + ".dcp"),
-            "readme": os.path.join(out_dir, "읽어주세요.txt")}
+            "readme": os.path.join(out_dir, "읽어주세요.txt"),
+            "notes": os.path.join(out_dir, "릴리즈 노트.txt")}
     missing = [k for k, p in need.items() if not os.path.exists(p)]
+    if "notes" in missing:
+        sys.exit("먼저 `python tools/gen_release_notes.py --text` 를 돌리세요 "
+                 "— 릴리즈 노트 평문판이 설치 프로그램 안내 페이지로 들어갑니다")
     if missing:
         sys.exit(f"먼저 `python tools/make_release.py -v {a.version}` 를 돌리세요 — 없는 것: {missing}")
 
@@ -264,14 +279,16 @@ def main():
         xdelta_name=os.path.basename(need["xdelta"]),
         dcp_name=os.path.basename(need["dcp"]),
         xdelta_exe=xd_exe, xdelta_path=need["xdelta"],
-        dcp_path=need["dcp"], readme_path=need["readme"])
+        dcp_path=need["dcp"], readme_path=need["readme"],
+        notes_path=need["notes"], notes_name=os.path.basename(need["notes"]))
     nsi_path = os.path.join(out_dir, "installer.nsi")
     with open(nsi_path, "w", encoding="utf-8-sig", newline="\r\n") as fh:
         fh.write(nsi)
 
     print(f"  {nsi_path}")
     print(f"  원본 sha256 {sha256(orig)}")
-    print(f"  담을 것: {os.path.basename(need['xdelta'])} · {os.path.basename(need['dcp'])} · 읽어주세요.txt")
+    print(f"  담을 것: {os.path.basename(need['xdelta'])} · {os.path.basename(need['dcp'])}"
+          f" · 읽어주세요.txt · {os.path.basename(need['notes'])}(안내 페이지 겸용)")
     print(f"  xdelta3.exe: {'있음 ' + xd_exe if have_exe else '★없음 — ' + xd_exe + ' 에 넣어야 컴파일됩니다'}")
     print(f"\n  컴파일:  makensis \"{nsi_path}\"")
     return 0 if have_exe else 1
