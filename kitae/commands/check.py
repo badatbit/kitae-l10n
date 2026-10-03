@@ -215,15 +215,13 @@ def run(args):
     ok &= _row(cfg.exists, CONFIG_NAME,
                "" if cfg.exists else "kitae init 을 먼저 실행하세요")
 
-    for mod, why in (("PIL", "이미지 변환"), ("capstone", "역어셈블(선택)")):
+    for mod, why in (("PIL", "이미지 변환"), ("numpy", "텍스처 패킹"),
+                     ("capstone", "역어셈블 — 빌드가 스텁 기계어를 되읽어 검증")):
         try:
             importlib.import_module(mod)
             _row(True, mod, why)
         except ImportError:
-            if mod == "capstone":
-                _row(True, mod, f"{why} — 없음, 선택 사항")
-            else:
-                ok &= _row(False, mod, f"{why} — pip install pillow")
+            ok &= _row(False, mod, f"{why} — uv sync (또는 pip install -r requirements.txt)")
 
     d = cfg.dir("orig_dir")
     has_dir = bool(cfg["orig_dir"]) and os.path.isdir(d)

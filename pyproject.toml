@@ -7,11 +7,9 @@ name = "kitae"
 version = "0.1.0"
 description = "北へ。White Illumination 다국어화 파이프라인 (unpack/extract/build/font 도구 모음)"
 requires-python = ">=3.9"
-# Pillow: 글리프·이미지 변환 / capstone: SH-4 역어셈블(포맷 조사용, 선택)
-dependencies = ["Pillow"]
-
-[project.optional-dependencies]
-re = ["capstone"]
+# Pillow: 글리프·이미지 변환 / numpy: SOZ 텍스처 패킹·이미지 배열 /
+# capstone: SH-4 역어셈블 — 빌드가 스텁 기계어를 되읽어 검증한다(kitae/build/sh4.py::assemble)
+dependencies = ["Pillow", "numpy", "capstone"]
 
 [project.scripts]
 kitae = "kitae.cli:main"
