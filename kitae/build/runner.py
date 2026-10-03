@@ -628,6 +628,9 @@ def _inject_container_images(cfg, compose, prebuilt):
         qnote = "원화질" if kused is None else f"{kused}색 감축"
         print(f"이미지: {cont} {done} ({qnote}) → RESOURCE/{cont}.CB "
               f"({os.path.getsize(outp):,} / 슬롯 {cap:,})")
+    st = getattr(compose, "stats", None)      # SOZ 라벨 렌더까지 누적된 수
+    if st and (st["new"] or st["cached"]):
+        print(f"  렌더: 새로 {st['new']} · 입력 그대로라 캐시 {st['cached']}")
     return image_cbs
 
 
@@ -642,8 +645,9 @@ def build_images(cfg, rerender=False, lang=None):
     없으면 그 파일은 원본 그대로 둔다(= 이미지 단독 패치). 씬 제목(INIS)은
     캐시 파일이 없어 재계산한다(빠르다).
 
-    rerender=True 면 images/injected/ 캐시를 비워 jaguk 렌더부터 다시 한다
-    (raiki build image --inject 에 대응).
+    injected/ 캐시는 입력 지문(soz.load_composer)으로 스스로 유효성을 가리므로
+    원장·이미지가 바뀐 멤버는 자동으로 다시 굽는다. rerender=True 면 캐시를
+    통째로 비워 전부 다시 한다 (raiki build image --inject 에 대응).
     """
     from kitae.build import smf as smf_mod, disc as disc_mod
     from kitae.build import hangul, uipatch, soz as soz_mod

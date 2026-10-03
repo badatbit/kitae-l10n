@@ -18,9 +18,9 @@ def configure(p):
     p.add_argument("--no-font", action="store_true", help="폰트 주입 생략")
     p.add_argument("--dry-run", action="store_true", help="디스크는 건드리지 않는다")
     p.add_argument("--inject", action="store_true",
-                   help="image: 패키징 전에 jaguk 렌더를 다시 돌린다 "
-                        "(injected 캐시 비움 — 기본은 캐시/즉석 생성. "
-                        "렌더만 따로는 `kitae inject image`)")
+                   help="image: injected 캐시를 비우고 전부 다시 렌더한다. "
+                        "기본은 입력(원장·이미지·글꼴·typelet)이 바뀐 멤버만 "
+                        "알아서 다시 굽는다. 렌더만 따로는 `kitae inject image`")
     p.add_argument("-v", "--verbose", action="store_true",
                    help="자세한 로그 — 대본별 번역 수, 타이밍 창별 변경, "
                         "UI 재배치 상세 (기본은 과정·파일 단위 요약)")

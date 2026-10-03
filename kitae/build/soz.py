@@ -18,6 +18,7 @@ pic#0(베이스 맵 위 라벨=철도명 등)은 항상 래스터로 처리한�
 청크는 원본 바이트 그대로 둔다(encode_dds_mc). 그래도 원본 슬롯을 넘으면
 `relocate.py` 가 아니라 `disc` 재배치로 슬롯을 넓힌다(soz_relayout 참조).
 """
+import dataclasses
 import hashlib
 import json
 import os
@@ -44,8 +45,10 @@ def load_composer(jaguk_json, use_cache=True, typelet_root=None):
     (erased 베이스 + 한글, 모드 반영). 게임 주입은 이 이미지만 소비한다.
 
     렌더는 멤버당 ~1s 로 느리므로, 결과를 typelet 산출 위치(images/injected/)에
-    write-through 캐시한다. use_cache 면 이미 있는 PNG 를 로드(빠름) — 재개 가능.
-    번역이 바뀌면 injected/ 를 지우고 다시 굽는다(또는 use_cache=False).
+    write-through 캐시한다. 캐시 PNG 옆에 입력 지문(<파일>.fp)을 같이 두고,
+    지문이 지금 입력(행·스타일·erased/원본 이미지·글꼴·typelet 코드)과 같을 때만
+    쓴다 — 원장이나 이미지가 바뀐 멤버는 build image 가 알아서 다시 굽는다.
+    use_cache=False 면 지문과 무관하게 전부 다시 굽는다.
 
     typelet_root: type-lettering 코드 패키지 경로. 설치본이면 None(=cfg.typelet_root
     가 None 을 준다). 절대경로를 코드에 박지 않고 호출측(cfg)에서 넘긴다.
@@ -84,6 +87,42 @@ def load_composer(jaguk_json, use_cache=True, typelet_root=None):
     inj_root = project.output_root
     base_root = project.base_root       # = images/erased (일본어만 지운 베이스)
 
+    # 렌더에 들어가는 입력의 지문 — 이 중 하나라도 바뀌면 캐시를 버린다.
+    #   · 행 스펙(resolve 결과: 번역·상자·스타일 사슬이 녹아 있다)
+    #   · erased 베이스(공유 판 포함)·원본 이미지의 내용
+    #   · 글꼴 파일, typelet 코드(렌더 방식이 바뀌면 전부 다시)
+    env_h = hashlib.sha256(b"injected-fp-v1")
+    for py in sorted(Path(R.__file__).parent.glob("*.py")):
+        st = py.stat()
+        env_h.update(f"{py.name}:{st.st_size}:{st.st_mtime_ns}|".encode())
+    for key, fname in sorted((project.fonts or {}).items()):
+        fp = project.font_root / fname
+        if fp.exists():
+            st = fp.stat()
+            env_h.update(f"{key}={fname}:{st.st_size}:{st.st_mtime_ns}|".encode())
+    env_digest = env_h.digest()
+
+    def _file_digest(path):
+        try:
+            return hashlib.sha256(path.read_bytes()).digest()
+        except OSError:
+            return b"-"
+
+    def fingerprint(relative, specs):
+        h = hashlib.sha256(env_digest)
+        h.update(json.dumps([dataclasses.asdict(sp) for sp in specs],
+                            sort_keys=True, default=str, ensure_ascii=False).encode())
+        src = safe_path(base_root, relative)
+        if not src.exists():                      # same_pattern 묶음의 공유 판
+            shared = ledgermod.shared_erased_base(data, relative)
+            if shared:
+                src = safe_path(base_root, shared)
+        h.update(_file_digest(src))
+        h.update(_file_digest(safe_path(project.original_root, relative)))
+        return h.hexdigest()
+
+    stats = {"new": 0, "cached": 0}
+
     def compose(relative):
         specs = by_file.get(relative)
         if not specs:
@@ -98,17 +137,23 @@ def load_composer(jaguk_json, use_cache=True, typelet_root=None):
                     return Image.open(bp).convert('RGBA')
             return None
         p = safe_path(inj_root, relative)
-        if use_cache and p.exists():
+        fp_path = p.with_name(p.name + ".fp")
+        fp = fingerprint(relative, specs)
+        if use_cache and p.exists() and fp_path.exists()                 and fp_path.read_text(encoding="ascii", errors="replace").strip() == fp:
+            stats["cached"] += 1
             return Image.open(p).convert('RGBA')
         img, _src, _b = R.compose_file(project, relative, specs, data=data)
         img = img.convert('RGBA')
+        stats["new"] += 1
         try:
             p.parent.mkdir(parents=True, exist_ok=True)
             img.save(p)
+            fp_path.write_text(fp, encoding="ascii")
         except Exception:      # noqa: BLE001 (캐시 저장 실패는 치명적이지 않다)
             pass
         return img
 
+    compose.stats = stats
     return compose
 
 
