@@ -100,8 +100,6 @@
    "fill_rgb": "#0d1cff",
    "outline_weight_px": 2,
    "outline_rgb": "#0d1cff",
-   "matte_rgb": "#FFFFFF",
-   "matte_th": 128,
    "effect": "drop_shadow(dx=1,dy=1,blur=0,color=#0d1cff)",
    "base": "narr-over"
   },
@@ -12007,5 +12005,6 @@
     }
    }
   }
- ]
+ ],
+ "post": []
 }
