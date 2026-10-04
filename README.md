@@ -99,9 +99,9 @@ python -m kitae build KOTORI_01  # 스크립트 하나만
 네 단계를 **순서대로** 돌립니다.
 
 ```
-python tools/make_release.py -v v0.90        # dist/*.dcp · *.xdelta · 읽어주세요.txt
+python tools/make_release.py -v v0.91        # dist/*.dcp · *.xdelta · 읽어주세요.txt
 python tools/gen_release_notes.py --text     # dist/릴리즈 노트.txt  (설치 프로그램 안내 페이지)
-python tools/make_installer.py -v v0.90      # dist/installer.nsi → makensis → *.exe
+python tools/make_installer.py -v v0.91      # dist/installer.nsi → makensis → *.exe
 python tools/gen_release_notes.py            # dist/release/RELEASE-NOTES.md (세 에셋 sha256)
 ```
 
@@ -133,7 +133,7 @@ SOZ 처럼 디스크에 넣는 단계에서 한 번 더 손대는 것이 있어,
 ### 윈도 설치 프로그램 (NSIS)
 
 ```
-python tools/make_installer.py -v v0.90  # dist/installer.nsi
+python tools/make_installer.py -v v0.91  # dist/installer.nsi
 makensis dist/installer.nsi              # NSIS 3(유니코드) 필요
 ```
 

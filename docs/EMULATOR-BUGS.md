@@ -16,31 +16,42 @@ MMU 를 흉내 내려면 메모리 접근마다 주소 변환이 붙어 비용�
 
 ## 해결
 
-없음.
+둘 다 Flycast 쪽 버그였고, 수정을 [badatbit/flycast](https://github.com/badatbit/flycast) 포크에
+넣어 [Flycast KitaHe 1](https://github.com/badatbit/flycast/releases/tag/kitahe-1) 로 배포했다(2026-10-04).
+분석은 [flyinghead/flycast#1058](https://github.com/flyinghead/flycast/issues/1058) 에 올렸다.
+공식 Flycast 에는 아직 들어가지 않았다.
+
+### 오프닝 동영상이 20초 멈춤 — SH4 사이클 계산
+
+**증상.** 오프닝(`RESOURCE/MOVIE/KITAHE.AVI`) 6초쯤에서 그림이 멈추고 음악만 나오다가 26초쯤 돌아온다.
+
+**원인.** Flycast 의 사이클 모델(`Sh4Cycles::countCycles`)이 MMU 를 켠 게임의 메모리 접근에 5사이클
+(평소 2)을 매겨 WinCE 코드가 1.7배 느려진다. 동영상 디코더(DXLVFW.DLL)가 프레임당 8.33ms 를 넘기면
+QUARTZ 의 AVI 디컴프레서가 "따라잡을 수 없다"고 보고 다음 키프레임까지 프레임을 버리는데, 이 영상은
+5.2~26.2초 사이에 키프레임이 없다. 수정 커밋
+[`699483f`](https://github.com/badatbit/flycast/commit/699483fae49f59d37bf44c14530a1c762318ee83).
+
+### 가라오케에서 BIOS 로 리셋됨 — FPSCR cause 필드
+
+**증상.** 곡을 고르거나 부르는 중에 **랜덤하게** 드림캐스트 BIOS 화면으로 돌아간다. 원본 디스크에서도 난다.
+
+**원인.** 에뮬레이터가 죽는 것이 아니라 게임의 예외 처리기가 재부팅한다. KITAMAIN.EXE 의 `WinMain` 은
+`__try { 게임 } __except { ResetToFirmware(); }` 구조다. 예외는 TRFDRAW.DLL 의 4×4 행렬 LU 분해
+(`ludcmp`, +0xc064)에서 나는 접근 위반이다. 피벗 비교 보조함수가 `fcmp/gt` 뒤 FPSCR 의 cause.V 를
+"NaN 비교" 신호로 읽는데, Flycast 는 FPU 명령에서 cause 필드를 지우지 않아 한 번 켜진 V 가 계속 남는다.
+그러면 모든 비교가 거짓이 되어 피벗이 안 골라지고, 초기화되지 않은 피벗 번호가 엉뚱한 주소를
+가리킨다. 그 번호가 스택에 남은 우연한 값이라 리셋이 랜덤해 보인다. 수정 커밋
+[`c148add`](https://github.com/badatbit/flycast/commit/c148add68329ce1bfe7401edcf9364719c254296).
+
+### 참고 — SH4 오버클럭과 사운드 멈춤
+
+위 수정판에서 `Sh4Clock` 을 300 으로 올리면 프롤로그 「あっ！もうこんな時間！」 뒤 암전에서 음성이
+반복되며 멈춘다. 수정 전 Flycast 도 500 이면 똑같이 멈춘다 — SH4 가 사운드 CPU(ARM7)보다 지나치게
+빨라질 때 DSOUND 와 사운드 드라이버 사이가 어긋나는 문제다. **SH4 클럭은 기본값(200)으로 둔다.**
 
 ## 미해결
 
-### 가라오케에서 곡을 고를 때 리셋됨 — 분석 중단
-
-**증상.** 곡을 선택할 때 **랜덤하게** 리셋된다. 늘 나는 것이 아니라 같은 자리에서도
-될 때가 있다.
-
-**상태 — 분석을 멈추고 남겨 둔다.** 패치의 영향을 먼저 의심해 분석했지만,
-**원본 디스크에서도 같은 증상이 나왔다.** 패치 쪽 영향이 겹쳐 있을 가능성은 남지만
-에뮬레이터 버그와 갈라낼 방법이 없어 여기서 멈춘다.
-
-폰트 가설은 원본 재현이 지운다 — 원본에는 우리가 넣은 한글 글리프가 아예 없다.
-그 화면에서 바꿨던 `TRFKARAOKE.DLL` 조작 설명 두 줄도 되돌려 **원본 그대로** 나가고,
-가사(`歌詞.SMF`·`歌詞.EB`)는 애초에 손댄 적이 없다(디스크 대조 확인).
-
-다시 들여다본다면 갈라낼 거리는 이 정도다.
-
-- **랜덤**이라는 점. 곡·순서·반복 횟수와 상관이 있는지 먼저 잰다. 상관이 없으면
-  타이밍·스트리밍(`SONG.CB` 56MB) 쪽이다.
-- Flycast `Dynarec.Enabled` 가 켜져 있는지. 인터프리터로 돌리면 타이밍 특성이 달라지므로
-  꺼 둔 채로 본 증상은 그대로 믿을 수 없다. 조사하느라 끄고 그대로 두기 쉽다.
-- 되살릴 오프셋은 [`tools/legacy-src/minigames.py.txt`](../tools/legacy-src/minigames.py.txt) 의
-  `TRFKARAOKE` 블록에 주석으로 남겨 두었다.
+없음.
 
 ---
 
@@ -56,4 +67,5 @@ MMU 를 흉내 내려면 메모리 접근마다 주소 변환이 붙어 비용�
 | BIOS | 실기 `dc_boot.bin` (HLE 아님) |
 | Flycast `aica.DSPEnabled` | `yes` |
 | Flycast `Dynarec.Enabled` | `yes` (기본) |
+| Flycast `Sh4Clock` | `200` (기본 — 올리면 사운드가 멈출 수 있음) |
 | redream `frameskip` | 끔 |

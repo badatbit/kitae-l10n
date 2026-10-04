@@ -26,7 +26,7 @@ sys.stdout.reconfigure(encoding="utf-8")
 
 from kitae.config import Config          # noqa: E402
 
-VER = "v0.90"
+VER = "v0.91"
 BASE = "kitae_white_illumination_ko"
 
 BODY = """## 북으로. White Illumination 한국어 패치 {ver}
@@ -69,6 +69,10 @@ sha256 {src_sha}
 
 ---
 
+### v0.91 에서 바뀐 것
+
+- 일부 이미지의 알파값을 고쳤습니다 (예: 오프닝 텍스트).
+
 ### 이 판에 들어간 것
 
 | 영역 | 분량 |
@@ -96,15 +100,21 @@ sha256 {src_sha}
 
 ### 알려진 문제
 
-- **가라오케에서 곡을 고를 때 무작위로 리셋됩니다.** 패치하지 않은 원본 디스크에서도 같은 증상이
-  나와 패치 탓인지 에뮬레이터 탓인지 가르지 못했습니다. 이 게임은 SH4 MMU 를 쓰는 Windows CE
-  타이틀이라 에뮬레이터 지원이 덜 여문 편입니다. 자세한 내용은 저장소의 `docs/EMULATOR-BUGS.md`.
+- **Flycast 에서 가라오케 곡을 고르거나 부를 때 BIOS 로 리셋됩니다.** 패치와 무관한 Flycast 의 FPU
+  에뮬레이션 버그였습니다(원본 디스크에서도 납니다). 수정판
+  [Flycast KitaHe 1](https://github.com/badatbit/flycast/releases/tag/kitahe-1) 에서는 나지 않습니다.
+- **Flycast 에서 오프닝 동영상이 20초쯤 멈춥니다(음악은 계속).** 이것도 Flycast 의 SH4 사이클 계산
+  버그였고, 같은 수정판에서 고쳤습니다.
+- 위 두 문제의 원인 분석은 [flyinghead/flycast#1058](https://github.com/flyinghead/flycast/issues/1058)
+  과 저장소의 `docs/EMULATOR-BUGS.md` 에 있습니다. 공식 Flycast 에는 아직 반영되지 않았습니다.
 - **다음 판으로 올리면 세이브에 저장된 이름이 깨질 수 있습니다.** 글꼴 칸 배정이 바뀌면 옛 세이브가
   그 이름을 다른 글자로 읽습니다. 진행도와 플래그는 멀쩡합니다.
 
 ### 확인한 환경
 
 Flycast 2.6 에서 만들고 확인했습니다. redream 에서도 돌아갑니다.
+위 두 문제 없이 즐기려면 [Flycast KitaHe 1](https://github.com/badatbit/flycast/releases/tag/kitahe-1)
+을 권합니다. SH4 클럭은 기본값(200%)으로 두세요 — 오버클럭하면 사운드가 멈추며 진행이 막힐 수 있습니다.
 
 ### 문의와 새 판
 
