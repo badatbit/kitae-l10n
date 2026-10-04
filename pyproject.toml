@@ -11,6 +11,10 @@ requires-python = ">=3.9"
 # capstone: SH-4 역어셈블 — 빌드가 스텁 기계어를 되읽어 검증한다(kitae/build/sh4.py::assemble)
 dependencies = ["Pillow", "numpy", "capstone"]
 
+[project.optional-dependencies]
+# 배포 파일 만들기(tools/make_release.py 의 .xdelta)
+release = ["pyxdelta"]
+
 [project.scripts]
 kitae = "kitae.cli:main"
 
