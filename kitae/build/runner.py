@@ -208,6 +208,9 @@ def _build(cfg, scripts, lang, want_font=True, verbose=False):
         if cfg.get("ime"):                     # 한글 입력기: 완성형 + 자모 (kitae.build.ime)
             from kitae.build import ime
             chars |= ime.chars()
+        if cfg.get("cbs_toggle", True):        # 시스템 설정 C.B.S 행 글자 (kitae.build.cbsopt)
+            from kitae.build import cbsopt
+            chars |= cbsopt.chars()
         if chars:
             print(f"폰트: {len(chars)}자 주입 → TRF/TRFSTRINGS.DLL")
             font_dll = hangul.inject(cfg, chars, verbose=verbose)
@@ -421,6 +424,18 @@ def _build(cfg, scripts, lang, want_font=True, verbose=False):
         ui[nkey], hnote = imestub.apply(
             ui[nkey], hangul._read_codepage(cfg.path("data", "codepage.json")))
         print(f"  {hnote}")
+    # C.B.S(커뮤니케이션 브레이크 시스템) 게임 안 토글 — 시스템 설정 5번째 행(TRFSYSCONFIG, .kcbs
+    # 섹션으로 파일 1024B 증가) + 게이트 옵코드 0x6E/0x6F 스텁(KITAHEGEL). 값은 메시지 테두리 워드 비트 24 라
+    # 세이브·로드는 그대로 따라온다. 기본은 원작대로(수동). 근거: kitae/build/cbsopt.py
+    if cfg.get("cbs_toggle", True):
+        from kitae.build import cbsopt
+        skey, gkey = "/TRF/TRFSYSCONFIG.DLL", "/TRF/KITAHEGEL.DLL"
+        sbase = ui.get(skey) or open(uipatch.original(cfg, skey), "rb").read()
+        gbase = ui.get(gkey) or open(uipatch.original(cfg, gkey), "rb").read()
+        ui[skey], snote = cbsopt.apply_sysconfig(sbase, hangul.encoder(cfg))
+        ui[gkey], gnote = cbsopt.apply_gel(gbase)
+        print(f"  {snote}")
+        print(f"  {gnote}")
     # 주인공 성/이름 사이 전각공백 — &主人公名前& 이 「성이름」으로 붙는 것.
     # UI 패치된 KITAE 위에 조립부 스텁을 얹는다(파일 크기 불변, 제자리 교체).
     # config 의 name_separator 가 켜져 있을 때만 적용 (기본 off).

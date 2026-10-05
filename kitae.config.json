@@ -87,6 +87,7 @@
     "typelet": "F:/dev-furaiki3/type-lettering"
   },
   "cbs_bypass": false,
+  "cbs_toggle": true,
   "josa": true,
   "ime": true,
   "font_variable": true,
