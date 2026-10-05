@@ -29,7 +29,7 @@ MMU 를 흉내 내려면 메모리 접근마다 주소 변환이 붙어 비용�
 (평소 2)을 매겨 WinCE 코드가 1.7배 느려진다. 동영상 디코더(DXLVFW.DLL)가 프레임당 8.33ms 를 넘기면
 QUARTZ 의 AVI 디컴프레서가 "따라잡을 수 없다"고 보고 다음 키프레임까지 프레임을 버리는데, 이 영상은
 5.2~26.2초 사이에 키프레임이 없다. 수정 커밋
-[`699483f`](https://github.com/badatbit/flycast/commit/699483fae49f59d37bf44c14530a1c762318ee83).
+[`6d37f10`](https://github.com/badatbit/flycast/commit/6d37f109ad789fb52c618bb8927fdc39f01f3f83).
 
 ### 가라오케에서 BIOS 로 리셋됨 — FPSCR cause 필드
 
@@ -41,7 +41,7 @@ QUARTZ 의 AVI 디컴프레서가 "따라잡을 수 없다"고 보고 다음 키
 "NaN 비교" 신호로 읽는데, Flycast 는 FPU 명령에서 cause 필드를 지우지 않아 한 번 켜진 V 가 계속 남는다.
 그러면 모든 비교가 거짓이 되어 피벗이 안 골라지고, 초기화되지 않은 피벗 번호가 엉뚱한 주소를
 가리킨다. 그 번호가 스택에 남은 우연한 값이라 리셋이 랜덤해 보인다. 수정 커밋
-[`c148add`](https://github.com/badatbit/flycast/commit/c148add68329ce1bfe7401edcf9364719c254296).
+[`ee522ce`](https://github.com/badatbit/flycast/commit/ee522ce2194737b7da01c329721d83a00187efd1).
 
 ### 참고 — SH4 오버클럭과 사운드 멈춤
 
