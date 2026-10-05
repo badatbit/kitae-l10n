@@ -114,7 +114,7 @@ sha256 {src_sha}
 
 Flycast 2.6 에서 만들고 확인했습니다. redream 에서도 돌아갑니다.
 위 두 문제 없이 즐기려면 [Flycast KitaHe 1](https://github.com/badatbit/flycast/releases/tag/kitahe-1)
-을 권합니다. SH4 클럭은 기본값(200%)으로 두세요 — 오버클럭하면 사운드가 멈추며 진행이 막힐 수 있습니다.
+을 권합니다. SH4 클럭은 기본값(200MHz)으로 두세요 — 오버클럭하면 사운드가 멈추며 진행이 막힐 수 있습니다.
 
 ### 문의와 새 판
 
