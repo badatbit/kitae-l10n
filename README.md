@@ -56,12 +56,13 @@
 
 | 옵션 | 하는 일 | 구현 |
 |---|---|---|
+| `cbs_toggle` | **C.B.S 수동/자동 (게임 안 시스템 설정).** 기본 켜짐. 시스템 설정에 5번째 항목을 더해 플레이어가 게임 안에서 C.B.S 를 고릅니다. 게임 안 기본값은 원작대로 수동이라 배포판에도 들어갑니다. | `kitae/build/cbsopt.py` |
 | `cbs_bypass` | **C.B.S(커뮤니케이션 브레이크 시스템) 우회.** 원작은 상대방이 대화할 때 적절한 타이밍에 끼어들어 대화하는 시스템입니다. 이 옵션을 켜면 개입 없이도 대화창이 뜹니다. | `kitae/build/ebgate.py` |
 | `minigame_unlock` | **미니게임 목록 띄우기.** 미니게임은 특정 조건을 클리어해야 타이틀 메뉴에 등록됩니다. 이 패치를 켜면 모든 미니 게임이 타이틀에 뜨고, 노래방의 숨은 곡 「わたしまけましたわ」 도 곡 목록에 나옵니다. | `data/dllpatch.json` |
 | `soundroom_unlock` | **사운드 룸 띄우기.** 특정 조건을 만족하면 타이틀에 사운드 룸이 뜹니다. 이 패치를 켜면 조건에 관계없이 게임 내의 다양한 음악을 들을 수 있습니다. | `data/dllpatch.json` |
 | `debug_boot` | **디버그 화면 띄우기.** 부팅 직후 디버깅 화면으로 넘어갑니다. 원하는 장면으로 바로 넘어가서 게임을 진행할 수 있습니다. | `kitae/build/debugboot.py`, [SCRIPT-SYSTEM.md](docs/SCRIPT-SYSTEM.md) |
 
-저장소 기본값은 넷 다 꺼져 있습니다. 켜려면 원하는 것만 `true` 로 바꾸고 다시 빌드하세요.
+저장소 기본값은 `cbs_toggle` 만 켜져 있고 나머지 넷은 꺼져 있습니다. 켜려면 원하는 것만 `true` 로 바꾸고 다시 빌드하세요.
 
 ```
 python -m kitae config set cbs_bypass true
@@ -99,9 +100,9 @@ python -m kitae build KOTORI_01  # 스크립트 하나만
 네 단계를 **순서대로** 돌립니다.
 
 ```
-python tools/make_release.py -v v0.91        # dist/*.dcp · *.xdelta · 읽어주세요.txt
+python tools/make_release.py -v v0.92        # dist/*.dcp · *.xdelta · 읽어주세요.txt
 python tools/gen_release_notes.py --text     # dist/릴리즈 노트.txt  (설치 프로그램 안내 페이지)
-python tools/make_installer.py -v v0.91      # dist/installer.nsi → makensis → *.exe
+python tools/make_installer.py -v v0.92      # dist/installer.nsi → makensis → *.exe
 python tools/gen_release_notes.py            # dist/release/RELEASE-NOTES.md (세 에셋 sha256)
 ```
 
@@ -133,7 +134,7 @@ SOZ 처럼 디스크에 넣는 단계에서 한 번 더 손대는 것이 있어,
 ### 윈도 설치 프로그램 (NSIS)
 
 ```
-python tools/make_installer.py -v v0.91  # dist/installer.nsi
+python tools/make_installer.py -v v0.92  # dist/installer.nsi
 makensis dist/installer.nsi              # NSIS 3(유니코드) 필요
 ```
 

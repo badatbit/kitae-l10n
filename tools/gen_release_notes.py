@@ -26,7 +26,7 @@ sys.stdout.reconfigure(encoding="utf-8")
 
 from kitae.config import Config          # noqa: E402
 
-VER = "v0.91"
+VER = "v0.92"
 BASE = "kitae_white_illumination_ko"
 
 BODY = """## 북으로. White Illumination 한국어 패치 {ver}
@@ -69,9 +69,12 @@ sha256 {src_sha}
 
 ---
 
-### v0.91 에서 바뀐 것
+### v0.92 에서 바뀐 것
 
-- 일부 이미지의 알파값을 고쳤습니다 (예: 오프닝 텍스트).
+- 시스템 설정에 **C.B.S (커뮤니케이션 브레이크 시스템) 수동／자동** 항목을 넣었습니다.
+  자동으로 두면 대화에 끼어들 시간 제한 없이 선택지가 뜹니다. 기본은 원작대로 수동입니다.
+  값은 다른 시스템 설정과 함께 세이브에 저장되므로, 이 판 이전에 만든 세이브를 불러오면 수동으로
+  돌아옵니다 — 불러온 뒤 시스템 설정에서 다시 고르세요.
 
 ### 이 판에 들어간 것
 
